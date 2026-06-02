@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000051588",
+  "slug": "r-051588",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:16:02Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サンマルクカフェ+R 恵比寿駅前店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "パン屋",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-８ ライオンズマンション小川恵比寿１F",
+  "postal_code": "1500021",
+  "tel": "03-5456-9925",
+  "hours": {
+    "sun": {
+      "open": "07:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "07:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "07:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "07:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "07:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "07:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "07:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "07:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.647259739736,
+    "lng": 139.70858573914006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000051588/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36171208.jpg"
+  ],
+  "retty_rating": 3.0,
+  "retty_review_count": 20,
+  "nearest_station": "n恵比寿駅から徒歩2分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

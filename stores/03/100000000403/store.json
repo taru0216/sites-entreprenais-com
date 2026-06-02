@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000000403",
+  "slug": "maruichi-000403",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:23:06Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "MARUICHI 本店",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "ビストロ",
+    "刺身",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-４-１０ ウエスト・１ １F",
+  "postal_code": "1500021",
+  "tel": "03-3476-3133",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64871176760651,
+    "lng": 139.70777061474996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000403/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35413349.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 16,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/MARUICHI-%25E3%2583%259E%25E3%2583%25AB%25E3%2582%25A4%25E3%2583%2581%25E6%259C%25AC%25E5%25BA%2597-211839815524191/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001665737",
+  "slug": "soda-bar-ebisu-665737",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:00:01Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "SODA BAR EBISU",
+  "category": "ジュースバー",
+  "categories": [
+    "ジュースバー",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-１サン栄ビル １F",
+  "postal_code": "1500013",
+  "tel": "03-6416-5563",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "20:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "20:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "20:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "20:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "20:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64801345510076,
+    "lng": 139.71010587055224
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001665737/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34932587.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://sodabar.jp/",
+    "instagram": "https://www.instagram.com/sodabar_jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

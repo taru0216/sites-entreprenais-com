@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000056083",
+  "slug": "medeldeli-056083",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:55:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "medeldeli",
+  "category": "ジュースバー",
+  "categories": [
+    "ジュースバー",
+    "野菜料理",
+    "フルーツパーラー",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１７-１ プルミエール恵比寿 １F-A",
+  "postal_code": "1500021",
+  "tel": "03-6427-8580",
+  "hours": {
+    "mon": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64833046563629,
+    "lng": 139.7072688494734
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000056083/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/25246779.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 100,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://rinkrink.jp/",
+    "facebook": "https://www.facebook.com/maru5ebisu/",
+    "instagram": "https://www.instagram.com/marugodeliebisu/",
+    "x": "https://x.com/maru5ebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

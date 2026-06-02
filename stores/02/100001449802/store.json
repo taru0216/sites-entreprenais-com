@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001449802",
+  "slug": "store-449802",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:04:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "イル バロンドーロ",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "テイクアウト",
+    "デリバリー・宅配"
+  ],
+  "address": "東京都渋谷区恵比寿１-２４-１０",
+  "postal_code": "1500013",
+  "tel": "03-5422-8977",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6466517,
+    "lng": 139.71546390000003
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001449802/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38632378.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 13,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/285321425600648/photos/%E3%82%A4%E3%83%AB%E3%83%90%E3%83%AD%E3%83%B3%E3%83%89%E3%83%BC%E3%83%AD%E6%97%A5%E6%9B%9C%E3%82%82%E5%85%83%E6%B0%97%E3%81%AB%E5%96%B6%E6%A5%AD%E3%81%97%E3%81%A6%E3%81%BE%E3%83%BC%E3%81%99%D9%A9-%CF%89-%D9%88-%E6%9C%AC%E6%97%A5%E3%81%8B%E3%82%89%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%92%E5%A2%97%E3%82%84%E3%81%97%E3%81%A6%E7%9A%86%E3%81%95%E3%82%93%E3%81%AE%E3%81%8A%E8%B6%8A%E3%81%97%E3%82%92%E3%81%8A%E5%BE%85%E3%81%A1%E3%81%97%E3%81%A6%E3%81%B"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

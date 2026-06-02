@@ -1,0 +1,54 @@
+{
+  "retty_id": "100000114612",
+  "slug": "bar-secret-114612",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:03:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BAR SECRET",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿西２-８-８ B１F",
+  "postal_code": "1500021",
+  "tel": "03-3462-9966",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6492178,
+    "lng": 139.70764789999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114612/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/28556709.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

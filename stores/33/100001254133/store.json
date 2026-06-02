@@ -1,0 +1,85 @@
+{
+  "retty_id": "100001254133",
+  "slug": "tbe-brewing-254133",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:00:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "TBE BREWING",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ビアバー・ビアホール",
+    "ダイニングバー",
+    "洋食"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-２ 新堀ギタービル２F",
+  "postal_code": "1500022",
+  "tel": "03-6303-1195",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "13:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6458156,
+    "lng": 139.70724270000005
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001254133/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/23005661.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 43,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://tbe-brewing.com",
+    "facebook": "https://www.facebook.com/TBEBrewing01/",
+    "x": "https://x.com/TBEbrewing1"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

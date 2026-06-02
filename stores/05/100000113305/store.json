@@ -1,0 +1,55 @@
+{
+  "retty_id": "100000113305",
+  "slug": "3f-113305",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:55:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "とんかつ新宿さぼてん　アトレ恵比寿3F",
+  "category": "とんかつ",
+  "categories": [
+    "とんかつ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿 ３F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8332",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6465738,
+    "lng": 139.71031440000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113305/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26929783.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://shinjuku-saboten.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "retty_id": "100000305453",
+  "slug": "store-305453",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:56:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鉄板焼 恵比寿 ウェスティンホテル東京",
+  "category": "ステーキ",
+  "categories": [
+    "ステーキ",
+    "鉄板焼き",
+    "ハンバーグ"
+  ],
+  "address": "東京都目黒区三田１-４-１ ウェスティンホテル東京２２F",
+  "postal_code": "1530062",
+  "tel": "03-5423-7790",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 8000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜8000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.64158451741465,
+    "lng": 139.71541803527612
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000305453/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000305453/archive/2191364-5fffaea1a9fe6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/2191364-5fffaea1a9fe6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/1848665-5f59e940b4784.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/2191360-5fffae595cad9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/2191365-5fffaed33dedf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/1848666-5f59e96c74f9f.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/1848663-5f59e8ffaf682.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/1848664-5f59e92c1b234.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/2146937-5fd3049a56e1d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/2191362-5fffae778cca9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/2146950-5fd30652955fa.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/2146951-5fd306b05bbe8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000305453/archive/2146952-5fd306b214c65.png"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 71,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.yebisutokyo.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

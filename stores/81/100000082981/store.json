@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000082981",
+  "slug": "store-082981",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:11:16Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "白金 酉玉 別館",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "その他",
+    "テイクアウト",
+    "丼もの",
+    "親子丼"
+  ],
+  "address": "東京都渋谷区恵比寿２-２８-７ 秀マンション １F",
+  "postal_code": "1500013",
+  "tel": "03-3447-5520",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 8000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜8000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6450215,
+    "lng": 139.7212634
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000082981/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38796000.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 71,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://valuet.co.jp/brands/toritama-kagurazaka"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

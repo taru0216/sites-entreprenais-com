@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000011855",
+  "slug": "soaltee-mode-011855",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:57:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Soaltee Mode",
+  "category": "ネパール料理",
+  "categories": [
+    "ネパール料理",
+    "テイクアウト",
+    "ダイニングバー",
+    "インドカレー"
+  ],
+  "address": "東京都渋谷区恵比寿西２-８-９ 代官山宝ビル５F",
+  "postal_code": "1500021",
+  "tel": "03-3462-4331",
+  "hours": {
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.649240987537,
+    "lng": 139.70759868621997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000011855/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34814458.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 76,
+  "nearest_station": "恵比寿駅からの徒歩5分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/pages/%E3%82%BD%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC%E3%83%A2%E3%83%BC%E3%83%89/155221231169979"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

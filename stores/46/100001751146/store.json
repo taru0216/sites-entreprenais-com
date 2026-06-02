@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001751146",
+  "slug": "store-751146",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:05:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "よつ葉ミルクプレイス",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-３恵比寿ガーデンプレイス タワー B１",
+  "postal_code": "1500013",
+  "tel": "03-5422-7272",
+  "hours": {
+    "mon": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64219980728619,
+    "lng": 139.71342442944777
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001751146/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38041073.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 11,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

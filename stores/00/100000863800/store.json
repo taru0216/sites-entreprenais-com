@@ -1,0 +1,79 @@
+{
+  "retty_id": "100000863800",
+  "slug": "store-863800",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:48:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "空と麦と",
+  "category": "パン屋",
+  "categories": [
+    "パン屋",
+    "カフェ",
+    "テイクアウト",
+    "お土産"
+  ],
+  "address": "東京都渋谷区恵比寿西２－１０－７ YKビル １F",
+  "postal_code": "1500021",
+  "tel": "03-6427-0158",
+  "hours": {
+    "wed": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "19:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64898267765486,
+    "lng": 139.70647213630855
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000863800/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36966432.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 68,
+  "nearest_station": "n恵比寿駅から徒歩5分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.soratomugito.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

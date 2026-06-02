@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000865251",
+  "slug": "store-865251",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:04:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "日本橋榮太樓 恵比寿アトレ店",
+  "category": "和菓子",
+  "categories": [
+    "和菓子",
+    "スイーツ",
+    "和スイーツ",
+    "お土産"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿 ３F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8353",
+  "hours": {
+    "sun": {
+      "open": "10:00",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "10:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64618805274048,
+    "lng": 139.71041713832597
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000865251/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/30670065.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 14,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.eitaro.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "retty_id": "100001738618",
+  "slug": "picica-picica-pizza-pasta-738618",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:24:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "PICICA PICICA PIZZA & PASTA",
+  "category": "ピザ",
+  "categories": [
+    "ピザ",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿１-１８-１４ 恵比寿ファーストスクエア １F",
+  "postal_code": "1500013",
+  "tel": "080-3517-1086",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64752539348961,
+    "lng": 139.7149469619539
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001738618/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37668908.jpg"
+  ],
+  "retty_rating": 4.75,
+  "retty_review_count": 14,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

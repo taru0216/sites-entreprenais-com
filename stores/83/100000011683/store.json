@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000011683",
+  "slug": "store-011683",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ラ ターブル ドゥ ジョエル・ロブション",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ"
+  ],
+  "address": "東京都目黒区三田１-１３-１ 恵比寿ガーデンプレイス内 １F",
+  "postal_code": "1530062",
+  "tel": "03-5424-1338",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 10000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜10000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.641918560454165,
+    "lng": 139.7145352502971
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000011683/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38305713.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 184,
+  "nearest_station": "n○恵比寿駅徒歩7分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.robuchon.jp/shop-list/latable"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

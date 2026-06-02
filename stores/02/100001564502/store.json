@@ -1,0 +1,93 @@
+{
+  "retty_id": "100001564502",
+  "slug": "store-564502",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "手打 親鶏中華そば 綾川 恵比寿本店",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン",
+    "丼もの",
+    "鶏料理",
+    "天ぷら"
+  ],
+  "address": "東京都渋谷区恵比寿１-２１-１８ ライツ恵比寿 １F",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "21:30"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "21:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "21:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "21:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64656747545449,
+    "lng": 139.71365542944778
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001564502/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38581173.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 238,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/%E6%89%8B%E6%89%93-%E8%A6%AA%E9%B6%8F%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%AF%E3%82%99-%E7%B6%BE%E5%B7%9D-103674544931758",
+    "instagram": "https://www.instagram.com/oyadori_chukasoba_ayagawa/",
+    "x": "https://x.com/oyadori_ayagawa"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

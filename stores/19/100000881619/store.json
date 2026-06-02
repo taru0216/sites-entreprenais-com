@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000881619",
+  "slug": "store-881619",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:54:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "タイ屋台 ラオラオ",
+  "category": "タイ料理",
+  "categories": [
+    "タイ料理",
+    "屋台",
+    "テイクアウト",
+    "焼きそば",
+    "パクチー料理",
+    "カレー"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-１４ イナビル１F",
+  "postal_code": "1500013",
+  "tel": "03-5793-3773",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "01:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6454851,
+    "lng": 139.71141710000006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000881619/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38004533.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 129,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://r.goope.jp/daruten/",
+    "facebook": "https://www.facebook.com/ebisu.tairyouri.raorao"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

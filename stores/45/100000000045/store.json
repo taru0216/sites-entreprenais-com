@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000000045",
+  "slug": "alma-000045",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:40:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ALMA",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ワインバー",
+    "パスタ",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区東３-１５-６ 百百代ビル １F",
+  "postal_code": "1500011",
+  "tel": "03-5468-5737",
+  "hours": {
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.65069009202436,
+    "lng": 139.70930327668648
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000045/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36021247.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 166,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.classic-inc.jp/alma/",
+    "facebook": "https://www.facebook.com/ebisuALMA/",
+    "instagram": "https://www.instagram.com/alma_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

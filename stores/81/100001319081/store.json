@@ -1,0 +1,66 @@
+{
+  "retty_id": "100001319081",
+  "slug": "star-319081",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:11:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "エビスSTARバー",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "立ち飲み"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-９ 第一黄色いビル３階",
+  "postal_code": "1500022",
+  "tel": "050-3138-4869",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.646015888381044,
+    "lng": 139.70911139695886
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001319081/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001319081/archive/2028032-5f979828d0621.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028032-5f979828d0621.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028036-5f97982db8abc.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028037-5f97982e9350b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028033-5f97982a066ea.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028035-5f97982c3e75a.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028031-5f979827a0419.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028030-5f97982659b54.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028034-5f97982b008dc.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319081/archive/2028039-5f979876c32ea.jpeg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.ebisustarbar.com/",
+    "x": "https://x.com/ebisustarbar"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

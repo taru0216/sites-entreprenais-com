@@ -1,0 +1,58 @@
+{
+  "retty_id": "100001563990",
+  "slug": "store-563990",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:44:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "バブル 恵比寿五差路店",
+  "category": "カレー",
+  "categories": [
+    "カレー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿西２-８-８ ウエストビル １F",
+  "postal_code": "1500021",
+  "tel": "03-6455-3646",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6492116,
+    "lng": 139.7076616
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001563990/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33549404.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://gh3d100.gorp.jp/",
+    "instagram": "https://www.instagram.com/bubble_ebisu/",
+    "x": "https://x.com/bubble_poker"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

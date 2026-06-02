@@ -1,0 +1,96 @@
+{
+  "retty_id": "100001444569",
+  "slug": "store-444569",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:49:07Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "世界の煮込みとワイン 八百長食堂",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "居酒屋",
+    "鍋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１４-１ サンライズビル４F",
+  "postal_code": "1500021",
+  "tel": "03-6447-0399",
+  "hours": {
+    "tue": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6479041,
+    "lng": 139.7078173
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001444569/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001444569/archive/1295968-5ddc8274a6d28.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/1295968-5ddc8274a6d28.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/1428760-5e38308f6812d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/604376-5be12edf62018.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/605790-5be24cb2dafdd.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/605741-5be24a6d9aac9.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/1428755-5e38308259990.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/605749-5be24a8f34d9d.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/605789-5be24cae67615.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/604291-5be12d201c132.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/1307548-5ddfee47e3ddd.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/605681-5be2487794929.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001444569/archive/1428771-5e3830ae15a7e.png"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 5,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

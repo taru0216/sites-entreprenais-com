@@ -1,0 +1,83 @@
+{
+  "retty_id": "100001274913",
+  "slug": "store-274913",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:43:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "酵素食道 レインボーローフード",
+  "category": "野菜料理",
+  "categories": [
+    "野菜料理",
+    "創作料理",
+    "カレー"
+  ],
+  "address": "東京都渋谷区東３-１７-１４ クリスティエビス",
+  "postal_code": "1500011",
+  "tel": "03-6427-1984",
+  "hours": {
+    "tue": {
+      "open": "15:00",
+      "close": "17:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "17:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "17:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "17:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "17:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "17:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64910740805281,
+    "lng": 139.7099710809856
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001274913/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/19630183.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 7,
+  "nearest_station": "恵比寿駅徒歩5分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://rainbowrawfood.com/",
+    "facebook": "https://www.facebook.com/rainbowrawfood"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

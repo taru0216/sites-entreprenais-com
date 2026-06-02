@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001804714",
+  "slug": "buzz-darts-sports-804714",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:12:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BUZZ darts&sports 恵比寿東口店",
+  "category": "ダーツバー",
+  "categories": [
+    "ダーツバー",
+    "スポーツバー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿１-１０-７ T.I.B ビル ６F",
+  "postal_code": "1500013",
+  "tel": "03-6456-2272",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64697382754683,
+    "lng": 139.71075349999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001804714/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001804714/archive/3797707-690c32f021a44.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797707-690c32f021a44.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797712-690c330f8b09b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797759-690c37a65e150.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797762-690c37cd67f71.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797772-690c3941287b7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797748-690c3588b7186.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797771-690c39407d29f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797754-690c36e4de028.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797761-690c37b5b55a4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797753-690c36cc9c7d8.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797776-690c39990a786.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001804714/archive/3797756-690c36fec1503.JPG"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "【JR恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://buzz-darts-sports.com/shoplist/ebisu-east",
+    "instagram": "https://www.instagram.com/buzz.ebisu_1031"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

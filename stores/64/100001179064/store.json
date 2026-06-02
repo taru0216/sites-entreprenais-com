@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001179064",
+  "slug": "store-179064",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:55:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "レッジャーノ",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "イタリアンバル",
+    "肉バル",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１９ プライムメゾン １F",
+  "postal_code": "1500013",
+  "tel": "03-6447-7272",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "16:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "16:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "16:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64614840225366,
+    "lng": 139.71430209221512
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001179064/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36445750.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 94,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.draemon.net/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001673916",
+  "slug": "yebisu-bar-stand-673916",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:33:03Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "YEBISU BAR STAND 恵比寿ガーデンプレイス店",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-５ 恵比寿ガーデンプレイス エントランスパビリオン棟１F",
+  "postal_code": "1500013",
+  "tel": "03-4400-5165",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64297784228056,
+    "lng": 139.71265210676327
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001673916/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38067448.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 10,
+  "nearest_station": "n〇恵比寿駅から徒歩5分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

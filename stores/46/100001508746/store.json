@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001508746",
+  "slug": "store-508746",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:58:03Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "泡包 シャンパンマニア 恵比寿店",
+  "category": "バル",
+  "categories": [
+    "バル"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-３ 第一協栄ビル１F",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "04:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "04:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "04:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "04:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "04:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "04:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "04:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "04:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64818087959247,
+    "lng": 139.71076529508912
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001508746/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/22202952.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.awa.tokyo/",
+    "facebook": "https://www.facebook.com/awa1109/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

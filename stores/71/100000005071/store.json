@@ -1,0 +1,98 @@
+{
+  "retty_id": "100000005071",
+  "slug": "store-005071",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:42:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ジャパニーズアイス櫻花 東京 恵比寿本店",
+  "category": "アイスクリーム",
+  "categories": [
+    "アイスクリーム",
+    "スイーツ",
+    "かき氷",
+    "カフェ",
+    "テイクアウト",
+    "チョコレート",
+    "クッキー",
+    "パフェ",
+    "ジェラート",
+    "和スイーツ",
+    "お土産"
+  ],
+  "address": "東京都渋谷区恵比寿１-６-７ animo ebisu １F",
+  "postal_code": "1500013",
+  "tel": "03-5449-0037",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64768956315519,
+    "lng": 139.7108446702291
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000005071/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37609238.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 577,
+  "nearest_station": "n恵比寿駅から徒歩2分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.ice-ouca.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

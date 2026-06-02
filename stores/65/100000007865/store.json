@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000007865",
+  "slug": "store-007865",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "米福",
+  "category": "和食",
+  "categories": [
+    "和食",
+    "しゃぶしゃぶ",
+    "割烹・小料理屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-４-２ 川田ビルB１F",
+  "postal_code": "1500021",
+  "tel": "03-6416-3855",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.648722250107525,
+    "lng": 139.70806777432176
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000007865/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000007865/archive/1278138-5dce0f69293d5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007865/archive/1278138-5dce0f69293d5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007865/archive/1278137-5dce0f57a6ade.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007865/archive/1278141-5dce110acc0fd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007865/archive/1278183-5dce19d3dc237.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007865/archive/1278139-5dce1088d6201.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007865/archive/1278185-5dce19ed6462d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007865/archive/1278140-5dce108d2415a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000007865/archive/1278142-5dce126cc6795.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 260,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.ebisu-komefuku.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

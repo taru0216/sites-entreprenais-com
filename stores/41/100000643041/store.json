@@ -1,0 +1,103 @@
+{
+  "retty_id": "100000643041",
+  "slug": "store-643041",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:45:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ソナム 恵比寿店",
+  "category": "韓国料理",
+  "categories": [
+    "韓国料理",
+    "テイクアウト",
+    "サムギョプサル"
+  ],
+  "address": "東京都渋谷区恵比寿１-２５-３ レジデンサプリマベーラ １F",
+  "postal_code": "1500013",
+  "tel": "03-3445-8815",
+  "hours": {
+    "sun": {
+      "open": "14:30",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "14:30",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "14:30",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "14:30",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "14:30",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "14:30",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "14:30",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "14:30",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6470322,
+    "lng": 139.71604160000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000643041/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000643041/archive/708609-5c6a72c36d4d6.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/708609-5c6a72c36d4d6.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271744-59a79c8c2b773.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271734-59a79c8a49e32.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271748-59a79c8d4fa6a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/1523197-5e671aa2891e4.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/447816-5b1615eeb25a9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271735-59a79c8acf554.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271745-59a79c8c2f9f7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271730-59a79c89dbe83.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271742-59a79c8bd4351.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/1523198-5e671abbf14d3.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271759-59a79c8fb57c0.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 153,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.sonamu.jp/",
+    "facebook": "https://www.facebook.com/sonamu.ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

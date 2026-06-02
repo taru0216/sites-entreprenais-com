@@ -1,0 +1,82 @@
+{
+  "retty_id": "100001294745",
+  "slug": "t8-steak-house-294745",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:58:31Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "T8 Steak House 恵比寿",
+  "category": "ステーキ",
+  "categories": [
+    "ステーキ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-９-７ グランベル恵比寿西８F",
+  "postal_code": "1500021",
+  "tel": "03-6809-0084",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.646786475461944,
+    "lng": 139.70812627055224
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001294745/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/24909546.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 53,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000001314",
+  "slug": "67-001314",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "67餃子 恵比寿本店",
+  "category": "餃子",
+  "categories": [
+    "餃子",
+    "ラーメン",
+    "鍋",
+    "焼きそば"
+  ],
+  "address": "東京都渋谷区恵比寿１-１-１７ １１７ビル １０１",
+  "postal_code": "1500013",
+  "tel": "03-6408-6422",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6483708,
+    "lng": 139.7109143
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000001314/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36832422.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 91,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.67gyouza.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

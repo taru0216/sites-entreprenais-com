@@ -1,0 +1,86 @@
+{
+  "retty_id": "100000113041",
+  "slug": "store-113041",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:01:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿横丁 だるまてんぐ",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "屋台",
+    "テイクアウト",
+    "焼きそば",
+    "鍋"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-２ オークビル２ １階",
+  "postal_code": "1500013",
+  "tel": "03-3440-1250",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6482375,
+    "lng": 139.7107476
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113041/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38996937.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 28,
+  "nearest_station": "JR恵比寿駅から徒歩5分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

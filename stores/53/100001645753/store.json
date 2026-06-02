@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001645753",
+  "slug": "store-645753",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:03Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "酒と焼肉ニュートミー",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "ホルモン",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-３",
+  "postal_code": "1500022",
+  "tel": "03-5708-5129",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "04:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "04:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "04:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "04:00"
+    },
+    "sun": {
+      "open": "13:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 8000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜8000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64651475509053,
+    "lng": 139.70879051780835
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001645753/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36832580.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 14,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/ebisuyakiniku_newtommy/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

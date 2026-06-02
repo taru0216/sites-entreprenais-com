@@ -1,0 +1,56 @@
+{
+  "retty_id": "100001023899",
+  "slug": "store-023899",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:51:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "松月庵",
+  "category": "うどん",
+  "categories": [
+    "うどん",
+    "そば（蕎麦）",
+    "居酒屋",
+    "カレー"
+  ],
+  "address": "東京都渋谷区東２-２０-１４",
+  "postal_code": "1500011",
+  "tel": "03-3407-3754",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.65345042141,
+    "lng": 139.70878735513
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001023899/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38841811.jpg"
+  ],
+  "retty_rating": 3.15,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

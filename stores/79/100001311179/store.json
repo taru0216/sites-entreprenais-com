@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001311179",
+  "slug": "store-311179",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:45:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "らぁめん冠尾",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン",
+    "つけ麺",
+    "担々麺"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-１１ 鈴木ビル１F",
+  "postal_code": "1500021",
+  "tel": "03-6416-5169",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6478552070388,
+    "lng": 139.70853019233653
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001311179/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001311179/archive/236053-5952603bd2163.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/236053-5952603bd2163.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152138-58b54f5b7e9fc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152148-58b54f7a8cd45.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152143-58b54f5f93e5f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152146-58b54f6f558f3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152142-58b54f5f38497.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152141-58b54f5de6b0b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152140-58b54f5d98af7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152139-58b54f5d27f89.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311179/archive/152137-58b54f5a29177.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 208,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://r-kamuro.favy.jp/",
+    "facebook": "https://www.facebook.com/ramen.kamuro/",
+    "instagram": "https://www.instagram.com/ramen_kamuro/",
+    "x": "https://x.com/kamurohonten"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

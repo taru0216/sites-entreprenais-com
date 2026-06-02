@@ -1,0 +1,59 @@
+{
+  "retty_id": "100001737002",
+  "slug": "sisiri-737002",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:31:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "SISIRI 恵比寿店",
+  "category": "和菓子",
+  "categories": [
+    "和菓子",
+    "カフェ",
+    "和スイーツ",
+    "甘味処"
+  ],
+  "address": "東京都渋谷区恵比寿３-３８-２５",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6435474227075,
+    "lng": 139.7190803696997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001737002/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37102500.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 7,
+  "nearest_station": "n東京の恵比寿駅から徒歩15分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://sisiri.com/",
+    "instagram": "https://www.instagram.com/sisiri_tokyo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

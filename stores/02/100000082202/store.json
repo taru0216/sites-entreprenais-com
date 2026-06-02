@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000082202",
+  "slug": "broc-coli-082202",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:23:24Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BROc&COLI",
+  "category": "カレー",
+  "categories": [
+    "カレー",
+    "屋台",
+    "テイクアウト",
+    "野菜料理",
+    "焼きそば",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１０-１６ ウェストパークビル２F",
+  "postal_code": "1500021",
+  "tel": "03-3476-0613",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6470764,
+    "lng": 139.70758409999996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000082202/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/16327612.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 13,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

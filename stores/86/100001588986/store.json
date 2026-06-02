@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001588986",
+  "slug": "ebisu-class-coffee-588986",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:49:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "EBISU CLASS COFFEE",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "コーヒー専門店",
+    "スイーツ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-２ 恵比寿テラスビル ２F",
+  "postal_code": "1500021",
+  "tel": "080-3421-8604",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "19:00"
+    },
+    "mon": {
+      "open": "12:00",
+      "close": "19:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "19:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "19:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "19:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "19:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "19:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "19:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.649023791664945,
+    "lng": 139.7085970055225
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001588986/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35596717.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ebisu-class.com/blog/detail/20210619151624/",
+    "instagram": "https://www.instagram.com/ebisu_class_coffee/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

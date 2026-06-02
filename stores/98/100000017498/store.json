@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000017498",
+  "slug": "3mm-017498",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:58:26Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "3mm",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "バー",
+    "魚介・海鮮料理",
+    "鶏料理",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-２ T．NAKAMURAビル ２F",
+  "postal_code": "1500022",
+  "tel": "03-5721-6662",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6455016,
+    "lng": 139.70781740000007
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000017498/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/16251649.jpg"
+  ],
+  "retty_rating": 3.6,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/3mmbar"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

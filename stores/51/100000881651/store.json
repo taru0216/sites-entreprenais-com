@@ -1,0 +1,80 @@
+{
+  "retty_id": "100000881651",
+  "slug": "store-881651",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:56:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "キンギョ",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "カフェ",
+    "カレー"
+  ],
+  "address": "東京都渋谷区恵比寿１-５-８ B１F",
+  "postal_code": "1500013",
+  "tel": "03-3445-1506",
+  "hours": {
+    "mon": {
+      "open": "19:00",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "26:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64721467101485,
+    "lng": 139.71139752450517
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000881651/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/4806261.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

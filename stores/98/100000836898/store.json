@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000836898",
+  "slug": "nyafe-melange-836898",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:45:31Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Nyafe Melange",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "喫茶店"
+  ],
+  "address": "東京都渋谷区恵比寿１－７－１３ 麻仁ビル恵比寿３F",
+  "postal_code": "1500013",
+  "tel": "03-5449-4024",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "20:00"
+    },
+    "mon": {
+      "open": "12:00",
+      "close": "14:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "14:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "14:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "14:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64829288355327,
+    "lng": 139.7105602094298
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000836898/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/8399503.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.nyafe-melange.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

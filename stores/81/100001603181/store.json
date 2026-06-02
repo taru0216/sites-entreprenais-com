@@ -1,0 +1,85 @@
+{
+  "retty_id": "100001603181",
+  "slug": "tture-603181",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:05:41Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "tTure",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿西２-８-１１ グランベル恵比寿Ⅳ ２F",
+  "postal_code": "1500021",
+  "tel": "03-6452-5011",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "14:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6495323755556,
+    "lng": 139.7075368125743
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001603181/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36481964.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 12,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.tture.info/",
+    "instagram": "https://www.instagram.com/tture_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

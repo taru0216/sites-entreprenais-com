@@ -1,0 +1,85 @@
+{
+  "retty_id": "100001252083",
+  "slug": "bar-252083",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:42:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BAR 土",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "担々麺"
+  ],
+  "address": "東京都渋谷区恵比寿南２-２-３ 第一恵比寿マンションB１F",
+  "postal_code": "1500022",
+  "tel": "03-6452-4553",
+  "hours": {
+    "sun": {
+      "open": "20:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "20:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6453678966948,
+    "lng": 139.70787649050146
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001252083/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/17724195.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 5,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/BAR土-974692262552385/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

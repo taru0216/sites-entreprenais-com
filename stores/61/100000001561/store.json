@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000001561",
+  "slug": "store-001561",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:11:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "串亭 恵比寿駅前",
+  "category": "串カツ・串揚げ",
+  "categories": [
+    "串カツ・串揚げ",
+    "刺身",
+    "串焼き",
+    "炭火焼き"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-１３ ２F",
+  "postal_code": "1500021",
+  "tel": "03-3476-0750",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64799668356737,
+    "lng": 139.70838128771425
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000001561/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34403267.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 69,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.real-taste.net/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

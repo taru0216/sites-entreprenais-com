@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001585325",
+  "slug": "fish-market-585325",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:29:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "FISH MARKET 恵比寿",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-１０ 田中ビル １F",
+  "postal_code": "1500021",
+  "tel": "03-6452-5733",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6489177,
+    "lng": 139.708268
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001585325/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001585325/archive/2419767-60e69b49074dc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419767-60e69b49074dc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419746-60e69b325bece.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419712-60e69b0d7185f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419760-60e69b423a536.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419720-60e69b163b98c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419714-60e69b0f300ae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419761-60e69b433b1cd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419722-60e69b1855d3c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419716-60e69b1141f46.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419762-60e69b4434d4a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419723-60e69b1950c88.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001585325/archive/2419721-60e69b1744afc.jpg"
+  ],
+  "retty_rating": 3.25,
+  "retty_review_count": 6,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://fishmarket-ebisu.com/",
+    "instagram": "https://www.instagram.com/fishmarketebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001543491",
+  "slug": "store-543491",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:05:06Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "スウィートバック",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿１-２６-１５",
+  "postal_code": "1500013",
+  "tel": "03-6456-2979",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64718761609137,
+    "lng": 139.7160609971821
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001543491/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/24138112.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

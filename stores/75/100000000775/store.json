@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000000775",
+  "slug": "store-000775",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:12:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "框 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "ラーメン",
+    "刺身",
+    "味噌ラーメン",
+    "そば（蕎麦）",
+    "焼きそば",
+    "とんこつラーメン",
+    "塩ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-１４ イナビル ２F",
+  "postal_code": "1500013",
+  "tel": "03-5795-2738",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6454851,
+    "lng": 139.71141710000006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000775/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38928877.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 65,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.wid.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

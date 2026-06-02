@@ -1,0 +1,81 @@
+{
+  "retty_id": "100001409257",
+  "slug": "su3-409257",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:52:24Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "SU3",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿１-１２-７ 三恵３１ビル ５B",
+  "postal_code": "1500013",
+  "tel": "050-3704-0141",
+  "hours": {
+    "mon": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "sun": {
+      "open": "19:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6465627,
+    "lng": 139.71212259999993
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001409257/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/15155142.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/su3amore/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

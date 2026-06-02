@@ -1,0 +1,93 @@
+{
+  "retty_id": "100000002561",
+  "slug": "store-002561",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:42:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "九十九ラーメン 恵比寿本店",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン",
+    "丼もの",
+    "味噌ラーメン",
+    "とんこつラーメン"
+  ],
+  "address": "東京都渋谷区広尾１-１-３６ 本国ビル１F",
+  "postal_code": "1500012",
+  "tel": "03-5466-9566",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "27:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "27:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "27:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "27:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "27:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "27:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "27:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64986688438318,
+    "lng": 139.7120328843499
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000002561/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37496668.jpg"
+  ],
+  "retty_rating": 3.55,
+  "retty_review_count": 395,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://tukumo.com/",
+    "instagram": "https://www.instagram.com/tsukumoramen99/",
+    "x": "https://x.com/tukumoebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

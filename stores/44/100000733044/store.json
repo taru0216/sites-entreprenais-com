@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000733044",
+  "slug": "store-733044",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:59:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ウェスティンホテル東京",
+  "category": "ランチバイキング・ビュッフェ",
+  "categories": [
+    "ランチバイキング・ビュッフェ",
+    "ラウンジ",
+    "チョコレート"
+  ],
+  "address": "東京都目黒区三田１-４-１ ウェスティンホテル東京",
+  "postal_code": "1530062",
+  "tel": "03-5423-7000",
+  "hours": {
+    "sun": {
+      "open": "00:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "00:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "00:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "00:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "00:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "00:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "00:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "00:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 10000,
+    "dinner": 30000
+  },
+  "budget_raw": "ランチ予算: 〜10000円 ディナー予算: 〜30000円",
+  "geo": {
+    "lat": 35.64158805954471,
+    "lng": 139.71541971165675
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000733044/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37257848.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 36,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.marriott.com/ja/hotels/tyowi-the-westin-tokyo/overview/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

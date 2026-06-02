@@ -1,0 +1,76 @@
+{
+  "retty_id": "100001271526",
+  "slug": "store-271526",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:04:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サニーデイズキッチン",
+  "category": "デリカテッセン",
+  "categories": [
+    "デリカテッセン",
+    "弁当屋",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿１-１６-１９ 恵比寿INA１階",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {
+    "mon": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "17:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.647824,
+    "lng": 139.714831
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001271526/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/17988263.jpg"
+  ],
+  "retty_rating": 3.5,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

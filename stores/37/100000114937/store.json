@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000114937",
+  "slug": "cafe-ber-114937",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:26:46Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Cafe ber α",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "コーヒー専門店",
+    "サンドイッチ"
+  ],
+  "address": "東京都渋谷区恵比寿１-１３-６ 第２伊藤ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-3446-6333",
+  "hours": {
+    "sun": {
+      "open": "08:00",
+      "close": "12:00"
+    },
+    "mon": {
+      "open": "08:00",
+      "close": "12:00"
+    },
+    "tue": {
+      "open": "08:00",
+      "close": "12:00"
+    },
+    "wed": {
+      "open": "08:00",
+      "close": "12:00"
+    },
+    "thu": {
+      "open": "08:00",
+      "close": "12:00"
+    },
+    "fri": {
+      "open": "08:00",
+      "close": "12:00"
+    },
+    "sat": {
+      "open": "08:00",
+      "close": "12:00"
+    },
+    "holiday": {
+      "open": "08:00",
+      "close": "12:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6471988,
+    "lng": 139.71210589999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114937/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38758705.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 12,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

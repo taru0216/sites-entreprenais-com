@@ -1,0 +1,77 @@
+{
+  "retty_id": "100000036587",
+  "slug": "store-036587",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:16:58Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "スカイラウンジ コンパスローズ ウェスティンホテル東京",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ラウンジ"
+  ],
+  "address": "東京都目黒区三田１-４-１ウェスティンホテル東京２２F",
+  "postal_code": "1530062",
+  "tel": "03-5423-7283",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.641516,
+    "lng": 139.71536400000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000036587/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32581158.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 32,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.marriott.com/ja/hotels/tyowi-the-westin-tokyo/overview/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

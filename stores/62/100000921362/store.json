@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000921362",
+  "slug": "store-921362",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:50:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "カフェアンドダイニング ヌリカベ",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "イタリアン",
+    "スイーツ",
+    "オムライス",
+    "洋食",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿南３-１-２ サウスビル ４F",
+  "postal_code": "1500022",
+  "tel": "03-6451-2022",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6457989,
+    "lng": 139.70684370000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000921362/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37127470.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 29,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/ebisu.nurikabe/",
+    "x": "https://x.com/ebisu_nurikabe"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001234122",
+  "slug": "store-234122",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:29:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "うな徳",
+  "category": "うなぎ",
+  "categories": [
+    "うなぎ",
+    "刺身",
+    "串焼き"
+  ],
+  "address": "東京都渋谷区恵比寿西１-６-６ エイジュビル１階",
+  "postal_code": "1500021",
+  "tel": "03-3461-5105",
+  "hours": {
+    "mon": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "18:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64797,
+    "lng": 139.70803060000003
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001234122/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38451524.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 11,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/pg/unatoku/about/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

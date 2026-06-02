@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001792250",
+  "slug": "store-792250",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:09:58Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ブランジェ浅野屋 恵比寿店",
+  "category": "パン屋",
+  "categories": [
+    "パン屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ JR恵比寿駅 東口改札",
+  "postal_code": "1500022",
+  "tel": "080-4322-1058",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64623013891426,
+    "lng": 139.71023871014714
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001792250/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37683354.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

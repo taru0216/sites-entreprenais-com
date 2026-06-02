@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000034095",
+  "slug": "store-034095",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:45:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "チャモロ",
+  "category": "洋食",
+  "categories": [
+    "洋食",
+    "オムライス",
+    "牛タン",
+    "ハンバーグ",
+    "カレー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-８ 雨宮ビル B１F",
+  "postal_code": "1500022",
+  "tel": "不明",
+  "hours": {
+    "mon": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64604214159348,
+    "lng": 139.70766942948012
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000034095/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37715085.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 185,
+  "nearest_station": "n恵比寿にある洋食屋。JR恵比寿駅から徒歩4分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

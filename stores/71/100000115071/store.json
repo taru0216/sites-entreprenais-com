@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000115071",
+  "slug": "store-115071",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:40:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ドトールコーヒーショップ 恵比寿東店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "サンドイッチ"
+  ],
+  "address": "東京都渋谷区東３-２５ 恵比寿東 １F",
+  "postal_code": "1500011",
+  "tel": "03-3446-2845",
+  "hours": {
+    "mon": {
+      "open": "06:00",
+      "close": "20:00"
+    },
+    "tue": {
+      "open": "06:00",
+      "close": "20:00"
+    },
+    "wed": {
+      "open": "06:00",
+      "close": "20:00"
+    },
+    "thu": {
+      "open": "06:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "06:00",
+      "close": "20:00"
+    },
+    "sat": {
+      "open": "06:30",
+      "close": "20:00"
+    },
+    "sun": {
+      "open": "07:00",
+      "close": "19:00"
+    },
+    "holiday": {
+      "open": "07:00",
+      "close": "19:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64864523727954,
+    "lng": 139.71022310740966
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000115071/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35755371.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.doutor.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

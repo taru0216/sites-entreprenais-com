@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001378428",
+  "slug": "coco-jr-378428",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:52:07Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "カレーハウスCoCo壱番屋 JR恵比寿駅東口店",
+  "category": "カレー",
+  "categories": [
+    "カレー"
+  ],
+  "address": "東京都渋谷区恵比寿一丁目１３番６号 第２伊藤ビル",
+  "postal_code": "1500013",
+  "tel": "03-5447-3888",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.646999169783086,
+    "lng": 139.71194486501236
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001378428/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38875609.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

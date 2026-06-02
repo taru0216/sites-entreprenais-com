@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000029997",
+  "slug": "store-029997",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:00:51Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "洋食ハチロー",
+  "category": "洋食",
+  "categories": [
+    "洋食",
+    "ハンバーグ",
+    "とんかつ",
+    "オムライス"
+  ],
+  "address": "東京都渋谷区恵比寿２-３９-４",
+  "postal_code": "1500013",
+  "tel": "03-3444-8600",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64475364062825,
+    "lng": 139.7226182209015
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000029997/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36872115.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 37,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

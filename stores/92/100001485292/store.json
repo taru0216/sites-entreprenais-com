@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001485292",
+  "slug": "store-485292",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:02:03Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "七宝麻辣湯 恵比寿店",
+  "category": "薬膳料理",
+  "categories": [
+    "薬膳料理",
+    "火鍋"
+  ],
+  "address": "東京都渋谷区恵比寿１-４-１ 恵比寿アーバンハウス",
+  "postal_code": "1500013",
+  "tel": "03-6277-2328",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64771160642802,
+    "lng": 139.7116163874257
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001485292/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/27140985.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 28,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://maratan.com/shops/ebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "retty_id": "100001603185",
+  "slug": "store-603185",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:13:02Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "東京豚饅",
+  "category": "飲茶・点心",
+  "categories": [
+    "飲茶・点心"
+  ],
+  "address": "東京都渋谷区恵比寿１-５-２ こうげつビル１F",
+  "postal_code": "1500013",
+  "tel": "03-3441-0551",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64744575290797,
+    "lng": 139.7110814797449
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001603185/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37729563.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 9,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

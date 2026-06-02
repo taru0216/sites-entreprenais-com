@@ -1,0 +1,56 @@
+{
+  "retty_id": "100001589205",
+  "slug": "store-589205",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:46:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "たなごころ 恵比寿本店",
+  "category": "和食",
+  "categories": [
+    "和食",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-６ サンポウ恵比寿ビル１F",
+  "postal_code": "1500022",
+  "tel": "03-6712-2770",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64590913051844,
+    "lng": 139.70784411748517
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001589205/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/28201662.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "x": "https://x.com/tanagokoro_ebs"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

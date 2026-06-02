@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000158461",
+  "slug": "brownsugar-ebisu-158461",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:33:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BrownSugar Ebisu",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１７",
+  "postal_code": "1500013",
+  "tel": "03-3441-6266",
+  "hours": {
+    "sun": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "mon": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "04:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64602841389165,
+    "lng": 139.71451079512508
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000158461/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/14446442.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 12,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/pages/BrownSugar-Ebisu/108986359197010"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "retty_id": "100000023665",
+  "slug": "club-023665",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:50:43Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "カラオケ個室ダイニング 恵比寿CLUB",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区東３-２６-５ 恵比寿GMビル",
+  "postal_code": "1500011",
+  "tel": "03-5475-2822",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "30:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6483069,
+    "lng": 139.7097255
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000023665/",
+  "retty_photos": [
+    "https://retty.me/images/icon.png"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

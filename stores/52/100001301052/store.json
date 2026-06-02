@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001301052",
+  "slug": "c-s-bar-301052",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:04:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "C's BAR",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-２ ウエストパレスB１",
+  "postal_code": "1500021",
+  "tel": "03-6712-7848",
+  "hours": {
+    "sun": {
+      "open": "20:00",
+      "close": "05:00"
+    },
+    "mon": {
+      "open": "20:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "05:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64776556027213,
+    "lng": 139.70825301748516
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001301052/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/19172575.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

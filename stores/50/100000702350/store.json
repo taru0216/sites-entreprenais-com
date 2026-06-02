@@ -1,0 +1,56 @@
+{
+  "retty_id": "100000702350",
+  "slug": "store-702350",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:51:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "リキッドルーム",
+  "category": "その他",
+  "categories": [
+    "その他",
+    "スイーツ"
+  ],
+  "address": "東京都渋谷区東３-１６-６",
+  "postal_code": "1500011",
+  "tel": "03-5464-0800",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.649088,
+    "lng": 139.71055
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000702350/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/5491783.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.liquidroom.net/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

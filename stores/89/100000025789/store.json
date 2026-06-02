@@ -1,0 +1,56 @@
+{
+  "retty_id": "100000025789",
+  "slug": "store-025789",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:57:41Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ゲンエイドットワガン",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン",
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区広尾１-１０-１０ NKビル B１F",
+  "postal_code": "1500012",
+  "tel": "03-3449-6010",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.6484321,
+    "lng": 139.71732199999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000025789/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33821743.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 73,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://geneijapan.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

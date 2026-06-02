@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000027622",
+  "slug": "ta-im-027622",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:11:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "TA-IM",
+  "category": "羊肉",
+  "categories": [
+    "羊肉",
+    "サンドイッチ",
+    "テイクアウト",
+    "無国籍料理",
+    "地中海料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-２９-１６ ベルハイム１F",
+  "postal_code": "1500013",
+  "tel": "03-5424-2990",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64786725541766,
+    "lng": 139.7175286730337
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000027622/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38603219.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 83,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.ta-imebisu.com/",
+    "facebook": "https://www.facebook.com/taimebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

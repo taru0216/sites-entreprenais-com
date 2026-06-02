@@ -1,0 +1,105 @@
+{
+  "retty_id": "100000009161",
+  "slug": "store-009161",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:54:47Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "たまきんち",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "カレー",
+    "テイクアウト",
+    "刺身",
+    "バー",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-５ アルス恵比寿メイクス １F",
+  "postal_code": "1500021",
+  "tel": "03-3496-1770",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64869119732638,
+    "lng": 139.7086883626007
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000009161/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000009161/archive/296710-59e3410b9a9f8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/296710-59e3410b9a9f8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/375867-5a7d7cce9630d.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301347-59edd8c6a65b6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301345-59edd8c607b2d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301346-59edd8c619779.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301344-59edd8c601a68.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301343-59edd8c5ea4ba.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301342-59edd8c5c6faf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301340-59edd7524da8f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301339-59edd751ed94d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301338-59edd751813f8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009161/archive/301337-59edd75143823.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 110,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/tamakinchi"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

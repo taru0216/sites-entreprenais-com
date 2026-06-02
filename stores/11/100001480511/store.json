@@ -1,0 +1,56 @@
+{
+  "retty_id": "100001480511",
+  "slug": "store-480511",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:34:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "カウンター焼肉 ふかみ",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "ホルモン"
+  ],
+  "address": "東京都渋谷区広尾１-１６-１ Ebisu Hiroo Square ８F",
+  "postal_code": "1500012",
+  "tel": "03-5422-9620",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64858350098318,
+    "lng": 139.71095583619365
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001480511/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35209213.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 4,
+  "nearest_station": "n恵比寿にある焼肉屋。JRの恵比寿駅東口から徒歩3分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/yakinikufukami/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

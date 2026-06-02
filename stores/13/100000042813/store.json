@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000042813",
+  "slug": "what-the-dickens-042813",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:18:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "What The Dickens!",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ビアバー・ビアホール",
+    "パブ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-３ ROOB６ ４F",
+  "postal_code": "1500021",
+  "tel": "03-3780-2099",
+  "hours": {
+    "tue": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6476124173609,
+    "lng": 139.70795120122307
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000042813/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/20814638.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 24,
+  "nearest_station": "n恵比寿様が鎮座する恵比寿駅西口より徒歩3分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.whatthedickens.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

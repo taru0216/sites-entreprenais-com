@@ -1,0 +1,77 @@
+{
+  "retty_id": "100001380011",
+  "slug": "cafe-deux-poissons-380011",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:57:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "CAFE deux poissons",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "喫茶店",
+    "和食",
+    "創作料理"
+  ],
+  "address": "東京都渋谷区恵比寿２-４-２",
+  "postal_code": "1500013",
+  "tel": "03-5795-0451",
+  "hours": {
+    "tue": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "14:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6478183,
+    "lng": 139.71823029999996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001380011/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/18035488.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://cafedeuxpoissons.wordpress.com/",
+    "facebook": "https://www.facebook.com/cafedeuxpoissons/",
+    "instagram": "https://www.instagram.com/cafedeuxpoissons/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

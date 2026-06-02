@@ -1,0 +1,81 @@
+{
+  "retty_id": "100000848327",
+  "slug": "store-848327",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:29:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "バー カポーティ",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-１２ 久保ビル地下１F",
+  "postal_code": "1500013",
+  "tel": "03-3440-4300",
+  "hours": {
+    "mon": {
+      "open": "20:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64827551633331,
+    "lng": 139.7105212975532
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000848327/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/21578930.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 10,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ameblo.jp/bar-capote/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "retty_id": "100001246058",
+  "slug": "store-246058",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:51:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "バー ガーデン",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿１-３１-５ １階,２階",
+  "postal_code": "1500013",
+  "tel": "03-6277-0669",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "05:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6471295,
+    "lng": 139.71717209999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001246058/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35750091.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ameblo.jp/garden-tt/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

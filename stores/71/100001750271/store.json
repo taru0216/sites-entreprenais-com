@@ -1,0 +1,54 @@
+{
+  "retty_id": "100001750271",
+  "slug": "store-750271",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:08:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "燦別邸 恵比寿店",
+  "category": "しゃぶしゃぶ",
+  "categories": [
+    "しゃぶしゃぶ",
+    "すき焼き"
+  ],
+  "address": "東京都渋谷区広尾１-１６-１ 恵比寿広尾スクエア ６F",
+  "postal_code": "1500012",
+  "tel": "03-6277-0597",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64853153468716,
+    "lng": 139.71105773466445
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001750271/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35946399.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

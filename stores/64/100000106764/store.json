@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000106764",
+  "slug": "store-106764",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:25:07Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ルージュバー",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "チョコレート"
+  ],
+  "address": "東京都目黒区三田１-１３-１ 恵比寿ガーデンプレイス シャトーレストラン ジョエル・ロブション ２F",
+  "postal_code": "1530062",
+  "tel": "03-5449-0083",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "sun": {
+      "open": "17:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6419411,
+    "lng": 139.7145253
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000106764/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/27771147.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 9,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.robuchon.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

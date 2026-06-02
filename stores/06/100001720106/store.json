@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001720106",
+  "slug": "95-yooya-720106",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:54:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "95 yooya",
+  "category": "中華",
+  "categories": [
+    "中華"
+  ],
+  "address": "東京都渋谷区恵比寿４-２２-７",
+  "postal_code": "1500013",
+  "tel": "03-6277-0718",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64505662592936,
+    "lng": 139.71477162361933
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001720106/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34359504.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

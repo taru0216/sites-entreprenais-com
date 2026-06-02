@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001650749",
+  "slug": "eau-rouge-650749",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:12:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "葡萄酒EAU ROUGE",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ワインバル",
+    "天ぷら",
+    "そば（蕎麦）"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-１５ バンビゾンビル１０５ B１F",
+  "postal_code": "1500013",
+  "tel": "03-6456-2230",
+  "hours": {
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "26:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.6455855,
+    "lng": 139.7113819
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001650749/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001650749/archive/2874937-6347a61dd255d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874937-6347a61dd255d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874961-6347a63b76556.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874962-6347a63d97a29.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874924-6347a60bdc9b8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874984-6347a6603593e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874925-6347a60d22ed0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874958-6347a6369ec9c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874983-6347a65eea9a8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874934-6347a6195e777.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874952-6347a62fa244a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874953-6347a63107242.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650749/archive/2874930-6347a6143208f.png"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "【恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/intomi.ebisu/",
+    "instagram": "https://www.instagram.com/eau.rouge_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

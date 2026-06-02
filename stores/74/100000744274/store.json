@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000744274",
+  "slug": "hanare-744274",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:20Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "京鼎樓 HANARE店",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "小龍包"
+  ],
+  "address": "東京都渋谷区恵比寿４-３-１ Qiz EBISU １F",
+  "postal_code": "1500013",
+  "tel": "03-5795-2213",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "21:30"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6461294,
+    "lng": 139.7113226
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000744274/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32527298.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 108,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://jin-din-rou.net/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

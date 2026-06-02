@@ -1,0 +1,55 @@
+{
+  "retty_id": "100001674968",
+  "slug": "the-blue-posts-674968",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:46:40Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "THE BLUE POSTS",
+  "category": "バル",
+  "categories": [
+    "バル",
+    "スポーツバー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-１４ 大黒ビル１F",
+  "postal_code": "1500013",
+  "tel": "070-8496-1242",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64768314580171,
+    "lng": 139.70992593558196
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001674968/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34161062.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

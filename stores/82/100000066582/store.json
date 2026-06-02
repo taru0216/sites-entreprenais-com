@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000066582",
+  "slug": "store-066582",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:18:40Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "こっこ鶏焼き",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "串焼き"
+  ],
+  "address": "東京都渋谷区恵比寿西２-８-８ ウエストエビスビル３F",
+  "postal_code": "1500021",
+  "tel": "03-3770-4721",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64922894798279,
+    "lng": 139.70767363131847
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000066582/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35404026.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 26,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

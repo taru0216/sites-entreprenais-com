@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000161980",
+  "slug": "store-161980",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:25:13Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿食堂",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "担々麺",
+    "ラーメン"
+  ],
+  "address": "東京都渋谷区広尾１-７-１７ グリーンキャピタル広尾１F",
+  "postal_code": "1500012",
+  "tel": "03-6409-6320",
+  "hours": {
+    "sun": {
+      "open": "10:30",
+      "close": "15:00"
+    },
+    "mon": {
+      "open": "10:30",
+      "close": "15:00"
+    },
+    "tue": {
+      "open": "10:30",
+      "close": "15:00"
+    },
+    "wed": {
+      "open": "10:30",
+      "close": "15:00"
+    },
+    "thu": {
+      "open": "10:30",
+      "close": "15:00"
+    },
+    "fri": {
+      "open": "10:30",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "10:30",
+      "close": "15:00"
+    },
+    "holiday": {
+      "open": "10:30",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64860103655008,
+    "lng": 139.7156932156388
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000161980/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37357142.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 14,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

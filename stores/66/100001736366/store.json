@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001736366",
+  "slug": "the-new-normal-736366",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:39:41Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "THE NEW NORMAL",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-１３ 山燃ビル ２F",
+  "postal_code": "1500022",
+  "tel": "03-6303-1232",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6455298,
+    "lng": 139.7073125
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001736366/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37015086.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 6,
+  "nearest_station": "n恵比寿駅徒歩3分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001633527",
+  "slug": "store-633527",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:37:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "デリカテッセン ヤマブキ 恵比寿ガーデンプレイス店",
+  "category": "デリカテッセン",
+  "categories": [
+    "デリカテッセン"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-７ ガーデンプレイス センタープラザ B２F",
+  "postal_code": "1500013",
+  "tel": "03-6456-3090",
+  "hours": {
+    "sun": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "mon": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.642821597140674,
+    "lng": 139.71409866472385
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001633527/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38901977.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 7,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

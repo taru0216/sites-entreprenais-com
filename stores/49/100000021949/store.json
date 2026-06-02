@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000021949",
+  "slug": "store-021949",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ちょもらんま酒場 恵比寿東口店",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "餃子",
+    "居酒屋",
+    "ラーメン",
+    "丼もの",
+    "屋台",
+    "焼きそば"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-５ マンションニュー恵比寿１０３",
+  "postal_code": "1500013",
+  "tel": "03-6459-3968",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.645934,
+    "lng": 139.713178
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000021949/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38686010.jpg"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 105,
+  "nearest_station": "nJR恵比寿駅東口から徒歩3分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "retty_id": "100001684349",
+  "slug": "pizza-marumo-684349",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:51:52Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "pizza marumo",
+  "category": "ピザ",
+  "categories": [
+    "ピザ",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１１-１３ 恵比寿ヴェルソービル １F",
+  "postal_code": "1500022",
+  "tel": "03-6683-1973",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.645293,
+    "lng": 139.7085094
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001684349/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001684349/archive/2940695-639aaad816b14.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2940695-639aaad816b14.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2940697-639aaada5e4f5.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2940698-639aaadb69420.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2966262-63d2259e9890a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2966271-63d225aba0cbc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2940696-639aaad9450e6.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2966259-63d2259abe7f9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2966274-63d225b02d5c1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2940752-639abdcbc0bb9.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2966260-63d2259c4486c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2966275-63d225b1e26bf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001684349/archive/2940753-639abdcd243df.jpeg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 19,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://pizza-marumo.com/",
+    "instagram": "https://www.instagram.com/pizzamarumo_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

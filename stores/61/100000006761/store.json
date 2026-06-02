@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000006761",
+  "slug": "tooth-tooth-tokyo-006761",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:42:43Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "TOOTH TOOTH TOKYO",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ",
+    "ビストロ",
+    "ダイニングバー",
+    "燻製",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区東３-１７-１２ １F・B１ トレディカーサ恵比寿",
+  "postal_code": "1500011",
+  "tel": "03-6419-2040",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "04:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "04:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64899564368795,
+    "lng": 139.71008543833457
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000006761/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000006761/archive/2008262-5f8edb6e11c12.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2008262-5f8edb6e11c12.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2008269-5f8edbcda68a6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2036608-5f9a815a4eeeb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/photo/52883-579c5b1c16c11.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/photo/52882-579c5adb3876f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2090277-5fb2190bc5e5b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2008265-5f8edb996866d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2036609-5f9a815ba4060.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2036610-5f9a815ce8045.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2036651-5f9a83243f384.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2036658-5f9a834b74981.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006761/archive/2036655-5f9a8338cca57.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 393,
+  "nearest_station": "nJR線・恵比寿駅より徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://toothtooth.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

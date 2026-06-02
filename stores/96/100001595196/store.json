@@ -1,0 +1,57 @@
+{
+  "retty_id": "100001595196",
+  "slug": "store-595196",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:47:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ピーター・ルーガー・ステーキハウス 東京",
+  "category": "ステーキ",
+  "categories": [
+    "ステーキ"
+  ],
+  "address": "東京都渋谷区恵比寿４-１９-１９",
+  "postal_code": "1500013",
+  "tel": "03-6277-4336",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 20000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜20000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.64387204208667,
+    "lng": 139.71395429631255
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001595196/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38017523.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 82,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://peterluger.co.jp/",
+    "facebook": "https://www.facebook.com/PeterLugerSteakHouseTokyo/",
+    "instagram": "https://www.instagram.com/peterluger_steakhouse_tokyo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

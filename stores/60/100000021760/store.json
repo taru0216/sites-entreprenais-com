@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000021760",
+  "slug": "store-021760",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:12:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "和食 ととや",
+  "category": "魚介・海鮮料理",
+  "categories": [
+    "魚介・海鮮料理",
+    "居酒屋",
+    "穴子丼",
+    "定食"
+  ],
+  "address": "東京都渋谷区恵比寿南１-３３-８ キャストス １F",
+  "postal_code": "1500022",
+  "tel": "03-5422-8136",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64655314254356,
+    "lng": 139.71620184785047
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000021760/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35942484.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 45,
+  "nearest_station": "恵比寿駅から徒歩10分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.totoya-ebisu.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

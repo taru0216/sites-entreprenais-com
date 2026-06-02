@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001817033",
+  "slug": "store-817033",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:10:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "韓国ビストロ けなりぃ 恵比寿店",
+  "category": "韓国料理",
+  "categories": [
+    "韓国料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-２０-４ Sreed EBISU １F",
+  "postal_code": "1500013",
+  "tel": "03-6447-7101",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6469456,
+    "lng": 139.7127557
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001817033/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38361644.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

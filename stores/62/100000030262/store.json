@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000030262",
+  "slug": "store-030262",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:14:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼肉トラジ 本店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿南２-２-６ ２F",
+  "postal_code": "1500022",
+  "tel": "不明",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6457571,
+    "lng": 139.70741739999994
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000030262/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/15538088.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 25,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.ebisu-toraji.com/shop/tokyo/ebisu/honten/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

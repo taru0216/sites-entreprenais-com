@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000039342",
+  "slug": "store-039342",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:16:13Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 和顔",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "ダイニングバー",
+    "スポーツバー",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-１２",
+  "postal_code": "1500022",
+  "tel": "03-3715-5554",
+  "hours": {
+    "mon": {
+      "open": "13:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "13:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "13:00",
+      "close": "07:00"
+    },
+    "thu": {
+      "open": "13:00",
+      "close": "07:00"
+    },
+    "fri": {
+      "open": "13:00",
+      "close": "07:00"
+    },
+    "sat": {
+      "open": "13:00",
+      "close": "07:00"
+    },
+    "sun": {
+      "open": "13:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64631518578106,
+    "lng": 139.70815795337296
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000039342/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/30211537.jpg"
+  ],
+  "retty_rating": 3.0,
+  "retty_review_count": 21,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://ww12.ebisuwagan.com/?usid=16&utid=34383530441"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

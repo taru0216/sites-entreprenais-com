@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000823093",
+  "slug": "kaito-bal-823093",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:08:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Kaito Bal",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー",
+    "バー",
+    "バル",
+    "魚介・海鮮料理",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-１３ スイングビル１F",
+  "postal_code": "1500021",
+  "tel": "03-6416-9930",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6480421899035,
+    "lng": 139.70848092471203
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000823093/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34115502.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 29,
+  "nearest_station": "n最寄駅:恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.ebisu-kaito.com/kaitobal/menu.html"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

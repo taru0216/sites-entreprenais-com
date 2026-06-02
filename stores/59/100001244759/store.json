@@ -1,0 +1,104 @@
+{
+  "retty_id": "100001244759",
+  "slug": "we-are-the-farm-244759",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:44:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "WE ARE THE FARM 恵比寿店",
+  "category": "野菜料理",
+  "categories": [
+    "野菜料理",
+    "自然食",
+    "火鍋",
+    "カフェ",
+    "スイーツ"
+  ],
+  "address": "東京都渋谷区恵比寿西２-８-１０ ORIX恵比寿西ビル１F",
+  "postal_code": "1500021",
+  "tel": "03-5784-3877",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "14:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "14:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "14:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6493011,
+    "lng": 139.70751180000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001244759/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001244759/archive/2002185-5f8d850e341eb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/2002185-5f8d850e341eb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1071470-5d561fbc2f2ac.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1071503-5d56223ce13f9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1078038-5d5dee0e8d675.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1078061-5d5defe5a9016.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/2182594-5ff6e6c11996f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1078036-5d5dedf1ae8b8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1078059-5d5dee517ee88.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/2203407-600e836bd1e70.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1071560-5d562d34bcd22.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1076060-5d5b8fa34a6c4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001244759/archive/1071561-5d562d53a6487.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 246,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://yoyaku.toreta.in/wearethefarmebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

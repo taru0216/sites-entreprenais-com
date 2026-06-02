@@ -1,0 +1,99 @@
+{
+  "retty_id": "100001772027",
+  "slug": "store-772027",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:09:03Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "俺のフレンチ・イタリアン 恵比寿店",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-１２",
+  "postal_code": "1500021",
+  "tel": "03-6416-3557",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64789435605011,
+    "lng": 139.70848160122335
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001772027/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001772027/archive/3655479-686650f81e1a1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655479-686650f81e1a1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655478-686650f7766db.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655484-686650faf228e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655486-686650fc43032.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655485-686650fb96e7f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655463-68664efd18167.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655474-686650f51ba1c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655477-686650f6d75ca.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655467-68664eff1f555.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655481-686650f93d880.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655482-686650f9bd2fa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001772027/archive/3655475-686650f5c4514.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": "【恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

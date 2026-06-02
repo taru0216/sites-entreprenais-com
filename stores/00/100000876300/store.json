@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000876300",
+  "slug": "store-876300",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:18:23Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "イクラ食堂",
+  "category": "パスタ",
+  "categories": [
+    "パスタ",
+    "肉バル",
+    "居酒屋",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-９ 第１黄色いビル１階",
+  "postal_code": "1500022",
+  "tel": "03-5768-2252",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64599474646111,
+    "lng": 139.7091203124119
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000876300/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33957290.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 24,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/ikrashokudou"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

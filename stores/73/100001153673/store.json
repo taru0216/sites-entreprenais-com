@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001153673",
+  "slug": "store-153673",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:24:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "天丼てんや 恵比寿店",
+  "category": "天丼",
+  "categories": [
+    "天丼",
+    "天ぷら"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-３ いとうビル",
+  "postal_code": "1500013",
+  "tel": "03-5793-8883",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64782087090915,
+    "lng": 139.71027439941304
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001153673/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36180749.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 12,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.tenya.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

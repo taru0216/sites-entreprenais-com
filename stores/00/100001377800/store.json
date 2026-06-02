@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001377800",
+  "slug": "store-377800",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:36:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "モスバーガー 恵比寿東店",
+  "category": "ハンバーガーチェーン",
+  "categories": [
+    "ハンバーガーチェーン"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-１８",
+  "postal_code": "1500013",
+  "tel": "03-5793-7271",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64789670725763,
+    "lng": 139.70992321687345
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001377800/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35215240.jpg"
+  ],
+  "retty_rating": 3.25,
+  "retty_review_count": 8,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

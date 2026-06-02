@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001392976",
+  "slug": "bw01-392976",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:52:12Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BW01",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿４-２７-７ S:vort恵比寿 ３F",
+  "postal_code": "1500013",
+  "tel": "03-6409-6758",
+  "hours": {
+    "sun": {
+      "open": "19:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "19:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "04:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "04:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "04:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "04:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.645584794074196,
+    "lng": 139.7158686058284
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001392976/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001392976/archive/494479-5b624f7dc2763.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494479-5b624f7dc2763.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/507738-5b7885d4cbdf5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494478-5b624f79b1773.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494482-5b624f89608f9.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494471-5b624f5cd38e8.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494461-5b624f36745fb.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494472-5b624f60e70fd.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494485-5b624f93c7bb1.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494473-5b624f65471ed.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494484-5b624f8fc45a3.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494474-5b624f6963dfa.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001392976/archive/494468-5b624f51a3897.JPG"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://bw01.net/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

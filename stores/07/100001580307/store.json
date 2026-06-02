@@ -1,0 +1,84 @@
+{
+  "retty_id": "100001580307",
+  "slug": "store-580307",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:20:50Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "東京コロンボ",
+  "category": "カレー",
+  "categories": [
+    "カレー"
+  ],
+  "address": "東京都渋谷区恵比寿１-６-３ ゼネラルビル恵比寿イーストB１F",
+  "postal_code": "1500013",
+  "tel": "080-9554-3019",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64789201136194,
+    "lng": 139.711202984979
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001580307/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36737639.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 19,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "x": "https://x.com/Tokyo_colombo"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

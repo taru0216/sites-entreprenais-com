@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001285609",
+  "slug": "store-285609",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:07:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ジェラートピケカフェ クレープリー アトレ恵比寿店",
+  "category": "クレープ",
+  "categories": [
+    "クレープ",
+    "スイーツ",
+    "テイクアウト",
+    "ジェラート",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-６",
+  "postal_code": "1500022",
+  "tel": "03-5475-8545",
+  "hours": {
+    "sun": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "mon": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "21:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6466488,
+    "lng": 139.71024769999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001285609/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37117447.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 36,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://pique-cafe.com/index.html"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

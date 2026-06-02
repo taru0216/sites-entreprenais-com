@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001779277",
+  "slug": "store-779277",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:02:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "パティスリー・バイ・ウェスティンホテル東京",
+  "category": "ケーキ屋",
+  "categories": [
+    "ケーキ屋"
+  ],
+  "address": "東京都目黒区三田１-４-１ ウェスティンホテル東京 １F",
+  "postal_code": "1530062",
+  "tel": "03-5423-7665",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64173192438667,
+    "lng": 139.71544988650817
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001779277/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38458744.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "retty_id": "100000011419",
+  "slug": "store-011419",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "三橋屋",
+  "category": "魚介・海鮮料理",
+  "categories": [
+    "魚介・海鮮料理",
+    "天ぷら",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-１２ フロンティア恵比寿ビル １F",
+  "postal_code": "1500022",
+  "tel": "03-3713-2839",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "23:15"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "23:15"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "23:15"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "23:15"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "23:15"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "23:15"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64667507231701,
+    "lng": 139.70864152178433
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000011419/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/23146500.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 73,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001607326",
+  "slug": "beer-ebisu-brewery-607326",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:59:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BEER& EBISU BREWERY",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "鶏料理",
+    "ビアバー・ビアホール",
+    "ワインバル"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-１２ 岩徳ビル２Ⅱ ２F",
+  "postal_code": "1500022",
+  "tel": "03-6452-3771",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6464536,
+    "lng": 139.7083486
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001607326/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001607326/archive/2881881-6350079445772.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2881881-6350079445772.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2711383-6283285c40a33.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2711366-6283284e27890.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2711321-62832827a0264.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2711334-6283283368312.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2970821-63db6cbe18e68.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2970822-63db6cf709046.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2711316-628328237ac26.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2970823-63db6d1c4ad6a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2882733-6350facf057ad.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2882735-6350faeabe03a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001607326/archive/2970824-63db6de1a2e93.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 2,
+  "nearest_station": "★恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

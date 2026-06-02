@@ -1,0 +1,93 @@
+{
+  "retty_id": "100001358689",
+  "slug": "dolloom-358689",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:40:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "女子会 誕生日 テーブルアートのお店 チーズバル dolloom 恵比寿",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "チーズフォンデュ",
+    "チーズ料理",
+    "バル",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-９-７グランベル恵比寿西 B１F",
+  "postal_code": "1500021",
+  "tel": "03-6712-7079",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6467746136728,
+    "lng": 139.70814955092624
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001358689/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33555700.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 5,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://dolloom-cafe.owst.jp/",
+    "facebook": "https://www.facebook.com/dolloom/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

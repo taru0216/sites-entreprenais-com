@@ -1,0 +1,81 @@
+{
+  "retty_id": "100001516001",
+  "slug": "cafe-bar-dog-star-516001",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:04:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "CAFE & BAR DOG STAR",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "スポーツバー",
+    "ビアバー・ビアホール",
+    "サンドイッチ"
+  ],
+  "address": "東京都渋谷区恵比寿４-５-２１",
+  "postal_code": "1500013",
+  "tel": "03-6721-6025",
+  "hours": {
+    "mon": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.644662,
+    "lng": 139.71194049999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001516001/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/22238893.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

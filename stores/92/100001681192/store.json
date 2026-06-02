@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001681192",
+  "slug": "store-681192",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:44:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "メゾン ランドゥメンヌ アトレ恵比寿",
+  "category": "パン屋",
+  "categories": [
+    "パン屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿本館 ３F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8325",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6470113,
+    "lng": 139.7098858
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001681192/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38747909.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "恵比寿駅から徒歩1分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

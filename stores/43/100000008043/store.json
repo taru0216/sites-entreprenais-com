@@ -1,0 +1,104 @@
+{
+  "retty_id": "100000008043",
+  "slug": "store-008043",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:55:54Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "バルデビス",
+  "category": "スペイン料理",
+  "categories": [
+    "スペイン料理",
+    "スペインバル",
+    "居酒屋",
+    "バル",
+    "ジェラート"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１４ 石井ビル B１F",
+  "postal_code": "1500013",
+  "tel": "03-6450-2774",
+  "hours": {
+    "mon": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6463267,
+    "lng": 139.71456680000006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000008043/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000008043/archive/2842903-631c3eabb2231.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/2842903-631c3eabb2231.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/2842920-631c3f2c9bd8d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/3480522-675fdd04d27e2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/3480519-675fdb075f3c5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/2842918-631c3f2007ce2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/2842907-631c3ecae6d9a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/3480520-675fdb9bd7a94.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/2842917-631c3f17d6f4a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/2842883-631c3e11cee9c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/2842919-631c3f27e1af3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/3480500-675fd2bebad11.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000008043/archive/2842921-631c3f2e1ed2e.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 87,
+  "nearest_station": "ない恵比寿の老舗スパインバル。恵比寿駅徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/bardebis2011/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

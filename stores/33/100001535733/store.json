@@ -1,0 +1,93 @@
+{
+  "retty_id": "100001535733",
+  "slug": "store-535733",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:59:55Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼きあご塩らー麺 たかはし 恵比寿店",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-３ マツダイビル１F",
+  "postal_code": "1500022",
+  "tel": "03-5708-5935",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64652909344644,
+    "lng": 139.70872919570084
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001535733/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001535733/archive/3381686-66c30d7aa1cc9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001535733/archive/3381686-66c30d7aa1cc9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001535733/archive/3381687-66c30d7cb98d3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001535733/archive/2916360-6374802806417.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001535733/archive/2916361-63748028ba515.png"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 46,
+  "nearest_station": "恵比寿駅から徒歩1分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://takahashi-ramen.com/shop/",
+    "facebook": "https://www.facebook.com/takahashiebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

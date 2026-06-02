@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001627543",
+  "slug": "store-627543",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:02:20Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "譚仔三哥 タムジャイサムゴー 恵比寿店",
+  "category": "中華",
+  "categories": [
+    "中華"
+  ],
+  "address": "東京都渋谷区恵比寿１-１０-７ TIB恵比寿ビル １F",
+  "postal_code": "1500013",
+  "tel": "03-3447-7558",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64692713960109,
+    "lng": 139.71081458282072
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001627543/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38084763.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 30,
+  "nearest_station": "JR恵比寿駅東口徒歩1分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.tjsamgor.jp:443/",
+    "x": "https://x.com/TJSG_JP"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

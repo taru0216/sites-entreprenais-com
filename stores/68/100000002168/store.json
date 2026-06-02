@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000002168",
+  "slug": "store-002168",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:43:16Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "めし処 こづち",
+  "category": "定食",
+  "categories": [
+    "定食",
+    "チャーハン",
+    "ハンバーグ",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-６ 陸中ビルハイツ１F",
+  "postal_code": "1500013",
+  "tel": "03-3444-3763",
+  "hours": {
+    "mon": {
+      "open": "10:30",
+      "close": "18:00"
+    },
+    "tue": {
+      "open": "10:30",
+      "close": "18:00"
+    },
+    "wed": {
+      "open": "10:30",
+      "close": "18:00"
+    },
+    "thu": {
+      "open": "10:30",
+      "close": "18:00"
+    },
+    "fri": {
+      "open": "10:30",
+      "close": "18:00"
+    },
+    "sat": {
+      "open": "10:30",
+      "close": "18:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64781149073154,
+    "lng": 139.71069385828378
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000002168/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38197040.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 431,
+  "nearest_station": "恵比寿駅東口から徒歩5分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/people/%E6%81%B5%E6%AF%94%E5%AF%BF-%E3%81%93%E3%81%A5%E3%81%A1/100013323786128/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

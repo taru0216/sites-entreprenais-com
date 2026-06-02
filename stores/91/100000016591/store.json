@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000016591",
+  "slug": "store-016591",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:47:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "コーラ 可尓 恵比寿店",
+  "category": "韓国料理",
+  "categories": [
+    "韓国料理",
+    "焼肉",
+    "サムギョプサル",
+    "テイクアウト",
+    "鍋"
+  ],
+  "address": "東京都渋谷区恵比寿４-２４-３",
+  "postal_code": "1500013",
+  "tel": "03-3445-9000",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.645424480664,
+    "lng": 139.71590816975004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000016591/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/31915011.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 100,
+  "nearest_station": "n恵比寿駅東口から徒歩10分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/%25E5%258F%25AF%25E5%25B0%2593-%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%25A9-%25E6%2581%25B5%25E6%25AF%2594%25E5%25AF%25BF%25E5%25BA%2597-101982256564231/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

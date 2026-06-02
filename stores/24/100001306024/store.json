@@ -1,0 +1,94 @@
+{
+  "retty_id": "100001306024",
+  "slug": "bakery-306024",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:45:03Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "俺のBakery恵比寿",
+  "category": "パン屋",
+  "categories": [
+    "パン屋",
+    "カフェ",
+    "テイクアウト",
+    "フレンチトースト",
+    "サンドイッチ",
+    "スイーツ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-６ 恵比寿ガーデンプレイス 時計広場",
+  "postal_code": "1500013",
+  "tel": "03-6277-0457",
+  "hours": {
+    "sun": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "09:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64324527246591,
+    "lng": 139.71319800000003
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001306024/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33817897.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 207,
+  "nearest_station": "n恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.oreno.co.jp/restaurant/bakery_cafe_ebisu",
+    "facebook": "https://www.facebook.com/%E4%BF%BA%E3%81%AEBakeryCafe-266996667033855/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

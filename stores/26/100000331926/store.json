@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000331926",
+  "slug": "store-331926",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:42:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "アンティーカ ピッツェリア ダ ミケーレ 恵比寿",
+  "category": "ピザ",
+  "categories": [
+    "ピザ",
+    "イタリアン",
+    "テイクアウト",
+    "デリバリー・宅配"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-７",
+  "postal_code": "1500013",
+  "tel": "050-3503-5447",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "20:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "20:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "20:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "20:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "20:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.645273299025405,
+    "lng": 139.71175333585313
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000331926/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37107972.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 711,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://damichele.jp/",
+    "facebook": "https://www.facebook.com/japan.michele/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

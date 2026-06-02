@@ -1,0 +1,95 @@
+{
+  "retty_id": "100000034397",
+  "slug": "ryu-034397",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:15:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "隠れ酒房 龍 Ryu",
+  "category": "もつ鍋",
+  "categories": [
+    "もつ鍋",
+    "九州料理",
+    "魚介・海鮮料理",
+    "居酒屋",
+    "和食",
+    "鍋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１０-１１ 美矢川ビル B１F",
+  "postal_code": "1500022",
+  "tel": "03-3760-1530",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64590270672129,
+    "lng": 139.7083322245369
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000034397/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000034397/archive/1624767-5e8e8cc1bb1c9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624767-5e8e8cc1bb1c9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624733-5e8e8ca082263.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624766-5e8e8cc0e6d1e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624758-5e8e8cb98952d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624753-5e8e8cb4bc36b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624774-5e8e8cc8c07af.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624756-5e8e8cb78f707.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624739-5e8e8ca6aed65.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624797-5e8e8cdee3677.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624737-5e8e8ca4b49a4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624803-5e8e8ce472cd0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000034397/archive/1624731-5e8e8c9e77630.jpg"
+  ],
+  "retty_rating": 3.55,
+  "retty_review_count": 24,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

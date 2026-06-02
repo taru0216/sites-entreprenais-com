@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001326755",
+  "slug": "store-326755",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:07:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ラ・エスキーナ",
+  "category": "メキシコ料理",
+  "categories": [
+    "メキシコ料理",
+    "バー",
+    "テイクアウト",
+    "居酒屋",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿１-１３-６ 第二伊藤ビル １０１",
+  "postal_code": "1500013",
+  "tel": "03-5422-8872",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64705202566402,
+    "lng": 139.7121899518611
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001326755/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35970615.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 52,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

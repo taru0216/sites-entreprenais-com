@@ -1,0 +1,81 @@
+{
+  "retty_id": "100001556943",
+  "slug": "makanai-cafe-556943",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:11:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "MAKANAI CAFE",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿南２-２７-１０",
+  "postal_code": "1500022",
+  "tel": "070-1519-4763",
+  "hours": {
+    "mon": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "18:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.642715289870786,
+    "lng": 139.7102976
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001556943/",
+  "retty_photos": [
+    "https://retty.me/images/icon.png"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/makanaicafe/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

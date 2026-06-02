@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001387681",
+  "slug": "store-387681",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:20:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "松栄 恵比寿東口店",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "魚介・海鮮料理",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-１３ 諸戸ビル２ B１F",
+  "postal_code": "1500013",
+  "tel": "03-6450-3334",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.646514182805845,
+    "lng": 139.7111435831266
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001387681/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001387681/archive/967620-5d02ec061df06.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/967620-5d02ec061df06.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/967622-5d02ec1372d5f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074058-5d5a4763baf0e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074052-5d5a473ec4a4c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074056-5d5a4750a9608.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074060-5d5a47796db32.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074054-5d5a474740b9e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074061-5d5a477f0cc74.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074063-5d5a4789a8cb0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074064-5d5a478f08214.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001387681/archive/1074057-5d5a475c43968.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 19,
+  "nearest_station": "JR恵比寿駅から徒歩0分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.matsue.cc/jp/ebisueast/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000703725",
+  "slug": "store-703725",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:00:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "登川",
+  "category": "うなぎ",
+  "categories": [
+    "うなぎ",
+    "焼き鳥",
+    "刺身",
+    "鶏料理"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１５-２ アパルトマンイトウ１F",
+  "postal_code": "1500021",
+  "tel": "03-3477-0223",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "21:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64816468576671,
+    "lng": 139.70766501223375
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000703725/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/28647287.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 38,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "retty_id": "100000077281",
+  "slug": "store-077281",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "モンスーンカフェ 恵比寿",
+  "category": "タイ料理",
+  "categories": [
+    "タイ料理",
+    "丼もの",
+    "パクチー料理",
+    "ベトナム料理",
+    "ダイニングバー",
+    "パフェ",
+    "洋風なおかず",
+    "エスニック料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-６ MARIX恵比寿ビル １F・２F",
+  "postal_code": "1500013",
+  "tel": "050-5445-7233",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6453443,
+    "lng": 139.7118345
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000077281/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000077281/archive/1361147-5e057089ac3b9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1361147-5e057089ac3b9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1361168-5e0570ffe5d76.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1361149-5e0570a65b69d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1361186-5e057158e7405.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1450498-5e4390eef0eae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1361167-5e0570c15403c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1450502-5e43911c6ae5a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1361187-5e05719665d7f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1450488-5e439075c4e6e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1450490-5e43909f75041.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1450492-5e4390c7f2219.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000077281/archive/1450489-5e43908d637be.jpg"
+  ],
+  "retty_rating": 3.5,
+  "retty_review_count": 70,
+  "nearest_station": "【恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://monsoon-cafe.jp/ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

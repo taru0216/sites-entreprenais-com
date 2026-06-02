@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000000886",
+  "slug": "time-out-caf-diner-000886",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:11:55Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Time Out Café & Diner",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "丼もの",
+    "ラウンジ",
+    "ハンバーガー",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区東３-１６-６ リキッドルーム ２F",
+  "postal_code": "1500011",
+  "tel": "03-5774-0440",
+  "hours": {
+    "mon": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "13:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "13:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "13:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6491013,
+    "lng": 139.710506
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000886/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35049093.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 67,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.timeoutcafe.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001465085",
+  "slug": "store-465085",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:01:41Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼肉一七三 本店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "牛タン",
+    "ホルモン"
+  ],
+  "address": "東京都渋谷区恵比寿西１-９-２ ヤマビル １F",
+  "postal_code": "1500021",
+  "tel": "03-6277-5528",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "13:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6472214,
+    "lng": 139.70830990000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001465085/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001465085/archive/1628629-5e914e64398f0.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628629-5e914e64398f0.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1236883-5dbb86c69c240.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1238875-5dbbd29f666ca.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1236875-5dbb86c25f9b9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1236886-5dbb86c86ad01.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628822-5e9195e05bd1f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1238874-5dbbd29edae08.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1236871-5dbb86c0ccb7f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1236877-5dbb86c3995a9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628821-5e919466dbd3f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1238873-5dbbd29e4980f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1236872-5dbb86c14f8b1.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 20,
+  "nearest_station": "n恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.yakiniku173.com",
+    "facebook": "https://www.facebook.com/%E7%84%BC%E8%82%89%E4%B8%80%E4%B8%83%E4%B8%89-198302927745813/",
+    "instagram": "https://www.instagram.com/yakiniku173/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001375817",
+  "slug": "store-375817",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:04:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "セガフレード・ザネッティ・エスプレッソ 恵比寿プライムスクエア店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区広尾１-１-３９恵比寿プライムスクエアタワー １Fロビー",
+  "postal_code": "1500012",
+  "tel": "03-5464-3825",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.650079031321724,
+    "lng": 139.7126450681055
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001375817/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/17842841.jpg"
+  ],
+  "retty_rating": 3.5,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

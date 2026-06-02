@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001518745",
+  "slug": "a-moment-518745",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:58:09Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "A MOMENT恵比寿",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "カフェ",
+    "ラウンジ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２３-１ ABC亜米利加橋ビル ３F",
+  "postal_code": "1500022",
+  "tel": "03-6412-8480",
+  "hours": {
+    "sun": {
+      "open": "13:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "13:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "13:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "13:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "13:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.643377742050724,
+    "lng": 139.7117002184027
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001518745/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33240504.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": "n◉恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/ebisuamoment/",
+    "instagram": "https://www.instagram.com/a_moment_ebisu",
+    "x": "https://x.com/EbisuMoment"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

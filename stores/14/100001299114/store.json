@@ -1,0 +1,84 @@
+{
+  "retty_id": "100001299114",
+  "slug": "umineko-ebisu-299114",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:09:40Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "カジュアルイタリアン×デザイナーズダイニング umineko ebisu",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿南３-１-２５ アイスキューブB１",
+  "postal_code": "1500022",
+  "tel": "03-6303-1939",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64608570473297,
+    "lng": 139.7063391447067
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001299114/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/19021622.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 10,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/Umineko-ebisu-1893355544028977/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

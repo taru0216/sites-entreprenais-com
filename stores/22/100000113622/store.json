@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000113622",
+  "slug": "store-113622",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:04:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "キハチ アトレ恵比寿店",
+  "category": "ケーキ屋",
+  "categories": [
+    "ケーキ屋",
+    "お土産",
+    "スイーツ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿 ３F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8462",
+  "hours": {
+    "sun": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "mon": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "21:30"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "21:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6471418566454,
+    "lng": 139.709829242022
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113622/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35064912.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 13,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.kihachi.jp/patisserie/shoplist/ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

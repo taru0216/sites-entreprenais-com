@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000729768",
+  "slug": "store-729768",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:00:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "宮越屋珈琲 恵比寿店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "その他",
+    "クッキー",
+    "スイーツ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-７ 恵比寿ガーデンプレイス センタープラザ B１F",
+  "postal_code": "1500013",
+  "tel": "03-6277-4366",
+  "hours": {
+    "sun": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6430188,
+    "lng": 139.7140447
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000729768/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/20404927.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

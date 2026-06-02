@@ -1,0 +1,55 @@
+{
+  "retty_id": "100000853946",
+  "slug": "store-853946",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:19:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "磯丸水産 恵比寿西口店",
+  "category": "魚介・海鮮料理",
+  "categories": [
+    "魚介・海鮮料理",
+    "居酒屋",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-１０ サウスコラム小林１・２F",
+  "postal_code": "1500022",
+  "tel": "03-5794-8245",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64639761016939,
+    "lng": 139.7085082574166
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000853946/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38834956.jpg"
+  ],
+  "retty_rating": 3.15,
+  "retty_review_count": 19,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000004912",
+  "slug": "store-004912",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:58:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "レストラン アラジン",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ",
+    "ジビエ",
+    "テイクアウト",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿２-２２-１０ 広尾リバーサイドG １F",
+  "postal_code": "1500013",
+  "tel": "03-5420-0038",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 15000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜15000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.647918939130435,
+    "lng": 139.7203193073576
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000004912/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37412834.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 50,
+  "nearest_station": "n広尾駅から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://restaurant-aladdin.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

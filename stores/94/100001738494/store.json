@@ -1,0 +1,55 @@
+{
+  "retty_id": "100001738494",
+  "slug": "yebisu-brewery-tokyo-738494",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:09:46Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "YEBISU BREWERY TOKYO",
+  "category": "ビアバー・ビアホール",
+  "categories": [
+    "ビアバー・ビアホール"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-１ 恵比寿ガーデンプレイス内",
+  "postal_code": "1500013",
+  "tel": "03-5423-7255",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.642915452577334,
+    "lng": 139.71441173757324
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001738494/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37789952.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 14,
+  "nearest_station": "n東京の恵比寿駅から徒歩7分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.sapporobeer.jp/brewery/y_museum/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "retty_id": "100001692179",
+  "slug": "shake-692179",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:12:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サーモンレアカツサンド専門店 SHAKE",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "ラウンジ",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１３-３ GOLD３F CityCamp",
+  "postal_code": "1500022",
+  "tel": "不明",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6457743,
+    "lng": 139.7100653
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001692179/",
+  "retty_photos": [
+    "https://retty.me/images/icon.png"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ssl.form-mailer.jp/fms/4663ef61767374",
+    "instagram": "https://www.instagram.com/shake_salmonsand/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

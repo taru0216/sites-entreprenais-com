@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001189534",
+  "slug": "bar-189534",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:31:09Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar 風木",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-４村田ビル３F",
+  "postal_code": "1500022",
+  "tel": "03-3760-1101",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.646540493130374,
+    "lng": 139.70875413066437
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001189534/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35661719.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 7,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000001245",
+  "slug": "store-001245",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:42:54Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "パルテノペ 恵比寿",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ピザ",
+    "テイクアウト",
+    "パスタ",
+    "ジェラート",
+    "地中海料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-２０ 恵比寿幸和ビル １F",
+  "postal_code": "1500013",
+  "tel": "080-8144-8832",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.646153316145124,
+    "lng": 139.71397328834323
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000001245/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37440227.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 356,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.partenope.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

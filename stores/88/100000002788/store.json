@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000002788",
+  "slug": "store-002788",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:54:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "マーサー カフェ エビス",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿１-２６-１６柴田ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-3446-1551",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6472239,
+    "lng": 139.71573609999996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000002788/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/28789458.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 86,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.merceroffice.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

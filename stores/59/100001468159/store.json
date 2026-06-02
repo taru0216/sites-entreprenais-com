@@ -1,0 +1,105 @@
+{
+  "retty_id": "100001468159",
+  "slug": "store-468159",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:57:52Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "酒場シナトラ 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "おばんざい",
+    "鶏料理",
+    "豆腐料理・湯葉料理",
+    "割烹・小料理屋",
+    "魚介・海鮮料理",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿南南２-１-４ ジョワレ恵比寿B１F",
+  "postal_code": "1500022",
+  "tel": "03-6451-0688",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.645696282627426,
+    "lng": 139.70717379999996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001468159/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001468159/archive/990221-5d146fe8f166a.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/990221-5d146fe8f166a.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852114-5cad69eb700ca.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852248-5cad825d4c4c7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852255-5cad8393f4047.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852261-5cad85310b3b5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852250-5cad82d05cedf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852251-5cad82f14bbe6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852257-5cad83ba1b2bd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852262-5cad855ec7f94.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852270-5cad873899cc8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001468159/archive/852258-5cad843fe3655.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.bistro-jill.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "retty_id": "100001313538",
+  "slug": "store-313538",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:59:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "新鮮焼肉 ランボー 恵比寿",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-８",
+  "postal_code": "1500013",
+  "tel": "03-5422-6989",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "27:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6458767,
+    "lng": 139.71366969999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001313538/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/24555146.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 36,
+  "nearest_station": "n恵比寿駅東口徒歩5分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

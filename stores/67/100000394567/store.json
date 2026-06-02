@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000394567",
+  "slug": "store-394567",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:16:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿ワヰン酒場",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー",
+    "バー",
+    "バル"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１６ STM恵比寿ビル１F",
+  "postal_code": "1500022",
+  "tel": "03-6452-4033",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64624200000002,
+    "lng": 139.7094250760574
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000394567/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/25433689.jpg"
+  ],
+  "retty_rating": 3.4,
+  "retty_review_count": 24,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

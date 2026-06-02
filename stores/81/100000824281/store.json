@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000824281",
+  "slug": "wine-bar-etsubo-824281",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:38:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Wine Bar ETSUBO",
+  "category": "パスタ",
+  "categories": [
+    "パスタ",
+    "ワインバー",
+    "テイクアウト",
+    "バル",
+    "イタリアンバル"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１３-１４ ２F",
+  "postal_code": "1500022",
+  "tel": "03-6303-3435",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "21:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "21:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.643408424657466,
+    "lng": 139.70747134743237
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000824281/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35947565.jpg"
+  ],
+  "retty_rating": 4.65,
+  "retty_review_count": 5,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://blog.livedoor.jp/ebisuetsubo/",
+    "facebook": "https://www.facebook.com/WineBarEtsubo",
+    "instagram": "https://www.instagram.com/yebisu_etsubo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

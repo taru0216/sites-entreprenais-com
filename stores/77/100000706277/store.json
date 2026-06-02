@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000706277",
+  "slug": "vinsanto-bar-whisky-shop-706277",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:17:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "VinSanto Bar&Whisky Shop 恵比寿",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "イタリアン",
+    "ワインバー"
+  ],
+  "address": "東京都渋谷区恵比寿西２-１-７ B１F・１F",
+  "postal_code": "1500021",
+  "tel": "03-3464-4641",
+  "hours": {
+    "tue": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6494317,
+    "lng": 139.70824779999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000706277/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/21136790.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 21,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://atcf.jp/shop/vinsanto/",
+    "facebook": "https://www.facebook.com/atcf.vinsanto/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001311341",
+  "slug": "store-311341",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:12:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "こんぶや 恵比寿",
+  "category": "おでん",
+  "categories": [
+    "おでん"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０- ３ 恵比寿ガ ーデンプレイスタワー３８ 階",
+  "postal_code": "1500013",
+  "tel": "03-5422-8350",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "15:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64206010252976,
+    "lng": 139.713496610054
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001311341/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38498830.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 37,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ebisu.konbu-ya.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

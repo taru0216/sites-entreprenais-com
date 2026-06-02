@@ -1,0 +1,78 @@
+{
+  "retty_id": "100001815419",
+  "slug": "or-coffee-815419",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:10:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "or COFFEE",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南３-１-８",
+  "postal_code": "1500022",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "10:00",
+      "close": "17:00"
+    },
+    "mon": {
+      "open": "10:00",
+      "close": "17:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "17:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "17:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "17:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "17:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64552125419219,
+    "lng": 139.70638211349183
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001815419/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38678805.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": "恵比寿駅から徒歩7分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

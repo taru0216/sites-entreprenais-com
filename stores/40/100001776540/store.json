@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001776540",
+  "slug": "store-776540",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:03:10Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "荻窪中華そば 春木屋 恵比寿店",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿１-５-２ 第２こうげつビル １f",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.647371373597046,
+    "lng": 139.71117066319465
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001776540/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38665460.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 25,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

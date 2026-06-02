@@ -1,0 +1,86 @@
+{
+  "retty_id": "100000010298",
+  "slug": "store-010298",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:52:31Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "中村 玄",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "パクチー料理",
+    "エスニック料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１８-１１ 西田ビル ２０１",
+  "postal_code": "1500022",
+  "tel": "03-3711-5897",
+  "hours": {
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "16:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "16:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64510053770222,
+    "lng": 139.71060881257426
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000010298/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38316363.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 401,
+  "nearest_station": "屋。JR、東京メトロ日比谷線の恵比寿駅から徒歩4分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.e-e-co.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

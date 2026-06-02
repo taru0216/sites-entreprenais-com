@@ -1,0 +1,72 @@
+{
+  "retty_id": "100001550541",
+  "slug": "alawa-550541",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:05:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "顕 -ALAWA-",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-１ 武川ビル２階",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {
+    "mon": {
+      "open": "20:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6460794,
+    "lng": 139.7125339
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001550541/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/25168012.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/ken_alawa_usami/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000023100",
+  "slug": "store-023100",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:27:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サブウェイ 恵比寿店",
+  "category": "サンドイッチ",
+  "categories": [
+    "サンドイッチ",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿１-９-１０ ドエリング恵比寿 １F",
+  "postal_code": "1500013",
+  "tel": "03-3443-7700",
+  "hours": {
+    "mon": {
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6471293,
+    "lng": 139.71100320000005
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000023100/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35489924.jpg"
+  ],
+  "retty_rating": 3.25,
+  "retty_review_count": 9,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.subway.co.jp/index.html"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

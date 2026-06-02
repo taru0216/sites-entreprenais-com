@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000002062",
+  "slug": "store-002062",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:57:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ラ・ブティック・ドゥ・ジョエル・ロブション 恵比寿ガーデンプレイス",
+  "category": "パン屋",
+  "categories": [
+    "パン屋",
+    "ケーキ屋",
+    "カフェ",
+    "サンドイッチ",
+    "チョコレート"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０ 恵比寿ガーデンプレイス シャトーレストラン ジョエル・ロブション B１F",
+  "postal_code": "1500013",
+  "tel": "03-5424-1345",
+  "hours": {
+    "sun": {
+      "open": "09:30",
+      "close": "20:00"
+    },
+    "mon": {
+      "open": "09:30",
+      "close": "20:00"
+    },
+    "tue": {
+      "open": "09:30",
+      "close": "20:00"
+    },
+    "wed": {
+      "open": "09:30",
+      "close": "20:00"
+    },
+    "thu": {
+      "open": "09:30",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "09:30",
+      "close": "20:00"
+    },
+    "sat": {
+      "open": "09:30",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "09:30",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64255806197365,
+    "lng": 139.71396947996396
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000002062/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36978103.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 58,
+  "nearest_station": "n恵比寿駅から徒歩8分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.robuchon.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

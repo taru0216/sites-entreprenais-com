@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001723687",
+  "slug": "store-723687",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:47:20Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "元祖油堂 恵比寿西口店",
+  "category": "油そば",
+  "categories": [
+    "油そば",
+    "ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-１２",
+  "postal_code": "1500022",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64671685325447,
+    "lng": 139.7086512
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001723687/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38874128.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.gift-group.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001248074",
+  "slug": "day-night-248074",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:41:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "DAY & NIGHT",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "ハンバーガー",
+    "サンドイッチ",
+    "ワインバー",
+    "洋食"
+  ],
+  "address": "東京都渋谷区恵比寿２-３９-５ １F",
+  "postal_code": "1500013",
+  "tel": "03-5422-6645",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.644794420315186,
+    "lng": 139.72244669999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001248074/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34601638.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 69,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/dayandnightshirokane"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

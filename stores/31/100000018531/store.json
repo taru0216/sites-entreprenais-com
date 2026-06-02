@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000018531",
+  "slug": "3amours-018531",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:05:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "3amours",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１５-９ DAIYUビルB１F・１F",
+  "postal_code": "1500021",
+  "tel": "03-5459-4333",
+  "hours": {
+    "mon": {
+      "open": "12:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "21:00"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "20:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6482735,
+    "lng": 139.70747289999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000018531/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/23266643.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 15,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://3amours.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

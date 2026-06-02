@@ -1,0 +1,54 @@
+{
+  "retty_id": "100001757527",
+  "slug": "verve-coffee-roasters-ebisu-757527",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:54:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "VERVE COFFEE ROASTERS EBISU",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "コーヒー専門店"
+  ],
+  "address": "東京都渋谷区東３-９-１２ 東ビル １F",
+  "postal_code": "1500011",
+  "tel": "03-6427-5113",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6500069724238,
+    "lng": 139.7117711497202
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001757527/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36916812.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

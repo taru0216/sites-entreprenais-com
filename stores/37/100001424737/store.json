@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001424737",
+  "slug": "hare-gastronomia-424737",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:28:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "HaRe Gastronomia",
+  "category": "イノベーティブ",
+  "categories": [
+    "イノベーティブ",
+    "テイクアウト",
+    "デリバリー・宅配",
+    "イタリアン",
+    "日本料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-９-４ 長谷川力ビル ２F",
+  "postal_code": "1500022",
+  "tel": "03-5704-8852",
+  "hours": {
+    "mon": {
+      "open": "20:30",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "20:30",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "20:30",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "20:30",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "20:30",
+      "close": "21:30"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.645673082627184,
+    "lng": 139.70914982975364
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001424737/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/31204601.jpg"
+  ],
+  "retty_rating": 4.8,
+  "retty_review_count": 12,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.hare-tokyo.jp/",
+    "facebook": "https://www.facebook.com/hare.gastronomia.tokyo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

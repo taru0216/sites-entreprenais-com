@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001584557",
+  "slug": "red-moon-584557",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:58:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "RED MOON",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１２-３",
+  "postal_code": "1500021",
+  "tel": "03-6416-3458",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6476083,
+    "lng": 139.7073193
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001584557/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32671261.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000010641",
+  "slug": "grill-010641",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:53:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Grillマッシュ",
+  "category": "ハンバーグ",
+  "categories": [
+    "ハンバーグ",
+    "ステーキ",
+    "洋食"
+  ],
+  "address": "東京都渋谷区恵比寿１-２１-７ 大谷ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-3444-1555",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6470683,
+    "lng": 139.714739
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000010641/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34387714.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 192,
+  "nearest_station": "【東京：恵比寿駅から徒歩7分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "x": "https://x.com/grillmush"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

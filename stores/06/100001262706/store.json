@@ -1,0 +1,81 @@
+{
+  "retty_id": "100001262706",
+  "slug": "regulier-262706",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:22:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "REGULIER",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ"
+  ],
+  "address": "東京都渋谷区広尾１-４-１０ 鴻貴ビル１階",
+  "postal_code": "1500012",
+  "tel": "03-6450-4455",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 10000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜10000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.6485322,
+    "lng": 139.71378579999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001262706/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37183759.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 15,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://regulier-restaurant.com/",
+    "facebook": "https://www.facebook.com/regulierrestaurant/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "retty_id": "100000745075",
+  "slug": "store-745075",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:54:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "白金バル",
+  "category": "スペイン料理",
+  "categories": [
+    "スペイン料理",
+    "バー",
+    "スペインバル",
+    "バル",
+    "洋食"
+  ],
+  "address": "東京都渋谷区恵比寿３-４９-１",
+  "postal_code": "1500013",
+  "tel": "03-5423-3236",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.644618337182195,
+    "lng": 139.72199742453722
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000745075/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32313535.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 100,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

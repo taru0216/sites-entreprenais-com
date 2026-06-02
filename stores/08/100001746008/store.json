@@ -1,0 +1,87 @@
+{
+  "retty_id": "100001746008",
+  "slug": "store-746008",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:47:31Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 寿司と日本料理 一",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "日本料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１ STM恵比寿ビル ４F",
+  "postal_code": "1500022",
+  "tel": "03-6451-0797",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 30000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜30000円",
+  "geo": {
+    "lat": 35.6461933,
+    "lng": 139.7093671
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001746008/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36417766.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 5,
+  "nearest_station": "nＪＲ恵比寿駅西口から徒歩2分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

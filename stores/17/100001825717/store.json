@@ -1,0 +1,97 @@
+{
+  "retty_id": "100001825717",
+  "slug": "bar-posh-825717",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:12:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "bar POSH",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ワインバー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-７-８ ニューライフ恵比寿 ２０４",
+  "postal_code": "1500022",
+  "tel": "03-5734-1302",
+  "hours": {
+    "sun": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "mon": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "03:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6462101,
+    "lng": 139.7097661
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001825717/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001825717/archive/3983834-69b7aa8dc266e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3983834-69b7aa8dc266e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3983832-69b7aa567354e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3983797-69b7a870b810f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3984179-69b8239ce67f4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3983833-69b7aa79ccc00.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3983829-69b7a9c2b42f0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3984177-69b82374ef1c6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3983830-69b7aa11b5933.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3984178-69b8238b34c22.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001825717/archive/3983831-69b7aa2f7a0cb.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "【恵比寿駅徒歩1分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

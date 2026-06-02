@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001528616",
+  "slug": "store-528616",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:38:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "港新地恵比寿店",
+  "category": "回転寿司",
+  "categories": [
+    "回転寿司"
+  ],
+  "address": "東京都渋谷区恵比寿南１-３-２",
+  "postal_code": "1500022",
+  "tel": "03-6412-7888",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6456331,
+    "lng": 139.7081781
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001528616/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/29397972.jpg"
+  ],
+  "retty_rating": 3.15,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

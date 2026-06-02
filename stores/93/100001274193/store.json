@@ -1,0 +1,94 @@
+{
+  "retty_id": "100001274193",
+  "slug": "store-274193",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:58:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿君嶋屋",
+  "category": "立ち飲み",
+  "categories": [
+    "立ち飲み",
+    "バー",
+    "角打ち",
+    "日本酒バー",
+    "魚介・海鮮料理",
+    "割烹・小料理屋",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-６-１ アトレ恵比寿西館 ４F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8716",
+  "hours": {
+    "sun": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64653757545347,
+    "lng": 139.70965797055226
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001274193/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38182191.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 72,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://kimijimaya.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

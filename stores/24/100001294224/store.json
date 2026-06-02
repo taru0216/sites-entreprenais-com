@@ -1,0 +1,93 @@
+{
+  "retty_id": "100001294224",
+  "slug": "store-294224",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:18:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "アジアン屋台バル クアトロ 恵比寿",
+  "category": "タイ料理",
+  "categories": [
+    "タイ料理",
+    "シンガポール料理",
+    "台湾料理",
+    "パクチー料理",
+    "居酒屋",
+    "エスニック料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-７-８ ニューライフ恵比寿１F",
+  "postal_code": "1500022",
+  "tel": "03-3714-9196",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64629941239476,
+    "lng": 139.70977696686475
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001294224/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35234178.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 16,
+  "nearest_station": "n恵比寿駅西口から徒歩1分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/fishcenter.quattro/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

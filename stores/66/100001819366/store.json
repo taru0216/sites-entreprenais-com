@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001819366",
+  "slug": "store-819366",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:03:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼肉レストラン まちや",
+  "category": "焼肉",
+  "categories": [
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-２ RKF恵比寿 １F",
+  "postal_code": "1500022",
+  "tel": "03-6451-2774",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.645890808447746,
+    "lng": 139.70724536994058
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001819366/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38780300.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": "n恵比寿にある焼肉店。JR恵比寿駅西口から徒歩3分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

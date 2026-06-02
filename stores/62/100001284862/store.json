@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001284862",
+  "slug": "suree-284862",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:38:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Suree",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "カレー"
+  ],
+  "address": "東京都渋谷区東２-２４-４ 荒井ビル２階",
+  "postal_code": "1500011",
+  "tel": "03-3400-1383",
+  "hours": {
+    "sun": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "mon": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "04:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6516842,
+    "lng": 139.70877270000005
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001284862/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/31233666.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 7,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://suree-ebisu.tokyo/",
+    "facebook": "https://www.facebook.com/suree-%E3%82%B9%E3%83%AA%E3%83%BC-330699183611587/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

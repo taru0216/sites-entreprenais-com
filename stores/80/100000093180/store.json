@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000093180",
+  "slug": "store-093180",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:58:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "レストラン コニシ",
+  "category": "洋食",
+  "categories": [
+    "洋食",
+    "喫茶店",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区広尾１-９-２０",
+  "postal_code": "1500012",
+  "tel": "03-3449-8292",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64871571100288,
+    "lng": 139.7164955735161
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000093180/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35683875.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 64,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/pages/%25E3%2583%25AC%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25A9%25E3%2583%25B3-%25E3%2582%25B3%25E3%2583%258B%25E3%2582%25B7/289879064423159"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

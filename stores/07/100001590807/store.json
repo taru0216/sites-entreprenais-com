@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001590807",
+  "slug": "lambu-590807",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:30:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "LambU",
+  "category": "羊肉",
+  "categories": [
+    "羊肉"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-１７ GINZA K２ビル １F",
+  "postal_code": "1500022",
+  "tel": "070-8544-4106",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64654791073871,
+    "lng": 139.70905949384843
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001590807/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36402545.jpg"
+  ],
+  "retty_rating": 4.65,
+  "retty_review_count": 13,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

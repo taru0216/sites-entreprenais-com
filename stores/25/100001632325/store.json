@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001632325",
+  "slug": "citycamp-632325",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:53:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "CityCamp",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１３-３ GOLD３F",
+  "postal_code": "1500022",
+  "tel": "050-3503-5616",
+  "hours": {
+    "sun": {
+      "open": "20:00",
+      "close": "00:00"
+    },
+    "mon": {
+      "open": "20:00",
+      "close": "00:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "00:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "00:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "00:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "00:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "00:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "00:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64549142329387,
+    "lng": 139.7103293463212
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001632325/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/29751767.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/citycamp.jp/",
+    "x": "https://x.com/citycamp_jp"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

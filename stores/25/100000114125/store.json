@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000114125",
+  "slug": "store-114125",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:47:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "いちよう",
+  "category": "弁当屋",
+  "categories": [
+    "弁当屋",
+    "デリバリー・宅配",
+    "デリカテッセン"
+  ],
+  "address": "東京都渋谷区恵比寿２-５-７",
+  "postal_code": "1500013",
+  "tel": "03-3442-1571",
+  "hours": {
+    "mon": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "18:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64740141322441,
+    "lng": 139.71776561165677
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114125/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/19763773.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

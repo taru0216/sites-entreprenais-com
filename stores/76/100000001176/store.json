@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000001176",
+  "slug": "ekao-001176",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:48:13Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ekao",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ワインバー",
+    "ラウンジ",
+    "野菜料理",
+    "洋食"
+  ],
+  "address": "東京都渋谷区東３-２５-６ 楠ビル４０１",
+  "postal_code": "1500011",
+  "tel": "03-5755-5744",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64852763776065,
+    "lng": 139.71011587055227
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000001176/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36198083.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 74,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/ekao0313/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

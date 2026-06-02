@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000013899",
+  "slug": "store-013899",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:17:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サザン ダイニング ラウンジ",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ダイニングバー",
+    "バー",
+    "ラウンジ"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-２ Tナカムラビル ３F",
+  "postal_code": "1500022",
+  "tel": "03-5720-3399",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6455016,
+    "lng": 139.70781740000007
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000013899/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/18721858.jpg"
+  ],
+  "retty_rating": 3.55,
+  "retty_review_count": 14,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

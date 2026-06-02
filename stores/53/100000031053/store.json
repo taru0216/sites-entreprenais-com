@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000031053",
+  "slug": "store-031053",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:45:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "広東料理 龍天門 ウェスティンホテル東京",
+  "category": "広東料理",
+  "categories": [
+    "広東料理"
+  ],
+  "address": "東京都目黒区三田１-４-１ウェスティンホテル東京 ２F",
+  "postal_code": "1530062",
+  "tel": "03-5423-7787",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "14:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "14:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "14:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.641584022875385,
+    "lng": 139.71541819537765
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000031053/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38332666.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 231,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.marriott.com/ja/hotels/tyowi-the-westin-tokyo/overview/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

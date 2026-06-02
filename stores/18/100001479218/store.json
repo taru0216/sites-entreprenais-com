@@ -1,0 +1,87 @@
+{
+  "retty_id": "100001479218",
+  "slug": "store-479218",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:08:06Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "タイ料理 コンロウ 恵比寿店",
+  "category": "タイ料理",
+  "categories": [
+    "タイ料理",
+    "居酒屋",
+    "テイクアウト",
+    "タコス"
+  ],
+  "address": "東京都渋谷区広尾１-１６-１ Ebisu Hiroo Square ２F",
+  "postal_code": "1500012",
+  "tel": "03-6721-9940",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.648598758051875,
+    "lng": 139.7109477895666
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001479218/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32271554.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 31,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/conrowebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "retty_id": "100001524216",
+  "slug": "store-524216",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:34:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "魚見茶寮",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西高麗羅ビル１F",
+  "postal_code": "1500021",
+  "tel": "03-6885-0552",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 15000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜15000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64965748414206,
+    "lng": 139.70757318173193
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001524216/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35940378.jpg"
+  ],
+  "retty_rating": 4.75,
+  "retty_review_count": 7,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/uomisaryo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

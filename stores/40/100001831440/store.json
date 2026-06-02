@@ -1,0 +1,51 @@
+{
+  "retty_id": "100001831440",
+  "slug": "tokyo-curry-stand-831440",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:12:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Tokyo Curry Stand 恵比寿",
+  "category": "",
+  "categories": [],
+  "address": "東京都渋谷区恵比寿南１-２３-５ アメリカンブリッジビル １F",
+  "postal_code": "1500022",
+  "tel": "070-9255-4760",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.644511976621445,
+    "lng": 139.70937068803738
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001831440/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/39068852.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": "恵比寿駅より徒歩5分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

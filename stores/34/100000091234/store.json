@@ -1,0 +1,86 @@
+{
+  "retty_id": "100000091234",
+  "slug": "store-091234",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:14:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "蕎麦処 朝日屋",
+  "category": "そば（蕎麦）",
+  "categories": [
+    "そば（蕎麦）",
+    "丼もの",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-２",
+  "postal_code": "1500022",
+  "tel": "03-3713-8765",
+  "hours": {
+    "mon": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.646442378967,
+    "lng": 139.70921874046
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000091234/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/27371601.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 33,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "x": "https://x.com/ebisu_asahiya"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

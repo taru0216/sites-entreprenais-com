@@ -1,0 +1,93 @@
+{
+  "retty_id": "100000004187",
+  "slug": "store-004187",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:46:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "しお貫",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン",
+    "つけ麺",
+    "味噌ラーメン",
+    "丼もの",
+    "塩ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿３-３-２",
+  "postal_code": "1500013",
+  "tel": "03-6408-1501",
+  "hours": {
+    "mon": {
+      "open": "10:30",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "10:30",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "10:30",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "10:30",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "10:30",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "10:30",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "10:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "10:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6452742,
+    "lng": 139.7179165
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000004187/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38206432.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 177,
+  "nearest_station": "恵比寿駅から徒歩10分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/pages/%E5%87%BD%E9%A4%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3-%E3%81%97%E3%81%8A%E8%B2%AB/145967895438391",
+    "x": "https://x.com/siokan0901"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

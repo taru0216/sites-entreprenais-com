@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000001297",
+  "slug": "2f-001297",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:21:46Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "スターバックスコーヒー アトレ恵比寿2F店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "コーヒー専門店",
+    "テイクアウト",
+    "チョコレート"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿 ２階",
+  "postal_code": "1500022",
+  "tel": "03-5475-8402",
+  "hours": {
+    "sun": {
+      "open": "07:00",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "07:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "07:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "07:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "07:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "07:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "07:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "07:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64620043857476,
+    "lng": 139.7104257345187
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000001297/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34771180.jpg"
+  ],
+  "retty_rating": 3.1,
+  "retty_review_count": 15,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://store.starbucks.co.jp/detail-552/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

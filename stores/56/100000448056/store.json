@@ -1,0 +1,99 @@
+{
+  "retty_id": "100000448056",
+  "slug": "store-448056",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:43:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼肉チャンピオン 恵比寿本店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "ホルモン",
+    "冷麺"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-８ 雨宮ビル １F",
+  "postal_code": "1500022",
+  "tel": "03-5768-6922",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6459426168839,
+    "lng": 139.70781296197106
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000448056/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000448056/archive/998385-5d19b12531c4e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/998385-5d19b12531c4e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/998386-5d19b12fe2177.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/1287886-5dd4aa6c357d2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/998550-5d19c0c5ba247.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/1287910-5dd4aeb81579a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/1287893-5dd4ad27a1477.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/1287907-5dd4ae3ed06c4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/1287891-5dd4ac50a0c11.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448056/archive/1823659-5f4c75d80c4f1.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 257,
+  "nearest_station": "n恵比寿駅、徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.yakiniku-champion.com/jp/honten/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

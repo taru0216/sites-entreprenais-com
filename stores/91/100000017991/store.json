@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000017991",
+  "slug": "bistro-carnesio-017991",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:38:51Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bistro Carnesio",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "ステーキ",
+    "肉バル",
+    "熟成肉",
+    "刺身",
+    "ホルモン",
+    "炭火焼き",
+    "燻製",
+    "洋食",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１-３ 第一ビルB１F",
+  "postal_code": "1500021",
+  "tel": "03-6416-9772",
+  "hours": {
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.648045855223415,
+    "lng": 139.70909091288013
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000017991/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33115043.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 351,
+  "nearest_station": "n駅から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

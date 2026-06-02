@@ -1,0 +1,95 @@
+{
+  "retty_id": "100001820225",
+  "slug": "spincoaster-music-bar-ebisu-820225",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:12:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Spincoaster Music Bar Ebisu",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南３-３-１ VORT恵比寿Ⅳ ４F",
+  "postal_code": "1500022",
+  "tel": "03-6823-9874",
+  "hours": {
+    "sun": {
+      "open": "19:00",
+      "close": "02:00"
+    },
+    "mon": {
+      "open": "19:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "02:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64625928562158,
+    "lng": 139.70482977055227
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001820225/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001820225/archive/3923840-69834fcc11efe.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001820225/archive/3923840-69834fcc11efe.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001820225/archive/3923841-69834fd641c15.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001820225/archive/3923846-69835000cfc53.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001820225/archive/3923850-698350226acba.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "injukuの2号店。恵比寿、代官山駅から徒歩4分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://bar.spincoaster.com/",
+    "facebook": "https://www.facebook.com/spincoasterebisu",
+    "instagram": "https://www.instagram.com/spincoastermusicbarebisu/",
+    "x": "https://x.com/Spincoaster"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "retty_id": "100000114162",
+  "slug": "store-114162",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:55:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ドドンパ弁当本店",
+  "category": "その他",
+  "categories": [
+    "その他"
+  ],
+  "address": "東京都渋谷区広尾１-１２-１５ １１０",
+  "postal_code": "1500012",
+  "tel": "03-3473-7665",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6480182,
+    "lng": 139.71526389999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114162/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/14140098.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000002534",
+  "slug": "8-002534",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:10:31Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "北京ダック専門店 中国茶房8 恵比寿店",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "北京料理",
+    "羊肉",
+    "餃子"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１６-１２ ABC・MAMIESビル ３F",
+  "postal_code": "1500022",
+  "tel": "03-3713-2858",
+  "hours": {
+    "sun": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "mon": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "tue": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "wed": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "thu": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "fri": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "sat": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "holiday": {
+      "open": "00:00",
+      "close": "00:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64454280023999,
+    "lng": 139.70954328774997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000002534/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37130940.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 199,
+  "nearest_station": "n恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.8-duck.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

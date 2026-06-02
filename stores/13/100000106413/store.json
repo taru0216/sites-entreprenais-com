@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000106413",
+  "slug": "store-106413",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:19:31Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ザ・バー ウェスティンホテル東京",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都目黒区三田１-４-１ ウェスティンホテル東京１F",
+  "postal_code": "1530062",
+  "tel": "03-5423-7285",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "24:30"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "24:30"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "24:30"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "24:30"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "24:30"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "24:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "24:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "24:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64158513533103,
+    "lng": 139.71541841473254
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000106413/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26221954.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 22,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.thebartokyo.com/jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000683194",
+  "slug": "store-683194",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:50:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "小料理 久原",
+  "category": "日本料理",
+  "categories": [
+    "日本料理",
+    "魚介・海鮮料理",
+    "テイクアウト",
+    "割烹・小料理屋",
+    "刺身"
+  ],
+  "address": "東京都渋谷区東２-２５-３８",
+  "postal_code": "1500011",
+  "tel": "080-1333-5670",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "13:30"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "13:30"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "13:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "21:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.653565076674234,
+    "lng": 139.70769741962602
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000683194/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37536199.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://k-kuhara.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

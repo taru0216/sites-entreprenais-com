@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000019036",
+  "slug": "masa-s-kitchen-019036",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "MASA'S KITCHEN",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "担々麺",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿１-２１-１３ BPRレジデンス恵比寿 B１",
+  "postal_code": "1500013",
+  "tel": "03-3473-0729",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.64668466147127,
+    "lng": 139.71454532638927
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000019036/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000019036/archive/989111-5d14297ab46e0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/989111-5d14297ab46e0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/1033834-5d3a905145900.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/990480-5d147a6e3db03.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/1033836-5d3a905232a71.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/990481-5d147a71b1baf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/1033833-5d3a905069e40.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/989112-5d14298c8cd32.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/1033831-5d3a904f7b776.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/990483-5d147a7bd5eae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000019036/archive/989129-5d1429c14ee96.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 317,
+  "nearest_station": "nへ。初訪問です。恵比寿駅東口から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.masas-kitchen.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

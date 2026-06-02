@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001551121",
+  "slug": "the-arty-s-bar-551121",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:58:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "The Arty's bar",
+  "category": "洋食",
+  "categories": [
+    "洋食"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-１５ ８F",
+  "postal_code": "1500013",
+  "tel": "03-5860-2836",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6455855,
+    "lng": 139.7113819
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001551121/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26486613.JPG"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

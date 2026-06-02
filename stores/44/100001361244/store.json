@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001361244",
+  "slug": "nouvelle-ethnique-atha-361244",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:14:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Nouvelle Ethnique ATHA",
+  "category": "タイ料理",
+  "categories": [
+    "タイ料理",
+    "バー",
+    "エスニック料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-５ GEMS恵比寿 ６F",
+  "postal_code": "1500013",
+  "tel": "03-5422-8103",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "14:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "14:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "14:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.646298646628125,
+    "lng": 139.71182343816758
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001361244/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001361244/archive/1835636-5f51a06d095d0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/1835636-5f51a06d095d0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/1835639-5f51a095ad2cc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525982-5b87cc84ca9c6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525967-5b87cc4c6c940.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525974-5b87cc643c9fe.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525965-5b87cc463dcf8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525984-5b87ccf9ae6d7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525968-5b87cc4faaa39.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525980-5b87cc7db80a2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525966-5b87cc4983515.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525979-5b87cc79c8d62.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361244/archive/525964-5b87cc42417f4.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 30,
+  "nearest_station": "【恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://atha.favy.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "retty_id": "100001232124",
+  "slug": "store-232124",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:40:26Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "はなゆき",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１２-８ グレースコート B１F",
+  "postal_code": "1500021",
+  "tel": "03-3780-8631",
+  "hours": {
+    "mon": {
+      "open": "10:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64721366543727,
+    "lng": 139.70751395225523
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001232124/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26618218.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 5,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

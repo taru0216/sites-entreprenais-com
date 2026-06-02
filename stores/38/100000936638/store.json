@@ -1,0 +1,55 @@
+{
+  "retty_id": "100000936638",
+  "slug": "store-936638",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:56:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "姫島 恵比寿横丁店",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "バー",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-３ 第一協栄ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-5422-6342",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.648073241783,
+    "lng": 139.71084854749
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000936638/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/4374010.jpg"
+  ],
+  "retty_rating": 3.5,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

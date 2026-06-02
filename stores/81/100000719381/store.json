@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000719381",
+  "slug": "haconiwa-719381",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:20:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "haconiwa",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "バー",
+    "その他"
+  ],
+  "address": "東京都渋谷区恵比寿１-２０-１",
+  "postal_code": "1500013",
+  "tel": "03-5422-7928",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6469405,
+    "lng": 139.7124753
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000719381/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36250416.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 19,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/DiningCafeBarNiwa/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

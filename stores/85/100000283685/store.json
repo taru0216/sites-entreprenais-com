@@ -1,0 +1,103 @@
+{
+  "retty_id": "100000283685",
+  "slug": "store-283685",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "クンビラ",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "ネパール料理",
+    "鍋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-９-１１",
+  "postal_code": "1500022",
+  "tel": "03-3719-6115",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.645835318626204,
+    "lng": 139.70886048465582
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000283685/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000283685/archive/2110839-5fbdbd86cad04.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110839-5fbdbd86cad04.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110816-5fbdbd706a4b7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110881-5fbdbdae13a4f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110787-5fbdbd539d881.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110838-5fbdbd8575132.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110754-5fbdbd312355b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110848-5fbdbd8f147ee.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110789-5fbdbd55410f4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110796-5fbdbd5a99388.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110752-5fbdbd2fad3a8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110850-5fbdbd905bdde.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000283685/archive/2110794-5fbdbd5933842.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 162,
+  "nearest_station": "恵比寿駅西口から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.khumbila.com/",
+    "x": "https://x.com/KhumbilaNepal"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

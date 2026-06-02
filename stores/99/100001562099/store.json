@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001562099",
+  "slug": "withgreen-562099",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:41:06Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サラダボウル専門店 WithGreen 恵比寿店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿１-９-５恵比寿STビル１０１",
+  "postal_code": "1500013",
+  "tel": "03-6721-6002",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.646997159249594,
+    "lng": 139.71112466994057
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001562099/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36637633.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 6,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://withgreen.club"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

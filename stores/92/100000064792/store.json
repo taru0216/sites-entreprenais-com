@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000064792",
+  "slug": "store-064792",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:09:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ワイン&野菜 高橋さん",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-２ 恵比寿横丁",
+  "postal_code": "1500013",
+  "tel": "非公開",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64825994489757,
+    "lng": 139.71063833527614
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000064792/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26805017.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 19,
+  "nearest_station": "JR山手線恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.ebisu-yokocho.com/top.html"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001417815",
+  "slug": "barcaronero-417815",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:03:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BarCaroNero",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "イタリアンバル",
+    "パスタ",
+    "ワインバル"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-６ ブラッサムZEN １F",
+  "postal_code": "1500021",
+  "tel": "03-6277-5788",
+  "hours": {
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6474275,
+    "lng": 139.70775130000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001417815/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001417815/archive/2567526-61aef8cc16bbf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2567526-61aef8cc16bbf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2830223-630e181b175e5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2266238-60472e6802134.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2286424-605d9fd0b22f8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/1468816-5e4cf1ff02f52.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/674054-5c39609834355.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2830225-630e182b4f492.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2286421-605d9fc363be9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/1468822-5e4cf26bf3931.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2830228-630e1839976d8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2286423-605d9fc8db983.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 19,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

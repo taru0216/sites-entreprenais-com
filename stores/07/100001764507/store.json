@@ -1,0 +1,82 @@
+{
+  "retty_id": "100001764507",
+  "slug": "store-764507",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:35:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "八宝亭 恵比寿店",
+  "category": "餃子",
+  "categories": [
+    "餃子"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-１２ サトウビル １F",
+  "postal_code": "1500022",
+  "tel": "03-5724-3091",
+  "hours": {
+    "sun": {
+      "open": "15:00",
+      "close": "03:00"
+    },
+    "mon": {
+      "open": "15:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.646013431030894,
+    "lng": 139.70733654355124
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001764507/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38812883.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 8,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

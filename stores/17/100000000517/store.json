@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000000517",
+  "slug": "dal-matto-000517",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ダルマット 恵比寿店 DAL-MATTO",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "洋食"
+  ],
+  "address": "東京都渋谷区恵比寿西２-７-８ Sリトリート １F・B１F",
+  "postal_code": "1500021",
+  "tel": "03-3780-9955",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "15:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 6000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜6000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.65040384271678,
+    "lng": 139.70697075060298
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000517/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000000517/archive/1084964-5d6637f07f311.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/1084964-5d6637f07f311.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/1848323-5f59cf10e072d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/1084939-5d663407cb59c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/805068-5c9da530cde6b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/780594-5c946db91dfa6.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/3101171-64ad042c4c9eb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/1084941-5d66346bb4aa4.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/2099861-5fb4ca5fd740c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/1084930-5d663268e0e35.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/2234314-602cbe4ae0978.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/806013-5c9deae833e2b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000517/archive/855698-5cb33674a5eab.JPG"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 199,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.dal-matto.com/",
+    "facebook": "https://www.facebook.com/ebisudalmatto/",
+    "instagram": "https://www.instagram.com/ebisudalmatto/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

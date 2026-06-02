@@ -1,0 +1,86 @@
+{
+  "retty_id": "100000114862",
+  "slug": "matahari-114862",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:47:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "MATAHARI",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-３ マツダイビル３F",
+  "postal_code": "1500022",
+  "tel": "03-6682-2725",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "18:00",
+      "close": "24:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6465682,
+    "lng": 139.7087312
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114862/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/165684.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

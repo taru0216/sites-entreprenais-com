@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001738663",
+  "slug": "store-738663",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:07:57Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "串 ポロ衛門 恵比寿",
+  "category": "串カツ・串揚げ",
+  "categories": [
+    "串カツ・串揚げ"
+  ],
+  "address": "東京都渋谷区恵比寿西２-８-４ EX恵比寿西ビル １F",
+  "postal_code": "1500021",
+  "tel": "03-6712-7119",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6496999137197,
+    "lng": 139.7075610064574
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001738663/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35377074.jpg"
+  ],
+  "retty_rating": 3.5,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

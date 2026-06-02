@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000819244",
+  "slug": "store-819244",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:45:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 ガパオ食堂",
+  "category": "タイ料理",
+  "categories": [
+    "タイ料理",
+    "カレー",
+    "パクチー料理",
+    "テイクアウト",
+    "カフェ",
+    "焼きそば"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-１ 恵比寿大森ビル ２F",
+  "postal_code": "1500022",
+  "tel": "03-3712-0222",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64595293895994,
+    "lng": 139.70731837055223
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000819244/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36843980.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 188,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.gapao-shokudo.com/",
+    "facebook": "https://www.facebook.com/ebisu.gapaoshokudo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

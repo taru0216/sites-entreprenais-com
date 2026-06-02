@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001504623",
+  "slug": "antico-caffe-al-avis-504623",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:02:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ANTICO CAFFE AL AVIS",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿 １F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8483",
+  "hours": {
+    "sun": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "07:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.646779814353756,
+    "lng": 139.71017572944777
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001504623/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33695430.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 20,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.anticocaffe.ne.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

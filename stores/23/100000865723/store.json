@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000865723",
+  "slug": "store-865723",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:15:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サンシャインジュース 恵比寿店",
+  "category": "テイクアウト",
+  "categories": [
+    "テイクアウト",
+    "自然食",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿１-５-８ 初鹿野ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-6277-3122",
+  "hours": {
+    "mon": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "tue": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "wed": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "thu": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "sun": {
+      "open": "09:00",
+      "close": "19:00"
+    },
+    "sat": {
+      "open": "09:00",
+      "close": "19:00"
+    },
+    "holiday": {
+      "open": "09:00",
+      "close": "19:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64717898383021,
+    "lng": 139.71137867341326
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000865723/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/11350446.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 40,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://sunshinejuice.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

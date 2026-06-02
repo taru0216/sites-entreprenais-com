@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001575173",
+  "slug": "store-575173",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:27:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "卸 新宿食肉センター 極 恵比寿店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-９ グランベル恵比寿 ２F",
+  "postal_code": "1500013",
+  "tel": "03-6721-7110",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "17:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "17:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "17:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "17:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "17:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "17:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "17:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "17:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64640985449341,
+    "lng": 139.71135539017834
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001575173/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001575173/archive/3952299-699e3db1a98bc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952299-699e3db1a98bc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952300-699e3ddab1e54.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952301-699e3ed5093ae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/2420642-60e7b1e295749.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952302-699e3ef55f8b5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/2420630-60e7b15b603d9.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952303-699e3f13e4af0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952304-699e3f2ced4fb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952305-699e3f43decd5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952306-699e3f5b0a10b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952307-699e3f7870fa9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001575173/archive/3952308-699e3f92eab23.jpg"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 6,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.post.co.jp/store/ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

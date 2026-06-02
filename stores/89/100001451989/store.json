@@ -1,0 +1,59 @@
+{
+  "retty_id": "100001451989",
+  "slug": "mat-coffee-451989",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:24:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "MAT COFFEE",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "ケーキ屋",
+    "ハンバーガー",
+    "バー",
+    "タコス"
+  ],
+  "address": "東京都渋谷区東２-２１-８",
+  "postal_code": "1500011",
+  "tel": "03-6427-6151",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.65362276061453,
+    "lng": 139.7086516312828
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001451989/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/27070251.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 10,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/matcoffeeshibuya/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

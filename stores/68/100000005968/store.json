@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000005968",
+  "slug": "store-005968",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:42:02Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "うどん 山長",
+  "category": "うどん",
+  "categories": [
+    "うどん",
+    "割烹・小料理屋",
+    "天ぷら",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿１-１-５ 恵比寿オークビル １F",
+  "postal_code": "1500013",
+  "tel": "03-3443-1701",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64830058777446,
+    "lng": 139.71111719969417
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000005968/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38136043.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 788,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

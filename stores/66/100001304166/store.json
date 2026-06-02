@@ -1,0 +1,78 @@
+{
+  "retty_id": "100001304166",
+  "slug": "store-304166",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:17:55Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "たつや 地下店",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１ STM恵比寿ビルB１",
+  "postal_code": "1500022",
+  "tel": "03-3710-5844",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.646252069573094,
+    "lng": 139.70930663158867
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001304166/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/30259256.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 22,
+  "nearest_station": "恵比寿駅西口から徒歩2分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

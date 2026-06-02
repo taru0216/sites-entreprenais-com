@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000000185",
+  "slug": "store-000185",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:52:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "板蕎麦 香り家 恵比寿店",
+  "category": "そば（蕎麦）",
+  "categories": [
+    "そば（蕎麦）",
+    "割烹・小料理屋",
+    "居酒屋",
+    "日本料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-３-１０ 中出センチュリーパーク １F",
+  "postal_code": "1500013",
+  "tel": "03-3449-8498",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.645727663552854,
+    "lng": 139.7119926527613
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000185/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36748704.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 729,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

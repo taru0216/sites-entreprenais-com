@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000863469",
+  "slug": "store-863469",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:43:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "エムハウス",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２３-１３ MERCER BLDG.",
+  "postal_code": "1500013",
+  "tel": "03-3441-7551",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6446353,
+    "lng": 139.71541679999996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000863469/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/28032252.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 344,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.merceroffice.com"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "retty_id": "100000878883",
+  "slug": "store-878883",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:47:23Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "上越やすだ 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "とんかつ",
+    "魚介・海鮮料理",
+    "和食",
+    "日本酒バー",
+    "テイクアウト",
+    "デリバリー・宅配",
+    "刺身",
+    "カレー",
+    "豚料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１４-１０ 福隆ビル１F",
+  "postal_code": "1500022",
+  "tel": "03-6452-3707",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.64496886952018,
+    "lng": 139.709933119626
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000878883/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000878883/archive/669931-5c342a1b3b05c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/669931-5c342a1b3b05c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/541603-5ba1b9c223c3c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/695575-5c5533eb726f8.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/541500-5ba1b29eda95f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/541497-5ba1b2991f517.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/982288-5d0dcf166a956.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/541498-5ba1b29b1f9a2.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/685590-5c4f1dd3eb76a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/541475-5ba1b26370d93.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/541441-5ba1b221834f8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/541495-5ba1b294ee5f6.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000878883/archive/541451-5ba1b232ce406.png"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 105,
+  "nearest_station": "恵比寿駅徒歩4分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.joetsu-yasuda-ebisu.com/",
+    "facebook": "https://www.facebook.com/YasudaEbisu/",
+    "x": "https://x.com/ ebisuyasuda"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

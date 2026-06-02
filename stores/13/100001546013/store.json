@@ -1,0 +1,98 @@
+{
+  "retty_id": "100001546013",
+  "slug": "bar-546013",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:58:20Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar 梟ーフクロウー",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１４-６ HAGIWARABLDG.６ ７階",
+  "postal_code": "1500021",
+  "tel": "03-6416-5959",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64773953630697,
+    "lng": 139.70756859285498
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001546013/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001546013/archive/2832908-63107df1ca2de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832908-63107df1ca2de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832919-6310811b02e5b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832829-631078daf0255.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832830-631078dc0c90d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832835-631078e43bbaa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832833-631078e14d08e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832831-631078df01e67.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832887-63107ab3af548.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832877-63107a8e19f2f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546013/archive/2832945-63108c72a8e5c.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/bar_fukurou_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

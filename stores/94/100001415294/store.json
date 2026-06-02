@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001415294",
+  "slug": "store-415294",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:48:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "東京ボンベイ 恵比寿本店",
+  "category": "カレー",
+  "categories": [
+    "カレー",
+    "インド料理",
+    "テイクアウト",
+    "インドカレー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２３-１ ABC亜米利加橋ビル １F",
+  "postal_code": "1500022",
+  "tel": "03-6452-3365",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "21:30"
+    },
+    "mon": {
+      "open": "11:30",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "21:30"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "21:30"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "21:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6433742,
+    "lng": 139.71171430000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001415294/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001415294/archive/2237953-602e4595c4c2c.PNG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2237953-602e4595c4c2c.PNG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2273863-604d97b841c0d.PNG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2273862-604d97b659ba9.PNG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2238140-602e4f058b84a.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2238148-602e4f194904d.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2238153-602e5019c0f9e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2238149-602e4f1a65119.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2238141-602e4f071c23c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2238142-602e4f089a473.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001415294/archive/2238139-602e4f03c089f.jpeg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 72,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://curryhouse-bombay.com/",
+    "facebook": "https://www.facebook.com/curryhouse.bombay/",
+    "x": "https://x.com/curry_bombay"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

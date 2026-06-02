@@ -1,0 +1,93 @@
+{
+  "retty_id": "100000013043",
+  "slug": "store-013043",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:43:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "えびすの安兵衛",
+  "category": "餃子",
+  "categories": [
+    "餃子",
+    "居酒屋",
+    "テイクアウト",
+    "屋台",
+    "ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-１５ 萩原ビル５ １F",
+  "postal_code": "1500013",
+  "tel": "03-3445-3008",
+  "hours": {
+    "mon": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64560408007333,
+    "lng": 139.71469266902304
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000013043/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36601562.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 323,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://mfc-group.jp/yasube/",
+    "facebook": "https://www.facebook.com/yataigyouzayasube/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

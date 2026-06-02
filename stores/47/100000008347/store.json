@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000008347",
+  "slug": "store-008347",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:44:24Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サカバ ゑびす堂 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "ビストロ",
+    "テイクアウト",
+    "バル",
+    "刺身",
+    "焼き鳥",
+    "鶏料理"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-５ 銀座ボークビル１F",
+  "postal_code": "1500022",
+  "tel": "03-5722-2889",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64577657542754,
+    "lng": 139.70713321196263
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000008347/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35981810.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 250,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

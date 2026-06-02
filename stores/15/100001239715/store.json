@@ -1,0 +1,93 @@
+{
+  "retty_id": "100001239715",
+  "slug": "wine-restaurant-lovat-239715",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:48:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "WINE RESTAURANT LOVAT",
+  "category": "ワインバル",
+  "categories": [
+    "ワインバル",
+    "イタリアン",
+    "ステーキ",
+    "ハンバーグ",
+    "洋食"
+  ],
+  "address": "東京都渋谷区東３-１６-６ １F",
+  "postal_code": "1500011",
+  "tel": "03-6427-9490",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.649292910585494,
+    "lng": 139.71066998793242
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001239715/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36981358.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 58,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.lovat.jp/",
+    "instagram": "https://www.instagram.com/lovat.ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

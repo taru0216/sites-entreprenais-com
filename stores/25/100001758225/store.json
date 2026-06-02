@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001758225",
+  "slug": "tratt-ushigoro-758225",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "TRATT. USHIGORO 恵比寿店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１８-９ タイムゾーンヒルトップビル ２F",
+  "postal_code": "1500022",
+  "tel": "03-3760-1129",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.644800273139566,
+    "lng": 139.7106892797623
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001758225/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38092421.jpg"
+  ],
+  "retty_rating": 4.8,
+  "retty_review_count": 17,
+  "nearest_station": "n恵比寿にある焼肉店。JR恵比寿駅西口から徒歩4分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "retty_id": "100000810411",
+  "slug": "industrial-lounge-205-810411",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:09:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "INDUSTRIAL LOUNGE 205",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ラウンジ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-２ 恵比寿ウエストパレスビル ２０５",
+  "postal_code": "1500021",
+  "tel": "03-3461-1989",
+  "hours": {
+    "tue": {
+      "open": "21:00",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "21:00",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "21:00",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "21:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "21:00",
+      "close": "26:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.647735576317906,
+    "lng": 139.70822464019773
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000810411/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/22915676.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 12,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://renovationplanning.co.jp/portfolio_page/industrial-lounge-205",
+    "facebook": "https://www.facebook.com/pages/Industrial-Lounge/516747805077988"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

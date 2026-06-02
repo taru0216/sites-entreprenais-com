@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001335232",
+  "slug": "store-335232",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:47:40Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 希鳥",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "ワインバー",
+    "居酒屋",
+    "鶏料理"
+  ],
+  "address": "東京都渋谷区恵比寿西１-２-７ 恵比寿U・KビルB１",
+  "postal_code": "1500021",
+  "tel": "03-5784-2355",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "14:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.6482464,
+    "lng": 139.70887349999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001335232/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001335232/archive/1223761-5db86760c75d9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001335232/archive/1223761-5db86760c75d9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001335232/archive/1223762-5db8676fd0aa3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001335232/archive/983612-5d1093fe24453.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001335232/archive/271779-59a79e1e7e2d4.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001335232/archive/271782-59a79f0932bf0.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001335232/archive/311684-5a01dfda940a5.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001335232/archive/271785-59a7a01cc0bd8.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001335232/archive/2335952-608540bada690.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 72,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://kicho.jp/",
+    "facebook": "https://www.facebook.com/KichoYAKITORI/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "retty_id": "100001592223",
+  "slug": "misoup-kyoto-592223",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:05:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "MISOUP KYOTO 恵比寿店",
+  "category": "和食",
+  "categories": [
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿１-２０-１ 恵比寿コンフォート ３F",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {
+    "mon": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "16:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.646909627546606,
+    "lng": 139.71244710644004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001592223/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/27650339.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

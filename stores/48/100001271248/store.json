@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001271248",
+  "slug": "store-271248",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:52:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "シェイクシャック アトレ恵比寿店",
+  "category": "ハンバーガー",
+  "categories": [
+    "ハンバーガー",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿南１-６-１ １F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8546",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64651430592349,
+    "lng": 139.7096471073403
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001271248/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33966456.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 335,
+  "nearest_station": "n恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://shakeshack.com/location/ebisu-atre-west-tokyo",
+    "facebook": "https://www.facebook.com/shakeshack",
+    "x": "https://x.com/shakeshack"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

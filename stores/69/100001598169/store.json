@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001598169",
+  "slug": "store-598169",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:30:16Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鮨 利﨑 恵比寿",
+  "category": "寿司",
+  "categories": [
+    "寿司"
+  ],
+  "address": "東京都渋谷区東３-２５-６ 楠ビル ３F",
+  "postal_code": "1500011",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "20:30",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "20:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "20:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "20:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "20:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "20:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "20:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "20:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.648503438751185,
+    "lng": 139.71011969294827
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001598169/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34172091.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 10,
+  "nearest_station": "nJR線・恵比寿駅より徒歩2分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

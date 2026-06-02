@@ -1,0 +1,95 @@
+{
+  "retty_id": "100001236252",
+  "slug": "store-236252",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:00:23Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "牡蠣とシャンパン 牡蠣ベロ",
+  "category": "オイスターバー",
+  "categories": [
+    "オイスターバー",
+    "居酒屋",
+    "ビストロ",
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-１０ ハイライフ恵比寿１F",
+  "postal_code": "1500013",
+  "tel": "03-6450-2500",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "27:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6481069,
+    "lng": 139.71042269999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001236252/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001236252/archive/3147319-650926aa9ac71.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147319-650926aa9ac71.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147317-650926a8aded6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147309-650926a29f1a0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147304-650926a083e92.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147316-650926a80c434.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147305-650926a127137.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147313-650926a5960bf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147314-650926a67fe9c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147300-6509269f0f502.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001236252/archive/3147306-650926a14163b.jpg"
+  ],
+  "retty_rating": 3.55,
+  "retty_review_count": 39,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

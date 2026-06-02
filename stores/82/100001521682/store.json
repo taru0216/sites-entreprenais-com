@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001521682",
+  "slug": "store-521682",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:04:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "イルチェーロ 恵比寿",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ステーキ",
+    "ワインバー"
+  ],
+  "address": "東京都渋谷区東３-１５-９桑原ビル１F",
+  "postal_code": "1500011",
+  "tel": "03-6803-8172",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.650185,
+    "lng": 139.70970620000003
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001521682/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/29970846.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 18,
+  "nearest_station": "nJR線・恵比寿駅より徒歩5分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/il_cielo_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

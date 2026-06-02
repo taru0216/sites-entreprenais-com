@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001517098",
+  "slug": "craft-beer-bar-ibrew-517098",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:00:06Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "CRAFT BEER BAR IBREW",
+  "category": "ビアバー・ビアホール",
+  "categories": [
+    "ビアバー・ビアホール",
+    "居酒屋",
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１ STM恵比寿ビル B２F",
+  "postal_code": "1500022",
+  "tel": "03-6451-2048",
+  "hours": {
+    "sun": {
+      "open": "13:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "13:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "13:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "13:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "13:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "13:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "13:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6461933,
+    "lng": 139.7093671
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001517098/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37344964.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 29,
+  "nearest_station": "恵比寿駅から徒歩1分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/CraftBeerBarIBREWebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

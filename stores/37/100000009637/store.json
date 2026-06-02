@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000009637",
+  "slug": "store-009637",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:53:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "アンクルトム",
+  "category": "パスタ",
+  "categories": [
+    "パスタ",
+    "イタリアン",
+    "魚介・海鮮料理",
+    "たいやき"
+  ],
+  "address": "東京都渋谷区恵比寿１-１４-７ 山本ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-3442-1934",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "11:45",
+      "close": "14:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6476348,
+    "lng": 139.711817
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000009637/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38657255.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 236,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.uncletomspaghetti.com",
+    "x": "https://x.com/ebisuuncletom"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

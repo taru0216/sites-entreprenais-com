@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000115192",
+  "slug": "jan-ken-pon-115192",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:56:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "JAN KEN PON",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "居酒屋",
+    "カレー",
+    "お好み焼き"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-５ ユニカムビル",
+  "postal_code": "1500022",
+  "tel": "03-3719-6303",
+  "hours": {
+    "sun": {
+      "open": "18:30",
+      "close": "01:30"
+    },
+    "mon": {
+      "open": "18:30",
+      "close": "01:30"
+    },
+    "tue": {
+      "open": "18:30",
+      "close": "01:30"
+    },
+    "wed": {
+      "open": "18:30",
+      "close": "01:30"
+    },
+    "thu": {
+      "open": "18:30",
+      "close": "01:30"
+    },
+    "fri": {
+      "open": "18:30",
+      "close": "01:30"
+    },
+    "sat": {
+      "open": "18:30",
+      "close": "01:30"
+    },
+    "holiday": {
+      "open": "18:30",
+      "close": "01:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6463849,
+    "lng": 139.7090812
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000115192/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33855343.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ebisu-jankenpon.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

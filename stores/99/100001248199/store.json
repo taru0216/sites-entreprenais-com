@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001248199",
+  "slug": "store-248199",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:01:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ドランカー 恵比寿店",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ"
+  ],
+  "address": "東京都渋谷区恵比寿２-１１-６グランデュオ恵比寿ビル１階",
+  "postal_code": "1500013",
+  "tel": "03-5422-8911",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6455352,
+    "lng": 139.71758599999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001248199/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36855342.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 31,
+  "nearest_station": "nJR線・恵比寿駅より徒歩8分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/Drunkard-%E6%81%B5%E6%AF%94%E5%AF%BF%E5%BA%97-491721940988540/",
+    "instagram": "https://www.instagram.com/drunkard_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

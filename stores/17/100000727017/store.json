@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000727017",
+  "slug": "ebisu-727017",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:30:58Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "お茶の子菜々 EBISU",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "居酒屋",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿１-４-５ ２F",
+  "postal_code": "1500013",
+  "tel": "03-5789-3749",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "sun": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "26:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64749434867585,
+    "lng": 139.7115712363044
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000727017/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26112398.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 9,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

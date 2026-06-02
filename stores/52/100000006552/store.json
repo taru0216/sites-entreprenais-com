@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000006552",
+  "slug": "store-006552",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:53:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "えびすジンギスカン 海月",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-１３ エムロード戸田１F",
+  "postal_code": "1500021",
+  "tel": "03-3770-2205",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6476375,
+    "lng": 139.70821449999994
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000006552/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000006552/archive/3641295-685820fdd9c69.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641295-685820fdd9c69.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3635022-684fa28bbea4f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641287-685820f824fbd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/1883176-5f72ca42185d0.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3635023-684fa29030923.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641294-685820fd30bd4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641371-685821352e803.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641368-68582132ea18c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641363-6858212f419a7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637588-685275a72eb14.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641293-685820fc7464e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641284-685820f5eeec6.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 124,
+  "nearest_station": "【恵比寿駅西口から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/ebisu.jingisukan.kurage/?igshid=YmMyMTA2M2Y%3D#"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

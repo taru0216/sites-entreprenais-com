@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001575472",
+  "slug": "1dl-575472",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:39:12Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "1dL イチデシリットル",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー"
+  ],
+  "address": "東京都目黒区三田１-１３-４ 恵比寿ガーデンプレイス ブリックエンド",
+  "postal_code": "1530062",
+  "tel": "03-6409-6851",
+  "hours": {
+    "sun": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.641615550457374,
+    "lng": 139.7131904490738
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001575472/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36962232.jpg"
+  ],
+  "retty_rating": 4.75,
+  "retty_review_count": 5,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://gardenplace.jp/sp/shop/detail.php?id=325"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

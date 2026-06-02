@@ -1,0 +1,57 @@
+{
+  "retty_id": "100001742878",
+  "slug": "lila-vino-e-cibo-742878",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:08:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Lila vino e cibo",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿３-３０-１２Mercury EBISU ２F",
+  "postal_code": "1500013",
+  "tel": "03-6277-4556",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 8000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜8000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.642881,
+    "lng": 139.7158805
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001742878/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38764646.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://lila-vino.com/",
+    "instagram": "https://www.instagram.com/lila_vino_e_cibo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

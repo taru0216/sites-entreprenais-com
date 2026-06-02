@@ -1,0 +1,84 @@
+{
+  "retty_id": "100001682782",
+  "slug": "fabulous-682782",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:12:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "FABULOUS",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-１０ 木村ビル ２F",
+  "postal_code": "1500021",
+  "tel": "03-6427-0499",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "sun": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.647350388703124,
+    "lng": 139.70846949999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001682782/",
+  "retty_photos": [
+    "https://retty.me/images/icon.png"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/fabulous.ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

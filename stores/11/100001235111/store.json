@@ -1,0 +1,78 @@
+{
+  "retty_id": "100001235111",
+  "slug": "cafe-235111",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:23:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "茶菜CAFE 謝謝",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "デリバリー・宅配",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１０",
+  "postal_code": "1500013",
+  "tel": "03-6721-6720",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "20:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "20:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "20:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.646585932749645,
+    "lng": 139.71409072875974
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001235111/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33442071.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 16,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/pg/%25E8%258C%25B6%25E8%258F%259Ccafe-%25E8%25AC%259D%25E8%25AC%259D-104708299884233/about/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

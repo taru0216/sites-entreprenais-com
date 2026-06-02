@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001446445",
+  "slug": "as-always-446445",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:43:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "as always",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区東３-２０-８ オリエンタルビル",
+  "postal_code": "1500011",
+  "tel": "03-6419-3039",
+  "hours": {
+    "sun": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.649904985795644,
+    "lng": 139.70905348526742
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001446445/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36693572.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/as-always-712460739086218/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

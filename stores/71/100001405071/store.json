@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001405071",
+  "slug": "ku-fuku-405071",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:22:20Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Ku-Fuku",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "和食",
+    "テイクアウト",
+    "そば（蕎麦）"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-１５",
+  "postal_code": "1500013",
+  "tel": "03-6721-9773",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "26:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.645629870579434,
+    "lng": 139.7146691783131
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001405071/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/25012165.jpg"
+  ],
+  "retty_rating": 3.2,
+  "retty_review_count": 11,
+  "nearest_station": "恵比寿駅東口から徒歩5分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://oxxs.tokyo/ku-fuku",
+    "facebook": "https://www.facebook.com/ku.fuku.tokyo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

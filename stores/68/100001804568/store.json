@@ -1,0 +1,54 @@
+{
+  "retty_id": "100001804568",
+  "slug": "store-804568",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:10:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "並木橋みりん",
+  "category": "日本料理",
+  "categories": [
+    "日本料理",
+    "創作料理"
+  ],
+  "address": "東京都渋谷区東２-２３-８ ふじビル １F",
+  "postal_code": "1500011",
+  "tel": "03-6427-7090",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.65312160000001,
+    "lng": 139.7085287
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001804568/",
+  "retty_photos": [
+    "https://retty.me/images/icon.png"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001494319",
+  "slug": "store-494319",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:09:02Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ブルーボトルコーヒー 恵比寿カフェ",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿本館 １F",
+  "postal_code": "1500022",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "08:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64678008680768,
+    "lng": 139.71017673527615
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001494319/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/23462988.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 19,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://store.bluebottlecoffee.jp/",
+    "facebook": "https://www.facebook.com/bluebottlecoffee",
+    "instagram": "https://www.instagram.com/bluebottlejapan/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

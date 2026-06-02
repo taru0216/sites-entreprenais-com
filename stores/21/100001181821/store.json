@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001181821",
+  "slug": "horisty-181821",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:56:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "酵素野菜horisty",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "和食",
+    "バー",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿西１",
+  "postal_code": "1500021",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "19:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "19:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.647918140055,
+    "lng": 139.70719057505107
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001181821/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26024530.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 68,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://horisty.officialsite.co"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

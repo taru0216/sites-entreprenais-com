@@ -1,0 +1,85 @@
+{
+  "retty_id": "100001444083",
+  "slug": "store-444083",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:51:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "小泉料理店",
+  "category": "ワインバル",
+  "categories": [
+    "ワインバル"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１０-１２",
+  "postal_code": "1500021",
+  "tel": "03-6455-2588",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.646832,
+    "lng": 139.7074341
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001444083/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37280249.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 20,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/Ryori10k/",
+    "instagram": "https://www.instagram.com/koizumi_ryoriten/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

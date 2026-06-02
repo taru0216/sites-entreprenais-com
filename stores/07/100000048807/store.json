@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000048807",
+  "slug": "store-048807",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:10:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "たこえびす",
+  "category": "鉄板焼き",
+  "categories": [
+    "鉄板焼き",
+    "たこ焼き",
+    "テイクアウト",
+    "ステーキ",
+    "お好み焼き"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１０ １階",
+  "postal_code": "1500013",
+  "tel": "03-3447-6824",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64644555699602,
+    "lng": 139.71420411962617
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000048807/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/30014735.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 149,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.takoebisu.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

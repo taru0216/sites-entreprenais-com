@@ -1,0 +1,80 @@
+{
+  "retty_id": "100000810708",
+  "slug": "reborn-810708",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:51:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "REBORN",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "カフェ",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿２-３８-１２ 高木ビル １F",
+  "postal_code": "1500013",
+  "tel": "03-5421-0111",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64497168367418,
+    "lng": 139.72206094288754
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000810708/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/5781767.jpg"
+  ],
+  "retty_rating": 3.5,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

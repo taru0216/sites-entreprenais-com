@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000874029",
+  "slug": "store-874029",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:00:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "写真集食堂 めぐたま",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "居酒屋",
+    "ダイニングバー",
+    "ソフトクリーム"
+  ],
+  "address": "東京都渋谷区東３-２-７ １F",
+  "postal_code": "1500011",
+  "tel": "03-6805-1838",
+  "hours": {
+    "tue": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.65189225500756,
+    "lng": 139.71296476506586
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000874029/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35280948.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 45,
+  "nearest_station": "n恵比寿駅から徒歩10分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://megutama.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

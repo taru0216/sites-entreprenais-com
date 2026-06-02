@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000173246",
+  "slug": "store-173246",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:55:09Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "蔭山樓 恵比寿店",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "フレンチ",
+    "塩ラーメン",
+    "ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿３-２-２",
+  "postal_code": "1500013",
+  "tel": "03-6277-0602",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64532131539214,
+    "lng": 139.7174412846731
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000173246/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26546180.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 106,
+  "nearest_station": "nどちらの駅から徒歩10分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.kageyamarou.com/brand/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

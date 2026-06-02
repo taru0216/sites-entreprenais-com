@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001444006",
+  "slug": "store-444006",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:49:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鮨よしかわ",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "魚介・海鮮料理",
+    "居酒屋",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿１-６-３ ゼネラル恵比寿イスト１F",
+  "postal_code": "1500013",
+  "tel": "03-6450-4667",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64787654490018,
+    "lng": 139.7111382039933
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001444006/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35404827.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 56,
+  "nearest_station": "n恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

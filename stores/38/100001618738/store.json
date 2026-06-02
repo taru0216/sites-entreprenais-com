@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001618738",
+  "slug": "hamburgirl-618738",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:46:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "HamburGirl",
+  "category": "ハンバーガー",
+  "categories": [
+    "ハンバーガー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-１２ 岩徳ビルⅡ ２F",
+  "postal_code": "1500022",
+  "tel": "03-6452-3771",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "16:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64616780681981,
+    "lng": 139.7084949432801
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001618738/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33136852.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 4,
+  "nearest_station": "恵比寿駅徒歩3分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

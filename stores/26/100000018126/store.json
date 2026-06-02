@@ -1,0 +1,80 @@
+{
+  "retty_id": "100000018126",
+  "slug": "store-018126",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:48:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "縄のれん",
+  "category": "立ち飲み",
+  "categories": [
+    "立ち飲み",
+    "ホルモン",
+    "刺身",
+    "串焼き",
+    "焼きそば"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-４ Diビル１F",
+  "postal_code": "1500021",
+  "tel": "03-3496-2919",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6475458,
+    "lng": 139.70848950000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000018126/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38539748.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 94,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/pages/%E7%B8%84%E3%81%AE%E3%82%8C%E3%82%93/146936612017253"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

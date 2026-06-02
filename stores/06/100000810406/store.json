@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000810406",
+  "slug": "store-810406",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:58:43Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼き鳥 ゑびす 本店",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "居酒屋",
+    "鶏料理",
+    "からあげ"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-１ 荻原ビル １F",
+  "postal_code": "1500022",
+  "tel": "03-5725-3698",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64594146914849,
+    "lng": 139.7072996133637
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000810406/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36476108.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 54,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "x": "https://x.com/ebisu_yakitori"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

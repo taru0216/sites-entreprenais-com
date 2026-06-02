@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000007682",
+  "slug": "store-007682",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:08:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "串焼ダイニング 十兵衛",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２３-５",
+  "postal_code": "1500022",
+  "tel": "03-3719-2833",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "06:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "06:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "06:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "06:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "06:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "06:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "07:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6431048,
+    "lng": 139.7117144
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000007682/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/31307142.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 28,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.ebisu-juubee.com/",
+    "facebook": "https://www.facebook.com/%E4%B8%B2%E7%84%BC%E3%81%8D%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%8D%81%E5%85%B5%E8%A1%9B-118647334979175/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

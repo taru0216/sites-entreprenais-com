@@ -1,0 +1,87 @@
+{
+  "retty_id": "100001361210",
+  "slug": "store-361210",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:08:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ロティサリー ブルー",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "バル"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-３ 恵比寿ガーデンプレイスタワー３９F",
+  "postal_code": "1500013",
+  "tel": "03-6277-0768",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64214908704448,
+    "lng": 139.7134873352761
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001361210/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32657811.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 27,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

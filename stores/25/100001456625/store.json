@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001456625",
+  "slug": "bar-trauma-456625",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:57:47Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar Trauma 寅午",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-６ サンポウ恵比寿ビル７F",
+  "postal_code": "1500022",
+  "tel": "03-3712-1115",
+  "hours": {
+    "mon": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "05:00"
+    },
+    "sun": {
+      "open": "18:00",
+      "close": "01:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6459124,
+    "lng": 139.7078411
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001456625/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/20514381.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 2,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

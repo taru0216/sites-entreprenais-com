@@ -1,0 +1,84 @@
+{
+  "retty_id": "100001238115",
+  "slug": "store-238115",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:50:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "くろいわ",
+  "category": "日本料理",
+  "categories": [
+    "日本料理",
+    "丼もの",
+    "和菓子",
+    "京料理",
+    "会席料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-１１-１２",
+  "postal_code": "1500013",
+  "tel": "03-5793-9618",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.6450935,
+    "lng": 139.71444740000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001238115/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26904834.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 28,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.kuroiwa.org/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

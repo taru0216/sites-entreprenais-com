@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000225541",
+  "slug": "store-225541",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:49:10Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鮨くりや川",
+  "category": "テイクアウト",
+  "categories": [
+    "テイクアウト",
+    "寿司"
+  ],
+  "address": "東京都渋谷区恵比寿４-２３-１０ ヒルサイドレジデンス地下１F",
+  "postal_code": "1500013",
+  "tel": "03-3446-3332",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 10000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜10000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.64448,
+    "lng": 139.715461
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000225541/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37223925.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 62,
+  "nearest_station": "n恵比寿駅徒歩10分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ameblo.jp/kosi0626"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

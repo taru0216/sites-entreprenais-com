@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000114416",
+  "slug": "ebisu-cabriolet-114416",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:48:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "EBISU Cabriolet",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "パブ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１３-１１ Vert B１F",
+  "postal_code": "1500022",
+  "tel": "03-5704-6612",
+  "hours": {
+    "sun": {
+      "open": "20:00",
+      "close": "28:00"
+    },
+    "mon": {
+      "open": "20:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "28:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6457683500472,
+    "lng": 139.71017740491084
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114416/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/22974372.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 61,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/EBISUCabriolet/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

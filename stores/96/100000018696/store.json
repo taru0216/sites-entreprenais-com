@@ -1,0 +1,98 @@
+{
+  "retty_id": "100000018696",
+  "slug": "store-018696",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ラ・ビスボッチャ",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "バー",
+    "パスタ",
+    "バル"
+  ],
+  "address": "東京都渋谷区恵比寿２-３６-１３ 広尾SKビル １F",
+  "postal_code": "1500013",
+  "tel": "03-3449-1470",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.6458104,
+    "lng": 139.72260770000003
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000018696/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000018696/archive/1078026-5d5de89bb8b2c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078026-5d5de89bb8b2c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078222-5d5e0c0ba7ed1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078018-5d5de893078a9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078204-5d5e002e5e3b0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078020-5d5de89514ecc.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078021-5d5de8963e3f9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078022-5d5de8973e341.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078024-5d5de8999cb2d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078000-5d5de87bec1e6.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078015-5d5de88f03403.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018696/archive/1078012-5d5de88ad79f9.png"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 194,
+  "nearest_station": "日比谷線「広尾駅」徒歩7分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://labisboccia.tokyo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

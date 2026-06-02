@@ -1,0 +1,83 @@
+{
+  "retty_id": "100000009954",
+  "slug": "life-is-beautiful-009954",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:50:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "LIFE IS BEAUTIFUL",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-２ B１F",
+  "postal_code": "1500022",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64553647464092,
+    "lng": 139.70794614603278
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000009954/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/3352097.jpg"
+  ],
+  "retty_rating": 3.15,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

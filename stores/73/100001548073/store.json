@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001548073",
+  "slug": "store-548073",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:40:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "人類みな麺類 東京本店",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿西２-１０-３",
+  "postal_code": "1500021",
+  "tel": "非公開",
+  "hours": {
+    "mon": {
+      "open": "11:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "10:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "10:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6490958,
+    "lng": 139.7067345
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001548073/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/39000192.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 152,
+  "nearest_station": "n○恵比寿駅から徒歩6分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.unchi-co.com/",
+    "instagram": "https://www.instagram.com/jinrui_tokyohonten/",
+    "x": "https://x.com/jinrui_tokyo"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001232048",
+  "slug": "store-232048",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:17:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "渋谷橋キッチン",
+  "category": "豚料理",
+  "categories": [
+    "豚料理",
+    "串焼き",
+    "居酒屋",
+    "ダイニングバー",
+    "肉バル"
+  ],
+  "address": "東京都渋谷区東３-１７-１１ ヴィラハイツ恵比寿１F",
+  "postal_code": "1500011",
+  "tel": "03-5795-2111",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64876608386166,
+    "lng": 139.7104194551706
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001232048/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001232048/archive/863758-5cbb611044d1e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863758-5cbb611044d1e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863767-5cbb665b52a37.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863766-5cbb6643336e1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863783-5cbb78a8449b2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863778-5cbb678c91378.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863760-5cbb61360c7e8.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863786-5cbb78fd3fe15.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/851747-5cac8f1a764ae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863768-5cbb6675296e9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863785-5cbb78f03c7e8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863775-5cbb675437618.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232048/archive/863779-5cbb67a2014f4.jpg"
+  ],
+  "retty_rating": 3.6,
+  "retty_review_count": 18,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

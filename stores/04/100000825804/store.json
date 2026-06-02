@@ -1,0 +1,97 @@
+{
+  "retty_id": "100000825804",
+  "slug": "store-825804",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:43:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 らぁ麺屋 つなぎ",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン",
+    "中華",
+    "味噌ラーメン",
+    "餃子",
+    "丼もの",
+    "とんこつラーメン",
+    "たいやき"
+  ],
+  "address": "東京都渋谷区恵比寿１-４-１恵比寿ア-バンハウス １F",
+  "postal_code": "1500013",
+  "tel": "03-6450-2776",
+  "hours": {
+    "sun": {
+      "open": "07:00",
+      "close": "10:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "07:00",
+      "close": "10:00"
+    },
+    "thu": {
+      "open": "07:00",
+      "close": "10:00"
+    },
+    "fri": {
+      "open": "07:00",
+      "close": "10:00"
+    },
+    "sat": {
+      "open": "07:00",
+      "close": "10:00"
+    },
+    "holiday": {
+      "open": "07:00",
+      "close": "10:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.647782047868624,
+    "lng": 139.71168075616026
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000825804/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38522752.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 321,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://tsunagi-ramen.com/",
+    "facebook": "https://www.facebook.com/tsunagi.men",
+    "instagram": "https://www.instagram.com/tsunagiramen/",
+    "x": "https://x.com/tsunagiebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

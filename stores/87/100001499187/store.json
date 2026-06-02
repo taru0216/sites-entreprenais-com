@@ -1,0 +1,75 @@
+{
+  "retty_id": "100001499187",
+  "slug": "homey-499187",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:52:57Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "カラオケ&バーHomey",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "カレー"
+  ],
+  "address": "東京都渋谷区恵比寿西２-１１-８ ROOB５",
+  "postal_code": "1500021",
+  "tel": "03-6277-5979",
+  "hours": {
+    "mon": {
+      "open": "11:00",
+      "close": "14:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "14:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "14:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "14:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "14:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6493619,
+    "lng": 139.70731109999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001499187/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/21639236.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

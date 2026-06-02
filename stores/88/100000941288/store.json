@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000941288",
+  "slug": "store-941288",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:58:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿焼肉 近江亭奥座",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "居酒屋",
+    "韓国料理"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１２-５",
+  "postal_code": "1500021",
+  "tel": "03-3780-0056",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64736553764738,
+    "lng": 139.70760287533312
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000941288/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32105369.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 55,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://oumitei.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

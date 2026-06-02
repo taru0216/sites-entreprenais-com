@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000009466",
+  "slug": "store-009466",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:42:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "レッドペッパー 恵比寿店",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "テイクアウト",
+    "イタリアンバル",
+    "ピザ",
+    "洋食",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿１-１２-５ 安島ビル １F",
+  "postal_code": "1500013",
+  "tel": "03-3280-4436",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "15:30"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "15:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.646617761746185,
+    "lng": 139.7121698395753
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000009466/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35888121.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 374,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/Red-Pepper-%E3%83%AC%E3%83%83%E3%83%89%E3%83%9A%E3%83%83%E3%83%91%E3%83%BC-%E6%81%B5%E6%AF%94%E5%AF%BF-318480758241478/",
+    "x": "https://x.com/redebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

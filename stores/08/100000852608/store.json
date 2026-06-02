@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000852608",
+  "slug": "store-852608",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:05:12Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 豆園 茶寮",
+  "category": "スイーツ",
+  "categories": [
+    "スイーツ",
+    "和スイーツ",
+    "お土産"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-７ABEビル恵比寿 １F",
+  "postal_code": "1500013",
+  "tel": "03-5789-9899",
+  "hours": {
+    "mon": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "19:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64594463176372,
+    "lng": 139.7135528
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000852608/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37320496.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 12,
+  "nearest_station": "n恵比寿駅東口から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.mamezono.co.jp"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "retty_id": "100000013983",
+  "slug": "store-013983",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:43:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "裏恵比寿 自然生村",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "定食",
+    "刺身",
+    "牛タン",
+    "明石焼き",
+    "自然食",
+    "からあげ",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿１-２１-１５ いーすとEBISU １F",
+  "postal_code": "1500013",
+  "tel": "03-5422-8238",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64655964060385,
+    "lng": 139.71407799649182
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000013983/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/31750767.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 368,
+  "nearest_station": "n恵比寿駅東口から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/jinenjou.uraebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

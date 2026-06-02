@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001443734",
+  "slug": "bbq-ebisu-teppan-shobu-443734",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:04:43Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "貸切&BBQビアガーデン EBISU TEPPAN SHOBU",
+  "category": "バーベキュー",
+  "categories": [
+    "バーベキュー",
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-９",
+  "postal_code": "1500022",
+  "tel": "03-6303-0111",
+  "hours": {
+    "mon": {
+      "open": "11:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "03:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6460266,
+    "lng": 139.70902560000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001443734/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/21966135.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ebisuteppanshobu.gorp.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

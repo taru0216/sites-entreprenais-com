@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000867401",
+  "slug": "store-867401",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:21:06Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "泡盛楽園 ぶーてん",
+  "category": "沖縄料理",
+  "categories": [
+    "沖縄料理",
+    "居酒屋",
+    "沖縄そば"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１０ カマスヤビル１０１",
+  "postal_code": "1500013",
+  "tel": "03-3441-9092",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "26:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64639225151094,
+    "lng": 139.7140950085983
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000867401/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37622334.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 18,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://buten.web.fc2.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000003706",
+  "slug": "store-003706",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:44:52Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "松栄 恵比寿本店",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "魚介・海鮮料理",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-４",
+  "postal_code": "1500022",
+  "tel": "03-3711-4364",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.64610585929823,
+    "lng": 139.70808062944775
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003706/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000003706/archive/966206-5d01be16c97bb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/966206-5d01be16c97bb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/1069085-5d522bc558b64.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/1069087-5d522cc092554.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/1069904-5d53c552da73f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/1069084-5d522bc48243b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/1069081-5d522bc190f71.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/1069903-5d53c54f87d48.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/1069082-5d522bc28e3c8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/966209-5d01be63c95fa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/966208-5d01be3fab58d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003706/archive/966199-5d01bddfcc6ca.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 204,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.matsue.cc/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

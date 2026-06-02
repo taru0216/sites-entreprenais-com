@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000004732",
+  "slug": "store-004732",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:53:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "喜福世",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "牛タン",
+    "韓国料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１６-１１ ABC WACOビル３F",
+  "postal_code": "1500022",
+  "tel": "03-5704-8768",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.644448692767554,
+    "lng": 139.70939087055228
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000004732/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35693537.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 137,
+  "nearest_station": "n恵比寿駅西口から徒歩10分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

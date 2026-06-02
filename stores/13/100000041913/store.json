@@ -1,0 +1,56 @@
+{
+  "retty_id": "100000041913",
+  "slug": "pellegrino-041913",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:50:50Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "PELLEGRINO",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ジビエ"
+  ],
+  "address": "東京都渋谷区恵比寿２-３-４",
+  "postal_code": "1500013",
+  "tel": "03-6277-4697",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 15000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜15000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.64805943988039,
+    "lng": 139.71852133130017
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000041913/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/29134201.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 34,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://pellegrino.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

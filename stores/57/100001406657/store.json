@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001406657",
+  "slug": "store-406657",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:48:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "エグゼクティブ・クラブ・ラウンジ ウェスティンホテル東京",
+  "category": "ラウンジ",
+  "categories": [
+    "ラウンジ",
+    "カフェ",
+    "朝食バイキング ",
+    "ホテル"
+  ],
+  "address": "東京都目黒区三田１-４-１ ウェスティンホテル東京１７F",
+  "postal_code": "1530062",
+  "tel": "03-5423-7000",
+  "hours": {
+    "sun": {
+      "open": "06:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "06:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "06:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "06:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "06:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "06:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "06:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "06:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.641588654891514,
+    "lng": 139.71541819537765
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001406657/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35417527.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.marriott.com/ja/hotels/tyowi-the-westin-tokyo/overview/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

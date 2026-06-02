@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000048768",
+  "slug": "1f-048768",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:23:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "スターバックスコーヒー 恵比寿ガーデンプレイスタワー1F店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "コーヒー専門店",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-３恵比寿ガーデンプレイスタワー １F",
+  "postal_code": "1500013",
+  "tel": "03-5793-1155",
+  "hours": {
+    "mon": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "08:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.642296539386,
+    "lng": 139.71345909165
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000048768/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38787092.jpg"
+  ],
+  "retty_rating": 3.25,
+  "retty_review_count": 17,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000810546",
+  "slug": "store-810546",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:03:26Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "花わさび縁",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "京料理",
+    "おばんざい"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-７ 三恵８ビル６F",
+  "postal_code": "1500013",
+  "tel": "03-3444-5410",
+  "hours": {
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "16:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.647362202,
+    "lng": 139.71047654799997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000810546/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000810546/archive/2200481-60097f7a11f9a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2200481-60097f7a11f9a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2056093-5fa388b00dc3d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/3537106-67c5bafa97319.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2056322-5fa395d0e5319.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2200476-60097d81d2cc6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2200483-60097fc090452.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2056214-5fa38e8176ff1.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2200475-60097d567ddbc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2200477-60097d92c6cd2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2200484-60097fed28d04.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2056236-5fa38f96ab4cb.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000810546/archive/2200478-60097db7db5c8.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 30,
+  "nearest_station": "n恵比寿駅より徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://hanawasabi.tokyo/",
+    "facebook": "https://www.facebook.com/hanawasabi.enishi/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

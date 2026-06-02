@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000454280",
+  "slug": "store-454280",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:24:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "うめ月",
+  "category": "お好み焼き",
+  "categories": [
+    "お好み焼き",
+    "焼きそば"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-４ ハイライフ恵比寿 １F （恵比寿横丁）",
+  "postal_code": "1500013",
+  "tel": "03-3441-6572",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6481097,
+    "lng": 139.7106976
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000454280/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38113026.jpg"
+  ],
+  "retty_rating": 3.15,
+  "retty_review_count": 10,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001808299",
+  "slug": "store-808299",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:02:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 焼肉 羊ビヨリ",
+  "category": "羊肉",
+  "categories": [
+    "羊肉"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１１ １F",
+  "postal_code": "1500013",
+  "tel": "03-6450-4955",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.646443,
+    "lng": 139.7143444
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001808299/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38691366.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

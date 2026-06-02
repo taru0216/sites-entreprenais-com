@@ -1,0 +1,105 @@
+{
+  "retty_id": "100001277113",
+  "slug": "l-ignis-277113",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:55:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "L'IGNIS",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "ステーキ",
+    "熟成肉",
+    "洋食",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２７-１ pagoda SKビル １F",
+  "postal_code": "1500013",
+  "tel": "050-5444-9865",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.645743999999986,
+    "lng": 139.7147890763806
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001277113/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001277113/archive/1361826-5e05b34073acd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1361826-5e05b34073acd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1361829-5e05b353d753d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1733536-5efc2fa65f71e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1361830-5e05b38c7097c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1454303-5e44e8bb952ea.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1454314-5e44e9dcec6b4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1454387-5e44f5e5dca41.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1454389-5e44f6151ca3f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1454383-5e44f424cd5d5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1361825-5e05b33ab594c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1454297-5e44e7c9c7a0b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001277113/archive/1361831-5e05b39642d00.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 78,
+  "nearest_station": "恵比寿駅東口から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://lignis.jp/",
+    "facebook": "https://www.facebook.com/lignisebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

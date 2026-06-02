@@ -1,0 +1,84 @@
+{
+  "retty_id": "100001503730",
+  "slug": "store-503730",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:11:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼肉千利 恵比寿店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１６-８ 恵比寿ホリックホテル １F",
+  "postal_code": "1500022",
+  "tel": "03-5724-3998",
+  "hours": {
+    "mon": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.644374,
+    "lng": 139.70945900000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001503730/",
+  "retty_photos": [
+    "https://retty.me/images/icon.png"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.yakiniku-senri.com/ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "retty_id": "100001730995",
+  "slug": "store-730995",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:07:51Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ローストビーフの店 鎌倉山 恵比寿店",
+  "category": "創作料理",
+  "categories": [
+    "創作料理",
+    "牛料理",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-１０-７ ６F",
+  "postal_code": "1500013",
+  "tel": "03-6459-3071",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64691406184016,
+    "lng": 139.7107964779099
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001730995/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001730995/archive/3377828-66b706fed0a69.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377828-66b706fed0a69.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377771-66b6ff48e71aa.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377770-66b6ff313800b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377855-66b7127b729f6.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377754-66b6fd5f3afe6.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377831-66b70cd49c626.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377756-66b6fd77857e0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377830-66b70cb534e76.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377758-66b6fd8843f20.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377856-66b712f53695f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001730995/archive/3377755-66b6fd702c131.png"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://roastbeef.jp/tenpo/ebisu/",
+    "instagram": "https://www.instagram.com/roastbeef.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

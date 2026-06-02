@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000036390",
+  "slug": "store-036390",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:07:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "タント タント オステリア アトレ恵比寿",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "イタリアンバル"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿 ６F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8391",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6465738,
+    "lng": 139.7103144
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000036390/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000036390/archive/2052997-5fa2548017039.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2052997-5fa2548017039.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2052978-5fa2530f24b0d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2548457-619e3b3722a51.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2548456-619e3b28c2105.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2548504-619e41a0e9ffe.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2072695-5faa7896df65c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2072700-5faa789aa5b7b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2317459-606fe9e55281e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2072675-5faa7885caf1b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2317462-606fea127e452.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2072681-5faa788ae2b4b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2317460-606fe9f24b956.jpg"
+  ],
+  "retty_rating": 3.6,
+  "retty_review_count": 47,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/pages/%25E6%2581%25B5%25E6%25AF%2594%25E5%25AF%25BF-Tanto-Tanto-Osteria/255160434503493"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001426651",
+  "slug": "kiyas-426651",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:31:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "KIYAS",
+  "category": "メキシコ料理",
+  "categories": [
+    "メキシコ料理",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿２-９-２ T-CASTLE恵比寿１F",
+  "postal_code": "1500013",
+  "tel": "080-2595-0694",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.64588067073365,
+    "lng": 139.7170663
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001426651/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001426651/archive/3537276-67c6587ceb8fe.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/3537276-67c6587ceb8fe.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/3537277-67c658cc8c305.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/3537283-67c65ab5e2ef4.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/1851199-5f5b0e5cca8dd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/1851200-5f5b0eac156bd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/3537279-67c65a6a8063a.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/1851201-5f5b0ead22ef0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/2154403-5fd9cca4c7d29.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/2154399-5fd9cbc7847c0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/2154405-5fd9cca8e298b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426651/archive/2154406-5fd9ccac42909.png"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 16,
+  "nearest_station": "恵比寿駅徒歩10分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/KIYAS.JP/",
+    "instagram": "https://www.instagram.com/kiyas.jp"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

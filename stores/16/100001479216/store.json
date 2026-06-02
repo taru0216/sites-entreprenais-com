@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001479216",
+  "slug": "440-479216",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:32:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "440ブロードウェイ タコショップ",
+  "category": "メキシコ料理",
+  "categories": [
+    "メキシコ料理",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿１-２５-３ ２F",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6470171,
+    "lng": 139.71621730000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001479216/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36060079.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 6,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.440broadway.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

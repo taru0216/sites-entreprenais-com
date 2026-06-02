@@ -1,0 +1,78 @@
+{
+  "retty_id": "100001606193",
+  "slug": "wine-ebisu-606193",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:46:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "wine@EBISU",
+  "category": "ワインバル",
+  "categories": [
+    "ワインバル"
+  ],
+  "address": "東京都渋谷区恵比寿南一丁目４-１２ 岩德ビルⅡ ３F",
+  "postal_code": "1500022",
+  "tel": "03-6303-3164",
+  "hours": {
+    "mon": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.646179,
+    "lng": 139.7085056
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001606193/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35024437.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

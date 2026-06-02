@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001581875",
+  "slug": "crimson-ebisu-581875",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:49:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Crimson EBISU",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿西１-２１-１５ エルスタンザ代官山B１F",
+  "postal_code": "1500021",
+  "tel": "03-6427-0773",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6465944,
+    "lng": 139.706228
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001581875/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36469552.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

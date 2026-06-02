@@ -1,0 +1,89 @@
+{
+  "retty_id": "100001187288",
+  "slug": "store-187288",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:13:13Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鳥佳",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-１３ エムロード戸田 ２F",
+  "postal_code": "1500021",
+  "tel": "03-6455-3859",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.647634,
+    "lng": 139.70825100000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001187288/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36087716.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 38,
+  "nearest_station": "nお店の場所は、恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.toriyoshi-ebisu.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

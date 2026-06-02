@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000003121",
+  "slug": "2-003121",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:42:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "海南鶏飯食堂 2 恵比寿店",
+  "category": "シンガポール料理",
+  "categories": [
+    "シンガポール料理",
+    "テイクアウト",
+    "鶏料理",
+    "カレー",
+    "エスニック料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-２１-１４ Costa De Verano １F",
+  "postal_code": "1500013",
+  "tel": "03-3447-3615",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64657560941399,
+    "lng": 139.71421359079
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003121/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000003121/archive/1763765-5f104d1011d7d.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/1763765-5f104d1011d7d.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/1677579-5ebf70afa7b30.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/1772127-5f19ab9475d7d.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/1770328-5f1773d69a9d8.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/1021152-5d2e74735568e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/2992581-63ff268b11b60.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/2550621-61a02431f007f.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/1770330-5f17751f0830c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/1770336-5f177535bd5c2.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/2992583-63ff27148facd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/2550623-61a02454be3a2.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003121/archive/1770329-5f17751b78734.jpeg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 413,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.route9g.com",
+    "instagram": "https://www.instagram.com/hainan_jeefan_shokudo"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

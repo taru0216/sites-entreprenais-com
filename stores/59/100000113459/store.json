@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000113459",
+  "slug": "store-113459",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:20:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "久美",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "定食",
+    "刺身",
+    "からあげ",
+    "沖縄料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-１５",
+  "postal_code": "1500013",
+  "tel": "03-3449-7272",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6456129,
+    "lng": 139.7145501
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113459/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37823368.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 19,
+  "nearest_station": "恵比寿駅より徒歩7分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

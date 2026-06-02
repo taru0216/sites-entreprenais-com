@@ -1,0 +1,51 @@
+{
+  "retty_id": "100001833947",
+  "slug": "ezaro-833947",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:13:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "EZARO",
+  "category": "",
+  "categories": [],
+  "address": "東京都渋谷区恵比寿西１-９-５ 東急ステイ渋谷 恵比寿 ２F",
+  "postal_code": "1500021",
+  "tel": "080-9262-9466",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6470186,
+    "lng": 139.7083464
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001833947/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/39092326.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "retty_id": "100001688257",
+  "slug": "store-688257",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:19:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ふ定食屋",
+  "category": "定食",
+  "categories": [
+    "定食",
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿４-５-２３ ルイシャトレ恵比寿 １０１",
+  "postal_code": "1500013",
+  "tel": "不明",
+  "hours": {
+    "sun": {
+      "open": "07:30",
+      "close": "15:00"
+    },
+    "mon": {
+      "open": "07:30",
+      "close": "15:00"
+    },
+    "tue": {
+      "open": "07:30",
+      "close": "15:00"
+    },
+    "wed": {
+      "open": "07:30",
+      "close": "15:00"
+    },
+    "thu": {
+      "open": "07:30",
+      "close": "15:00"
+    },
+    "fri": {
+      "open": "07:30",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "07:30",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6449146166611,
+    "lng": 139.71197268864907
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001688257/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36606456.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 16,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/fu_teishokuya"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

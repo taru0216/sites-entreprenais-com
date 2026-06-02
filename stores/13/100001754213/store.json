@@ -1,0 +1,76 @@
+{
+  "retty_id": "100001754213",
+  "slug": "store-754213",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:44:51Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "すしさとる",
+  "category": "寿司",
+  "categories": [
+    "寿司"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１７-１６グランベル恵比寿V ２F",
+  "postal_code": "1500022",
+  "tel": "03-6452-2992",
+  "hours": {
+    "wed": {
+      "open": "22:00",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "22:00",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "22:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "22:00",
+      "close": "26:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6446568,
+    "lng": 139.7102887
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001754213/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37109328.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 14,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/sushisatoru1995/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

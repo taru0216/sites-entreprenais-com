@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000000700",
+  "slug": "store-000700",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:14:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "でんらく",
+  "category": "おでん",
+  "categories": [
+    "おでん",
+    "牛丼",
+    "丼もの",
+    "屋台",
+    "燻製"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-４ ハイライフ恵比寿１F（恵比寿横丁）",
+  "postal_code": "1500013",
+  "tel": "03-3473-8969",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64807341431461,
+    "lng": 139.71073250562392
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000700/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36184374.jpg"
+  ],
+  "retty_rating": 3.55,
+  "retty_review_count": 37,
+  "nearest_station": "東京、恵比寿駅から徒歩3分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://ebisu-yokocho.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

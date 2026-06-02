@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000006610",
+  "slug": "coci-006610",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:38:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "coci",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "フレンチ",
+    "ワインバー",
+    "エスニック料理"
+  ],
+  "address": "東京都渋谷区東３-１６-１０",
+  "postal_code": "1500011",
+  "tel": "03-3442-5151",
+  "hours": {
+    "mon": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6489068,
+    "lng": 139.71070869999994
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000006610/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36614425.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 349,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://cporganizing.com/coci/",
+    "facebook": "https://www.facebook.com/coci.ebisu/",
+    "instagram": "https://www.instagram.com/coci_ebisu/",
+    "x": "https://x.com/cociebis"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

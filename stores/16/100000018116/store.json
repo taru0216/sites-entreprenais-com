@@ -1,0 +1,97 @@
+{
+  "retty_id": "100000018116",
+  "slug": "store-018116",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "マンゴツリーカフェ 恵比寿",
+  "category": "タイ料理",
+  "categories": [
+    "タイ料理",
+    "ダイニングバー",
+    "カフェ",
+    "パクチー料理",
+    "エスニック料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ 恵比寿アトレ６F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8349",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6465738,
+    "lng": 139.71031440000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000018116/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000018116/cover/57623-57bb992da6ec7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018116/cover/57623-57bb992da6ec7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018116/cover/57624-57bb992e7545e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018116/photo/51864-5796ef6db5e10.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018116/photo/51850-5796edf4ab2bb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018116/photo/51852-5796ee091707f.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 105,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://shop.arclandservice.co.jp/ae-shop/spot/detail?code=12005"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

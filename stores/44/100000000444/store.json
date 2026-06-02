@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000000444",
+  "slug": "store-000444",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:14:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "上海食堂 恵比寿店",
+  "category": "上海料理・上海蟹",
+  "categories": [
+    "上海料理・上海蟹",
+    "学食",
+    "中華",
+    "丼もの",
+    "焼きそば"
+  ],
+  "address": "東京都渋谷区恵比寿１-１２-８",
+  "postal_code": "1500013",
+  "tel": "03-5791-1630",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6466627,
+    "lng": 139.71198920000006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000444/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/23022873.jpg"
+  ],
+  "retty_rating": 3.15,
+  "retty_review_count": 30,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://shanghai-shokudo.com/",
+    "facebook": "https://www.facebook.com/pages/%25E4%25B8%258A%25E6%25B5%25B7%25E9%25A3%259F%25E5%25A0%2582%25E6%2581%25B5%25E6%25AF%2594%25E5%25AF%25BF%25E5%25BA%2597/152345591461316"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

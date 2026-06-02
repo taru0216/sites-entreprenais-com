@@ -1,0 +1,98 @@
+{
+  "retty_id": "100000715784",
+  "slug": "store-715784",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:02:26Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "アーティショー",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ",
+    "ビストロ",
+    "ジビエ"
+  ],
+  "address": "東京都渋谷区恵比寿２-６-２９ アコルタTS１F",
+  "postal_code": "1500013",
+  "tel": "03-3446-9747",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 10000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜10000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.6467934,
+    "lng": 139.71746929999995
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000715784/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000715784/archive/2016016-5f9144024169b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/2016016-5f9144024169b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/2016024-5f91440f65e3f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/2016339-5f914818ba1e9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/3507517-67998c50572ed.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/2016027-5f914412a12c5.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/2016338-5f91481643b49.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/3507512-67998c4bc7a5c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/3585026-6801c3379f702.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/3507518-67998c5150e97.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/3585032-6801c33e41cab.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/2016029-5f91441549e10.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000715784/archive/3585029-6801c33b5dcb7.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 25,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/artichaut_r20vin"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

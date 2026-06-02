@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001417287",
+  "slug": "store-417287",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:52:35Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "紀ノ国屋アントレ 恵比寿駅前",
+  "category": "テイクアウト",
+  "categories": [
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５",
+  "postal_code": "1500022",
+  "tel": "03-5488-8711",
+  "hours": {
+    "mon": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "09:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6466488,
+    "lng": 139.71024769999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001417287/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/29515552.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

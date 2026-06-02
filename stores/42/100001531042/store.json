@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001531042",
+  "slug": "store-531042",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:31:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "らーめん 北の大地 恵比寿店",
+  "category": "ラーメン",
+  "categories": [
+    "ラーメン",
+    "味噌ラーメン",
+    "つけ麺"
+  ],
+  "address": "東京都渋谷区広尾１-１６-２",
+  "postal_code": "1500012",
+  "tel": "03-6721-9115",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64869308137094,
+    "lng": 139.71116590552253
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001531042/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/27987315.jpg"
+  ],
+  "retty_rating": 3.55,
+  "retty_review_count": 8,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ramen-kitanodaichi.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

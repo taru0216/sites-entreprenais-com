@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000448860",
+  "slug": "store-448860",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:24Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ガストロノミー ジョエル・ロブション",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ",
+    "チョコレート",
+    "クッキー",
+    "シュークリーム"
+  ],
+  "address": "東京都目黒区三田１-１３-１恵比寿ガーデンプレイス シャトーレストラン ジョエル・ロブション ２F",
+  "postal_code": "1530062",
+  "tel": "03-5424-1347",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "16:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "16:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "16:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 20000,
+    "dinner": 60000
+  },
+  "budget_raw": "ランチ予算: 〜20000円 ディナー予算: 〜60000円",
+  "geo": {
+    "lat": 35.64192974776669,
+    "lng": 139.71458236472387
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000448860/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37119483.jpg"
+  ],
+  "retty_rating": 4.65,
+  "retty_review_count": 262,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.robuchon.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

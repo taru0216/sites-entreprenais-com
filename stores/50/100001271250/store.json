@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001271250",
+  "slug": "store-271250",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:46:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "シロノニワ",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿南１-６-１ アトレ恵比寿西館８F",
+  "postal_code": "1500022",
+  "tel": "03-6452-3351",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6464293,
+    "lng": 139.70978390000005
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001271250/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001271250/archive/348883-5a30b9ae418bf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/348883-5a30b9ae418bf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/2017754-5f91b29c96ab6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/2017756-5f91b29fa6851.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/348877-5a30b9accf836.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/2017755-5f91b29e386f1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/363611-5a6041a50f780.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/504325-5b6cf2078454a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/348880-5a30b9adcd450.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/2036884-5f9a8839385ce.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/348878-5a30b9ad40e60.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/386052-5a9ccc0269dd3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001271250/archive/386054-5a9ccc23daf72.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 139,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.potomak.co.jp/shop/494/",
+    "facebook": "https://www.facebook.com/shirononiwa/",
+    "instagram": "https://www.instagram.com/shirononiwa/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

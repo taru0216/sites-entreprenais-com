@@ -1,0 +1,56 @@
+{
+  "retty_id": "100001464473",
+  "slug": "store-464473",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:04:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 えんどう",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１７-２ Rホール４F",
+  "postal_code": "1500022",
+  "tel": "03-6303-1152",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 60000,
+    "dinner": 60000
+  },
+  "budget_raw": "ランチ予算: 〜60000円 ディナー予算: 〜60000円",
+  "geo": {
+    "lat": 35.64458978590094,
+    "lng": 139.71050754847943
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001464473/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/27930661.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 19,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/spinachmanz/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

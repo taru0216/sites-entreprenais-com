@@ -1,0 +1,80 @@
+{
+  "retty_id": "100001706010",
+  "slug": "unknown-706010",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:54:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "unknown",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区東３-２５-３",
+  "postal_code": "1500011",
+  "tel": "03-6427-2239",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.648550698587144,
+    "lng": 139.7098023226671
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001706010/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34474338.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/unknown_ebisu_tokyo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

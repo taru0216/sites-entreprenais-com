@@ -1,0 +1,84 @@
+{
+  "retty_id": "100001346973",
+  "slug": "store-346973",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:26:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鮨しのぶ",
+  "category": "寿司",
+  "categories": [
+    "寿司"
+  ],
+  "address": "東京都渋谷区恵比寿２-９-４",
+  "postal_code": "1500013",
+  "tel": "070-3356-8877",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 6000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜6000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.645882752588165,
+    "lng": 139.71695225706048
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001346973/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33913385.jpg"
+  ],
+  "retty_rating": 4.9,
+  "retty_review_count": 11,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.sushi-shinobu.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

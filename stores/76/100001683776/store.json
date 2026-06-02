@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001683776",
+  "slug": "store-683776",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:39:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "時たらず",
+  "category": "日本料理",
+  "categories": [
+    "日本料理"
+  ],
+  "address": "東京都渋谷区広尾１-４-１０",
+  "postal_code": "1500012",
+  "tel": "050-3503-1577",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64852905927801,
+    "lng": 139.7137320101102
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001683776/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38319119.jpg"
+  ],
+  "retty_rating": 4.8,
+  "retty_review_count": 8,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

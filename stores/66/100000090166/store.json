@@ -1,0 +1,78 @@
+{
+  "retty_id": "100000090166",
+  "slug": "store-090166",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:03:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "海鮮居酒屋 恵比寿 本丸",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿１-４-１ 恵比寿アーバンハウス１F",
+  "postal_code": "1500013",
+  "tel": "03-5421-0303",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.647598223607076,
+    "lng": 139.7115837288361
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000090166/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/23870690.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 17,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

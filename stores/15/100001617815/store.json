@@ -1,0 +1,83 @@
+{
+  "retty_id": "100001617815",
+  "slug": "store-617815",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:34:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿とりひろ",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "鶏料理",
+    "和食",
+    "割烹・小料理屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１６-５ タチムラビルディング サウスB１F",
+  "postal_code": "1500022",
+  "tel": "03-5724-3320",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.64406827246308,
+    "lng": 139.70975045858967
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001617815/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34939226.jpg"
+  ],
+  "retty_rating": 4.85,
+  "retty_review_count": 8,
+  "nearest_station": "n‍♀️恵比寿駅から徒歩6分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/ebisu_torihiro/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

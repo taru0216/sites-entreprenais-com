@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000113589",
+  "slug": "store-113589",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:33:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "せんりょう",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "丼もの",
+    "日本料理"
+  ],
+  "address": "東京都渋谷区恵比寿２-６-３１",
+  "postal_code": "1500013",
+  "tel": "03-3446-4410",
+  "hours": {
+    "mon": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "18:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64707835434068,
+    "lng": 139.71760503680534
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113589/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37957921.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 9,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000015010",
+  "slug": "store-015010",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:56:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ほの字 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "刺身",
+    "焼き鳥",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-５-８ DIS恵比寿ビル １F",
+  "postal_code": "1500021",
+  "tel": "03-3770-8381",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.648454,
+    "lng": 139.70780620000005
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000015010/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36922961.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 65,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ebisu.honoji.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

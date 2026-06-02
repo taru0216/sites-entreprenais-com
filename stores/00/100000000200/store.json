@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000000200",
+  "slug": "store-000200",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:43:55Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "魚真 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "魚介・海鮮料理",
+    "刺身",
+    "寿司"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-９ 小林ビルB１F",
+  "postal_code": "1500022",
+  "tel": "03-5773-7400",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64616690156122,
+    "lng": 139.70777371717884
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000200/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36579944.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 226,
+  "nearest_station": "nJR線・恵比寿駅より徒歩3分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

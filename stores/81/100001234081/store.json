@@ -1,0 +1,94 @@
+{
+  "retty_id": "100001234081",
+  "slug": "store-234081",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:01:13Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "日本酒 はなたれ 恵比寿",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "おでん",
+    "テイクアウト",
+    "野菜料理",
+    "割烹・小料理屋",
+    "魚介・海鮮料理",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿１-２６-１２ フラット１６ １F",
+  "postal_code": "1500013",
+  "tel": "050-3590-8701",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "28:30"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "28:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "28:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "28:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "28:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "28:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "28:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6473060267316,
+    "lng": 139.7164939880371
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001234081/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/20738729.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 36,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/umioden/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

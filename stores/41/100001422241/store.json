@@ -1,0 +1,55 @@
+{
+  "retty_id": "100001422241",
+  "slug": "3cafe-422241",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:43:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "3cafe",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２３-１２ ３F",
+  "postal_code": "1500013",
+  "tel": "03-3442-7479",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6445714,
+    "lng": 139.71543339999994
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001422241/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/30463731.jpg"
+  ],
+  "retty_rating": 3.6,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://3cafe.ebisu.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000000267",
+  "slug": "store-000267",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:31:50Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鳥政",
+  "category": "弁当屋",
+  "categories": [
+    "弁当屋",
+    "テイクアウト",
+    "親子丼",
+    "焼き鳥",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿１-３１-９",
+  "postal_code": "1500013",
+  "tel": "03-3441-8894",
+  "hours": {
+    "mon": {
+      "open": "11:00",
+      "close": "19:30"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "19:30"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "19:30"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "19:30"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "19:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "19:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.647066,
+    "lng": 139.71733
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000267/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/19601038.jpg"
+  ],
+  "retty_rating": 3.3,
+  "retty_review_count": 8,
+  "nearest_station": "広尾駅から徒歩10分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

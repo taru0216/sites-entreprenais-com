@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000810431",
+  "slug": "store-810431",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:02:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "関西割烹 和心庵 のら",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "日本料理",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-８ E・BOX・１ビル２F",
+  "postal_code": "1500013",
+  "tel": "03-3440-7280",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64590468748665,
+    "lng": 139.71362660915372
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000810431/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33414663.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 26,
+  "nearest_station": "n恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "x": "https://x.com/nora_ebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

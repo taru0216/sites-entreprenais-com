@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000211776",
+  "slug": "store-211776",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:07:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 百鳥",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１ STMエビスビル ５F",
+  "postal_code": "1500022",
+  "tel": "03-5768-9266",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6462000177504,
+    "lng": 139.70934501719694
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000211776/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/23434680.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.dd-holdings.jp/shops/momodori/ebisu#/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

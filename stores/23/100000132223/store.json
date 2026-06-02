@@ -1,0 +1,77 @@
+{
+  "retty_id": "100000132223",
+  "slug": "store-132223",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:48:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "アートカフェ フレンズ",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-７-８ 恵比寿サウス・ワン B１F",
+  "postal_code": "1500022",
+  "tel": "03-6382-9050",
+  "hours": {
+    "mon": {
+      "open": "12:00",
+      "close": "16:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "16:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "16:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "16:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "16:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64602477680804,
+    "lng": 139.70961871653287
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000132223/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/12408715.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.artcafefriends.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

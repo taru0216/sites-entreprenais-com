@@ -1,0 +1,93 @@
+{
+  "retty_id": "100000714998",
+  "slug": "store-714998",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:02:09Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "果匠 正庵",
+  "category": "甘味処",
+  "categories": [
+    "甘味処",
+    "スイーツ",
+    "その他",
+    "和菓子",
+    "和スイーツ",
+    "お土産"
+  ],
+  "address": "東京都渋谷区広尾１-９-２０",
+  "postal_code": "1500012",
+  "tel": "03-3441-1822",
+  "hours": {
+    "mon": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "sun": {
+      "open": "10:30",
+      "close": "17:00"
+    },
+    "holiday": {
+      "open": "10:30",
+      "close": "17:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6487348,
+    "lng": 139.71628599999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000714998/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/26573103.JPG"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 29,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.show-an.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

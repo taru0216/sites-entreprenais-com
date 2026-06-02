@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000745000",
+  "slug": "store-745000",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:52:26Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "京鼎樓 恵比寿本店",
+  "category": "台湾料理",
+  "categories": [
+    "台湾料理",
+    "居酒屋",
+    "中華",
+    "飲茶・点心",
+    "小龍包",
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿４-３-１ Qiz EBISU ２F",
+  "postal_code": "1500013",
+  "tel": "03-5795-2255",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "21:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64592015347903,
+    "lng": 139.71110802327883
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000745000/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000745000/archive/66238-57ee3b42a453f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/archive/66238-57ee3b42a453f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/archive/68351-57f4792af2eb3.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65651-57ec8bc94e014.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65606-57ec8783b3dbe.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65607-57ec87928c1ad.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65612-57ec8802357a1.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65608-57ec87a3209f9.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65652-57ec8bda88c1b.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65609-57ec87aec22e5.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65614-57ec881eec947.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65610-57ec87bb1ecc7.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000745000/photo/65615-57ec884b731a3.JPG"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 450,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://jin-din-rou.net/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

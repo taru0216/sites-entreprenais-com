@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000028896",
+  "slug": "store-028896",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:14:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "名代 富士そば 恵比寿駅前店",
+  "category": "そば（蕎麦）",
+  "categories": [
+    "そば（蕎麦）",
+    "うどん",
+    "丼もの",
+    "ラーメン"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-１８ K-１ビル１F",
+  "postal_code": "1500013",
+  "tel": "非公開",
+  "hours": {
+    "sun": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "mon": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "tue": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "wed": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "thu": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "fri": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "sat": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "holiday": {
+      "open": "00:00",
+      "close": "00:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64795624298403,
+    "lng": 139.70988801288013
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000028896/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38417823.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://fujisoba.co.jp/",
+    "facebook": "https://www.facebook.com/fujisoba"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

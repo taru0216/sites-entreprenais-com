@@ -1,0 +1,109 @@
+{
+  "retty_id": "100001380159",
+  "slug": "cheese-tavern-cascina-380159",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:47:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Cheese Tavern CASCINA",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "カフェ",
+    "ピザ",
+    "チーズ料理",
+    "ビストロ",
+    "ステーキ",
+    "パスタ",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１１-２ １F",
+  "postal_code": "1500022",
+  "tel": "03-6412-7905",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64543126099792,
+    "lng": 139.7095340996941
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001380159/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001380159/archive/3004581-640cda1b59f49.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004581-640cda1b59f49.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1293935-5dda200e560bf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004604-640ceb91c107f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1293924-5dda1ff07b7ff.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1293932-5dda2005d839b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1280664-5dd0e23b68153.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3007314-6410780349c92.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1293927-5dda1ff845f73.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1293936-5dda201116ee9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/297258-59e470ed171bd.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004592-640ce91551ca7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1293925-5dda1ff30916f.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 89,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://cheese-tavern-cascina.com/",
+    "facebook": "https://www.facebook.com/cheesetaverncascina/",
+    "instagram": "https://www.instagram.com/cheese.tavern.cascina/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

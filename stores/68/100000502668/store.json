@@ -1,0 +1,75 @@
+{
+  "retty_id": "100000502668",
+  "slug": "chibikuro-sambo-502668",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:19:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "CHIBIKUROーSAMBO",
+  "category": "自然食",
+  "categories": [
+    "自然食",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-１０",
+  "postal_code": "1500022",
+  "tel": "03-3715-2634",
+  "hours": {
+    "mon": {
+      "open": "11:30",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6452433,
+    "lng": 139.70741469999996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000502668/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37482297.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 22,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

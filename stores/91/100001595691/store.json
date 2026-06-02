@@ -1,0 +1,98 @@
+{
+  "retty_id": "100001595691",
+  "slug": "saucer-595691",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:05:35Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Saucer",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ"
+  ],
+  "address": "東京都渋谷区恵比寿西２-７-１０ えびす第３ B１F",
+  "postal_code": "1500021",
+  "tel": "03-6712-7713",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 30000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜30000円",
+  "geo": {
+    "lat": 35.650525051969716,
+    "lng": 139.70715323527608
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001595691/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001595691/archive/3420792-67091c424aed9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420792-67091c424aed9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420793-67091c42c73cd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420821-67091c5562e17.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420816-67091c524d218.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420820-67091c54accb3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420819-67091c5419536.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420815-67091c51a386a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420817-67091c52e0a01.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420811-67091c4eaa0c5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420810-67091c4e10d55.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420808-67091c4d003b2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001595691/archive/3420809-67091c4d82b36.jpg"
+  ],
+  "retty_rating": 4.8,
+  "retty_review_count": 18,
+  "nearest_station": "nJR線・恵比寿駅より徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.grapes.tokyo/",
+    "facebook": "https://www.facebook.com/restaurantsaucer",
+    "instagram": "https://www.instagram.com/restaurant_saucer/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

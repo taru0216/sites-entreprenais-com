@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000751175",
+  "slug": "store-751175",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:56:23Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "エストレーラカフェバー",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ダイニングバー",
+    "ワインバー",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-７ 恵比寿西５ビル３０１",
+  "postal_code": "1500021",
+  "tel": "03-6416-1890",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.647496101945194,
+    "lng": 139.70768106878677
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000751175/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/11463561.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

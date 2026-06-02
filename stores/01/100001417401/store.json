@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001417401",
+  "slug": "restaurant-mansalva-417401",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:49:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Restaurant MANSALVA",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ワインバー",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２３-７",
+  "postal_code": "1500013",
+  "tel": "03-5447-3300",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.6447492,
+    "lng": 139.71566400000006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001417401/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36079474.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 45,
+  "nearest_station": "恵比寿にあるイタリアン。JRの恵比寿駅東口から徒歩7分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/ebisumansalva/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000008673",
+  "slug": "bar-008673",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:54:02Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "魚BAR 一歩",
+  "category": "魚介・海鮮料理",
+  "categories": [
+    "魚介・海鮮料理",
+    "居酒屋",
+    "刺身",
+    "あんこう鍋",
+    "日本料理",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１０",
+  "postal_code": "1500013",
+  "tel": "03-3445-8418",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64638078682802,
+    "lng": 139.71422789999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000008673/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/31536570.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 119,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.sakanabar-ippo.com/",
+    "facebook": "https://www.facebook.com/pages/%25E9%25AD%259ABar-%25E4%25B8%2580%25E6%25AD%25A9/146950522011142"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

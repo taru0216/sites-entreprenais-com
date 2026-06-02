@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000704772",
+  "slug": "bar-704772",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:44:57Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar松虎",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "その他",
+    "ラウンジ"
+  ],
+  "address": "東京都渋谷区広尾１-１６-２VORT恵比寿II ２F",
+  "postal_code": "1500012",
+  "tel": "03-3444-9333",
+  "hours": {
+    "mon": {
+      "open": "19:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "19:00",
+      "close": "27:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "27:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64870017115676,
+    "lng": 139.71116079325407
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000704772/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000704772/archive/1327749-5de9efa920e9e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327749-5de9efa920e9e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327753-5de9efd4aaf26.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327756-5de9f078e984d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327759-5de9f0d4793ee.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327755-5de9f061935c7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327752-5de9efc58dddc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327757-5de9f09869aba.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327774-5de9f2130aa5b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327750-5de9efb64a190.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327751-5de9efbe4e50c.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 202,
+  "nearest_station": "n恵比寿駅、徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.matsushita-matsutora.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

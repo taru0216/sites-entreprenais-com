@@ -1,0 +1,87 @@
+{
+  "retty_id": "100001248540",
+  "slug": "store-248540",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:08:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "牛タン 英司",
+  "category": "牛タン",
+  "categories": [
+    "牛タン",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-３ 木村ビル１F",
+  "postal_code": "1500022",
+  "tel": "03-5725-3138",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64640066347906,
+    "lng": 139.70928152799604
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001248540/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35202010.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 29,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

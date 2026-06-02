@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000926094",
+  "slug": "store-926094",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:39:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "それがし 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "和食",
+    "刺身",
+    "燻製",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区恵比寿西２-３-１１ １F",
+  "postal_code": "1500021",
+  "tel": "03-6416-3981",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "01:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64986556192322,
+    "lng": 139.70771388494427
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000926094/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32782899.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 187,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

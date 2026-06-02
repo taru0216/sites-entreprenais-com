@@ -1,0 +1,84 @@
+{
+  "retty_id": "100000033871",
+  "slug": "store-033871",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:49:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "レストラン　ヒロミチ",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ"
+  ],
+  "address": "東京都目黒区三田１-１２-２４ MT３ビル１F",
+  "postal_code": "1530062",
+  "tel": "03-5768-0722",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 6000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜6000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.64183000219726,
+    "lng": 139.7118421395926
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000033871/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38589771.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 66,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://restaurant-hiromichi.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

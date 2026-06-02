@@ -1,0 +1,59 @@
+{
+  "retty_id": "100001820535",
+  "slug": "hills-bowl-820535",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T17:12:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "アサイーボウル専門店Hills bowl 恵比寿店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "スイーツ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-３ TSビル２F",
+  "postal_code": "1500022",
+  "tel": "03-6821-4531",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.646131933511285,
+    "lng": 139.70817818834323
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001820535/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001820535/archive/3991521-69bf3fadd7410.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001820535/archive/3991521-69bf3fadd7410.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001820535/archive/3991520-69bf3f4ebb6a9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001820535/archive/3996092-69c4be7379515.png"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/hills_bowl_tokyo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

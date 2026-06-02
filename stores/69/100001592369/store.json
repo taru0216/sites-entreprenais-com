@@ -1,0 +1,83 @@
+{
+  "retty_id": "100001592369",
+  "slug": "store-592369",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:06:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "フロムトップ",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "喫茶店",
+    "パフェ",
+    "スイーツ"
+  ],
+  "address": "東京都目黒区三田１-１３-３ 恵比寿ガーデンプレイス内 写真美術館１階",
+  "postal_code": "1530062",
+  "tel": "070-8591-3730",
+  "hours": {
+    "sun": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "sat": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.641642189885424,
+    "lng": 139.7132893
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001592369/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33333595.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 9,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/cafefromtop/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

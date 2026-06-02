@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000881422",
+  "slug": "store-881422",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:50:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "紀風",
+  "category": "懐石料理",
+  "categories": [
+    "懐石料理",
+    "かに料理",
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿１-３１-１０ ターレル恵比寿１F",
+  "postal_code": "1500013",
+  "tel": "03-5422-7792",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 20000,
+    "dinner": 30000
+  },
+  "budget_raw": "ランチ予算: 〜20000円 ディナー予算: 〜30000円",
+  "geo": {
+    "lat": 35.646869129593085,
+    "lng": 139.7172083714828
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000881422/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000881422/archive/3647669-685d54e489460.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647669-685d54e489460.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647665-685d54e2bb8f0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647668-685d54e41b2a0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647662-685d54e178d58.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647649-685d54dbcdf07.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647658-685d54dfadaef.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647661-685d54e112bb1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647657-685d54df4df5c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647643-685d54d9229e6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647647-685d54dae0a40.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647666-685d54e334e70.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647660-685d54e093f2d.jpg"
+  ],
+  "retty_rating": 4.65,
+  "retty_review_count": 36,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.ebisu-kihuu.com/",
+    "facebook": "https://www.facebook.com/kihuu/",
+    "instagram": "https://www.instagram.com/kihuu.ebis"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

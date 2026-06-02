@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000699047",
+  "slug": "bar-de-ollaria-699047",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:00:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar de ollaria 恵比寿店",
+  "category": "スペイン料理",
+  "categories": [
+    "スペイン料理",
+    "スペインバル",
+    "テイクアウト",
+    "バル"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-２３ ヴェラハイツ恵比寿 １F",
+  "postal_code": "1500013",
+  "tel": "03-5420-0936",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.646241851847,
+    "lng": 139.71335470676001
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000699047/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/20365521.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 35,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://ollaria.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

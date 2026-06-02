@@ -1,0 +1,87 @@
+{
+  "retty_id": "100001165835",
+  "slug": "store-165835",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:36:02Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "タリーズコーヒー エビススバルビル店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "サンドイッチ"
+  ],
+  "address": "東京都渋谷区恵比寿１-２０-８ エビススバルビル１F",
+  "postal_code": "1500013",
+  "tel": "03-5422-9121",
+  "hours": {
+    "mon": {
+      "open": "07:30",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "07:30",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "07:30",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "07:30",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "07:30",
+      "close": "21:00"
+    },
+    "sun": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "sat": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "08:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.6467238,
+    "lng": 139.7128503
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001165835/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34777007.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 9,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

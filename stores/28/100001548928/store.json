@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001548928",
+  "slug": "store-548928",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:58:26Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "家庭料理屋さん ちゃりん",
+  "category": "和食",
+  "categories": [
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１３-１４",
+  "postal_code": "1500022",
+  "tel": "03-6303-3799",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64339099309639,
+    "lng": 139.70747723067112
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001548928/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/34819447.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/kateiryoriyacharin/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

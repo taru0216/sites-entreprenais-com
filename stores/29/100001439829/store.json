@@ -1,0 +1,83 @@
+{
+  "retty_id": "100001439829",
+  "slug": "store-439829",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:24:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "立呑み 源太郎商店",
+  "category": "立ち飲み",
+  "categories": [
+    "立ち飲み",
+    "日本酒バー",
+    "居酒屋",
+    "たいやき"
+  ],
+  "address": "東京都渋谷区恵比寿１-４-１ 恵比寿アーバンハウス１０６",
+  "postal_code": "1500013",
+  "tel": "03-6277-2680",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6476322,
+    "lng": 139.7115215
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001439829/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38033542.jpg"
+  ],
+  "retty_rating": 4.75,
+  "retty_review_count": 29,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/tatigentarou/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

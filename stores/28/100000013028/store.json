@@ -1,0 +1,79 @@
+{
+  "retty_id": "100000013028",
+  "slug": "store-013028",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:59:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "の坂",
+  "category": "日本料理",
+  "categories": [
+    "日本料理",
+    "懐石料理",
+    "刺身",
+    "割烹・小料理屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-８ 廣田ビル２F",
+  "postal_code": "1500021",
+  "tel": "03-5728-3346",
+  "hours": {
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.6487124,
+    "lng": 139.708395
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000013028/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36237825.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 47,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.ebisu-nosaka.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

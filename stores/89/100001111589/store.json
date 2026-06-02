@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001111589",
+  "slug": "store-111589",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:38:06Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "名代 富士そば 代官山店",
+  "category": "うどん",
+  "categories": [
+    "うどん",
+    "そば（蕎麦）",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-９ 岡田ビル１F",
+  "postal_code": "1500022",
+  "tel": "03-3590-4931",
+  "hours": {
+    "sun": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "mon": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "tue": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "wed": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "thu": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "fri": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "sat": {
+      "open": "00:00",
+      "close": "00:00"
+    },
+    "holiday": {
+      "open": "00:00",
+      "close": "00:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 1000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜1000円",
+  "geo": {
+    "lat": 35.64612329292612,
+    "lng": 139.70772883765585
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001111589/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37127347.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "n駒沢通り沿いにあって、恵比寿駅西口から徒歩5分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://fujisoba.co.jp/",
+    "facebook": "https://www.facebook.com/fujisoba",
+    "x": "https://x.com/fujisobar"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

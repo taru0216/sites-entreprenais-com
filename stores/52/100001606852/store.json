@@ -1,0 +1,85 @@
+{
+  "retty_id": "100001606852",
+  "slug": "store-606852",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:59:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "豆富食堂",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-１ １F",
+  "postal_code": "1500021",
+  "tel": "03-6455-2516",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.6491204,
+    "lng": 139.7084878
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001606852/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/39063646.jpg"
+  ],
+  "retty_rating": 4.65,
+  "retty_review_count": 40,
+  "nearest_station": "u2028恵比寿駅、徒歩3分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://tofushokudo.com/",
+    "instagram": "https://www.instagram.com/tofu_shokudo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001308531",
+  "slug": "336-bisu-308531",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:05:07Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "336 ébisu",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ",
+    "ワインバー"
+  ],
+  "address": "東京都渋谷区恵比寿３-３６-１ クーカイ・テラス１F",
+  "postal_code": "1500013",
+  "tel": "03-6277-2282",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 6000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜6000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64286376891624,
+    "lng": 139.71893690921002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001308531/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001308531/archive/963456-5cff6d9af40cf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963456-5cff6d9af40cf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963466-5cff6e524f3c3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963459-5cff6dc269d1c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963451-5cff6d5181d75.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963463-5cff6e05bf769.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963452-5cff6d6163e3a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963461-5cff6ddeee051.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963454-5cff6d7668d18.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963464-5cff6e13ab01a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963455-5cff6d894cc7a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963465-5cff6e27d2296.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001308531/archive/963457-5cff6daa74d80.jpg"
+  ],
+  "retty_rating": 4.75,
+  "retty_review_count": 18,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/336-%25C3%25A9bisu-1164937016883030/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "retty_id": "100001537242",
+  "slug": "blu-537242",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:51:47Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BLU",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２番８号 EBISU FIRST PLACE ２０１",
+  "postal_code": "1500013",
+  "tel": "03-6447-7793",
+  "hours": {
+    "mon": {
+      "open": "16:00",
+      "close": "20:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "20:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "20:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "20:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "20:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "20:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "20:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64630289999999,
+    "lng": 139.7139073
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001537242/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35918880.jpg"
+  ],
+  "retty_rating": 4.8,
+  "retty_review_count": 21,
+  "nearest_station": "JR恵比寿駅東口より徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

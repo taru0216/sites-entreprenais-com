@@ -1,0 +1,74 @@
+{
+  "retty_id": "100001150985",
+  "slug": "store-150985",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:38:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "テン",
+  "category": "カフェ",
+  "categories": [
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿１-９-２ STUDIOEBIS２F",
+  "postal_code": "1500013",
+  "tel": "03-3444-5565",
+  "hours": {
+    "mon": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "tue": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "wed": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "thu": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "fri": {
+      "open": "10:00",
+      "close": "18:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.647161478382,
+    "lng": 139.71087226255
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001150985/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33655431.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

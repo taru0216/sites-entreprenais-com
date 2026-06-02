@@ -1,0 +1,87 @@
+{
+  "retty_id": "100001641581",
+  "slug": "ta-bacco-641581",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:31:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ta.bacco",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー",
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-７ 恵比寿西５ビル２０２",
+  "postal_code": "1500021",
+  "tel": "080-9715-2323",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.64756413818809,
+    "lng": 139.70766183281205
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001641581/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/31559914.jpg"
+  ],
+  "retty_rating": 4.9,
+  "retty_review_count": 11,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://tabacchi.co.jp/tabacco",
+    "facebook": "https://www.facebook.com/ta.bacco.ebisu",
+    "instagram": "https://www.instagram.com/ta.bacco_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

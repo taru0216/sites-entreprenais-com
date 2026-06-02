@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000883149",
+  "slug": "store-883149",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:02:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "たつや 南店",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "串焼き",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南２-２-２",
+  "postal_code": "1500022",
+  "tel": "03-3791-5577",
+  "hours": {
+    "mon": {
+      "open": "16:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6458099,
+    "lng": 139.70760629999995
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000883149/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38506406.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 20,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ebisu-tatsuya.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

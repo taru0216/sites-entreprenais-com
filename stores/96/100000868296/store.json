@@ -1,0 +1,93 @@
+{
+  "retty_id": "100000868296",
+  "slug": "bar-bin-868296",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T15:47:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar bin",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ビアバー・ビアホール",
+    "ビストロ",
+    "ワインバー",
+    "洋食",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１－２ ２F",
+  "postal_code": "1500021",
+  "tel": "03-3770-0137",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "01:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "01:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "01:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "01:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64790431640225,
+    "lng": 139.70915110674594
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000868296/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38211588.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 113,
+  "nearest_station": "n○恵比寿駅徒歩4分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/ebisubin"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

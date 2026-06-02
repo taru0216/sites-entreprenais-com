@@ -1,0 +1,94 @@
+{
+  "retty_id": "100001436051",
+  "slug": "store-436051",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:01:07Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "肉焼 火鍋 酒場 けいじ",
+  "category": "テイクアウト",
+  "categories": [
+    "テイクアウト",
+    "焼肉",
+    "牛タン",
+    "水炊き",
+    "居酒屋",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１１ タオスビル",
+  "postal_code": "1500022",
+  "tel": "03-6712-2990",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.646158810176225,
+    "lng": 139.70919537913323
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001436051/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35612100.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 29,
+  "nearest_station": "n恵比寿駅西口徒歩1分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://r.goope.jp/daruten/",
+    "facebook": "https://www.facebook.com/%E7%82%89%E7%AB%AF-%E8%82%89%E7%84%BC-%E3%81%91%E3%81%84%E3%81%98-264444960979465/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

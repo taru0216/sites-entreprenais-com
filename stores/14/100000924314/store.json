@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000924314",
+  "slug": "il-gentile-924314",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:01:58Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "IL GENTILE",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー",
+    "ワインバル",
+    "イタリアンバル",
+    "ビストロ",
+    "洋食"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-５ ES２１５ビル ２F",
+  "postal_code": "1500022",
+  "tel": "03-6451-0808",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "01:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "01:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.645775254547104,
+    "lng": 139.70712086794288
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000924314/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/30940828.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 29,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://ilgentile.com",
+    "facebook": "https://www.facebook.com/satoru.shirota2"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001707391",
+  "slug": "store-707391",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:10:09Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼肉ここのみ",
+  "category": "焼肉",
+  "categories": [
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-９ハイライフ恵比寿 １０３",
+  "postal_code": "1500013",
+  "tel": "03-6277-2544",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.6480551,
+    "lng": 139.7107435
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001707391/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37458786.jpg"
+  ],
+  "retty_rating": 4.85,
+  "retty_review_count": 10,
+  "nearest_station": "n最寄駅:恵比寿駅から徒歩4分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

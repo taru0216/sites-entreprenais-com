@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001210315",
+  "slug": "420s-210315",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T16:48:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "420S",
+  "category": "ダーツバー",
+  "categories": [
+    "ダーツバー",
+    "バー",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-１０ エビスユニオンビル２F",
+  "postal_code": "1500022",
+  "tel": "03-6303-4469",
+  "hours": {
+    "sun": {
+      "open": "19:00",
+      "close": "06:00"
+    },
+    "mon": {
+      "open": "19:00",
+      "close": "06:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "06:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "06:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "06:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "06:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "06:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "06:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6461293,
+    "lng": 139.70798960000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001210315/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/22761117.jpg"
+  ],
+  "retty_rating": 3.4,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://page.line.me/ujt8609h",
+    "facebook": "https://www.facebook.com/fourtwentys/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}
