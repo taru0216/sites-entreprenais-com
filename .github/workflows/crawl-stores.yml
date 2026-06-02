@@ -5,6 +5,11 @@ name: Crawl Retty Stores
 # 公開ページのみを対象とし、内部 API には一切アクセスしない。
 
 on:
+  # 夜間バッチ（03:00 JST = 18:00 UTC）。レートリミット（HTTP 429）回避のため
+  # sleep=5 で恵比寿全店を時間をかけて取得する。schedule トリガーは inputs を
+  # 持たないため、各ステップで github.event.inputs の || フォールバックを使う。
+  schedule:
+    - cron: "0 18 * * *"
   workflow_dispatch:
     inputs:
       area_url:
@@ -16,9 +21,9 @@ on:
         required: false
         default: "2000"
       sleep:
-        description: "リクエスト間 sleep 秒（robots/負荷配慮）"
+        description: "リクエスト間 sleep 秒（robots/負荷配慮・429 回避）"
         required: false
-        default: "1.5"
+        default: "5"
 
 permissions:
   contents: write
@@ -48,10 +53,10 @@ jobs:
         id: crawl
         run: |
           python3 scripts/crawl_retty.py \
-            --area-url "${{ github.event.inputs.area_url }}" \
-            --max-count "${{ github.event.inputs.max_count }}" \
+            --area-url "${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }}" \
+            --max-count "${{ github.event.inputs.max_count || '2000' }}" \
             --out-dir stores \
-            --sleep "${{ github.event.inputs.sleep }}"
+            --sleep "${{ github.event.inputs.sleep || '5' }}"
 
       - name: Update sitemap & search-index
         run: |
@@ -83,8 +88,9 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| 項目 | 値 |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-----|" >> $GITHUB_STEP_SUMMARY
-          echo "| area_url | ${{ github.event.inputs.area_url }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| max_count | ${{ github.event.inputs.max_count }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| area_url | ${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| max_count | ${{ github.event.inputs.max_count || '2000' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| sleep | ${{ github.event.inputs.sleep || '5' }} |" >> $GITHUB_STEP_SUMMARY
           echo "| stores_written | ${{ steps.crawl.outputs.stores_written }} |" >> $GITHUB_STEP_SUMMARY
           echo "| stores_failed | ${{ steps.crawl.outputs.stores_failed }} |" >> $GITHUB_STEP_SUMMARY
           TOTAL=$(python3 -c "import glob; print(len(glob.glob('stores/*/*/store.json')))" 2>/dev/null || echo "?")
