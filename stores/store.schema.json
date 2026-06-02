@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://retty.foodre/store.schema.json",
+  "title": "foodre store.json",
+  "description": "飲食店情報の SSOT。Retty 公開ページ由来のフィールドとオーナー編集フィールド・多言語フィールドを持つ。",
+  "type": "object",
+  "required": ["retty_id", "slug", "hp_status", "name"],
+  "additionalProperties": true,
+  "properties": {
+    "retty_id": {
+      "type": "string",
+      "pattern": "^[0-9]{10,}$",
+      "description": "Retty 内部の店舗 ID（10桁以上の数字）"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL 用スラッグ"
+    },
+    "hp_status": {
+      "type": "string",
+      "enum": ["not_generated", "generated", "published", "archived"],
+      "description": "HP 生成ステータス"
+    },
+    "last_crawled": {
+      "type": ["string", "null"],
+      "description": "最終クロール日時（ISO 8601 UTC）"
+    },
+    "last_owner_update": {
+      "type": ["string", "null"]
+    },
+    "last_built": {
+      "type": ["string", "null"]
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "主カテゴリ（servesCuisine の先頭）"
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "全カテゴリ（servesCuisine）"
+    },
+    "address": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": ["string", "null"]
+    },
+    "tel": {
+      "type": ["string", "null"]
+    },
+    "hours": {
+      "type": "object",
+      "description": "曜日別営業時間。キーは mon..sun / holiday",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "open": { "type": "string" },
+          "close": { "type": "string" }
+        }
+      }
+    },
+    "hours_raw": {
+      "type": ["string", "null"],
+      "description": "営業時間の原文（パース不能時のフォールバック）"
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "lunch": { "type": ["integer", "string", "null"] },
+        "dinner": { "type": ["integer", "string", "null"] }
+      }
+    },
+    "budget_raw": {
+      "type": ["string", "null"]
+    },
+    "geo": {
+      "type": ["object", "null"],
+      "properties": {
+        "lat": { "type": ["number", "null"] },
+        "lng": { "type": ["number", "null"] }
+      }
+    },
+    "retty_url": {
+      "type": "string"
+    },
+    "retty_photos": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "retty_rating": {
+      "type": ["number", "null"]
+    },
+    "retty_review_count": {
+      "type": ["integer", "null"]
+    },
+    "nearest_station": {
+      "type": ["string", "null"]
+    },
+    "payment_accepted": {
+      "type": ["string", "null"]
+    },
+    "owner_message": {
+      "type": "string"
+    },
+    "owner_photos": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "featured_menu": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "special_info": {
+      "type": "string"
+    },
+    "reservation_url": {
+      "type": "string"
+    },
+    "sns": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "i18n": {
+      "type": "object",
+      "description": "多言語フィールド（en/zh/ko/th/vi/zh-TW）。初回クロール時は空。",
+      "additionalProperties": {
+        "type": "object"
+      }
+    }
+  }
+}

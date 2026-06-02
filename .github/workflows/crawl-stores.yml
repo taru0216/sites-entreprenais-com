@@ -1,0 +1,91 @@
+name: Crawl Retty Stores
+
+# Retty 公開サイトをクロールして store.json / sitemap.json / search-index.json を
+# 生成・コミットする（foodre #229 / #230）。
+# 公開ページのみを対象とし、内部 API には一切アクセスしない。
+
+on:
+  workflow_dispatch:
+    inputs:
+      area_url:
+        description: "Retty エリア一覧 URL（例: 恵比寿 https://retty.me/area/PRE13/ARE7/SUB701/）"
+        required: true
+        default: "https://retty.me/area/PRE13/ARE7/SUB701/"
+      max_count:
+        description: "最大クロール件数（恵比寿全店取得のため既定を大きく設定）"
+        required: false
+        default: "2000"
+      sleep:
+        description: "リクエスト間 sleep 秒（robots/負荷配慮）"
+        required: false
+        default: "1.5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl-stores
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Show Python version
+        run: python3 --version
+        # crawler は標準ライブラリのみで動作するため pip install 不要
+
+      - name: Crawl Retty area
+        id: crawl
+        run: |
+          python3 scripts/crawl_retty.py \
+            --area-url "${{ github.event.inputs.area_url }}" \
+            --max-count "${{ github.event.inputs.max_count }}" \
+            --out-dir stores \
+            --sleep "${{ github.event.inputs.sleep }}"
+
+      - name: Update sitemap & search-index
+        run: |
+          python3 scripts/update_sitemap.py --stores-dir stores
+
+      - name: Validate generated store.json
+        run: |
+          python3 scripts/validate_store.py --all stores
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stores/
+          if git diff --cached --quiet; then
+            echo "No store changes to commit."
+            exit 0
+          fi
+          COUNT=$(python3 -c "import json,glob; print(len(glob.glob('stores/*/*/store.json')))")
+          git commit -m "chore(stores): Retty クロール結果を反映 (${COUNT} 店舗) [skip ci]"
+          # rebase してから push（並行更新に備える）
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Crawl Retty Stores 結果" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| 項目 | 値 |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|-----|" >> $GITHUB_STEP_SUMMARY
+          echo "| area_url | ${{ github.event.inputs.area_url }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| max_count | ${{ github.event.inputs.max_count }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| stores_written | ${{ steps.crawl.outputs.stores_written }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| stores_failed | ${{ steps.crawl.outputs.stores_failed }} |" >> $GITHUB_STEP_SUMMARY
+          TOTAL=$(python3 -c "import glob; print(len(glob.glob('stores/*/*/store.json')))" 2>/dev/null || echo "?")
+          echo "| stores total | ${TOTAL} |" >> $GITHUB_STEP_SUMMARY
