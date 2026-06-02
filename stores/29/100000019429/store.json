@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000019429",
+  "slug": "store-019429",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "本格炭火焼肉・ホルモン 徳ちゃん 恵比寿本店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "ホルモン",
+    "屋台",
+    "鶏料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-７ 三恵エイトビル １F",
+  "postal_code": "1500013",
+  "tel": "03-3442-5562",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64734869999999,
+    "lng": 139.71048659999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000019429/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/27950213.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 32,
+  "nearest_station": "恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://ojori.jp/shop/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

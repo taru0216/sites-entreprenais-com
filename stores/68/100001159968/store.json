@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001159968",
+  "slug": "store-159968",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ニクアザブ　恵比寿店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "ホルモン"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１０",
+  "postal_code": "1500022",
+  "tel": "050-5304-6711",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64614342157628,
+    "lng": 139.7091877058284
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001159968/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001159968/archive/2089797-5fb1d88f04134.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2089797-5fb1d88f04134.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086992-5fae5a0acccf7.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086998-5fae5a15964b2.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086989-5fae5a0650349.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086984-5fae593774372.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086997-5fae5a142441a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086990-5fae5a079d10b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086996-5fae5a1267b60.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086995-5fae5a0fd9a9b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086994-5fae5a0e43c95.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001159968/archive/2086993-5fae5a0c93376.png"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 165,
+  "nearest_station": "恵比寿駅徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://nikuazabu.com/",
+    "instagram": "https://www.instagram.com/ebisu_nikuazabu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

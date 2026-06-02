@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000015809",
+  "slug": "store-015809",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 でですけ",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "焼き鳥",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-１４ 大黒ビル ２F",
+  "postal_code": "1500013",
+  "tel": "03-3444-5511",
+  "hours": {
+    "mon": {
+      "open": "16:00",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "21:00"
+    },
+    "sun": {
+      "open": "13:00",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "13:00",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "13:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.647835,
+    "lng": 139.709881
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000015809/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/43/47/P050164347/P050164347_480.jpg"
+  ],
+  "retty_rating": 3.2,
+  "retty_review_count": 68,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.dedesuke.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001572140",
+  "slug": "luxury-lounge-milas-572140",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:07Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "LUXURY LOUNGE MILAS ミラス恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "ステーキ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-７-８ニューライフ恵比寿 ２F",
+  "postal_code": "1500022",
+  "tel": "050-5462-8314",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64620955508846,
+    "lng": 139.70976274723873
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001572140/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001572140/archive/2279244-6054103c3ae9d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/2279244-6054103c3ae9d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3593600-680c9af2cc416.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3593640-680ca58cb3014.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/2279216-60540aa3a5880.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3593643-680ca590f2eff.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/2541896-61956da9891f9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3593639-680ca58b24283.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3593604-680c9af5a5adb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3593645-680ca5940acfe.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3275472-660001b457e9f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3593644-680ca59263887.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001572140/archive/3593571-680c9adf52bc1.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001572140",
+  "sns": {
+    "web": "https://luxuryloungemilas-ebisu.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

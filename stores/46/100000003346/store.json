@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000003346",
+  "slug": "store-003346",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:34:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 かみくら",
+  "category": "懐石料理",
+  "categories": [
+    "懐石料理",
+    "刺身",
+    "創作料理",
+    "居酒屋",
+    "割烹・小料理屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-６ サンポウ恵比寿ビル ４F",
+  "postal_code": "1500022",
+  "tel": "050-5462-9922",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6459155,
+    "lng": 139.70785350000006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000003346/archive/3885410-6965c9c0378d5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3885410-6965c9c0378d5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3887236-69660d40d5887.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3887664-6966152ecf86f.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3824109-692011b26ea7c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3824114-692011b55adb6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3887248-69660d53b01b3.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3824115-692011b61cc01.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3887637-6966149ae6dbf.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3887408-69660f4aa128a.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3887498-69660fe5e38b7.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3886483-6965ff333ab31.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003346/archive/3887643-696614bc8e90e.JPG"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 10,
+  "nearest_station": "恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000003346",
+  "sns": {
+    "web": "https://kamikura-ebisu.foodre.jp/",
+    "x": "https://x.com/kamikura2009_04"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

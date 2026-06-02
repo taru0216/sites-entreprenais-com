@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000006312",
+  "slug": "store-006312",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "馬肉屋たけし",
+  "category": "馬肉料理",
+  "categories": [
+    "馬肉料理",
+    "焼肉",
+    "居酒屋",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿１-２５-１１ 市川ビル３階",
+  "postal_code": "1500013",
+  "tel": "050-5461-2706",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.646587,
+    "lng": 139.71607399999994
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000006312/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000006312/archive/1667520-5eb4fe648efb8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1667520-5eb4fe648efb8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1984252-5f88ffb83f246.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1667523-5eb4fe668fccd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1667512-5eb4fe5f8ae86.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1667515-5eb4fe61840db.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1984254-5f88ffbef3f5b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1667516-5eb4fe621f322.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1667521-5eb4fe6547af6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1700235-5ed99c3d4b52e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1700237-5ed99c56996d4.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1667533-5eb4fea7d33cf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006312/archive/1667528-5eb4fea06636f.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 43,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000006312",
+  "sns": {
+    "web": "https://ba29takeshi.tokyo/",
+    "x": "https://x.com/banikuyatakeshi"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

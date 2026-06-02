@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001571155",
+  "slug": "store-571155",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "とり料理 鳥者",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "鶏料理",
+    "鍋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-２ ビッグストーンビル５F",
+  "postal_code": "1500021",
+  "tel": "03-6433-7949",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6480347,
+    "lng": 139.7086697
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001571155/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37907659.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 19,
+  "nearest_station": "n恵比寿駅西口から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

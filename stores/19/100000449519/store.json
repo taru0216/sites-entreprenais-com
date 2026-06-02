@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000449519",
+  "slug": "store-449519",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "おやまだ",
+  "category": "水炊き",
+  "categories": [
+    "水炊き",
+    "テイクアウト",
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１３-１１ ヴェール１F",
+  "postal_code": "1500022",
+  "tel": "03-6412-7566",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6457711,
+    "lng": 139.71017269999993
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000449519/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000449519/archive/1014234-5d2469fcbce4f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1014234-5d2469fcbce4f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1014238-5d2469ff5d83f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1014233-5d2469fc34d76.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1014237-5d2469fece52e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1014240-5d246a015d622.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1014235-5d2469fd6e349.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1014236-5d2469fe4e7b6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1644773-5ea0ff04569e9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1644769-5ea0fefb04d53.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1644772-5ea0ff0331a9c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1644774-5ea0ff057f251.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000449519/archive/1644775-5ea0ff0a32a3e.png"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 60,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

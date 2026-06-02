@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001624338",
+  "slug": "delujo-624338",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:44:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "イノベーティブレストラン DELUJO 恵比寿西口店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "イタリアン",
+    "イノベーティブ",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１４-１ サンライズビル ４F",
+  "postal_code": "1500021",
+  "tel": "03-5422-3075",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6479248,
+    "lng": 139.7078593
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001624338/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/19/60/P049941960/P049941960_480.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 10,
+  "nearest_station": "n最寄駅:恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.delujo.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

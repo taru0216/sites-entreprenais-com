@@ -1,0 +1,93 @@
+{
+  "retty_id": "100001218823",
+  "slug": "store-218823",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:20Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "トラットリア トマティカ",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１７-５",
+  "postal_code": "1500022",
+  "tel": "03-6315-6508",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 6000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜6000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.642682109391174,
+    "lng": 139.70886310338972
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001218823/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001218823/archive/1796642-5f325a696fdda.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796642-5f325a696fdda.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796625-5f325a597fb6a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796626-5f325a5a7b6e6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796634-5f325a61cc314.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796627-5f325a5b664b2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796633-5f325a60dd58c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796628-5f325a5c54af1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796632-5f325a5fe0134.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796630-5f325a5e1680c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796631-5f325a5ee2dff.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796635-5f325a630311d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001218823/archive/1796636-5f325a63ec1f0.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://tomatica.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

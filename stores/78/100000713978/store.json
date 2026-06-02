@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000713978",
+  "slug": "store-713978",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:52Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "アタラシヤ",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿４-１０-８ エビスビル１F",
+  "postal_code": "1500013",
+  "tel": "050-5304-5069",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "26:00"
+    },
+    "sun": {
+      "open": "17:30",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6454907,
+    "lng": 139.71470569999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000713978/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000713978/archive/916788-5cd502c880437.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/916788-5cd502c880437.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/1391018-5e1ec560c46e4.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/916787-5cd502b466b90.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/1016795-5d2702cd2ba20.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/1016796-5d2703088c5ea.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/321849-5a177954f39ca.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/114823-586bb5c2be778.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/1016785-5d270117978b4.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/1016790-5d270188273e1.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000713978/archive/1016793-5d27025b3d63d.jpeg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 352,
+  "nearest_station": "恵比寿駅から徒歩7分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000713978",
+  "sns": {
+    "web": "https://toliuo-ebisu.foodre.jp/",
+    "instagram": "https://www.instagram.com/toliuo_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

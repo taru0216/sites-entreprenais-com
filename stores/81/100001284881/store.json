@@ -1,0 +1,105 @@
+{
+  "retty_id": "100001284881",
+  "slug": "beefgarden-284881",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BeefGarden 恵比寿",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "ホルモン",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿４-１０-８ orange恵比寿 １F",
+  "postal_code": "1500013",
+  "tel": "03-6277-2078",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6454907,
+    "lng": 139.71470569999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001284881/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001284881/archive/1746787-5f052a7f8b35e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/1746787-5f052a7f8b35e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/297344-59e474610bbf1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/1198735-5dac02d171a89.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/303080-59f03e43b5a7a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/303078-59f03e4061c50.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/1198738-5dac03ab5c165.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/296117-59e08825d89a4.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/1198739-5dac03cc3e8a7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/303076-59f03e3b05628.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/367773-5a6ab2b5d07ed.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/299675-59e93360b8412.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/1198740-5dac04061485f.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 39,
+  "nearest_station": "nJR山手線・恵比寿駅より徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://t-f-m.co.jp/shop/beef-garden/",
+    "facebook": "https://www.facebook.com/beefgarden.ebisu/",
+    "instagram": "https://www.instagram.com/beefgarden/",
+    "x": "https://x.com/beef_garden"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000004784",
+  "slug": "store-004784",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "肉寿司 恵比寿横丁店",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "馬肉料理",
+    "パクチー料理",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-４ 恵比寿横丁内",
+  "postal_code": "1500013",
+  "tel": "03-3444-7005",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "05:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64811514898575,
+    "lng": 139.71069458251486
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000004784/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/01/76/P044810176/P044810176_480.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 332,
+  "nearest_station": "恵比寿駅西口から徒歩3分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/nikusushiebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

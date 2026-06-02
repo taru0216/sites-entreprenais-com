@@ -1,0 +1,80 @@
+{
+  "retty_id": "100000721125",
+  "slug": "store-721125",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:26Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "博一",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "丼もの",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-１７ OHWAビル１F",
+  "postal_code": "1500013",
+  "tel": "03-3473-0032",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6460212,
+    "lng": 139.7145001
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000721125/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35192342.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 50,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

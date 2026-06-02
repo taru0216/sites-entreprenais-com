@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001764441",
+  "slug": "store-764441",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:12Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "個室居酒屋 九州料理と地酒 うまかばい 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "焼き鳥",
+    "九州料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-１５ エビスリヨンビル ５F",
+  "postal_code": "1500013",
+  "tel": "03-6635-3942",
+  "hours": {
+    "sun": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6466808,
+    "lng": 139.711346
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001764441/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001764441/archive/3564123-67e312cfd827a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564123-67e312cfd827a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564147-67e312deb92fa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564122-67e312cf3e4d9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564139-67e312d9dd206.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564119-67e312cd56a01.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564148-67e312df4472d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564089-67e312bca9d54.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564157-67e312e48ea52.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564093-67e312bee2cb6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564153-67e312e22ad3a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564126-67e312d1c3f6e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764441/archive/3564114-67e312ca8d7ae.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 5,
+  "nearest_station": "【恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

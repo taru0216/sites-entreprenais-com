@@ -1,0 +1,99 @@
+{
+  "retty_id": "100000057002",
+  "slug": "live-057002",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "九州 熱中屋 恵比寿LIVE",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "鍋",
+    "餃子",
+    "しゃぶしゃぶ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-１６ 水岡ビル２・３F",
+  "postal_code": "1500022",
+  "tel": "03-5768-4256",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6465555687687,
+    "lng": 139.709073419643
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000057002/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000057002/archive/760982-5c88a57b42b73.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/760982-5c88a57b42b73.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/761048-5c88a7140f8f5.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/761043-5c88a5d1659e3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/761051-5c88a71a7156f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/761037-5c88a5c949325.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/761026-5c88a5b7af213.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/760981-5c88a579b9dd8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/760988-5c88a583df004.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/760990-5c88a587a250b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000057002/archive/761001-5c88a596d4af5.png"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 15,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

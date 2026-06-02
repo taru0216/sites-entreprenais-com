@@ -1,0 +1,99 @@
+{
+  "retty_id": "100001663526",
+  "slug": "new-village-663526",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "New Village",
+  "category": "ステーキ",
+  "categories": [
+    "ステーキ",
+    "イタリアン",
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１３-１４ 茶屋坂T&Kビル ５F",
+  "postal_code": "1500022",
+  "tel": "03-5724-3410",
+  "hours": {
+    "mon": {
+      "open": "12:00",
+      "close": "27:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "27:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "27:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "27:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "27:00"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 6000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜6000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64332233178887,
+    "lng": 139.70750673497028
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001663526/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001663526/archive/3142668-64fc82481cfbe.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3142668-64fc82481cfbe.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462681-6744490e51238.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3142669-64fc826e2a398.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462682-6744490eedd10.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462655-67444900014a7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462663-6744490453411.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462656-67444900882de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462668-674449071713a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462662-67444903bb817.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462683-6744490f95e0a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462665-67444905810c8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462690-674449143aa5f.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 7,
+  "nearest_station": "恵比寿駅から徒歩8分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001663526",
+  "sns": {
+    "web": "https://new-village.foodre.jp/",
+    "instagram": "https://www.instagram.com/newvillage.ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "retty_id": "100000448081",
+  "slug": "store-448081",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ホルモン焼き 婁熊東京",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "ホルモン",
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿西２-３-５ 石井ビル B１F",
+  "postal_code": "1500021",
+  "tel": "03-3464-8929",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.650037,
+    "lng": 139.707878
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000448081/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000448081/archive/322023-5a17934d33c3d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/322023-5a17934d33c3d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/322030-5a1793785c75f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/3432845-671a2c40c8c5b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/615481-5bec418314964.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/615482-5bec41a713e1b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/3432835-671a2c3a73b50.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/3432833-671a2c393b8c5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/3432837-671a2c3bb2e87.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/3432830-671a2c376fb6c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/3432825-671a2c33ae9d6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/3432820-671a2c308634a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000448081/archive/3432824-671a2c3326dee.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 130,
+  "nearest_station": "nJR線・恵比寿駅より徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://rukuma-tokyo.com/ebisu/",
+    "instagram": "https://www.instagram.com/rukumatokyo_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001792896",
+  "slug": "bremen-792896",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:47:54Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BREMEN 恵比寿",
+  "category": "ダーツバー",
+  "categories": [
+    "ダーツバー"
+  ],
+  "address": "東京都渋谷区恵比寿１-９-５ AIビル２F",
+  "postal_code": "1500013",
+  "tel": "03-6447-7889",
+  "hours": {
+    "sun": {
+      "open": "20:00",
+      "close": "06:00"
+    },
+    "mon": {
+      "open": "20:00",
+      "close": "06:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "06:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "06:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "06:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "06:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "06:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "06:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64693074074703,
+    "lng": 139.7111783184027
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001792896/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/48/88/P043704888/P043704888_480.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "retty_id": "100000839549",
+  "slug": "store-839549",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:07Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "うしごろ 貫 恵比寿本店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "日本酒バー",
+    "テイクアウト",
+    "焼き鳥",
+    "鶏料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１ STM恵比寿ビル１F",
+  "postal_code": "1500022",
+  "tel": "03-5725-2929",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64623567259347,
+    "lng": 139.7094177857075
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000839549/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38135201.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 275,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ushigoro-kan.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

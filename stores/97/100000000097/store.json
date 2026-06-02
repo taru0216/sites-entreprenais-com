@@ -1,0 +1,105 @@
+{
+  "retty_id": "100000000097",
+  "slug": "cona-000097",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:55Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "CONA 恵比寿店",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "ピザ",
+    "居酒屋",
+    "テイクアウト",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿１-６-１ グリーンハイツ高橋 １F",
+  "postal_code": "1500013",
+  "tel": "03-3447-8929",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6479625,
+    "lng": 139.7111504
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000097/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000000097/archive/1663280-5eae376f7a68d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663280-5eae376f7a68d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663271-5eae37697a8eb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663267-5eae376736a68.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663284-5eae378757bc6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663268-5eae3767b8b60.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663285-5eae3788627ef.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663270-5eae3768eaffd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663286-5eae37894a48e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663272-5eae376a28dd9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663287-5eae3789d5157.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663273-5eae376ad8c47.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663290-5eae378cb4dbc.jpg"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 78,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/ebisu.voco"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

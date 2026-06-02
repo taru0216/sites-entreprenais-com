@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001705882",
+  "slug": "store-705882",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:09Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ジンギスカン ジャック 恵比寿本店",
+  "category": "ジンギスカン",
+  "categories": [
+    "ジンギスカン",
+    "ステーキ"
+  ],
+  "address": "東京都渋谷区恵比寿西２-９-９クリスタル スクエア 代官山 １F",
+  "postal_code": "1500021",
+  "tel": "050-5462-9264",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "03:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64916134891439,
+    "lng": 139.70724141717926
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001705882/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001705882/archive/3702586-6891999824ab5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702586-6891999824ab5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702592-6891999b6b1a9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702588-689199992c182.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702601-689199a0199cc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702589-68919999c72f9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702596-6891999d72a00.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702585-6891999798708.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702600-6891999f9b462.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702587-689199989b289.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702598-6891999e7f550.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702590-6891999a53e5d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702594-6891999c7e181.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 8,
+  "nearest_station": "【恵比寿駅徒歩4分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001705882",
+  "sns": {
+    "web": "https://gogojak-2005.my.canva.site/",
+    "instagram": "https://www.instagram.com/jak_go55/",
+    "x": "https://x.com/jakjak_ebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

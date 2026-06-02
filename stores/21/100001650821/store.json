@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001650821",
+  "slug": "tap-tumbler-650821",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:54Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "クラフトビール量り売りTAP&TUMBLER 恵比寿店",
+  "category": "ビアバー・ビアホール",
+  "categories": [
+    "ビアバー・ビアホール"
+  ],
+  "address": "東京都渋谷区恵比寿４-６-１ 恵比寿MFビル １F",
+  "postal_code": "1500013",
+  "tel": "03-6456-3235",
+  "hours": {
+    "sun": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64593151468254,
+    "lng": 139.7122721585723
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001650821/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001650821/archive/2796261-62e3dfb1d58e5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796261-62e3dfb1d58e5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796255-62e3dfa4c75ec.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796266-62e3dfbd6c8e7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796250-62e3df976faa7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796246-62e3df878d57d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796247-62e3df8c54b78.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796252-62e3df9b9845b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796256-62e3dfa63ea55.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796253-62e3df9e77825.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796257-62e3dfa94bb38.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 8,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001650821",
+  "sns": {
+    "web": "https://www.craftbeers.tokyo/tap-tumbler-ebisu",
+    "facebook": "https://www.facebook.com/taptumbler",
+    "instagram": "https://www.instagram.com/taptumbler_/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

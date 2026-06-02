@@ -1,0 +1,95 @@
+{
+  "retty_id": "100001402417",
+  "slug": "store-402417",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "なゝ樹 恵比寿店",
+  "category": "そば（蕎麦）",
+  "categories": [
+    "そば（蕎麦）",
+    "居酒屋",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-２ サンキビル １F",
+  "postal_code": "1500021",
+  "tel": "050-5461-4419",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6475137,
+    "lng": 139.70801069999993
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001402417/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001402417/archive/1980018-5f8817928c7af.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/1980018-5f8817928c7af.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/1980696-5f881ae357877.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/1980057-5f8817cfe289e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/1979941-5f881731bc666.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/1980196-5f88188eb560c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/3113402-64c36777e6377.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/1980200-5f8818a1855af.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/1980218-5f8818b3de2a7.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001402417/archive/1980252-5f8818c5dddcd.png"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 39,
+  "nearest_station": "n最寄駅:恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001402417",
+  "sns": {
+    "web": "https://nanaki-ebisu.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

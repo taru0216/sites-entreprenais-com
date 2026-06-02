@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000003453",
+  "slug": "kichiri-003453",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:41Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "KICHIRI 恵比寿",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "バー",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-１２ Q EBIS PLAZA ６F",
+  "postal_code": "1500013",
+  "tel": "03-5791-1119",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6475459,
+    "lng": 139.7101365999999
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003453/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000003453/archive/696120-5c579569c719b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696120-5c579569c719b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696127-5c5795702551c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/697113-5c58094e39715.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696103-5c57955e1519a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696092-5c57955688e2f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696129-5c5795711f854.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/697106-5c58094964e73.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696130-5c5795718fea8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/699386-5c594af9919d2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696094-5c579557d6837.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696083-5c57954f0cc05.jpg"
+  ],
+  "retty_rating": 3.6,
+  "retty_review_count": 98,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.kichiri.co.jp/japanstyle/ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

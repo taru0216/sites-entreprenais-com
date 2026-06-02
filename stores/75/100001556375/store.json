@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001556375",
+  "slug": "decibel-w-556375",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:51Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ダーツバー DECIBEL W",
+  "category": "ダーツバー",
+  "categories": [
+    "ダーツバー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-９ グランベル恵比寿ビル２F",
+  "postal_code": "1500021",
+  "tel": "050-5262-9352",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "07:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64754138069636,
+    "lng": 139.707815653373
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001556375/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001556375/archive/2296603-6064255e696d7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296603-6064255e696d7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296598-6064251e860df.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296600-6064252fba6f0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296604-606425647ac4c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296623-606428122798b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296627-6064282aa1f7e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296597-60642517bfabb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296605-6064256971797.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296610-60642702bd314.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2325503-6076bc4695de8.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2296612-6064271392dc5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556375/archive/2325502-6076bc33183a8.jpeg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001556375",
+  "sns": {
+    "web": "https://decibel-w.owst.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

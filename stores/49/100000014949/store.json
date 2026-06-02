@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000014949",
+  "slug": "store-014949",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:24Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "とんちゃん 恵比寿店",
+  "category": "韓国料理",
+  "categories": [
+    "韓国料理",
+    "サムギョプサル",
+    "チーズタッカルビ",
+    "カレー"
+  ],
+  "address": "東京都渋谷区東３-２６-１ 中村ビル２F",
+  "postal_code": "1500011",
+  "tel": "03-5468-6151",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6486318,
+    "lng": 139.70941719999996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000014949/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/78/72/P047697872/P047697872_480.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 37,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.tonchang.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

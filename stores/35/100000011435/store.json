@@ -1,0 +1,102 @@
+{
+  "retty_id": "100000011435",
+  "slug": "sacra-011435",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "和レストラン SACRA",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "魚介・海鮮料理",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿西１-６-５ １F、２F、３F",
+  "postal_code": "1500021",
+  "tel": "050-5461-4413",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6479402,
+    "lng": 139.7080701
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000011435/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000011435/archive/1987099-5f8953f172cca.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987099-5f8953f172cca.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987093-5f8953edca98d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987106-5f8953f55f063.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987097-5f8953efefa0d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987105-5f8953f4c3cc4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987104-5f8953f4379bd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987098-5f8953f0d5a5c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987100-5f8953f223a5d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987096-5f8953ef6690d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987103-5f8953f321684.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987092-5f8953eccbc20.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987094-5f8953eecfc45.jpg"
+  ],
+  "retty_rating": 3.45,
+  "retty_review_count": 81,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://warestaurant-sacra.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

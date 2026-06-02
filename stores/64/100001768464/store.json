@@ -1,0 +1,87 @@
+{
+  "retty_id": "100001768464",
+  "slug": "colors-cafe-768464",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "COLORS CAFE",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "コーヒー専門店",
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿南１-９-４ ８F",
+  "postal_code": "1500022",
+  "tel": "03-4400-5916",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "18:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "18:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "18:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "18:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "18:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "18:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "18:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6456844,
+    "lng": 139.7091665
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001768464/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38656721.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://c-colors.jp/",
+    "instagram": "https://www.instagram.com/colorscafe_ebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

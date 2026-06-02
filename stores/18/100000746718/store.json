@@ -1,0 +1,104 @@
+{
+  "retty_id": "100000746718",
+  "slug": "store-746718",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "大魚",
+  "category": "魚介・海鮮料理",
+  "categories": [
+    "魚介・海鮮料理",
+    "刺身",
+    "ご当地グルメ",
+    "和食",
+    "炉端焼き",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１０-８ 本間ビル ２F",
+  "postal_code": "1500021",
+  "tel": "03-6861-3711",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6465265,
+    "lng": 139.7076423999999
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000746718/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000746718/archive/1293245-5dd812af3eae5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/1293245-5dd812af3eae5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/901473-5cc30fc72e280.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/1293243-5dd810ccf05c1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/937685-5ce3f1206f12e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/1293246-5dd812cf0fa70.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/1293248-5dd8131c873d8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/1293247-5dd812e829d60.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/1293251-5dd81356f34b8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/1293254-5dd8156861080.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746718/archive/1293250-5dd813366fe7d.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 24,
+  "nearest_station": "った希少な銘柄も多種取り揃え◎恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.bloom-co.jp/shop/oouo/",
+    "facebook": "https://www.facebook.com/%E5%A4%A7%E9%AD%9A-%E3%81%8A%E3%81%8A%E3%81%86%E3%81%8A-%E6%9C%AC%E6%97%A5%E3%81%AE%E3%82%BB%E3%83%AA%E8%B2%B7%E3%81%84%E9%AE%AE%E9%AD%9A-487860991234981/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

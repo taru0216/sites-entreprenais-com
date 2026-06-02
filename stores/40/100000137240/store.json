@@ -1,0 +1,96 @@
+{
+  "retty_id": "100000137240",
+  "slug": "store-137240",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 吉乃坐",
+  "category": "和食",
+  "categories": [
+    "和食",
+    "日本料理",
+    "水炊き"
+  ],
+  "address": "東京都渋谷区恵比寿４-２４-４ キエイビル１F",
+  "postal_code": "1500013",
+  "tel": "03-5793-5776",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.645299,
+    "lng": 139.715878
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000137240/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000137240/archive/1876827-5f6ea8fe1f049.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1876827-5f6ea8fe1f049.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831555-5f5051aa15ec6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831546-5f5051a33a7f7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1876820-5f6ea884afe8f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831556-5f5051aaecaa9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2258191-604083b28615b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831553-5f5051a8a58b9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831554-5f5051a953f42.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2258192-604083b418034.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/3054535-6462da1724e5f.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2258083-604077552111f.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831549-5f5051a5358e9.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 61,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://kichinoza.jp/",
+    "facebook": "https://www.facebook.com/ebisukichinoza/",
+    "instagram": "https://www.instagram.com/ebisu.kichinoza/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

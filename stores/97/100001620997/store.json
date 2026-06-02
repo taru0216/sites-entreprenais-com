@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001620997",
+  "slug": "alegria-ebisu-620997",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "シュラスコレストラン ALEGRIA ebisu",
+  "category": "シュラスコ",
+  "categories": [
+    "シュラスコ",
+    "肉バル",
+    "牛料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-２６-１３ SEビル ２F",
+  "postal_code": "1500013",
+  "tel": "050-5304-4894",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.647225,
+    "lng": 139.7163147
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001620997/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001620997/archive/3033605-6437b97ca07e0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/3033605-6437b97ca07e0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/2916309-63747a67bc34c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/3033607-6437b9923d052.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/2847279-6322b161620a9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/2922677-637f3fdc3151e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/3033609-6437b9a08e7d7.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/2916299-63747a4fdd7e8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/2636268-5d99cc1cf0ec5.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/3033613-6437b9bc9127f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/3038419-64412c103b858.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/2808407-62f3bdeaefd53.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001620997/archive/2627595-6212243b69690.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 7,
+  "nearest_station": "n【最寄駅】恵比寿駅（徒歩10分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001620997",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

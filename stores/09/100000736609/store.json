@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000736609",
+  "slug": "ebisu-736609",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Ebisu 言の葉",
+  "category": "鉄板焼き",
+  "categories": [
+    "鉄板焼き",
+    "刺身",
+    "ステーキ",
+    "日本料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-１６-３１ QUALEbisu２F",
+  "postal_code": "1500013",
+  "tel": "050-5462-8650",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64787932713649,
+    "lng": 139.71273835581974
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000736609/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000736609/archive/3640585-68564e747757b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640585-68564e747757b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640591-68564e7887ae8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640622-68564e91f0923.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640599-68564e7fbb9e9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640618-68564e8f0b681.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640615-68564e8ca5dce.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640600-68564e808d0d4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640605-68564e842d514.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640616-68564e8d77c89.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640601-68564e814235f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640613-68564e8a8113b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000736609/archive/3640594-68564e7a7e355.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 65,
+  "nearest_station": "恵比寿駅徒歩4分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000736609",
+  "sns": {
+    "web": "https://ebisu-kotonoha.foodre.jp/",
+    "instagram": "https://www.instagram.com/ebisu_kotonoha?igsh=d3doZDdtN3g2ZHA1"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

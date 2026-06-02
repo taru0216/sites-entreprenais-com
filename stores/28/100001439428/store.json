@@ -1,0 +1,96 @@
+{
+  "retty_id": "100001439428",
+  "slug": "bar-matt-439428",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:34:51Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar Matt",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区広尾１-１-３６ PASEO恵比寿 ７F",
+  "postal_code": "1500012",
+  "tel": "050-5303-3325",
+  "hours": {
+    "mon": {
+      "open": "19:30",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "19:30",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "19:30",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "19:30",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "19:30",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "19:30",
+      "close": "26:00"
+    },
+    "sun": {
+      "open": "19:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64980242131423,
+    "lng": 139.7120052705523
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001439428/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001439428/archive/2649690-623036cdf2cfd.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/2649690-623036cdf2cfd.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/1694066-5ed47ca8c5205.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/2649688-623036c71ede1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/1694071-5ed47dd801316.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/1694065-5ed47ca6c0580.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/2649689-623036ca78e9e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/2649681-623036c0f2b04.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/1694070-5ed47dd5677db.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/2971865-63dcc9419c1cc.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/591911-5bd845cc80e22.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/2649685-623036c3f09cd.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001439428/archive/1694064-5ed47c9fe0746.JPG"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 7,
+  "nearest_station": "恵比寿駅徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001439428",
+  "sns": {
+    "facebook": "https://www.facebook.com/BarMatt2003/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

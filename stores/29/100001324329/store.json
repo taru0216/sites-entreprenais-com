@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001324329",
+  "slug": "store-324329",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "焼肉 うしみつ 恵比寿本店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "熟成肉",
+    "肉バル"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１４-１２ ル・ソレイユ３ M１F",
+  "postal_code": "1500022",
+  "tel": "03-3710-2933",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6453951,
+    "lng": 139.70974609999996
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001324329/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38685479.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 125,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/ushimitsu.ebisuhonten/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

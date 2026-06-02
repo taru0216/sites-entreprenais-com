@@ -1,0 +1,96 @@
+{
+  "retty_id": "100000027337",
+  "slug": "sumi-bio-027337",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "SUMI-BIO スミビオ",
+  "category": "薬膳料理",
+  "categories": [
+    "薬膳料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-８ エビスファーストプレイス２０２",
+  "postal_code": "1500013",
+  "tel": "03-6408-1711",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64637573951646,
+    "lng": 139.71395968192053
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000027337/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000027337/archive/2539429-6192e183dc5c3.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/2539429-6192e183dc5c3.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/3518732-67ab4db3064df.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/3518826-67ab4fce47b34.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/2539425-6192e17ea1b8b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/3518827-67ab503c63cbe.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/2544553-6197a1bcd6833.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/1884871-5f7302d0c35d4.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/2123003-5fc5f4e11e69f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/3518733-67ab4ea66fece.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/2123006-5fc5f51d3687c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/2123007-5fc5f567995db.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027337/archive/2123008-5fc5f568c8805.png"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 103,
+  "nearest_station": "n恵比寿駅東口から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000027337",
+  "sns": {
+    "web": "https://sumibio.owst.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

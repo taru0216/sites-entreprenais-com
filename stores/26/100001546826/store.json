@@ -1,0 +1,97 @@
+{
+  "retty_id": "100001546826",
+  "slug": "bar-tambi-546826",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:17Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BAR TAMBI",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区東３-２５-８ ACN EBISU BLDG. ６F",
+  "postal_code": "1500011",
+  "tel": "050-5461-3947",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64851961328162,
+    "lng": 139.7099459352761
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001546826/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001546826/archive/1797031-5f327aa34e01e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1797031-5f327aa34e01e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1776552-5f1fdd10b78cd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1776596-5f1fdf857a698.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1776553-5f1fdd11b9f2e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1776597-5f1fdf8c5563f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1757972-5f0d0fde0131c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1757981-5f0d0fe6e365b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1757970-5f0d0fdc0a8c1.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1757983-5f0d0fea72dbb.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1757969-5f0d0fdb44730.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001546826/archive/1776551-5f1fdd0fcff98.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 2,
+  "nearest_station": "【JR恵比寿駅西口徒歩3分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001546826",
+  "sns": {
+    "facebook": "https://www.facebook.com/BAR.TAMBI",
+    "instagram": "https://www.instagram.com/bar.tambi/",
+    "x": "https://x.com/bar_tambi"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

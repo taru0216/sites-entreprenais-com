@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001260018",
+  "slug": "bar-11-260018",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BAR 11",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ワインバー",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西２-８-９ 代官山宝ビルⅢ ６階・７階",
+  "postal_code": "1500021",
+  "tel": "03-3462-1139",
+  "hours": {
+    "sun": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "mon": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "tue": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "wed": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "thu": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "fri": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "04:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "04:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64924722391847,
+    "lng": 139.70760514736173
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001260018/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/02/83/P027250283/P027250283_480.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://ichi-ichi.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

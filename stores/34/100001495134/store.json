@@ -1,0 +1,98 @@
+{
+  "retty_id": "100001495134",
+  "slug": "himuka-terrace-495134",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Himuka Terrace",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "洋食",
+    "郷土料理"
+  ],
+  "address": "東京都渋谷区恵比寿西１-２０-８",
+  "postal_code": "1500021",
+  "tel": "050-5262-2674",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6464221,
+    "lng": 139.7065232
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001495134/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001495134/archive/3139715-64f6ec2e6135f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/3139715-64f6ec2e6135f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/2525843-617ff5e80c936.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/3139731-64f6ed6325bb3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/2009483-5f8fa1910eb7b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/2009473-5f8fa182899fc.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/3139719-64f6ed36e7d5d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/3139727-64f6ed5bc1e32.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/2009509-5f8fa1cc2948e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/3139733-64f6ed6668524.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495134/archive/2009467-5f8fa17c00d21.png"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 20,
+  "nearest_station": "n恵比寿駅西口から徒歩5分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001495134",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

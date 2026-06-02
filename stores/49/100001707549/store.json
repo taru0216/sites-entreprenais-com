@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001707549",
+  "slug": "lover-707549",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:46Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "沖縄LOVER",
+  "category": "沖縄料理",
+  "categories": [
+    "沖縄料理",
+    "沖縄そば",
+    "定食"
+  ],
+  "address": "東京都渋谷区広尾１-１-３６PASEO恵比寿 １F",
+  "postal_code": "1500012",
+  "tel": "03-6427-2926",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64977892218851,
+    "lng": 139.7120009898554
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001707549/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33432823.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/people/%E5%A4%A7%E8%A1%86%E3%83%90%E3%83%AB-%E6%B2%96%E7%B8%84%EF%BC%AC%EF%BC%AF%EF%BC%B6%EF%BC%A5%EF%BC%B2/100092621362702/",
+    "instagram": "https://www.instagram.com/okinawalover_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

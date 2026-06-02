@@ -1,0 +1,99 @@
+{
+  "retty_id": "100001600875",
+  "slug": "luxury-bar-milas-600875",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:47:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "LUXURY BAR MILAS 恵比寿店 ラグジュアリー バー ミラス エビステン",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-７-８ニューライフ恵比寿 ２F",
+  "postal_code": "1500022",
+  "tel": "03-5708-5774",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.646215276659596,
+    "lng": 139.7097225141035
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001600875/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001600875/archive/2541895-61956c2bd6d1b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2541895-61956c2bd6d1b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2541892-61956aa958317.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2543139-61967cf662d1a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2541890-61956a2d87837.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2543141-61967d504e291.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2541891-61956a652a353.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2543138-61967cda0d59e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2541889-619569f0cbec7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2543142-61967d57c5486.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2541893-61956af5a7eae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2543146-619685e4e986d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001600875/archive/2541894-61956b42de497.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

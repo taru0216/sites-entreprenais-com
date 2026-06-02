@@ -1,0 +1,96 @@
+{
+  "retty_id": "100001549251",
+  "slug": "store-549251",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:24Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "食鶏 しまや 恵比寿",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "焼き鳥",
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１３-１１ ヴェールビル ２F",
+  "postal_code": "1500022",
+  "tel": "050-5462-7136",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64575414194538,
+    "lng": 139.710185
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001549251/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001549251/archive/4028626-69eae2252bdc2.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/4028626-69eae2252bdc2.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3982709-69b4f0076d5a9.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3462403-67441b5a9142b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3469281-674d671806e08.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/1812180-5f3e710432b4e.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3961782-69a6cae3d8132.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3462404-67441b5b63b36.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3480858-67608783a4f05.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3462364-67441a2309560.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3961783-69a6caea241b2.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/3469268-674d6710941d5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001549251/archive/1812161-5f3e652b2b314.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 5,
+  "nearest_station": "【恵比寿駅徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001549251",
+  "sns": {
+    "web": "https://www.shimaya-ebisu.com/",
+    "facebook": "https://www.facebook.com/ebisu.shimaya/",
+    "instagram": "https://www.instagram.com/ebisu.shimaya/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000033336",
+  "slug": "ristorante-della-collina-033336",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:54Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ristorante della collina",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南２-９-４ 安島ビル ２F",
+  "postal_code": "1500022",
+  "tel": "03-3714-8855",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64398180012167,
+    "lng": 139.70946751534834
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000033336/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38824716.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 163,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ristorantedellacollina.tokyo/",
+    "facebook": "https://www.facebook.com/Ristorante-della-collina-131507123693380/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

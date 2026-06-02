@@ -1,0 +1,98 @@
+{
+  "retty_id": "100000011434",
+  "slug": "store-011434",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:37Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "京都まろまろ 恵比寿本店",
+  "category": "和食",
+  "categories": [
+    "和食",
+    "おでん",
+    "豆腐料理・湯葉料理",
+    "鍋",
+    "刺身",
+    "日本料理",
+    "割烹・小料理屋",
+    "京料理",
+    "焼き鳥",
+    "しゃぶしゃぶ",
+    "創作料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-６-１ グリーンハイツ高橋",
+  "postal_code": "1500013",
+  "tel": "03-3445-7794",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:30"
+    },
+    "sun": {
+      "open": "16:30",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6479625,
+    "lng": 139.71115039999995
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000011434/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/25668278.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 139,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.maro-maro.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

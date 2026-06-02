@@ -1,0 +1,99 @@
+{
+  "retty_id": "100001625579",
+  "slug": "store-625579",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:06Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "センロギワ.",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー",
+    "デリバリー・宅配"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２３-１ ABC亜米利加橋ビル ２F",
+  "postal_code": "1500022",
+  "tel": "050-5303-3574",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64335566382785,
+    "lng": 139.71171115828378
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001625579/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001625579/archive/3658159-686b221c58641.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658159-686b221c58641.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658179-686b23b485348.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658131-686b20f130cce.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658180-686b23b54edd5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658138-686b20f6b65a8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658152-686b2218169fc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658143-686b20fd3e919.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658156-686b221a87ee1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658135-686b20f469ba0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658160-686b221ce9f3a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658178-686b23b3e315e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658134-686b20f39501f.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001625579",
+  "sns": {
+    "web": "https://senrogiwa-ebisu.foodre.jp/",
+    "facebook": "https://www.facebook.com/senrogiwa/",
+    "instagram": "https://www.instagram.com/ebisu_senrogiwa/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

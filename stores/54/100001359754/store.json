@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001359754",
+  "slug": "bocciano-359754",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:58Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BOCCIANO 恵比寿ガーデンプレイスタワー",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ピザ",
+    "パスタ",
+    "イタリアンバル"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０ 恵比寿ガーデンプレイスタワー３９F",
+  "postal_code": "1500013",
+  "tel": "03-6447-7885",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.642145576456784,
+    "lng": 139.71349087853886
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001359754/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35840473.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 17,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://daboccianotokyo.com"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

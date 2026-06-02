@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001359973",
+  "slug": "store-359973",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:01Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "火鍋 小肥羊 恵比寿店 しゃおふぇいやん",
+  "category": "火鍋",
+  "categories": [
+    "火鍋",
+    "薬膳料理"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-１４ キュープラザ恵比寿南２F",
+  "postal_code": "1500022",
+  "tel": "050-5462-9883",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64551425042557,
+    "lng": 139.7074799509657
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001359973/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001359973/archive/540058-5ba04ace5e385.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540058-5ba04ace5e385.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540052-5ba04ac8c45dc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/3461443-6742173773618.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540049-5ba04ac6477bf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/3461431-6742172e3905b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540050-5ba04ac717274.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/3461414-674217213a1ec.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540047-5ba04ac4d45d7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540051-5ba04ac80fc79.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540074-5ba0507172e59.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540054-5ba04aca4f1bc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001359973/archive/540075-5ba050724a4e8.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 18,
+  "nearest_station": "【恵比寿駅徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001359973",
+  "sns": {
+    "web": "https://xfy.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

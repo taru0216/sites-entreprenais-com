@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001695412",
+  "slug": "rose-ebisu-695412",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ROSE EBISU ‐ ローズ恵比寿",
+  "category": "ラウンジ",
+  "categories": [
+    "ラウンジ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８－１１昴Aビル ４F",
+  "postal_code": "1500021",
+  "tel": "050-5462-4381",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64743489064806,
+    "lng": 139.7083598582838
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001695412/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001695412/archive/3106459-64b7c51dedc8a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3106459-64b7c51dedc8a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3106470-64b7c527d7e31.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3023049-64268c4b4221b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3023015-64268be8ba737.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3023048-64268c473bae3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3106506-64b7c55ae47a4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3023047-64268c4327eca.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3106500-64b7c541e600b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3023090-6426902874807.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3106487-64b7c53681d95.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3023050-64268c4f3f7ce.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001695412/archive/3106485-64b7c534c3414.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "【恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001695412",
+  "sns": {
+    "web": "https://rose.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

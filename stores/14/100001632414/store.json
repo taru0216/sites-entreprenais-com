@@ -1,0 +1,69 @@
+{
+  "retty_id": "100001632414",
+  "slug": "store-632414",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:09Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "和牛溶岩焼 空雅",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "九州料理",
+    "焼肉",
+    "もつ鍋",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿１-６-７ animoebisu ３F",
+  "postal_code": "1500013",
+  "tel": "03-6450-3885",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6477162,
+    "lng": 139.7108705
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001632414/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001632414/archive/3143816-64ffcb52b6454.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143816-64ffcb52b6454.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143850-64ffcec7219e8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143820-64ffcb5d89ed3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143851-64ffcec9dec05.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143817-64ffcb56346e0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143853-64ffcecea5b29.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143824-64ffcb67d17af.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143849-64ffcec465d83.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143822-64ffcb6319ed9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143818-64ffcb588d483.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143819-64ffcb5b54248.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001632414/archive/3143821-64ffcb602f7f2.png"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 5,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

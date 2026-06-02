@@ -1,0 +1,96 @@
+{
+  "retty_id": "100000570307",
+  "slug": "store-570307",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鉄板焼 いちか",
+  "category": "鉄板焼き",
+  "categories": [
+    "鉄板焼き",
+    "ステーキ"
+  ],
+  "address": "東京都渋谷区東２-１４-１３",
+  "postal_code": "1500011",
+  "tel": "050-5304-2441",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 15000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜15000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.65177066049124,
+    "lng": 139.70998630613417
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000570307/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000570307/archive/2429478-60eff81119054.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000570307/archive/2429478-60eff81119054.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000570307/archive/2429477-60eff81022f35.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000570307/archive/2429479-60eff8124bcc7.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000570307/archive/2429482-60eff8146b1e9.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000570307/archive/2429480-60eff81323253.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000570307/archive/2429481-60eff813b6d6b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000570307/archive/2430093-60f1086408ace.jpeg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000570307",
+  "sns": {
+    "web": "https://www.teppanyaki-ichika.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

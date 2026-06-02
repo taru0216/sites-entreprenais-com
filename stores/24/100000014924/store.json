@@ -1,0 +1,99 @@
+{
+  "retty_id": "100000014924",
+  "slug": "store-014924",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:02Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "らんまん食堂 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "定食",
+    "からあげ",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿西１-４-１ 内野ビル１F",
+  "postal_code": "1500021",
+  "tel": "03-5489-4129",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "21:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "21:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.648804256303826,
+    "lng": 139.70795776694683
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000014924/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000014924/archive/2717215-6287736063a51.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717215-6287736063a51.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717227-62877367b5445.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717216-62877361068be.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2720314-628c4de398e20.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2720318-628c4de7a828c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717220-6287736365008.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2720322-628c4ded98b8b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717217-628773619eb61.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717218-6287736240910.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717219-62877362d54dc.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717223-628773653b3fe.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014924/archive/2717221-62877363f1b95.jpeg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 93,
+  "nearest_station": "恵比寿駅東口より徒歩3分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.rangmang.com/shop/rangmang-shokudo/ebisu.html"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

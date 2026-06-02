@@ -1,0 +1,57 @@
+{
+  "retty_id": "100001592386",
+  "slug": "store-592386",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:47:01Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿道場 虎の穴ホルモン",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "ホルモン",
+    "牛タン"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-２",
+  "postal_code": "1500013",
+  "tel": "03-6450-4747",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.648179202047075,
+    "lng": 139.71077628282066
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001592386/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/61/82/P047846182/P047846182_480.jpg"
+  ],
+  "retty_rating": 3.3,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/toranoana_horumon/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

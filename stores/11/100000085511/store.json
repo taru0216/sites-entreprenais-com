@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000085511",
+  "slug": "furachi-085511",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "FURACHI",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ラウンジ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-１６ 水岡ビル４～５F・屋上",
+  "postal_code": "1500022",
+  "tel": "03-6866-3873",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "04:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "04:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.646488,
+    "lng": 139.709001
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000085511/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/7792042.jpg"
+  ],
+  "retty_rating": 3.25,
+  "retty_review_count": 20,
+  "nearest_station": "飲み放題付きで税込5400円。恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.dd-holdings.jp/shops/furachi#/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

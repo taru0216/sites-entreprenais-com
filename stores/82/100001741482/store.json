@@ -1,0 +1,57 @@
+{
+  "retty_id": "100001741482",
+  "slug": "stabler-shimokitazawa-meatsand-ebisu-741482",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "STABLER Shimokitazawa Meatsand EBISU",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "サンドイッチ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-２ 横倉屋店舗１-A",
+  "postal_code": "1500022",
+  "tel": "03-6452-2911",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64617141005342,
+    "lng": 139.70829359755325
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001741482/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36169778.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 5,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://stabler-meatsand.com/",
+    "instagram": "https://www.instagram.com/stabler_shimokitazawa_meatsand/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

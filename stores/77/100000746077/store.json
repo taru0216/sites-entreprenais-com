@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000746077",
+  "slug": "store-746077",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:13Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "春秋ユラリ 恵比寿",
+  "category": "和食",
+  "categories": [
+    "和食",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-７-８ サウスワンB１F",
+  "postal_code": "1500022",
+  "tel": "050-5304-2375",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6460596512206,
+    "lng": 139.70964553862302
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000746077/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000746077/archive/71978-57feed8cc3248.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71978-57feed8cc3248.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/2783675-62d2947f6328a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71951-57fee86d3d99f.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71971-57feec89b0c34.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71952-57fee8b3d5621.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71975-57feed03c4f5f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71953-57fee8e045d60.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71976-57feed35a2b58.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71955-57fee9acd12ae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71977-57feed6606917.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/1243384-5dc1425b9530c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746077/archive/71980-57feedc46e6b1.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 145,
+  "nearest_station": "恵比寿駅西口から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000746077",
+  "sns": {
+    "web": "http://www.shunju.com/ja/restaurants/ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

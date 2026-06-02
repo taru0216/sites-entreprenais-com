@@ -1,0 +1,107 @@
+{
+  "retty_id": "100001495898",
+  "slug": "store-495898",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "よしにく 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "寿司",
+    "テイクアウト",
+    "ステーキ",
+    "牛タン",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿１-１２-５ 第３萩原ビル３F",
+  "postal_code": "1500013",
+  "tel": "03-6721-9975",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "27:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "27:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "27:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "27:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "27:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "27:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "27:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6467506,
+    "lng": 139.71213999999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001495898/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001495898/archive/3333231-6666f002e6fb3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/3333231-6666f002e6fb3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/3308876-6642dd899f257.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/3309381-664320790bb1d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/1061728-5d4b11870ec94.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/3308864-6642dd6ec68ad.PNG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/1130941-5d83d934da234.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/3309413-66433600aa7ef.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/1547016-5e7901fe0ef2f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/3308865-6642dd7145ef4.PNG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/1130942-5d83d93a954e1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/3309367-66431e60e723a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001495898/archive/3308855-6642dd5bc1099.PNG"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 32,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://yosinikuebisu.owst.jp",
+    "facebook": "https://www.facebook.com/p/yoshiniku_ebisu-100063530645112/",
+    "x": "https://x.com/55yoshiniku"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

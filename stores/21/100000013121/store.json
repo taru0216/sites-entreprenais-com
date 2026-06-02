@@ -1,0 +1,97 @@
+{
+  "retty_id": "100000013121",
+  "slug": "toscaneria-013121",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "toscaneria",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "にんにく料理",
+    "もつ料理",
+    "パスタ",
+    "ステーキ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１７-６ コートモデリアサウス恵比寿１０１",
+  "postal_code": "1500022",
+  "tel": "050-5462-3931",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 8000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜8000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6443379,
+    "lng": 139.7104005
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000013121/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000013121/archive/3134215-64edcd6057ba5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134215-64edcd6057ba5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134251-64edcd7b2bec3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134158-64edcd3573401.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134181-64edcd460b49b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134218-64edcd6279954.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134228-64edcd6abd44c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134170-64edcd3e40365.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134233-64edcd6e73349.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013121/archive/3134203-64edcd56bd11f.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 70,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000013121",
+  "sns": {
+    "web": "http://toscaneria.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

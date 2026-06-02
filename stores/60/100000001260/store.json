@@ -1,0 +1,103 @@
+{
+  "retty_id": "100000001260",
+  "slug": "store-001260",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "えびす 今井屋總本店",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "和食",
+    "鶏料理",
+    "水炊き"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-１１ １F・２F",
+  "postal_code": "1500021",
+  "tel": "050-5461-0983",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64783591197132,
+    "lng": 139.7086179085984
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000001260/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000001260/archive/1438983-5e3a89647a840.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1438983-5e3a89647a840.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1439124-5e3a8fb82f714.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1438980-5e3a895da068c.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/2198372-600791c17d958.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1439125-5e3a8fba185c9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1438994-5e3a897c01ac9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1439126-5e3a8fbf5c5cd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1438916-5e3a88bcc6df5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1439121-5e3a8faaf3fbf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1438939-5e3a88fed21f1.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1439129-5e3a8fcea2acc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001260/archive/1438985-5e3a8969c5b5c.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 105,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.dd-holdings.jp/shops/imaiyahonten/ebisu#/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

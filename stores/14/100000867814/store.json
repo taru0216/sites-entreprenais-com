@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000867814",
+  "slug": "store-867814",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:51Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鮨染井",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿西１-４-１０ 恵比寿ブリックス１階",
+  "postal_code": "1500021",
+  "tel": "03-6455-3900",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64869186126478,
+    "lng": 139.7077529190144
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000867814/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000867814/archive/2145462-5fd1e54bd0dbc.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145462-5fd1e54bd0dbc.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145445-5fd1e536e1055.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145457-5fd1e54562ab2.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145448-5fd1e539e71b1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2146018-5fd2c14bdc385.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145461-5fd1e54a6f910.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145442-5fd1e5330b414.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145460-5fd1e5493d175.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145459-5fd1e548177a0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145458-5fd1e546dd732.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145455-5fd1e542c1897.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000867814/archive/2145451-5fd1e53e20d10.png"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 89,
+  "nearest_station": "恵比寿駅西口より徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

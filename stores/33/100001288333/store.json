@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001288333",
+  "slug": "knock-288333",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "KNOCK 恵比寿店",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "ダイニングバー",
+    "洋食"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１７-１７Time Zoneテラスビル",
+  "postal_code": "1500022",
+  "tel": "03-6452-4057",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "12:30",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "12:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "12:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.644820953043336,
+    "lng": 139.71046773493288
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001288333/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35816235.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 158,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://mother-restaurants.com/",
+    "facebook": "https://www.facebook.com/knockebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001232316",
+  "slug": "store-232316",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "牡蠣ツ端",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "野菜料理",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-９-２AIビル地下１階",
+  "postal_code": "1500022",
+  "tel": "050-5462-5739",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6457322,
+    "lng": 139.70944780000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001232316/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001232316/archive/1889068-5f743a8beb316.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/1889068-5f743a8beb316.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321429-6655de42f2ef5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321439-6655de49cd175.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/1899329-5f76f22e3b96e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321427-6655de41b9ebc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321437-6655de486aa1c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321419-6655de3c21eaa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/1889053-5f74393d66b45.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321434-6655de465f2fd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321441-6655de4b2ce77.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321443-6655de4c885e8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001232316/archive/3321430-6655de439b92d.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 52,
+  "nearest_station": "n恵比寿駅、徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001232316",
+  "sns": {
+    "web": "https://kaki-tsubata.com",
+    "instagram": "https://www.instagram.com/ebisu.kakitubata/ "
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

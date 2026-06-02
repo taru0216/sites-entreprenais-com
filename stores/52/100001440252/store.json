@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001440252",
+  "slug": "store-440252",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:57Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 兜 奥座 恵比寿店",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "すき焼き",
+    "定食"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-９",
+  "postal_code": "1500021",
+  "tel": "050-5461-4418",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "05:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64759972147198,
+    "lng": 139.70779432944778
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001440252/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001440252/archive/1981572-5f881f9fe6fd8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/1981572-5f881f9fe6fd8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/1981639-5f882007798c5.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/1981718-5f8820847166b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/3122499-64d4981ddef8c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/1981719-5f882095737fa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/3122498-64d4981bd6946.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/1981781-5f8820cf203cd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/3122496-64d49818eb6dc.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/1981782-5f8820e26a6f5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001440252/archive/1981801-5f8820f8d1a26.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 22,
+  "nearest_station": "恵比寿駅より徒歩2分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001440252",
+  "sns": {
+    "web": "https://ebisukabutookuza-ebisu.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

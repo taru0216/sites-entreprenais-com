@@ -1,0 +1,103 @@
+{
+  "retty_id": "100000754495",
+  "slug": "store-754495",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:15Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "三ツ石ファーム",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "冷麺",
+    "和食",
+    "鶏料理",
+    "串焼き",
+    "炭火焼き",
+    "もつ鍋",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿３-２-１９ エスペランサ恵比寿２F",
+  "postal_code": "1500013",
+  "tel": "03-5773-1855",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.646104,
+    "lng": 139.705404
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000754495/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000754495/archive/882609-5cc0267d98e55.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000754495/archive/882609-5cc0267d98e55.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000754495/archive/882582-5cc0265a70cd9.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000754495/archive/882592-5cc026687ca4d.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000754495/archive/882669-5cc026e8d4f92.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000754495/archive/1849100-5f5a2b36d91bc.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000754495/archive/882681-5cc026fc64e52.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000754495/archive/1849101-5f5a2b38b84f3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000754495/archive/882572-5cc0264346375.JPG"
+  ],
+  "retty_rating": 3.25,
+  "retty_review_count": 21,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.bloom-co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

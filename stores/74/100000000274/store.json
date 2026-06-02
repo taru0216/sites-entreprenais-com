@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000000274",
+  "slug": "store-000274",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:53Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ふわとろ本舗",
+  "category": "お好み焼き",
+  "categories": [
+    "お好み焼き",
+    "鉄板焼き",
+    "ステーキ",
+    "焼きそば"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１４-３ 満栄佐藤ビル １F",
+  "postal_code": "1500021",
+  "tel": "03-3770-0816",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6477569,
+    "lng": 139.70784230000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000274/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/32715926.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 78,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.rb-syuhari.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

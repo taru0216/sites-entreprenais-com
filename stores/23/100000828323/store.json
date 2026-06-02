@@ -1,0 +1,104 @@
+{
+  "retty_id": "100000828323",
+  "slug": "tiger-gang-828323",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:58Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ステーキ&カジュアルフレンチイタリアン Tiger Gang 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "フレンチ",
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-３ ROOB６ B２F",
+  "postal_code": "1500021",
+  "tel": "03-5457-3080",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "28:30"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "28:30"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "28:30"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "28:30"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "28:30"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "28:30"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "28:30"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "28:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64763142241373,
+    "lng": 139.70794832483102
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000828323/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000828323/archive/3038389-64411d67c097d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/3038389-64411d67c097d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/3137770-64f4686ccd049.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/2451737-6116503285950.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939748-5ce747f6bf803.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939838-5ce7518cdd967.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939877-5ce751bad7785.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939868-5ce751b16242c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939726-5ce747dad92b0.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939856-5ce751a4b4552.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939876-5ce751b9f2a41.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939751-5ce748044ec87.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/939878-5ce751bbc6fed.jpeg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "n最寄駅:恵比寿駅徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://akr0068167242.owst.jp/",
+    "instagram": "https://www.instagram.com/p/CrQFn46SCbH/",
+    "x": "https://x.com/sion_ebisu"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

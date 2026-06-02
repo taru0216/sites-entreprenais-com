@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001477014",
+  "slug": "issui-477014",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:44:19Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "完全個室 創彩酒家 一水 -ISSUI- 恵比寿本店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "九州料理",
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿西１-９-３",
+  "postal_code": "1500021",
+  "tel": "03-6628-8319",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64717999317844,
+    "lng": 139.70843071257423
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001477014/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/94/76/P048089476/P048089476_480.jpg"
+  ],
+  "retty_rating": 3.4,
+  "retty_review_count": 9,
+  "nearest_station": "恵比寿駅西口より徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://ebisuenkai.owst.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

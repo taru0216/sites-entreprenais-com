@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000044153",
+  "slug": "store-044153",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿餃子 大豊記 弐號房",
+  "category": "餃子",
+  "categories": [
+    "餃子",
+    "飲茶・点心",
+    "テイクアウト",
+    "焼きそば",
+    "小龍包"
+  ],
+  "address": "東京都渋谷区恵比寿１-２２-２３ ヴェラハイツ恵比寿１F",
+  "postal_code": "1500013",
+  "tel": "03-3444-7557",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.646246211138,
+    "lng": 139.71338957548005
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000044153/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/72/86/P048007286/P048007286_480.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 147,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.soh-corporation.co.jp/",
+    "facebook": "https://www.facebook.com/soh.corporation/",
+    "instagram": "https://www.instagram.com/ebisugyoza.taihouki_official/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

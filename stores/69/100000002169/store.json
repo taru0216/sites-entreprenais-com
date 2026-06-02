@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000002169",
+  "slug": "store-002169",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:47Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿餃子 大豊記 本館",
+  "category": "餃子",
+  "categories": [
+    "餃子",
+    "中華",
+    "飲茶・点心"
+  ],
+  "address": "東京都渋谷区東３-２５-３ ライオンズプラザ恵比寿 １F",
+  "postal_code": "1500011",
+  "tel": "03-3409-7477",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.648673383714446,
+    "lng": 139.70991505927736
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000002169/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/02/84/P048290284/P048290284_480.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 124,
+  "nearest_station": "恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://taihouki.jp/",
+    "facebook": "https://www.facebook.com/%E5%A4%A7%E8%B1%8A%E8%A8%98-%E6%9C%AC%E9%A4%A8-920135174834026/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

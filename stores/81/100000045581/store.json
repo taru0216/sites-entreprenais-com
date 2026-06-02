@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000045581",
+  "slug": "store-045581",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "西安料理 張家 恵比寿店",
+  "category": "中華",
+  "categories": [
+    "中華",
+    "バー",
+    "刀削麺"
+  ],
+  "address": "東京都渋谷区恵比寿４-７-２ KBKビル １F",
+  "postal_code": "1500013",
+  "tel": "03-5422-9477",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6457767,
+    "lng": 139.71302249999997
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000045581/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/07/39/P024390739/P024390739_480.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 52,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.tosyomen.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

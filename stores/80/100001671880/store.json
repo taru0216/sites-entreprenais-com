@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001671880",
+  "slug": "brasserie-taille-671880",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Brasserie Taille",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "洋食",
+    "フレンチ"
+  ],
+  "address": "東京都渋谷区恵比寿１-２６-１２",
+  "postal_code": "1500013",
+  "tel": "080-3393-3724",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6472678,
+    "lng": 139.7164424
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001671880/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/76/76/P040207676/P040207676_480.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "retty_id": "100001833329",
+  "slug": "wa-833329",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:34:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "～和～ WA 恵比寿",
+  "category": "鉄板焼き",
+  "categories": [
+    "鉄板焼き",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿４-９-１５ 萩原ビル B１F",
+  "postal_code": "1500013",
+  "tel": "050-5304-6964",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.645620699999995,
+    "lng": 139.71469166319466
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001833329/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001833329/archive/4080517-6a165b5181249.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080517-6a165b5181249.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080511-6a165b4e721e0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080512-6a165b4ee682f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080515-6a165b507f029.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080516-6a165b510516d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080513-6a165b4f6bb13.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080514-6a165b4ff18bf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080518-6a165b52049a6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001833329/archive/4080519-6a165b52889a0.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "恵比寿駅から徒歩6分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001833329",
+  "sns": {
+    "web": "https://pink854257.studio.site/",
+    "instagram": "https://www.instagram.com/sake_teppan.wa/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

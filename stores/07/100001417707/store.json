@@ -1,0 +1,104 @@
+{
+  "retty_id": "100001417707",
+  "slug": "cheese-tensai-417707",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "和cheese TENSAI",
+  "category": "チーズ料理",
+  "categories": [
+    "チーズ料理",
+    "パスタ",
+    "ビストロ"
+  ],
+  "address": "東京都渋谷区恵比寿１-９-５ EBISUマルトビル ２F",
+  "postal_code": "1500013",
+  "tel": "050-5462-8837",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6470032,
+    "lng": 139.71119909999993
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001417707/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001417707/archive/3666246-6875b01eecbb0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/3666246-6875b01eecbb0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/530439-5b8f2d5660ad1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/3666242-6875b01cec3df.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/3666265-6875b4820e266.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/777959-5c9037671f046.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/530449-5b8f2d9b2383e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/1694672-5ed4bca1b4e8b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/777961-5c9037691ff8a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/529787-5b8e49d5375ef.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/1636801-5e97e6950432f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/3666240-6875b01bde4c5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001417707/archive/3666264-6875b48158d78.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 22,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001417707",
+  "sns": {
+    "web": "https://wa-cheese-tensai.foodre.jp/",
+    "facebook": "https://www.facebook.com/226939361379206/",
+    "instagram": "https://www.instagram.com/tensai_wa_cheese/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000025632",
+  "slug": "store-025632",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:12Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "オステリア ラ・リベラ 恵比寿",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "炭火焼き"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１８-１１ 西田ビル １F",
+  "postal_code": "1500022",
+  "tel": "03-6452-4853",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "15:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.645106832292825,
+    "lng": 139.71062531840266
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000025632/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000025632/archive/3505994-67975fd33f49f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3505994-67975fd33f49f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3506004-67975fd89c9a1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3506010-679760450fac5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3505996-67975fd4633fa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3506005-67975fd91a4b8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3506009-6797604468ef3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3505997-67975fd4dfe6c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3505998-67975fd57c69a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3505995-67975fd3ce790.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3505958-67975fbe1ed58.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3506001-67975fd712172.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000025632/archive/3506002-67975fd7a182a.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 109,
+  "nearest_station": "【恵比寿駅徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000025632",
+  "sns": {
+    "web": "https://www.lalibera-km.com/",
+    "facebook": "https://www.facebook.com/OsteriaLalibera/",
+    "instagram": "https://www.instagram.com/osteria_la_libera"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

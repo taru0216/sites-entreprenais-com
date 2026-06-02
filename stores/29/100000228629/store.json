@@ -1,0 +1,87 @@
+{
+  "retty_id": "100000228629",
+  "slug": "bar-tali-228629",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:44:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar TALI",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ダイニングバー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-１０ Ebisu TANAKA.BLDG. ８F",
+  "postal_code": "1500021",
+  "tel": "03-6416-3484",
+  "hours": {
+    "mon": {
+      "open": "19:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "29:00"
+    },
+    "sun": {
+      "open": "19:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.648887,
+    "lng": 139.708253
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000228629/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/24388527.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 8,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

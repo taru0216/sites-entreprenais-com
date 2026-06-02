@@ -1,0 +1,91 @@
+{
+  "retty_id": "100001400310",
+  "slug": "store-400310",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:44:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "割烹 うづき",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "魚介・海鮮料理",
+    "居酒屋",
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-５ 第３伊藤ビル１０１",
+  "postal_code": "1500013",
+  "tel": "03-6450-4578",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.645530527620416,
+    "lng": 139.71185447126047
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001400310/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33950742.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 12,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://kappou-uzuki-ebisu.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

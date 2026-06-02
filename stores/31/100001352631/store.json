@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001352631",
+  "slug": "longrain-352631",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Longrain",
+  "category": "タイ料理",
+  "categories": [
+    "タイ料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-３ 恵比寿ガーデンプレイスタワー ３９F",
+  "postal_code": "1500013",
+  "tel": "050-5462-8067",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "15:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "15:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "15:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64214608987854,
+    "lng": 139.71348666472386
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001352631/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001352631/archive/3903162-6972c1037d89a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903162-6972c1037d89a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903172-6972c10902c1b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903150-6972c0fc9a6b6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/504235-5b6cef4f544c5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903149-6972c0fbe6a8e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903193-6972c11425e3a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903188-6972c1115cceb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903160-6972c1025b569.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903189-6972c111e0486.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903146-6972c0fa5554d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903167-6972c1062baaa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001352631/archive/3903133-6972c0f335cc0.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 88,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001352631",
+  "sns": {
+    "web": "http://longrain.im-transit.co.jp/",
+    "facebook": "https://www.facebook.com/longraintokyo/",
+    "instagram": "https://www.instagram.com/longraintokyo"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

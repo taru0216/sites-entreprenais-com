@@ -1,0 +1,57 @@
+{
+  "retty_id": "100001655469",
+  "slug": "store-655469",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 ホルモン富士",
+  "category": "ホルモン",
+  "categories": [
+    "ホルモン",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１－１－３ タキカワビル１F",
+  "postal_code": "1500021",
+  "tel": "03-6433-7840",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.648003,
+    "lng": 139.7091178
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001655469/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/76/27/P043977627/P043977627_480.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 5,
+  "nearest_station": "nJR線・恵比寿駅より徒歩2分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://mountainbull.co.jp/locations/%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%E5%AF%8C%E5%A3%AB-2/",
+    "instagram": "https://www.instagram.com/_horumonfuji_/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

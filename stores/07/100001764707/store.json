@@ -1,0 +1,97 @@
+{
+  "retty_id": "100001764707",
+  "slug": "cafe-pool-bar-contact-764707",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:47:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Cafe & Pool Bar Contact",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ダーツバー"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-１５ エビスリヨンビル６F",
+  "postal_code": "1500013",
+  "tel": "03-6455-6871",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "02:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "03:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "03:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64669796461088,
+    "lng": 139.71132856564142
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001764707/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001764707/archive/3493203-677cb620c741f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493203-677cb620c741f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493192-677cb60a7c5af.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493210-677cb626f00a6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493166-677cb5f2568de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493167-677cb5f3776d7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493211-677cb62852ebd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493177-677cb5fd29db2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493169-677cb5f49cc2c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493212-677cb62926393.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493179-677cb5fe42f3a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493170-677cb5f5b2830.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001764707/archive/3493213-677cb62a05ce3.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://cafe-and-poolbar-contact.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001699064",
+  "slug": "store-699064",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "粋 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "定食",
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-２サンキビル ２F",
+  "postal_code": "1500021",
+  "tel": "050-5462-7732",
+  "hours": {
+    "mon": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.647569007600865,
+    "lng": 139.70806367362803
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001699064/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001699064/archive/3878530-695f50d6187cd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3878530-695f50d6187cd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528346-67b806ecd43be.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528420-67b80c39f0678.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528392-67b809e731ab4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528339-67b80644f36bc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528341-67b8066fd45f0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528414-67b80bc076da6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528364-67b8081885b4a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528435-67b80d672b679.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528389-67b809b93e833.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528334-67b8060952294.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001699064/archive/3528340-67b80657923f4.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 6,
+  "nearest_station": "n恵比寿駅西口徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001699064",
+  "sns": {
+    "web": "https://iki-ebisuten.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001824686",
+  "slug": "bar-trinity-824686",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:48:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar trinity",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１６-３",
+  "postal_code": "1500022",
+  "tel": "03-4400-8150",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6442871,
+    "lng": 139.7097584
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001824686/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/63/95/P047926395/P047926395_480.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

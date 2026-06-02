@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001157889",
+  "slug": "store-157889",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:47Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "小割烹おはし ゑびすりびんぐ",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "居酒屋",
+    "おばんざい"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-１４ キュープラザ恵比寿南 ５F",
+  "postal_code": "1500022",
+  "tel": "03-5794-8770",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.645488922536515,
+    "lng": 139.70751714785044
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001157889/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001157889/archive/3423611-670f2470b08a3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/3423611-670f2470b08a3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2814255-62fe839b24b5d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2814250-62fe83647f8c6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2634211-621c6a4353996.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2814252-62fe8374f1aa9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2634174-621c6a2974388.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2814233-62fe82aff1d15.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2634189-621c6a340a336.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2814249-62fe8359a6ef1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2634196-621c6a38b6c46.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2814226-62fe815566361.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001157889/archive/2634207-621c6a40b91bc.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 102,
+  "nearest_station": "【恵比寿駅徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.dd-holdings.jp/shops/ohashi/ebisu_living#/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

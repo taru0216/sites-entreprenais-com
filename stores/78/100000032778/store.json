@@ -1,0 +1,54 @@
+{
+  "retty_id": "100000032778",
+  "slug": "stars-tokyo-032778",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:36Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Stars☆TOKYO",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "その他"
+  ],
+  "address": "東京都渋谷区広尾１-１５-６ ヒーロービル １F",
+  "postal_code": "1500012",
+  "tel": "03-6459-3760",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64843116151111,
+    "lng": 139.71238452513126
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000032778/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/23/87/P034412387/P034412387_480.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001418104",
+  "slug": "store-418104",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:20Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ビストロ トリコヤ",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１１-２",
+  "postal_code": "1500022",
+  "tel": "050-5262-8905",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "15:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "15:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64533263098483,
+    "lng": 139.7095428168734
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001418104/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001418104/archive/763662-5c8c5b681ceb7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/763662-5c8c5b681ceb7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/1408652-5e280c5ff2580.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/763666-5c8c5b8f7d25d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/453005-5b22183a7625d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/506402-5b7386bfb893e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/453002-5b2218393b692.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/1408664-5e280cc4ec455.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/453034-5b22196038370.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/780555-5c946a2f597b2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/2434495-60f7e04ebb325.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/763634-5c8c59e5d0357.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001418104/archive/2434460-60f7dfb887370.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 78,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001418104",
+  "sns": {
+    "web": "https://www.toricoya.com",
+    "facebook": "https://www.facebook.com/TORICOYA/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

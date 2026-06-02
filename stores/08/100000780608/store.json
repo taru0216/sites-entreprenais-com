@@ -1,0 +1,97 @@
+{
+  "retty_id": "100000780608",
+  "slug": "store-780608",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "コンフォテーブル エビス",
+  "category": "和食",
+  "categories": [
+    "和食"
+  ],
+  "address": "東京都渋谷区恵比寿４-８-１０ コンフォートEBISU１F",
+  "postal_code": "1500013",
+  "tel": "03-5422-9117",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64567630127069,
+    "lng": 139.71337688650817
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000780608/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000780608/archive/1957484-5f84049d755f8.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1957484-5f84049d755f8.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1046027-5d4141aa47c3b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1046038-5d414252ec109.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1664995-5eb2892a81e72.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1647992-5ea2b1fa23a73.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1046328-5d415be7a0eed.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1216528-5db2a15e0f3cc.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1652201-5ea681ddc0e89.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1046259-5d4155e40cd2a.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1216541-5db2a24d3bd2f.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1121425-5d788dedebc5f.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000780608/archive/1216524-5db2a1079eb79.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 186,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000780608",
+  "sns": {
+    "facebook": "https://www.facebook.com/ComfortableEBISU/",
+    "instagram": "https://www.instagram.com/com_for_table_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

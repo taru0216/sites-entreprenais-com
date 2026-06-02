@@ -1,0 +1,85 @@
+{
+  "retty_id": "100000829882",
+  "slug": "cam-829882",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:44:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鉄板焼バル cam",
+  "category": "バル",
+  "categories": [
+    "バル",
+    "テイクアウト",
+    "デリバリー・宅配",
+    "串焼き",
+    "ワインバル",
+    "鉄板焼き"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２３-８ アメリカンブリッジビル２F",
+  "postal_code": "1500022",
+  "tel": "03-5935-7620",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "02:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "02:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.643100850238966,
+    "lng": 139.71176716452453
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000829882/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/22298467.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 10,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.bar-cam.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

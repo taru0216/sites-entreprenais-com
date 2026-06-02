@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000702504",
+  "slug": "store-702504",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:02Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "アナログ カフェ ラウンジ トーキョー",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "バー",
+    "ラウンジ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-３ ４F",
+  "postal_code": "1500022",
+  "tel": "050-5461-4487",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.646102538947716,
+    "lng": 139.7094118018524
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000702504/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000702504/archive/1915160-5f7d25c944311.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1915160-5f7d25c944311.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1915329-5f7d2a66185e7.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1915178-5f7d2642bc9bb.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1998799-5f8d179ca5cf5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1915434-5f7d2bf84d201.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1915361-5f7d2aadc1c22.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1915423-5f7d2bbb4e727.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1915377-5f7d2ad782c89.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1998797-5f8d175ca1bf4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000702504/archive/1998798-5f8d1773ec346.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 260,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000702504",
+  "sns": {
+    "web": "https://anarogcafeloungetokyo.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

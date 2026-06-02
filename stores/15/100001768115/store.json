@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001768115",
+  "slug": "store-768115",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:35Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "長崎天麩羅こうてん",
+  "category": "天ぷら",
+  "categories": [
+    "天ぷら",
+    "天丼",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南２-２-７ TS山本ビル１F",
+  "postal_code": "1500022",
+  "tel": "050-5462-7607",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64583159623874,
+    "lng": 139.70740331226844
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001768115/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001768115/archive/3530300-67bbfe60316a5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530300-67bbfe60316a5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530301-67bbfe61f2166.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530297-67bbfe5a5e70f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3722462-68b00d53cce41.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530289-67bbfe16c7aad.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530299-67bbfe5e4cf7b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530287-67bbfe132bc8e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3722446-68b00c32878c8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530286-67bbfe1133993.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3722453-68b00c5440ef5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530308-67bbfe6e06d17.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001768115/archive/3530305-67bbfe6925b70.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 6,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001768115",
+  "sns": {
+    "web": "https://kouten.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

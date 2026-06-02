@@ -1,0 +1,90 @@
+{
+  "retty_id": "100000114848",
+  "slug": "pronto-114848",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:56Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "PRONTO 恵比寿東口店",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "ダイニングバー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-１３",
+  "postal_code": "1500013",
+  "tel": "03-3445-5450",
+  "hours": {
+    "mon": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "07:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "09:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "09:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "09:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64663464688714,
+    "lng": 139.71126922423366
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114848/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/95/59/P043409559/P043409559_480.jpg"
+  ],
+  "retty_rating": 3.1,
+  "retty_review_count": 14,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.pronto.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "retty_id": "100000001670",
+  "slug": "store-001670",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:57Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "博多水炊きと炭火焼鳥　美神鶏",
+  "category": "水炊き",
+  "categories": [
+    "水炊き",
+    "焼き鳥",
+    "居酒屋",
+    "鶏料理",
+    "串焼き",
+    "フレンチトースト"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-１０ ファイブアネックス２F",
+  "postal_code": "1500021",
+  "tel": "03-5459-5700",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6488873,
+    "lng": 139.7082534
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000001670/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000001670/archive/600576-5bdbd549a094f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/600576-5bdbd549a094f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/1759872-5f0d8d7fa1173.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/600579-5bdbd56a400aa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/138734-589928a561528.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/178928-58e24d5791b6d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/623101-5bf6158b6fdec.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/600588-5bdbd61ce4bac.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/600581-5bdbd5c2ed48d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/623068-5bf6155c73c67.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/600582-5bdbd5f1a94db.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/600577-5bdbd54f8207e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000001670/archive/600580-5bdbd5bedae45.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 72,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://bijindori.com",
+    "facebook": "https://www.facebook.com/bijindori/",
+    "instagram": "https://www.instagram.com/bijindori/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

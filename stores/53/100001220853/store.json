@@ -1,0 +1,93 @@
+{
+  "retty_id": "100001220853",
+  "slug": "store-220853",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:43Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "フォンダサンジョルディ",
+  "category": "スペイン料理",
+  "categories": [
+    "スペイン料理",
+    "スペインバル"
+  ],
+  "address": "東京都渋谷区恵比寿１-１２-５ 萩原ビル３ ２F",
+  "postal_code": "1500013",
+  "tel": "050-5461-3501",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.646677477407174,
+    "lng": 139.71212735176084
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001220853/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001220853/archive/1172094-5d972773d0446.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172094-5d972773d0446.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/981949-5d0d7e4edbe8e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172111-5d972787f033b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/981952-5d0d7f5f9c577.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172104-5d97277f8ea6a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/981948-5d0d7e4e0c575.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172107-5d972783331a4.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172095-5d972774b9de1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172108-5d97278468768.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172109-5d97278586b92.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172110-5d972786ad272.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001220853/archive/1172106-5d97278217b46.png"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001220853",
+  "sns": {
+    "facebook": "https://www.facebook.com/fondasantjordi/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "retty_id": "100000872092",
+  "slug": "store-872092",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:35Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "麦酒庵 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "ビアバー・ビアホール",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-５ ES２１５ビル ７F",
+  "postal_code": "1500022",
+  "tel": "03-3719-3949",
+  "hours": {
+    "mon": {
+      "open": "14:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "14:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "14:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "14:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "14:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6457793,
+    "lng": 139.70713690000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000872092/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000872092/archive/2282168-6058411e9e9e3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/2282168-6058411e9e9e3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/3402354-66e8db34e1178.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/2746208-62a76b643c718.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/1221335-5db7bdb9ab067.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/3402355-66e8db7acdfdd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/1667498-5eb4f7f35cd37.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/2155371-5fdae183bf8c5.GIF",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/1221237-5db7bb7fc9867.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/1221332-5db7bd9af3006.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/1242018-5dc0c0c05851b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/3402356-66e8db927d3e7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000872092/archive/3227173-65a0c0f4a0743.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 100,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000872092",
+  "sns": {
+    "web": "https://bakushuan.com/",
+    "facebook": "https://www.facebook.com/bakushuan.ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

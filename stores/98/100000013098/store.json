@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000013098",
+  "slug": "store-013098",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:16Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "手打ち蕎麦と鴨料理 慈玄",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "鍋",
+    "そば（蕎麦）"
+  ],
+  "address": "東京都渋谷区恵比寿１-２４-９",
+  "postal_code": "1500013",
+  "tel": "03-3444-7088",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "21:30"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6466350754568,
+    "lng": 139.71569186565875
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000013098/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000013098/archive/3466012-6747e80b03a7b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/3466012-6747e80b03a7b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542452-5ba318bce7049.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542426-5ba318a59fed5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/3465528-6746f369165cb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542455-5ba318bf0421d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542435-5ba318ad53d07.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542436-5ba318ae5b52a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/546242-5baba448ed6a9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542443-5ba318b567f16.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542453-5ba318bd8f043.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542431-5ba318aa5a597.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013098/archive/542427-5ba318a651077.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 52,
+  "nearest_station": null,
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000013098",
+  "sns": {
+    "web": "https://jigen-ebisu.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

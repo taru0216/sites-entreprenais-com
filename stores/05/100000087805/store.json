@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000087805",
+  "slug": "store-087805",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "京しずく",
+  "category": "和食",
+  "categories": [
+    "和食",
+    "日本料理",
+    "京料理"
+  ],
+  "address": "東京都目黒区三田１-１２-２５",
+  "postal_code": "1530062",
+  "tel": "03-5721-8139",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 15000,
+    "dinner": 30000
+  },
+  "budget_raw": "ランチ予算: 〜15000円 ディナー予算: 〜30000円",
+  "geo": {
+    "lat": 35.64198931458248,
+    "lng": 139.71207415889546
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000087805/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000087805/archive/2977845-63e5f0db989b8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000087805/archive/2977845-63e5f0db989b8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000087805/archive/2977849-63e5f10da4494.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000087805/archive/2977853-63e5f1ec707b4.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 28,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://kyoushizuku.com/",
+    "instagram": "https://www.instagram.com/kiyo_mitu_kyoushizuku"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

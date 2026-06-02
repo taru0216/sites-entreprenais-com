@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001556385",
+  "slug": "roof-top-terrace-556385",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ROOF TOP TERRACE 恵比寿",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-３ グルマンビル ６F",
+  "postal_code": "1500021",
+  "tel": "050-5262-8824",
+  "hours": {
+    "mon": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "28:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.647899080550786,
+    "lng": 139.7087999993883
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001556385/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001556385/archive/2286455-605da67d98fa5.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286455-605da67d98fa5.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286457-605da68369a0f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286459-605da6890c210.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286447-605da666b0852.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286456-605da6807559a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286458-605da68642c30.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2295549-6064023209acd.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286444-605da65f08a8f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286453-605da677d3f93.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2295550-60640233efae1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556385/archive/2286448-605da66908a9f.png"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://rooftop-ebisu.owst.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

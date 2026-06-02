@@ -1,0 +1,103 @@
+{
+  "retty_id": "100000004306",
+  "slug": "store-004306",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鉄板焼 バンブー グラッシィ  恵比寿店",
+  "category": "鉄板焼き",
+  "categories": [
+    "鉄板焼き",
+    "ステーキ"
+  ],
+  "address": "東京都渋谷区恵比寿３-９-２９シャビア恵比寿B１",
+  "postal_code": "1500013",
+  "tel": "050-5262-9304",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6445659,
+    "lng": 139.71591950000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000004306/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000004306/archive/3420702-6708f29bc59a2.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3420702-6708f29bc59a2.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687327-5c51078c5a5e3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687351-5c5107f97edcf.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3420703-6708f2cddd3f3.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3420704-6708f3419ad95.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687323-5c51074709214.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3420705-6708f35bd0995.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687310-5c510737ea872.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3420706-6708f37566f7c.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687308-5c51073499274.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3420708-6708f3afeadb8.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687309-5c51073600cb7.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 96,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000004306",
+  "sns": {
+    "web": "https://bamboograssy-ebisu.com/?utm_source=referral&utm_medium=retty",
+    "facebook": "https://www.facebook.com/bamboograssy.ebisu/",
+    "instagram": "https://www.instagram.com/bamboograssy.ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

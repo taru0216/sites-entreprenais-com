@@ -1,0 +1,105 @@
+{
+  "retty_id": "100001754491",
+  "slug": "spirare-ebisu-754491",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Spirare Ebisu",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "イタリアンバル",
+    "居酒屋",
+    "パスタ",
+    "バル"
+  ],
+  "address": "東京都渋谷区東３-２４-７EBISU EAST GALLERY",
+  "postal_code": "1500011",
+  "tel": "050-5462-8019",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64898145201696,
+    "lng": 139.7094564352761
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001754491/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001754491/archive/3585366-6801ec44eba38.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3585366-6801ec44eba38.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3556828-67dc29aa3d1aa.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3425806-6710f5215f855.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3553463-67d91e5228255.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3585376-6801ec86590f2.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3571355-67ed11d29be0e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3425807-6710f5234f721.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3585373-6801ec740326a.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3571357-67ed1216f3b60.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3425800-6710f5159972b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3553466-67d91e54f1083.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001754491/archive/3571359-67ed123cba1e3.jpeg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": "恵比寿駅西口から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://spirare-ebisu.foodre.jp/",
+    "instagram": "https://www.instagram.com/spirare_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

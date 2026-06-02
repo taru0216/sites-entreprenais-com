@@ -1,0 +1,105 @@
+{
+  "retty_id": "100001312514",
+  "slug": "store-312514",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "サカナズキ。",
+  "category": "魚介・海鮮料理",
+  "categories": [
+    "魚介・海鮮料理",
+    "刺身",
+    "和食",
+    "炉端焼き",
+    "鍋",
+    "居酒屋",
+    "ダイニングバー",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿南３-２-１６ オクトピア恵比寿南１F",
+  "postal_code": "1500022",
+  "tel": "03-5725-1137",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6461986,
+    "lng": 139.7049588
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001312514/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001312514/archive/901489-5cc3112b01462.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/901489-5cc3112b01462.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/901492-5cc311757493e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/1293278-5dd836e24e273.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/1293286-5dd83818f209a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/1293279-5dd836fc4582b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/1293280-5dd837158aabe.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/1293281-5dd837433d320.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/1293283-5dd83772a476b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/1293284-5dd83794103a9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/1293285-5dd837d29ec8f.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 32,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.bloom-co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

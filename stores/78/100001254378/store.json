@@ -1,0 +1,92 @@
+{
+  "retty_id": "100001254378",
+  "slug": "store-254378",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:46Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "喜鈴",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "鶏料理"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-１０ EBISU高橋ビルB１",
+  "postal_code": "1500021",
+  "tel": "050-5262-9900",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64731209473064,
+    "lng": 139.7085160455151
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001254378/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001254378/archive/319405-5a1231f45a71d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001254378/archive/319405-5a1231f45a71d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001254378/archive/507984-5b7a2c7d7013b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001254378/archive/319420-5a123696c0e1d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001254378/archive/319408-5a12332288131.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001254378/archive/319425-5a12373fc2d6f.JPG"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 108,
+  "nearest_station": "n○恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001254378",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

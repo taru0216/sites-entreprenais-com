@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001755044",
+  "slug": "store-755044",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "名物屋 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "定食",
+    "串焼き"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-４FPGlinks EBISUビル １F",
+  "postal_code": "1500021",
+  "tel": "03-6800-8632",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64781781245523,
+    "lng": 139.7088985318945
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001755044/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/53/21/P044765321/P044765321_480.jpg"
+  ],
+  "retty_rating": 3.9,
+  "retty_review_count": 6,
+  "nearest_station": "n▶︎恵比寿駅西口より徒歩1分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

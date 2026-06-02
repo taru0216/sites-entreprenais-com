@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001652333",
+  "slug": "store-652333",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "俺のイタリアン テラス 恵比寿",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "ピザ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-６ 恵比寿ガーデンプレイス 時計広場 ２F",
+  "postal_code": "1500013",
+  "tel": "050-5462-7886",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64293262439129,
+    "lng": 139.71250970973492
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001652333/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001652333/archive/3542132-67ca940250dea.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542132-67ca940250dea.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542135-67ca9404643f5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542156-67ca94132021c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542147-67ca940c11f36.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542157-67ca9413b3f8f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542155-67ca94127a6f2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542140-67ca94078b477.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542154-67ca941181e25.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542150-67ca940e09d7e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542148-67ca940cd6dfa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542149-67ca940d68877.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652333/archive/3542146-67ca940b7b695.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 12,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001652333",
+  "sns": {
+    "web": "https://www.oreno.co.jp/restaurant/italian_beerterrace_ebisu",
+    "x": "https://twitter.com/ore_no_series"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

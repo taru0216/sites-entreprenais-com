@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001426512",
+  "slug": "decibel-426512",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:40Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "DECIBEL",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "ダーツバー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-３ 恵比寿グルマンビル ５F",
+  "postal_code": "1500021",
+  "tel": "050-5461-4431",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "07:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "07:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6479157,
+    "lng": 139.70878859999993
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001426512/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001426512/archive/1968316-5f8682f639b6e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968316-5f8682f639b6e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968326-5f868419b72dd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968322-5f8684172d1e2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968325-5f8684190bac1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968321-5f8684168409c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968324-5f8684185941a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968320-5f868415cc234.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968323-5f868417ba6c9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968314-5f8682c899acf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968317-5f8682f6ae79d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968306-5f8682a3eb015.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001426512/archive/1968315-5f8682f4889a7.jpg"
+  ],
+  "retty_rating": 3.55,
+  "retty_review_count": 8,
+  "nearest_station": "恵比寿駅徒歩1分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001426512",
+  "sns": {
+    "web": "https://decibel.owst.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

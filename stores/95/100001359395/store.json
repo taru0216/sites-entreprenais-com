@@ -1,0 +1,87 @@
+{
+  "retty_id": "100001359395",
+  "slug": "store-359395",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 米ル",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１６-７HAGIWARA BLDG.７ B１F",
+  "postal_code": "1500021",
+  "tel": "03-6416-9637",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.648723396919294,
+    "lng": 139.7070128647239
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001359395/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37332574.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 30,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

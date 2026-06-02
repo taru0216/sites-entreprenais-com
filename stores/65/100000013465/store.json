@@ -1,0 +1,102 @@
+{
+  "retty_id": "100000013465",
+  "slug": "store-013465",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "だるまさんが焼いちゃった。",
+  "category": "お好み焼き",
+  "categories": [
+    "お好み焼き",
+    "焼きそば",
+    "もんじゃ焼き",
+    "とんこつラーメン",
+    "和食",
+    "居酒屋",
+    "鉄板焼き"
+  ],
+  "address": "東京都渋谷区恵比寿西１-９-３ 入船ビル ６F",
+  "postal_code": "1500021",
+  "tel": "03-5428-2511",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6472014,
+    "lng": 139.7084173000001
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000013465/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000013465/archive/863745-5cbb27fef385a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013465/archive/863745-5cbb27fef385a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013465/archive/863738-5cbb24918a7cd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013465/archive/863747-5cbb28ae1260d.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013465/archive/863744-5cbb265005e83.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013465/archive/1854675-5f5ef8a272140.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013465/archive/863740-5cbb25f0b9d70.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013465/archive/1854677-5f5ef8a492a96.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000013465/archive/1854676-5f5ef8a37d4bc.png"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 35,
+  "nearest_station": "み焼き・もんじゃ焼き屋。JRの恵比寿駅西口から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.bloom-co.jp/shop/darumasan/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

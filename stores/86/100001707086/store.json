@@ -1,0 +1,57 @@
+{
+  "retty_id": "100001707086",
+  "slug": "evergreen-cafe-restaurant-ebisu-707086",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "evergreen cafe restaurant EBISU",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "スイーツ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２６-１",
+  "postal_code": "1500022",
+  "tel": "03-5724-3660",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64233809370639,
+    "lng": 139.7119336002522
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001707086/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/33848640.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 8,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://evergreen-pet.com/",
+    "instagram": "https://www.instagram.com/evergreen_cafe_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

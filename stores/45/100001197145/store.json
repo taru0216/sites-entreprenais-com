@@ -1,0 +1,99 @@
+{
+  "retty_id": "100001197145",
+  "slug": "store-197145",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:50Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "東京ロビン",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "ビストロ"
+  ],
+  "address": "東京都渋谷区恵比寿４-１０-８ エビスビル ２F",
+  "postal_code": "1500013",
+  "tel": "050-5303-0834",
+  "hours": {
+    "sun": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64547561039997,
+    "lng": 139.71469351600012
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001197145/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001197145/archive/3602374-681dbff081b39.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/3602374-681dbff081b39.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/3602375-681dbff1565ae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/435226-5af69fc86583d.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/429096-5ae1b3d33b955.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/435369-5af7d5881e3f0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/427637-5adece756fa6e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/435239-5af6a0c0bb050.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/435368-5af7d57835821.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/435374-5af7d80acc89e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/435211-5af694dddf260.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/435237-5af6a0bdae1ba.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001197145/archive/435375-5af7d81f81f88.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 30,
+  "nearest_station": "恵比寿駅徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001197145",
+  "sns": {
+    "web": "http://tokyorobin.on.omisenomikata.jp/",
+    "facebook": "https://www.facebook.com/people/%E6%9D%B1%E4%BA%AC%E3%83%AD%E3%83%93%E3%83%B3/100057526716915/",
+    "instagram": "https://www.instagram.com/tokyo_robin/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

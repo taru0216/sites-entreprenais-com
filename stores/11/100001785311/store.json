@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001785311",
+  "slug": "store-785311",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:55Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "薬膳キッチン やくぜんや",
+  "category": "薬膳料理",
+  "categories": [
+    "薬膳料理"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-５ アルス恵比寿メイクス １F",
+  "postal_code": "1500021",
+  "tel": "03-6823-8018",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.648600982657136,
+    "lng": 139.70844837758665
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001785311/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/37/81/P046943781/P046943781_480.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

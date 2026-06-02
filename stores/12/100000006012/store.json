@@ -1,0 +1,97 @@
+{
+  "retty_id": "100000006012",
+  "slug": "store-006012",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:38Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "リストランテ マッサ",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "テイクアウト"
+  ],
+  "address": "東京都渋谷区恵比寿１-２３-２２小林鉄工ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-5793-3175",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 10000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜10000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.6461601,
+    "lng": 139.7148029
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000006012/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000006012/archive/2592742-61dcf41c4ed51.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592742-61dcf41c4ed51.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592732-61dcf40ae629b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592727-61dcf4046ef1a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592731-61dcf409a6d58.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592735-61dcf40fbfcf3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592998-61dd08b3f2e3c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592739-61dcf416aa75a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592743-61dcf41da109c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592999-61dd08f4cd966.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592737-61dcf41330bd1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006012/archive/2592733-61dcf40c6206b.png"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 55,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000006012",
+  "sns": {
+    "web": "https://www.massa-ebisu.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

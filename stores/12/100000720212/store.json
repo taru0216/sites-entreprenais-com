@@ -1,0 +1,93 @@
+{
+  "retty_id": "100000720212",
+  "slug": "store-720212",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:03Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 代官亭",
+  "category": "しゃぶしゃぶ",
+  "categories": [
+    "しゃぶしゃぶ",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿西２-９-９ 根本ビル １F",
+  "postal_code": "1500021",
+  "tel": "050-5303-5839",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6491984,
+    "lng": 139.70710350000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000720212/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000720212/archive/2979261-63e9d6a5a1122.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979261-63e9d6a5a1122.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979262-63e9d6a7ea4c8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/3807915-69142f5316159.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/3807991-69143119997c2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979273-63e9d6bcd7abb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/769205-5c8f839073902.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979259-63e9d6a119b25.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979268-63e9d6b21ff05.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/769206-5c8f839b6d127.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979272-63e9d6ba62a55.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979276-63e9d6c33bb20.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/3807916-69142f5399796.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 24,
+  "nearest_station": "【恵比寿駅徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000720212",
+  "sns": {
+    "web": "https://daikantei.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

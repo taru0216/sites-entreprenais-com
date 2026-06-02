@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000876128",
+  "slug": "store-876128",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比壽ビヤホール",
+  "category": "ビアバー・ビアホール",
+  "categories": [
+    "ビアバー・ビアホール",
+    "洋食",
+    "焼きそば",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-１ ヒューマックスビル B１F",
+  "postal_code": "1500022",
+  "tel": "03-3719-0557",
+  "hours": {
+    "mon": {
+      "open": "11:30",
+      "close": "14:30"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "14:30"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "14:30"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "14:30"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "14:30"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "14:30"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.646697801506534,
+    "lng": 139.7090104818344
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000876128/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36907853.jpg"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 58,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.ginzalion.jp/search-area.html"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

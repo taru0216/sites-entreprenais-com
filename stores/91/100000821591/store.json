@@ -1,0 +1,95 @@
+{
+  "retty_id": "100000821591",
+  "slug": "store-821591",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "えびす あふそや",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "魚介・海鮮料理",
+    "懐石料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-２４-７",
+  "postal_code": "1500013",
+  "tel": "03-6277-0784",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.6467371769178,
+    "lng": 139.71564900060093
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000821591/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000821591/archive/1128979-5d81b545db530.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/1128979-5d81b545db530.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/2585808-61c94eff6f83d.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/442649-5b0d374a2c93a.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/442644-5b0d374933774.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/442668-5b0d3dbe867c9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/442645-5b0d3749addef.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/442669-5b0d3dde62467.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/442642-5b0d374924966.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/442994-5b0e1a6d0e608.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/1128978-5d81b54495985.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/442670-5b0d3e060e788.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/1128980-5d81b54733686.png"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 53,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://www.afusoya.com/",
+    "facebook": "https://www.facebook.com/Afusoya/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

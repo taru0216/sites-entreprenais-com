@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001200764",
+  "slug": "kinoe-200764",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:23Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "kinoe〜季の恵〜",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "フレンチ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１８-９ Time Zoneヒルトップビル４F",
+  "postal_code": "1500022",
+  "tel": "03-6338-3089",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "21:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "21:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "21:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "21:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "21:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "21:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "21:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.64476731786447,
+    "lng": 139.71061323536298
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001200764/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001200764/archive/2798782-62e8b3e587103.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798782-62e8b3e587103.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798786-62e8b3eca9060.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798783-62e8b3e747a29.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798785-62e8b3ead27e3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798784-62e8b3e95d58a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798781-62e8b3e427dae.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798798-62e8b403081a9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798792-62e8b3f750087.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798799-62e8b404c94b1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798789-62e8b3f1ccca7.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798793-62e8b3f922e19.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001200764/archive/2798794-62e8b3faf0707.png"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 66,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://localplace.jp/t100060473/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

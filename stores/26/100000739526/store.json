@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000739526",
+  "slug": "store-739526",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "フィッシュハウスオイスターバー 恵比寿東口店",
+  "category": "オイスターバー",
+  "categories": [
+    "オイスターバー",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区恵比寿１-２３-１６ 第六大浦ビル１F",
+  "postal_code": "1500013",
+  "tel": "050-5461-3643",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.645874,
+    "lng": 139.71540559999994
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000739526/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000739526/archive/1518445-5e6471002c455.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/1518445-5e6471002c455.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/1518444-5e6470ff70618.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/1729816-5ef982b5c1578.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/2098641-5fb49406ad31d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/2098633-5fb49261de9cb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/1517901-5e6348798d7fa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/2098642-5fb4941cd9258.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/2098636-5fb4928028c42.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/1517903-5e63487ae1a87.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/2098643-5fb4942e05c95.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/1533128-5e6c7ee4908ea.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000739526/archive/1518446-5e647100b5a1f.jpg"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 45,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000739526",
+  "sns": {
+    "web": "https://www.oyster-bar.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

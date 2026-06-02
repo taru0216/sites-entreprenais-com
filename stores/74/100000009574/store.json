@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000009574",
+  "slug": "store-009574",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ももたろう恵比寿",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-８ ライオンズマンション小川恵比寿 １F",
+  "postal_code": "1500021",
+  "tel": "050-5461-4412",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "30:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "30:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64726735812189,
+    "lng": 139.70859577055228
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000009574/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000009574/archive/1985421-5f89295639b6e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985421-5f89295639b6e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1820787-5f48a169e84f4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985425-5f892959204f8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985422-5f892956e72c0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985428-5f89295c0082a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985426-5f892959ccaa0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1820793-5f48a1b3e4e84.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985420-5f89295585e69.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985427-5f89295ab63de.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985424-5f8929586f27e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000009574/archive/1985423-5f892957c19cd.jpg"
+  ],
+  "retty_rating": 3.3,
+  "retty_review_count": 72,
+  "nearest_station": "恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000009574",
+  "sns": {
+    "web": "https://momotarou-ebisu.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001412915",
+  "slug": "64-412915",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:40Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "64ハウス",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "からあげ",
+    "和食",
+    "炉端焼き",
+    "鶏料理",
+    "串焼き",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿４-９ -１３ 中健ビル １階",
+  "postal_code": "1500013",
+  "tel": "03-5798-2088",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64576541775305,
+    "lng": 139.7146090039932
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001412915/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001412915/archive/901498-5cc3140e87d27.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/901498-5cc3140e87d27.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/901500-5cc314552a973.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/1854692-5f5efae2ed538.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/901499-5cc314429d6cc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/1854694-5f5efae52e286.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/1854691-5f5efae20181f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/851733-5cac849662a95.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/1854693-5f5efae3d322c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001412915/archive/807424-5ca07fd1c6458.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 15,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

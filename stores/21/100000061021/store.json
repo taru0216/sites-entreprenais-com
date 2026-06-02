@@ -1,0 +1,82 @@
+{
+  "retty_id": "100000061021",
+  "slug": "store-061021",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:54Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "デルチャルロ",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-１４ 恵比寿イナビル １F",
+  "postal_code": "1500013",
+  "tel": "03-5420-1135",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.645485,
+    "lng": 139.711417
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000061021/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38835638.jpg"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 13,
+  "nearest_station": "恵比寿駅東口から徒歩2分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

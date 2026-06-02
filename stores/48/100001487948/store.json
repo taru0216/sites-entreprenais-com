@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001487948",
+  "slug": "plate-487948",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:01Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "plate",
+  "category": "ワインバー",
+  "categories": [
+    "ワインバー",
+    "フレンチ"
+  ],
+  "address": "東京都渋谷区恵比寿１-３１-１１",
+  "postal_code": "1500013",
+  "tel": "03-5422-9015",
+  "hours": {
+    "tue": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "00:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "00:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "00:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64678411852271,
+    "lng": 139.71717155522538
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001487948/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001487948/archive/2013873-5f90f71aae11e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013873-5f90f71aae11e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013871-5f90f7154efd2.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013868-5f90f70fbd30b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013872-5f90f7189526f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013870-5f90f7137b633.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013866-5f90f70b067b1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013869-5f90f71199dfe.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013864-5f90f703649d3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001487948/archive/2013867-5f90f70e1e515.png"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 4,
+  "nearest_station": "恵比寿駅から徒歩8分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

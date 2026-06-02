@@ -1,0 +1,93 @@
+{
+  "retty_id": "100001568147",
+  "slug": "ebisu-shisha-club-568147",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:34Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Ebisu Shisha Club",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-１０ MY恵比寿ビル３F",
+  "postal_code": "1500022",
+  "tel": "080-9282-2081",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64608157841972,
+    "lng": 139.70914837055224
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001568147/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001568147/archive/3156908-65186d5117dfb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001568147/archive/3156908-65186d5117dfb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001568147/archive/3156919-65186d5cd6b01.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001568147",
+  "sns": {
+    "web": "https://theshishahouse-ebisu.foodre.jp/",
+    "instagram": "https://www.instagram.com/the.shishahouse_ebisu/",
+    "x": "https://x.com/shishahouseebi"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

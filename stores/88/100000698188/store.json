@@ -1,0 +1,102 @@
+{
+  "retty_id": "100000698188",
+  "slug": "spanish-lounge-parador-698188",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:10Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "SPANISH LOUNGE PARADOR パラドール",
+  "category": "スペイン料理",
+  "categories": [
+    "スペイン料理",
+    "タコス",
+    "メキシコ料理"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-１ ２F パイザ恵比寿ビル",
+  "postal_code": "1500022",
+  "tel": "050-5303-0354",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6455572,
+    "lng": 139.7077369
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000698188/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000698188/archive/404449-5ac8ac3463921.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/404449-5ac8ac3463921.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/404440-5ac8ac31c8f14.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/3234273-65b1e34854b34.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/404437-5ac8ac31495d6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/3234269-65b1e3447ea84.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/436983-5afc3a6b4ce28.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/404445-5ac8ac32e3f60.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/420366-5ace425f44f22.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/404443-5ac8ac329abe0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/420369-5ace427600342.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/420364-5ace4209aac5c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000698188/archive/404436-5ac8ac313b63b.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 93,
+  "nearest_station": "恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000698188",
+  "sns": {
+    "web": "https://renovationplanning.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

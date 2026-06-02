@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001294275",
+  "slug": "whim-294275",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "馬肉×ワイン 気まぐれバル恵比寿 Whim",
+  "category": "馬肉料理",
+  "categories": [
+    "馬肉料理",
+    "焼肉",
+    "ワインバー",
+    "バル",
+    "肉バル"
+  ],
+  "address": "東京都渋谷区恵比寿南１－８－９ 京城ビル５F",
+  "postal_code": "1500022",
+  "tel": "03-6412-7597",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64608951911968,
+    "lng": 139.70896569788454
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001294275/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37551591.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 46,
+  "nearest_station": "n場所はJR恵比寿駅西口から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

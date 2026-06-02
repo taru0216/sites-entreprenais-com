@@ -1,0 +1,96 @@
+{
+  "retty_id": "100001721864",
+  "slug": "hightail-721864",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "肉ビストロ HIGHTAIL",
+  "category": "洋食",
+  "categories": [
+    "洋食",
+    "ステーキ",
+    "ビストロ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２３-１２ 茗荷原ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-6456-3279",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.644565,
+    "lng": 139.7154516
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001721864/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001721864/archive/3955185-699fc8a43220b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955185-699fc8a43220b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955187-699fc8a521a04.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3222169-659cec4142a83.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955194-699fc8a8c10ba.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955184-699fc8a3b69c1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3222171-659ceeacca17b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955188-699fc8a5ab535.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955120-699fc5119b935.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955121-699fc5123026d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955124-699fc513d4791.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955126-699fc514eab47.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001721864/archive/3955125-699fc5145be7b.jpg"
+  ],
+  "retty_rating": 4.75,
+  "retty_review_count": 4,
+  "nearest_station": "【恵比寿駅徒歩6分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

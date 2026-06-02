@@ -1,0 +1,94 @@
+{
+  "retty_id": "100001181485",
+  "slug": "store-181485",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:40Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "まました",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "定食",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都目黒区三田１-１１-１９",
+  "postal_code": "1530062",
+  "tel": "03-5734-1147",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64007057510001,
+    "lng": 139.712480171
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001181485/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001181485/archive/1828110-5f4f04052f99b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828110-5f4f04052f99b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828130-5f4f041453d95.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828128-5f4f0413096a1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828111-5f4f04060601f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828113-5f4f0407d534a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828127-5f4f041251087.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828115-5f4f040965e12.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828135-5f4f041773558.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828119-5f4f040c4c1a8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828124-5f4f040febee2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828121-5f4f040db7950.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001181485/archive/1828116-5f4f0409ea74f.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 40,
+  "nearest_station": "【恵比寿駅・目黒駅徒歩6分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://mamashita.tokyo/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

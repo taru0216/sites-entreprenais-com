@@ -1,0 +1,95 @@
+{
+  "retty_id": "100000850513",
+  "slug": "store-850513",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "和酒和食 恵比寿 黒帯",
+  "category": "和食",
+  "categories": [
+    "和食",
+    "魚介・海鮮料理",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-６ ブラッサムZEN４F・５F",
+  "postal_code": "1500021",
+  "tel": "03-6277-5916",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.6474319,
+    "lng": 139.707734
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000850513/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000850513/archive/757103-5c8620aa64ac9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/757103-5c8620aa64ac9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/328334-5a22a7c0adb8a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/328335-5a22a7ca0c8e4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/360479-5a57881058cca.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/259565-59836ab425d76.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/2139056-5fcf20b48a562.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/360478-5a57880938af2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/257871-597f89db61dcf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/934082-5ce232364dac0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/151859-58b51a928a25f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/257870-597f88580421f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000850513/archive/757122-5c8621adb3c66.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 50,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://r.gnavi.co.jp/b446016/",
+    "facebook": "https://www.facebook.com/ebisu.kuroobi"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

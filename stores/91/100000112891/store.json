@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000112891",
+  "slug": "store-112891",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:43Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鮨たか 下高井戸旭鮨総本店",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "懐石料理",
+    "ふぐ料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-３恵比寿ガーデンプレイスタワー ３８F",
+  "postal_code": "1500013",
+  "tel": "03-5423-0355",
+  "hours": {
+    "mon": {
+      "open": "16:30",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "16:30",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "16:30",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "16:30",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "16:30",
+      "close": "22:30"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64212704851942,
+    "lng": 139.71335542698353
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000112891/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/00/00/P047090000/P047090000_480.jpg"
+  ],
+  "retty_rating": 3.6,
+  "retty_review_count": 27,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

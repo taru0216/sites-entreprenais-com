@@ -1,0 +1,80 @@
+{
+  "retty_id": "100000042562",
+  "slug": "store-042562",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ちゃんこ部屋 恵比寿",
+  "category": "ちゃんこ鍋",
+  "categories": [
+    "ちゃんこ鍋",
+    "テイクアウト",
+    "きりたんぽ鍋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-４ 恵比寿スカイビル ２F",
+  "postal_code": "1500022",
+  "tel": "03-3710-5276",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.646446,
+    "lng": 139.70859100000007
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000042562/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/40/63/P028574063/P028574063_480.jpg"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 21,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

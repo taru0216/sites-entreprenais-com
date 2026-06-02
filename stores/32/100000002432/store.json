@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000002432",
+  "slug": "store-002432",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:10Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ブラチェリア デリツィオーゾ イタリア",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿４-２７-１７ ルピナス恵比寿 １F",
+  "postal_code": "1500013",
+  "tel": "050-5304-4874",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "16:00"
+    },
+    "sun": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6455768,
+    "lng": 139.71501950000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000002432/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000002432/archive/434332-5af3d14d74cd7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/434332-5af3d14d74cd7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/2471373-6135be5d0d390.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/2338503-60880edc406bc.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/1187419-5da0276f536a8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/293332-59d86a0d300ed.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/363940-5a61a66f43cd4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/186868-58ef090482b74.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/1373521-5e1558a785f02.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/293333-59d86a2a9e908.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/186860-58ef08f59b83d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/1373520-5e1558a5a9840.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/804294-5c9c8a856bcb1.JPG"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 205,
+  "nearest_station": "恵比寿駅徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://braceria-delizioso-italia.owst.jp",
+    "instagram": "https://www.instagram.com/delizioso_italia"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

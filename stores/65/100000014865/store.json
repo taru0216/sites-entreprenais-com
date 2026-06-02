@@ -1,0 +1,103 @@
+{
+  "retty_id": "100000014865",
+  "slug": "store-014865",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ローカルインディア",
+  "category": "インドカレー",
+  "categories": [
+    "インドカレー",
+    "テイクアウト",
+    "カレー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２３-８ アメリカンブリッジビル２F",
+  "postal_code": "1500022",
+  "tel": "03-3793-1656",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "16:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "16:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "16:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.643076944132,
+    "lng": 139.71171855927003
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000014865/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000014865/archive/2108447-5fbb9269cbd16.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/2108447-5fbb9269cbd16.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/2552089-61a0cb5762e4d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/2108440-5fbb8f1629fd7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/168605-58d108ebcf945.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/2536958-618dc77f1f3bd.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/2536967-618dc794bb6ab.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/168259-58d091a7e1f4e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/2537001-618dc7e03a559.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/168249-58d0919435cc9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/168252-58d091a4a8b49.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/168253-58d091a4be523.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/168251-58d091a35b00e.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 85,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://localindia.jp",
+    "x": "https://x.com/localindia_ebis"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

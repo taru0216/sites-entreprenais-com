@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001386285",
+  "slug": "store-386285",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿ハイボールバー",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "バル",
+    "ビアバー・ビアホール",
+    "ワインバー"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-４ FPG links EBISU ２F",
+  "postal_code": "1500021",
+  "tel": "050-5304-9858",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "29:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64786072872582,
+    "lng": 139.70891042270185
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001386285/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001386285/archive/1361692-5e05a2f125e10.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361692-5e05a2f125e10.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361702-5e05a3036728b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361696-5e05a2f93be6f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361693-5e05a2f368ba9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361694-5e05a2f5afd7b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361699-5e05a2fe32ee0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361700-5e05a2ffd332a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361691-5e05a2ef2636d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361689-5e05a2eb6d2e0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361685-5e05a2e43320d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361686-5e05a2e62fff0.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001386285/archive/1361688-5e05a2e97fc79.png"
+  ],
+  "retty_rating": 3.35,
+  "retty_review_count": 17,
+  "nearest_station": "イダルも多くございます。当店は恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001386285",
+  "sns": {
+    "web": "https://highballbar-ebisu.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

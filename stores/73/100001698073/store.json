@@ -1,0 +1,55 @@
+{
+  "retty_id": "100001698073",
+  "slug": "store-698073",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "鮨 藤",
+  "category": "寿司",
+  "categories": [
+    "寿司",
+    "日本料理",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区恵比寿南２-８-５ 岩崎ビル １F",
+  "postal_code": "1500022",
+  "tel": "03-5722-0147",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 15000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜15000円",
+  "geo": {
+    "lat": 35.6443894,
+    "lng": 139.709028
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001698073/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/36796576.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 7,
+  "nearest_station": "n○恵比寿駅徒歩6分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

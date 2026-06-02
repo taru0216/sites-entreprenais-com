@@ -1,0 +1,94 @@
+{
+  "retty_id": "100000003351",
+  "slug": "store-003351",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "花まんまじゃが",
+  "category": "鍋",
+  "categories": [
+    "鍋",
+    "居酒屋",
+    "バー",
+    "北海道料理",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区東３-２５-１０ T&Tビル２F",
+  "postal_code": "1500011",
+  "tel": "03-3409-1919",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6487652,
+    "lng": 139.70980880000002
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003351/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000003351/archive/3967840-69aa7bd2bcf5a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967840-69aa7bd2bcf5a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967841-69aa7bd347c90.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967839-69aa7bd23294e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967834-69aa7bcf31cf5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967833-69aa7bce997b4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967838-69aa7bd19a33e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967826-69aa7bcabcdaf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967836-69aa7bd06bf03.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967824-69aa7bc9c38ce.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000003351/archive/3967837-69aa7bd115563.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 19,
+  "nearest_station": "恵比寿駅徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/hanamanmajaga"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

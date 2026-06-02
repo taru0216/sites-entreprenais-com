@@ -1,0 +1,97 @@
+{
+  "retty_id": "100001311337",
+  "slug": "store-311337",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:44Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "えびす坂 鳥幸",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-３恵比寿ガーデンプレイスタワー ３８F DININF & SKY TOP OF EBISU内",
+  "postal_code": "1500013",
+  "tel": "03-6455-7458",
+  "hours": {
+    "sun": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "mon": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "14:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "14:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64210369770621,
+    "lng": 139.7132444824066
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001311337/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001311337/archive/958733-5cf9bf6729ca1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958733-5cf9bf6729ca1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958929-5cf9d058d7b2d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958738-5cf9bf783a5bd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958730-5cf9bf64ec6f0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958722-5cf9bf575c0d6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958734-5cf9bf74f1b26.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958684-5cf9bede83834.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958736-5cf9bf769c318.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958728-5cf9bf5b5c6dd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958683-5cf9beddd06e6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958735-5cf9bf76061c0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001311337/archive/958690-5cf9bee366039.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 37,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://tokyo-rf.com/brand/#toriko"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001725914",
+  "slug": "titi-725914",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:50Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "TiTi",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "ワインバー",
+    "フレンチ"
+  ],
+  "address": "東京都渋谷区恵比寿２-８-１３ accessBLD恵比寿 １F",
+  "postal_code": "1500013",
+  "tel": "070-9232-5619",
+  "hours": {
+    "sun": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.645919990903586,
+    "lng": 139.71724380552254
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001725914/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/22/25/P045932225/P045932225_480.jpg"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000742697",
+  "slug": "store-742697",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "庵狐 恵比寿店",
+  "category": "魚介・海鮮料理",
+  "categories": [
+    "魚介・海鮮料理",
+    "居酒屋",
+    "刺身",
+    "燻製"
+  ],
+  "address": "東京都渋谷区恵比寿４-４-８ 第一伊藤ビル １F",
+  "postal_code": "1500013",
+  "tel": "03-5789-9930",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6451407,
+    "lng": 139.71174210000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000742697/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/61/01/P044306101/P044306101_480.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 93,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://grill-anko.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

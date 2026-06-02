@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001556563",
+  "slug": "store-556563",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:05Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "えびすジンギスカン 海月別邸 御羊邸",
+  "category": "ジンギスカン",
+  "categories": [
+    "ジンギスカン",
+    "バイキング",
+    "肉バル"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-１０ 高橋ビル ２F",
+  "postal_code": "1500021",
+  "tel": "03-6427-8956",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6473814,
+    "lng": 139.7084472
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001556563/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/26/50/P045762650/P045762650_480.jpg"
+  ],
+  "retty_rating": 4.45,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001767680",
+  "slug": "store-767680",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "いっちょかみ はなれ",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "焼き鳥",
+    "焼肉"
+  ],
+  "address": "東京都渋谷区恵比寿南１-３-７ 隅越ビル",
+  "postal_code": "1500022",
+  "tel": "03-6628-8321",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "12:30",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "12:30",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "12:30",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6458033,
+    "lng": 139.7079918
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001767680/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/50/49/P044705049/P044705049_480.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 4,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

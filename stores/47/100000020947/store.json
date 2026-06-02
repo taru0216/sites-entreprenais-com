@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000020947",
+  "slug": "store-020947",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "串いろいろとわっぱ飯 民家",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿南２-２-２ KTビルB１F",
+  "postal_code": "1500022",
+  "tel": "03-3760-2400",
+  "hours": {
+    "tue": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6458043,
+    "lng": 139.7076091
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000020947/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000020947/archive/3566268-67e5f1b9c7f04.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3566268-67e5f1b9c7f04.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3566275-67e5f1d2d3b01.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3566270-67e5f1bb5ad33.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3566276-67e5f1d906a5e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3566273-67e5f1c7e49b3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3566269-67e5f1ba79424.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3566274-67e5f1cd59d49.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3562722-67e227fc3c2cd.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3566271-67e5f1bf73503.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3568813-67ea43dadca23.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000020947/archive/3568814-67ea43e2b1298.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 21,
+  "nearest_station": "恵比寿駅から徒歩4分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000020947",
+  "sns": {
+    "web": "https://kushiiroirotowappameshi-minka.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

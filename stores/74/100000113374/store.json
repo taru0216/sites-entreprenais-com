@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000113374",
+  "slug": "store-113374",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:58Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "串の坊 アトレ恵比寿店",
+  "category": "串カツ・串揚げ",
+  "categories": [
+    "串カツ・串揚げ",
+    "創作料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿 ６F",
+  "postal_code": "1500022",
+  "tel": "03-5475-8415",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64667406320604,
+    "lng": 139.71030367116396
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113374/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000113374/archive/3716559-68a6d7650219e.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716559-68a6d7650219e.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716563-68a6d8b771ce5.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716568-68a6d8bb06d41.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716556-68a6d73c95222.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716549-68a6d734c36cf.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716542-68a6d72e379a6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716541-68a6d72d5e1de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716543-68a6d72f499d1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3723171-68b13c7d85150.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716544-68a6d72fda5c5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716546-68a6d7311b0fd.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 25,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://kushinobou-ebisu.owst.jp/?fbclid=IwY2xjawMTuhlleHRuA2FlbQIxMABicmlkETFRQmdxa1pUNTVQcU03MTBUAR6IMJgNUyUDlUv_abBgSq93eci5GStPNR1JcsWomOc-Vo8kB12DM5myi9Xf6g_aem_c4n_9Jb_hXPFewwKzj_T-A",
+    "facebook": "https://www.facebook.com/profile.php?id=61578059683799"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

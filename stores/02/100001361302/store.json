@@ -1,0 +1,104 @@
+{
+  "retty_id": "100001361302",
+  "slug": "gems-361302",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:47Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "本家あべや 秋田純米酒処 GEMS恵比寿店",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "水炊き",
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-５ GEMS恵比寿B１",
+  "postal_code": "1500013",
+  "tel": "03-6277-0663",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.6463405,
+    "lng": 139.71179089999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001361302/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001361302/archive/3954245-699ec20d92489.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954245-699ec20d92489.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954254-699ec21299b0d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954256-699ec2139dd42.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954247-699ec20e9abe6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954251-699ec2110b668.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954252-699ec2118a660.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954250-699ec2106eb75.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954253-699ec2121a7bb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954249-699ec20fc54d7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954248-699ec20f29033.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954246-699ec20e2d41f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361302/archive/3954244-699ec20d02c15.jpg"
+  ],
+  "retty_rating": 4.4,
+  "retty_review_count": 33,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://res-reserve.com/ja/restaurants/abeya-ebisu",
+    "facebook": "https://www.facebook.com/akitajunmai/",
+    "instagram": "https://www.instagram.com/akita_ricewine_dining/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

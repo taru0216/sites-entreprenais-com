@@ -1,0 +1,93 @@
+{
+  "retty_id": "100000006814",
+  "slug": "store-006814",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:48Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ライオンのいるサーカス",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "イタリアン",
+    "ワインバー",
+    "ご当地グルメ",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-１ パーザ恵比寿３０１",
+  "postal_code": "1500022",
+  "tel": "03-6452-3657",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "14:30"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "14:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6455516,
+    "lng": 139.70773129999998
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000006814/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35587350.jpg"
+  ],
+  "retty_rating": 3.75,
+  "retty_review_count": 328,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード不可",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.tabisurucafe.com/",
+    "instagram": "https://www.instagram.com/tabisurucafe_lion/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

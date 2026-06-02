@@ -1,0 +1,99 @@
+{
+  "retty_id": "100001829487",
+  "slug": "store-829487",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:34:59Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ビストロ 裏かつまた",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "創作料理",
+    "居酒屋",
+    "ワインバー"
+  ],
+  "address": "東京都渋谷区恵比寿４-２７-７ S:vort恵比寿 ６F",
+  "postal_code": "1500013",
+  "tel": "050-5303-9844",
+  "hours": {
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "21:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64555336949625,
+    "lng": 139.71586726380633
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001829487/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001829487/archive/4020428-69e0690a3ea38.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4020428-69e0690a3ea38.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4020432-69e0690d047d2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4020422-69e06906496e1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4020427-69e0690991590.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4020426-69e06908d1029.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4020425-69e069083b422.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4020423-69e06906dfeec.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4020429-69e0690af003c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4085840-6a1ce07f77173.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4085843-6a1ce08c572db.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4085845-6a1ce09512ca1.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001829487/archive/4085848-6a1ce0a33106f.JPG"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001829487",
+  "sns": {
+    "web": "https://bistro-urakatsumata.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

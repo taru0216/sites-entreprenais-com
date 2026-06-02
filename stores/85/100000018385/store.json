@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000018385",
+  "slug": "so-ten-018385",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "SO-TEN",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "創作料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-２７-４",
+  "postal_code": "1500013",
+  "tel": "03-3441-6600",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "mon": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.6456074,
+    "lng": 139.71528060000003
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000018385/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000018385/archive/1589675-5e871ca0e7785.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1589675-5e871ca0e7785.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1594402-5e895b05274c7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1610361-5e8bde86942e5.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1589664-5e871c9882438.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1612010-5e8be8026a515.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1616810-5e8bff736675f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1594420-5e895b17e62d8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1589672-5e871c9eb5d1c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1594410-5e895b0f7bb5b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1589660-5e871c9566139.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1594436-5e8964aaad1a8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000018385/archive/1589661-5e871c96109ba.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 65,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000018385",
+  "sns": {
+    "web": "http://www.trhd.jp/so-ten/ebisu.html"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

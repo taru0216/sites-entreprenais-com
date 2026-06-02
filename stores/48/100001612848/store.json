@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001612848",
+  "slug": "shisha-lounge-opaque-612848",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:47:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Shisha lounge OPAQUE 恵比寿",
+  "category": "ラウンジ",
+  "categories": [
+    "ラウンジ",
+    "ダイニングバー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-１３ 麻仁ビル B１F",
+  "postal_code": "1500013",
+  "tel": "03-3441-7792",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64832796329452,
+    "lng": 139.71056580980436
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001612848/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/28/78/P039102878/P039102878_480.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://opaque.thyme-shisha.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

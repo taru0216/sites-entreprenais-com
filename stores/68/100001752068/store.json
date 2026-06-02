@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001752068",
+  "slug": "store-752068",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:47:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "グルーキー",
+  "category": "おばんざい",
+  "categories": [
+    "おばんざい"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-６ サンポウ恵比寿ビル ３F",
+  "postal_code": "1500022",
+  "tel": "03-6452-2211",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "19:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6459124,
+    "lng": 139.7078411
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001752068/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/73/07/P049477307/P049477307_480.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

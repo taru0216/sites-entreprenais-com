@@ -1,0 +1,106 @@
+{
+  "retty_id": "100001290560",
+  "slug": "salt-290560",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Salt 恵比寿 ～肉とワインのバル～",
+  "category": "肉バル",
+  "categories": [
+    "肉バル",
+    "バル",
+    "ステーキ",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-３-２ シーズンフラッツ恵比寿B１F",
+  "postal_code": "1500022",
+  "tel": "03-6451-0176",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64565740243899,
+    "lng": 139.70816304683683
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001290560/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001290560/archive/3186937-6549ff51a5f90.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/3186937-6549ff51a5f90.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1005446-5d1c660d9c9d1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1254010-5dc387f4d5859.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1001182-5d1aecea9a589.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1001173-5d1aeca82fa0f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1254011-5dc3881eacdad.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1005438-5d1c65aeaa1a3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1254054-5dc38850d3d6b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1005441-5d1c65d1aa1f2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1254075-5dc3886b167aa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1005442-5d1c65e31329c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001290560/archive/1254076-5dc388c5ab010.jpg"
+  ],
+  "retty_rating": 3.7,
+  "retty_review_count": 54,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://t-f-m.co.jp/shop/salt/",
+    "facebook": "https://www.facebook.com/Salt.ebisu",
+    "instagram": "https://www.instagram.com/bar_salt_tokyo",
+    "x": "https://x.com/nikubar_salt"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

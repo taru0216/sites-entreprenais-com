@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000045672",
+  "slug": "store-045672",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:29Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "オステリアバールヴィアポカポカ",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ワインバー",
+    "バル",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿１-２４-１２ クアンテ恵比寿１０２",
+  "postal_code": "1500013",
+  "tel": "050-5304-3893",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.646615115238845,
+    "lng": 139.7151779383421
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000045672/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000045672/archive/2594872-61dfa4311e172.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/archive/2594872-61dfa4311e172.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/archive/2594853-61dfa04ca9b4d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/photo/9879-55fe658a97e96.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/photo/9872-55fe641410f45.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/archive/2594873-61dfa44d9c02d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/photo/9876-55fe64dd971d1.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/archive/2594874-61dfa45b53225.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/archive/2593587-61dda2932e763.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/photo/9875-55fe646fa62ed.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/photo/9882-55fe6624a3868.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/photo/9877-55fe65650edca.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000045672/photo/9883-55fe6664895a4.jpg"
+  ],
+  "retty_rating": 4.15,
+  "retty_review_count": 150,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000045672",
+  "sns": {
+    "web": "https://osteriabarviapokapoka.foodre.jp/",
+    "facebook": "https://www.facebook.com/%E3%82%AA%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2%E3%83%90%E3%83%BC%E3%83%AB%E3%83%B4%E3%82%A3%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%9D%E3%82%AB-267565443267477/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

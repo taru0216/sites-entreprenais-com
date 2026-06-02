@@ -1,0 +1,108 @@
+{
+  "retty_id": "100000027517",
+  "slug": "store-027517",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:31Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "はいばな",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "魚介・海鮮料理",
+    "沖縄料理",
+    "テイクアウト",
+    "刺身",
+    "沖縄そば",
+    "焼肉",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-３ 今鉾ビル ３F",
+  "postal_code": "1500022",
+  "tel": "03-3712-0158",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6465682,
+    "lng": 139.7087312
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000027517/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000027517/archive/613071-5bea6c6ee86a1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/613071-5bea6c6ee86a1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/613079-5bea6c7e00501.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/1706957-5ee0415f61d6a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/613081-5bea6c7f74e91.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/1706964-5ee04180052ba.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/613090-5bea6c89399d2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/613076-5bea6c7b2aa4d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/1703989-5eddd3b9bc2c4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/613100-5bea6c909380f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/1706967-5ee041b774832.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/1706966-5ee041930554c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000027517/archive/613103-5bea6c9287b13.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 48,
+  "nearest_station": "n最寄駅:恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://wil-b.jp/shoplist/",
+    "instagram": "https://www.instagram.com/ebisuhaibana/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

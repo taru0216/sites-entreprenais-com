@@ -1,0 +1,104 @@
+{
+  "retty_id": "100000746081",
+  "slug": "store-746081",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:45Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ワインの酒場。ディプント 恵比寿店",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "ワインバー",
+    "イタリアン",
+    "立ち飲み",
+    "ハンバーグ"
+  ],
+  "address": "東京都渋谷区恵比寿１-１０-６ 清園ビル１F",
+  "postal_code": "1500013",
+  "tel": "03-6450-3681",
+  "hours": {
+    "mon": {
+      "open": "11:30",
+      "close": "27:00"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "27:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "27:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "27:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "27:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "27:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "27:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.64685173126248,
+    "lng": 139.7108503429396
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000746081/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000746081/archive/3919351-6981eb215f918.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/3919351-6981eb215f918.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/1834516-5f518e3864e29.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/3948425-69999d7a030a0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/1834514-5f518e36d024f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/1834517-5f518e393e367.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/3701456-68905c12e10e0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/1834515-5f518e37a49ff.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/1834518-5f518e39e5f95.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/3948423-69999d2328300.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/1834519-5f518e3ab8ed8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/1834552-5f518e5711b2e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000746081/archive/1834520-5f518e3b67e3b.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 147,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.dipunto.wine/shop/ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "retty_id": "100001761848",
+  "slug": "meat-grill-marco-ebisu-761848",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:47Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "MEAT＆GRILL MARCO EBISU",
+  "category": "ステーキ",
+  "categories": [
+    "ステーキ",
+    "肉バル",
+    "イタリアン"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１７-１６グランベル恵比寿V １F",
+  "postal_code": "1500022",
+  "tel": "03-6452-2622",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64465753773047,
+    "lng": 139.71030366931154
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001761848/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/38/33/P041753833/P041753833_480.jpg"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 5,
+  "nearest_station": "nJR線・恵比寿駅より徒歩5分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

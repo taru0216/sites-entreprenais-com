@@ -1,0 +1,102 @@
+{
+  "retty_id": "100000000163",
+  "slug": "ubcra-000163",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:25Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "京レストラン UBCRA",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "居酒屋",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿西１-３-１１",
+  "postal_code": "1500021",
+  "tel": "050-5461-4414",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6490845,
+    "lng": 139.70819230000006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000163/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000000163/archive/1986100-5f89394a7dbf7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986100-5f89394a7dbf7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986113-5f893951515b2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986139-5f8939faf023b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986112-5f893950c8658.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986084-5f8938b46d376.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986138-5f8939fa5f167.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986108-5f89394ef2eb7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986115-5f8939528fd0f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986136-5f8939f9ce7a7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986107-5f89394e463b8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986134-5f8939f8ecad3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000163/archive/1986105-5f89394ceb788.jpg"
+  ],
+  "retty_rating": 3.2,
+  "retty_review_count": 90,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://kyourestarauntubcra.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

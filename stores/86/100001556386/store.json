@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001556386",
+  "slug": "medusa-stand-556386",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:23Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "MEDUSA STAND",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "ダイニングバー",
+    "立ち飲み"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１３-１ ROOB６ビル１F",
+  "postal_code": "1500021",
+  "tel": "050-5262-9353",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64762537245096,
+    "lng": 139.7079345880374
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001556386/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001556386/archive/2297272-606439ba807da.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297272-606439ba807da.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297277-606439dc73579.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297270-606439b0040a2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297271-606439b54dc52.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297273-606439c3611a0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297269-606439a8b4a87.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297314-60643a046396a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297276-606439d768978.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297312-606439f74f153.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297275-606439d221e91.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297279-606439e6113de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001556386/archive/2297311-606439ef38074.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 2,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001556386",
+  "sns": {
+    "web": "https://medusastand.foodre.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

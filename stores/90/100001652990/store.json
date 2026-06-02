@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001652990",
+  "slug": "lip-ebisu-652990",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:41Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "LIP EBISU ‐リップ 恵比寿店",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "ダーツバー",
+    "イタリアンバル"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-３ 木村ビル２F",
+  "postal_code": "1500022",
+  "tel": "050-5462-4654",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64640440000001,
+    "lng": 139.7092854
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001652990/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001652990/archive/3213779-658173839f618.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/3213779-658173839f618.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2836546-6315b0d95d663.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2794051-62e12fef85db7.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2841359-631aa07d8405b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2794065-62e1337534120.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2794060-62e13174a534b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2794064-62e1336db8d8b.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2841360-631aa0801ba6e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2794047-62e12fc4736d3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2841358-631aa07a49869.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2794066-62e13384e86ad.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2903035-63641b6ddb78b.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001652990",
+  "sns": {
+    "web": "https://lip-bar.com/",
+    "instagram": "https://www.instagram.com/lip_bar_ebisu_/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

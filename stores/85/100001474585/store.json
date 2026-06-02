@@ -1,0 +1,97 @@
+{
+  "retty_id": "100001474585",
+  "slug": "restaurant-bar-amusement-474585",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Restaurant Bar AMUSEMENT",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿４-６-１ MFビルB１",
+  "postal_code": "1500013",
+  "tel": "050-5461-5350",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64591056650659,
+    "lng": 139.71239997055227
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001474585/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001474585/archive/2107510-5fba1799c9a8c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/2107510-5fba1799c9a8c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/1911846-5f7c2a4a48d26.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/2268145-60488a9185dbf.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/1861261-5f61e39e91bd0.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/2267731-60487381cb19b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/2107518-5fba184f103fb.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/1861395-5f61eb2d4ace2.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/1861262-5f61e39f5d07a.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/2267728-6048737ee1f6c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/2267886-6048837facd8f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/2215598-6020c4a3bd05b.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001474585/archive/2107512-5fba18366ac5a.png"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 8,
+  "nearest_station": "恵比寿駅から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001474585",
+  "sns": {
+    "web": "https://bar-amusement.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

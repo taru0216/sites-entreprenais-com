@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001015583",
+  "slug": "store-015583",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:46Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "居酒屋 佐藤 恵比寿",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "しゃぶしゃぶ",
+    "和食",
+    "うなぎ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-２ ウエストパレスビル１F",
+  "postal_code": "1500021",
+  "tel": "03-6416-3703",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.647789278654,
+    "lng": 139.70839678224
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001015583/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001015583/archive/1020711-5d2d9e7c33fc9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/1020711-5d2d9e7c33fc9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/1636393-5e96f75825704.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/2362377-60a4e843476d1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/2361513-60a497377eb38.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/1637096-5e98030d3e538.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/1637095-5e98028fe7dc9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/2362381-60a4e848213de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/2362372-60a4e83a7d5bf.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/2361503-60a4970b21c50.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/2362322-60a4d9914a71e.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/2362378-60a4e84466f7d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001015583/archive/151892-58b51e540d820.jpg"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 40,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://r.gnavi.co.jp/b446014/",
+    "facebook": "https://www.facebook.com/izakayasato"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

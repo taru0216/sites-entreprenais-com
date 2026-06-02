@@ -1,0 +1,98 @@
+{
+  "retty_id": "100001770587",
+  "slug": "store-770587",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:47:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "炭火焼き牛タン 個室居酒屋 四季や 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-１ エビスリヨンビル５F",
+  "postal_code": "1500013",
+  "tel": "03-6635-3941",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "28:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "28:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6467175813045,
+    "lng": 139.71132923619368
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001770587/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001770587/archive/3562067-67e17ef51880d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562067-67e17ef51880d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562053-67e17ee821f0e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562066-67e17ef428896.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562051-67e17ee6878c8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562065-67e17ef313258.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562046-67e17ee1bbd42.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562064-67e17ef21697b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562048-67e17ee3de5a4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562061-67e17eef52770.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562059-67e17eed697c5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562057-67e17eeb8e5e2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001770587/archive/3562063-67e17ef11bcdb.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 2,
+  "nearest_station": "【恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

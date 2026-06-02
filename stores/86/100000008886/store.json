@@ -1,0 +1,91 @@
+{
+  "retty_id": "100000008886",
+  "slug": "store-008886",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:42:12Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "那覇市久茂地 吉崎食堂 恵比寿店",
+  "category": "沖縄料理",
+  "categories": [
+    "沖縄料理",
+    "居酒屋",
+    "刺身"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-２ T・ナカムラビルB１",
+  "postal_code": "1500022",
+  "tel": "03-5704-8867",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6455014402855,
+    "lng": 139.70782640613422
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000008886/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/37/42/P039223742/P039223742_480.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 56,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://yura-net.com/",
+    "facebook": "https://www.facebook.com/ebisu.yoshizaki"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "retty_id": "100001612919",
+  "slug": "store-612919",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "あか牛精肉販売所",
+  "category": "鉄板焼き",
+  "categories": [
+    "鉄板焼き",
+    "ステーキ"
+  ],
+  "address": "東京都渋谷区広尾１-１５-２",
+  "postal_code": "1500012",
+  "tel": "03-6277-0429",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.648539775521975,
+    "lng": 139.7116694595072
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001612919/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001612919/archive/2770636-62c3864302654.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770636-62c3864302654.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770608-62c38617bae7c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770619-62c38629cb35c.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770607-62c3861627021.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770613-62c3861fea90a.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770606-62c38614513f2.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770615-62c38623a8a0e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770614-62c386219c08e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770617-62c3862689c5f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770618-62c386284f74e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001612919/archive/2770621-62c3862d67c1b.png"
+  ],
+  "retty_rating": 4.7,
+  "retty_review_count": 13,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001612919",
+  "sns": {
+    "web": "https://sankyo-meat.com/",
+    "instagram": "https://www.instagram.com/akaushiseiniku29/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

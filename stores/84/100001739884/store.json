@@ -1,0 +1,55 @@
+{
+  "retty_id": "100001739884",
+  "slug": "hana-739884",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:44:46Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "スシエビスHana 恵比寿本店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "寿司",
+    "魚介・海鮮料理"
+  ],
+  "address": "東京都渋谷区恵比寿西１-８-１０ 髙橋ビル １F",
+  "postal_code": "1500021",
+  "tel": "03-6416-3630",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.64735720000001,
+    "lng": 139.7084695
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001739884/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/69/35/P044116935/P044116935_480.jpg"
+  ],
+  "retty_rating": 4.85,
+  "retty_review_count": 10,
+  "nearest_station": "n恵比寿駅から徒歩1分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

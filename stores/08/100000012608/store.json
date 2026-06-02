@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000012608",
+  "slug": "store-012608",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "播鳥 恵比寿本店",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "親子丼",
+    "居酒屋",
+    "鶏料理",
+    "炭火焼き",
+    "丼もの"
+  ],
+  "address": "東京都渋谷区恵比寿４-７-１",
+  "postal_code": "1500013",
+  "tel": "03-3444-7171",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6458101,
+    "lng": 139.71286970000006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000012608/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/89/79/P031928979/P031928979_480.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 80,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://banchou-honkan.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

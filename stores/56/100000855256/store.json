@@ -1,0 +1,96 @@
+{
+  "retty_id": "100000855256",
+  "slug": "store-855256",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:41:28Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "エビスモンジャ！",
+  "category": "もんじゃ焼き",
+  "categories": [
+    "もんじゃ焼き",
+    "焼きそば",
+    "たこ焼き",
+    "お好み焼き",
+    "居酒屋",
+    "鉄板焼き"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１０-１０ 若葉西ビル２F",
+  "postal_code": "1500021",
+  "tel": "03-6892-8777",
+  "hours": {
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "28:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64644056260569,
+    "lng": 139.7076159371352
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000855256/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000855256/archive/901480-5cc3102daf8d6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000855256/archive/901480-5cc3102daf8d6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000855256/archive/901486-5cc310917c1e0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000855256/archive/960284-5cfa62fa27ec7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000855256/archive/937680-5ce3ed8f31ff7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000855256/archive/960280-5cfa5d6545cb3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000855256/archive/960278-5cfa5d3e47552.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000855256/archive/901483-5cc310755b8e7.jpg"
+  ],
+  "retty_rating": 3.8,
+  "retty_review_count": 46,
+  "nearest_station": "恵比寿駅西口徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.bloom-co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

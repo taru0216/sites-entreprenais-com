@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001555290",
+  "slug": "tokyo-hops-world-beer-dining-bar-555290",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:34:55Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "TOKYO HOPS World Beer Dining ＆ Bar 恵比寿",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "肉バル",
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南２-１-１１ 恵比寿AMビル２F",
+  "postal_code": "1500022",
+  "tel": "050-5262-2965",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "27:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "27:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64606505035837,
+    "lng": 139.7072739411045
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001555290/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001555290/archive/2158951-5fdec69994dbb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2158951-5fdec69994dbb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2234562-602ceaeac1835.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2026568-5f96980bbb9c4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2032531-5f992716b13de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2030681-5f98086dcbc63.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2026357-5f968b8713393.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2030678-5f980848444b4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2030575-5f97fed85f222.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2030679-5f980855acc3a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2030572-5f97feb1d00d7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2031849-5f98f962c8f2e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001555290/archive/2025970-5f967ad985e47.jpg"
+  ],
+  "retty_rating": 3.6,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001555290",
+  "sns": {
+    "web": "https://billybarews-beerbar.owst.jp/",
+    "facebook": "https://www.facebook.com/tokyo.hops",
+    "x": "https://x.com/TokyoHops"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

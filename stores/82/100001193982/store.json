@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001193982",
+  "slug": "store-193982",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:21Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "オー・ギャマン・ド・トキオ",
+  "category": "創作料理",
+  "categories": [
+    "創作料理"
+  ],
+  "address": "東京都渋谷区恵比寿３-２８-３ CASA PIATTO ２F",
+  "postal_code": "1500013",
+  "tel": "050-5262-9426",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64377006086197,
+    "lng": 139.71580600613424
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001193982/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001193982/archive/2317059-606fc40d371d8.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317059-606fc40d371d8.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317056-606fc40adbef1.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317058-606fc40c7a181.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317057-606fc40b94e88.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317060-606fc40ddf56e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/3105619-64b64f391bb6f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317061-606fc40eb2323.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317062-606fc40f6f249.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317063-606fc410511fb.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/2317195-606fd7c4d2727.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001193982/archive/3668970-68788d1f1eeda.jpg"
+  ],
+  "retty_rating": 4.6,
+  "retty_review_count": 86,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://gamin2008.com/service/au-gamin-de-tokio/",
+    "facebook": "https://www.facebook.com/au.gamin.de.tokio",
+    "instagram": "https://www.instagram.com/au_gamin_de_tokio/",
+    "x": "https://twitter.com/gamin_official_"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

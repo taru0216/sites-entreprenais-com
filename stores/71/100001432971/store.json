@@ -1,0 +1,105 @@
+{
+  "retty_id": "100001432971",
+  "slug": "gamin-432971",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:12Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "深夜食堂 GAMIN",
+  "category": "刺身",
+  "categories": [
+    "刺身",
+    "鉄板焼き",
+    "創作料理"
+  ],
+  "address": "東京都渋谷区恵比寿３-２８-３ CASA PIATTO B１F",
+  "postal_code": "1500013",
+  "tel": "050-5262-9428",
+  "hours": {
+    "sun": {
+      "open": "19:00",
+      "close": "27:00"
+    },
+    "mon": {
+      "open": "19:00",
+      "close": "27:00"
+    },
+    "tue": {
+      "open": "19:00",
+      "close": "27:00"
+    },
+    "wed": {
+      "open": "19:00",
+      "close": "27:00"
+    },
+    "thu": {
+      "open": "19:00",
+      "close": "27:00"
+    },
+    "fri": {
+      "open": "19:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "19:00",
+      "close": "27:00"
+    },
+    "holiday": {
+      "open": "19:00",
+      "close": "27:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64379761741057,
+    "lng": 139.71580031779104
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001432971/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001432971/archive/3165734-652649333c8f6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/3165734-652649333c8f6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2604910-61f0f9aede757.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2604898-61f0f8ec6526c.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2317218-606fdc431fce8.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2604907-61f0f9ab525ae.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2317226-606fdc47a4c12.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2604908-61f0f9ac927a9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2317228-606fdc48734d5.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2604909-61f0f9adb8add.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2317229-606fdc49192c7.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2604906-61f0f9a9986d4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001432971/archive/2604914-61f0f9b3a7aa0.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 18,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://gamin2008.com/service/cave-de-gamin-et-hanare/",
+    "facebook": "https://www.facebook.com/cave.de.gamin.et.hanare/",
+    "instagram": "https://www.instagram.com/hanare0817",
+    "x": "https://twitter.com/gamin_official_"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "retty_id": "100001585798",
+  "slug": "store-585798",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿ホルモン龍村",
+  "category": "焼肉",
+  "categories": [
+    "焼肉",
+    "ホルモン",
+    "炭火焼き"
+  ],
+  "address": "東京都渋谷区恵比寿南１-４-１７ Ginza K２ビル ４F",
+  "postal_code": "1500022",
+  "tel": "03-6303-0065",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6465544496494,
+    "lng": 139.70907491655026
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001585798/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/79/62/P039237962/P039237962_480.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/horumon_tatsumura/",
+    "x": "https://x.com/hrmn_tatsumura"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

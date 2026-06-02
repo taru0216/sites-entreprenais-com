@@ -1,0 +1,98 @@
+{
+  "retty_id": "100001356869",
+  "slug": "store-356869",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:43:30Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "大衆酒場 酔っ手羽 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "魚介・海鮮料理",
+    "焼き鳥",
+    "餃子",
+    "鶏料理"
+  ],
+  "address": "東京都渋谷区恵比寿南１-７-３ １F",
+  "postal_code": "1500022",
+  "tel": "03-3794-4108",
+  "hours": {
+    "sun": {
+      "open": "13:00",
+      "close": "08:00"
+    },
+    "mon": {
+      "open": "13:00",
+      "close": "08:00"
+    },
+    "tue": {
+      "open": "13:00",
+      "close": "08:00"
+    },
+    "wed": {
+      "open": "13:00",
+      "close": "08:00"
+    },
+    "thu": {
+      "open": "13:00",
+      "close": "08:00"
+    },
+    "fri": {
+      "open": "13:00",
+      "close": "08:00"
+    },
+    "sat": {
+      "open": "13:00",
+      "close": "08:00"
+    },
+    "holiday": {
+      "open": "13:00",
+      "close": "08:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 3000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜3000円",
+  "geo": {
+    "lat": 35.6462905,
+    "lng": 139.70992
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001356869/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001356869/archive/268878-59a36e7d36cf1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001356869/archive/268878-59a36e7d36cf1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001356869/archive/268882-59a36e7d7c609.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001356869/archive/269244-59a39728e9237.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001356869/archive/268995-59a3714fd65e4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001356869/archive/268889-59a36e7ebcae5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001356869/archive/268987-59a3714ea21ee.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001356869/archive/268898-59a36e80a8453.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001356869/archive/268894-59a36e7fc26d0.jpg"
+  ],
+  "retty_rating": 3.4,
+  "retty_review_count": 15,
+  "nearest_station": "n恵比寿駅西口から徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

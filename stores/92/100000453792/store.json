@@ -1,0 +1,108 @@
+{
+  "retty_id": "100000453792",
+  "slug": "store-453792",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "恵比寿 スペインバル ボデガス ガパ",
+  "category": "スペインバル",
+  "categories": [
+    "スペインバル",
+    "スペイン料理",
+    "バル",
+    "ダイニングバー",
+    "居酒屋",
+    "魚介・海鮮料理",
+    "ワインバー",
+    "豚料理",
+    "野菜料理",
+    "にんにく料理"
+  ],
+  "address": "東京都渋谷区恵比寿西１-４-１ VANDAビル B１",
+  "postal_code": "1500021",
+  "tel": "03-5459-5524",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "26:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "26:00"
+    },
+    "sun": {
+      "open": "16:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6487984,
+    "lng": 139.7079617
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000453792/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000453792/archive/248594-5969bd7123ef0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/248594-5969bd7123ef0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/639232-5c00f990caee8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/151625-58b5014c86030.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/151624-58b50146dfc3e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/2456117-611cce7367d3e.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/151623-58b501411cee4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/151628-58b5015d2f010.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/151616-58b5011f3f837.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/151620-58b5013e20ace.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/151617-58b501234c74c.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 110,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://r.gnavi.co.jp/b446004/",
+    "facebook": "https://www.facebook.com/bodegasguapa/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

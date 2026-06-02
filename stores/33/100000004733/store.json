@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000004733",
+  "slug": "store-004733",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:27Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "福笑 本店",
+  "category": "和食",
+  "categories": [
+    "和食",
+    "居酒屋",
+    "魚介・海鮮料理",
+    "自然食",
+    "割烹・小料理屋"
+  ],
+  "address": "東京都渋谷区恵比寿南１-９-４ 長谷川ビル ５０１",
+  "postal_code": "1500022",
+  "tel": "050-5304-9391",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64568752287906,
+    "lng": 139.7091883865082
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000004733/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000004733/archive/1310434-5de0d75e75754.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1310434-5de0d75e75754.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1310440-5de0d7604c290.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1317800-5de5b99448e04.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1317776-5de5b933029cb.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1317817-5de5b9da13c60.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1317772-5de5b91d348a8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1317847-5de5ba4ad4211.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1310447-5de0d762f344e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1310491-5de0d7836101b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1317755-5de5b8c883ec3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1317790-5de5b96abc888.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000004733/archive/1317783-5de5b94dab8a9.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 144,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://www.fukuwarai501.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

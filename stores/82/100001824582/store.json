@@ -1,0 +1,86 @@
+{
+  "retty_id": "100001824582",
+  "slug": "entertainment-bar-trico-824582",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:48:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "entertainment Bar Trico 恵比寿本店",
+  "category": "バー",
+  "categories": [
+    "バー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２-１２ ブラウンヴェセルビル ３F",
+  "postal_code": "1500022",
+  "tel": "03-5708-5358",
+  "hours": {
+    "sun": {
+      "open": "21:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "21:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "21:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "21:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "21:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "21:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "21:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "21:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64616340108987,
+    "lng": 139.70822542147846
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001824582/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/86/66/P047268666/P047268666_480.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

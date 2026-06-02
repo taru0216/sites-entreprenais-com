@@ -1,0 +1,100 @@
+{
+  "retty_id": "100001758993",
+  "slug": "store-758993",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:09Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ルポン 恵比寿",
+  "category": "立ち飲み",
+  "categories": [
+    "立ち飲み",
+    "バー",
+    "居酒屋",
+    "バル",
+    "中華"
+  ],
+  "address": "東京都渋谷区恵比寿西１-７-１３ 日基ビル１F A号",
+  "postal_code": "1500021",
+  "tel": "03-6277-5866",
+  "hours": {
+    "sun": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 2000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜2000円",
+  "geo": {
+    "lat": 35.64798206835468,
+    "lng": 139.7084272530671
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001758993/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001758993/archive/3502738-6790b8557aae2.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502738-6790b8557aae2.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502739-6790b85dd0859.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502717-6790b7bd22092.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502742-6790b872393d4.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502740-6790b863d8e2a.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502733-6790b834a755e.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502743-6790b879d7b9d.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502741-6790b86b294a2.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502719-6790b7cca3e56.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502744-6790b8814a78e.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502720-6790b7d3ceac0.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001758993/archive/3502721-6790b7db2ce8f.JPG"
+  ],
+  "retty_rating": 4.5,
+  "retty_review_count": 4,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/lepont_ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000000121",
+  "slug": "store-000121",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:33Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "すし 京辰 恵比寿店",
+  "category": "寿司",
+  "categories": [
+    "寿司"
+  ],
+  "address": "東京都渋谷区恵比寿南１-５-５ アトレ恵比寿６F",
+  "postal_code": "1500022",
+  "tel": "050-5461-9654",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "22:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 4000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜4000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.647191170550414,
+    "lng": 139.70985237607476
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000121/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000000121/archive/3007388-641109ec34e3a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007388-641109ec34e3a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007411-64110b125a6d5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007389-641109f20237a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/1906244-5f7ac935b6c95.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007423-64110c8288c29.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007435-64110f6fcf51f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/2053381-5fa26e4552207.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007428-64110e9073c1d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007438-64110f74661f7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/2053379-5fa26e43cb036.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007427-64110e47c2219.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007437-64110f72ce648.jpg"
+  ],
+  "retty_rating": 3.6,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000000121",
+  "sns": {
+    "web": "http://bbande.co.jp/",
+    "instagram": "https://www.instagram.com/ebisu_kyotatsu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

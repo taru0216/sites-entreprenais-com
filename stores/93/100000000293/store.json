@@ -1,0 +1,95 @@
+{
+  "retty_id": "100000000293",
+  "slug": "store-000293",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:49Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "越後屋喜八郎",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋",
+    "魚介・海鮮料理",
+    "焼き鳥"
+  ],
+  "address": "東京都渋谷区恵比寿１-２０-１ 恵比寿コンフォート１F・２F",
+  "postal_code": "1500013",
+  "tel": "03-5421-8588",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6469155,
+    "lng": 139.71242529999995
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000293/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000000293/archive/1102006-5d70ef8f838a5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1102006-5d70ef8f838a5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1102005-5d70ef8edda96.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1101994-5d70ef8738256.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1102120-5d70f4ae33d28.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1102012-5d70f01140846.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1101996-5d70ef88a0744.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1101998-5d70ef89ea14a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1102004-5d70ef8e094d4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1102009-5d70efb5a6de3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1102001-5d70ef8bd23b4.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1101992-5d70ef85c881a.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 113,
+  "nearest_station": "JR恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

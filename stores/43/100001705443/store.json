@@ -1,0 +1,105 @@
+{
+  "retty_id": "100001705443",
+  "slug": "store-705443",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:50Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "割烹 ししくら",
+  "category": "割烹・小料理屋",
+  "categories": [
+    "割烹・小料理屋",
+    "寿司",
+    "しゃぶしゃぶ",
+    "日本料理"
+  ],
+  "address": "東京都渋谷区恵比寿１－２５－３ルヴェドゥ・プランタン１階",
+  "postal_code": "1500013",
+  "tel": "050-5462-8778",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "24:00"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "14:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 3000,
+    "dinner": 20000
+  },
+  "budget_raw": "ランチ予算: 〜3000円 ディナー予算: 〜20000円",
+  "geo": {
+    "lat": 35.6470115,
+    "lng": 139.7162296
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001705443/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001705443/archive/3647794-685dd8692eea9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647794-685dd8692eea9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647820-685dd87865958.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647780-685dd860eab9e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647828-685dd87d6b920.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647779-685dd8606533d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647787-685dd865194ec.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647790-685dd866d78b2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647781-685dd861ad423.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647805-685dd86f78277.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647807-685dd870a62e6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647827-685dd87cc677d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001705443/archive/3647823-685dd87a6c98a.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": "【恵比寿駅東口から徒歩4分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://hegisobasisikura.com/index.html",
+    "instagram": "https://www.instagram.com/kappoushishikura",
+    "x": "https://x.com/kappoushishi"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

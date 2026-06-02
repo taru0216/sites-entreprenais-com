@@ -1,0 +1,88 @@
+{
+  "retty_id": "100000715010",
+  "slug": "bacio-di-giulietta-715010",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:42Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bacio di Giulietta 恵比寿ガーデンプレイス店",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ピザ",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-２ 恵比寿ガーデンテラス武番館 １F",
+  "postal_code": "1500013",
+  "tel": "03-3473-9187",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "22:30"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6424796522165,
+    "lng": 139.7146798702464
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000715010/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/24/76/P035922476/P035922476_480.jpg"
+  ],
+  "retty_rating": 3.55,
+  "retty_review_count": 35,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

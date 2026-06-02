@@ -1,0 +1,53 @@
+{
+  "retty_id": "100001727944",
+  "slug": "yakiniku-ao-727944",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:41Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "yakiniku ao",
+  "category": "焼肉",
+  "categories": [
+    "焼肉"
+  ],
+  "address": "東京都渋谷区東２-２３-６ 池田ビル １F",
+  "postal_code": "1500011",
+  "tel": "不明",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.6533304,
+    "lng": 139.7084296
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001727944/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/60/62/P048036062/P048036062_480.jpg"
+  ],
+  "retty_rating": 4.75,
+  "retty_review_count": 6,
+  "nearest_station": "nJR山手線・恵比寿駅より徒歩10分",
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

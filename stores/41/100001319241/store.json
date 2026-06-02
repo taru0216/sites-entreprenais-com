@@ -1,0 +1,103 @@
+{
+  "retty_id": "100001319241",
+  "slug": "store-319241",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:35Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "トラットリア サンタルチア",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "パスタ",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１４-１２ ル・ソレイユ３ １F",
+  "postal_code": "1500022",
+  "tel": "050-5262-8555",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "16:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "16:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 2000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜2000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.645416430325014,
+    "lng": 139.70974674274441
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001319241/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001319241/archive/149349-58aebbbcd991f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149349-58aebbbcd991f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149380-58aebbd6951aa.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149375-58aebbd43b46d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/2253962-603dd76981c8e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149374-58aebbd1c71a0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149350-58aebbc288cdc.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149376-58aebbd444d09.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149351-58aebbc2ed641.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149377-58aebbd4cc074.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149352-58aebbc3218b6.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149378-58aebbd5ce3f9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001319241/archive/149353-58aebbc327de8.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 56,
+  "nearest_station": "恵比寿駅から徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://trattoriasantalucia-ebisu.foodre.jp/",
+    "facebook": "https://www.facebook.com/santalucia4312/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

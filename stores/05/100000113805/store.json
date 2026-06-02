@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000113805",
+  "slug": "store-113805",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:11Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ル プュイドール 金の井戸",
+  "category": "フレンチ",
+  "categories": [
+    "フレンチ"
+  ],
+  "address": "東京都渋谷区恵比寿西１-１２-８ グレースコート ２F",
+  "postal_code": "1500021",
+  "tel": "050-5304-5942",
+  "hours": {
+    "sun": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "mon": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "holiday": {
+      "open": "17:30",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 30000,
+    "dinner": 30000
+  },
+  "budget_raw": "ランチ予算: 〜30000円 ディナー予算: 〜30000円",
+  "geo": {
+    "lat": 35.64721732866591,
+    "lng": 139.7075239877315
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113805/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000113805/archive/4019169-69df3c42ee67a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019169-69df3c42ee67a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4024033-69e70839dd39a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019209-69df3c5bd50de.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019216-69df3c5ff1273.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4024036-69e709145a4bd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019212-69df3c5d801ee.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019213-69df3c5e19e35.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019200-69df3c564bbd3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019206-69df3c59c9214.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019210-69df3c5c6eb7f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019223-69df3c6411705.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000113805/archive/4019218-69df3c612ca30.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 13,
+  "nearest_station": "【恵比寿駅徒歩2分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000113805",
+  "sns": {
+    "web": "https://www.puits-dor.com/",
+    "facebook": "https://www.facebook.com/lepuitsdor.kinnoido/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

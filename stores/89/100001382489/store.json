@@ -1,0 +1,101 @@
+{
+  "retty_id": "100001382489",
+  "slug": "bar-insignia-382489",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:22Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "BAR INSIGNIA",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿３-３-２ ニューケイクレセント３F",
+  "postal_code": "1500013",
+  "tel": "050-5461-4178",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "tue": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "wed": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "03:00"
+    },
+    "sun": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 10000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜10000円",
+  "geo": {
+    "lat": 35.64528537081688,
+    "lng": 139.71791985276127
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001382489/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001382489/archive/2383551-60b4bb2a16820.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/2383551-60b4bb2a16820.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/723484-5c773c6340c6a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/723528-5c77410559582.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/723257-5c76aec58b758.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/723256-5c76ae2a9c2e9.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/783602-5c975a26af058.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/723524-5c7740bf85514.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/2127230-5fc79c4e716ff.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/723411-5c76ed2ae032d.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/723550-5c77420433ac7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/723271-5c76b04096c13.jpeg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001382489/archive/3342342-6674725b457de.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 7,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001382489",
+  "sns": {
+    "web": "https://www.bar-insignia.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

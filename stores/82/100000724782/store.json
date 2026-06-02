@@ -1,0 +1,96 @@
+{
+  "retty_id": "100000724782",
+  "slug": "dumviva-724782",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:38:31Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Dumviva",
+  "category": "イタリアン",
+  "categories": [
+    "イタリアン",
+    "ビストロ"
+  ],
+  "address": "東京都渋谷区恵比寿南２-６-１４ サウスコート恵比寿B１F",
+  "postal_code": "1500022",
+  "tel": "050-5304-2158",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "22:00"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "22:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "22:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.6440546,
+    "lng": 139.7074286
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000724782/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000724782/archive/2121555-5fc5a87d7702d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/2121555-5fc5a87d7702d.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/1890901-5f753d935f948.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/1890997-5f753ea4276c2.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/1890798-5f753acde679e.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/1890799-5f753acf614d3.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/1860015-5f617d8182913.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/1891005-5f753f2420c60.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/1839983-5f55b38585784.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/2121556-5fc5a88425869.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000724782/archive/1890797-5f753acb832a8.png"
+  ],
+  "retty_rating": 4.3,
+  "retty_review_count": 31,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "http://dumviva.jp/index.cgi",
+    "facebook": "https://www.facebook.com/pages/GrillWine-Dum-Viva/177696475700224"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

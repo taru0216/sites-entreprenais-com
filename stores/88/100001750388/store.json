@@ -1,0 +1,88 @@
+{
+  "retty_id": "100001750388",
+  "slug": "noran-750388",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:46:32Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "NORAN",
+  "category": "韓国料理",
+  "categories": [
+    "韓国料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-２０-３ 恵比寿ガーデンプレイス タワー棟 ３９F",
+  "postal_code": "1500013",
+  "tel": "03-6450-2775",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "22:30"
+    },
+    "sun": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "15:00"
+    },
+    "holiday": {
+      "open": "11:30",
+      "close": "15:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.6421979,
+    "lng": 139.7134251
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001750388/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37520109.jpg"
+  ],
+  "retty_rating": 4.75,
+  "retty_review_count": 3,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "instagram": "https://www.instagram.com/noran__ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

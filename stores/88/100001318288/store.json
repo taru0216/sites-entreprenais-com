@@ -1,0 +1,90 @@
+{
+  "retty_id": "100001318288",
+  "slug": "cafe-bar-the-4th-ebisu-318288",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:57Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Cafe＆bar The 4th EBISU",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "カフェ",
+    "カレー"
+  ],
+  "address": "東京都渋谷区恵比寿南２-３-１２ je１ビル２F",
+  "postal_code": "1500022",
+  "tel": "03-5724-3409",
+  "hours": {
+    "mon": {
+      "open": "18:00",
+      "close": "00:30"
+    },
+    "tue": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "wed": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "thu": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "fri": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "sat": {
+      "open": "11:30",
+      "close": "17:00"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "00:30"
+    },
+    "sun": {
+      "open": "18:00",
+      "close": "00:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6454405,
+    "lng": 139.70732580000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001318288/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/96/09/P026499609/P026499609_480.jpg"
+  ],
+  "retty_rating": 3.85,
+  "retty_review_count": 6,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "facebook": "https://www.facebook.com/cafebar.The4thEBISU/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

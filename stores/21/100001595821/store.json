@@ -1,0 +1,54 @@
+{
+  "retty_id": "100001595821",
+  "slug": "store-595821",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:45:08Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "真不同 飲茶倶楽部 恵比寿店",
+  "category": "飲茶・点心",
+  "categories": [
+    "飲茶・点心",
+    "中華"
+  ],
+  "address": "東京都渋谷区恵比寿南１-８-９ 京城ビル ６F",
+  "postal_code": "1500022",
+  "tel": "03-6303-1318",
+  "hours": {},
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.646068,
+    "lng": 139.709026
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001595821/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/26/48/P048152648/P048152648_480.jpg"
+  ],
+  "retty_rating": 3.95,
+  "retty_review_count": 4,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "retty_id": "100001361116",
+  "slug": "store-361116",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:39:51Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "串焼き もんじろう",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "居酒屋",
+    "串焼き"
+  ],
+  "address": "東京都渋谷区恵比寿１-１１-５ GEMS恵比寿４F",
+  "postal_code": "1500013",
+  "tel": "03-6455-7390",
+  "hours": {
+    "mon": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "tue": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "wed": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "17:30",
+      "close": "23:30"
+    },
+    "sun": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64633922339974,
+    "lng": 139.7117996834324
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001361116/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001361116/archive/383552-5a9770fc61e17.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/383552-5a9770fc61e17.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/383547-5a9770cfca551.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/383572-5a9772f5cfc9f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/383568-5a9772e5b1f6a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/383564-5a9772dfc94f9.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/383571-5a9772e8acc49.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/383570-5a9772e704614.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/390412-5aa229e4af117.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001361116/archive/390428-5aa22a26c0694.jpg"
+  ],
+  "retty_rating": 4.1,
+  "retty_review_count": 81,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

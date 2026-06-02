@@ -1,0 +1,89 @@
+{
+  "retty_id": "100000452031",
+  "slug": "store-452031",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "メキシカンダイニング オトラ",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "メキシコ料理",
+    "居酒屋",
+    "タコス"
+  ],
+  "address": "東京都渋谷区恵比寿南１-２３-８ アメリカンブリッジビル ３F",
+  "postal_code": "1500022",
+  "tel": "03-3719-8511",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "25:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "25:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64310092117722,
+    "lng": 139.71172928810006
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000452031/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/66/07/P028276607/P028276607_480.jpg"
+  ],
+  "retty_rating": 4.05,
+  "retty_review_count": 72,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

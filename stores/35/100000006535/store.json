@@ -1,0 +1,101 @@
+{
+  "retty_id": "100000006535",
+  "slug": "store-006535",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:55Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ロジェ カフェ",
+  "category": "カフェ",
+  "categories": [
+    "カフェ",
+    "パスタ"
+  ],
+  "address": "東京都渋谷区恵比寿１-７-３ 第一協栄ビル ２F",
+  "postal_code": "1500013",
+  "tel": "050-5303-0351",
+  "hours": {
+    "sun": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "12:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "12:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 1000,
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 〜1000円 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.6480875,
+    "lng": 139.71081430000004
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000006535/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000006535/archive/3237618-65b8b4464f01b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/3237618-65b8b4464f01b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/403045-5ac5cb507cdfd.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/403046-5ac5cb5105ce6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/420209-5acdd07751ebe.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/403047-5ac5cb513c94d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/403042-5ac5cb5048ba1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/403041-5ac5cb504325e.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/420210-5acdd08b0e550.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/403056-5ac5cb529942b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/420208-5acdd05b2b252.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/403040-5ac5cb5004577.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000006535/archive/403044-5ac5cb5062252.jpg"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 192,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000006535",
+  "sns": {
+    "web": "https://renovationplanning.co.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

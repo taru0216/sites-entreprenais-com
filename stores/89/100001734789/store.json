@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001734789",
+  "slug": "store-734789",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:34:57Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "すずめの御宿",
+  "category": "刺身",
+  "categories": [
+    "刺身",
+    "鉄板焼き"
+  ],
+  "address": "東京都渋谷区恵比寿南２-７-８ ルジェンテ エビス １F",
+  "postal_code": "1500022",
+  "tel": "050-5303-3640",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.6438642927734,
+    "lng": 139.7084025239252
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001734789/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001734789/archive/3961454-69a69d0d6c498.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961454-69a69d0d6c498.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961468-69a69d146955f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961474-69a69d1768fce.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961475-69a69d17eafe0.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961465-69a69d12e29a5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961458-69a69d0f5e175.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961466-69a69d1369ce6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961452-69a69d0c31868.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961451-69a69d0bb9f38.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961433-69a69d022e1e6.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961434-69a69d02b2e91.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961436-69a69d03b9324.jpg"
+  ],
+  "retty_rating": 4.25,
+  "retty_review_count": 4,
+  "nearest_station": "恵比寿駅から徒歩5分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001734789",
+  "sns": {
+    "web": "https://suzume-no-oyado.foodre.jp/",
+    "instagram": "https://www.instagram.com/suzume_no_oyado/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "retty_id": "100001750263",
+  "slug": "store-750263",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:36:04Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "博多ほたる 恵比寿店",
+  "category": "居酒屋",
+  "categories": [
+    "居酒屋"
+  ],
+  "address": "東京都渋谷区恵比寿１-２６-１３ 新橋ぼくみつマンション １F",
+  "postal_code": "1500013",
+  "tel": "03-6277-0777",
+  "hours": {
+    "mon": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "23:00"
+    },
+    "sun": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "sat": {
+      "open": "15:00",
+      "close": "23:00"
+    },
+    "holiday": {
+      "open": "15:00",
+      "close": "23:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 8000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
+  "geo": {
+    "lat": 35.6472295,
+    "lng": 139.7163163
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001750263/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001750263/archive/3625829-683fdd39d62e3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625829-683fdd39d62e3.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625820-683fdd350ba07.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625826-683fdd383bd4b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625825-683fdd37b1b75.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625827-683fdd389d9a5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625824-683fdd3744705.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625828-683fdd392f8a5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625821-683fdd357c930.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3623524-683d2d26a5969.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625818-683fdd33e6ab1.jpg"
+  ],
+  "retty_rating": 4.55,
+  "retty_review_count": 4,
+  "nearest_station": "恵比寿駅から徒歩8分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001750263",
+  "sns": {
+    "web": "https://hakatahotaru-ebisu.foodre.jp/",
+    "instagram": "https://www.instagram.com/hakatahotaru.ebisu/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "retty_id": "100000228598",
+  "slug": "restaurant-barlounge-medusa-228598",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:37:18Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Restaurant＆BarLounge MEDUSA",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "バー",
+    "カフェ"
+  ],
+  "address": "東京都渋谷区恵比寿１-８-１２ EBIS Q PLAZA B１F",
+  "postal_code": "1500013",
+  "tel": "050-5461-4417",
+  "hours": {
+    "sun": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "mon": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "tue": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "wed": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "thu": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "fri": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "sat": {
+      "open": "16:00",
+      "close": "05:00"
+    },
+    "holiday": {
+      "open": "16:00",
+      "close": "05:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64754608648039,
+    "lng": 139.71013672649747
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000228598/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000228598/archive/1984107-5f88fc5aa0ea1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984107-5f88fc5aa0ea1.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984089-5f88fb45d37c8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984048-5f88fa31850ce.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984097-5f88fc28b6b46.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984063-5f88fa4803842.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984103-5f88fc41024ca.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984090-5f88fb63483f8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984005-5f88f97548665.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984091-5f88fb822ede9.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000228598/archive/1984093-5f88fbbf1acab.png"
+  ],
+  "retty_rating": 3.65,
+  "retty_review_count": 181,
+  "nearest_station": null,
+  "payment_accepted": "カード可 : ()",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100000228598",
+  "sns": {
+    "web": "https://medusa.owst.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

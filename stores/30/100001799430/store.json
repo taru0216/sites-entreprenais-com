@@ -1,0 +1,75 @@
+{
+  "retty_id": "100001799430",
+  "slug": "pistwo-valeur-799430",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:47:39Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Pistwo Valeur",
+  "category": "ビストロ",
+  "categories": [
+    "ビストロ",
+    "寿司"
+  ],
+  "address": "東京都渋谷区恵比寿１-３０-９ １F",
+  "postal_code": "1500013",
+  "tel": "03-5422-9724",
+  "hours": {
+    "sun": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "thu": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "fri": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "sat": {
+      "open": "18:00",
+      "close": "23:30"
+    },
+    "holiday": {
+      "open": "18:00",
+      "close": "23:30"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": "営業時間外"
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 営業時間外",
+  "geo": {
+    "lat": 35.64753462147663,
+    "lng": 139.7175823978591
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001799430/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/ext/https://imgfp.hotp.jp/IMGH/49/30/P045884930/P045884930_480.jpg"
+  ],
+  "retty_rating": 5.0,
+  "retty_review_count": 1,
+  "nearest_station": null,
+  "payment_accepted": null,
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

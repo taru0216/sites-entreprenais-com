@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001349896",
+  "slug": "store-349896",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:44:14Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "北海道しゃぶしゃぶ ポッケ 恵比寿店",
+  "category": "しゃぶしゃぶ",
+  "categories": [
+    "しゃぶしゃぶ",
+    "居酒屋",
+    "九州料理"
+  ],
+  "address": "東京都渋谷区恵比寿４-１０-８恵比寿ビル ２F",
+  "postal_code": "1500013",
+  "tel": "03-5424-1129",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64549576685384,
+    "lng": 139.71470366365486
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001349896/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001349896/archive/296956-59e41ba51273a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296956-59e41ba51273a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296961-59e41ba584031.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296963-59e41ba77abd5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296955-59e4198c52262.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296974-59e4206322b33.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/299212-59e827bebc5b8.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296959-59e41ba548f2b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296958-59e41ba52d5ce.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296951-59e4198b76145.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/296962-59e41ba76993b.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/299217-59e827d8eaa0f.png",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001349896/archive/299219-59e8280c8df91.png"
+  ],
+  "retty_rating": 4.35,
+  "retty_review_count": 12,
+  "nearest_station": "nJR線・恵比寿駅より徒歩6分",
+  "payment_accepted": "カード可 : (AMEX)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {
+    "web": "https://pokke-ebisu.owst.jp/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

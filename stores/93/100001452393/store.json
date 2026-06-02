@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001452393",
+  "slug": "store-452393",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:40:16Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "ショウチャン　恵比寿",
+  "category": "焼き鳥",
+  "categories": [
+    "焼き鳥",
+    "鶏料理",
+    "居酒屋",
+    "バル",
+    "からあげ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１６-１２ ABC.MAMIESビル４階",
+  "postal_code": "1500022",
+  "tel": "03-6451-0429",
+  "hours": {
+    "sun": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "mon": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "tue": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "wed": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "thu": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "fri": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "sat": {
+      "open": "17:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "17:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜4000円",
+  "geo": {
+    "lat": 35.64450717830697,
+    "lng": 139.7095293239252
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001452393/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001452393/archive/761910-5c89c1ba5904d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/761910-5c89c1ba5904d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/761912-5c89c1bcf127d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/675593-5c3eb451ba1df.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/738537-5c7f67d1f376a.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/675443-5c3e96bfb089c.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/1266599-5dcb8c225d9c8.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/761909-5c89c1b8d7601.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/675595-5c3eb4532b3a2.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/761902-5c89c1af3d161.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/1266597-5dcb8c1e4e876.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/729707-5c7e028e8b8a5.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001452393/archive/1266596-5dcb8c1c780bb.jpg"
+  ],
+  "retty_rating": 4.0,
+  "retty_review_count": 47,
+  "nearest_station": "n‍♂️恵比寿駅西口から徒歩4分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "",
+  "sns": {},
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

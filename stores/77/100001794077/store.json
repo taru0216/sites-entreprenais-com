@@ -1,0 +1,99 @@
+{
+  "retty_id": "100001794077",
+  "slug": "bar-vamos-794077",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:34:47Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "Bar Vamos",
+  "category": "バー",
+  "categories": [
+    "バー",
+    "スポーツバー"
+  ],
+  "address": "東京都渋谷区恵比寿南１-９-４ 長谷川力ビル１０２",
+  "postal_code": "1500022",
+  "tel": "050-5462-9502",
+  "hours": {
+    "mon": {
+      "open": "15:00",
+      "close": "27:00"
+    },
+    "tue": {
+      "open": "15:00",
+      "close": "27:00"
+    },
+    "wed": {
+      "open": "15:00",
+      "close": "27:00"
+    },
+    "thu": {
+      "open": "15:00",
+      "close": "27:00"
+    },
+    "fri": {
+      "open": "15:00",
+      "close": "27:00"
+    },
+    "sat": {
+      "open": "20:00",
+      "close": "24:00"
+    },
+    "holiday": {
+      "open": "20:00",
+      "close": "24:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 5000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜5000円",
+  "geo": {
+    "lat": 35.64567159449328,
+    "lng": 139.7091665
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001794077/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001794077/archive/3731341-68ba5a1123471.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731341-68ba5a1123471.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731342-68ba5a12053eb.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731387-68ba5b39e369a.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731350-68ba5a18cc739.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731388-68ba5b3b27f0e.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731347-68ba5a166296e.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731386-68ba5b38e9c2f.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731346-68ba5a157a649.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731385-68ba5b37b87c0.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731344-68ba5a13cb3b9.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731383-68ba5b3497c0f.JPG",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731343-68ba5a12e72d0.JPG"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "【恵比寿駅徒歩3分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001794077",
+  "sns": {
+    "web": "https://bar-vamos-ebisu.foodre.jp/?fbclid=PAQ0xDSwOBTt5leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAaepc6NFGsDbiMOkhLt7Z-XVZYiIlLtN1BaL8hEBE5VUi-u9PqLwhlkhlJRb0A_aem_ENEZHgvmZd_YOmXPZQfKCA",
+    "instagram": "https://www.instagram.com/bar.vamos.ebisu?igsh=MWYwbHBjbndyY2o0Nw%3D%3D&utm_source=qr",
+    "x": "https://x.com/barvamos_info?s=21"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}

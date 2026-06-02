@@ -1,0 +1,102 @@
+{
+  "retty_id": "100001759625",
+  "slug": "raise-ebisu-759625",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-02T13:35:46Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "RAISE EBISU",
+  "category": "ダイニングバー",
+  "categories": [
+    "ダイニングバー",
+    "バー",
+    "ピザ"
+  ],
+  "address": "東京都渋谷区恵比寿南１-１-４ 恵比寿スカイビル ３階",
+  "postal_code": "1500022",
+  "tel": "050-5462-6931",
+  "hours": {
+    "sun": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "mon": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "tue": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "wed": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "thu": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "fri": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "sat": {
+      "open": "11:00",
+      "close": "29:00"
+    },
+    "holiday": {
+      "open": "11:00",
+      "close": "29:00"
+    }
+  },
+  "hours_raw": null,
+  "budget": {
+    "lunch": 5000,
+    "dinner": 6000
+  },
+  "budget_raw": "ランチ予算: 〜5000円 ディナー予算: 〜6000円",
+  "geo": {
+    "lat": 35.64644717545038,
+    "lng": 139.708604464418
+  },
+  "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001759625/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100001759625/archive/3583751-67ffef432a894.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3583751-67ffef432a894.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3583752-67ffef5fba150.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440876-6726428891b8f.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440878-6726428a149e1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440873-6726428689259.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440870-67264284d1a0d.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440871-67264285796e1.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440865-6726428179c31.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440845-6726427477a19.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440863-67264280694b7.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440846-6726427583f99.jpg",
+    "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100001759625/archive/3440855-6726427b15796.jpg"
+  ],
+  "retty_rating": null,
+  "retty_review_count": null,
+  "nearest_station": "R恵比寿駅・東京メトロ日比谷線恵比寿駅から徒歩1分",
+  "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
+  "owner_message": "",
+  "owner_photos": [],
+  "featured_menu": [],
+  "special_info": "",
+  "reservation_url": "https://retty.me/reservation/100001759625",
+  "sns": {
+    "web": "https://raise-ebisu.com/"
+  },
+  "i18n": {
+    "en": {
+      "name": "",
+      "description": "",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}
