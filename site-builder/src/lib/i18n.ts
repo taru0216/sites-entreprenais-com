@@ -28,4 +28,11 @@ export const UI = {
   view_on_retty: 'Retty で見る',
   back_to_list: '店舗一覧へ',
   footer_rights: 'All rights reserved.',
+  photo_title: 'フォト',
+  nav_photo: 'フォト',
+  features_title: 'こだわり',
+  features_lead: 'この店が大切にしていること',
+  reviews_title: 'お客さまの声',
+  nav_reviews: 'お客さまの声',
+  hero_scroll: 'SCROLL',
 };
