@@ -2,7 +2,10 @@
 
 > 飲食店の **公開情報** から、多言語対応の静的ホームページを大量に自動生成して公開するシステムです。
 > このリポジトリ（`taru0216/factory-entreprenais-com`）はそのまま **fork / clone して自由に利用** できます。
-> 本ドキュメントは外部パートナー（Retty エンジニア）向けに、全体像と「fork して自社サイトに組み込むまで」を高レベルで説明します。
+> 本ドキュメントは外部パートナーのエンジニア向けに、全体像と「fork して自社サイトに組み込むまで」を高レベルで説明します。
+
+> **EntreprenAIs とは**: AI エージェントが開発・運用を担うプラットフォーム（経営 AI スタック）です。本 foodre システムも、その上で AI エージェントが構築・運用しています。
+> 他にも EntreprenAIs で作成したホームページの事例は **[ホームページ作成事例（ショーケース）](https://entreprenais.com/eai/showcase/)** をご覧ください。
 
 ---
 
@@ -21,41 +24,42 @@
 
 このシステムの設計の核心は、**`store.json` をサイトの単一の情報源（SSOT）として中心に据える**ことです。
 店舗情報の入り口は 3 系統あり、**どの経路で入った情報も同じ `store.json` に集約**されます。
-そして `store.json` から Astro で自動的に HP がビルドされます。
+そして `store.json` の変更を起点に、**GitHub Actions が Astro を自動ビルド**して HP を生成・公開します。
 
 ```mermaid
 flowchart LR
-    A[クロール\nRetty 公開情報] -->|自動取得して埋め込み| C
+    A[クロール\n外部グルメサイトの公開情報] -->|自動取得して埋め込み| C
     H[飲食店オーナー\n→ LINE] -->|自然文を AI が反映| C
-    O[Retty オペレーター\n→ EntreprenAIs Desktop / Slack] -->|AI 補助での編集| C
-    C[(store.json\nサイトの情報DB / SSOT)] -->|Astro 自動ビルド| D[静的 HTML\nfoodre/{id}/index.html]
+    O[パートナー側オペレーター\n→ EntreprenAIs Desktop / Slack] -->|AI 補助での編集| C
+    C[(store.json\nサイトの情報DB / SSOT)] -->|GitHub Actions が Astro を自動ビルド| D[静的 HTML\nfoodre/{id}/index.html]
     C -->|一覧・検索インデックス更新| E[sitemap.json /\nsearch-index.json]
-    D -->|push to main| F[GitHub Pages 公開]
+    D -->|push to main| F[GitHub Actions が\nGitHub Pages へ公開]
     E --> F
 ```
 
 テキストで表すと:
 
 ```
-[クロール（Retty 公開情報）]                              ┐
-[飲食店オーナー → LINE]                                    ├→ store.json（情報DB / SSOT）→ Astro 自動ビルド → 公開HP
-[Retty オペレーター → EntreprenAIs Desktop(Mac) / Slack]   ┘
+[クロール（外部グルメサイトの公開情報）]                  ┐
+[飲食店オーナー → LINE]                                    ├→ store.json（情報DB / SSOT）→ GitHub Actions が Astro を自動ビルド → 公開HP
+[パートナー側オペレーター → EntreprenAIs Desktop(Mac) / Slack] ┘
 ```
 
 ### 情報の入り口（3系統）
 
 | 経路 | 入力手段 | 内容 |
 |------|---------|------|
-| **クロール** | 自動バッチ | Retty の公開サイトから情報を自動取得して `store.json` に埋め込む（`scripts/crawl_retty.py`）。公開ページのみが対象で、内部 API には一切アクセスしません。レートリミット配慮のため sleep を挟んだ夜間バッチで実行します。 |
+| **クロール** | 自動バッチ | 外部の飲食店情報サイト（グルメサイト）の公開情報を自動取得して `store.json` に埋め込む（`scripts/crawl_retty.py`）。公開ページのみが対象で、内部 API には一切アクセスしません。レートリミット配慮のため sleep を挟んだ夜間バッチ（GitHub Actions の `crawl-stores.yml`）で実行します。 |
 | **飲食店オーナーによる直接入力** | **LINE** | オーナーが LINE で自然文を送ると、AI がその内容を `store.json` に反映します。メニュー・オーナーメッセージ・多言語フィールドなどを手軽に充実させられます。 |
-| **Retty オペレーターによる直接入力** | **EntreprenAIs Desktop（Mac アプリ）または Slack** | Retty 内部のオペレーターが Desktop アプリまたは Slack から、AI 補助で `store.json` を編集します。 |
+| **パートナー側オペレーターによる直接入力** | **EntreprenAIs Desktop（Mac アプリ）または Slack** | パートナー内部のオペレーターが Desktop アプリまたは Slack から、AI 補助で `store.json` を編集します。 |
 
-> **設計思想**: クロールによる自動取得だけでなく、人＋AI による直接編集（飲食店は LINE、Retty 内部は Desktop アプリ or Slack）も **すべて同じ `store.json` に集約**されます。入力手段は経路ごとに異なりますが、最終的な情報源は `store.json` ただ一つ（SSOT）であり、そこから自動ビルドされる——という一貫した構造が、データの整合性と多店舗の大量生成を両立させています。
+> **設計思想**: クロールによる自動取得だけでなく、人＋AI による直接編集（飲食店は LINE、パートナー内部は Desktop アプリ or Slack）も **すべて同じ `store.json` に集約**されます。入力手段は経路ごとに異なりますが、最終的な情報源は `store.json` ただ一つ（SSOT）であり、その変更を起点に GitHub Actions が自動ビルドする——という一貫した構造が、データの整合性と多店舗の大量生成を両立させています。
 
 ### ビルド・公開
 
-- **HTML 生成（Astro 自動ビルド）**は別の内部ビルド機構が担い、生成済みの静的 HTML をこのリポジトリにコミットします（本リポジトリ内にビルド設定は同梱していません。詳細は「6. 内部ビルド機構について」参照）。
-- **公開**は GitHub Pages が、リポジトリのルートをそのまま配信します。
+- **HTML 生成（Astro 自動ビルド）は GitHub Actions が担います。** `store.json` を起点に、本リポジトリ同梱の Astro プロジェクト（`site-builder/`）を CI 上でビルドし、生成された静的 HTML を `foodre/`（自治体は `cities/`）にコミットします。手動でローカルにビルド環境を用意する必要はありません。
+- **公開**は GitHub Actions（`deploy.yml`）が、`main` への push を起点に GitHub Pages へリポジトリのルートをそのままデプロイします。
+- ワークフローの詳細は「6. ビルド・デプロイ（GitHub Actions）」を参照してください。
 
 ---
 
@@ -82,12 +86,18 @@ factory-entreprenais-com/
 ├── stores/                      # store.json データ（SSOT）
 │   ├── store.schema.json        #   store.json の JSON Schema（draft-07）
 │   └── {NN}/{retty_id}/store.json  # 店舗データ（NN = retty_id 末尾2桁でシャーディング）
+├── site-builder/                # Astro プロジェクト（store.json → 静的 HTML ビルド機構）
+│   ├── astro.config.mjs         #   Astro 設定
+│   ├── package.json             #   ビルド依存（GitHub Actions が npm ci で解決）
+│   └── src/                     #   ページテンプレート・ビルドロジック
 ├── scripts/
 │   ├── crawl_retty.py           # 公開サイトのクローラ（標準ライブラリのみで動作）
+│   ├── build_one.sh             # 1 サイト（1 店舗 / 1 自治体）だけを単体ビルド
 │   ├── update_sitemap.py        # sitemap.json / search-index.json 更新
 │   └── validate_store.py        # store.json のスキーマ検証
 ├── .github/workflows/
 │   ├── crawl-stores.yml         # 夜間クロール → store.json 生成・コミット
+│   ├── build-site.yml           # 特定サイトを単体ビルド（手動 dispatch）
 │   └── deploy.yml               # main への push で GitHub Pages 公開
 ├── cities/                      # （別カテゴリ。同じ仕組みの横展開例）
 ├── CNAME                        # factory.entreprenais.com
@@ -125,11 +135,40 @@ factory-entreprenais-com/
 
 ---
 
-## 6. 内部ビルド機構について
+## 6. ビルド・デプロイ（GitHub Actions）
 
-- `store.json` → HTML の生成は **Astro** ベースの内部ビルド機構が担っています。この機構自体（Astro プロジェクト・ビルドルール）は本リポジトリには同梱しておらず、生成済みの静的 HTML をコミットする運用です。
-- そのため、**生成物を使うだけなら Astro 環境は不要**です。`foodre/` 配下の HTML はビルド成果物としてそのまま利用できます。
-- 内部ビルド機構の詳細が必要な場合は別途ご相談ください。
+`store.json` → 静的 HTML の生成は **本リポジトリ同梱の Astro プロジェクト（`site-builder/`）を GitHub Actions が CI 上で自動ビルド**する方式です。ビルド設定（`site-builder/`）もワークフロー（`.github/workflows/`）もすべてこのリポジトリに同梱されているため、**fork すればそのまま同じパイプラインを自分のリポジトリで回せます**。
+
+> 一方で、**生成物を「使うだけ」ならビルド環境は不要**です。`foodre/`（および `cities/`）配下の HTML は CI でビルド済みの成果物としてコミットされており、そのまま配信・組み込みできます（パターン A）。
+
+### 6.1 ワークフロー一覧
+
+| ワークフロー | トリガー | 役割 |
+|------------|---------|------|
+| `crawl-stores.yml` | `schedule`（cron `0 18 * * *` = **03:00 JST** の夜間バッチ）+ `workflow_dispatch` | 外部グルメサイトの公開情報をクロールし `store.json` / `sitemap.json` / `search-index.json` を生成してコミット。レートリミット（HTTP 429）回避のため `sleep`（既定 5 秒）を挟む。`workflow_dispatch` の inputs: `area_url` / `max_count`（既定 2000）/ `sleep`（既定 5）。 |
+| `build-site.yml` | `workflow_dispatch`（手動） | **特定サイトを 1 件だけ単体ビルド**して該当パスに反映する。全店フルビルドを回さずに 1 店舗 / 1 自治体だけを短時間で再生成するためのワークフロー。`site-builder/` の依存を `npm ci` で解決し、`scripts/build_one.sh` を実行。inputs: `site_type`（`foodre` / `cities`）/ `id`（`foodre` は `retty_id`、`cities` は自治体コード）。 |
+| `deploy.yml` | `push`（`main` ブランチ）+ `workflow_dispatch` | リポジトリのルートをそのまま **GitHub Pages へデプロイ**して公開する。`crawl-stores.yml` / `build-site.yml` がコミットを `main` に push すると、本ワークフローが連鎖して公開まで到達する。 |
+
+### 6.2 ビルドフロー
+
+```
+crawl-stores.yml（夜間 / 手動）
+   └─ クロール → store.json 生成・コミット → main へ push
+                                                   │
+build-site.yml（手動・1 サイト単体）               │
+   └─ site_type + id を指定 → 該当サイトだけ        │
+      Astro ビルド → 該当パスをコミット → main へ push
+                                                   ▼
+                                            deploy.yml（push:main）
+                                               └─ GitHub Pages へ公開
+```
+
+### 6.3 今後の拡張（設計済み）
+
+- **自動インクリメンタルビルド**: `store.json` の変更を検知し、対応するサイトのみを自動でインクリメンタルビルドする。
+- **フルビルドの sharding**: 全店フルビルドは **GitHub Actions の matrix によるシャーディング**で並列化し、店舗数が増えても CI 時間を抑える。
+
+> ビルドパイプラインの詳細・カスタマイズについてのご相談は、本リポジトリの Issue までお寄せください。
 
 ---
 
@@ -170,7 +209,7 @@ cd factory-entreprenais-com
 
 #### パターン C: クロール・ビルド機構を再利用する（フルパイプライン）
 
-`scripts/crawl_retty.py`（クローラ・標準ライブラリのみ）と GitHub Actions ワークフロー（`crawl-stores.yml` / `deploy.yml`）を自社リポジトリに取り込み、データ取得から公開までを自前で回すパターンです。
+`scripts/crawl_retty.py`（クローラ・標準ライブラリのみ）、`site-builder/`（Astro プロジェクト）、GitHub Actions ワークフロー（`crawl-stores.yml` / `build-site.yml` / `deploy.yml`）を自社リポジトリに取り込み、クロール → 自動ビルド → 公開までを自前で回すパターンです。fork すればこのパイプライン一式がそのまま動きます。
 
 - 対象エリア・更新頻度・公開先（自社 GitHub Pages 等）を自由に設定できます。
 - クロールは公開ページのみを対象とし、レートリミット配慮の sleep を挟んだ夜間バッチ構成です。
@@ -195,6 +234,13 @@ cd factory-entreprenais-com
 ## 10. 横展開について
 
 同じ「公開情報クロール → SSOT(JSON) → 静的HP生成 → GitHub Pages 公開」の仕組みは、飲食店（`foodre/`）以外のカテゴリ（例: 地域情報 `cities/`）にも展開可能です。
+
+---
+
+## 11. 関連リンク
+
+- **[ホームページ作成事例（ショーケース）](https://entreprenais.com/eai/showcase/)** — EntreprenAIs で作成したホームページの事例集
+- [`taru0216/factory-entreprenais-com`](https://github.com/taru0216/factory-entreprenais-com) — 本リポジトリ（public・fork 可能）
 
 ---
 
