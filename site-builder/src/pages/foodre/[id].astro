@@ -1,0 +1,21 @@
+---
+// foodre 店舗ページ（単体ビルド版）。
+//
+// build_one.sh が対象店舗の store.json だけを src/data/stores/{retty_id}.json に
+// ステージするため、この glob は **常に 1 件だけ** を拾う。getStaticPaths も 1 件
+// だけを返し、astro build は /foodre/{retty_id}/ の 1 ページだけを生成する。
+// → 1397 店フルビルドにならず「1 サイトだけ・短時間」で完了する。
+import RestaurantPage from '../../components/RestaurantPage.astro';
+import type { Store } from '../../lib/store';
+
+export function getStaticPaths() {
+  const mods = import.meta.glob<{ default: Store }>('../../data/stores/*.json', { eager: true });
+  return Object.values(mods).map((m) => ({
+    params: { id: m.default.retty_id },
+    props: { store: m.default },
+  }));
+}
+
+const { store } = Astro.props as { store: Store };
+---
+<RestaurantPage store={store} />

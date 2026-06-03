@@ -1,0 +1,77 @@
+---
+// BaseLayout.astro — municipality テンプレート（#5527 汎用性検証 / astro-static 派生）
+export interface Props {
+  title?: string;
+  description?: string;
+}
+const { title = "自治体ホームページ", description = "" } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <style is:global>
+      :root {
+        --color-primary: #0b6fa4;
+        --color-accent: #1a9bd7;
+        --color-bg: #ffffff;
+        --color-soft: #f2f8fb;
+        --color-text: #2a3338;
+        --font-sans: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Segoe UI", sans-serif;
+        --max-width: 880px;
+      }
+      * { box-sizing: border-box; }
+      body {
+        font-family: var(--font-sans);
+        background: var(--color-bg);
+        color: var(--color-text);
+        margin: 0;
+        line-height: 1.7;
+      }
+      .hero {
+        background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+        color: #fff;
+        padding: 3rem 1.25rem;
+        text-align: center;
+      }
+      .hero h1 { margin: 0 0 .4rem; font-size: 2.2rem; }
+      .hero .kana { opacity: .85; font-size: .95rem; }
+      .hero .catch { font-size: 1.4rem; margin-top: 1rem; font-weight: bold; letter-spacing: .05em; }
+      main { max-width: var(--max-width); margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+      section { margin: 2.5rem 0; }
+      section > h2 {
+        color: var(--color-primary);
+        border-left: 5px solid var(--color-accent);
+        padding-left: .6rem;
+        font-size: 1.4rem;
+      }
+      .lead { font-size: 1.05rem; }
+      .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+      .card {
+        background: var(--color-soft);
+        border-radius: 10px;
+        padding: 1rem 1.1rem;
+      }
+      .card h3 { margin: 0 0 .3rem; font-size: 1.05rem; color: var(--color-primary); }
+      .card .tag { display: inline-block; font-size: .75rem; background: var(--color-accent); color: #fff; border-radius: 4px; padding: .05rem .45rem; margin-bottom: .4rem; }
+      ul.linklist { list-style: none; padding: 0; }
+      ul.linklist li { margin: .4rem 0; }
+      a { color: var(--color-primary); }
+      .photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .75rem; }
+      .photos figure { margin: 0; }
+      .photos img { width: 100%; height: 140px; object-fit: cover; border-radius: 8px; }
+      .photos figcaption { font-size: .8rem; color: #667; margin-top: .25rem; }
+      .access dt { font-weight: bold; color: var(--color-primary); margin-top: .6rem; }
+      .access dd { margin: .15rem 0 .15rem 0; }
+      .access .note { font-size: .82rem; color: #778; }
+      .meta { font-size: .85rem; color: #667; }
+      footer { border-top: 1px solid #e2eaef; margin-top: 3rem; padding-top: 1rem; font-size: .82rem; color: #778; text-align: center; }
+    </style>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

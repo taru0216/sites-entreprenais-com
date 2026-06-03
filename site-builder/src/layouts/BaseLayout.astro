@@ -1,0 +1,158 @@
+---
+// foodre BaseLayout — banwaen ダークテーマを汎用化（is:global で確実にスタイルを当てる）
+import { UI } from '../lib/i18n';
+
+export interface Props {
+  title: string;
+  siteName: string;
+  description?: string;
+}
+const { title, siteName, description = '' } = Astro.props;
+const ui = UI;
+const homeHref = '/foodre/';
+---
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | {siteName}</title>
+  <meta name="description" content={description} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!--
+    CRITICAL: <style is:global>。Astro の scoped <style> は <slot /> で差し込まれた
+    別コンポーネント(RestaurantPage)の要素には scope 属性が乗らず CSS が当たらない
+    （海士町で実証した不具合）。is:global + プレーンセレクタで全要素に確実に適用する。
+  -->
+  <style is:global>
+    :root {
+      --black: #000;
+      --white: #fff;
+      --orange: #f7970b;
+      --blue: #2d88d9;
+      --gray: #1a1a1a;
+      --gray-light: #333;
+      --header-height: 64px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--black); color: var(--white);
+      font-family: 'Noto Serif JP', serif; line-height: 1.7;
+      min-height: 100vh; display: flex; flex-direction: column;
+    }
+    a { color: var(--orange); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    section[id] { scroll-margin-top: calc(var(--header-height) + 8px); }
+    header {
+      background: var(--gray); border-bottom: 2px solid var(--orange);
+      padding: 0 1.5rem; position: sticky; top: 0; z-index: 100;
+    }
+    .header-inner {
+      max-width: 1100px; margin: 0 auto; display: flex;
+      align-items: center; justify-content: space-between; height: var(--header-height);
+    }
+    .site-title {
+      font-size: 1.4rem; font-weight: 700; color: var(--orange);
+      white-space: nowrap; flex-shrink: 0; overflow: hidden; text-overflow: ellipsis;
+    }
+    .site-title a { color: inherit; }
+    .header-right { display: flex; align-items: center; gap: 1.5rem; }
+    .main-nav { display: flex; align-items: center; gap: 1.5rem; }
+    .main-nav a {
+      color: var(--white); font-size: 0.9rem; padding: 0.25rem 0;
+      border-bottom: 2px solid transparent; transition: border-color 0.2s, color 0.2s; white-space: nowrap;
+    }
+    .main-nav a:hover, .main-nav a.active {
+      color: var(--orange); border-bottom-color: var(--orange); text-decoration: none;
+    }
+    .hamburger {
+      display: none; flex-direction: column; gap: 5px;
+      background: none; border: none; cursor: pointer; padding: 0.4rem; flex-shrink: 0;
+    }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); transition: transform 0.25s, opacity 0.25s; }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .mobile-nav {
+      display: none; position: fixed; top: var(--header-height); left: 0; right: 0;
+      background: var(--gray); border-bottom: 2px solid var(--orange);
+      padding: 1rem 1.5rem; flex-direction: column; gap: 0; z-index: 99;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a { color: var(--white); font-size: 1rem; padding: 0.85rem 0; border-bottom: 1px solid #2a2a2a; display: block; }
+    .mobile-nav a:hover { color: var(--orange); text-decoration: none; }
+    main { flex: 1; width: 100%; }
+    .spa-main .section-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+    footer {
+      background: var(--gray); border-top: 1px solid var(--gray-light);
+      padding: 2.5rem 1.5rem; font-size: 0.85rem; color: #888;
+    }
+    footer .footer-inner { max-width: 1100px; margin: 0 auto; text-align: center; }
+    footer a { color: #888; margin: 0 0.5rem; }
+    footer a:hover { color: var(--orange); }
+    @media (max-width: 768px) {
+      .main-nav { display: none; }
+      .hamburger { display: flex; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="site-title"><a href={homeHref}>{siteName}</a></div>
+      <div class="header-right">
+        <nav class="main-nav">
+          <a href="#menu">{ui.nav_menu}</a>
+          <a href="#access">{ui.nav_access}</a>
+          <a href="#reservation">{ui.nav_reservation}</a>
+          <a href={homeHref}>{ui.back_to_list}</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="#menu">{ui.nav_menu}</a>
+    <a href="#access">{ui.nav_access}</a>
+    <a href="#reservation">{ui.nav_reservation}</a>
+    <a href={homeHref}>{ui.back_to_list}</a>
+  </nav>
+
+  <main class="spa-main">
+    <slot />
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; 2026 {siteName}. {ui.footer_rights}</p>
+      <p style="margin-top:0.6rem;"><a href={homeHref}>{ui.back_to_list}</a></p>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('hamburger');
+    const nav = document.getElementById('mobileNav');
+    if (btn && nav) {
+      btn.addEventListener('click', () => {
+        const isOpen = nav.classList.toggle('open');
+        btn.classList.toggle('open', isOpen);
+        btn.setAttribute('aria-expanded', String(isOpen));
+      });
+      nav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          nav.classList.remove('open');
+          btn.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+  </script>
+</body>
+</html>

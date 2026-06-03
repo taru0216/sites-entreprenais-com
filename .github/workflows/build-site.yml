@@ -1,0 +1,102 @@
+name: Build Single Site
+
+# ターゲットを指定して、そのサイト 1 件だけを astro build → factory の該当パスに反映する。
+# 店舗 1 件（foodre）や自治体 1 件（cities）を、全 1397 店フルビルドを回さずに
+# 短時間でビルド・再デプロイするための手動ワークフロー（#1998 / 設計 retty#239 モード1）。
+#
+# 反映後は deploy.yml（push:main トリガー）が走り GitHub Pages に公開される。
+#
+# 使い方:
+#   gh workflow run build-site.yml --repo taru0216/factory-entreprenais-com \
+#     --field site_type=foodre --field id=100001317893
+#   gh workflow run build-site.yml --repo taru0216/factory-entreprenais-com \
+#     --field site_type=cities --field id=32525
+
+on:
+  workflow_dispatch:
+    inputs:
+      site_type:
+        description: "サイト種別"
+        required: true
+        type: choice
+        options:
+          - foodre
+          - cities
+        default: foodre
+      id:
+        description: "ID（foodre=retty_id 例 100001317893 / cities=自治体コード 例 32525）"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  # 同一サイトへの同時ビルドは直列化する（push レース回避）。
+  group: build-site-${{ inputs.site_type }}-${{ inputs.id }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate inputs
+        run: |
+          if [[ ! "${{ inputs.id }}" =~ ^[0-9]+$ ]]; then
+            echo "::error::id は数字のみ指定してください（received: '${{ inputs.id }}'）"
+            exit 1
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: site-builder/package-lock.json
+
+      - name: Install site-builder deps
+        working-directory: site-builder
+        run: |
+          if [[ -f package-lock.json ]]; then
+            npm ci
+          else
+            npm install --no-audit --no-fund
+          fi
+
+      - name: Build single site
+        run: |
+          scripts/build_one.sh "${{ inputs.site_type }}" "${{ inputs.id }}"
+
+      - name: Commit & push (該当パスのみ)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          OUT_PATH="${{ inputs.site_type }}/${{ inputs.id }}"
+          git add "${OUT_PATH}"
+          if git diff --cached --quiet; then
+            echo "No changes for ${OUT_PATH} — already up to date."
+            exit 0
+          fi
+          git commit -m "build(${{ inputs.site_type }}): ${OUT_PATH} を単体ビルドで再生成 [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Summary
+        if: always()
+        run: |
+          OUT_PATH="${{ inputs.site_type }}/${{ inputs.id }}"
+          {
+            echo "## Build Single Site 結果"
+            echo ""
+            echo "| 項目 | 値 |"
+            echo "|------|-----|"
+            echo "| site_type | ${{ inputs.site_type }} |"
+            echo "| id | ${{ inputs.id }} |"
+            echo "| 反映先 | \`${OUT_PATH}/\` |"
+            echo "| 公開 URL | https://factory.entreprenais.com/${OUT_PATH}/ |"
+          } >> "$GITHUB_STEP_SUMMARY"

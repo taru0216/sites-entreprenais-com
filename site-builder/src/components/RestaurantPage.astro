@@ -1,0 +1,184 @@
+---
+// foodre 店舗HP本体。store を prop で受け、inline style で自己完結的に描画する。
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { UI } from '../lib/i18n';
+import { formatHours, formatBudget, gmapsUrl, gmapsEmbedUrl, type Store } from '../lib/store';
+
+export interface Props { store: Store; }
+const { store } = Astro.props;
+const ui = UI;
+const hours = formatHours(store);
+const budget = formatBudget(store);
+const maps = gmapsUrl(store);
+const mapsEmbed = gmapsEmbedUrl(store);
+const photos = store.retty_photos ?? [];
+const heroPhoto = photos[0] ?? null;
+const heroDesc = store.description || store.special_info || '';
+const reservationLink = store.reservation_url || maps;
+const rating = store.retty_rating ?? null;
+const reviewCount = store.retty_review_count ?? null;
+const cats = (store.categories && store.categories.length ? store.categories : (store.category ? [store.category] : []));
+---
+
+<BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
+
+  <!-- hero -->
+  <section id="hero" style={`min-height: calc(100vh - 64px); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:4rem 1.5rem; position:relative; ${heroPhoto ? `background:linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.78)),url('${heroPhoto}') center/cover no-repeat;` : 'background:linear-gradient(180deg,#0a0a0a 0%,#000 100%);'}`}>
+    <div style="max-width:760px;">
+      {store.category && (
+        <p style="font-size:0.95rem; color:#bbb; letter-spacing:0.2em; margin-bottom:1rem; text-transform:uppercase;">{store.category}</p>
+      )}
+      <h1 style="font-size:clamp(2.4rem,8vw,4.5rem); color:var(--orange); line-height:1.15; margin-bottom:1rem;">{store.name}</h1>
+      {rating != null && (
+        <p style="color:#fff; margin-bottom:1rem; font-size:1.05rem;">
+          <span style="color:var(--orange); font-weight:700;">★ {rating.toFixed(2)}</span>
+          {reviewCount != null && (<span style="color:#bbb; margin-left:0.6rem; font-size:0.9rem;">{reviewCount}{ui.reviews}</span>)}
+        </p>
+      )}
+      {heroDesc && (
+        <p style="font-size:1.05rem; color:#ddd; margin-bottom:2.5rem; line-height:1.9;">{heroDesc}</p>
+      )}
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="#access" style="display:inline-block; background:var(--orange); color:#000; font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{ui.nav_access}</a>
+        <a href="#reservation" style="display:inline-block; border:2px solid var(--orange); color:var(--orange); font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{ui.reserve_button}</a>
+      </div>
+    </div>
+    <div style="position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); color:#aaa; font-size:0.8rem; display:flex; flex-direction:column; align-items:center; gap:0.4rem;">
+      <span>SCROLL</span>
+      <span style="display:block; width:1px; height:32px; background:linear-gradient(to bottom,#aaa,transparent);"></span>
+    </div>
+  </section>
+
+  <!-- photos -->
+  {photos.length > 0 && (
+    <section id="photos" style="padding:5rem 0; background:#050505;">
+      <div class="section-inner">
+        <h2 style="font-size:clamp(1.5rem,4vw,2.2rem); color:var(--orange); text-align:center; margin-bottom:0.5rem;">フォト</h2>
+        <p style="text-align:center; color:#666; font-size:0.85rem; margin-bottom:3rem;">PHOTO</p>
+        <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:1rem;">
+          {photos.map(p => (
+            <img src={p} alt={store.name} loading="lazy" style="width:100%; height:200px; object-fit:cover; border-radius:8px; border:1px solid #222;" />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- menu / categories -->
+  <section id="menu" style="padding:5rem 0; background:#000;">
+    <div class="section-inner">
+      <h2 style="font-size:clamp(1.5rem,4vw,2.2rem); color:var(--orange); text-align:center; margin-bottom:0.5rem;">{ui.menu_title}</h2>
+      <p style="text-align:center; color:#666; font-size:0.85rem; margin-bottom:3rem;">MENU</p>
+
+      {store.featured_menu && store.featured_menu.length > 0 ? (
+        <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1.5rem;">
+          {store.featured_menu.map(item => (
+            <div style="background:#111; border:1px solid #222; border-radius:8px; padding:1.5rem;">
+              <h4 style="color:var(--orange); margin-bottom:0.5rem; font-size:1rem;">
+                {item.name}
+                {item.price != null && item.price !== '' && (
+                  <span style="float:right; font-size:0.9rem;">{typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}</span>
+                )}
+              </h4>
+              {item.description && (<p style="color:#bbb; font-size:0.9rem; line-height:1.7;">{item.description}</p>)}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div style="text-align:center;">
+          {cats.length > 0 && (
+            <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:0.6rem; margin-bottom:2rem;">
+              {cats.map(c => (<span style="background:#1a1a1a; border:1px solid var(--orange); color:var(--orange); padding:0.35rem 1rem; border-radius:999px; font-size:0.9rem;">{c}</span>))}
+            </div>
+          )}
+          {budget.length > 0 && (
+            <p style="color:#ddd; font-size:1rem;">予算の目安: {budget.join(' / ')}</p>
+          )}
+          <p style="color:#666; margin-top:1.5rem;">{ui.no_menu}</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- access -->
+  <section id="access" style="padding:5rem 0; background:#050505;">
+    <div class="section-inner">
+      <h2 style="font-size:clamp(1.5rem,4vw,2.2rem); color:var(--orange); text-align:center; margin-bottom:0.5rem;">{ui.access_title}</h2>
+      <p style="text-align:center; color:#666; font-size:0.85rem; margin-bottom:3rem;">ACCESS</p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:3rem; align-items:start;">
+        <div>
+          <h3 style="font-size:1.1rem; color:#aaa; margin-bottom:1.5rem; border-left:3px solid var(--orange); padding-left:0.75rem;">{ui.access_store_info}</h3>
+          <dl style="display:grid; grid-template-columns:auto 1fr; gap:0.75rem 1.5rem;">
+            <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_name}</dt>
+            <dd style="color:#ddd; font-size:0.95rem;">{store.name}</dd>
+
+            {store.category && (<>
+              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_category}</dt>
+              <dd style="color:#ddd; font-size:0.95rem;">{store.category}</dd>
+            </>)}
+
+            {store.address && (<>
+              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_address}</dt>
+              <dd style="color:#ddd; font-size:0.95rem;">{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
+            </>)}
+
+            {store.nearest_station && (<>
+              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_station}</dt>
+              <dd style="color:#ddd; font-size:0.95rem;">{store.nearest_station}</dd>
+            </>)}
+
+            {hours.length > 0 && (<>
+              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_hours}</dt>
+              <dd style="color:#ddd; font-size:0.95rem;" set:html={hours.join('<br />')} />
+            </>)}
+
+            {budget.length > 0 && (<>
+              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_budget}</dt>
+              <dd style="color:#ddd; font-size:0.95rem;">{budget.join(' / ')}</dd>
+            </>)}
+
+            {store.tel && (<>
+              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_tel}</dt>
+              <dd style="color:#ddd; font-size:0.95rem;"><a href={`tel:${store.tel}`}>{store.tel}</a></dd>
+            </>)}
+
+            {store.payment_accepted && (<>
+              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_payment}</dt>
+              <dd style="color:#ddd; font-size:0.95rem;">{store.payment_accepted}</dd>
+            </>)}
+          </dl>
+        </div>
+
+        <div>
+          <h3 style="font-size:1.1rem; color:#aaa; margin-bottom:1.5rem; border-left:3px solid var(--orange); padding-left:0.75rem;">{ui.access_map}</h3>
+          <div style="border:1px solid #222; border-radius:8px; overflow:hidden; background:#111;">
+            <iframe src={mapsEmbed} title="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width:100%; height:300px; border:0; display:block; filter:grayscale(0.2) contrast(1.1);"></iframe>
+            <div style="padding:1rem; text-align:center;">
+              <a href={maps} target="_blank" rel="noopener" style="display:inline-block; border:1px solid var(--orange); color:var(--orange); padding:0.5rem 1.25rem; border-radius:4px; font-size:0.9rem;">{ui.open_in_gmaps}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reservation -->
+  <section id="reservation" style="padding:5rem 0; background:#000;">
+    <div class="section-inner" style="text-align:center;">
+      <h2 style="font-size:clamp(1.5rem,4vw,2.2rem); color:var(--orange); margin-bottom:0.5rem;">{ui.reservation_title}</h2>
+      <p style="color:#666; font-size:0.85rem; margin-bottom:1.5rem;">RESERVATION</p>
+      <p style="color:#bbb; max-width:560px; margin:0 auto 2.5rem; line-height:1.9; font-size:0.95rem;">{ui.reservation_lead}</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href={reservationLink} target="_blank" rel="noopener" style="display:inline-block; background:var(--orange); color:#000; font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{ui.reserve_button}</a>
+        {store.tel && (
+          <a href={`tel:${store.tel}`} style="display:inline-block; border:2px solid var(--orange); color:var(--orange); font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{store.tel}</a>
+        )}
+        {store.retty_url && (
+          <a href={store.retty_url} target="_blank" rel="noopener" style="display:inline-block; border:2px solid #555; color:#ccc; font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{ui.view_on_retty}</a>
+        )}
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
