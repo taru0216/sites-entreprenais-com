@@ -338,7 +338,41 @@ build-site.yml（手動・1 サイト単体）               │
                                                └─ GitHub Pages へ公開
 ```
 
-### 7.3 今後の拡張（設計済み）
+### 7.3 Bazel 依存ビルド（インクリメンタル・差分ビルド）
+
+共有テンプレート（`site-builder/`）の変更時に「依存サイトだけ」を効率的にリビルドするため、**Bazel の依存グラフ**でビルドを管理する（既存の Node ビルダーと並存・段階移行）。
+
+| ターゲット | 内容 |
+|-----------|------|
+| `//site-builder:template` | 共有 Astro テンプレートの filegroup。**変更で全サイトが invalidate される** |
+| `//stores/{shard}/{retty_id}:site` | 1 店舗の foodre HP（`store.json` + `:template` が入力） |
+| `//stores:all` | 全店舗の集約 |
+| `//data/cities:site_{code}` / `//data/cities:all` | 1 自治体 HP / 全自治体の集約 |
+
+```bash
+# 事前に node_modules を用意（任意・高速化）
+npm --prefix site-builder ci
+export FACTORY_NODE_MODULES="$(pwd)/site-builder/node_modules"
+
+bazelisk build //stores/46/100000003346:site   # 1 店舗だけ
+bazelisk build //stores:all                     # 全店舗
+```
+
+差分ビルドの挙動（Bazel が入力依存で自動追跡）:
+
+- **`store.json` を 1 件変更** → その **1 サイトのみ**リビルド（他はキャッシュ再利用）
+- **共有テンプレート（`site-builder/`）を変更** → その template を入力に持つ**全依存サイトがリビルド**
+
+per-store の `BUILD.bazel` はジェネレータが自動生成する（`native.glob` はサブパッケージ境界を越えないため、集約 `:all` は明示リストで持つ）:
+
+```bash
+python3 scripts/gen_store_builds.py          # 全 BUILD.bazel を生成
+python3 scripts/gen_store_builds.py --check   # CI 用: 最新か検証
+```
+
+Bazel ルール本体（`bazel/astro_site.bzl` + `bazel/build_astro_site.sh`）は参照実装を factory に vendoring したもの。CI は `.github/workflows/bazel-build.yml`。
+
+### 7.4 今後の拡張（設計済み）
 
 - **自動インクリメンタルビルド**: `store.json` の変更を検知し、対応するサイトのみを自動でインクリメンタルビルドする。
 - **フルビルドの sharding**: 全店フルビルドは **GitHub Actions の matrix によるシャーディング**で並列化し、対象数が増えても CI 時間を抑える。

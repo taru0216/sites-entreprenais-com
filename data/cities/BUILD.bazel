@@ -1,0 +1,22 @@
+# cities — 全自治体HPのインクリメンタルビルド（自動生成）。
+#
+# data/cities/{code}.json を入力に dist/cities/{code}/ を生成する per-city ターゲット。
+# 共有テンプレート（//site-builder:template）が変わると全自治体が再ビルドされる。
+#
+# ターゲット:
+#   //data/cities:site_{code}  — 単一自治体HP
+#   //data/cities:all          — 全自治体HP の集約
+#
+# 再生成: python3 scripts/gen_store_builds.py
+load("//bazel:astro_site.bzl", "cities_site_package", "sites_aggregate")
+
+package(default_visibility = ["//visibility:public"])
+
+cities_site_package(city_code = "32525")
+
+sites_aggregate(
+    name = "all",
+    sites = [
+        ":site_32525",
+    ],
+)

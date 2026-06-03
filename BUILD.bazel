@@ -1,0 +1,12 @@
+# factory-entreprenais-com — Bazel ワークスペースルート。
+#
+# per-site インクリメンタルビルド（epic #243 ②）:
+#   //site-builder:template          — 共有 Astro テンプレート（変更で全サイト再ビルド）
+#   //stores/{shard}/{retty_id}:site — 1 店舗の foodre HP
+#   //stores:all                     — 全店舗の集約
+#   //cities:site_{code}             — 1 自治体の HP
+#   //data/cities:all                — 全自治体の集約
+#
+# 全ビルド: bazel build //...
+# per-store BUILD.bazel の再生成: python3 scripts/gen_store_builds.py
+package(default_visibility = ["//visibility:public"])
