@@ -880,28 +880,33 @@
   ],
   "featured_menu": [
     {
-      "name": "【¥500コーナー】",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731341-68ba5a1123471.JPG"
-    },
-    {
-      "name": "オリーブ",
-      "price": 500,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001794077/archive/3731373-68ba5b2b948db-l.JPG"
-    },
-    {
-      "name": "トマトポップル",
-      "price": 500,
+      "name": "山崎12年",
+      "price": 3960,
+      "price_raw": "3,960円",
       "photo_url": null
     },
     {
-      "name": "M&Ms",
-      "price": 500,
+      "name": "白州12年",
+      "price": 3960,
+      "price_raw": "3,960円",
       "photo_url": null
     },
     {
-      "name": "柿の種",
-      "price": 500,
+      "name": "森伊蔵",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null
+    },
+    {
+      "name": "山崎",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null
+    },
+    {
+      "name": "白州",
+      "price": 1980,
+      "price_raw": "1,980円",
       "photo_url": null
     }
   ],
