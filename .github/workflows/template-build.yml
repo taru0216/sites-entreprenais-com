@@ -1,0 +1,94 @@
+name: Template Build (全件リビルド)
+
+# template / ビルダー（共有依存）の変更を push トリガーで検知し、全サイト
+# （foodre 全店 + cities 全自治体）をフルリビルドする（#27）。
+# template は全サイトが共有する依存のため、変更時は全件を作り直す必要がある。
+#
+# 発火条件: site-builder/** または templates/** の変更を含む push（main）。
+#   - 共通レイアウト・restaurant/municipality テンプレ・astro 設定などの変更で発火。
+#   - 生成物 HTML（foodre/** ・ cities/**）・store.json は paths 対象外なので発火しない。
+#   - 本ワークフローの commit には [skip ci] を付け、無限ループを防ぐ。
+#
+# 反映後は deploy.yml（push:main トリガー）が GitHub Pages に公開する。
+#
+# 注記: 現状は Node/Astro ビルダーで「template 変更 → 全件フルビルド」（全依存を
+#   素朴に作り直す方式）。依存グラフを使った効率的インクリメンタル（変更 template に
+#   依存するサイトだけリビルド）は Bazel 導入（#232/#239）で別途対応する。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site-builder/**"
+      - "templates/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  # build-site の full モードと同じ系統のため group を共有し直列化する。
+  group: build-site-full
+  cancel-in-progress: false
+
+jobs:
+  template-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: site-builder/package-lock.json
+
+      - name: Install site-builder deps
+        working-directory: site-builder
+        run: |
+          if [[ -f package-lock.json ]]; then
+            npm ci
+          else
+            npm install --no-audit --no-fund
+          fi
+
+      - name: Full rebuild (template 変更)
+        id: build
+        run: |
+          echo "::notice::template/ビルダー変更を検知 — 全サイトをフルリビルドします（重い処理）"
+          START=$(date +%s)
+          # id 未指定の全件ビルドと同じ経路（build_all.sh で foodre + cities 全件）
+          scripts/build_all.sh all
+          END=$(date +%s)
+          echo "elapsed=$((END - START))" >> "$GITHUB_OUTPUT"
+
+      - name: Commit & push (生成物のみ)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # 生成物パスのみ add（store.json 系・docs は触らない）
+          git add foodre cities
+          if git diff --cached --quiet; then
+            echo "No HTML changes to commit — template 変更は出力に影響しませんでした。"
+            exit 0
+          fi
+          # [skip ci] で生成物コミットによる再発火を防ぐ（deploy.yml は push で別途公開）
+          git commit -m "build(template): template 変更により全サイトを再生成 [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## Template Build（全件リビルド）結果"
+            echo ""
+            echo "| 項目 | 値 |"
+            echo "|------|-----|"
+            echo "| トリガー | template/ビルダー変更（site-builder/** ・ templates/**） |"
+            echo "| 対象 | foodre + cities 全件 |"
+            echo "| 所要時間(s) | ${{ steps.build.outputs.elapsed || '?' }} |"
+          } >> "$GITHUB_STEP_SUMMARY"
