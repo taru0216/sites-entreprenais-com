@@ -107,5 +107,15 @@ mkdir -p "$(dirname "${DEST_PAGE}")"
 rm -rf "${DEST_PAGE}"
 cp -r "${DIST_PAGE}" "${DEST_PAGE}"
 
+# 共有アセット（astro が dist/_astro/ に出力する CSS/JS）も反映する。
+# ページ HTML はハッシュ付き /_astro/*.css を参照するため、これを公開しないと
+# 本番が CSS 404 で無装飾になる（#38）。単一ビルドでもテンプレ更新時にハッシュが
+# 変わるため毎回上書きする。
+ASTRO_DIST="${BUILDER_DIR}/dist/_astro"
+if [[ -d "${ASTRO_DIST}" ]]; then
+  rm -rf "${REPO_ROOT}/_astro"
+  cp -r "${ASTRO_DIST}" "${REPO_ROOT}/_astro"
+fi
+
 echo "==> done: ${OUT_REL}/index.html を更新しました"
 echo "    https://factory.entreprenais.com/${OUT_REL}/"

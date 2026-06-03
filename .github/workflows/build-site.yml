@@ -137,6 +137,9 @@ jobs:
             done < /tmp/built_paths.txt
             MSG="build(${SITE_TYPE}): 指定サイトを単体ビルドで再生成 [skip ci]"
           fi
+          # 共有アセット _astro/（CSS/JS）も add する。これを公開しないと
+          # ページが参照する /_astro/*.css が 404 になる（#38）。
+          [[ -d _astro ]] && git add _astro
           if git diff --cached --quiet; then
             echo "No changes — already up to date."
             exit 0
