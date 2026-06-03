@@ -1,8 +1,17 @@
 ---
 // foodre 店舗HP本体。store を prop で受け、inline style で自己完結的に描画する。
+//
+// #253: banwaen 水準へデザイン底上げ。すべて store.json 駆動・データ欠落時フォールバックで
+// テンプレ汎用性を維持する。将来のカテゴリ別バリアントは「restaurant ベース」(本ファイル +
+// BaseLayout のデザインシステム) を差分上書きして足せる構造を意識している。
+// アニメーション基盤 (IntersectionObserver フェードイン・ホバートランジション) は
+// BaseLayout 側に集約し、本ファイルは data-animate 属性でフックするだけにしている。
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { UI } from '../lib/i18n';
-import { formatHours, formatBudget, gmapsUrl, gmapsEmbedUrl, type Store } from '../lib/store';
+import {
+  formatHours, formatBudget, gmapsUrl, gmapsEmbedUrl,
+  deriveStats, hasMenuPhotos, type Store,
+} from '../lib/store';
 
 export interface Props { store: Store; }
 const { store } = Astro.props;
@@ -11,53 +20,64 @@ const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
 const mapsEmbed = gmapsEmbedUrl(store);
-const photos = store.retty_photos ?? [];
+const photos = [...(store.retty_photos ?? []), ...(store.owner_photos ?? [])];
 const heroPhoto = photos[0] ?? null;
 const heroDesc = store.description || store.special_info || '';
 const reservationLink = store.reservation_url || maps;
-const rating = store.retty_rating ?? null;
-const reviewCount = store.retty_review_count ?? null;
+// 公式サイト=一次情報のため、第三者評価（レーティング/クチコミ/レビュー）は表示しない。
+// rating / review_count / reviews は store.json に残っていても表示には使わない。
 const cats = (store.categories && store.categories.length ? store.categories : (store.category ? [store.category] : []));
+const stats = deriveStats(store);
+const menuPhotoMode = hasMenuPhotos(store);
+const features = store.features ?? [];
+const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
 ---
 
 <BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
 
   <!-- hero -->
-  <section id="hero" style={`min-height: calc(100vh - 64px); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:4rem 1.5rem; position:relative; ${heroPhoto ? `background:linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.78)),url('${heroPhoto}') center/cover no-repeat;` : 'background:linear-gradient(180deg,#0a0a0a 0%,#000 100%);'}`}>
-    <div style="max-width:760px;">
+  <section id="hero" class="hero" style={heroPhoto ? `--hero-img:url('${heroPhoto}');` : '--hero-img:none;'}>
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-animate="rise">
       {store.category && (
-        <p style="font-size:0.95rem; color:#bbb; letter-spacing:0.2em; margin-bottom:1rem; text-transform:uppercase;">{store.category}</p>
+        <p class="hero-eyebrow">{store.category}</p>
       )}
-      <h1 style="font-size:clamp(2.4rem,8vw,4.5rem); color:var(--orange); line-height:1.15; margin-bottom:1rem;">{store.name}</h1>
-      {rating != null && (
-        <p style="color:#fff; margin-bottom:1rem; font-size:1.05rem;">
-          <span style="color:var(--orange); font-weight:700;">★ {rating.toFixed(2)}</span>
-          {reviewCount != null && (<span style="color:#bbb; margin-left:0.6rem; font-size:0.9rem;">{reviewCount}{ui.reviews}</span>)}
-        </p>
-      )}
+      <h1 class="hero-title">{store.name}</h1>
       {heroDesc && (
-        <p style="font-size:1.05rem; color:#ddd; margin-bottom:2.5rem; line-height:1.9;">{heroDesc}</p>
+        <p class="hero-desc">{heroDesc}</p>
       )}
-      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
-        <a href="#access" style="display:inline-block; background:var(--orange); color:#000; font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{ui.nav_access}</a>
-        <a href="#reservation" style="display:inline-block; border:2px solid var(--orange); color:var(--orange); font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{ui.reserve_button}</a>
+      <div class="hero-cta">
+        <a href="#reservation" class="btn btn-primary">{ui.reserve_button}</a>
+        <a href="#menu" class="btn btn-outline">{ui.view_menu}</a>
       </div>
+      {stats.length > 0 && (
+        <div class="hero-stats">
+          {stats.map(s => (
+            <div class="stat-badge">
+              <span class="stat-value">{s.value}</span>
+              {s.label && (<span class="stat-label">{s.label}</span>)}
+            </div>
+          ))}
+        </div>
+      )}
     </div>
-    <div style="position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); color:#aaa; font-size:0.8rem; display:flex; flex-direction:column; align-items:center; gap:0.4rem;">
-      <span>SCROLL</span>
-      <span style="display:block; width:1px; height:32px; background:linear-gradient(to bottom,#aaa,transparent);"></span>
+    <div class="hero-scroll">
+      <span>{ui.hero_scroll}</span>
+      <span class="hero-scroll-line"></span>
     </div>
   </section>
 
   <!-- photos -->
   {photos.length > 0 && (
-    <section id="photos" style="padding:5rem 0; background:#050505;">
+    <section id="photos" class="sec sec-alt">
       <div class="section-inner">
-        <h2 style="font-size:clamp(1.5rem,4vw,2.2rem); color:var(--orange); text-align:center; margin-bottom:0.5rem;">フォト</h2>
-        <p style="text-align:center; color:#666; font-size:0.85rem; margin-bottom:3rem;">PHOTO</p>
-        <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:1rem;">
-          {photos.map(p => (
-            <img src={p} alt={store.name} loading="lazy" style="width:100%; height:200px; object-fit:cover; border-radius:8px; border:1px solid #222;" />
+        <h2 class="sec-title" data-animate="rise">{ui.photo_title}</h2>
+        <p class="sec-sub" data-animate="rise">PHOTO</p>
+        <div class="photo-grid">
+          {photos.map((p, i) => (
+            <figure class="photo-cell" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
+              <img src={p} alt={store.name} loading="lazy" />
+            </figure>
           ))}
         </div>
       </div>
@@ -65,97 +85,129 @@ const cats = (store.categories && store.categories.length ? store.categories : (
   )}
 
   <!-- menu / categories -->
-  <section id="menu" style="padding:5rem 0; background:#000;">
+  <section id="menu" class="sec">
     <div class="section-inner">
-      <h2 style="font-size:clamp(1.5rem,4vw,2.2rem); color:var(--orange); text-align:center; margin-bottom:0.5rem;">{ui.menu_title}</h2>
-      <p style="text-align:center; color:#666; font-size:0.85rem; margin-bottom:3rem;">MENU</p>
+      <h2 class="sec-title" data-animate="rise">{ui.menu_title}</h2>
+      <p class="sec-sub" data-animate="rise">MENU</p>
 
-      {store.featured_menu && store.featured_menu.length > 0 ? (
-        <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1.5rem;">
-          {store.featured_menu.map(item => (
-            <div style="background:#111; border:1px solid #222; border-radius:8px; padding:1.5rem;">
-              <h4 style="color:var(--orange); margin-bottom:0.5rem; font-size:1rem;">
-                {item.name}
-                {item.price != null && item.price !== '' && (
-                  <span style="float:right; font-size:0.9rem;">{typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}</span>
-                )}
-              </h4>
-              {item.description && (<p style="color:#bbb; font-size:0.9rem; line-height:1.7;">{item.description}</p>)}
-            </div>
+      {hasFeatured ? (
+        <div class={menuPhotoMode ? 'menu-grid menu-grid-photo' : 'menu-grid'}>
+          {store.featured_menu!.map((item, i) => (
+            <article class="menu-card" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
+              {menuPhotoMode && (
+                item.photo
+                  ? <div class="menu-card-photo"><img src={item.photo} alt={item.name} loading="lazy" /></div>
+                  : <div class="menu-card-photo menu-card-photo-empty"><span>🍽</span></div>
+              )}
+              <div class="menu-card-body">
+                <h4 class="menu-card-name">
+                  <span>{item.name}</span>
+                  {item.price != null && item.price !== '' && (
+                    <span class="menu-card-price">{typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}</span>
+                  )}
+                </h4>
+                {item.description && (<p class="menu-card-desc">{item.description}</p>)}
+              </div>
+            </article>
           ))}
         </div>
       ) : (
-        <div style="text-align:center;">
+        <div class="menu-fallback" data-animate="rise">
           {cats.length > 0 && (
-            <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:0.6rem; margin-bottom:2rem;">
-              {cats.map(c => (<span style="background:#1a1a1a; border:1px solid var(--orange); color:var(--orange); padding:0.35rem 1rem; border-radius:999px; font-size:0.9rem;">{c}</span>))}
+            <div class="cat-pills">
+              {cats.map(c => (<span class="cat-pill">{c}</span>))}
             </div>
           )}
           {budget.length > 0 && (
-            <p style="color:#ddd; font-size:1rem;">予算の目安: {budget.join(' / ')}</p>
+            <p class="menu-budget">予算の目安: {budget.join(' / ')}</p>
           )}
-          <p style="color:#666; margin-top:1.5rem;">{ui.no_menu}</p>
+          <p class="menu-empty">{ui.no_menu}</p>
         </div>
       )}
     </div>
   </section>
 
-  <!-- access -->
-  <section id="access" style="padding:5rem 0; background:#050505;">
-    <div class="section-inner">
-      <h2 style="font-size:clamp(1.5rem,4vw,2.2rem); color:var(--orange); text-align:center; margin-bottom:0.5rem;">{ui.access_title}</h2>
-      <p style="text-align:center; color:#666; font-size:0.85rem; margin-bottom:3rem;">ACCESS</p>
+  <!-- features / こだわり（任意・データ有時のみ） -->
+  {features.length > 0 && (
+    <section id="features" class="sec sec-alt">
+      <div class="section-inner">
+        <h2 class="sec-title" data-animate="rise">{ui.features_title}</h2>
+        <p class="sec-sub" data-animate="rise">FEATURES</p>
+        <p class="sec-lead" data-animate="rise">{ui.features_lead}</p>
+        <div class="feature-grid">
+          {features.map((f, i) => (
+            <article class="feature-card" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
+              {f.icon && (<div class="feature-icon">{f.icon}</div>)}
+              <h3 class="feature-title">{f.title}</h3>
+              {f.body && (<p class="feature-body">{f.body}</p>)}
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
-      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:3rem; align-items:start;">
-        <div>
-          <h3 style="font-size:1.1rem; color:#aaa; margin-bottom:1.5rem; border-left:3px solid var(--orange); padding-left:0.75rem;">{ui.access_store_info}</h3>
-          <dl style="display:grid; grid-template-columns:auto 1fr; gap:0.75rem 1.5rem;">
-            <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_name}</dt>
-            <dd style="color:#ddd; font-size:0.95rem;">{store.name}</dd>
+  <!--
+    公式サイト=一次情報プラットフォームのため、第三者由来のレビュー（お客さまの声）は
+    表示しない。store.json の reviews フィールドは保持するが UI には出さない。
+  -->
+
+  <!-- access -->
+  <section id="access" class="sec sec-alt">
+    <div class="section-inner">
+      <h2 class="sec-title" data-animate="rise">{ui.access_title}</h2>
+      <p class="sec-sub" data-animate="rise">ACCESS</p>
+
+      <div class="access-grid">
+        <div data-animate="rise">
+          <h3 class="access-subhead">{ui.access_store_info}</h3>
+          <dl class="access-dl">
+            <dt>{ui.store_name}</dt>
+            <dd>{store.name}</dd>
 
             {store.category && (<>
-              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_category}</dt>
-              <dd style="color:#ddd; font-size:0.95rem;">{store.category}</dd>
+              <dt>{ui.store_category}</dt>
+              <dd>{store.category}</dd>
             </>)}
 
             {store.address && (<>
-              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_address}</dt>
-              <dd style="color:#ddd; font-size:0.95rem;">{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
+              <dt>{ui.store_address}</dt>
+              <dd>{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
             </>)}
 
             {store.nearest_station && (<>
-              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_station}</dt>
-              <dd style="color:#ddd; font-size:0.95rem;">{store.nearest_station}</dd>
+              <dt>{ui.store_station}</dt>
+              <dd>{store.nearest_station}</dd>
             </>)}
 
             {hours.length > 0 && (<>
-              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_hours}</dt>
-              <dd style="color:#ddd; font-size:0.95rem;" set:html={hours.join('<br />')} />
+              <dt>{ui.store_hours}</dt>
+              <dd set:html={hours.join('<br />')} />
             </>)}
 
             {budget.length > 0 && (<>
-              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_budget}</dt>
-              <dd style="color:#ddd; font-size:0.95rem;">{budget.join(' / ')}</dd>
+              <dt>{ui.store_budget}</dt>
+              <dd>{budget.join(' / ')}</dd>
             </>)}
 
             {store.tel && (<>
-              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_tel}</dt>
-              <dd style="color:#ddd; font-size:0.95rem;"><a href={`tel:${store.tel}`}>{store.tel}</a></dd>
+              <dt>{ui.store_tel}</dt>
+              <dd><a href={`tel:${store.tel}`}>{store.tel}</a></dd>
             </>)}
 
             {store.payment_accepted && (<>
-              <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">{ui.store_payment}</dt>
-              <dd style="color:#ddd; font-size:0.95rem;">{store.payment_accepted}</dd>
+              <dt>{ui.store_payment}</dt>
+              <dd>{store.payment_accepted}</dd>
             </>)}
           </dl>
         </div>
 
-        <div>
-          <h3 style="font-size:1.1rem; color:#aaa; margin-bottom:1.5rem; border-left:3px solid var(--orange); padding-left:0.75rem;">{ui.access_map}</h3>
-          <div style="border:1px solid #222; border-radius:8px; overflow:hidden; background:#111;">
-            <iframe src={mapsEmbed} title="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width:100%; height:300px; border:0; display:block; filter:grayscale(0.2) contrast(1.1);"></iframe>
-            <div style="padding:1rem; text-align:center;">
-              <a href={maps} target="_blank" rel="noopener" style="display:inline-block; border:1px solid var(--orange); color:var(--orange); padding:0.5rem 1.25rem; border-radius:4px; font-size:0.9rem;">{ui.open_in_gmaps}</a>
+        <div data-animate="rise">
+          <h3 class="access-subhead">{ui.access_map}</h3>
+          <div class="map-wrap">
+            <iframe src={mapsEmbed} title="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-link">
+              <a href={maps} target="_blank" rel="noopener" class="btn btn-outline btn-sm">{ui.open_in_gmaps}</a>
             </div>
           </div>
         </div>
@@ -164,18 +216,15 @@ const cats = (store.categories && store.categories.length ? store.categories : (
   </section>
 
   <!-- reservation -->
-  <section id="reservation" style="padding:5rem 0; background:#000;">
+  <section id="reservation" class="sec">
     <div class="section-inner" style="text-align:center;">
-      <h2 style="font-size:clamp(1.5rem,4vw,2.2rem); color:var(--orange); margin-bottom:0.5rem;">{ui.reservation_title}</h2>
-      <p style="color:#666; font-size:0.85rem; margin-bottom:1.5rem;">RESERVATION</p>
-      <p style="color:#bbb; max-width:560px; margin:0 auto 2.5rem; line-height:1.9; font-size:0.95rem;">{ui.reservation_lead}</p>
-      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
-        <a href={reservationLink} target="_blank" rel="noopener" style="display:inline-block; background:var(--orange); color:#000; font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{ui.reserve_button}</a>
+      <h2 class="sec-title" data-animate="rise">{ui.reservation_title}</h2>
+      <p class="sec-sub" data-animate="rise">RESERVATION</p>
+      <p class="reservation-lead" data-animate="rise">{ui.reservation_lead}</p>
+      <div class="reservation-cta" data-animate="rise">
+        <a href={reservationLink} target="_blank" rel="noopener" class="btn btn-primary">{ui.reserve_button}</a>
         {store.tel && (
-          <a href={`tel:${store.tel}`} style="display:inline-block; border:2px solid var(--orange); color:var(--orange); font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{store.tel}</a>
-        )}
-        {store.retty_url && (
-          <a href={store.retty_url} target="_blank" rel="noopener" style="display:inline-block; border:2px solid #555; color:#ccc; font-weight:700; padding:0.85rem 2.5rem; border-radius:4px; font-size:1rem;">{ui.view_on_retty}</a>
+          <a href={`tel:${store.tel}`} class="btn btn-outline">{store.tel}</a>
         )}
       </div>
     </div>

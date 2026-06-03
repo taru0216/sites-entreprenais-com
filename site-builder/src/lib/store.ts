@@ -4,6 +4,27 @@ export interface MenuItem {
   name: string;
   price?: string | number;
   description?: string;
+  photo?: string;
+}
+
+/** ヒーローの KPI スタッツバッジ（任意）。banwaen 例: { value: '55品', label: '希少部位' } */
+export interface StatBadge {
+  value: string;
+  label?: string;
+}
+
+/** 「特徴・こだわり」グリッドの 1 枠（任意）。icon は絵文字 or 短い文字列で素材依存を回避。 */
+export interface FeatureItem {
+  icon?: string;
+  title: string;
+  body?: string;
+}
+
+/** 顧客レビューの 1 件（任意）。データがあれば表示、無ければセクションごと非表示。 */
+export interface ReviewItem {
+  body: string;
+  author?: string;
+  rating?: number;
 }
 
 export interface Store {
@@ -28,10 +49,65 @@ export interface Store {
   reservation_url?: string;
   retty_url?: string;
   retty_photos?: string[];
+  owner_photos?: string[];
   retty_rating?: number | null;
   retty_review_count?: number | null;
   geo?: { lat?: number; lng?: number } | null;
   sns?: Record<string, string>;
+  /** ヒーロー KPI バッジ（任意）。無ければ店舗自身の一次情報（メニュー数・写真点数・営業情報・ジャンル数）から自動導出する。 */
+  stats?: StatBadge[];
+  /** 特徴・こだわりグリッド（任意）。無ければセクション非表示。 */
+  features?: FeatureItem[];
+  /** 顧客レビュー（任意）。無ければセクション非表示。 */
+  reviews?: ReviewItem[];
+}
+
+/**
+ * ヒーローに出す KPI スタッツを返す。
+ *
+ * 公式サイト=一次情報プラットフォームのため、第三者評価（rating / review_count）は
+ * 一切使わない。store.stats があればそれを優先し、無ければ「店舗自身が発信する事実」
+ * ＝メニュー数・写真点数・営業日数・ジャンル数から数字が映えるバッジを自動導出する。
+ * 一次情報で出せる指標が 1 件も無ければ空配列を返し、hero 側はバッジ行ごと非表示にする
+ * （graceful fallback）。「評価」「★」「クチコミ」「レビュー」等の文言・UI は出さない。
+ */
+export function deriveStats(store: Store): StatBadge[] {
+  if (store.stats && store.stats.length) return store.stats.slice(0, 3);
+  const out: StatBadge[] = [];
+
+  const menuCount = store.featured_menu?.length ?? 0;
+  if (menuCount > 0) {
+    out.push({ value: `${menuCount}`, label: 'メニュー' });
+  }
+
+  const photoCount = (store.retty_photos?.length ?? 0) + (store.owner_photos?.length ?? 0);
+  if (photoCount > 0) {
+    out.push({ value: `${photoCount}`, label: '写真' });
+  }
+
+  const openDays = store.hours
+    ? ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].filter((d) => {
+        const h = store.hours![d];
+        return !!h && (!!h.open || !!h.close);
+      }).length
+    : 0;
+  if (openDays > 0) {
+    out.push({ value: `${openDays}`, label: '営業日/週' });
+  }
+
+  if (out.length < 3) {
+    const cats = store.categories && store.categories.length
+      ? store.categories
+      : (store.category ? [store.category] : []);
+    if (cats.length > 0) out.push({ value: `${cats.length}`, label: 'ジャンル' });
+  }
+
+  return out.slice(0, 3);
+}
+
+/** featured_menu のうち少なくとも 1 件が写真を持つか（= 写真カードグリッドを使うか）を判定する。 */
+export function hasMenuPhotos(store: Store): boolean {
+  return !!(store.featured_menu && store.featured_menu.some(m => !!m.photo));
 }
 
 const DAY_LABELS: Record<string, string> = {
