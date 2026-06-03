@@ -2,7 +2,7 @@
 """update_sitemap.py — stores/ を走査して sitemap.json / search-index.json を再生成する。
 
 - sitemap.json: 全店舗の retty_id / slug / name / 最終クロール日時の一覧
-- search-index.json: Fuse.js 用の検索インデックス（name / category / address / nearest_station）
+- search-index.json: Fuse.js 用の検索インデックス（name / category / address / nearest_station / photo）
 
 使い方:
   python3 scripts/update_sitemap.py --stores-dir stores
@@ -61,6 +61,7 @@ def main() -> int:
             "categories": s.get("categories", []),
             "address": s.get("address"),
             "nearest_station": s.get("nearest_station"),
+            "photo": (s.get("retty_photos") or s.get("owner_photos") or [None])[0],
         }
         for s in stores
     ]
