@@ -35,6 +35,16 @@ const features = store.features ?? [];
 const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
 const menuCount = store.menu?.length ?? 0;
 const hasMenuList = menuCount > 0;
+// #55: featured_menu の各アイテムをメニュー詳細ページへリンクするため、
+// store.menu[] を name でインデックスして dish_slug を逆引きするマップを生成する。
+const featuredMenuSlugs: Record<string, string> = {};
+if (store.menu) {
+  for (const m of store.menu) {
+    if (m.dish_slug && m.name && !featuredMenuSlugs[m.name]) {
+      featuredMenuSlugs[m.name] = m.dish_slug;
+    }
+  }
+}
 ---
 
 <BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
@@ -97,24 +107,30 @@ const hasMenuList = menuCount > 0;
       {hasFeatured ? (
         <>
           <div class={menuPhotoMode ? 'menu-grid menu-grid-photo' : 'menu-grid'}>
-            {store.featured_menu!.map((item, i) => (
-              <article class="menu-card" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
-                {menuPhotoMode && (
-                  (item.photo || item.photo_url)
-                    ? <div class="menu-card-photo"><img src={item.photo ?? item.photo_url!} alt={item.name} loading="lazy" /></div>
-                    : <div class="menu-card-photo menu-card-photo-empty"><span>🍽</span></div>
-                )}
-                <div class="menu-card-body">
-                  <h4 class="menu-card-name">
-                    <span>{item.name}</span>
-                    {item.price != null && item.price !== '' && (
-                      <span class="menu-card-price">{typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}</span>
-                    )}
-                  </h4>
-                  {item.description && (<p class="menu-card-desc">{item.description}</p>)}
-                </div>
-              </article>
-            ))}
+            {store.featured_menu!.map((item, i) => {
+              const slug = featuredMenuSlugs[item.name];
+              const cardEl = (
+                <article class="menu-card" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
+                  {menuPhotoMode && (
+                    (item.photo || item.photo_url)
+                      ? <div class="menu-card-photo"><img src={item.photo ?? item.photo_url!} alt={item.name} loading="lazy" /></div>
+                      : <div class="menu-card-photo menu-card-photo-empty"><span>🍽</span></div>
+                  )}
+                  <div class="menu-card-body">
+                    <h4 class="menu-card-name">
+                      <span>{item.name}</span>
+                      {item.price != null && item.price !== '' && (
+                        <span class="menu-card-price">{typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}</span>
+                      )}
+                    </h4>
+                    {item.description && (<p class="menu-card-desc">{item.description}</p>)}
+                  </div>
+                </article>
+              );
+              return slug
+                ? <a href={`/foodre/${store.retty_id}/menu/${slug}/`} class="menu-card-link">{cardEl}</a>
+                : cardEl;
+            })}
           </div>
           {hasMenuList && (
             <div class="menu-all-link" data-animate="rise">
