@@ -26,3 +26,11 @@ build --keep_going
 build:ci --action_env=CI=true
 build:ci --color=no
 build:ci --curses=no
+# astro build アクションを直列化する（--jobs=1）。
+# build_astro_site.sh は共有 node_modules（$FACTORY_NODE_MODULES）を symlink して
+# 再利用するため、複数の astro/vite ビルドを並列実行すると共有の vite 依存最適化
+# キャッシュ（node_modules/.vite）を同時に書き込んで競合し、一部ビルドが Exit 1 で
+# 失敗する（CI の "Re-optimizing dependencies" 直後に発生）。直列化で競合を回避する。
+# PR 検証は代表少数サイトのみのため直列でも許容範囲（本番フルビルドは別系統の
+# Node ビルダー template-build/auto-build が担当し、本設定の影響を受けない）。
+build:ci --jobs=1
