@@ -1,0 +1,182 @@
+---
+// 自治体ページ（単体ビルド版・municipality テンプレート）。
+//
+// build_one.sh が対象自治体の municipality.json だけを
+// src/data/municipality/{city_code}.json にステージするため、この glob は
+// **常に 1 件だけ** を拾う。getStaticPaths も 1 件だけ返し、astro build は
+// /cities/{city_code}/ の 1 ページだけを生成する。
+//
+// CSS は MunicipalityLayout の <style is:global>。scoped だと <slot /> 差し込み
+// 要素に scope 属性が乗らず CSS が全く当たらない（海士町で実証した既知バグ）。
+import BaseLayout from '../../layouts/MunicipalityLayout.astro';
+
+interface Muni {
+  city_code: string;
+  name: string;
+  name_kana?: string;
+  prefecture?: string;
+  official_url?: string;
+  catchphrase?: string;
+  description?: string;
+  contact?: { tel?: string; address?: string; email?: string };
+  access?: { title: string; detail: string; note?: string }[];
+  tourism?: { name: string; category?: string; description?: string; url?: string }[];
+  migration?: {
+    support?: { title: string; description?: string; url?: string }[];
+    jobs?: { title: string; url?: string }[];
+  };
+  events?: { title: string; date?: string | null; url?: string }[];
+  admin_info?: { facilities?: { name: string; description?: string }[] };
+  philosophy?: string[];
+  photos?: { caption: string; url: string }[];
+  links?: { title: string; url: string }[];
+}
+
+export function getStaticPaths() {
+  const mods = import.meta.glob<{ default: Muni }>('../../data/municipality/*.json', { eager: true });
+  return Object.values(mods).map((m) => ({
+    params: { code: m.default.city_code },
+    props: { muni: m.default },
+  }));
+}
+
+const { muni } = Astro.props as { muni: Muni };
+
+const title = `${muni.name}（${muni.prefecture ?? ''}）公式ホームページ`;
+const tourism = muni.tourism ?? [];
+const events = muni.events ?? [];
+const support = muni.migration?.support ?? [];
+const jobs = muni.migration?.jobs ?? [];
+const access = muni.access ?? [];
+const links = muni.links ?? [];
+const photos = muni.photos ?? [];
+const facilities = muni.admin_info?.facilities ?? [];
+const philosophy = muni.philosophy ?? [];
+---
+<BaseLayout title={title} description={muni.description}>
+  <div class="hero">
+    <h1>{muni.name}</h1>
+    <div class="kana">{muni.name_kana} / {muni.prefecture}（自治体コード {muni.city_code}）</div>
+    {muni.catchphrase && <div class="catch">{muni.catchphrase}</div>}
+  </div>
+
+  <main>
+    <section>
+      <h2>概要</h2>
+      <p class="lead">{muni.description}</p>
+      {philosophy.length > 0 && (
+        <ul>
+          {philosophy.map((p) => <li>{p}</li>)}
+        </ul>
+      )}
+    </section>
+
+    {photos.length > 0 && (
+      <section>
+        <h2>{muni.name}の風景</h2>
+        <div class="photos">
+          {photos.map((ph) => (
+            <figure>
+              <img src={ph.url} alt={ph.caption} loading="lazy" />
+              <figcaption>{ph.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {tourism.length > 0 && (
+      <section>
+        <h2>観光・グルメ</h2>
+        <div class="cards">
+          {tourism.map((t) => (
+            <div class="card">
+              {t.category && <span class="tag">{t.category}</span>}
+              <h3>{t.name}</h3>
+              <p>{t.description}</p>
+              {t.url && <a href={t.url}>詳しく見る</a>}
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {(support.length > 0 || jobs.length > 0) && (
+      <section>
+        <h2>移住・しごと</h2>
+        <div class="cards">
+          {support.map((s) => (
+            <div class="card">
+              <h3>{s.title}</h3>
+              <p>{s.description}</p>
+              {s.url && <a href={s.url}>移住・採用情報</a>}
+            </div>
+          ))}
+          {jobs.map((j) => (
+            <div class="card">
+              <span class="tag">募集</span>
+              <h3>{j.title}</h3>
+              {j.url && <a href={j.url}>詳細</a>}
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {events.length > 0 && (
+      <section>
+        <h2>イベント・お知らせ</h2>
+        <ul class="linklist">
+          {events.map((e) => (
+            <li>
+              {e.date && <span class="meta">{e.date} ・ </span>}
+              {e.url ? <a href={e.url}>{e.title}</a> : e.title}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {access.length > 0 && (
+      <section>
+        <h2>アクセス</h2>
+        <dl class="access">
+          {access.map((a) => (
+            <>
+              <dt>{a.title}</dt>
+              <dd>{a.detail}</dd>
+              {a.note && <dd class="note">{a.note}</dd>}
+            </>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    {facilities.length > 0 && (
+      <section>
+        <h2>教育・公共施設</h2>
+        <div class="cards">
+          {facilities.map((f) => (
+            <div class="card">
+              <h3>{f.name}</h3>
+              <p>{f.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section>
+      <h2>関連リンク</h2>
+      <ul class="linklist">
+        {links.map((l) => <li><a href={l.url}>{l.title}</a></li>)}
+        {muni.contact?.tel && <li class="meta">お問い合わせ: {muni.contact.address}（TEL {muni.contact.tel}）</li>}
+      </ul>
+    </section>
+
+    <footer>
+      <p>このページは factory site-builder（astro_data_site と同一機構）で municipality.json から生成されました。</p>
+      {muni.official_url && <p>{muni.name} 公式サイト: <a href={muni.official_url}>{muni.official_url}</a></p>}
+    </footer>
+  </main>
+</BaseLayout>

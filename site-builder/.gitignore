@@ -1,0 +1,9 @@
+# build-site.yml が実行時にステージする対象 1 件の JSON はコミットしない
+# （ソースは foodre=stores/、cities=cities/{code}/municipality.json に永続化される）
+src/data/stores/*.json
+src/data/municipality/*.json
+
+# astro build 成果物・依存
+dist/
+.astro/
+node_modules/

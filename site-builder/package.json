@@ -1,0 +1,11 @@
+{
+  "name": "factory-site-builder",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "astro build"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}
