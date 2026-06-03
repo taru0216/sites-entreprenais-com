@@ -24,6 +24,10 @@ on:
         description: "リクエスト間 sleep 秒（robots/負荷配慮・429 回避）"
         required: false
         default: "5"
+      csv:
+        description: "クロール対象 CSV のリポジトリ内パス（例: data/crawl-targets.csv）。指定時は CSV モードで列挙店舗のみクロール。空なら従来の area_url モード"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -49,14 +53,26 @@ jobs:
         run: python3 --version
         # crawler は標準ライブラリのみで動作するため pip install 不要
 
-      - name: Crawl Retty area
+      - name: Crawl Retty stores
         id: crawl
         run: |
-          python3 scripts/crawl_retty.py \
-            --area-url "${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }}" \
-            --max-count "${{ github.event.inputs.max_count || '2000' }}" \
-            --out-dir stores \
-            --sleep "${{ github.event.inputs.sleep || '5' }}"
+          # csv 入力があれば CSV モード（列挙店舗のみ）、なければ area モード（従来）。
+          # schedule トリガーは inputs を持たないため csv は常に空 → area モードで動く。
+          CSV_INPUT="${{ github.event.inputs.csv }}"
+          if [ -n "${CSV_INPUT}" ]; then
+            echo "[crawl] CSV mode: ${CSV_INPUT}"
+            python3 scripts/crawl_retty.py \
+              --csv "${CSV_INPUT}" \
+              --out-dir stores \
+              --sleep "${{ github.event.inputs.sleep || '5' }}"
+          else
+            echo "[crawl] area mode"
+            python3 scripts/crawl_retty.py \
+              --area-url "${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }}" \
+              --max-count "${{ github.event.inputs.max_count || '2000' }}" \
+              --out-dir stores \
+              --sleep "${{ github.event.inputs.sleep || '5' }}"
+          fi
 
       - name: Update sitemap & search-index
         run: |
@@ -90,8 +106,14 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| 項目 | 値 |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-----|" >> $GITHUB_STEP_SUMMARY
-          echo "| area_url | ${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| max_count | ${{ github.event.inputs.max_count || '2000' }} |" >> $GITHUB_STEP_SUMMARY
+          if [ -n "${{ github.event.inputs.csv }}" ]; then
+            echo "| mode | CSV |" >> $GITHUB_STEP_SUMMARY
+            echo "| csv | ${{ github.event.inputs.csv }} |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| mode | area |" >> $GITHUB_STEP_SUMMARY
+            echo "| area_url | ${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }} |" >> $GITHUB_STEP_SUMMARY
+            echo "| max_count | ${{ github.event.inputs.max_count || '2000' }} |" >> $GITHUB_STEP_SUMMARY
+          fi
           echo "| sleep | ${{ github.event.inputs.sleep || '5' }} |" >> $GITHUB_STEP_SUMMARY
           echo "| stores_written | ${{ steps.crawl.outputs.stores_written }} |" >> $GITHUB_STEP_SUMMARY
           echo "| stores_failed | ${{ steps.crawl.outputs.stores_failed }} |" >> $GITHUB_STEP_SUMMARY
