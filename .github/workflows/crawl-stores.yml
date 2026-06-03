@@ -76,7 +76,9 @@ jobs:
             exit 0
           fi
           COUNT=$(python3 -c "import json,glob; print(len(glob.glob('stores/*/*/store.json')))")
-          git commit -m "chore(stores): Retty クロール結果を反映 (${COUNT} 店舗) [skip ci]"
+          # [skip ci] は付けない — store.json 変更で auto-build.yml を発火させ、
+          # 変更されたサイトだけをインクリメンタルに再ビルドする（#25）。
+          git commit -m "chore(stores): クロール結果を反映 (${COUNT} 店舗)"
           # rebase してから push（並行更新に備える）
           git pull --rebase origin "${GITHUB_REF_NAME}" || true
           git push origin "HEAD:${GITHUB_REF_NAME}"

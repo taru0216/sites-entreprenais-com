@@ -1,16 +1,27 @@
-name: Build Single Site
+name: Build Site
 
-# ターゲットを指定して、そのサイト 1 件だけを astro build → factory の該当パスに反映する。
-# 店舗 1 件（foodre）や自治体 1 件（cities）を、全 1397 店フルビルドを回さずに
-# 短時間でビルド・再デプロイするための手動ワークフロー（#1998 / 設計 retty#239 モード1）。
+# 手動ビルド（workflow_dispatch）。2 つのモードを持つ:
+#
+#   モード1: id 指定（カンマ区切りで複数可）→ その特定サイトだけをビルド
+#   モード2: id 未指定（空）              → site_type の全サイトをフルビルド
+#
+# 短時間で特定サイトを再生成したい場合はモード1、全件を作り直したい場合はモード2。
+# 自動（store.json 変更）インクリメンタルビルドは auto-build.yml が担う。
 #
 # 反映後は deploy.yml（push:main トリガー）が走り GitHub Pages に公開される。
 #
 # 使い方:
+#   # 特定サイト 1 件
 #   gh workflow run build-site.yml --repo taru0216/factory-entreprenais-com \
 #     --field site_type=foodre --field id=100001317893
+#   # 特定サイト 複数件（カンマ区切り）
 #   gh workflow run build-site.yml --repo taru0216/factory-entreprenais-com \
-#     --field site_type=cities --field id=32525
+#     --field site_type=foodre --field id="100001625579,100001317893"
+#   # 全サイト フルビルド（id 未指定）
+#   gh workflow run build-site.yml --repo taru0216/factory-entreprenais-com \
+#     --field site_type=foodre
+#   gh workflow run build-site.yml --repo taru0216/factory-entreprenais-com \
+#     --field site_type=cities
 
 on:
   workflow_dispatch:
@@ -24,16 +35,18 @@ on:
           - cities
         default: foodre
       id:
-        description: "ID（foodre=retty_id 例 100001317893 / cities=自治体コード 例 32525）"
-        required: true
+        description: "ID（カンマ区切りで複数可。例 100001625579,100001317893）。空欄なら site_type の全サイトをフルビルド。"
+        required: false
         type: string
+        default: ""
 
 permissions:
   contents: write
 
 concurrency:
-  # 同一サイトへの同時ビルドは直列化する（push レース回避）。
-  group: build-site-${{ inputs.site_type }}-${{ inputs.id }}
+  # 同一 site_type へのビルドは直列化する（push レース回避）。
+  # id は複数 / 空（全件）になりうるため group には含めない。
+  group: build-site-${{ inputs.site_type }}
   cancel-in-progress: false
 
 jobs:
@@ -47,9 +60,18 @@ jobs:
 
       - name: Validate inputs
         run: |
-          if [[ ! "${{ inputs.id }}" =~ ^[0-9]+$ ]]; then
-            echo "::error::id は数字のみ指定してください（received: '${{ inputs.id }}'）"
-            exit 1
+          IDS="${{ inputs.id }}"
+          # 空欄（全件モード）は許可。指定がある場合は各要素が数字のみであること。
+          if [[ -n "${IDS}" ]]; then
+            IFS=',' read -ra ARR <<< "${IDS}"
+            for raw in "${ARR[@]}"; do
+              v="$(echo "${raw}" | xargs)"  # trim
+              [[ -z "${v}" ]] && continue
+              if [[ ! "${v}" =~ ^[0-9]+$ ]]; then
+                echo "::error::id は数字のみ指定してください（received: '${v}'）"
+                exit 1
+              fi
+            done
           fi
 
       - name: Set up Node.js
@@ -68,35 +90,83 @@ jobs:
             npm install --no-audit --no-fund
           fi
 
-      - name: Build single site
+      - name: Build (mode dispatch)
+        id: build
         run: |
-          scripts/build_one.sh "${{ inputs.site_type }}" "${{ inputs.id }}"
+          IDS="${{ inputs.id }}"
+          SITE_TYPE="${{ inputs.site_type }}"
+          if [[ -z "$(echo "${IDS}" | xargs)" ]]; then
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+            echo "::notice::id 未指定 — ${SITE_TYPE} 全サイトをフルビルドします（重い処理）"
+            START=$(date +%s)
+            scripts/build_all.sh "${SITE_TYPE}"
+            END=$(date +%s)
+            echo "elapsed=$((END - START))" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=specific" >> "$GITHUB_OUTPUT"
+            IFS=',' read -ra ARR <<< "${IDS}"
+            BUILT=()
+            START=$(date +%s)
+            for raw in "${ARR[@]}"; do
+              v="$(echo "${raw}" | xargs)"
+              [[ -z "${v}" ]] && continue
+              echo "::group::build ${SITE_TYPE}/${v}"
+              scripts/build_one.sh "${SITE_TYPE}" "${v}"
+              echo "::endgroup::"
+              BUILT+=("${SITE_TYPE}/${v}")
+            done
+            END=$(date +%s)
+            echo "elapsed=$((END - START))" >> "$GITHUB_OUTPUT"
+            printf '%s\n' "${BUILT[@]}" > /tmp/built_paths.txt
+          fi
 
       - name: Commit & push (該当パスのみ)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          OUT_PATH="${{ inputs.site_type }}/${{ inputs.id }}"
-          git add "${OUT_PATH}"
+          SITE_TYPE="${{ inputs.site_type }}"
+          MODE="${{ steps.build.outputs.mode }}"
+          if [[ "${MODE}" == "full" ]]; then
+            git add "${SITE_TYPE}"
+            MSG="build(${SITE_TYPE}): 全サイトをフルビルドで再生成 [skip ci]"
+          else
+            # 変更された該当パスのみ add（build_one.sh は site_type/id にだけ反映する）
+            while IFS= read -r p; do
+              [[ -z "${p}" ]] && continue
+              git add "${p}"
+            done < /tmp/built_paths.txt
+            MSG="build(${SITE_TYPE}): 指定サイトを単体ビルドで再生成 [skip ci]"
+          fi
           if git diff --cached --quiet; then
-            echo "No changes for ${OUT_PATH} — already up to date."
+            echo "No changes — already up to date."
             exit 0
           fi
-          git commit -m "build(${{ inputs.site_type }}): ${OUT_PATH} を単体ビルドで再生成 [skip ci]"
+          git commit -m "${MSG}"
           git pull --rebase origin "${GITHUB_REF_NAME}" || true
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Summary
         if: always()
         run: |
-          OUT_PATH="${{ inputs.site_type }}/${{ inputs.id }}"
+          SITE_TYPE="${{ inputs.site_type }}"
+          MODE="${{ steps.build.outputs.mode }}"
+          ELAPSED="${{ steps.build.outputs.elapsed }}"
           {
-            echo "## Build Single Site 結果"
+            echo "## Build Site 結果"
             echo ""
             echo "| 項目 | 値 |"
             echo "|------|-----|"
-            echo "| site_type | ${{ inputs.site_type }} |"
+            echo "| site_type | ${SITE_TYPE} |"
+            echo "| mode | ${MODE:-?}（specific=指定サイト / full=全件） |"
             echo "| id | ${{ inputs.id }} |"
-            echo "| 反映先 | \`${OUT_PATH}/\` |"
-            echo "| 公開 URL | https://factory.entreprenais.com/${OUT_PATH}/ |"
+            echo "| 所要時間(s) | ${ELAPSED:-?} |"
           } >> "$GITHUB_STEP_SUMMARY"
+          if [[ "${MODE}" == "full" ]]; then
+            echo "| 反映先 | \`${SITE_TYPE}/\`（全件） |" >> "$GITHUB_STEP_SUMMARY"
+          elif [[ -f /tmp/built_paths.txt ]]; then
+            echo "| 反映先 |" >> "$GITHUB_STEP_SUMMARY"
+            while IFS= read -r p; do
+              [[ -z "${p}" ]] && continue
+              echo "  - \`${p}/\` → https://factory.entreprenais.com/${p}/" >> "$GITHUB_STEP_SUMMARY"
+            done < /tmp/built_paths.txt
+          fi

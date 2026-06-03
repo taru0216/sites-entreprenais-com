@@ -1,0 +1,155 @@
+name: Auto Build (store.json 変更分)
+
+# store.json / cities データの変更を push トリガーで検知し、変更されたサイトだけを
+# インクリメンタルにビルド・コミットする（設計参照: retty#239 モード1）。
+# 反映後は deploy.yml（push:main トリガー）が GitHub Pages に公開する。
+#
+# 発火条件: stores/**/store.json または data/cities/**.json の変更を含む push（main）。
+#   - クロール（crawl-stores.yml）の store.json コミットで発火する。
+#   - ビルドが生成する HTML（foodre/** ・ cities/**）は paths 対象外なので発火しない。
+#     さらに本ワークフローの commit には [skip ci] を付けるため二重に無限ループを防ぐ。
+#
+# 安全策: 1 回の push で変更されたサイトが MAX_TARGETS を超える場合は、上限内のみを
+#   ビルドし、フルビルド（build-site.yml の id 未指定モード）を推奨する警告を出す。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "stores/**/store.json"
+      - "data/cities/**.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-build
+  cancel-in-progress: false
+
+env:
+  # これ以上の同時変更はフルビルド推奨（インクリメンタルだと逐次ビルドが重くなる）
+  MAX_TARGETS: "50"
+
+jobs:
+  auto-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve changed targets
+        id: targets
+        run: |
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.event.after }}"
+          # before が 0...0（新規ブランチ等）の場合は HEAD~1 にフォールバック
+          if [[ -z "${BEFORE}" || "${BEFORE}" =~ ^0+$ ]]; then
+            BEFORE="$(git rev-parse HEAD~1 2>/dev/null || echo '')"
+          fi
+          if [[ -n "${BEFORE}" ]]; then
+            git diff --name-only "${BEFORE}" "${AFTER}" > /tmp/changed.txt || \
+              git diff --name-only HEAD~1 HEAD > /tmp/changed.txt
+          else
+            git diff --name-only HEAD~1 HEAD > /tmp/changed.txt
+          fi
+          echo "---- changed files ----"
+          cat /tmp/changed.txt || true
+          # データパスのみ → "{site_type} {id}" に変換
+          scripts/changed_targets.sh < /tmp/changed.txt > /tmp/targets.txt || true
+          TOTAL=$(grep -c . /tmp/targets.txt || true)
+          echo "total=${TOTAL}" >> "$GITHUB_OUTPUT"
+          echo "---- build targets (${TOTAL}) ----"
+          cat /tmp/targets.txt || true
+
+      - name: Set up Node.js
+        if: steps.targets.outputs.total != '0'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: site-builder/package-lock.json
+
+      - name: Install site-builder deps
+        if: steps.targets.outputs.total != '0'
+        working-directory: site-builder
+        run: |
+          if [[ -f package-lock.json ]]; then
+            npm ci
+          else
+            npm install --no-audit --no-fund
+          fi
+
+      - name: Incremental build
+        if: steps.targets.outputs.total != '0'
+        id: build
+        run: |
+          TOTAL="${{ steps.targets.outputs.total }}"
+          LIMIT="${MAX_TARGETS}"
+          CAPPED=0
+          if [[ "${TOTAL}" -gt "${LIMIT}" ]]; then
+            CAPPED=1
+            echo "::warning::変更サイト数 ${TOTAL} が上限 ${LIMIT} を超えました。上限内のみビルドします。全件はフルビルド（build-site.yml の id 未指定）を推奨します。"
+          fi
+          : > /tmp/built_paths.txt
+          n=0
+          while IFS=' ' read -r site_type id; do
+            [[ -z "${site_type}" || -z "${id}" ]] && continue
+            n=$((n + 1))
+            if [[ "${CAPPED}" -eq 1 && "${n}" -gt "${LIMIT}" ]]; then
+              echo "::notice::上限 ${LIMIT} に達したため残り $((TOTAL - LIMIT)) 件をスキップしました。"
+              break
+            fi
+            echo "::group::build ${site_type}/${id}"
+            if scripts/build_one.sh "${site_type}" "${id}"; then
+              echo "${site_type}/${id}" >> /tmp/built_paths.txt
+            else
+              echo "::warning::build failed (skipped): ${site_type}/${id}"
+            fi
+            echo "::endgroup::"
+          done < /tmp/targets.txt
+          BUILT=$(grep -c . /tmp/built_paths.txt || true)
+          echo "built=${BUILT}" >> "$GITHUB_OUTPUT"
+
+      - name: Commit & push (該当パスのみ)
+        if: steps.targets.outputs.total != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ビルドした各サイトの該当パスのみ add（store.json 系・他パスは触らない）
+          if [[ -s /tmp/built_paths.txt ]]; then
+            while IFS= read -r p; do
+              [[ -z "${p}" ]] && continue
+              git add "${p}"
+            done < /tmp/built_paths.txt
+          fi
+          if git diff --cached --quiet; then
+            echo "No HTML changes to commit."
+            exit 0
+          fi
+          # [skip ci] でビルド成果物コミットによる再発火を防ぐ（deploy.yml は push で別途公開）
+          git commit -m "build(auto): store.json 変更分を再生成 [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## Auto Build 結果"
+            echo ""
+            echo "| 項目 | 値 |"
+            echo "|------|-----|"
+            echo "| 変更検知サイト数 | ${{ steps.targets.outputs.total || 0 }} |"
+            echo "| ビルド成功数 | ${{ steps.build.outputs.built || 0 }} |"
+            echo "| 上限(MAX_TARGETS) | ${MAX_TARGETS} |"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [[ -s /tmp/built_paths.txt ]]; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "### ビルドしたサイト" >> "$GITHUB_STEP_SUMMARY"
+            while IFS= read -r p; do
+              [[ -z "${p}" ]] && continue
+              echo "- \`${p}/\` → https://factory.entreprenais.com/${p}/" >> "$GITHUB_STEP_SUMMARY"
+            done < /tmp/built_paths.txt
+          fi
