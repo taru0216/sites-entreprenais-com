@@ -2,38 +2,50 @@
 """crawl_retty.py — Retty 公開サイト → store.json クローラ（foodre #230 / #229）
 
 Retty の公開ページから JSON-LD（schema.org/Restaurant）＋ HTML を解析して
-store.json を生成する。店舗の収集方法は 2 モード（排他）:
+store.json を生成する。クロールは 2 ステップに分離されている:
 
-  1. エリアモード（--area-url）: 公開エリア一覧ページをページネーション辿り、
-     エリア配下の全店舗を収集する。
-  2. CSV モード（--csv）: ヘッダ付き CSV に列挙された店舗だけをクロールする。
-     `retty_url` 列があれば URL から、`retty_id` 列があれば ID から店舗詳細
-     ページを特定する（両方あれば retty_url を優先）。列名は大文字小文字・
-     前後空白を許容する。
+  Step① discovery（gen-csv サブコマンド）:
+     エリア一覧ページをページネーション辿り、エリア配下の飲食店 URL を収集して
+     CSV（ヘッダ retty_url,retty_id・重複除去・sort 済み）を出力する。
+     store.json は作らず URL 一覧のみ。人手キュレーションの中間成果物にできる。
+
+  Step② extraction（既存の store 生成モード）:
+     店舗の収集方法は 2 モード（排他）:
+       a. エリアモード（--area-url）: 公開エリア一覧ページを辿り全店舗を収集。
+       b. CSV モード（--csv）: ヘッダ付き CSV に列挙された店舗だけをクロール。
+          `retty_url` 列があれば URL から、`retty_id` 列があれば ID から店舗詳細
+          ページを特定する（両方あれば retty_url を優先）。列名は大文字小文字・
+          前後空白を許容する。
+     どちらも各店舗詳細ページを解析して store.json を生成する。
+
+2 ステップ運用（推奨）:
+  gen-csv で area → CSV を作り、その CSV を Step② の --csv に渡す。これにより
+  discovery と extraction を分離でき、CSV を人手でキュレーションできる。
 
 - 内部 API（/API/）には一切アクセスしない。公開ページのみ。
 - robots.txt を尊重し、リクエスト間に sleep を入れ、User-Agent を明示する。
 - 外部依存なし（標準ライブラリのみ）。requests があれば使うが必須ではない。
 
 使い方:
-  # エリアモード
+  # Step① discovery: エリア → CSV（URL 一覧のみ・store.json は作らない）
+  python3 scripts/crawl_retty.py gen-csv \
+    --area-url "https://retty.me/area/PRE13/ARE7/SUB701/" \
+    --out data/crawl-targets/ebisu.csv \
+    --max-count 2000 \
+    --sleep 5
+
+  # Step② extraction（CSV モード・Step① の生成 CSV を渡す）
+  python3 scripts/crawl_retty.py \
+    --csv data/crawl-targets/ebisu.csv \
+    --out-dir stores \
+    --sleep 5
+
+  # Step② extraction（エリアモード・CSV を介さず直接クロール）
   python3 scripts/crawl_retty.py \
     --area-url "https://retty.me/area/PRE13/ARE7/SUB701/" \
     --max-count 50 \
     --out-dir stores \
     --sleep 1.5
-
-  # CSV モード（指定店舗のみ）
-  #   CSV はヘッダ行が必須。列は retty_url か retty_id の少なくとも一方。
-  #     retty_url
-  #     https://retty.me/area/PRE13/ARE7/SUB701/100000003346/
-  #   または
-  #     retty_id
-  #     100000003346
-  python3 scripts/crawl_retty.py \
-    --csv data/crawl-targets.csv \
-    --out-dir stores \
-    --sleep 5
 """
 from __future__ import annotations
 
@@ -119,6 +131,31 @@ def collect_store_ids(area_url: str, max_count: int, sleep: float) -> list[tuple
         url = next_url
         time.sleep(sleep)
     return list(seen.items())[:max_count]
+
+
+def write_targets_csv(targets: list[tuple[str, str]], out_path: str) -> int:
+    """discovery 結果 (retty_id, detail_url) を CSV に書き出す。
+
+    出力 CSV はヘッダ `retty_url,retty_id` を持ち、retty_id で重複除去・sort 済み。
+    Step② の `--csv` 入力にそのまま渡せる。store.json は作らない。
+    返り値は書き出した行数。
+    """
+    # retty_id で dedup（最初の URL を採用）し、retty_id で sort
+    seen: dict[str, str] = {}
+    for rid, url in targets:
+        if rid and rid not in seen:
+            seen[rid] = url
+    rows = sorted(seen.items(), key=lambda kv: kv[0])
+
+    parent = os.path.dirname(out_path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["retty_url", "retty_id"])
+        for rid, url in rows:
+            writer.writerow([url, rid])
+    return len(rows)
 
 
 def rid_from_url(url: str) -> str | None:
@@ -415,7 +452,44 @@ def write_store(store: dict, out_dir: str) -> str:
     return path
 
 
+def gen_csv_main(argv: list[str]) -> int:
+    """Step① discovery: エリア → 飲食店 URL の CSV を生成する。
+
+    既存の collect_store_ids（URL/ID 収集ロジック）を再利用し、store.json は
+    作らず URL 一覧のみを CSV 出力する。出力は Step② の --csv にそのまま渡せる。
+    """
+    ap = argparse.ArgumentParser(
+        prog="crawl_retty.py gen-csv",
+        description="Step① discovery: Retty エリア一覧 → 飲食店 URL の CSV を生成",
+    )
+    ap.add_argument("--area-url", required=True, help="Retty エリア一覧 URL")
+    ap.add_argument("--out", required=True,
+                    help="出力 CSV パス（ヘッダ retty_url,retty_id）")
+    ap.add_argument("--max-count", type=int, default=2000,
+                    help="最大収集件数")
+    ap.add_argument("--sleep", type=float, default=1.5,
+                    help="リクエスト間 sleep 秒")
+    args = ap.parse_args(argv)
+
+    print(f"[gen-csv] area={args.area_url} max={args.max_count} "
+          f"sleep={args.sleep}s out={args.out}")
+    targets = collect_store_ids(args.area_url, args.max_count, args.sleep)
+    n = write_targets_csv(targets, args.out)
+    print(f"[gen-csv] wrote {n} targets -> {args.out}")
+
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    if gh_out:
+        with open(gh_out, "a", encoding="utf-8") as f:
+            f.write(f"targets_written={n}\n")
+    return 0 if n > 0 else 1
+
+
 def main() -> int:
+    # サブコマンド gen-csv（Step① discovery）を先頭引数で分岐する。
+    # それ以外は従来のフラットなフラグ（Step② extraction）として解釈する。
+    if len(sys.argv) > 1 and sys.argv[1] == "gen-csv":
+        return gen_csv_main(sys.argv[2:])
+
     ap = argparse.ArgumentParser(description="Retty 公開サイト → store.json クローラ")
     # --area-url と --csv は排他（どちらか一方が必須）
     src = ap.add_mutually_exclusive_group(required=True)

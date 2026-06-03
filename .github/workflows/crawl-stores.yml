@@ -3,6 +3,12 @@ name: Crawl Retty Stores
 # Retty 公開サイトをクロールして store.json / sitemap.json / search-index.json を
 # 生成・コミットする（foodre #229 / #230）。
 # 公開ページのみを対象とし、内部 API には一切アクセスしない。
+#
+# 2 ステップ構成（#32）:
+#   Step① discovery（gen-csv）: area_url → 飲食店 URL の CSV を生成し、中間成果物
+#     として data/crawl-targets/{area}.csv にコミットする（人手キュレーション可能）。
+#   Step② extraction（--csv）: 生成した CSV を渡して store.json を生成する。
+# csv 入力を直接指定した場合は Step① をスキップして既存 CSV を使う。
 
 on:
   # 夜間バッチ（03:00 JST = 18:00 UTC）。レートリミット（HTTP 429）回避のため
@@ -13,11 +19,11 @@ on:
   workflow_dispatch:
     inputs:
       area_url:
-        description: "Retty エリア一覧 URL（例: 恵比寿 https://retty.me/area/PRE13/ARE7/SUB701/）"
+        description: "Step① 対象 Retty エリア一覧 URL（既定: 恵比寿 https://retty.me/area/PRE13/ARE7/SUB701/）"
         required: true
         default: "https://retty.me/area/PRE13/ARE7/SUB701/"
       max_count:
-        description: "最大クロール件数（恵比寿全店取得のため既定を大きく設定）"
+        description: "Step① 最大収集件数（恵比寿全店取得のため既定を大きく設定）"
         required: false
         default: "2000"
       sleep:
@@ -25,7 +31,7 @@ on:
         required: false
         default: "5"
       csv:
-        description: "クロール対象 CSV のリポジトリ内パス（例: data/crawl-targets.csv）。指定時は CSV モードで列挙店舗のみクロール。空なら従来の area_url モード"
+        description: "クロール対象 CSV のリポジトリ内パス（例: data/crawl-targets/ebisu.csv）。指定時は Step① discovery をスキップし、この既存 CSV を Step② で使う。空なら area_url から CSV を生成"
         required: false
         default: ""
 
@@ -53,26 +59,64 @@ jobs:
         run: python3 --version
         # crawler は標準ライブラリのみで動作するため pip install 不要
 
-      - name: Crawl Retty stores
+      - name: Resolve target CSV path
+        id: target
+        run: |
+          # csv 入力があればそれを使い Step① をスキップ。なければ area_url から
+          # エリア名（SUB コード）を拾って data/crawl-targets/{area}.csv に生成する。
+          # schedule トリガーは inputs を持たないため csv は常に空 → 既定恵比寿で discovery。
+          CSV_INPUT="${{ github.event.inputs.csv }}"
+          AREA_URL="${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }}"
+          if [ -n "${CSV_INPUT}" ]; then
+            echo "csv_path=${CSV_INPUT}" >> "$GITHUB_OUTPUT"
+            echo "run_discovery=false" >> "$GITHUB_OUTPUT"
+            echo "[target] using existing CSV: ${CSV_INPUT} (discovery skipped)"
+          else
+            # 既定（恵比寿）は ebisu。それ以外は area_url 末尾の SUB コードを slug に使う。
+            if [ "${AREA_URL}" = "https://retty.me/area/PRE13/ARE7/SUB701/" ]; then
+              AREA_SLUG="ebisu"
+            else
+              AREA_SLUG=$(echo "${AREA_URL}" | grep -oE 'SUB[0-9]+' | head -1)
+              [ -z "${AREA_SLUG}" ] && AREA_SLUG="area"
+              AREA_SLUG=$(echo "${AREA_SLUG}" | tr '[:upper:]' '[:lower:]')
+            fi
+            echo "csv_path=data/crawl-targets/${AREA_SLUG}.csv" >> "$GITHUB_OUTPUT"
+            echo "run_discovery=true" >> "$GITHUB_OUTPUT"
+            echo "[target] will generate CSV: data/crawl-targets/${AREA_SLUG}.csv from ${AREA_URL}"
+          fi
+
+      - name: "Step① discovery (area -> CSV)"
+        if: steps.target.outputs.run_discovery == 'true'
+        id: discovery
+        run: |
+          python3 scripts/crawl_retty.py gen-csv \
+            --area-url "${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }}" \
+            --out "${{ steps.target.outputs.csv_path }}" \
+            --max-count "${{ github.event.inputs.max_count || '2000' }}" \
+            --sleep "${{ github.event.inputs.sleep || '5' }}"
+
+      - name: "Commit discovery CSV (intermediate artifact)"
+        if: steps.target.outputs.run_discovery == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ steps.target.outputs.csv_path }}"
+          if git diff --cached --quiet; then
+            echo "No CSV changes to commit."
+          else
+            # [skip ci] を付けて CSV だけの commit でビルドを発火させない。
+            git commit -m "chore(crawl-targets): discovery CSV を更新 (${{ steps.target.outputs.csv_path }}) [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: "Step② extraction (CSV -> store.json)"
         id: crawl
         run: |
-          # csv 入力があれば CSV モード（列挙店舗のみ）、なければ area モード（従来）。
-          # schedule トリガーは inputs を持たないため csv は常に空 → area モードで動く。
-          CSV_INPUT="${{ github.event.inputs.csv }}"
-          if [ -n "${CSV_INPUT}" ]; then
-            echo "[crawl] CSV mode: ${CSV_INPUT}"
-            python3 scripts/crawl_retty.py \
-              --csv "${CSV_INPUT}" \
-              --out-dir stores \
-              --sleep "${{ github.event.inputs.sleep || '5' }}"
-          else
-            echo "[crawl] area mode"
-            python3 scripts/crawl_retty.py \
-              --area-url "${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }}" \
-              --max-count "${{ github.event.inputs.max_count || '2000' }}" \
-              --out-dir stores \
-              --sleep "${{ github.event.inputs.sleep || '5' }}"
-          fi
+          python3 scripts/crawl_retty.py \
+            --csv "${{ steps.target.outputs.csv_path }}" \
+            --out-dir stores \
+            --sleep "${{ github.event.inputs.sleep || '5' }}"
 
       - name: Update sitemap & search-index
         run: |
@@ -106,13 +150,12 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| 項目 | 値 |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-----|" >> $GITHUB_STEP_SUMMARY
-          if [ -n "${{ github.event.inputs.csv }}" ]; then
-            echo "| mode | CSV |" >> $GITHUB_STEP_SUMMARY
-            echo "| csv | ${{ github.event.inputs.csv }} |" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "| mode | area |" >> $GITHUB_STEP_SUMMARY
+          echo "| csv_path | ${{ steps.target.outputs.csv_path }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| discovery | ${{ steps.target.outputs.run_discovery }} |" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.target.outputs.run_discovery }}" = "true" ]; then
             echo "| area_url | ${{ github.event.inputs.area_url || 'https://retty.me/area/PRE13/ARE7/SUB701/' }} |" >> $GITHUB_STEP_SUMMARY
             echo "| max_count | ${{ github.event.inputs.max_count || '2000' }} |" >> $GITHUB_STEP_SUMMARY
+            echo "| targets_written | ${{ steps.discovery.outputs.targets_written }} |" >> $GITHUB_STEP_SUMMARY
           fi
           echo "| sleep | ${{ github.event.inputs.sleep || '5' }} |" >> $GITHUB_STEP_SUMMARY
           echo "| stores_written | ${{ steps.crawl.outputs.stores_written }} |" >> $GITHUB_STEP_SUMMARY
