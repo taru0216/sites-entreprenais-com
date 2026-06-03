@@ -23,7 +23,9 @@ const mapsEmbed = gmapsEmbedUrl(store);
 const photos = [...(store.retty_photos ?? []), ...(store.owner_photos ?? [])];
 const heroPhoto = photos[0] ?? null;
 const heroDesc = store.description || store.special_info || '';
-const reservationLink = store.reservation_url || maps;
+// #46: reservation_url がない場合は Google マップへのフォールバックを行わない。
+// tel あり → 電話 CTA、tel もなし → 予約 CTA 非表示。
+const reservationUrl = store.reservation_url ?? null;
 // 公式サイト=一次情報のため、第三者評価（レーティング/クチコミ/レビュー）は表示しない。
 // rating / review_count / reviews は store.json に残っていても表示には使わない。
 const cats = (store.categories && store.categories.length ? store.categories : (store.category ? [store.category] : []));
@@ -240,10 +242,16 @@ const hasMenuList = menuCount > 0;
       <p class="sec-sub" data-animate="rise">RESERVATION</p>
       <p class="reservation-lead" data-animate="rise">{ui.reservation_lead}</p>
       <div class="reservation-cta" data-animate="rise">
-        <a href={reservationLink} target="_blank" rel="noopener" class="btn btn-primary">{ui.reserve_button}</a>
-        {store.tel && (
-          <a href={`tel:${store.tel}`} class="btn btn-outline">{store.tel}</a>
-        )}
+        {reservationUrl ? (
+          <>
+            <a href={reservationUrl} target="_blank" rel="noopener" class="btn btn-primary">{ui.reserve_button}</a>
+            {store.tel && (
+              <a href={`tel:${store.tel}`} class="btn btn-outline">{store.tel}</a>
+            )}
+          </>
+        ) : store.tel ? (
+          <a href={`tel:${store.tel}`} class="btn btn-primary">お電話でご予約ください ({store.tel})</a>
+        ) : null}
       </div>
     </div>
   </section>
