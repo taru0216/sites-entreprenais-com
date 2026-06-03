@@ -63,6 +63,8 @@ from html import unescape
 
 USER_AGENT = "EntreprenAIs-Factory-crawler/0.1 (+https://entreprenais.com/#contact)"
 
+MAX_FEATURED_MENU = 5   # featured_menu の最大件数
+
 # Retty 店舗詳細 URL に含まれる店舗 ID（10桁以上の数字）
 RE_RETTY_ID = re.compile(r"/([0-9]{10,})/")
 # エリア配下の店舗詳細リンク（例: /area/PRE13/ARE7/SUB701/100000003346/）
@@ -312,6 +314,100 @@ def _slug(name: str, rid: str) -> str:
     return f"{base}-{rid[-6:]}"
 
 
+def parse_price(item: dict) -> int | None:
+    """メニューアイテムの価格を数値で返す。
+
+    `price` フィールドが数値ならそのまま返す。文字列の場合は数字を抽出する。
+    `price` がない/None の場合は `price_raw` を試みる。
+    どちらも変換できない場合は None を返す。
+    """
+    for key in ("price", "price_raw"):
+        val = item.get(key)
+        if val is None:
+            continue
+        if isinstance(val, (int, float)):
+            return int(val)
+        if isinstance(val, str):
+            m = re.search(r"([0-9,]+)", val)
+            if m:
+                try:
+                    return int(m.group(1).replace(",", ""))
+                except ValueError:
+                    continue
+    return None
+
+
+def build_featured_menu(menu: list[dict], existing: list[dict] | None = None) -> list[dict]:
+    """menu[] から featured_menu を選出する。
+
+    選出ロジック:
+      1. featured_menu が空（existing が None または空）の場合
+         → menu[] を price 降順でソートし、上位 MAX_FEATURED_MENU 件を選出する。
+      2. featured_menu に既存アイテムがある場合
+         → 全 menu[] に存在しないアイテム（削除済み等）を除去する。
+         → 空いたスロットを price 降順の未掲載アイテムで補充する。
+
+    結果は常に menu[] の部分集合（name で照合）であることを保証する。
+    price は parse_price() でパースし、None（価格不明）は末尾に並べる。
+    """
+    if not menu:
+        return []
+
+    # menu の name を正規化した集合（照合用）
+    menu_names = {item.get("name", "").strip() for item in menu}
+
+    # price 降順でソートした全メニュー（price なし = 末尾）
+    def sort_key(item: dict) -> tuple:
+        p = parse_price(item)
+        return (0 if p is None else 1, p if p is not None else -1)
+
+    sorted_menu = sorted(menu, key=sort_key, reverse=True)
+
+    # --- Case 1: existing が空 ---
+    if not existing:
+        return [
+            {
+                "name": item["name"],
+                "price": item.get("price"),
+                "price_raw": item.get("price_raw"),
+                "photo_url": item.get("photo_url"),
+            }
+            for item in sorted_menu[:MAX_FEATURED_MENU]
+        ]
+
+    # --- Case 2: existing にアイテムがある ---
+    # menu[] に存在するアイテムだけを残す
+    valid_existing = [
+        item for item in existing
+        if item.get("name", "").strip() in menu_names
+    ]
+
+    # featured に掲載済みの name セット
+    featured_names = {item.get("name", "").strip() for item in valid_existing}
+
+    # 未掲載アイテム（price 降順）
+    unfeatured = [
+        item for item in sorted_menu
+        if item.get("name", "").strip() not in featured_names
+    ]
+
+    # スロット補充
+    slots_needed = MAX_FEATURED_MENU - len(valid_existing)
+    if slots_needed > 0:
+        fill = unfeatured[:slots_needed]
+        valid_existing.extend([
+            {
+                "name": item["name"],
+                "price": item.get("price"),
+                "price_raw": item.get("price_raw"),
+                "photo_url": item.get("photo_url"),
+            }
+            for item in fill
+        ])
+
+    return valid_existing[:MAX_FEATURED_MENU]
+
+
 def parse_detail(rid: str, detail_url: str, html: str) -> dict:
     blocks = RE_LD.findall(html)
     rest = _find_restaurant_ld(blocks) or {}
@@ -430,6 +526,7 @@ def parse_detail(rid: str, detail_url: str, html: str) -> dict:
         "payment_accepted": payment,
         "owner_message": "",
         "owner_photos": [],
+        "menu": [],
         "featured_menu": [],
         "special_info": "",
         "reservation_url": reservation_url,
@@ -442,6 +539,17 @@ def parse_detail(rid: str, detail_url: str, html: str) -> dict:
 
 
 def write_store(store: dict, out_dir: str) -> str:
+    """store dict を store.json に書き出す。
+
+    menu[] が存在する場合、featured_menu を build_featured_menu() で再計算する。
+    これにより、re-crawl 時にも常に価格順の featured_menu が保持される。
+    """
+    # featured_menu を常に menu[] から再計算
+    menu = store.get("menu") or []
+    if menu:
+        existing = store.get("featured_menu") or []
+        store["featured_menu"] = build_featured_menu(menu, existing if existing else None)
+
     rid = store["retty_id"]
     shard = rid[-2:]
     path = os.path.join(out_dir, shard, rid, "store.json")
