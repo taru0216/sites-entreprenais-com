@@ -28,12 +28,12 @@
 
 ```mermaid
 flowchart LR
-    A[クロール<br/>外部グルメサイトの公開情報] -->|自動取得して埋め込み| C
-    H[飲食店オーナー<br/>→ LINE] -->|自然文を AI が反映| C
-    O[パートナー側オペレーター<br/>→ EntreprenAIs Desktop / Slack] -->|AI 補助での編集| C
-    C[(store.json<br/>サイトの情報DB / SSOT)] -->|GitHub Actions が Astro を自動ビルド| D[静的 HTML<br/>foodre/{id}/index.html]
-    C -->|一覧・検索インデックス更新| E[sitemap.json /<br/>search-index.json]
-    D -->|push to main| F[GitHub Actions が<br/>GitHub Pages へ公開]
+    A["クロール<br/>外部グルメサイトの公開情報"] -->|自動取得して埋め込み| C
+    H["飲食店オーナー<br/>→ LINE"] -->|自然文を AI が反映| C
+    O["パートナー側オペレーター<br/>→ EntreprenAIs Desktop / Slack"] -->|AI 補助での編集| C
+    C[("store.json<br/>サイトの情報DB / SSOT")] -->|GitHub Actions が Astro を自動ビルド| D["静的 HTML<br/>foodre/{id}/index.html"]
+    C -->|一覧・検索インデックス更新| E["sitemap.json /<br/>search-index.json"]
+    D -->|push to main| F["GitHub Actions が<br/>GitHub Pages へ公開"]
     E --> F
 ```
 
