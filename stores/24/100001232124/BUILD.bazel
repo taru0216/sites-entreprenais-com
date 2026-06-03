@@ -1,0 +1,12 @@
+# foodre per-store ビルド（自動生成: scripts/gen_store_builds.py）。
+#
+# この店舗の store.json を入力に dist/foodre/100001232124/ を生成する。
+# store.json のハッシュが変わったときだけ :site が再ビルドされる（インクリメンタル）。
+# 共有テンプレート（//site-builder:template）が変わると全店舗が再ビルドされる。
+#
+# ビルド: bazel build //stores/24/100001232124:site
+load("//bazel:astro_site.bzl", "foodre_site_package")
+
+package(default_visibility = ["//visibility:public"])
+
+foodre_site_package(retty_id = "100001232124")

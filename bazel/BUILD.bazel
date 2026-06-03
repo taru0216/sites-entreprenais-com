@@ -1,0 +1,7 @@
+# astro_data_site ルール/マクロの bzl ソースと Astro ビルドラッパーを公開する。
+package(default_visibility = ["//visibility:public"])
+
+exports_files([
+    "astro_site.bzl",
+    "build_astro_site.sh",
+])

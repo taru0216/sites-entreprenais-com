@@ -1,0 +1,28 @@
+# factory-entreprenais-com — Bazel configuration
+#
+# factory は standalone な公開リポジトリ。astro_site ルールを vendoring しており
+# 外部 module 依存を持たない（MODULE.bazel 参照）。
+
+# Bzlmod (MODULE.bazel) を使用
+common --enable_bzlmod
+
+# astro_site ルールが起動する node / astro build に必要なホスト環境変数を継承
+build --action_env=HOME
+build --action_env=PATH
+
+# 事前 install 済み node_modules を astro_site ルールへ渡す（任意・高速化用）。
+# 未設定時はラッパー（bazel/build_astro_site.sh）が npm ci する。
+#   npm --prefix site-builder ci
+#   export FACTORY_NODE_MODULES="$(pwd)/site-builder/node_modules"
+build --action_env=FACTORY_NODE_MODULES
+
+# テスト出力は失敗時のみ表示
+test --test_output=errors
+
+# 全エラーをまとめて報告
+build --keep_going
+
+# CI 設定（--config=ci）
+build:ci --action_env=CI=true
+build:ci --color=no
+build:ci --curses=no

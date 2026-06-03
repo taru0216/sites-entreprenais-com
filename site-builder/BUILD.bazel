@@ -1,0 +1,28 @@
+# site-builder — 共有 Astro テンプレート（foodre restaurant / cities municipality 同梱）。
+#
+# astro_data_site ルールが入力に取る :template filegroup を公開する。
+# **この filegroup に含まれるファイル（layout/component/lib/config 等）が変われば、
+# :template を入力に持つ全サイト（//stores:all・//cities:all）の出力が invalidate され、
+# 全依存サイトが再ビルドされる**。これが epic #243 ② の核心（template 依存追跡）。
+#
+# node_modules / dist / .astro はビルド生成物・依存物のため含めない
+# （node_modules はビルド時に site-builder 同梱を symlink、または npm ci で用意する）。
+# src/data/{stores,municipality}/*.json は per-site にステージされるデータのため除外
+# （.gitkeep のみ）。テンプレート自体の変更追跡には不要。
+package(default_visibility = ["//visibility:public"])
+
+filegroup(
+    name = "template",
+    srcs = [
+        "astro.config.mjs",
+        "package.json",
+    ] + glob(
+        [
+            "tsconfig.json",
+            "package-lock.json",
+            "src/**/*.astro",
+            "src/**/*.ts",
+        ],
+        allow_empty = True,
+    ),
+)

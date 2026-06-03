@@ -1,0 +1,9 @@
+module(
+    name = "factory_entreprenais_com",
+    version = "0.0.0",
+)
+
+# factory は entreprenais の submodule ではない standalone な公開リポジトリ。
+# astro_site ルール本体（bazel/astro_site.bzl + bazel/build_astro_site.sh）を
+# vendoring（取り込み）しており、外部 Bazel module 依存を持たない。
+# 取り込み元の帰属は bazel/astro_site.bzl の冒頭 docstring を参照。
