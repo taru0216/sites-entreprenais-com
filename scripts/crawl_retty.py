@@ -1,23 +1,44 @@
 #!/usr/bin/env python3
 """crawl_retty.py — Retty 公開サイト → store.json クローラ（foodre #230 / #229）
 
-Retty の公開エリア一覧ページをページネーション辿り、各店舗の詳細ページから
-JSON-LD（schema.org/Restaurant）＋ HTML を解析して store.json を生成する。
+Retty の公開ページから JSON-LD（schema.org/Restaurant）＋ HTML を解析して
+store.json を生成する。店舗の収集方法は 2 モード（排他）:
+
+  1. エリアモード（--area-url）: 公開エリア一覧ページをページネーション辿り、
+     エリア配下の全店舗を収集する。
+  2. CSV モード（--csv）: ヘッダ付き CSV に列挙された店舗だけをクロールする。
+     `retty_url` 列があれば URL から、`retty_id` 列があれば ID から店舗詳細
+     ページを特定する（両方あれば retty_url を優先）。列名は大文字小文字・
+     前後空白を許容する。
 
 - 内部 API（/API/）には一切アクセスしない。公開ページのみ。
 - robots.txt を尊重し、リクエスト間に sleep を入れ、User-Agent を明示する。
 - 外部依存なし（標準ライブラリのみ）。requests があれば使うが必須ではない。
 
 使い方:
+  # エリアモード
   python3 scripts/crawl_retty.py \
     --area-url "https://retty.me/area/PRE13/ARE7/SUB701/" \
     --max-count 50 \
     --out-dir stores \
     --sleep 1.5
+
+  # CSV モード（指定店舗のみ）
+  #   CSV はヘッダ行が必須。列は retty_url か retty_id の少なくとも一方。
+  #     retty_url
+  #     https://retty.me/area/PRE13/ARE7/SUB701/100000003346/
+  #   または
+  #     retty_id
+  #     100000003346
+  python3 scripts/crawl_retty.py \
+    --csv data/crawl-targets.csv \
+    --out-dir stores \
+    --sleep 5
 """
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import re
@@ -98,6 +119,91 @@ def collect_store_ids(area_url: str, max_count: int, sleep: float) -> list[tuple
         url = next_url
         time.sleep(sleep)
     return list(seen.items())[:max_count]
+
+
+def rid_from_url(url: str) -> str | None:
+    """Retty 店舗 URL から retty_id（10桁以上の数字）を抽出する。"""
+    if not url:
+        return None
+    m = RE_RETTY_ID.search(url)
+    return m.group(1) if m else None
+
+
+def detail_url_from_rid(rid: str) -> str:
+    """retty_id から店舗詳細ページの URL を組み立てる。
+
+    Retty の店舗詳細ページは `https://retty.me/restaurant/{rid}/` で名寄せされる
+    （エリア配下 URL からも 301 で同 ID ページへ解決される）。
+    """
+    return f"{BASE}/restaurant/{rid}/"
+
+
+def _normalize_header(name: str) -> str:
+    """CSV 列名を正規化（小文字化・前後空白除去・BOM 除去）する。"""
+    return (name or "").strip().lstrip("﻿").lower()
+
+
+def read_csv_targets(csv_path: str) -> list[tuple[str, str]]:
+    """ヘッダ付き CSV を読み (retty_id, detail_url) のリストを返す。
+
+    列の自動判別:
+      - `retty_url` 列があれば URL から retty_id を抽出し、URL をそのまま使う。
+      - `retty_id` 列があれば ID から詳細ページ URL を組み立てる。
+      - 両方あれば retty_url を優先（URL から ID を抽出できない行のみ retty_id に
+        フォールバック）。
+    列名は大文字小文字・前後空白・BOM を許容する。重複 retty_id は最初の 1 件のみ。
+    """
+    with open(csv_path, newline="", encoding="utf-8-sig") as f:
+        reader = csv.reader(f)
+        try:
+            header = next(reader)
+        except StopIteration:
+            raise ValueError(f"CSV が空です: {csv_path}")
+
+        norm = [_normalize_header(h) for h in header]
+        url_idx = norm.index("retty_url") if "retty_url" in norm else None
+        id_idx = norm.index("retty_id") if "retty_id" in norm else None
+        if url_idx is None and id_idx is None:
+            raise ValueError(
+                f"CSV に retty_url / retty_id 列がありません（ヘッダ: {header}）: {csv_path}"
+            )
+
+        seen: dict[str, str] = {}
+        for lineno, row in enumerate(reader, start=2):
+            if not row or all(not (c or "").strip() for c in row):
+                continue  # 空行スキップ
+
+            rid: str | None = None
+            url: str | None = None
+
+            # retty_url 優先
+            if url_idx is not None and url_idx < len(row):
+                raw_url = (row[url_idx] or "").strip()
+                if raw_url:
+                    rid = rid_from_url(raw_url)
+                    if rid:
+                        url = raw_url
+
+            # retty_id フォールバック / 単独列
+            if rid is None and id_idx is not None and id_idx < len(row):
+                raw_id = (row[id_idx] or "").strip()
+                if raw_id:
+                    m = re.search(r"[0-9]{10,}", raw_id)
+                    if m:
+                        rid = m.group(0)
+                        url = detail_url_from_rid(rid)
+
+            if not rid or not url:
+                print(
+                    f"  [WARN] CSV {lineno} 行目: 有効な retty_url / retty_id を"
+                    f"抽出できませんでした（スキップ）: {row}",
+                    file=sys.stderr,
+                )
+                continue
+            if rid not in seen:
+                seen[rid] = url
+
+    return list(seen.items())
 
 
 def _find_restaurant_ld(blocks: list[str]) -> dict | None:
@@ -311,14 +417,25 @@ def write_store(store: dict, out_dir: str) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Retty 公開サイト → store.json クローラ")
-    ap.add_argument("--area-url", required=True, help="Retty エリア一覧 URL")
-    ap.add_argument("--max-count", type=int, default=50, help="最大クロール件数")
+    # --area-url と --csv は排他（どちらか一方が必須）
+    src = ap.add_mutually_exclusive_group(required=True)
+    src.add_argument("--area-url", help="Retty エリア一覧 URL（エリアモード）")
+    src.add_argument(
+        "--csv",
+        help="クロール対象店舗の CSV パス（CSV モード。ヘッダ列 retty_url / retty_id）",
+    )
+    ap.add_argument("--max-count", type=int, default=50,
+                    help="最大クロール件数（エリアモードのみ。CSV モードは全行）")
     ap.add_argument("--out-dir", default="stores", help="store.json 出力ルート")
     ap.add_argument("--sleep", type=float, default=1.5, help="リクエスト間 sleep 秒")
     args = ap.parse_args()
 
-    print(f"[crawl_retty] area={args.area_url} max={args.max_count} sleep={args.sleep}s")
-    ids = collect_store_ids(args.area_url, args.max_count, args.sleep)
+    if args.csv:
+        print(f"[crawl_retty] csv={args.csv} sleep={args.sleep}s")
+        ids = read_csv_targets(args.csv)
+    else:
+        print(f"[crawl_retty] area={args.area_url} max={args.max_count} sleep={args.sleep}s")
+        ids = collect_store_ids(args.area_url, args.max_count, args.sleep)
     print(f"[crawl_retty] collected {len(ids)} store ids")
 
     ok, fail = 0, 0

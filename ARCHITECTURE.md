@@ -320,7 +320,7 @@ factory-entreprenais-com/
 
 | ワークフロー | トリガー | 役割 |
 |------------|---------|------|
-| `crawl-stores.yml` | `schedule`（cron `0 18 * * *` = **03:00 JST** の夜間バッチ）+ `workflow_dispatch` | 外部グルメサイトの公開情報をクロールし `store.json` / `sitemap.json` / `search-index.json` を生成してコミット。レートリミット（HTTP 429）回避のため `sleep`（既定 5 秒）を挟む。`workflow_dispatch` の inputs: `area_url` / `max_count`（既定 2000）/ `sleep`（既定 5）。 |
+| `crawl-stores.yml` | `schedule`（cron `0 18 * * *` = **03:00 JST** の夜間バッチ）+ `workflow_dispatch` | 外部グルメサイトの公開情報をクロールし `store.json` / `sitemap.json` / `search-index.json` を生成してコミット。レートリミット（HTTP 429）回避のため `sleep`（既定 5 秒）を挟む。クロール対象の指定は 2 モード（排他）: **エリアモード**（`area_url` でエリア配下を全件巡回。夜間 `schedule` はこちら）と **CSV モード**（`csv` にリポジトリ内 CSV パスを指定し、列挙された店舗だけをクロール。CSV はヘッダ列 `retty_url` か `retty_id` を持つ。サンプル: `data/crawl-targets.sample.csv`）。`workflow_dispatch` の inputs: `area_url` / `max_count`（既定 2000）/ `sleep`（既定 5）/ `csv`（任意。指定時は CSV モード）。 |
 | `build-site.yml` | `workflow_dispatch`（手動） | **特定サイトを 1 件だけ単体ビルド**して該当パスに反映する。全店フルビルドを回さずに 1 店舗 / 1 自治体だけを短時間で再生成するためのワークフロー。`site-builder/` の依存を `npm ci` で解決し、`scripts/build_one.sh` を実行。inputs: `site_type`（`foodre` / `cities`）/ `id`（`foodre` は `retty_id`、`cities` は自治体コード）。 |
 | `deploy.yml` | `push`（`main` ブランチ）+ `workflow_dispatch` | リポジトリのルートをそのまま **GitHub Pages へデプロイ**して公開する。`crawl-stores.yml` / `build-site.yml` がコミットを `main` に push すると、本ワークフローが連鎖して公開まで到達する。 |
 
