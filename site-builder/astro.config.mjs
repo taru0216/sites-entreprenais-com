@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 
+// template-build トリガー検証用コメント（#27 / 出力には影響しない）。
 // factory site-builder — 単体サイトビルド用 Astro プロジェクト（build-site.yml から呼ばれる）。
 //
 // site / build.format を本番（factory.entreprenais.com）に合わせる。
