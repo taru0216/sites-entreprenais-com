@@ -124,4 +124,14 @@ if [[ "${BUILD_CITIES}" -eq 1 ]]; then
   reflect_type cities
 fi
 
+# 共有アセット（astro が dist/_astro/ に出力する CSS/JS）を反映する。
+# 各ページ HTML はハッシュ付き /_astro/*.css を参照するため、これを公開しないと
+# 本番が CSS 404 で無装飾になる（#38）。
+ASTRO_DIST="${BUILDER_DIR}/dist/_astro"
+if [[ -d "${ASTRO_DIST}" ]]; then
+  rm -rf "${REPO_ROOT}/_astro"
+  cp -r "${ASTRO_DIST}" "${REPO_ROOT}/_astro"
+  echo "    reflected shared assets → _astro/ ($(find "${REPO_ROOT}/_astro" -type f | wc -l) file(s))"
+fi
+
 echo "==> done: full build (foodre=${FOODRE_COUNT} / cities=${CITIES_COUNT})"

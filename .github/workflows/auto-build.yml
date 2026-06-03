@@ -124,6 +124,9 @@ jobs:
               git add "${p}"
             done < /tmp/built_paths.txt
           fi
+          # 共有アセット _astro/（CSS/JS）も add する。これを公開しないと
+          # ページが参照する /_astro/*.css が 404 になる（#38）。
+          [[ -d _astro ]] && git add _astro
           if git diff --cached --quiet; then
             echo "No HTML changes to commit."
             exit 0
