@@ -350,5 +350,131 @@ class TestGenCsvSubcommand(unittest.TestCase):
         )
 
 
+class TestParsePrice(unittest.TestCase):
+    """parse_price() のユニットテスト（#41）。"""
+
+    def test_int_value(self):
+        self.assertEqual(cr.parse_price({"price": 1500}), 1500)
+
+    def test_float_value(self):
+        self.assertEqual(cr.parse_price({"price": 1500.0}), 1500)
+
+    def test_string_value(self):
+        self.assertEqual(cr.parse_price({"price": "1,500円"}), 1500)
+
+    def test_price_raw_fallback(self):
+        self.assertEqual(cr.parse_price({"price_raw": "〜2,000円"}), 2000)
+
+    def test_price_none_falls_back_to_price_raw(self):
+        self.assertEqual(cr.parse_price({"price": None, "price_raw": "800円"}), 800)
+
+    def test_both_none_returns_none(self):
+        self.assertIsNone(cr.parse_price({}))
+        self.assertIsNone(cr.parse_price({"price": None, "price_raw": None}))
+
+    def test_non_numeric_string_returns_none(self):
+        self.assertIsNone(cr.parse_price({"price": "時価", "price_raw": None}))
+
+    def test_comma_separated_price(self):
+        self.assertEqual(cr.parse_price({"price": "12,000"}), 12000)
+
+
+class TestBuildFeaturedMenu(unittest.TestCase):
+    """build_featured_menu() のユニットテスト（#41）。"""
+
+    def _make_item(self, name: str, price: int | None) -> dict:
+        return {
+            "name": name,
+            "price": price,
+            "price_raw": f"{price}円" if price is not None else None,
+            "photo_url": None,
+        }
+
+    def test_empty_menu_returns_empty(self):
+        self.assertEqual(cr.build_featured_menu([]), [])
+
+    def test_simple_price_desc_order(self):
+        menu = [
+            self._make_item("安い料理", 500),
+            self._make_item("高い料理", 3000),
+            self._make_item("中くらい", 1500),
+        ]
+        result = cr.build_featured_menu(menu)
+        self.assertEqual(len(result), 3)
+        self.assertEqual(result[0]["name"], "高い料理")
+        self.assertEqual(result[1]["name"], "中くらい")
+        self.assertEqual(result[2]["name"], "安い料理")
+
+    def test_max_featured_menu_limit(self):
+        menu = [self._make_item(f"料理{i}", i * 100) for i in range(10)]
+        result = cr.build_featured_menu(menu)
+        self.assertLessEqual(len(result), cr.MAX_FEATURED_MENU)
+
+    def test_none_price_sorted_last(self):
+        menu = [
+            self._make_item("価格不明", None),
+            self._make_item("高い料理", 3000),
+        ]
+        result = cr.build_featured_menu(menu)
+        self.assertEqual(result[0]["name"], "高い料理")
+        self.assertEqual(result[1]["name"], "価格不明")
+
+    def test_existing_valid_items_preserved(self):
+        """existing に menu[] 内のアイテムが含まれる場合はそのまま保持し、スロット補充する。"""
+        menu = [
+            self._make_item("A", 1000),
+            self._make_item("B", 2000),
+            self._make_item("C", 3000),
+            self._make_item("D", 500),
+        ]
+        existing = [self._make_item("A", 1000)]
+        result = cr.build_featured_menu(menu, existing)
+        names = [r["name"] for r in result]
+        # "A" は existing から保持; 残りは B, C, D を price 降順で補充
+        self.assertIn("A", names)
+        self.assertEqual(len(result), min(4, cr.MAX_FEATURED_MENU))
+
+    def test_deleted_items_removed_from_existing(self):
+        """existing にあって menu[] にないアイテムは除去される。"""
+        menu = [
+            self._make_item("A", 1000),
+            self._make_item("B", 2000),
+        ]
+        existing = [
+            self._make_item("A", 1000),
+            self._make_item("削除済み", 5000),  # menu にない
+        ]
+        result = cr.build_featured_menu(menu, existing)
+        names = [r["name"] for r in result]
+        self.assertNotIn("削除済み", names)
+        self.assertIn("A", names)
+        self.assertIn("B", names)  # 空きスロットに補充
+
+    def test_result_is_subset_of_menu(self):
+        """featured_menu は常に menu[] の名前の部分集合であること。"""
+        menu = [self._make_item(f"料理{i}", i * 200) for i in range(10)]
+        menu_names = {item["name"] for item in menu}
+        result = cr.build_featured_menu(menu)
+        for item in result:
+            self.assertIn(item["name"], menu_names)
+
+    def test_empty_existing_treated_as_fresh(self):
+        menu = [
+            self._make_item("高い", 5000),
+            self._make_item("安い", 100),
+        ]
+        result = cr.build_featured_menu(menu, [])
+        self.assertEqual(result[0]["name"], "高い")
+
+    def test_price_raw_string_parsed_for_sorting(self):
+        """price が None でも price_raw があれば正しくソートされる。"""
+        menu = [
+            {"name": "A", "price": None, "price_raw": "1,500円", "photo_url": None},
+            {"name": "B", "price": None, "price_raw": "3,000円", "photo_url": None},
+        ]
+        result = cr.build_featured_menu(menu)
+        self.assertEqual(result[0]["name"], "B")
+
+
 if __name__ == "__main__":
     unittest.main()

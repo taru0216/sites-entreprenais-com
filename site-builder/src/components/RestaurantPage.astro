@@ -31,6 +31,8 @@ const stats = deriveStats(store);
 const menuPhotoMode = hasMenuPhotos(store);
 const features = store.features ?? [];
 const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
+const menuCount = store.menu?.length ?? 0;
+const hasMenuList = menuCount > 0;
 ---
 
 <BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
@@ -91,26 +93,35 @@ const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
       <p class="sec-sub" data-animate="rise">MENU</p>
 
       {hasFeatured ? (
-        <div class={menuPhotoMode ? 'menu-grid menu-grid-photo' : 'menu-grid'}>
-          {store.featured_menu!.map((item, i) => (
-            <article class="menu-card" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
-              {menuPhotoMode && (
-                (item.photo || item.photo_url)
-                  ? <div class="menu-card-photo"><img src={item.photo ?? item.photo_url!} alt={item.name} loading="lazy" /></div>
-                  : <div class="menu-card-photo menu-card-photo-empty"><span>🍽</span></div>
-              )}
-              <div class="menu-card-body">
-                <h4 class="menu-card-name">
-                  <span>{item.name}</span>
-                  {item.price != null && item.price !== '' && (
-                    <span class="menu-card-price">{typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}</span>
-                  )}
-                </h4>
-                {item.description && (<p class="menu-card-desc">{item.description}</p>)}
-              </div>
-            </article>
-          ))}
-        </div>
+        <>
+          <div class={menuPhotoMode ? 'menu-grid menu-grid-photo' : 'menu-grid'}>
+            {store.featured_menu!.map((item, i) => (
+              <article class="menu-card" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
+                {menuPhotoMode && (
+                  (item.photo || item.photo_url)
+                    ? <div class="menu-card-photo"><img src={item.photo ?? item.photo_url!} alt={item.name} loading="lazy" /></div>
+                    : <div class="menu-card-photo menu-card-photo-empty"><span>🍽</span></div>
+                )}
+                <div class="menu-card-body">
+                  <h4 class="menu-card-name">
+                    <span>{item.name}</span>
+                    {item.price != null && item.price !== '' && (
+                      <span class="menu-card-price">{typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}</span>
+                    )}
+                  </h4>
+                  {item.description && (<p class="menu-card-desc">{item.description}</p>)}
+                </div>
+              </article>
+            ))}
+          </div>
+          {hasMenuList && (
+            <div class="menu-all-link" data-animate="rise">
+              <a href={`/foodre/${store.retty_id}/menu/`} class="btn btn-outline">
+                すべてのメニューを見る ({menuCount}品)
+              </a>
+            </div>
+          )}
+        </>
       ) : (
         <div class="menu-fallback" data-animate="rise">
           {cats.length > 0 && (
@@ -122,6 +133,13 @@ const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
             <p class="menu-budget">予算の目安: {budget.join(' / ')}</p>
           )}
           <p class="menu-empty">{ui.no_menu}</p>
+          {hasMenuList && (
+            <div class="menu-all-link" style="margin-top:1.5rem;">
+              <a href={`/foodre/${store.retty_id}/menu/`} class="btn btn-outline">
+                すべてのメニューを見る ({menuCount}品)
+              </a>
+            </div>
+          )}
         </div>
       )}
     </div>
