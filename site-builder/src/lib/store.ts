@@ -166,12 +166,10 @@ export function formatBudget(store: Store): string[] {
   return out;
 }
 
-/** Google Maps 検索 URL を返す */
+/** Google Maps 検索 URL を返す（Google Maps URL API 標準形式で店名+住所検索） */
 export function gmapsUrl(store: Store): string {
-  if (store.geo && store.geo.lat && store.geo.lng) {
-    return `https://maps.google.com/?q=${store.geo.lat},${store.geo.lng}`;
-  }
-  return `https://maps.google.com/?q=${encodeURIComponent((store.name ?? '') + ' ' + (store.address ?? ''))}`;
+  const q = encodeURIComponent(`${store.name ?? ''} ${store.address ?? ''}`.trim());
+  return `https://www.google.com/maps/search/?api=1&query=${q}`;
 }
 
 /** Google Maps 埋め込み iframe URL を返す（API キー不要の q= 埋め込み） */
