@@ -95,8 +95,8 @@ const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
           {store.featured_menu!.map((item, i) => (
             <article class="menu-card" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
               {menuPhotoMode && (
-                item.photo
-                  ? <div class="menu-card-photo"><img src={item.photo} alt={item.name} loading="lazy" /></div>
+                (item.photo || item.photo_url)
+                  ? <div class="menu-card-photo"><img src={item.photo ?? item.photo_url!} alt={item.name} loading="lazy" /></div>
                   : <div class="menu-card-photo menu-card-photo-empty"><span>🍽</span></div>
               )}
               <div class="menu-card-body">

@@ -1,0 +1,134 @@
+---
+// /foodre/{retty_id}/menu/{dish_slug}/ — 料理個別ページ（#245 / #255）
+//
+// store.json の menu[] から dish_slug が一致するアイテムを表示する。
+// JSON-LD（MenuItem schema.org）を生成して SEO / AI 接客に対応する。
+
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import type { Store, MenuItem } from '../../../../lib/store';
+
+export function getStaticPaths() {
+  const mods = import.meta.glob<{ default: Store }>('../../../../data/stores/*.json', { eager: true });
+  const paths: { params: { id: string; dish: string }; props: { store: Store; item: MenuItem } }[] = [];
+
+  for (const m of Object.values(mods)) {
+    const store = m.default;
+    const menuItems = store.menu ?? [];
+    for (const item of menuItems) {
+      if (item.dish_slug) {
+        paths.push({
+          params: { id: store.retty_id, dish: item.dish_slug },
+          props: { store, item },
+        });
+      }
+    }
+  }
+  return paths;
+}
+
+const { store, item } = Astro.props as { store: Store; item: MenuItem };
+const storeUrl = `/foodre/${store.retty_id}/`;
+const menuUrl = `/foodre/${store.retty_id}/menu/`;
+const priceDisplay = item.price_raw
+  ? item.price_raw
+  : (item.price != null
+      ? (typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : String(item.price))
+      : null);
+
+// JSON-LD — schema.org MenuItem
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'MenuItem',
+  name: item.name,
+  description: item.description ?? undefined,
+  image: item.photo_url ?? undefined,
+  offers: priceDisplay ? {
+    '@type': 'Offer',
+    price: String(item.price ?? item.price_raw ?? ''),
+    priceCurrency: 'JPY',
+  } : undefined,
+  suitableForDiet: undefined,
+  menuAddOn: undefined,
+};
+---
+
+<BaseLayout
+  title={`${item.name} — ${store.name}`}
+  siteName={store.name}
+  description={item.description ?? `${store.name}の「${item.name}」${priceDisplay ? `（${priceDisplay}）` : ''}。`}
+>
+  <!-- JSON-LD (schema.org MenuItem — SEO / AI 接客用) -->
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <!-- パンくず -->
+  <nav style="padding:1.25rem 1.5rem; background:#0a0a0a; border-bottom:1px solid #1a1a1a; display:flex; gap:1rem; align-items:center; flex-wrap:wrap;">
+    <a href={storeUrl} style="color:var(--orange); font-size:0.85rem; text-decoration:none;">{store.name}</a>
+    <span style="color:#444;">›</span>
+    <a href={menuUrl} style="color:var(--orange); font-size:0.85rem; text-decoration:none;">メニュー一覧</a>
+    <span style="color:#444;">›</span>
+    <span style="color:#bbb; font-size:0.85rem;">{item.name}</span>
+  </nav>
+
+  <!-- 料理ヒーロー -->
+  <section style={`min-height:50vh; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:4rem 1.5rem; position:relative; ${item.photo_url ? `background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.8)),url('${item.photo_url}') center/cover no-repeat;` : 'background:linear-gradient(180deg,#0a0a0a 0%,#000 100%);'}`}>
+    <div style="max-width:680px;">
+      <p style="font-size:0.85rem; color:#888; letter-spacing:0.15em; margin-bottom:0.75rem; text-transform:uppercase;">{store.name} のメニュー</p>
+      <h1 style="font-size:clamp(2rem,7vw,3.8rem); color:var(--orange); line-height:1.2; margin-bottom:1rem;">{item.name}</h1>
+      {priceDisplay && (
+        <p style="font-size:1.3rem; color:#fff; font-weight:600; margin-bottom:1.25rem;">{priceDisplay}</p>
+      )}
+      {item.description && (
+        <p style="font-size:1rem; color:#ddd; line-height:1.9; max-width:540px; margin:0 auto;">{item.description}</p>
+      )}
+    </div>
+  </section>
+
+  <!-- 料理写真（単体、ヒーロー背景なしの場合） -->
+  {item.photo_url && !item.description && (
+    <section style="padding:3rem 0; background:#050505;">
+      <div class="section-inner" style="text-align:center;">
+        <img
+          src={item.photo_url}
+          alt={item.name}
+          style="max-width:600px; width:100%; border-radius:8px; border:1px solid #222;"
+        />
+      </div>
+    </section>
+  )}
+
+  <!-- 詳細情報 -->
+  <section style="padding:4rem 0; background:#000;">
+    <div class="section-inner">
+      <h2 style="font-size:1.4rem; color:var(--orange); margin-bottom:2rem; border-left:3px solid var(--orange); padding-left:0.75rem;">料理情報</h2>
+      <dl style="display:grid; grid-template-columns:auto 1fr; gap:0.75rem 1.5rem; max-width:600px;">
+        <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">料理名</dt>
+        <dd style="color:#ddd; font-size:0.95rem;">{item.name}</dd>
+
+        {priceDisplay && (<>
+          <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">価格</dt>
+          <dd style="color:#ddd; font-size:0.95rem;">{priceDisplay}</dd>
+        </>)}
+
+        {item.description && (<>
+          <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">説明</dt>
+          <dd style="color:#ddd; font-size:0.95rem; line-height:1.7;">{item.description}</dd>
+        </>)}
+
+        <dt style="color:#666; white-space:nowrap; font-size:0.9rem;">提供店舗</dt>
+        <dd><a href={storeUrl} style="color:var(--orange); text-decoration:none; font-size:0.95rem;">{store.name}</a></dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 関連リンク -->
+  <section style="padding:3rem 1.5rem 5rem; background:#050505; text-align:center;">
+    <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+      <a href={menuUrl} style="display:inline-block; background:var(--orange); color:#000; font-weight:700; padding:0.75rem 2rem; border-radius:4px; font-size:0.9rem; text-decoration:none;">
+        全メニューを見る
+      </a>
+      <a href={storeUrl} style="display:inline-block; border:2px solid var(--orange); color:var(--orange); font-weight:700; padding:0.75rem 2rem; border-radius:4px; font-size:0.9rem; text-decoration:none;">
+        店舗トップへ
+      </a>
+    </div>
+  </section>
+</BaseLayout>

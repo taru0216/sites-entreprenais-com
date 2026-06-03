@@ -2,9 +2,17 @@
 
 export interface MenuItem {
   name: string;
-  price?: string | number;
-  description?: string;
-  photo?: string;
+  /** 価格（数値 or 文字列）— featured_menu / menu[] 共通 */
+  price?: string | number | null;
+  /** 価格表示文字列（"1,500円" 等）— menu[] で使用 */
+  price_raw?: string | null;
+  description?: string | null;
+  /** 写真 URL（featured_menu: photo、menu[]: photo_url どちらも保持） */
+  photo?: string | null;
+  /** 写真 URL（クローラーが格納する標準フィールド — #255） */
+  photo_url?: string | null;
+  /** 料理個別ページのスラグ（menu[] のみ）— /foodre/{retty_id}/menu/{dish_slug}/ */
+  dish_slug?: string;
 }
 
 /** ヒーローの KPI スタッツバッジ（任意）。banwaen 例: { value: '55品', label: '希少部位' } */
@@ -44,7 +52,10 @@ export interface Store {
   nearest_station?: string | null;
   payment_accepted?: string | null;
   owner_message?: string;
+  /** 代表メニュー（featured_menu: menu[] の先頭 5 件） */
   featured_menu?: MenuItem[];
+  /** 全メニュー一覧（クローラーが取得した全件） — #255 */
+  menu?: MenuItem[];
   special_info?: string;
   reservation_url?: string;
   retty_url?: string;
@@ -54,7 +65,7 @@ export interface Store {
   retty_review_count?: number | null;
   geo?: { lat?: number; lng?: number } | null;
   sns?: Record<string, string>;
-  /** ヒーロー KPI バッジ（任意）。無ければ店舗自身の一次情報（メニュー数・写真点数・営業情報・ジャンル数）から自動導出する。 */
+  /** ヒーロー KPI バッジ（任意）。無ければ店舗自身の一次情報から自動導出する。 */
   stats?: StatBadge[];
   /** 特徴・こだわりグリッド（任意）。無ければセクション非表示。 */
   features?: FeatureItem[];
@@ -107,7 +118,7 @@ export function deriveStats(store: Store): StatBadge[] {
 
 /** featured_menu のうち少なくとも 1 件が写真を持つか（= 写真カードグリッドを使うか）を判定する。 */
 export function hasMenuPhotos(store: Store): boolean {
-  return !!(store.featured_menu && store.featured_menu.some(m => !!m.photo));
+  return !!(store.featured_menu && store.featured_menu.some(m => !!(m.photo || m.photo_url)));
 }
 
 const DAY_LABELS: Record<string, string> = {
