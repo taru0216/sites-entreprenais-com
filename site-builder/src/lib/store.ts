@@ -54,7 +54,7 @@ export interface Store {
   retty_review_count?: number | null;
   geo?: { lat?: number; lng?: number } | null;
   sns?: Record<string, string>;
-  /** ヒーロー KPI バッジ（任意）。無ければ rating / review_count / photos 等から自動導出する。 */
+  /** ヒーロー KPI バッジ（任意）。無ければ店舗自身の一次情報（メニュー数・写真点数・営業情報・ジャンル数）から自動導出する。 */
   stats?: StatBadge[];
   /** 特徴・こだわりグリッド（任意）。無ければセクション非表示。 */
   features?: FeatureItem[];
@@ -64,29 +64,44 @@ export interface Store {
 
 /**
  * ヒーローに出す KPI スタッツを返す。
- * store.stats があればそれを優先し、無ければ rating / review_count / photo 数 /
- * category 数から「数字が映える」バッジを自動導出する（データ欠落時フォールバック）。
- * 1 件も作れなければ空配列を返し、hero 側はバッジ行ごと非表示にする。
+ *
+ * 公式サイト=一次情報プラットフォームのため、第三者評価（rating / review_count）は
+ * 一切使わない。store.stats があればそれを優先し、無ければ「店舗自身が発信する事実」
+ * ＝メニュー数・写真点数・営業日数・ジャンル数から数字が映えるバッジを自動導出する。
+ * 一次情報で出せる指標が 1 件も無ければ空配列を返し、hero 側はバッジ行ごと非表示にする
+ * （graceful fallback）。「評価」「★」「クチコミ」「レビュー」等の文言・UI は出さない。
  */
 export function deriveStats(store: Store): StatBadge[] {
   if (store.stats && store.stats.length) return store.stats.slice(0, 3);
   const out: StatBadge[] = [];
-  if (store.retty_rating != null) {
-    out.push({ value: `★${store.retty_rating.toFixed(2)}`, label: '評価' });
+
+  const menuCount = store.featured_menu?.length ?? 0;
+  if (menuCount > 0) {
+    out.push({ value: `${menuCount}`, label: 'メニュー' });
   }
-  if (store.retty_review_count != null && store.retty_review_count > 0) {
-    out.push({ value: `${store.retty_review_count.toLocaleString()}`, label: 'クチコミ' });
-  }
+
   const photoCount = (store.retty_photos?.length ?? 0) + (store.owner_photos?.length ?? 0);
   if (photoCount > 0) {
     out.push({ value: `${photoCount}`, label: '写真' });
   }
+
+  const openDays = store.hours
+    ? ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].filter((d) => {
+        const h = store.hours![d];
+        return !!h && (!!h.open || !!h.close);
+      }).length
+    : 0;
+  if (openDays > 0) {
+    out.push({ value: `${openDays}`, label: '営業日/週' });
+  }
+
   if (out.length < 3) {
     const cats = store.categories && store.categories.length
       ? store.categories
       : (store.category ? [store.category] : []);
     if (cats.length > 0) out.push({ value: `${cats.length}`, label: 'ジャンル' });
   }
+
   return out.slice(0, 3);
 }
 

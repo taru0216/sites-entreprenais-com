@@ -24,13 +24,12 @@ const photos = [...(store.retty_photos ?? []), ...(store.owner_photos ?? [])];
 const heroPhoto = photos[0] ?? null;
 const heroDesc = store.description || store.special_info || '';
 const reservationLink = store.reservation_url || maps;
-const rating = store.retty_rating ?? null;
-const reviewCount = store.retty_review_count ?? null;
+// 公式サイト=一次情報のため、第三者評価（レーティング/クチコミ/レビュー）は表示しない。
+// rating / review_count / reviews は store.json に残っていても表示には使わない。
 const cats = (store.categories && store.categories.length ? store.categories : (store.category ? [store.category] : []));
 const stats = deriveStats(store);
 const menuPhotoMode = hasMenuPhotos(store);
 const features = store.features ?? [];
-const reviews = store.reviews ?? [];
 const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
 ---
 
@@ -44,12 +43,6 @@ const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
         <p class="hero-eyebrow">{store.category}</p>
       )}
       <h1 class="hero-title">{store.name}</h1>
-      {rating != null && (
-        <p class="hero-rating">
-          <span class="hero-rating-star">★ {rating.toFixed(2)}</span>
-          {reviewCount != null && (<span class="hero-rating-count">{reviewCount}{ui.reviews}</span>)}
-        </p>
-      )}
       {heroDesc && (
         <p class="hero-desc">{heroDesc}</p>
       )}
@@ -154,24 +147,10 @@ const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
     </section>
   )}
 
-  <!-- reviews / お客さまの声（任意・データ有時のみ） -->
-  {reviews.length > 0 && (
-    <section id="reviews" class="sec">
-      <div class="section-inner">
-        <h2 class="sec-title" data-animate="rise">{ui.reviews_title}</h2>
-        <p class="sec-sub" data-animate="rise">REVIEWS</p>
-        <div class="review-grid">
-          {reviews.map((r, i) => (
-            <blockquote class="review-card" data-animate="rise" style={`--d:${Math.min(i, 8) * 60}ms`}>
-              {r.rating != null && (<p class="review-stars">{'★'.repeat(Math.max(0, Math.min(5, Math.round(r.rating))))}</p>)}
-              <p class="review-body">{r.body}</p>
-              {r.author && (<footer class="review-author">— {r.author}</footer>)}
-            </blockquote>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
+  <!--
+    公式サイト=一次情報プラットフォームのため、第三者由来のレビュー（お客さまの声）は
+    表示しない。store.json の reviews フィールドは保持するが UI には出さない。
+  -->
 
   <!-- access -->
   <section id="access" class="sec sec-alt">
@@ -246,9 +225,6 @@ const hasFeatured = !!(store.featured_menu && store.featured_menu.length > 0);
         <a href={reservationLink} target="_blank" rel="noopener" class="btn btn-primary">{ui.reserve_button}</a>
         {store.tel && (
           <a href={`tel:${store.tel}`} class="btn btn-outline">{store.tel}</a>
-        )}
-        {store.retty_url && (
-          <a href={store.retty_url} target="_blank" rel="noopener" class="btn btn-ghost">{ui.view_on_retty}</a>
         )}
       </div>
     </div>
