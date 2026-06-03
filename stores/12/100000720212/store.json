@@ -2,7 +2,7 @@
   "retty_id": "100000720212",
   "slug": "store-720212",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:00:29Z",
+  "last_crawled": "2026-06-03T16:07:57Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿 代官亭",
@@ -72,7 +72,635 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "海鮮丼",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979273-63e9d6bcd7abb.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "まぐろバーグ",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/769167-5c8f80f255d18.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "重ねカツ定食",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/3807915-69142f5316159.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ヒレカツとハムカツ定食",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979262-63e9d6a7ea4c8.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "銀鮭西京漬定食",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/2979261-63e9d6a5a1122.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "チキンカツ定食",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4074589-6a13da3bd4ea0.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "アジとイカフライ定食",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4074590-6a13dad5eaca8.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "さわら西京漬定食",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4074591-6a13db282a6c0.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "さば文化干定食",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4074592-6a13db63c68ca.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "目抜きの照り焼き定食",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/3942397-6996788a125c3.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "小田原産 大きいアジフライ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4074585-6a13d9b8a0391-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ハムカツ（二個）",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4074587-6a13d9bab0922-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "イカフライ（三個）",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4074588-6a13d9bbaf4a4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "〈定食ご注文のお客様限定〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4074586-6a13d9b9c4c73-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "〈単品利用〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4007335-69d30dc706c77-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "2023-015",
+      "name": "ルバイヤート 甲州醸し 2023",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4007336-69d30dc88d4f3-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "甲州塚ノ越 ストーンタンク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4007333-69d30dc4210d4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "tout-017",
+      "name": "の音ワイン Tout",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4007334-69d30dc584b65-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "2024-018",
+      "name": "甲州 2024 感謝",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/4007337-69d30dc99c297-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "restaurant-2024-019",
+      "name": "ReSTAURANT 2024",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000720212/archive/769205-5c8f839073902-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "白 シャルドネ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/769205-5c8f839073902-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "赤 カベルネ・ソーヴィニヨン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000720212/archive/769206-5c8f839b6d127-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "中瓶 各種",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000720212/archive/769206-5c8f839b6d127-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "グリーンズフリー（ノンアルコールビール）",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000720212/archive/769205-5c8f839073902-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "不二才",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000720212/archive/769206-5c8f839b6d127-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "女王蜂",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "流川",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "富乃宝山",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "始良",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "白/黒/赤/茜等 各種霧島",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "里の曙",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "いいちこ（深薫／熟成）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "壱岐ゴールド",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "七窪",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "中々",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "小鹿の郷",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "天使の誘惑",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "杜露酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "茉莉花",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "角",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "碧",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "知多",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "響",
+      "price": 1760,
+      "price_raw": "1,760円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "山崎(欠品中)",
+      "price": 26400,
+      "price_raw": "26,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "白州",
+      "price": 26400,
+      "price_raw": "26,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "響",
+      "price": 26400,
+      "price_raw": "26,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "余市",
+      "price": 22000,
+      "price_raw": "22,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "竹鶴",
+      "price": 22000,
+      "price_raw": "22,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "宮城咲",
+      "price": 22000,
+      "price_raw": "22,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "知多",
+      "price": 14850,
+      "price_raw": "14,850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "black-050",
+      "name": "ジムビームBLACK",
+      "price": 8800,
+      "price_raw": "8,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "フォアローゼス黒",
+      "price": 8800,
+      "price_raw": "8,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "フォアローゼス白",
+      "price": 5500,
+      "price_raw": "5,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "すず音(スパークリング三種)",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "白龍 　一合",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "大山　一合",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "加賀鳶",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "ウーロンハイ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "ジャスミンハイ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "茉莉花",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "紅茶ハイ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "内蔵美人ハイ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "生レモンサワー",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "グレフルサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "巨峰サワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "梅酒",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "カルピスサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "コカコーラ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "ジンジャーエール",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "ウーロン茶",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "ジャスミン茶",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "アイスティー（無糖／加糖）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-ice-072",
+      "name": "コーヒー（hot／ice）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "カルピス",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-074",
+      "name": "100%オレンジジュース",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "山崎(欠品中)",
+      "price": 26400,
+      "photo_url": null
+    },
+    {
+      "name": "白州",
+      "price": 26400,
+      "photo_url": null
+    },
+    {
+      "name": "響",
+      "price": 26400,
+      "photo_url": null
+    },
+    {
+      "name": "余市",
+      "price": 22000,
+      "photo_url": null
+    },
+    {
+      "name": "竹鶴",
+      "price": 22000,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100000720212",
   "sns": {

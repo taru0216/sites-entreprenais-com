@@ -2,7 +2,7 @@
   "retty_id": "100000024118",
   "slug": "zona-rosa-024118",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:03:07Z",
+  "last_crawled": "2026-06-03T16:13:55Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ZONA ROSA",
@@ -77,7 +77,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "chips-salsa-000",
+      "name": "★★　〜チップス＆サルサ　Chips＆Salsa~ ★★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2021104-5f92aff1d95ff-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "390-001",
+      "name": "今日作り立てのサルサ各９種 390円～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2028252-5f97a6e44bd85-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "揚げたてのコーンチップス",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2021087-5f92afe016887-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "★サルサ（ソース）は全て自家製です",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2021090-5f92afe3357b1-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "・アボカドデイップ ・チリコンカルネ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2021092-5f92afe52f3a8-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "・フレッシュトマト・チリトマト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2021106-5f92aff363ffb-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "・ハラペーニョ・ダークチリ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2021108-5f92aff5243bb-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "・モレ • サワークリーム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2021100-5f92afee340a8-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "★★　　〜本日の一品お料理〜　　★★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/3803162-690f4a13e39aa.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "自家製ピクルス",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2030675-5f9807af90b53.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "つぶ貝のパン粉焼き ベルデソース",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2697430-62734eafea226.png",
+      "description": null
+    },
+    {
+      "dish_slug": "p-011",
+      "name": "北海道（仙鳳趾産）フレッシュオイスター１P〜",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2021093-5f92afe63a759.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "カクテルソース又はレモンでお召し上がり下さい",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000024118/archive/2697392-6273475db2128.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "産地は仕入れ状況により異なります",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "バッファローウィング４本（超激辛）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "田舎風オムレツ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "自家製ソーセージ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "クリームチーズとハラペーニョのフリット",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "original-salad-018",
+      "name": "★★　〜ソナロッサオリジナルサラダ　/Original Salad〜　　★★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "メキシカンサラダ(アボカド・サボテン入り）",
+      "price": 1150,
+      "price_raw": "1,150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "サボテン、アボガド、トマトとフライドトルティーヤのサラダを",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "スパイスをブレンドしたドレッシングでお召し上がり下さい。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "グリーンサラダ ベーシックビネガードレッシング",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cold-appetizers-023",
+      "name": "★★　〜冷製オードブル/Cold Appetizers〜　★★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "シーフードプラッター（フレッシュオイスター・カクテルシュリンプ・帆立）",
+      "price": 2260,
+      "price_raw": "2,260円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "カクテルソース又はレモンでお召し上がり下さい",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "魚介類（海老・帆立・イカ・タコ）のセビーチェ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "魚介とアボカドのタルタル",
+      "price": 1150,
+      "price_raw": "1,150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "マグロと帆立のマリネ",
+      "price": 1150,
+      "price_raw": "1,150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "生ハムとチーズの盛り合わせ",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cooked-with-tortillas-030",
+      "name": "★〜トルティーヤを使ったお料理/Cooked With Tortillas〜★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "zonarosa-031",
+      "name": "ZONAROSAでしか食べられないこだわりのオリジナルタコス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bbq-032",
+      "name": "BBQローストビーフタコス",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "鮪のフリット",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "厳選牛タンタコス",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "ポークチリタコス",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "ナチョス (チップスとサルサのチーズオーブン焼き)",
+      "price": 1250,
+      "price_raw": "1,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "ダブルチーズ・チリコンカルネ・チリチキンから具材をお選び下さい",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2p-038",
+      "name": "タキートス2P",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "ケサディヤス",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "エンチラーダ (トルティーヤにサルサを巻いたチーズオーブン焼き)",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "・チリコンカルネ・チリチキンからお選び下さい",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1980-042",
+      "name": "ファヒータ 1980円～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1980-043",
+      "name": "ファヒータ 1980円～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "鶏むね肉又は牛リブロースとサルサをトルティーヤに巻いて",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "一緒に召し上がっていただく、お客様オリジナルのタコスです。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-from-the-oven-046",
+      "name": "★★　〜暖かいお料理/Hot From The Oven〜　★★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "海老とマッシュルームのチリソテーガーリックオイル",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "数種のチリスパイスをオリーブオイルに溶かしました。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "沈んだスパイスとオリーブオイルをトーストと一緒に食べるのがお勧めです。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "チリチーズポテト",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "タコイカのソテーチポトレソース",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "ケソフンディード（メキシカンチーズフォンドュ）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "zonarosa-2p-053",
+      "name": "名物！！スペアリブzonarosa風2P~",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "rice-054",
+      "name": "★★　〜ライス / Rice〜　★★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "zonarosa-055",
+      "name": "ジャンバラヤZONAROSA風",
+      "price": 2180,
+      "price_raw": "2,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "ケイジャン料理のジャンバラヤをソナロッサ風にアレンジしています。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "ケイジャンスパイスとチリコンカルネで辛さの効いたテイストになっています。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "タコライス",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "main-dishes-059",
+      "name": "★★　〜メインディッシュ / Main Dishes〜　★★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "牛ロースのグリルアドボソース",
+      "price": 2350,
+      "price_raw": "2,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "牛ロースを伝統的なアドボソースで仕上げました。複雑な辛みが特徴です。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "仔羊のディアブル風 バルサミコソース",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "豚肩ロースのコンフィー（白インゲン煮込み添え）",
+      "price": 1870,
+      "price_raw": "1,870円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "ローストチキン モレソース掛け",
+      "price": 1970,
+      "price_raw": "1,970円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "メキシコ伝統ソース（スパイシーチョコレートソース）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "鮪のケイジャンソテー",
+      "price": 1850,
+      "price_raw": "1,850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dessert-067",
+      "name": "★★デザート/Dessert★★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "ライムのソルベ",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "イチゴのミルフィーユ",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "バナナミチャンガ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "バナナミチャンガ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "本日のアヒージョ",
+      "price": 920,
+      "price_raw": "920円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "ランチメニュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "火・水・木曜日限定お得すぎる秘密のランチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "原価率ギリギリすぎるお得ランチを週３日限定で営業中！！",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "全てのメインにサラダ・スープ付き！☆お替わり無料☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "drink-ok-077",
+      "name": "☆Drinkはアラカルトもご提供出来ますので昼飲みもOK☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "メキシカンジャンバラヤ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "柚香る、メキシカン冷麺",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "炙りスパイシーツナボウル",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "ケサディヤス(チーズとチキンのトルティーヤサンド）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "エンチラダス (メキシコ風チリグラタン）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "牛タンタコス&ローストビーフタコス",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "トッピング",
+      "price": 50,
+      "price_raw": "50円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "※パクチー※ワカモレ（アボカドディップ）※ハラペーニョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "※チポトレ（薫製チリ）※サワークリーム※サルサメヒカーナ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "ソフトドリンク",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "・コーヒー・紅茶・コーラ・ジンジャーエール・",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "オレンジジュース・グレープフルーツジュース・ウーロン茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "ランチビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "サントリーモルツ",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "コロナビール",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "グラスワイン赤・白",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "生ビール",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "モルツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "プレミアムモルツ",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "ビアピッチャー４.５杯分",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mexican-etc-098",
+      "name": "★豊富なMEXICANビールetc,,,",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "・テカテ（メキシコ）",
+      "price": 830,
+      "price_raw": "830円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "プレミアムモルツ",
+      "price": 2500,
+      "photo_url": null
+    },
+    {
+      "name": "牛ロースのグリルアドボソース",
+      "price": 2350,
+      "photo_url": null
+    },
+    {
+      "name": "シーフードプラッター（フレッシュオイスター・カクテルシュリンプ・帆立）",
+      "price": 2260,
+      "photo_url": null
+    },
+    {
+      "name": "ジャンバラヤZONAROSA風",
+      "price": 2180,
+      "photo_url": null
+    },
+    {
+      "name": "仔羊のディアブル風 バルサミコソース",
+      "price": 2100,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100000024118",
   "sns": {

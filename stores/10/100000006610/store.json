@@ -2,7 +2,7 @@
   "retty_id": "100000006610",
   "slug": "coci-006610",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:35:53Z",
+  "last_crawled": "2026-06-03T16:05:26Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "coci",
@@ -66,7 +66,251 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "トード マン クン(海老のすり身揚げ スイートチリソース)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ガイヤーン コーラート 竹の子のソテー添え（岩手県産いわい鶏のタイ式ローストバイマックル風味）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ソムタム(青パパイヤのサラダ)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ムーパロー（タイ式豚の角煮）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ヤム ウンセン（海老・香菜の春雨サラダ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "トムヤムクン（海老と香菜入りタイ式スープ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "トムカーガイ（ココナッツと鶏肉の白いスープ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ブラックオリーブの自家製マリネ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "田舎風パテ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "鮮魚のカルパッチョ 柚子ヴィネグレットソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "真鱈と春菊のチュプチュプ ストウブ仕立て",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "バゲット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "パクチーサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "野菜のバーニャカウダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "冬野菜のシーザーサラダ ベーコンのヴィネグレットとポーチドエッグ添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "プーニム パット ポン カリー（ソフトシェルクラブと卵のカレー炒め）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "ムー ムアン ヌン パック（岩中豚のタイハーブ塩蒸し 自家製ナンプリックパオ添え）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "牛サーロインのグリルステーキ グリーンペッパーとカピのソース フライドポテト添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "クエティオ パッタイ(タイ式海老入り焼きビーフン）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "カアウ ガイ ガパオ（鶏挽肉バジル炒めとジャスミンライス 目玉焼きのせ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "温かいバナナケーキ バニラアイスとカオニャオ添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "日替りランチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "カオマンガイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "カアウ ガイ ガパオ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "ゲーン キヨワーン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "クエティオ・パッタイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "16-00l-o-026",
+      "name": "ブランチセット(土日祝日） （～16:00L.O.）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "トード マン クン(海老のすり身揚げ スイートチリソース)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ガイヤーン コーラート 竹の子のソテー添え（岩手県産いわい鶏のタイ式ローストバイマックル風味）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ソムタム(青パパイヤのサラダ)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ムーパロー（タイ式豚の角煮）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ヤム ウンセン（海老・香菜の春雨サラダ）",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100001300519",
   "slug": "store-300519",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:49:04Z",
+  "last_crawled": "2026-06-03T16:15:12Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "なすび亭",
@@ -61,7 +61,23 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "8-000",
+      "name": "おまかせ料理  8品",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "おまかせ料理  8品",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

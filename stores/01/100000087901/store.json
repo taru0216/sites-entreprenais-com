@@ -2,7 +2,7 @@
   "retty_id": "100000087901",
   "slug": "the-singleton-087901",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:23:13Z",
+  "last_crawled": "2026-06-03T15:57:10Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "The Singleton",
@@ -34,7 +34,683 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "自家製ピクルス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "国産オイスターのオリーブオイル焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ボタン海老のレモンマリネ（ケッパーとスペアミント風味）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "茹でタコのマリネ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "北海大アサリのマリネ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "厳選ハモンセラーノ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "厳選チーズの盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "海の幸と有機・無農薬野菜のバーニャカウダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "魚介たっぷりのアラビアータ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "サーモンとズッキーニのクリームパスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "甘エビとレモンのリゾット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "日向産赤鶏のソテー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "course-012",
+      "name": "Course",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "8-013",
+      "name": "8名様から貸切パーティープラン　お一人様",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "gin-tonic-014",
+      "name": "Gin & Tonic",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "gimlet-015",
+      "name": "Gimlet",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "gin-fizz-016",
+      "name": "Gin Fizz",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "martini-017",
+      "name": "Martini",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "negroni-018",
+      "name": "Negroni",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "singapole-sling-019",
+      "name": "Singapole Sling",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "moscow-mule-020",
+      "name": "Moscow Mule",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "vodka-tonic-021",
+      "name": "Vodka & Tonic",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "salty-dog-022",
+      "name": "Salty Dog",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bloody-mary-023",
+      "name": "Bloody Mary",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mojito-daiquili-024",
+      "name": "Mojito / Daiquili",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cuba-libre-025",
+      "name": "Cuba Libre",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "xyz-026",
+      "name": "XYZ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "margarita-027",
+      "name": "Margarita",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tequila-sunrise-028",
+      "name": "Tequila Sunrise",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "matador-029",
+      "name": "Matador",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "side-car-030",
+      "name": "Side Car",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "manhattan-031",
+      "name": "Manhattan",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mint-julep-032",
+      "name": "Mint Julep",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "original-bloody-mary-033",
+      "name": "Original Bloody Mary",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "original-vodka-tonic-034",
+      "name": "Original Vodka Tonic",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "gimlet-highball-035",
+      "name": "Gimlet Highball",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "芍薬",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dear-mr-president-037",
+      "name": "Dear Mr.President",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "strawberry-038",
+      "name": "Strawberry",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "blackberry-039",
+      "name": "Blackberry",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "raspberry-040",
+      "name": "Raspberry",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "blueberry-041",
+      "name": "Blueberry",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "litchi-042",
+      "name": "Litchi",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "watermelon-043",
+      "name": "Watermelon",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "melon-044",
+      "name": "Melon",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cherry-045",
+      "name": "Cherry",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "blackcherry-046",
+      "name": "Blackcherry",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dragonfruit-047",
+      "name": "Dragonfruit",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "peach-048",
+      "name": "Peach",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "apple-049",
+      "name": "Apple",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pione-050",
+      "name": "Pione",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "fig-tree-051",
+      "name": "Fig tree",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "kiwifruit-052",
+      "name": "Kiwifruit",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "黒龍",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "梵",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "the-macallan-055",
+      "name": "The Macallan",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "talisker-056",
+      "name": "Talisker",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glenfarclas-057",
+      "name": "Glenfarclas",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glenmorangie-058",
+      "name": "Glenmorangie",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "rosebank-059",
+      "name": "Rosebank",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "jameson-060",
+      "name": "Jameson",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tullamore-dew-061",
+      "name": "Tullamore Dew",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "old-grand-dad-062",
+      "name": "Old Grand-Dad",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "i-w-harper-063",
+      "name": "I.W.Harper",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "four-roses-064",
+      "name": "Four Roses",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "maker-s-mark-065",
+      "name": "Maker’s Mark",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "canadian-club-066",
+      "name": "Canadian Club",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "山崎",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "白州",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "竹鶴",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "余市",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "宮城峡",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "駒ヶ岳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "today-s-champagne-073",
+      "name": "Today’s Champagne",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "marie-weiss-074",
+      "name": "Marie Weiss",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bauser-075",
+      "name": "Bauser",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pol-roger-076",
+      "name": "Pol Roger",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "gatinois-077",
+      "name": "Gatinois",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "christian-bourmault-078",
+      "name": "Christian Bourmault",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "paul-bara-079",
+      "name": "Paul Bara",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "jacquesson-cuvee-080",
+      "name": "Jacquesson Cuvee",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "自家製ピクルス",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "国産オイスターのオリーブオイル焼き",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ボタン海老のレモンマリネ（ケッパーとスペアミント風味）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "茹でタコのマリネ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "北海大アサリのマリネ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

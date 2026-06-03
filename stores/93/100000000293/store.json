@@ -2,7 +2,7 @@
   "retty_id": "100000000293",
   "slug": "store-000293",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:12:41Z",
+  "last_crawled": "2026-06-03T17:30:37Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "越後屋喜八郎",
@@ -76,7 +76,835 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "■　大魚焼き　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1101997-5d70ef894bb66.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "アジの開き",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1103595-5d71eba85a126.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "さんまの開き",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000000293/archive/1102005-5d70ef8edda96.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "さんまのみりん干し",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "さばの文化干し",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "さばのみりん干し",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "大羽いわし",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "サーモンハラス",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "最高！あこう鯛",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "黒ムツ西京焼き",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "にしん開き",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "しまほっけ　半身",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-012",
+      "name": "しまほっけ　1尾",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "最強！厚切り目抜け西京焼き",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "厚切り銀鮭",
+      "price": 790,
+      "price_raw": "790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "トロ真ホッケ開き",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "旨味抜群！つぼ鯛",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "ぶりの天塩焼き",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "金目鯛開き",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "銀だら西京焼き",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "さばのいしる醤油開き",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "関さば開き",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "一度は食べたい！のどぐろ開き",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "特大！のどぐろ開き",
+      "price": 3000,
+      "price_raw": "3,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "■　海鮮焼き　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "こまい",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "はたはた",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-027",
+      "name": "本ししゃも(オス)　2本",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "えいひれ炙り",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "肝入り！いか丸干し",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "八戸いか一夜干し",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "■　炭火焼野菜　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "ネギ焼き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "アスパラ焼き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "エリンギ茸のバター醤油焼き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "じゃがバター焼き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "きゃべつ焼き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "まこも茸の炙り",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "■　一品料理　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "枝豆",
+      "price": 290,
+      "price_raw": "290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "最高！干物ポテトサラダ",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "冷トマトのねぎ塩だれ",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "塩昆布きゅうり",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "炙り〆さば",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "蛍イカ沖漬け",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "活タコとわかめの酢の物",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "薬味たっぷり冷奴",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "チーズの醤油漬け",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "御新香盛り",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "なめろう",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-050",
+      "name": "5種の野菜サラダ",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "ベーコンとレタスのサラダ",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "青のり豆腐",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "島らっきょ醤油漬け",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "牛すじ煮込み",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "アサリの酒蒸し風",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "アサリのバター煮",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-057",
+      "name": "■　干物串焼き　■　串のご注文は1種2本より承ります",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-058",
+      "name": "干物おまかせ串5本盛り",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "あじの開き串",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "あこう鯛串",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "さんまの開き串",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "さんまのみりん干し串",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "さばのみりん干し串",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "さばの文化干し串",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "サーモン　ハラス串",
+      "price": 190,
+      "price_raw": "190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "■　肉焼き　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "まこも茸肉巻き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "えのき肉巻き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "ベーコンエッグ",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "万ネギ肉巻き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "やきそば肉巻き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "日替わり巻き",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "レタス肉巻き",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "■　肉焼き　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-075",
+      "name": "焼鳥串4本盛り",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "旨豚！岩中豚肩ロース天塩焼",
+      "price": 790,
+      "price_raw": "790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "大山鶏もも肉香味炙り",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-078",
+      "name": "ソーセージ3種盛り",
+      "price": 790,
+      "price_raw": "790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "炙り旨みベーコン",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "牛ハラミ天塩焼き",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "■　炭火焼一品焼き　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "栃尾の油揚げ炙り",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "半分",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "さつま揚げ炙り",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "まこも茸の肉巻き炙り",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "まぐろのはらも",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "八戸いか一夜干し",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "ねぎとろ丼",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "■　飯物　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "干物まぜ御飯　サーモン／さば／さんま　(干物選択可)",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "御飯",
+      "price": 150,
+      "price_raw": "150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "お味噌汁",
+      "price": 150,
+      "price_raw": "150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "銀鮭おにぎり",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "豚味噌おにぎり",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "干物茶漬け　銀鮭／さば／あじ　(干物選択可)",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "■　喜八郎定食　【魚】　■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "20-097",
+      "name": "20ｃｍ超！大羽いわし定食",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "あじの開き定食",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "しまほっけ定食　半身",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "特大！のどぐろ開き",
+      "price": 3000,
+      "photo_url": null
+    },
+    {
+      "name": "一度は食べたい！のどぐろ開き",
+      "price": 1800,
+      "photo_url": null
+    },
+    {
+      "name": "関さば開き",
+      "price": 1200,
+      "photo_url": null
+    },
+    {
+      "name": "しまほっけ　1尾",
+      "price": 990,
+      "photo_url": null
+    },
+    {
+      "name": "旨味抜群！つぼ鯛",
+      "price": 990,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

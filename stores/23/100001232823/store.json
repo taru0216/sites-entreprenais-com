@@ -2,7 +2,7 @@
   "retty_id": "100001232823",
   "slug": "store-232823",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:19:57Z",
+  "last_crawled": "2026-06-03T16:19:25Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "バル・ペピート",
@@ -71,7 +71,251 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ビーツとリンゴのサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "サバの酢漬け",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "カモの冷製、多摩川梨のコンポート添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "スペイン産　マグロの生ハムとトマト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "自家製レバーペースト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "イベリコ豚の生ハムコロッケ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "豚の血と米入り腸詰め",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "スペイン産木の子のスクランブルエッグ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "秋鮭のソテー　カタルーニャ風",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "牛胃袋の煮込みマドリード風",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "スペイン風ポテトオムレツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "小海老のガーリックソテー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "マッシュルームの鉄板焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "アンティーチョークのソテー生ハム風味",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "豚耳の鉄板焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "ししとうのフリット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "ポテトフライの辛口トマトソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "小イカのガーリックソテー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "生ビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "マオウ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "サングリア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "カバ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "シードラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ティント・デ・ベラーノ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "レブヒート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "コカ・コーラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "ジンジャエール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ビーツとリンゴのサラダ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "サバの酢漬け",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "カモの冷製、多摩川梨のコンポート添え",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "スペイン産　マグロの生ハムとトマト",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "自家製レバーペースト",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

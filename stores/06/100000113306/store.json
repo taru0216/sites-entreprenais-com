@@ -2,7 +2,7 @@
   "retty_id": "100000113306",
   "slug": "store-113306",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:05:52Z",
+  "last_crawled": "2026-06-03T16:01:25Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿かつ彩アトレ恵比寿店",
@@ -63,7 +63,62 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "かつ彩ご膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "選べる彩りご膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "とろろ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ドリンク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "かつ彩ご膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "選べる彩りご膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "とろろ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ドリンク",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

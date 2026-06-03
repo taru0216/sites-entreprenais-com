@@ -2,7 +2,7 @@
   "retty_id": "100000860322",
   "slug": "store-860322",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:44:16Z",
+  "last_crawled": "2026-06-03T16:18:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "焼貝あこや 恵比寿店",
@@ -69,7 +69,163 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "バクダン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "クリームチーズと貝のミルフィーユ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "出汁巻き玉子",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "はまぐり酒蒸し",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "貝出汁汁茶碗蒸し",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "貝と季節野菜の中華蒸し",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ほっき貝 酒盗焼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "貝の磯辺焼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "貝のとろろネギ焼 チヂミ風",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "ホタテステーキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "大浅利ステーキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "肝味噌おにぎり",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "貝出汁茶漬け",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "あんかけチャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "貝中華丼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "浅利味噌汁",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "バクダン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "クリームチーズと貝のミルフィーユ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "出汁巻き玉子",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "はまぐり酒蒸し",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "貝出汁汁茶碗蒸し",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

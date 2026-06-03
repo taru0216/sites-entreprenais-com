@@ -2,7 +2,7 @@
   "retty_id": "100001311337",
   "slug": "store-311337",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:15:08Z",
+  "last_crawled": "2026-06-03T16:33:58Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "えびす坂 鳥幸",
@@ -76,7 +76,499 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "◆至極の焼鳥◆せせり",
+      "price": 420,
+      "price_raw": "420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "◆至極の焼鳥◆丸はつ",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "◆至極の焼鳥◆砂肝",
+      "price": 420,
+      "price_raw": "420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "◆至極の焼鳥◆やげん",
+      "price": 420,
+      "price_raw": "420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "◆至極の焼鳥◆ふりそで",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "◆至極の焼鳥◆かしわ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "◆至極の焼鳥◆かわ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "◆至極の焼鳥◆手羽先",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "◆至極の焼鳥◆ちょうちん",
+      "price": 630,
+      "price_raw": "630円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "◆至極の焼鳥◆極上レバー",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "◆至極の焼鳥◆しいたけ",
+      "price": 520,
+      "price_raw": "520円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "◆至極の焼鳥◆ぎんなん",
+      "price": 430,
+      "price_raw": "430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "◆至極の焼鳥◆ミニトマト",
+      "price": 430,
+      "price_raw": "430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "◆◆逸品◆◆\t自家製白レバームース",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "◆◆逸品◆◆リーフサラダ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "◆◆逸品◆◆胸肉と胡瓜の山葵マリネ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "◆◆逸品◆◆出汁巻き玉子",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "◆◆　〆の御食事　◆◆八ヶ岳玉子の親子丼（並）",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "◆◆　〆の御食事　◆◆八ヶ岳玉子の卵かけご飯",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "◆◆　甘味　◆◆自家製濃厚プリン",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "◆◆　甘味　◆◆氷菓子",
+      "price": 420,
+      "price_raw": "420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "「鳥幸名物　八ヶ岳卵の親子丼」",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "そぼろ重",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "焼鳥重",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-sparkling-024",
+      "name": "（Glass Sparkling）モンムソー　クレマン・ド・ロワール",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-white-wine-025",
+      "name": "（Glass White Wine）シャトー　デ　ゼササール",
+      "price": 1040,
+      "price_raw": "1,040円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-white-wine-g-i-026",
+      "name": "（Glass White Wine）まるき葡萄酒 甲州G.I.山梨",
+      "price": 1160,
+      "price_raw": "1,160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-white-wine-027",
+      "name": "（Glass White Wine）フォルラーツ　リースリング",
+      "price": 1160,
+      "price_raw": "1,160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-white-wine-028",
+      "name": "（Glass White Wine）ブエナヴィスタ　ソノマ　シャルドネ",
+      "price": 1420,
+      "price_raw": "1,420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-red-wine-029",
+      "name": "（Glass Red Wine）ペンフォールド　シラーズ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-red-wine-030",
+      "name": "（Glass Red Wine）セレステ　クリアンサ　テンプラニーリョ",
+      "price": 1260,
+      "price_raw": "1,260円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-red-wine-031",
+      "name": "（Glass Red Wine）ハーン　カベルネ・ソーヴィニィン",
+      "price": 1310,
+      "price_raw": "1,310円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-red-wine-032",
+      "name": "（Glass Red Wine）ドメーヌ　コワイヨ",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "champagne-033",
+      "name": "（Champagne）ダニエル・デュモン　グラン・レゼルヴ　ブリュット",
+      "price": 12500,
+      "price_raw": "12,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "champagne-034",
+      "name": "（Champagne）ローランペリエ　ブリュット",
+      "price": 17500,
+      "price_raw": "17,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "champagne-035",
+      "name": "（Champagne）ドラピエ　カルト・ドール",
+      "price": 19800,
+      "price_raw": "19,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "champagne-036",
+      "name": "（Champagne）ローランペリエ　ロゼ",
+      "price": 38500,
+      "price_raw": "38,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "champagne-037",
+      "name": "（Champagne）クリュッグ",
+      "price": 60000,
+      "price_raw": "60,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sparkling-wine-038",
+      "name": "（Sparkling Wine）クレマン　ド　ブルゴーニュ　シモネ　フェブル",
+      "price": 6000,
+      "price_raw": "6,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sparkling-wine-039",
+      "name": "（Sparkling Wine）スマロッカ　カヴァ　ブジョニス　ブリュット",
+      "price": 5800,
+      "price_raw": "5,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sparkling-wine-040",
+      "name": "（Sparkling Wine）嘉　シャルドネ　高畠ワイナリー",
+      "price": 7200,
+      "price_raw": "7,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "white-wine-041",
+      "name": "（White Wine）ソーヴィニョン・ブラン各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "white-wine-042",
+      "name": "（White Wine）リースリング　＆　ゲヴェルツトラミネール各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "white-wine-043",
+      "name": "（White Wine）シャルドネ各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "red-wine-044",
+      "name": "（Red Wine）カベルネ・ソーヴィニョン　＆　メルロー各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "red-wine-045",
+      "name": "（Red Wine）シラー　＆　グルナッシュ各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "red-wine-046",
+      "name": "（Red Wine）マルベック各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "red-wine-047",
+      "name": "（Red Wine）ジンファンデル　＆　プリミティーヴォ各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "red-wine-048",
+      "name": "（Red Wine）サンジョベーゼ　＆　ネッビオーロ各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "red-wine-049",
+      "name": "（Red Wine）ピノノワール各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "（日本酒）くどき上手　ばくれん　超辛口",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "（日本酒）新政　亜麻猫　　白麹仕込み純米酒",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "（日本酒）澤屋まつもと　　守破離　　純米",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "（日本酒）竹鶴　　　純米",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "（日本酒）羽根屋　　純米大吟醸",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "（日本酒）鳳凰美田　冷卸　　純米吟醸",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "（日本酒）寫樂　純愛仕込み",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-3-057",
+      "name": "（日本酒）瀨祭　磨き2割3分　純米大吟醸",
+      "price": 3000,
+      "price_raw": "3,000円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "（Champagne）クリュッグ",
+      "price": 60000,
+      "photo_url": null
+    },
+    {
+      "name": "（Champagne）ローランペリエ　ロゼ",
+      "price": 38500,
+      "photo_url": null
+    },
+    {
+      "name": "（Champagne）ドラピエ　カルト・ドール",
+      "price": 19800,
+      "photo_url": null
+    },
+    {
+      "name": "（Champagne）ローランペリエ　ブリュット",
+      "price": 17500,
+      "photo_url": null
+    },
+    {
+      "name": "（Champagne）ダニエル・デュモン　グラン・レゼルヴ　ブリュット",
+      "price": 12500,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

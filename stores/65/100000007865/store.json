@@ -2,7 +2,7 @@
   "retty_id": "100000007865",
   "slug": "store-007865",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:36:34Z",
+  "last_crawled": "2026-06-03T17:00:32Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "米福",
@@ -73,7 +73,307 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "コースでお召し上がりいただけるお米のご紹介",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "飯野さんのミルキークイーン〈山形県東田川郡三川町産〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "特別栽培米 飛騨コシヒカリ その一粒のために。〈岐阜県高山市産〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "小田又の里 合鴨農法 佐原さんのきぬむすめ〈島根県益田市美都町産〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "特別栽培米 阿久津さんのゆうだい２１〈栃木県大田原市産〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "自然栽培米 實取さんの旭一号〈熊本県菊池市産〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "穴子の炊き込みごはん（期間限定）",
+      "price": 3500,
+      "price_raw": "3,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "※表示価格は税込価格です。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-008",
+      "name": "※当店では、ディナータイムに限り10％のサービス料を頂戴しております。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "お昼のコース　※詳細はコースページをご参照ください",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "お昼のコース（主菜：のどぐろの塩焼き）　※詳細はコースページをご参照ください",
+      "price": 4200,
+      "price_raw": "4,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "サッポロ 黒ラベル（中タンブラー）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "サッポロ　ラガー（中瓶）",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "ノンアルコールビール（小瓶）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "250ml-014",
+      "name": "とんぼスパークリング 微発泡・純米にごり酒 250ml〈神奈川〉",
+      "price": 1750,
+      "price_raw": "1,750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "テタンジェ ブリュット レゼルヴ",
+      "price": 18000,
+      "price_raw": "18,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "生ウーロンハイ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "生レモンサワー",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "大那　梅子",
+      "price": 720,
+      "price_raw": "720円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "鉾杉 柚子にごり酒",
+      "price": 720,
+      "price_raw": "720円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "中々（麦）",
+      "price": 730,
+      "price_raw": "730円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "富乃宝山（芋）",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "デュワーズ ホワイトラベル",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ルバイヤート　甲州シュールリー〈山梨〉",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "東一（純米酒）〈佐賀〉",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "澤屋まつもと 守破離 純米酒 五百万石〈京都〉",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "一白水成 純米吟醸 美山錦〈秋田〉",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "上喜元 赤ラベル 雄町 中取り 生もと純米吟醸〈山形〉",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "生ウーロン茶",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "りんごジュース",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "ワイナリーこだわりのグレープジュース",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "ジンジャーエール",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "※表示価格は税込価格です。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-033",
+      "name": "※当店では、ディナータイムに限り10％のサービス料を頂戴しております。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "テタンジェ ブリュット レゼルヴ",
+      "price": 18000,
+      "photo_url": null
+    },
+    {
+      "name": "お昼のコース（主菜：のどぐろの塩焼き）　※詳細はコースページをご参照ください",
+      "price": 4200,
+      "photo_url": null
+    },
+    {
+      "name": "穴子の炊き込みごはん（期間限定）",
+      "price": 3500,
+      "photo_url": null
+    },
+    {
+      "name": "お昼のコース　※詳細はコースページをご参照ください",
+      "price": 2800,
+      "photo_url": null
+    },
+    {
+      "name": "とんぼスパークリング 微発泡・純米にごり酒 250ml〈神奈川〉",
+      "price": 1750,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

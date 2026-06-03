@@ -2,7 +2,7 @@
   "retty_id": "100001652990",
   "slug": "lip-ebisu-652990",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:01:40Z",
+  "last_crawled": "2026-06-03T17:28:13Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "LIP EBISU ‐リップ 恵比寿店",
@@ -81,7 +81,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "◆肉料理・パスタ・ご飯物◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2841360-631aa0801ba6e.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "牛ハラミのステーキ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2836546-6315b0d95d663.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "手ごねしっかりハンバーグ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2841359-631aa07d8405b.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "砂肝のアヒージョ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/3206958-6570ad5faab3e.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "10-004",
+      "name": "10種類の野菜アヒージョ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2794051-62e12fef85db7.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "讃岐うどんのもっちりカルボナーラ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2794080-62e13ac4ab94f.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "野菜たっぷりチーズドリア",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/3308036-6640e25656073.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "◆女性限定無料メニュー◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/3206994-6570af4459725.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "さっぱり野菜のピクルス ☆★☆女性限定０円☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "枝豆 ☆★☆女性限定０円☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "漬物盛り ☆★☆女性限定０円☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "トマトとチーズのカプレーゼ ☆★☆女性限定０円☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ポッキー ☆★☆女性限定０円☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "ミックスナッツ ☆★☆女性限定０円☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "ポップコーン ☆★☆女性限定０円☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "◆ピザ・ラーメン・うどん◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "マリナーラ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "トマト＆モッツァレラチーズのマルゲリータ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ソーセージ＆ポテトのピザ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ラーメン塩",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "ラーメン醤油",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ラーメン味噌",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "本格辛ネギ塩ラーメン",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "辛ネギ冷やし稲庭うどん",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "本格冷やし稲庭うどん",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "◆前菜・おつまみ・一品料理◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "生ハム",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "チーズ盛り合わせ",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "さっぱり野菜のピクルス",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "枝豆",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "漬物盛り",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "トマトとチーズのカプレーゼ",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "魚介シーザーサラダ",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "彩りバーニャカウダ",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "システム料金表",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "時間制限なし 飲み放題【男性】",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "プレミアム飲み放題",
+      "price": 3500,
+      "price_raw": "3,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "時間制限なし 飲み放題【女性】",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "プレミアム飲み放題",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "◆ビール◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "キリン一番搾り/シャンディガフ/レッドアイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "ディーゼル/パナシェ/カシスビア―",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "700-042",
+      "name": "無料/単品オーダー700円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "ハイネケン/コロナ",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "◆ハイボール◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "ホワイトホースハイボール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "富士山麓 ハイボール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "フォアローゼス ハイボール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "フォアローゼスブラックハイボール",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "ジャックダニエル",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "ジャックダニエルハニー ハイボール",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "山崎ハイボール",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "白州ハイボール",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-053",
+      "name": "マッカラン12年ハイボール",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "◆ミニボトル◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "スミノフアイス/ジーマ/ハイネケン/コロナ",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "◆ウイスキー◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "ロック/水割り/ハイボール/ジンジャー/コークハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "富士山麓",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "ホワイトホース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "フォアローゼス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "フォアローゼスブラック",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-062",
+      "name": "マッカラン12年",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "ジャックダニエル",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "ジャックハニー",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "白州",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "山崎",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "◆ウォッカ◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "ウォッカトニック/ルシアンコーク/モスコミュール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "スクリュードライバー/ブルドッグ/ブラッディーメアリー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "ブラックルシアン/ゴッドマザー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "カミカゼ/ガルフストリーム",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "コスモポリタン/バラライカ/チチ",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "◆ジン◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "ジントニック/ジンバック/ジンリッキー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "オレンジブロッサム/ジンライム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "ホワイトレディー",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "◆ラム◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "ラムトニック/キューバリブレ（ラムコーク）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "ラムオレンジ/ラムジンジャー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "xyz-080",
+      "name": "XYZ /ピニャコラーダ",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "◆テキーラ◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "テキーラトニック/メキシコーク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "テキーラバック/テキーラサンライズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "テキーラストローク/ストローハット/エルディアブロ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "マタドール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "◆焼酎◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "レモンサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "グレープフルーツサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "ジャスミンハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "ティーハイ（紅茶ハイ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "緑茶ハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "ウーロンハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "カルピスサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "トマトハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "◆梅酒◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "梅酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "バック/水割り/ソーダ/ロック",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "◆ワイン◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "白ワイン/赤ワイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "プレミアム飲み放題",
+      "price": 3500,
+      "photo_url": null
+    },
+    {
+      "name": "時間制限なし 飲み放題【男性】",
+      "price": 2500,
+      "photo_url": null
+    },
+    {
+      "name": "プレミアム飲み放題",
+      "price": 2500,
+      "photo_url": null
+    },
+    {
+      "name": "時間制限なし 飲み放題【女性】",
+      "price": 1500,
+      "photo_url": null
+    },
+    {
+      "name": "牛ハラミのステーキ",
+      "price": 900,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001652990/archive/2836546-6315b0d95d663.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001652990",
   "sns": {

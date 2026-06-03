@@ -2,7 +2,7 @@
   "retty_id": "100000254668",
   "slug": "store-254668",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:41:29Z",
+  "last_crawled": "2026-06-03T17:03:34Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "吉柳",
@@ -70,7 +70,23 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "朝カレー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "朝カレー",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

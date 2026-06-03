@@ -2,7 +2,7 @@
   "retty_id": "100000000097",
   "slug": "cona-000097",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:18:18Z",
+  "last_crawled": "2026-06-03T17:34:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "CONA 恵比寿店",
@@ -84,7 +84,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "pizza-000",
+      "name": "【PIZZA-ピザ-】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663273-5eae376ad8c47.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "マルゲリータ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663300-5eae3feb2c677.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "シーフード",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663280-5eae376f7a68d.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ミックス",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000000097/archive/1663281-5eae377053878.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "生ハムと半熟卵",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "アンチョビとブラックオリーブ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "激辛メキシカン",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "アンチョビ＆クリームチーズ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "アスパラマスタード",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "アスパラベーコン",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ハワイアン",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ガーリック＆チョリソー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "しらすガーリック",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "スモークサーモンとクリームチーズ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "たらポテおもち",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "バジル＆マスカルポーネ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "たらマヨシーフード",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "イタリアンバジル",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "バジルシーフード",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "てりやきチキン",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "海老マヨピザ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "茄子とベーコンのミートソース",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "下町スペシャル",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ベジタリアン",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "クリームチーズ＆トマト",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "きのこ＆ベーコン",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "アボカド＆トマト",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "ゴルゴンゾーラ メープルシロップ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "ガーリックチーズ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "洋梨とマスカルポーネ メープルシロップ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "チョコバナナアイス",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "antipasto-031",
+      "name": "【ANTIPASTO〜前菜〜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "色々野菜のピクルス",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-033",
+      "name": "チーズ3種盛り合わせ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "牛肉のカルパッチョ〜麹漬け仕込み〜",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "真ダコとセロリのマリネ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "ドライフルーツとミックスナッツ盛り",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "フライドポテト（トリュフ塩/とろーりチーズ/チリマヨ）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "生マッシュルームと魚介のアンチョビオイルソテー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "ハモン・セラーノ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "パンチェッタ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "スペック",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "生ハムと季節フルーツのマスカルポーネ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "ハマグリ白ワイン蒸し",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "熟成生ハムの盛り合わせ",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "明太子としらすのアヒージョ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "vegetable-046",
+      "name": "【VEGETABLE〜サラダ〜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "海老とアボカドのサラダ（自家製濃厚ドレッシング/シーザードレッシング）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "アボカドとサーモンのディップ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "ほうれん草と生マッシュルームの厚切りベーコンのサラダ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "しらすとキャベツのアンチョビソテー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "on-the-051",
+      "name": "ポテトサラダon theベーコン",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sidedish-052",
+      "name": "【SIDEDISH 〜サイドメニュー〜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "ガーリックシュリンプ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "トリュフ香るチーズコロッケ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "若鶏の香草グリル",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "激辛チョリソー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "big-057",
+      "name": "肉屋のBIGソーセージ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-058",
+      "name": "3種のソースから選べる鶏の唐揚げ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "肉汁デミメンチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "200-060",
+      "name": "明太子としらすのアヒージョ(+￥200でバケット付き)",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "200-061",
+      "name": "有頭エビとブロッコリーのアヒージョ（＋￥200でバケットを追加できます。）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "ハマグリ白ワイン蒸し",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pasta-063",
+      "name": "【PASTA-パスタ-】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "たっぷりしらすとあおさのペペロンチーノ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dessert-065",
+      "name": "【DESSERT〜デザート〜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "フォンダンショコラ",
+      "price": 418,
+      "price_raw": "418円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "北海道チーズケーキ ブリュレ風味",
+      "price": 418,
+      "price_raw": "418円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "自家製ティラミス",
+      "price": 418,
+      "price_raw": "418円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "濃厚プリン",
+      "price": 418,
+      "price_raw": "418円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pizza-070",
+      "name": "【pizza】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "マルゲリータ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "生ハムと半熟卵",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "アンチョビとブラックオリーブ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "メキシカン",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "スモークサーモンとクリームチーズ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "てりやきちきん",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "ゴルゴンゾーラメープルシロップピザ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "バジルマスカルポーネ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "lunch-079",
+      "name": "【lunch】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "手ごねチーズハンバーグプレート",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "手ごね和風ハンバーグプレート",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "ジューシーチキン南蛮プレート",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "低温熟成豚の肉厚カツカレー",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "たっぷりシーフードドリア",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "渡り蟹のトマトクリームスープパスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sidedish-086",
+      "name": "【sidedish】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-087",
+      "name": "フライドポテト（トリュフ塩orとろーりチーズ）",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "ガーリックシュリンプ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "熟成生ハムの切り落とし",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "真ダコとセロリのマリネ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "大人のポテサラ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ny-092",
+      "name": "鶏のからあげ―NYスタイル―",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "【ランチドリンクセット】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-094",
+      "name": "100%オレンジ",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "ジンジャーエール",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "コカ コーラ",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ice-hot-097",
+      "name": "コーヒー（ICE・HOT）",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "ジャスミン茶",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "ウーロン茶",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "熟成生ハムの盛り合わせ",
+      "price": 1078,
+      "photo_url": null
+    },
+    {
+      "name": "手ごねチーズハンバーグプレート",
+      "price": 800,
+      "photo_url": null
+    },
+    {
+      "name": "手ごね和風ハンバーグプレート",
+      "price": 800,
+      "photo_url": null
+    },
+    {
+      "name": "ジューシーチキン南蛮プレート",
+      "price": 800,
+      "photo_url": null
+    },
+    {
+      "name": "低温熟成豚の肉厚カツカレー",
+      "price": 800,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

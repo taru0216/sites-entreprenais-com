@@ -2,7 +2,7 @@
   "retty_id": "100000037532",
   "slug": "store-037532",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:07:13Z",
+  "last_crawled": "2026-06-03T16:27:52Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "風花",
@@ -67,7 +67,75 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "焼き魚、揚げ物定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "直送野菜の盛合せ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "マカロニサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "厚焼き玉子",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "具だくさんやっこ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "焼き魚、揚げ物定食",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "直送野菜の盛合せ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "マカロニサラダ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "厚焼き玉子",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "具だくさんやっこ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

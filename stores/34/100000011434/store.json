@@ -2,7 +2,7 @@
   "retty_id": "100000011434",
   "slug": "store-011434",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:12:06Z",
+  "last_crawled": "2026-06-03T16:30:09Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "京都まろまろ 恵比寿本店",
@@ -77,7 +77,83 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "豚ロースのまろやか生姜焼き御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "京なすのピリッと辛味噌炒め御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "やわらか鶏と五色野菜の照り焼き御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "本日の煮魚御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ヘルシー京まろ御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "本日の京せいろ蒸し御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "豚ロースのまろやか生姜焼き御膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "京なすのピリッと辛味噌炒め御膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "やわらか鶏と五色野菜の照り焼き御膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "本日の煮魚御膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ヘルシー京まろ御膳",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

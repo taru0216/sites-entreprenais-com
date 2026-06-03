@@ -2,7 +2,7 @@
   "retty_id": "100000002360",
   "slug": "torch-cafe-002360",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:11:03Z",
+  "last_crawled": "2026-06-03T16:55:45Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "torch cafe",
@@ -71,7 +71,107 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "季節野菜のフリット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "豚挽き肉の揚げ春巻",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ホタテ・木の子・ブロッコリーのアヒージョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "鶏白レバーのムース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ふわふわオムレツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "本場バリのナシゴレン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "手長海老とアスパラのビスクソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "いちぢくと生ハム・ゴルゴンゾーラのピッツァ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "美桜鶏骨付鶏もものコンフィ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "季節野菜のフリット",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "豚挽き肉の揚げ春巻",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ホタテ・木の子・ブロッコリーのアヒージョ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鶏白レバーのムース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ふわふわオムレツ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

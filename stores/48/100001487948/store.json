@@ -2,7 +2,7 @@
   "retty_id": "100001487948",
   "slug": "plate-487948",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:29:29Z",
+  "last_crawled": "2026-06-03T16:44:14Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "plate",
@@ -69,7 +69,435 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "■ 日替わりメニュー例",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "やりいかコロッケ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "オニオングラタンスープ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "クスクスのブイヤベース",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "plate-004",
+      "name": "■ plateオリジナル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "砂肝コンフィ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "白子ムニエル",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "きのこと牡蠣のグラタン",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "仔羊カルパッチョ パクチー＆わさび",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "■ アーティショーより本格フレンチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "フォアグラフラン",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "オマールと野菜のテリーヌ",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ドーバー海峡舌平目のムニエル",
+      "price": 4500,
+      "price_raw": "4,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "霜降り和牛テール 赤ワイン煮込み",
+      "price": 3000,
+      "price_raw": "3,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "赤城牛ステーキ",
+      "price": 2880,
+      "price_raw": "2,880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "赤城牛ステーキ",
+      "price": 4500,
+      "price_raw": "4,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "■ 広尾のお菓子屋さんメルシー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "広尾からプラットきましたプリン",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "フォンダンショコラ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "バニラアイスクリーム",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "沖縄県産農薬不使用マンゴーソルベ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "■ チーズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "チーズ（日によって変わります）",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "■ キャビア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "フレッシュキャビア(非加熱)",
+      "price": 5000,
+      "price_raw": "5,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "■ カジュアルワインから自然派、正統派まで",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "シャンパーニュ",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "白・赤ワイン",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "食後酒",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "■ その他お酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "ビール（小瓶）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "泡盛 残波　グラス　(読谷村)",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "果実酒（グラス）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "日本酒 金雀　グラス　(山口県/堀江酒場)",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2018-034",
+      "name": "日本酒 夢雀2018　四合瓶　(山口県/堀江酒場)",
+      "price": 150000,
+      "price_raw": "150,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "焼酎 芋／麦（グラス）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "ウィスキー（グラス）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "■ ソフトドリンク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "ジンジャーエール",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "シークァーサー",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-040",
+      "name": "果汁100％ ブラッドオレンジジュース",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-041",
+      "name": "果汁100％ 葡萄ジュース",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-042",
+      "name": "果汁100% 西洋梨ジュース",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "■ 沖縄生まれの紅茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "サンセットティー",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "チャイ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "ハイビスカスティー",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "■ フレンチプレスで淹れるスペシャルティコーヒー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mix-origins-dark-mix-048",
+      "name": "Mix Origins（Dark mix）",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mexico-049",
+      "name": "Mexico デカフェ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "日本酒 夢雀2018　四合瓶　(山口県/堀江酒場)",
+      "price": 150000,
+      "photo_url": null
+    },
+    {
+      "name": "フレッシュキャビア(非加熱)",
+      "price": 5000,
+      "photo_url": null
+    },
+    {
+      "name": "ドーバー海峡舌平目のムニエル",
+      "price": 4500,
+      "photo_url": null
+    },
+    {
+      "name": "赤城牛ステーキ",
+      "price": 4500,
+      "photo_url": null
+    },
+    {
+      "name": "霜降り和牛テール 赤ワイン煮込み",
+      "price": 3000,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

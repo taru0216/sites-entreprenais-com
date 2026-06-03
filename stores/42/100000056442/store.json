@@ -2,7 +2,7 @@
   "retty_id": "100000056442",
   "slug": "store-056442",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:14:21Z",
+  "last_crawled": "2026-06-03T16:38:34Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "フミーズ・グリル",
@@ -69,7 +69,91 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "昆布で〆た山形米沢牛のロースト　炭火の香り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "信濃地鶏のレバーパテ　丸ごとハチミツと自家製グラハムブレッド",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "愛媛より　鯛一郎クンのカルパッチョ　今治の野菜と",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "愛媛より　鯛一郎クンと今治野菜のスチーム　生ウニのソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "伊カンパニア産　水牛のモツァレラ　加藤花園の花畑のように",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "鹿児島より　黒豚肩ロースのロースト　塩レモンとエピスピカント",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "64-006",
+      "name": "カカオ64％の濃厚チョコアイス　ロマネコンティのパフューム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "昆布で〆た山形米沢牛のロースト　炭火の香り",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "信濃地鶏のレバーパテ　丸ごとハチミツと自家製グラハムブレッド",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "愛媛より　鯛一郎クンのカルパッチョ　今治の野菜と",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "愛媛より　鯛一郎クンと今治野菜のスチーム　生ウニのソース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "伊カンパニア産　水牛のモツァレラ　加藤花園の花畑のように",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

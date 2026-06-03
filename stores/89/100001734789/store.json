@@ -2,7 +2,7 @@
   "retty_id": "100001734789",
   "slug": "store-734789",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T07:24:25Z",
+  "last_crawled": "2026-06-03T17:26:54Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "すずめの御宿",
@@ -80,7 +80,635 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "梅水晶",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/4000615-69cbadc6c9a84.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "長いもの梅肉",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961478-69a69e0820973.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "出汁巻き玉子",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961477-69a69d1913fe5.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "真鯛の昆布締め",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/4000616-69cbadc778771.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "蛸キムチ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001734789/archive/3961441-69a69d06701eb.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "和牛の煮込",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "生麩田楽",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "山芋の磯辺揚げ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "そば",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "梅じゃこ大葉",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "もち博多明太子",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "海鮮五種盛り",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "アボカドと海老",
+      "price": 2178,
+      "price_raw": "2,178円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "いか墨とパルミジャーノ",
+      "price": 2310,
+      "price_raw": "2,310円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "カマンベールとトルティーヤ",
+      "price": 2178,
+      "price_raw": "2,178円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "トマトとモッツァレラ",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "肉ミックス(和牛とイベリコ豚)",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "花椒と和牛(シビ辛麻辣)",
+      "price": 2310,
+      "price_raw": "2,310円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "豚バラとキムチ",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "黒毛和牛ステーキ",
+      "price": 2728,
+      "price_raw": "2,728円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "牛タンネギ塩焼き",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "大山地鶏焼き",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "生いかバター焼き",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "蛸ガーリックバター焼き",
+      "price": 1628,
+      "price_raw": "1,628円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "五目焼きそば(ソース・塩)",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "海鮮焼きそば(ソース・塩)",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "豚玉",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "梅じゃこ大葉",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "肉ミックス(和牛とイベリコ豚)",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "海鮮五種盛り",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "豚バラとキムチ",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "バナナ・あんこ巻き",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "栗・あんこ巻き",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "クリームチーズ・あんこ巻き",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "クリームチーズ・ブルーベリー巻き",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "プレミアム生ビール熟撰（アサヒ）中グラス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "プレミアム生ビール熟撰（アサヒ）小グラス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ml-037",
+      "name": "中瓶（サッポロ黒ラベル）５００ml",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "ノンアルコールビール（アサヒ　ドライゼロ）小瓶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "レモンサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "スダチサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "グレープフルーツサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "梅干しサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "ウーロンハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "緑茶ハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "ジャスミンハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "梅酒（ソーダ割り・水割り・お湯割り・ロック）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "カシス（ソーダ割り・ウーロン茶・オレンジ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "ピーチ（ソーダ割り・ウーロン茶・オレンジ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "澤屋　まつもと（京都　守破離・五百万石）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "惣誉「そうほまれ」（栃木県　特別純米・生酛仕込み）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "獺祭「だっさい」（山口県　純米大吟醸４５）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "天草「あまくさ」（熊本県　麦焼酎）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "中々「なかなか」（宮城県　麦焼酎）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "金峰　紅はるか　「きんぽう」（鹿児島県　芋焼酎）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "佐藤　黒「さとう」（鹿児島県　芋焼酎）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "鳥飼「とりかい」（熊本県　米焼酎）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "マルスモルト　ウイスキー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "イチローズモルト　ホワイトラベル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "ウーロン茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "緑茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "ジャスミン茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "コカコーラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "ジンジャーエール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "オレンジジュース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "グレープフルーツジュース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "i-066",
+      "name": "ミネラルウォーター　（南アルプスの天然水５００ｍI）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "champagne-j-contet-pere-fils-brut-067",
+      "name": "Champagne J Contet Pere ＆Fils Brut　　ボトル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "because-i-m-blanc-de-blancs-sparkling-068",
+      "name": "Because,I`m Blanc de Blancs Sparkling　　グラス/ボトル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "valmont-blanc-069",
+      "name": "Valmont Blanc (白）　　グラス/デキャンタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "valmont-rouge-070",
+      "name": "Valmont Rouge(赤）　　グラス/デキャンタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "marlborough-sauvignon-blane-071",
+      "name": "Marlborough Sauvignon Blane(白） (ソーヴィ二ヨンブラン）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "chablis-la-pierrelee-072",
+      "name": "Chablis La Pierrelee（白）  (シャルドネ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "chianti-aretino-073",
+      "name": "Chianti Aretino（赤）(サンジョヴェーゼ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "henri-bourgogne-pinot-noire-074",
+      "name": "Henri Bourgogne Pinot Noire（赤）（ピノ・ノワール）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "黒毛和牛ステーキ",
+      "price": 2728,
+      "photo_url": null
+    },
+    {
+      "name": "いか墨とパルミジャーノ",
+      "price": 2310,
+      "photo_url": null
+    },
+    {
+      "name": "花椒と和牛(シビ辛麻辣)",
+      "price": 2310,
+      "photo_url": null
+    },
+    {
+      "name": "アボカドと海老",
+      "price": 2178,
+      "photo_url": null
+    },
+    {
+      "name": "カマンベールとトルティーヤ",
+      "price": 2178,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001734789",
   "sns": {

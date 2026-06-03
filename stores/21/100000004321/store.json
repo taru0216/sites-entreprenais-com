@@ -2,7 +2,7 @@
   "retty_id": "100000004321",
   "slug": "store-004321",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:41:35Z",
+  "last_crawled": "2026-06-03T16:16:52Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "食彩 かどた",
@@ -68,7 +68,155 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "かじき鮪照焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "さば塩焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "さば味噌漬け焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "キングサーモン味噌漬け",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "さわら塩焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ほっけ一夜干し",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "銀がれい味噌漬け",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "さば味噌煮",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "銀むつ漬け焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "銀むつ漬け焼き<欲張り>",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "銀だら塩焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "銀だら塩焼き<欲張り>",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "お刺身定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "欲張り定食 刺身+焼き魚",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "あら汁",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "かじき鮪照焼き",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "さば塩焼き",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "さば味噌漬け焼き",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "キングサーモン味噌漬け",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "さわら塩焼き",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

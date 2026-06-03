@@ -2,7 +2,7 @@
   "retty_id": "100000000117",
   "slug": "store-000117",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:49:54Z",
+  "last_crawled": "2026-06-03T16:12:47Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "酒彩蕎麦 初代 恵比寿",
@@ -69,7 +69,571 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "焼味噌",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "蕎麦刺し",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "初代風だし巻き卵",
+      "price": 803,
+      "price_raw": "803円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "板わさ",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "蕎麦がき",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "あぶり海苔とアボカド刺し",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "汲み上げ湯葉",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "鴨ロース焼",
+      "price": 1210,
+      "price_raw": "1,210円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "いんげんの醤油煎り",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "煎りじゃこ豆腐",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "モッツアレラチーズの自家製味噌漬け",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ズワイ蟹の冷静湯葉包み",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "がんも風山芋の素揚げ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "蕎麦屋の粋な揚げ出し豆腐",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "蕎麦屋の唐揚げ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "牛すじ辛味煮込み",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "白魚揚げ",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "砂肝の素揚げ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "小海老と小柱のかき揚",
+      "price": 1265,
+      "price_raw": "1,265円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "季節の野菜天ぷら盛り",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "海老天ぷら盛り",
+      "price": 1540,
+      "price_raw": "1,540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "地鶏ととんぶりのサラダ",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "焼アスパラ・ゴホウのサラダ　グレープフルーツ添え",
+      "price": 1210,
+      "price_raw": "1,210円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "そば切り",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "とろろそば切り",
+      "price": 1210,
+      "price_raw": "1,210円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "鴨団子そば切り",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "鴨そば切り",
+      "price": 1595,
+      "price_raw": "1,595円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "天そば切り",
+      "price": 1870,
+      "price_raw": "1,870円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "むじな",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "彩り野菜の素揚げそば",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "いくら三彩",
+      "price": 1485,
+      "price_raw": "1,485円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "海老と小柱のかき揚そば",
+      "price": 1760,
+      "price_raw": "1,760円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-9-032",
+      "name": "梅みぞれ（6月〜9月限定メニュー）",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-9-033",
+      "name": "丸茄子おろしそば（6月〜9月限定メニュー）",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "かけそば",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "かき玉",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "とろろそば",
+      "price": 1210,
+      "price_raw": "1,210円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "鴨団子そば",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "鴨南そば",
+      "price": 1595,
+      "price_raw": "1,595円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "天ぷらそば",
+      "price": 1870,
+      "price_raw": "1,870円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "11-3-040",
+      "name": "牡蠣そば（11月〜3月限定メニュー）",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "初代の白いカレーうどん（普通／辛口　お選びください）",
+      "price": 1485,
+      "price_raw": "1,485円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "明太子うどん（冷たい麺／釜揚げ麺　お選びいただけます）",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "蕎麦あいす",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "アサヒ　スーパードライ　生ビール（小）",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "アサヒ　スーパードライ　生ビール（中）",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "ノンアルコールビール　ドライゼロ",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-047",
+      "name": "デュワーズ（12年）",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "バスカー（アイリッシュ）",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "黒ウーロンハイ／緑茶ハイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "生絞りレモンサワー／生絞りグレープフルーツサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "グラスワイン（赤・白）",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "カシス（ソーダ／ウーロン／オレンジ／グレープフルーツ）",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "【果実酒】上等梅酒／にごり梅酒／ゆず酒／はっさく酒",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "【焼酎】そば焼酎／芋焼酎／麦焼酎/米焼酎　各種",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "【日本酒】金陵 濃醇純米/超乃景虎/土佐鶴 本格辛口",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "【日本酒】浦霞/白瀧 淡麗辛口魚沼/澤乃井",
+      "price": 803,
+      "price_raw": "803円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "【日本酒】初代/試鏡/越後桜/今月の日本酒",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "【白ワイン】ラヴォータ インツォリア",
+      "price": 2750,
+      "price_raw": "2,750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "【白ワイン】モンテス　クラシック・シャルドネ",
+      "price": 4950,
+      "price_raw": "4,950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "【白ワイン】ルイラトゥール　アルディッシュ・シャルドネ",
+      "price": 6600,
+      "price_raw": "6,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "【赤ワイン】マプ・カベルネ・ソーヴィニヨン",
+      "price": 2750,
+      "price_raw": "2,750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "【赤ワイン】モンテス　クラシック・カベルネソーヴィニヨン",
+      "price": 4950,
+      "price_raw": "4,950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "b-063",
+      "name": "【赤ワイン】ⅢB（トワベー）・エ・オウモン",
+      "price": 6600,
+      "price_raw": "6,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "【スパークリングワイン】エスパス・オブ・リマリ",
+      "price": 4400,
+      "price_raw": "4,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "【スパークリングワイン】エスパス・オブ・リマリ・ロゼ",
+      "price": 4400,
+      "price_raw": "4,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "コーラ／ジンジャーエール／黒烏龍茶／緑茶／オレンジ／グレープフルーツ",
+      "price": 330,
+      "price_raw": "330円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "【白ワイン】ルイラトゥール　アルディッシュ・シャルドネ",
+      "price": 6600,
+      "photo_url": null
+    },
+    {
+      "name": "【赤ワイン】ⅢB（トワベー）・エ・オウモン",
+      "price": 6600,
+      "photo_url": null
+    },
+    {
+      "name": "【白ワイン】モンテス　クラシック・シャルドネ",
+      "price": 4950,
+      "photo_url": null
+    },
+    {
+      "name": "【赤ワイン】モンテス　クラシック・カベルネソーヴィニヨン",
+      "price": 4950,
+      "photo_url": null
+    },
+    {
+      "name": "【スパークリングワイン】エスパス・オブ・リマリ",
+      "price": 4400,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

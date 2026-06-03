@@ -2,7 +2,7 @@
   "retty_id": "100001303669",
   "slug": "store-303669",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:02:33Z",
+  "last_crawled": "2026-06-03T17:05:01Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "つぶしたて焼きとり おみっちゃん 恵比寿店",
@@ -35,7 +35,99 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "やきとり丼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "トンテキ丼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "鶏の唐揚げ定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "和牛もつ煮込み定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "和牛もつ煮込み丼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "豚の角煮定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "厚切り豚カツ定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ごはん大盛り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "やきとり丼",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "トンテキ丼",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鶏の唐揚げ定食",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "和牛もつ煮込み定食",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "和牛もつ煮込み丼",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

@@ -2,7 +2,7 @@
   "retty_id": "100001750263",
   "slug": "store-750263",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:06:10Z",
+  "last_crawled": "2026-06-03T16:59:07Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "博多ほたる 恵比寿店",
@@ -77,7 +77,667 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "『名物』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625824-683fdd3744705-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "こだわりの金胡麻使用　胡麻かんぱち",
+      "price": 1680,
+      "price_raw": "1,680円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625821-683fdd357c930-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "本日の刺身五種盛り(二人前より)",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3623523-683d2d25f2577.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "福岡久留米産 馬刺し赤身",
+      "price": 1680,
+      "price_raw": "1,680円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3623524-683d2d26a5969.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-280-1-680-004",
+      "name": "知覧鶏炭焼き（モモ、ムネ)　中 1,280円／大 1,680円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3623522-683d2d254a283.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "鶏炭ミックス（モモ、ムネ、砂ズリ、ハツ）",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3623525-683d2e6af3a0f.png",
+      "description": null
+    },
+    {
+      "dish_slug": "1-800-2-000-006",
+      "name": "特製もつ鍋(ご注文は二人前より)　アゴ出汁醤油 お一人様 1,800円・重ね味噌 お一人様 2,000円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-580-3-580-007",
+      "name": "ほたるの土鍋ご飯　一合 2,580円／二合 3,580円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-000-6-000-008",
+      "name": "黒毛和牛 銀シャリ すきしゃぶ　一合 4,000円／二合 6,000円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-000-2-800-009",
+      "name": "削りたてかつを節の塩ねこまんま卵かけご飯　一合 2,000円／二合 2,800円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "肉ごぼう天うどん",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "博多山笠盛り お一人様　※お料理 五、六種盛り合わせ、人数様分のご注文をお願いいたします。",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "『冷たいお料理』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "博多酢モツ 柚子胡椒",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "明太たたききゅうり",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "ホタルイカ九州醤油漬け",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "明太子（生・炙り・生＆炙り）",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "沖縄産もずくとパッションフルーツ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "焼き鯖ポテトサラダ  福岡朝倉の粒マスタード",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "黒毛和牛の昆布締め  モロヘイヤとなめこ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "トウモロコシすりながし 　実山椒",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "『温かいお料理』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "自家製厚揚げ",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "焼き豚足",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "雲仙ハムカツ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "タラバとズワイの  カニクリームコロッケ 一個",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "『甘味』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "黒蜜きなこわらびもち",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "自家製どら焼き 熟成焼酎朝倉仕様",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "女新茶ぜりぃ グレープフルーツ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "『ビール』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "サントリー　プレミアムモルツ生",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "クラフトビール　（缶ビール）",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "『ワイン』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "グラス泡",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "800-1-100-035",
+      "name": "グラス白　800円／1,100円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "800-1-200-036",
+      "name": "グラス赤　800円／1,200円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "『焼酎』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "富乃宝山 （ 芋 ）",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "サニークリー ム （ 芋 ）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "佐藤 黒 （ 芋 ）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "兼八 （麦）",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "中々 （麦）",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "鳥飼 （米）",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "『ウイスキー』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "サントリー角",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "知多",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "朝倉",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "白州",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "竹鶴",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "碧",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "余市",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "山崎",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "『日本酒』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "田中六五 一合",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "東洋美人 一合",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "駿 一合",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "而今 一合",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "田酒 一合",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "『ジン』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "翠ジン",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "jin-40-061",
+      "name": "Jin 40  朝倉クラフトジン",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "『果実酒』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "山崎梅酒",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "角玉梅酒",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "にごり柚子酒",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "『サワー』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "極上ハッピー  レモンサワー",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "ウーロンハイ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "八女茶ハイ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "jj-070",
+      "name": "ジャスミンハイ JJ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "ほうじ茶ハイ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "『ノンアルコール』",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "コカ・コーラ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "りんごジュース",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "ウーロン茶",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "八女茶",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "ジャスミン茶",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "ハッピーレモンソーダ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "而今 一合",
+      "price": 1800,
+      "photo_url": null
+    },
+    {
+      "name": "田酒 一合",
+      "price": 1800,
+      "photo_url": null
+    },
+    {
+      "name": "こだわりの金胡麻使用　胡麻かんぱち",
+      "price": 1680,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3625821-683fdd357c930-l.jpg"
+    },
+    {
+      "name": "福岡久留米産 馬刺し赤身",
+      "price": 1680,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3623524-683d2d26a5969.jpg"
+    },
+    {
+      "name": "本日の刺身五種盛り(二人前より)",
+      "price": 1500,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001750263/archive/3623523-683d2d25f2577.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001750263",
   "sns": {

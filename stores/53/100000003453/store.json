@@ -2,7 +2,7 @@
   "retty_id": "100000003453",
   "slug": "kichiri-003453",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:12:18Z",
+  "last_crawled": "2026-06-03T16:48:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "KICHIRI 恵比寿",
@@ -80,7 +80,675 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "★新メニューも続々登場★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/696137-5c5795782dcb5.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-001",
+      "name": "米国産 1ポンドステーキ",
+      "price": 3278,
+      "price_raw": "3,278円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/2780143-62ce979d8b1e0.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-002",
+      "name": "米国産 1ポンドステーキ（ハーフ）",
+      "price": 2068,
+      "price_raw": "2,068円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/2780152-62ce99788e77d.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ぶりの金胡麻和え",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/1800762-5f361c4f30c84.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "びんちょう鮪のユッケカルパッチョ",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/702325-5c5cdf6e7ef9d.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ぶりの荒火焼き ~シチリア海塩と藻塩ポン酢を添えて",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/2929811-6389978b23c7b.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "磯の香 雲丹釜飯",
+      "price": 1188,
+      "price_raw": "1,188円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/2929810-63899788d0834.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "名物！こぼれイクラ飯",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000003453/archive/2929809-63899787068cb.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "トリュフライス ふわとろ半熟卵のせ",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "塩レモン出汁 × 博多地鶏",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "kichiri-010",
+      "name": "★大人気！KICHIRIのアヒージョ★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "博多明太アヒージョ",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "子持ち白魚のアヒージョ",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "■■■ 一寸酒肴 ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "とろ～り半熟たまごの スモーククラシックポテトサラダ",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "海老と水菜のベトナム生春巻き",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "焼き枝豆",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "全国銘地産漬物盛り合わせ",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "kichiri-018",
+      "name": "KICHIRI特性トリュフバター 焼きたてのパンを添えて",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "とろ熱ハニーカマンベール",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "鉄鍋アンチョビキャベツ",
+      "price": 704,
+      "price_raw": "704円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "crispy-021",
+      "name": "\"Crispy\"フライドポテト",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "博多熟成明太子のだし巻き",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "絶品レバーパテ",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "■■■ お刺身 ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "雲丹、いくら、ホタテの北海カルパッチョ",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "■■■ サラダ ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "メキシカン フレッシュ ワカモレ",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "京とうふ藤野 牛蒡、蓮根、お豆富の金胡麻サラダ",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "農園バーニャカウダ",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "フレッシュモッツァレラのカプレーゼ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "■■■ 焼き物 ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "総料理長自慢の特製ローストビーフ",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "厚切り牛タンテキ ネギ塩だれ",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "つぶ貝のオーブン焼き 潮味アリオリソース",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "蟹味噌の甲羅焼き",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "本格チヂミ",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "kichiri-037",
+      "name": "KICHIRI特製 海老マヨネーズ炒め",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "濃厚かにみその和ピッツア",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "本場博多の熟成明太子のピッツァ",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "■■■ 揚げ物 ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "貝柱のライスペーパー揚げ春巻き",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "とうもろこしの少し大きめなかき揚げ きちり特製濃厚醤油だれで",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "産地直送はかた地どりの塩唐揚げ",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "モッツァレラチーズの揚げだし",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "■■■ 麺 ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "厚切りベーコン 鉄鍋ナポリタン",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "本場博多の熟成明太子うどん",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "■■■ ご飯 ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "イタリア産ポルチーニときのこのトリュフリゾット",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "ふかひれスープ炒め飯",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "■■■ 甘味 ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "フォンダショコラ バニラアイス添え",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "ＮＹチーズケーキのアイス添え",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "ナッツの女王 ピスタチオアイス",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-055",
+      "name": "なると金時100% 焼きたてスイートポテト マロンアイスを添えて",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "kichiri-056",
+      "name": "KICHIRI特製 わらび餅",
+      "price": 682,
+      "price_raw": "682円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "■■■ ビール ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "ザ・プレミアム・モルツ 生",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "ザ・プレミアム・モルツ 中瓶",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "■■■ ワイン ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "ﾊｳｽﾜｲﾝ ｸﾞﾗｽ赤・白",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "赤ワイン　ボトル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "ジョセフ・ロッシュ メルロー　ボトル",
+      "price": 3828,
+      "price_raw": "3,828円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "カサーレヴォッキオ モンテプルチアーノ",
+      "price": 5390,
+      "price_raw": "5,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "ニュートン ナパヴァレー クラレット",
+      "price": 7590,
+      "price_raw": "7,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "ヘスコレクション カベルネ・ソーヴィニヨン アローミ",
+      "price": 9130,
+      "price_raw": "9,130円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "※ その他、各種赤ワイン取り揃えております。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "白ワイン　ボトル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "ネコティアーム ピノグリージョ",
+      "price": 4378,
+      "price_raw": "4,378円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "ウィリアム フェーブル シャブリ",
+      "price": 5390,
+      "price_raw": "5,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "ミッシェル カイヨ ムルソー",
+      "price": 9900,
+      "price_raw": "9,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "※ その他、各種白ワイン取り揃えております。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "■■■ その他 ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-074",
+      "name": "カクテル　660円(税込)〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "550-075",
+      "name": "サワー　550円(税込)〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-076",
+      "name": "果実酒　660円(税込)〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "550-077",
+      "name": "焼酎　550円(税込)〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "550-078",
+      "name": "ウィスキー　550円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "429-079",
+      "name": "ソフトドリンク　429円(税込)〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ミッシェル カイヨ ムルソー",
+      "price": 9900,
+      "photo_url": null
+    },
+    {
+      "name": "ヘスコレクション カベルネ・ソーヴィニヨン アローミ",
+      "price": 9130,
+      "photo_url": null
+    },
+    {
+      "name": "ニュートン ナパヴァレー クラレット",
+      "price": 7590,
+      "photo_url": null
+    },
+    {
+      "name": "カサーレヴォッキオ モンテプルチアーノ",
+      "price": 5390,
+      "photo_url": null
+    },
+    {
+      "name": "ウィリアム フェーブル シャブリ",
+      "price": 5390,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

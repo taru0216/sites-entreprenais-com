@@ -2,7 +2,7 @@
   "retty_id": "100000173246",
   "slug": "store-173246",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:52:48Z",
+  "last_crawled": "2026-06-03T16:42:15Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "蔭山樓 恵比寿店",
@@ -70,7 +70,251 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "2-000",
+      "name": "蔭山シェフのおすすめコース（2名様より）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-001",
+      "name": "豪華フカヒレ満喫コース（2名様より）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-002",
+      "name": "スペシャルフカヒレ満喫コース（2名様より）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ふかひれ煮込みあんかけそば（醤油味）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "蟹とふかひれのあんかけそば（塩味）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ふかひれ煮込みあんかけ御飯（醤油味）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "蟹とふかひれのあんかけ御飯（塩味）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ふかひれの姿煮込みそば（醤油味）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "たっぷり野菜のふかひれ土鍋煮込みそば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "やわらか鶏とふかひれの土鍋あんかけそば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "こだわり麺の名物鶏塩らーめん",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "やわらか鶏の土鍋あんかけ御飯",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ふかひれとやわらか鶏の土鍋あんかけ御飯",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tantan-013",
+      "name": "ヘーゼルナッツ風味のTANTAN麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "黒酢のきいたサンラー湯麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "蟹とレタスたっぷり炒飯",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-016",
+      "name": "フカヒレ姿煮ランチコース（2名様より）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "名物こだわり麺鶏白湯塩そばセット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ヘーゼルナッツ風味特製担々麺セット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "やわらか鶏の土鍋餡かけ御飯セット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-020",
+      "name": "ふかひれ煮込み餡かけそばorご飯セット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ふかひれ焼売",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "生ビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "キュヴェ　ドゥ　ラ　コマンドゥリー　デュ　ボンタン　ルージュ　赤",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "ニラマン　ソーヴィニオン　ブラン　白",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ikezo-025",
+      "name": "IKEZO　艶めくゼリー　スパークリング",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "ウィルキンソン・ジンジャエール(甘口・辛口)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "蔭山シェフのおすすめコース（2名様より）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "豪華フカヒレ満喫コース（2名様より）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "スペシャルフカヒレ満喫コース（2名様より）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ふかひれ煮込みあんかけそば（醤油味）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "蟹とふかひれのあんかけそば（塩味）",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

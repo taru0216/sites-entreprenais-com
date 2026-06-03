@@ -2,7 +2,7 @@
   "retty_id": "100000241138",
   "slug": "little-bangkok-241138",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:59:45Z",
+  "last_crawled": "2026-06-03T16:34:24Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "LITTLE BANGKOK",
@@ -64,7 +64,62 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ガパオライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "パッタイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "タイ風ヌードル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "トムヤムヌードル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ガパオライス",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "パッタイ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "タイ風ヌードル",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "トムヤムヌードル",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

@@ -2,7 +2,7 @@
   "retty_id": "100000000881",
   "slug": "store-000881",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:13:22Z",
+  "last_crawled": "2026-06-03T17:15:51Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "かのふ",
@@ -63,7 +63,99 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "9-000",
+      "name": "かのふコース(9品)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-001",
+      "name": "特別コース(10品)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-002",
+      "name": "贅(ぜい)コース(10品)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "麦酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "梅酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "果実酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ソフトドリンク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ワイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "かのふコース(9品)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "特別コース(10品)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "贅(ぜい)コース(10品)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "麦酒",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "梅酒",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100000002133",
   "slug": "store-002133",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:51:04Z",
+  "last_crawled": "2026-06-03T16:28:44Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "仙台牛たん焼 恵比寿 とらまつ",
@@ -69,7 +69,49 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "牛たん霜降り炙り握り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "特上牛たんたたきポン酢",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ねぎバカ焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "牛たん霜降り炙り握り",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "特上牛たんたたきポン酢",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ねぎバカ焼き",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

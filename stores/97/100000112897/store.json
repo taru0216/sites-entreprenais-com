@@ -2,7 +2,7 @@
   "retty_id": "100000112897",
   "slug": "store-112897",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:31:46Z",
+  "last_crawled": "2026-06-03T17:34:57Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "魚国鮨",
@@ -68,7 +68,91 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "1-000",
+      "name": "にぎり1人前",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-5-001",
+      "name": "にぎり1.5人前",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ちらし",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ちらし大盛",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "鉄火丼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-005",
+      "name": "サーモンにぎりor丼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "あじにぎり",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "にぎり1人前",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "にぎり1.5人前",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ちらし",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ちらし大盛",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鉄火丼",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

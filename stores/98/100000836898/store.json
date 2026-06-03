@@ -2,7 +2,7 @@
   "retty_id": "100000836898",
   "slug": "nyafe-melange-836898",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:44:17Z",
+  "last_crawled": "2026-06-03T17:36:22Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Nyafe Melange",
@@ -68,7 +68,139 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "30-000",
+      "name": "30分平日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "30-001",
+      "name": "30分土日祭日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "60-002",
+      "name": "60分平日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "60-003",
+      "name": "60分土日祭日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "90-004",
+      "name": "90分平日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "90-005",
+      "name": "90分土日祭日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "120-006",
+      "name": "120分平日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "120-007",
+      "name": "120分土日祭日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-008",
+      "name": "1日フリータイム平日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-009",
+      "name": "1日フリータイム土日祭日",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-010",
+      "name": "延長料金10分毎",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "猫のおやつ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ドリンクメニュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "30分平日",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "30分土日祭日",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "60分平日",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "60分土日祭日",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "90分平日",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

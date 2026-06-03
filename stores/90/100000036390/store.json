@@ -2,7 +2,7 @@
   "retty_id": "100000036390",
   "slug": "store-036390",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:05:29Z",
+  "last_crawled": "2026-06-03T17:27:12Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "タント タント オステリア アトレ恵比寿",
@@ -80,7 +80,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "選べるセットメニュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2548503-619e3f5617b77.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "pasta-set-001",
+      "name": "PASTA SET",
+      "price": 1790,
+      "price_raw": "1,790円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000036390/archive/2409799-60dabe77d6198.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "meat-set-002",
+      "name": "MEAT SET",
+      "price": 2490,
+      "price_raw": "2,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "◇前菜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tantotanto-1-004",
+      "name": "TANTOTANTOの前菜盛合せ 1名様",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "トマトとストラッチャテッラチーズのカプレーゼ",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "生ハム盛合せ",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "生ハムとルッコラのブッラータ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "フォルマッジョ ミスト チーズの盛合せ",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "本日のカルパッチョ盛合せ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ケールのシーザーサラダ",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "山芋と季節野菜のピクルス",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "北あかりのポテトサラダと半熟玉子",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "炙り焼きパテド カンパーニュ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "プリプリ海老とカマンベール、ブロッコリーのオイルフォンデュ バゲット添え",
+      "price": 1090,
+      "price_raw": "1,090円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "三種貝の白ワイン蒸し バゲット添え",
+      "price": 1090,
+      "price_raw": "1,090円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "フリッタータ チーズソース",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "キャベツのペペロンチーノ しらすまみれ",
+      "price": 790,
+      "price_raw": "790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "蛸と北あかりのガーリックマリネ",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "パターテフリット サワークリームのせ",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "ガーリックトースト",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "山盛りバゲット",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pizza-022",
+      "name": "◇PIZZA",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "マルゲリータ",
+      "price": 1190,
+      "price_raw": "1,190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "special-024",
+      "name": "マルゲリータ SPECIAL",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-025",
+      "name": "4種のきのことルッコラ",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "しらすのマリナーラ",
+      "price": 1290,
+      "price_raw": "1,290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "スモークトラウトサーモンとアスパラガス",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "シェフの気まぐれピッツァ",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "クアトロフォルマッジオ 巣蜜とともに",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "生ハムとブッラータ",
+      "price": 1790,
+      "price_raw": "1,790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "ビスマルク トリュフの香り",
+      "price": 1790,
+      "price_raw": "1,790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "◇パスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "トマトとモッツァレラのポモドーロ",
+      "price": 1090,
+      "price_raw": "1,090円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "ブッラータのポモドーロ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "まぐろの自家製コンフィチャンクトマトソース",
+      "price": 1290,
+      "price_raw": "1,290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "自家製サルシッチャとマッシュルームのペペロンチーノ",
+      "price": 1190,
+      "price_raw": "1,190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "ボンゴレ ビアンコ",
+      "price": 1290,
+      "price_raw": "1,290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "からすみと海老とズッキーニのマッキャート",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "雲丹といたや貝、九条葱のクリームソース",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "ポルチーニのクリームソース フェットチーネ",
+      "price": 1690,
+      "price_raw": "1,690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "渡り蟹のトマトクリーム リングイネ",
+      "price": 1290,
+      "price_raw": "1,290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "ローマ風カルボナーラ",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tanto-tanto-043",
+      "name": "TANTO TANTOのボロネーゼ タリアテッレ",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "樽チーズリゾット",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "meat-045",
+      "name": "◇MEAT",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "牛はらみのタリアータ",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "ラムチョップのグリル",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "神奈川県産やまゆりポークのグリル",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "鳥取県産大山どりのロースト",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "コトレッタ ミラネーゼ（仔牛のカツレツ）",
+      "price": 1890,
+      "price_raw": "1,890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "◇ドルチェ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tantotanto-052",
+      "name": "TANTOTANTO特製ティラミス",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "巣蜜とチーズクリームのパンケーキ",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "ジェラート盛り合わせ",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "チョコラータ",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "【平日ランチ限定】イタリアン前菜＆サラダバー付き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pasta-set-057",
+      "name": "■PASTA SET",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "トマトとモッツアレラのポモドーロ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "蛸とブロッコリーのぺぺロンチーノ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "自家製サルシッチャのペペロンチーノ",
+      "price": 1190,
+      "price_raw": "1,190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "ローマ風カルボナーラ",
+      "price": 1290,
+      "price_raw": "1,290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "渡り蟹のトマトクリームソース",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "雲丹といたや貝、九条葱のクリームソース",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pizza-set-064",
+      "name": "■PIZZA SET",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "マルゲリータ",
+      "price": 1190,
+      "price_raw": "1,190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "しらすのマリナーラ",
+      "price": 1190,
+      "price_raw": "1,190円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "自家製サルシッチャ",
+      "price": 1290,
+      "price_raw": "1,290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "クアトロフォルマッジ",
+      "price": 1290,
+      "price_raw": "1,290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "meat-set-069",
+      "name": "■MEAT SET",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "ポークグリル バルサミコソース",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "牛はらみのタリアータ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "ミックス（牛はらみ＋ポーク)",
+      "price": 1890,
+      "price_raw": "1,890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "【土日祝ランチ限定】サラダバー&前菜+ローストビーフ食べ放題",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "トマトとモッツアレラのポモドーロ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "蛸とブロッコリーのぺぺロンチーノ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "自家製サルシッチャのペペロンチーノ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "ローマ風カルボナーラ",
+      "price": 1790,
+      "price_raw": "1,790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "渡り蟹のトマトクリームソース",
+      "price": 1790,
+      "price_raw": "1,790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "雲丹といたや貝、九条葱のクリームソース",
+      "price": 1890,
+      "price_raw": "1,890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "マルゲリータ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "しらすのマリナーラ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "自家製サルシッチャ",
+      "price": 1690,
+      "price_raw": "1,690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "クアトロフォルマッジ",
+      "price": 1790,
+      "price_raw": "1,790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "ポークグリル バルサミコソース",
+      "price": 1990,
+      "price_raw": "1,990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "牛はらみのタリアータ",
+      "price": 2090,
+      "price_raw": "2,090円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "ミックス（牛はらみ＋ポーク)",
+      "price": 2390,
+      "price_raw": "2,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "◆キッズメニュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "キッズプレート",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "キッズ：イタリアン前菜＆サラダバー＋ドリンクバー 単品",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "アルコール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "キリン一番搾り(生ビール)",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "キリン零イチ",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "スパークリングワイン",
+      "price": 490,
+      "price_raw": "490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "カクテル各種",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "シードル",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "◇ビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "キリン一番搾り（生）",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "シードル",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "キリン零イチ",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "MEAT SET",
+      "price": 2490,
+      "photo_url": null
+    },
+    {
+      "name": "ミックス（牛はらみ＋ポーク)",
+      "price": 2390,
+      "photo_url": null
+    },
+    {
+      "name": "牛はらみのタリアータ",
+      "price": 2090,
+      "photo_url": null
+    },
+    {
+      "name": "ポークグリル バルサミコソース",
+      "price": 1990,
+      "photo_url": null
+    },
+    {
+      "name": "コトレッタ ミラネーゼ（仔牛のカツレツ）",
+      "price": 1890,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

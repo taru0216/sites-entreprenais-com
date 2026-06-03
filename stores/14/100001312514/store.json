@@ -2,7 +2,7 @@
   "retty_id": "100001312514",
   "slug": "store-312514",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:21:23Z",
+  "last_crawled": "2026-06-03T16:10:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "サカナズキ。",
@@ -84,7 +84,683 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "サカナズキの６種盛　（各種２切）",
+      "price": 1749,
+      "price_raw": "1,749円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/901505-5cc317ed76f07.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "本日の殻付カキ（生・焼）　１ケ",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/901506-5cc318015ac19.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "殻付ホタテ（刺・焼）　１枚",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "自家製！〆サバ（刺身･炙り）",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "アジの南蛮漬",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "淡路島産 真ダコ刺",
+      "price": 792,
+      "price_raw": "792円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "淡路島産 真ダコの唐揚",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "淡路島産 真ダコの炙り",
+      "price": 792,
+      "price_raw": "792円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "鮭ときのこのポテトサラダ",
+      "price": 572,
+      "price_raw": "572円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "小柱入りだし巻きたまご",
+      "price": 627,
+      "price_raw": "627円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "お魚ハンバーグ",
+      "price": 737,
+      "price_raw": "737円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ブリ刺",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "魚皮の唐揚ポン酢",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "●ビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "アサヒ　スーパードライ生",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "アサヒスーパードライブラック　(黒生ビール)",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "プレミアム生ビール熟撰　(じゅくせん)",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "アサヒドライゼロ　(ノンアルコールビールテイスト飲料)",
+      "price": 572,
+      "price_raw": "572円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "シャンディガフ",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "トマトビール",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "●ホッピー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ホッピーセット　(白・黒)",
+      "price": 517,
+      "price_raw": "517円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "●酎ハイ・サワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ウーロンハイ",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "ジャスミンハイ",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "緑茶ハイ",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "紅茶ハイ",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "ピンクグレープフルーツサワー",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "生絞りレモンサワー",
+      "price": 594,
+      "price_raw": "594円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-029",
+      "name": "青汁ハイ（12種類の緑黄色野菜配合）",
+      "price": 594,
+      "price_raw": "594円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "紀州梅干しサワー",
+      "price": 594,
+      "price_raw": "594円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "青じそサワー",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "シークワーサーサワー",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "かぼすサワー・すだちサワー",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "ゆずみつサワー",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "生姜サワー",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "c-036",
+      "name": "オロナミンCサワー",
+      "price": 583,
+      "price_raw": "583円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "らいちサワー",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "・・・他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "●ウイスキー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "i-w-040",
+      "name": "I.W.ハーパー",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-041",
+      "name": "シーバス・リーガル　12年",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "山崎",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "ハイボール",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "生レモンハイボール",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "コークハイボール",
+      "price": 583,
+      "price_raw": "583円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "・・・他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "●日本酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "久保田千寿　特別本醸造　／　一合",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "鍋島　特別純米　／　一合",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "くどき上手　ばくれん　吟醸超辛口　／　一合",
+      "price": 957,
+      "price_raw": "957円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "・・・他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "●焼酎",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "さつま司　黒麹　(芋)",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "晴耕雨讀　(芋)",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "富乃宝山　(芋)",
+      "price": 682,
+      "price_raw": "682円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "閻魔　(麦)",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "鳥飼　(米)",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "残波　(泡盛)",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "●果実酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "濃醇梅酒",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "はちみつ梅酒",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "あんず酒",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "サンザシ酒",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "すてきな柚子酒",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "●ワイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "グラスワイン　(白・赤)",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3520-067",
+      "name": "ボトルワイン（白・赤）　                  　3520円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "●ソフトドリンク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "ウーロン茶",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "ジャスミン茶",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "緑茶",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "ゆずみつ茶",
+      "price": 473,
+      "price_raw": "473円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "ざくろ茶",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "らいち茶",
+      "price": 473,
+      "price_raw": "473円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "もも茶",
+      "price": 473,
+      "price_raw": "473円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "カルピス　(ウォーター・ソーダ・ホット)",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "c-077",
+      "name": "ジョッキでオロナミンC",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "コーラ",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "ジンジャーエール",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "トマトジュース",
+      "price": 473,
+      "price_raw": "473円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "サカナズキの６種盛　（各種２切）",
+      "price": 1749,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001312514/archive/901505-5cc317ed76f07.jpg"
+    },
+    {
+      "name": "久保田千寿　特別本醸造　／　一合",
+      "price": 979,
+      "photo_url": null
+    },
+    {
+      "name": "鍋島　特別純米　／　一合",
+      "price": 979,
+      "photo_url": null
+    },
+    {
+      "name": "くどき上手　ばくれん　吟醸超辛口　／　一合",
+      "price": 957,
+      "photo_url": null
+    },
+    {
+      "name": "自家製！〆サバ（刺身･炙り）",
+      "price": 869,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

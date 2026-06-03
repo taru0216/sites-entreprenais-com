@@ -2,7 +2,7 @@
   "retty_id": "100001313715",
   "slug": "store-313715",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:34:49Z",
+  "last_crawled": "2026-06-03T16:11:21Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "麦と葡萄",
@@ -64,7 +64,123 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ミックスナッツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "自家製ピクルス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "オリーブ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "18-003",
+      "name": "生ハム　パルマ産　18ヶ月　中",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "18-004",
+      "name": "生ハム　パルマ産　18ヶ月　小",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "サラミ　（イタリア　レボーニ社）　中",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "サラミ　（イタリア　レボーニ社）　小",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "生ハム＆サラミ　中",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "生ハム＆サラミ　小",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-009",
+      "name": "チーズ盛合せ　3種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "チーズパイ　夏目風",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ミックスナッツ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "自家製ピクルス",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "オリーブ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "生ハム　パルマ産　18ヶ月　中",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "生ハム　パルマ産　18ヶ月　小",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

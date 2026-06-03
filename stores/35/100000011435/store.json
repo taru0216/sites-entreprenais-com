@@ -2,7 +2,7 @@
   "retty_id": "100000011435",
   "slug": "sacra-011435",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:08:16Z",
+  "last_crawled": "2026-06-03T16:31:26Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "和レストラン SACRA",
@@ -81,7 +81,835 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "【前菜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987106-5f8953f55f063-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "アボカドとササミの胡麻ソース和え",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987104-5f8953f4379bd-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "鮮魚のカルパッチョ",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987090-5f8953eacf48f.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "マグロとアボカドのタルタル　バルサミコソース",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987093-5f8953edca98d.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "【サラダ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000011435/archive/1987103-5f8953f321684.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "若鶏のシーザーサラダ 温泉玉子添え",
+      "price": 690,
+      "price_raw": "690円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ガーデン風バーニャカウダ",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "【お刺身】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "イカのお造り",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "マグロのお造り",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "サーモンのお造り",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "【焼鳥＆串焼き】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "皮",
+      "price": 90,
+      "price_raw": "90円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "肝/砂ずり/心臓",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "ささみ/ぼんじり/なんこつ/ねぎ身",
+      "price": 120,
+      "price_raw": "120円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "ささみのしそ梅",
+      "price": 130,
+      "price_raw": "130円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "自家製てごねつくね",
+      "price": 180,
+      "price_raw": "180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "ししとう/げそ塩焼",
+      "price": 100,
+      "price_raw": "100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "しいたけ/にんにく",
+      "price": 120,
+      "price_raw": "120円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ぎんなん/黒豚カルビ",
+      "price": 160,
+      "price_raw": "160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "牛タン",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "骨付きカルビ/和牛ロース/車海老",
+      "price": 280,
+      "price_raw": "280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "【炭焼き】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-023",
+      "name": "手羽先 2本",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "焼きじゃがバター",
+      "price": 380,
+      "price_raw": "380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-025",
+      "name": "朝採りアスパラ　3本",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "本日の西京焼き",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a5-027",
+      "name": "A5ランク佐賀牛サーロインステーキ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "【創作料理】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "具だくさんな生春巻き　にんにくマヨネーズソース",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "トロサーモンとアボカドの炙り焼風タタキ　わさびソース",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "ふわふわ鶏シュウマイ",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "海老のフリッター　自家製ソース添え",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "かぼちゃのカツレツ　タルタルハーブ添え　ミルフィーユ仕立て",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "若鶏のバリバリ揚げ　サルサソース",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "山芋まんじゅう　ウニソース仕立て",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "佐賀牛のすき焼き風揚げ春巻き",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "【揚物＆煮物】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "手作り揚げ出し豆腐",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "ほくほく里芋の明太マヨネーズソース",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "活ダコの唐揚げ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "上ミノの唐揚げ",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "あさりの酒蒸し",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "極上佐賀牛すじの味噌煮込み",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "極上佐賀牛のとろとろデミグラスソース煮込み",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "【ご飯もの＆椀】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "つくね月見丼",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "青じそと炭焼穴子の手巻きご飯",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-048",
+      "name": "炭焼オニギリ　2個",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "鶏丼　山椒風味",
+      "price": 560,
+      "price_raw": "560円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "炭焼きシャケといくらのお茶漬け",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "日本酒仕立ての魚介のパスタ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-11-2-052",
+      "name": "【鍋メニュー】2名様より11月～2月",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "自家製鶏つくね鍋",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "キムチ鍋",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "ちゃんこ鍋",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beer-056",
+      "name": "【Beer】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "生ビール",
+      "price": 410,
+      "price_raw": "410円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "ドライプレミアム",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "アサヒ ドライ ゼロ（瓶）",
+      "price": 410,
+      "price_raw": "410円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "ドライブラック",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "シャンディガフ・レッドアイ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cocktail-062",
+      "name": "【Cocktail】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "※メニューに載ってないカクテルもお気軽にお申し付けください",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "ジントニック/ジンライム/ウォッカトニック/モスコミュール",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "テキーラバック/テキーラコーク/ラムコーク",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "カシスソーダ/カシスオレンジ/カンパリグレープ/スプモーニ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "ライチオレンジ/ライチモーニ/ココナッツパイン/ココナッツコーク",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "パッソアオレンジ/パッソアトニック",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "アマレットジンジャー/アマレットウーロン",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-champagne-070",
+      "name": "【Glass Champagne】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "バロン・ド・ロスチャイルド グラス",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "ハウスグラスワイン",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "white-wine-073",
+      "name": "【White Wine】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "カリテラ レゼルヴァ ソーヴィニヨン ブラン",
+      "price": 2900,
+      "price_raw": "2,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "アルディッシュ　シャルドネ",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "red-wine-076",
+      "name": "【Red Wine】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "メルロー　バロンフィリップ",
+      "price": 3600,
+      "price_raw": "3,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "wine-cocktail-078",
+      "name": "【Wine Cocktail】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "キール",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "アメリカンレモネード",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "自家製サングリア(レッド/ホワイト/ブルー)",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "vemonth-082",
+      "name": "【Vemonth】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-083",
+      "name": "チンザノロッソ or ドライ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "サワー各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "生レモンサワー/生グレープフルーツサワー/生ライムサワー/柚子サワー　他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shochu-by-the-glass-086",
+      "name": "【Shochu by the glass】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "緋緞（韓国）",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "玄庵（蕎麦）",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "黒伊佐錦（芋）",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "冨乃宝山（芋）",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "中々（麦）",
+      "price": 520,
+      "price_raw": "520円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "ダバダ火振り（栗）",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "鍛高譚（しそ）",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "佐藤（麦、白、黒）",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "れんと（黒糖）",
+      "price": 520,
+      "price_raw": "520円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "鳥飼（米）",
+      "price": 630,
+      "price_raw": "630円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "梅酒（和三盆梅酒、蜂蜜梅酒 他）",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "杏露酒",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "whisky-099",
+      "name": "【Whisky】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "メルロー　バロンフィリップ",
+      "price": 3600,
+      "photo_url": null
+    },
+    {
+      "name": "アルディッシュ　シャルドネ",
+      "price": 3300,
+      "photo_url": null
+    },
+    {
+      "name": "カリテラ レゼルヴァ ソーヴィニヨン ブラン",
+      "price": 2900,
+      "photo_url": null
+    },
+    {
+      "name": "キムチ鍋",
+      "price": 2500,
+      "photo_url": null
+    },
+    {
+      "name": "ちゃんこ鍋",
+      "price": 2500,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

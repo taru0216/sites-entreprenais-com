@@ -2,7 +2,7 @@
   "retty_id": "100001705882",
   "slug": "store-705882",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:00:41Z",
+  "last_crawled": "2026-06-03T17:19:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ジンギスカン ジャック 恵比寿本店",
@@ -80,7 +80,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "◆おつまみ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702708-6891aa614b633.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "こだわり白菜キムチ",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702585-6891999798708.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "もろきゅう",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702709-6891aab85abdc.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "熱熱ゆでたて枝豆",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702710-6891aae365b59.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "函館直送イカの塩辛",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001705882/archive/3702597-6891999df19c6.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "冷やしトマト",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "生ニラ卵",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "浅漬け",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "復活 山わさび 羊蹄山直送",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "こんにゃく田楽",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ごぼうサラダ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "キムチ冷奴",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "お豆腐サラダ",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "カンカイ（寒海）　１尾",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "◆揚げ物",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "恵比寿ザンギ",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "◆御飯物",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "シャリ小",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "シャリ中",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "シャリ大",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "泪飯（山わさび飯）",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "焼くうどん",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "気まぐれ汁椀",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ラムチャーハン",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "◇◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "御通し",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "◆ジンギスカン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "【数量限定】北海道別海産天然メス熊生肉　時価",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-500-028",
+      "name": "【数量限定】ベビーラムチョップ１本　※２本の御注文ですと1,500円で御得でございます。",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "※ご好評により完売、次回入荷未定【数量限定】ワインラム",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "※只今狩猟中※【期間数量限定】野うさぎの骨付きもも肉",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "【期間数量限定】最高級レッドカンガルー希少部位",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "【数量限定】ねぎしおラム",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "【季節限定】北海道知床直送　天然処女鹿　もも肉",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "【季節限定】北海道知床直送　天然処女鹿　レバー",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "【季節限定】北海道知床直送　天然処女鹿　タン",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "【季節限定】北海道知床直送　天然処女鹿　ハツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "【希少】ミルクラム",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "【希少】ミルクラムランプ",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "上生ラムセット　野菜付き",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "上マトンセット　野菜付き",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "上生ラム　肉のみ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "上マトン　肉のみ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "旭川黒もち豚肩ロース（トンギスカン）",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "旭川黒もち豚バラ（トンギスカン）",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "こだわり地鶏（トンギスカン）",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "黒豚の厚切りタン",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "黒豚の裏レバー",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-048",
+      "name": "追加野菜2人前セット",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "ニラ",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "こんにゃく",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "にんにくの芽",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "じゃがいも",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "にんにく焼き",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "きのこ盛り",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "ポークウインナー",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "チョリソー",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "ジェノバソーセージ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "◆トッピング",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "生たまご",
+      "price": 150,
+      "price_raw": "150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "生にんにくすりおろし",
+      "price": 150,
+      "price_raw": "150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "玉ねぎおろし",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "刻み紅しょうが",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "自家製塩ネギ",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "バター",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "◆デザート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-066",
+      "name": "アイスクリーム（季節の2種盛）",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "◆ビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "樽生ビール（中ジョッキ）",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "樽生ビール（グラス）",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "ノンアルコールビール",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1l-2-2-5-071",
+      "name": "大官山樽生ビール　※超メガサイズ（1Lジョッキ）値段は2倍、量は2.5倍、ビール党の方お得！",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "瓶ビール（オリオン・ザ・ドラフト）",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "レッドアイ",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "シャンディガフ",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "◆ウィスキー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "ハイボール",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "北海道ハイボール（ガラナ）",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "コークハイボール",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "ジンジャーハイボール",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "レスラーハイボール",
+      "price": 1900,
+      "price_raw": "1,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "山崎　※ストレート・ロック・ハイボールから呑み方を御選び下さい。各",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-082",
+      "name": "山崎12年　※ストレート・ロック・ハイボールから呑み方を御選び下さい。各",
+      "price": 3600,
+      "price_raw": "3,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "白州　※ストレート・ロック・ハイボールから呑み方を御選び下さい。各",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-084",
+      "name": "白州12年　※ストレート・ロック・ハイボールから呑み方を御選び下さい。各",
+      "price": 3600,
+      "price_raw": "3,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "知多　※ストレート・ロック・ハイボールから呑み方を御選び下さい。各",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "◆日本酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "※地酒裏メニュー御座います！",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "黒牛　和歌山県",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "黒帯悠々　石川県",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "◆焼酎",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-091",
+      "name": "※焼酎各種ボトル御座います！（3か月キープ）御声掛け下さい！",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "金黒（芋）",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "七夕（芋）",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "一番札（麦）",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "利尻島（昆布焼酎）",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "礼文島（昆布焼酎）",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "鍛高譚（紫蘇）",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "コーヒー酎",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "蔵（泡盛）",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "山崎12年　※ストレート・ロック・ハイボールから呑み方を御選び下さい。各",
+      "price": 3600,
+      "photo_url": null
+    },
+    {
+      "name": "白州12年　※ストレート・ロック・ハイボールから呑み方を御選び下さい。各",
+      "price": 3600,
+      "photo_url": null
+    },
+    {
+      "name": "※只今狩猟中※【期間数量限定】野うさぎの骨付きもも肉",
+      "price": 2500,
+      "photo_url": null
+    },
+    {
+      "name": "【期間数量限定】最高級レッドカンガルー希少部位",
+      "price": 2500,
+      "photo_url": null
+    },
+    {
+      "name": "※ご好評により完売、次回入荷未定【数量限定】ワインラム",
+      "price": 2200,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001705882",
   "sns": {

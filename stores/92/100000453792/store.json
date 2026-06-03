@@ -2,7 +2,7 @@
   "retty_id": "100000453792",
   "slug": "store-453792",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:11:26Z",
+  "last_crawled": "2026-06-03T17:30:02Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿 スペインバル ボデガス ガパ",
@@ -86,7 +86,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "パエージャ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/151616-58b5011f3f837.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "魚介たっぷりのパエージャ",
+      "price": 2728,
+      "price_raw": "2,728円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/248594-5969bd7123ef0.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "野菜とチーズのパエージャ",
+      "price": 2618,
+      "price_raw": "2,618円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "浅利とレモンのパエージャ",
+      "price": 2618,
+      "price_raw": "2,618円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "イカ墨のパエージャ",
+      "price": 2838,
+      "price_raw": "2,838円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "オマール海老のパエージャ",
+      "price": 3800,
+      "price_raw": "3,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "季節の限定パエージャ",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "アヒージョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "海老のニンニクオイル焼き",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "地鶏のレモンオイル焼き",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "マッシュルームのセコビア風",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "季節のアヒージョ",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "イベリコ豚の生ハム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "ハモンイベリコ ペジョータ",
+      "price": 1548,
+      "price_raw": "1,548円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "イベリコ豚のチョリソ",
+      "price": 943,
+      "price_raw": "943円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "イベリコ豚の舌の燻製",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-016",
+      "name": "イベリコ豚の3種の生ハム盛合せ",
+      "price": 1738,
+      "price_raw": "1,738円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "タパス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "オリーブ盛合せ",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "アンチョビオリーブ",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "根菜のピクルス",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ペピニージョ",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "パン　コン　トマテ",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "アボカドバケット",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "ドライフルーツとクリームチーズ",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "アーモンドの女王",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "地鶏レバーのパテ",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "トルティージャ",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "スペイン産カラスミ",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "魚介料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "季節の青魚の酢漬け",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "タコのガリシア風",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "ムール貝のシェリー蒸し",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "カジキマグロのプランチャ",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "サルスエラ",
+      "price": 2420,
+      "price_raw": "2,420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "肉料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "牛胃のトマト煮込み",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "ソーセージフリート",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "イベリコ豚舌の塩胡椒焼き",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "子羊ランプのロースト",
+      "price": 2178,
+      "price_raw": "2,178円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "イベリコ豚のロースト",
+      "price": 2420,
+      "price_raw": "2,420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "野菜料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "名物！特大マッシュルームのステーキ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "アイオリポテトのオーブン焼き",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "野菜たっぷりフラメンカエッグ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "季節の温野菜",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "彩り野菜のアンチョビオイル炒め",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "サラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "フルーツトマト",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "グリーンサラダ",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "生ハムとマンチェゴチーズのサラダ",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "浅利とほうれん草のサラダ",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "スペイン産チーズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "ケソマンチェゴ スペイン産",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "アルスア ウジョア スペイン産",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "イボレス",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "トウ　デルス　ティル　レルス",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "バルデオン",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "チーズのオーブン焼き",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "チーズの盛合せ",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "デザート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "クレマカタラナ",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "自家製生チョコレート",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "バニラアイス ペドロヒメネスソース",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "季節のソルベ",
+      "price": 528,
+      "price_raw": "528円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "季節の果物とカスタードのキャラメリゼ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "こだわりのサングリア",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "ホット サングリア",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "サングリアベラーノ",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "生ビール",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "シャンディー",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "レッドアイ スペイン産濃厚トマトジュース",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-0-072",
+      "name": "ハイネケン　エクストラコールド（-2.0℃）",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "マオウ　シンコ　エストレ―ジャス",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1925-074",
+      "name": "アルハンブラ1925",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "グラスカヴァ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "マルケス デ ラ ビジャ",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "ファンヒル クアトロメセス",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "テレス デ マサックス",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "エルミタ　ヴェラクルス",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "ジムビーム　ハイボール",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "メーカーズマーク　クラフトハイボール",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "自家製ジンジャーハイボール",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "シェリーハイボール",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "パチャラン・ナバロ・ソコ",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "ビンス　ピドロ　ビノ　モスカテル",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "オーガニック シードラ",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "エム　エレ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "オルホ デ ガリシア ブランカ",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "どんぐりミルク",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "メロオレ",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "カリモーチョ",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "ジントニック",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "カシスオレンジ",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "ラ ヒターナ",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "トレシージョ アモンティリャード",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "マエストロ シエラ オロロソ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "バルデス ピノ ペドロヒメネス",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "バレンシアオレンジジュース",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "スペイン産　トマトジュース",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "オマール海老のパエージャ",
+      "price": 3800,
+      "photo_url": null
+    },
+    {
+      "name": "季節の限定パエージャ",
+      "price": 3300,
+      "photo_url": null
+    },
+    {
+      "name": "イカ墨のパエージャ",
+      "price": 2838,
+      "photo_url": null
+    },
+    {
+      "name": "魚介たっぷりのパエージャ",
+      "price": 2728,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000453792/archive/248594-5969bd7123ef0.jpg"
+    },
+    {
+      "name": "野菜とチーズのパエージャ",
+      "price": 2618,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

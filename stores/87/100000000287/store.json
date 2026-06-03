@@ -2,7 +2,7 @@
   "retty_id": "100000000287",
   "slug": "store-000287",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:50:17Z",
+  "last_crawled": "2026-06-03T17:23:40Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "瞠 恵比寿店",
@@ -69,7 +69,131 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "らーめん",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "つけめん",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "あぶらそば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "自家製黒ドライカレー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "三種ペッパーのチャーシュー飯",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "味玉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "メンマ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-008",
+      "name": "ワンタン 3ケ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "チャーシュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "アラビアータ つけ麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "エビスビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "らーめん",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "つけめん",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "あぶらそば",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "自家製黒ドライカレー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "三種ペッパーのチャーシュー飯",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

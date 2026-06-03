@@ -2,7 +2,7 @@
   "retty_id": "100000001176",
   "slug": "ekao-001176",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:45:42Z",
+  "last_crawled": "2026-06-03T17:11:32Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ekao",
@@ -63,7 +63,195 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "真アジのグリルグリーンレモンガーリックオイル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "スズキのソテー 雪白長ネギのクリームソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "カキと春菊のクリームソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "京鴨レバーのコンフィ 雪白長ネギのグリル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "豚肩ロースのコンフィとマッシュポテト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "牛ハラミのグリルとルッコラのサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-006",
+      "name": "4種のお肉と白インゲン豆の煮込み",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "牛すじ入りトリッパとカチョカヴァロチーズのグリル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ジャガイモとホウレン草のブルーチーズグラタン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "ゴマサバと旬野菜のトマトソースパスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "名水ポーク豚バラと菜花のクリームニョッキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "カキと木の子の炊き込みゴハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "m-012",
+      "name": "採れたて農園野菜のバーニャカウダ M",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "手作りチーズとピュアなバージンオリーブオイル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "ラムレーズンとローストクルミのイタリアンジェラート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "イル・ラ・フォルジュ アンウッディド・シャルドネ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "レ・タンヌ オクシタン カベルネ・ソーヴィニヨン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "yebisu-017",
+      "name": "YEBISU",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ウオッカ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-019",
+      "name": "ザグレインリベット12年",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "真アジのグリルグリーンレモンガーリックオイル",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "スズキのソテー 雪白長ネギのクリームソース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "カキと春菊のクリームソース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "京鴨レバーのコンフィ 雪白長ネギのグリル",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "豚肩ロースのコンフィとマッシュポテト",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

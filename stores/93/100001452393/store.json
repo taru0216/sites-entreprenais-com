@@ -2,7 +2,7 @@
   "retty_id": "100001452393",
   "slug": "store-452393",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:13:52Z",
+  "last_crawled": "2026-06-03T17:31:12Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ショウチャン　恵比寿",
@@ -83,7 +83,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "recommend-menu-000",
+      "name": "◆◇◆Recommend’ menu◆◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "★☆ 前菜 ☆★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "蛸&キウイのマリネ",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-003",
+      "name": "ネギトロ&アボカドの生春巻き（１日限定5食）",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "【おすすめ】ブラッータチーズのカプレーゼ",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "有機野菜のバーニャカウダ（二人前）",
+      "price": 1680,
+      "price_raw": "1,680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "★☆ 逸品 ☆★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "カリーブルスト",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "あさりとニンニクの芽の酒蒸し",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "牛バラ肉の赤ワイン煮込み〜唐辛子ジャム〜",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "自家製ミートソース&茄子のビスマルクピッツァ",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "★☆ 串 ☆★",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "白レバー",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "◆◇◆串◆◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "8-014",
+      "name": "おまかせ盛り　8本盛り",
+      "price": 1350,
+      "price_raw": "1,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-015",
+      "name": "おまかせ盛り　希少部位5本盛り",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "〜焼き鳥〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "もも",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ねぎま",
+      "price": 180,
+      "price_raw": "180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "むね",
+      "price": 150,
+      "price_raw": "150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "せせり ＜首肉＞",
+      "price": 180,
+      "price_raw": "180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ぼんじり ＜オス鶏の尻＞",
+      "price": 170,
+      "price_raw": "170円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "皮",
+      "price": 170,
+      "price_raw": "170円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "レバー ＜肝臓＞",
+      "price": 180,
+      "price_raw": "180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "レバー ＜心臓＞",
+      "price": 160,
+      "price_raw": "160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "砂肝",
+      "price": 170,
+      "price_raw": "170円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "つくね",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "ささみ＜わさび＞",
+      "price": 270,
+      "price_raw": "270円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "ささみ＜柚子胡椒＞",
+      "price": 270,
+      "price_raw": "270円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "ささみ＜梅しそ＞",
+      "price": 270,
+      "price_raw": "270円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "〜野菜・変わり串〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "しいたけ",
+      "price": 260,
+      "price_raw": "260円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "ししとう",
+      "price": 150,
+      "price_raw": "150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "味玉うずら",
+      "price": 150,
+      "price_raw": "150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "ぎんなん",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "ねぎ",
+      "price": 150,
+      "price_raw": "150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "ミニトマト",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "〜希少部位〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "かんむり ＜とさか＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "のどぶえ ＜気管＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "おたふく ＜胸腺＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "ガツ ＜胃袋＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "ハラミ ＜横隔膜＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "べら ＜十二指腸＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "べた ＜腰皮＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "銀皮 ＜砂肝皮＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "もみじ ＜足＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "かっぱ ＜胸骨＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "げんこつ ＜膝なんこつ＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "ハラ落ち ＜大動脈＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "背肝 ＜腎臓＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "目肝 ＜脾臓＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "みさき ＜メス鶏の尻＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "油つぼ ＜ボンジリの先端＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "ふりそで ＜肩肉＞",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "みやび ＜手羽元＞",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "ソリレス ＜モモ肉の付け根＞",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "おび ＜内モモ肉＞",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "ももカルビ ＜モモ肉の一番柔らかいお肉＞",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "とうがらし ＜ふくらはぎ＞",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "いか ＜すね肉＞",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "とっくり ＜首全体＞",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "ひね ＜親鶏＞",
+      "price": 230,
+      "price_raw": "230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "手羽先",
+      "price": 350,
+      "price_raw": "350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "ちょうちん ＜卵管と卵巣＞",
+      "price": 350,
+      "price_raw": "350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "◇◆前菜◆◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "炙り〆鯖",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "辛子明太子",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "オリーブ盛り",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "辛味噌きゅうり",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "梅水晶",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "自家製燻製盛り合わせ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "季節のフルーツ×生ハム×マスカルポーネ",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "季節のフルーツのバジルマリネ",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "タイのカルパッチョ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "いぶりがっこクリームチーズ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "トリュフ醤油漬けクリームチーズ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "親鶏と青ネギのポン酢和え",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "◆◇◆サラダ◆◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "豆苗と水菜の塩昆布サラダ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "生ハムとアスパラのグリーンサラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "海老とマッシュルームのシーザーサラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "◆◇◆揚げ物◆◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "piece-083",
+      "name": "極上 自家製フライドチキン＜１piece＞",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "もろこしの唐揚げ",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "タコの唐揚げ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "フレンチフライ ＜ダブルチーズ＞",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "フレンチフライ ＜チリレモン＞",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "フレンチフライ ＜プレーン＞",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "◆◇◆逸品料理◆◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "自家製ミートソースピザ＜シカゴ風＞",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "牛タンの赤ワイン煮込み",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "低温調理 和牛ローストビーフ",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "長いも明太アヒージョ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "カキとアスパラのバター醤油ソテー",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "ゴルゴンゾーラのニョッキ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "アボカドとエビマヨ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "鉄板じゃがバターチーズ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "◆◇◆〆もの◆◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "特選肉寿司",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "有機野菜のバーニャカウダ（二人前）",
+      "price": 1680,
+      "photo_url": null
+    },
+    {
+      "name": "牛バラ肉の赤ワイン煮込み〜唐辛子ジャム〜",
+      "price": 1500,
+      "photo_url": null
+    },
+    {
+      "name": "おまかせ盛り　8本盛り",
+      "price": 1350,
+      "photo_url": null
+    },
+    {
+      "name": "【おすすめ】ブラッータチーズのカプレーゼ",
+      "price": 1300,
+      "photo_url": null
+    },
+    {
+      "name": "自家製ミートソース&茄子のビスマルクピッツァ",
+      "price": 1200,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

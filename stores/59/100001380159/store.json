@@ -2,7 +2,7 @@
   "retty_id": "100001380159",
   "slug": "cheese-tavern-cascina-380159",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:44:45Z",
+  "last_crawled": "2026-06-03T16:55:18Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Cheese Tavern CASCINA",
@@ -86,7 +86,715 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "■おすすめディナーメニュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004591-640ce8ce80f40.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "オマール海老、白身魚のグリル、魚介のスープ仕立て　ズッパデペッシェ",
+      "price": 4290,
+      "price_raw": "4,290円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004588-640ce7df39a9b.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "tapas-002",
+      "name": "■Tapas",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1548479-5e79b5ed86262.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "5-003",
+      "name": "5種オリーブのハーブマリネ",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004600-640cea998a7c9.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "本日のタパス",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004598-640cea53e611e.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-005",
+      "name": "本日のチーズ　1種盛り",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004597-640cea1d3b22f.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "2-006",
+      "name": "本日のチーズ　2種盛り",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004596-640ce9e84a084.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "3-007",
+      "name": "本日のチーズ　3種盛り",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004594-640ce9ae91029.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "じゃがいものニョッキのフリット",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004593-640ce97b616e0.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "appetizer-009",
+      "name": "■APPETIZER",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004585-640ce6a3df419.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "本日鮮魚と本マグロ大トロカルパッチョ",
+      "price": 2420,
+      "price_raw": "2,420円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004592-640ce91551ca7.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "プロシュートとモッツァレラ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004586-640ce70f85be0.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ブラータと季節のフルーツ",
+      "price": 2640,
+      "price_raw": "2,640円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004590-640ce86853621.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "米澤牛トウガラシの炙りカルパッチョ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004589-640ce82d42667.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "三浦産青木農園のグリーンサラダ",
+      "price": 1760,
+      "price_raw": "1,760円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004587-640ce75cf156f.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "ゴルゴンゾーラとパースニップのシーザーサラダ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1280664-5dd0e23b68153-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "ラクレット＆農園野菜ラクレット＆農園野菜",
+      "price": 2090,
+      "price_raw": "2,090円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1280664-5dd0e23b68153-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "会津若松産　馬肉レアグリル　コラトゥーラ",
+      "price": 2310,
+      "price_raw": "2,310円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/297258-59e470ed171bd-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ヤリイカのフリット　クミン風味",
+      "price": 1870,
+      "price_raw": "1,870円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/297258-59e470ed171bd-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "pasta-risotto-pizza-019",
+      "name": "■PASTA/RISOTTO/PIZZA （パスタ/リゾット/ピッツァ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/297241-59e470e8ae797-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "トリュフと熟成ベーコンのキタッラカルボナーラ",
+      "price": 3190,
+      "price_raw": "3,190円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/297241-59e470e8ae797-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "リコッタとフルーツトマトのアラビアータ",
+      "price": 2090,
+      "price_raw": "2,090円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/858787-5cb6ac192e43f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "ズワイガニのスープパスタペコリーノトスカーノ",
+      "price": 3520,
+      "price_raw": "3,520円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/858787-5cb6ac192e43f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "イクラのクリームチーズリゾット",
+      "price": 3190,
+      "price_raw": "3,190円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1280669-5dd0ed2177e7c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "8-024",
+      "name": "8種チーズのピッツァ",
+      "price": 2420,
+      "price_raw": "2,420円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1280669-5dd0ed2177e7c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "12-025",
+      "name": "12種チーズのピッツァ",
+      "price": 2970,
+      "price_raw": "2,970円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1279795-5dce790e59a04-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "main-026",
+      "name": "■MAIN",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1279795-5dce790e59a04-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "aus-027",
+      "name": "国産豚のグリル　AUSマスタードソース",
+      "price": 2640,
+      "price_raw": "2,640円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1279770-5dce78060c9bd-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "仔羊のロースト　ロックフォールのヴィネグレット",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1279770-5dce78060c9bd-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "カナダ産牛タンのコンビネーション（厚タンステーキ、タンシチュー）",
+      "price": 3400,
+      "price_raw": "3,400円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1293921-5dda1fe8c2026-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "ＵＳプライムビーフのバベット　タリアータ",
+      "price": 3080,
+      "price_raw": "3,080円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/1293921-5dda1fe8c2026-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "アンガス牛フィレチーズ重ね焼き　黒トリュフソース",
+      "price": 3410,
+      "price_raw": "3,410円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1280664-5dd0e23b68153-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "山形県産米沢牛サーロイングリル",
+      "price": 6380,
+      "price_raw": "6,380円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/297258-59e470ed171bd-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "魚介のスープ仕立て　ズッパデペッシェ",
+      "price": 4290,
+      "price_raw": "4,290円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/297241-59e470e8ae797-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "オマール海老のチーズ焼き　テルミドール",
+      "price": 5280,
+      "price_raw": "5,280円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/858787-5cb6ac192e43f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "あか毛和牛フィレステーキ　黒トリュフソース",
+      "price": 4620,
+      "price_raw": "4,620円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1280669-5dd0ed2177e7c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "lunch-course-036",
+      "name": "■平日限定LUNCH COURSE（ランチコース）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1279795-5dce790e59a04-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "weekday-course-037",
+      "name": "WEEKDAY COURSE − 米澤豚のロースト −",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1279770-5dce78060c9bd-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "weekday-course-038",
+      "name": "WEEKDAY COURSE − 本日の鮮魚のグリル−",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1293921-5dda1fe8c2026-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "weekday-course-us-039",
+      "name": "WEEKDAY COURSE − USプライムビーフのステーキ−",
+      "price": 2530,
+      "price_raw": "2,530円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "weekday-course-040",
+      "name": "WEEKDAY COURSE − 牛フィレ肉のロースト−",
+      "price": 3080,
+      "price_raw": "3,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "lunch-course-041",
+      "name": "■LUNCH COURSE（ランチコース）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cascina-lunch-course-042",
+      "name": "CASCINA LUNCH COURSE −カシーナランチコース −",
+      "price": 2750,
+      "price_raw": "2,750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "season-lunch-course-043",
+      "name": "SEASON LUNCH COURSE ーシーズンランチコースー",
+      "price": 3850,
+      "price_raw": "3,850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "carbonara-lunch-course-044",
+      "name": "CARBONARA LUNCH COURSE ーカルボナーラランチコースー",
+      "price": 4180,
+      "price_raw": "4,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "natural-wine-045",
+      "name": "■NATURAL WINE",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "シャトー・ド・ロレクマン・ド・ロワール",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "ピエトラモーレアブルッツァ・ペコリーノ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "ジャン・マリー・ランベール ゲイ・ウルス",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "シュールダルクトックエクロシェリムーオータン",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "ホドルスクリークエステート・ピノ・ノワール",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "シャトー・ドスモン・クリュ・アルティザン",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "テッレ・デル・バローロ",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "ジョージアン・サンルカツィテリムツヴァネ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "ファビュラス フォミエネ ピノグリージョ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "イル・ファルネート ジャンドン ロザート",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beer-056",
+      "name": "■BEER",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "白穂乃果",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sour-058",
+      "name": "■SOUR",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "デュワーズハイボール",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "ハイランドポークハイボール",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "自家製レモンサワー",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cocktail-062",
+      "name": "■COCKTAIL",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "季節のフルーツカクテル",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "ジントニック",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "ホワイトミモザ",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "アメリカンレモネード",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "オペレーター",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hard-liqueur-068",
+      "name": "■HARD LIQUEUR",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1100-069",
+      "name": "グラッパ　1100円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "リモンチェッロ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "soft-drink-071",
+      "name": "■SOFT DRINK",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "自家製レモネード",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "自家製レモンスカッシュ",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "ウーロン茶",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "オレンジジュース",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "コーラ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "ジンジャーエール",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "caf-078",
+      "name": "■CAF?",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-ice-079",
+      "name": "コーヒー（HOT・ICE）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-ice-080",
+      "name": "ダージリン（HOT・ICE）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-ice-081",
+      "name": "アールグレイ（HOT・ICE）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-082",
+      "name": "ハーブティー（HOT）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "エスプレッソ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "エスプレッソダブル",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "山形県産米沢牛サーロイングリル",
+      "price": 6380,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/297258-59e470ed171bd-l.png"
+    },
+    {
+      "name": "オマール海老のチーズ焼き　テルミドール",
+      "price": 5280,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/858787-5cb6ac192e43f-l.jpg"
+    },
+    {
+      "name": "あか毛和牛フィレステーキ　黒トリュフソース",
+      "price": 4620,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/1280669-5dd0ed2177e7c-l.jpg"
+    },
+    {
+      "name": "オマール海老、白身魚のグリル、魚介のスープ仕立て　ズッパデペッシェ",
+      "price": 4290,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001380159/archive/3004588-640ce7df39a9b.jpg"
+    },
+    {
+      "name": "魚介のスープ仕立て　ズッパデペッシェ",
+      "price": 4290,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001380159/archive/297241-59e470e8ae797-l.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

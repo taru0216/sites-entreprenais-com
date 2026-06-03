@@ -2,7 +2,7 @@
   "retty_id": "100000014865",
   "slug": "store-014865",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:18:29Z",
+  "last_crawled": "2026-06-03T17:00:41Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ローカルインディア",
@@ -81,7 +81,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "curry-000",
+      "name": "◆:-◇:-　Curry　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000014865/archive/1670661-5eb925cc14647.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "当店のカレー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "※カレーにはプレーンナンがついています。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "200-003",
+      "name": "※プラス200円(税込)で、他タイプのナンに変更できます。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-004",
+      "name": "※カレーの辛さは、10段階に分かれております。お好みの辛さをお申し付けください。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "チキンコルマ",
+      "price": 1010,
+      "price_raw": "1,010円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "チキンマクニ",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "チキンマサラ",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ポークパラグ",
+      "price": 1120,
+      "price_raw": "1,120円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "バターチキン",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ナスマサラ",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "チキンカレー",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "チキンティッカカレー",
+      "price": 1390,
+      "price_raw": "1,390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "パニールパラグ",
+      "price": 1120,
+      "price_raw": "1,120円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "プロンマサラ",
+      "price": 1490,
+      "price_raw": "1,490円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "ベジタブルカレー",
+      "price": 1010,
+      "price_raw": "1,010円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "バッチャセット(お子様限定)",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "ポークカレー",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ポテトパラグ",
+      "price": 1120,
+      "price_raw": "1,120円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ポークムグライ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "フィッシュカレー",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ダールカレー",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "naan-022",
+      "name": "◆:-◇:-　Naan　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "プレーンナン",
+      "price": 320,
+      "price_raw": "320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "グリーンナン",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "ガーリックナン",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "ポテトナン",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "チーズナン",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "◆:-◇:-　サラダ　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "大根サラダ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "グリーンサラダ",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "ほうれん草チキンサラダ",
+      "price": 820,
+      "price_raw": "820円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "◆:-◇:-　オリジナル料理　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "マサラ風ピクルス",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "スパイシーソーセージ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "海老のアジアンチリソース炒め",
+      "price": 1230,
+      "price_raw": "1,230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "マサラ風焼ビーフン",
+      "price": 920,
+      "price_raw": "920円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "indian-037",
+      "name": "Indianチップス",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "マサラ風フライドポテト",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "特製サブジ入り春巻",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "indian-040",
+      "name": "Indian唐揚げ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "マサラ風ピーマン肉詰め",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "スティックベジタブル",
+      "price": 610,
+      "price_raw": "610円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "◆:-◇:-　タンドール(炭火焼料理)　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "チーズチキンティッカ",
+      "price": 720,
+      "price_raw": "720円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-045",
+      "name": "チキンシーク（2本）",
+      "price": 620,
+      "price_raw": "620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-046",
+      "name": "ポークシーク（2本）",
+      "price": 620,
+      "price_raw": "620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-047",
+      "name": "タンドリーチキン（1本）各",
+      "price": 310,
+      "price_raw": "310円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-048",
+      "name": "3種類の味からお選びください。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "n-s-c-049",
+      "name": "(Nノーマル/Sスパイシー/Cチーズ味)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "タンドリーポーク　各",
+      "price": 740,
+      "price_raw": "740円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-051",
+      "name": "3種類の味からお選びください。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "n-s-c-052",
+      "name": "(Nノーマル/Sスパイシー/Cチーズ味)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a-053",
+      "name": "盛り合わせA",
+      "price": 920,
+      "price_raw": "920円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "b-054",
+      "name": "盛り合わせB",
+      "price": 2350,
+      "price_raw": "2,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "◆:-◇:-　ポコラ(揚げ物料理)　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-056",
+      "name": "チキンサモサ（1個）",
+      "price": 310,
+      "price_raw": "310円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "ナスポコラ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-058",
+      "name": "ポテトサモサ（1個）",
+      "price": 310,
+      "price_raw": "310円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "ポテトポコラ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "フィッシュポコラ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "パニールポコラ(インドのチーズ)",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "◆:-◇:-　ビリヤニ　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "チキンティッカビリヤニ",
+      "price": 1220,
+      "price_raw": "1,220円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "ベジタブルビリヤニ",
+      "price": 1220,
+      "price_raw": "1,220円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "◆:-◇:-　デザート　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "ライチシャーベット",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "マンゴープリン",
+      "price": 390,
+      "price_raw": "390円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "◆:-◇:-　ランチ　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "カレーランチ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-070",
+      "name": "カレー(2種類から選択)、ナン、サラダ、ドリンク。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "プラウランチ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "インドのチャーハン『プラウライス』とサラダ、ドリンク。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "ターリーランチ",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-074",
+      "name": "本場インドの食器『ターリー(銀大皿)』に、カレー2種類、ナン、サラダ、",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "タンドリーチキンがのっています。ドリンク付。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "◆:-◇:-　ホリデーランチ　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "ホリデーカレーランチ",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "17-078",
+      "name": "カレー(17種類から選択)、ナン(食べ放題)、サラダ、ドリンク。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "ターリーランチ",
+      "price": 1420,
+      "price_raw": "1,420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-17-080",
+      "name": "カレー2種類(17種類から選択)、サラダ、プラウライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "タンドリーチキン、ドリンク。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "ビリヤニランチ",
+      "price": 1160,
+      "price_raw": "1,160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "チキンとベジタブルから選択。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "◆:-◇:-　テイクアウト　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "【ランチテイクアウト】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-086",
+      "name": "本日のカレー＋ナン or ライス",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ok-087",
+      "name": "テイクアウトOK",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-088",
+      "name": "本日のカレー2種類からお選びください。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "900-18-089",
+      "name": "※土日祝は900円(税込)でカレー18種類からお選びください。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "【ディナーテイクアウト】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-1-000-1-490-091",
+      "name": "カレー＋ナン or ライス　各1,000円～1,490円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ok-092",
+      "name": "テイクアウトOK",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "18-093",
+      "name": "ディナーメニューのカレー18種類からお選びください。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "◆:-◇:-　アジアのお酒　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "アジアのお酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "インドのワイン『スラ』、ベトナムの焼酎『ルアモイ』、インドのウイスキーによる",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "『アジアンハイボール』など、メニューにないアジアのお酒もご用意しています。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "◆:-◇:-　ビール　-:◇-:◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "エビス生ビール",
+      "price": 590,
+      "price_raw": "590円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "盛り合わせB",
+      "price": 2350,
+      "photo_url": null
+    },
+    {
+      "name": "チキンマサラ",
+      "price": 1490,
+      "photo_url": null
+    },
+    {
+      "name": "ナスマサラ",
+      "price": 1490,
+      "photo_url": null
+    },
+    {
+      "name": "プロンマサラ",
+      "price": 1490,
+      "photo_url": null
+    },
+    {
+      "name": "ターリーランチ",
+      "price": 1420,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

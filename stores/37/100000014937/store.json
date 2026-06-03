@@ -2,7 +2,7 @@
   "retty_id": "100000014937",
   "slug": "tenement-014937",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:55:07Z",
+  "last_crawled": "2026-06-03T16:33:36Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "tenement",
@@ -72,7 +72,23 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ケーキセット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ケーキセット",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

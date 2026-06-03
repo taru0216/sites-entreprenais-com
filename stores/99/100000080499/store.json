@@ -2,7 +2,7 @@
   "retty_id": "100000080499",
   "slug": "store-080499",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:58:01Z",
+  "last_crawled": "2026-06-03T17:37:10Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿 くるり",
@@ -70,7 +70,75 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "豚ロースのロースト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "豚バラのトマト煮込",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "牛スジのデミグラシチュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "鶏モモの具沢山トマトカレー煮込",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "coffee-tea-004",
+      "name": "coffee Tea",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "豚ロースのロースト",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "豚バラのトマト煮込",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "牛スジのデミグラシチュー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鶏モモの具沢山トマトカレー煮込",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "coffee Tea",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

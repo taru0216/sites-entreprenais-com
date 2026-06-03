@@ -2,7 +2,7 @@
   "retty_id": "100000839549",
   "slug": "store-839549",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:10:45Z",
+  "last_crawled": "2026-06-03T16:45:03Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "うしごろ 貫 恵比寿本店",
@@ -71,7 +71,131 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "極上希少部位特選盛り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "極上ホルモン特選盛り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "極みのうしごろユッケ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "極みのタンユッケ〔タレ〕",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "極上ハツユッケ〔塩〕",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ミノわさ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "カイノミ（わさび醤油）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ザブトンのすき焼き（卵２つ・一口ライス付き）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "サーロインの焼きしゃぶポン酢",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "極みのタン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "極みのタンしゃぶ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "サッポロ 黒ラベル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "極上希少部位特選盛り",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "極上ホルモン特選盛り",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "極みのうしごろユッケ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "極みのタンユッケ〔タレ〕",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "極上ハツユッケ〔塩〕",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

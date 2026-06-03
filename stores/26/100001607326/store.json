@@ -2,7 +2,7 @@
   "retty_id": "100001607326",
   "slug": "beer-ebisu-brewery-607326",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:58:36Z",
+  "last_crawled": "2026-06-03T16:23:20Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "BEER& EBISU BREWERY",
@@ -82,7 +82,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "*おすすめ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-001",
+      "name": "オリジナルローストチキン（約３〜4人前）",
+      "price": 4180,
+      "price_raw": "4,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ザクザクチキン",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ビアチキンナゲット",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "鶏ささみのエスカベッシュ",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "冷製砂肝のコンフィ",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "自家製白鶏レバーパテ",
+      "price": 902,
+      "price_raw": "902円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "【ＡＰＰＥＴＩＺＥＲ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "前菜５種盛り合わせ",
+      "price": 2112,
+      "price_raw": "2,112円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "前菜３種盛り合わせ",
+      "price": 1452,
+      "price_raw": "1,452円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "クミン香るキャロットラペ",
+      "price": 682,
+      "price_raw": "682円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "生ハム３種盛り合わせ",
+      "price": 1738,
+      "price_raw": "1,738円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "スモークサーモンとクリームチーズのミルフィーユ",
+      "price": 902,
+      "price_raw": "902円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "鶏ささみのエスカベッシュ",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "デーツとクリームチーズのパンチェッタロール",
+      "price": 1023,
+      "price_raw": "1,023円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "自家製白鶏レバーパテ",
+      "price": 902,
+      "price_raw": "902円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "冷製砂肝のコンフィ",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "低温調理仕込みのレア牛タン",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "salad-018",
+      "name": "【SALAD】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "サラダリヨーズ",
+      "price": 1628,
+      "price_raw": "1,628円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "彩り野菜の特製バーニャカウダ",
+      "price": 1958,
+      "price_raw": "1,958円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "インカポテトサラダ",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "鴨ムネ肉のロースト　ネギのジュレ",
+      "price": 902,
+      "price_raw": "902円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "deep-fried-stuff-023",
+      "name": "【DEEP FRIED STUFF】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "ザクザクチキン",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "牡蠣とチーズの春巻き",
+      "price": 902,
+      "price_raw": "902円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "ビアチキンナゲット",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "自家製フライドポテト",
+      "price": 902,
+      "price_raw": "902円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "フィッシュ&チップス 自家製タルタルソース",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "からすみのフラットクラストピザ",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hungry-030",
+      "name": "【HUNGRY】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "チキンコンフィ〜ポルチーニライス添え〜",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "牛フィレ大根",
+      "price": 2178,
+      "price_raw": "2,178円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "本日のパスタ",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "厳選ソーセージとハムの盛り合わせ",
+      "price": 1386,
+      "price_raw": "1,386円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "フライドニョッキ〜海老のスパイシーアラビアータ〜",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "自家製ミートボール",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "with-wine-037",
+      "name": "【with WINE】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-038",
+      "name": "前菜５種盛り合わせ　1人前",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-039",
+      "name": "前菜３種盛り合わせ　1人前",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "デーツとクリームチーズパンチェッタロール",
+      "price": 1023,
+      "price_raw": "1,023円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "チーズプレート",
+      "price": 1738,
+      "price_raw": "1,738円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "低温調理仕込みのレア牛タン",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "自家製ミートボール",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "牡蠣とチーズの春巻き",
+      "price": 902,
+      "price_raw": "902円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "チキンコンフィ〜ポルチーニライス添え〜",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "牛フィレ大根",
+      "price": 2178,
+      "price_raw": "2,178円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "スモークサーモンとクリームチーズのミルフィーユ",
+      "price": 902,
+      "price_raw": "902円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "【ＳＴＡＮＤＡＲＤ ＣＲＡＦＴ ＢＥＥＲ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "・エビスドラフト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "270ml-748-050",
+      "name": "270ml 748円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360ml-990-051",
+      "name": "360ml 990円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "568ml-1540-052",
+      "name": "568ml（ＵＫパイント） 1540円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "・ピルスナー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "270ml-748-054",
+      "name": "270ml 748円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360ml-990-055",
+      "name": "360ml 990円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "568ml-1540-056",
+      "name": "568ml（ＵＫパイント） 1540円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "・ホワイト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "270ml-748-058",
+      "name": "270ml 748円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360ml-990-059",
+      "name": "360ml 990円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "568ml-1540-060",
+      "name": "568ml（ＵＫパイント） 1540円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "・ブラック",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "270ml-858-062",
+      "name": "270ml 858円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360ml-1100-063",
+      "name": "360ml 1100円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "568ml-1650-064",
+      "name": "568ml（ＵＫパイント） 1650円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ipa-065",
+      "name": "・ジューシーIPA",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "270ml-858-066",
+      "name": "270ml 858円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360ml-1100-067",
+      "name": "360ml 1100円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "568ml-1650-068",
+      "name": "568ml（ＵＫパイント） 1650円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "・テイスティングフライト",
+      "price": 2090,
+      "price_raw": "2,090円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100ml-5-070",
+      "name": "100ml 5種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "【ＭＯＣＫＴＡＩＬ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "プラス３３０円でアルコール入りカクテルに変更出来ます",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "スプリッツァ・ラベンダー",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "0-074",
+      "name": "0%ジントニック",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "エキゾチック",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "ローズマリーオレンジフィズ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "アップル・オロ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "ベリーハイビスカス",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "カルダモンレモン",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "タイムパインスプモーニ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "【ＨＩＧＨＢＡＬＬ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "ハイボール",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "ブルーラグーンハイボール",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "ジンジャーハイボール",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "コークハイ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "【ＷＨＩＳＫＥＹ＆ＧＩＮ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "ラフロイグ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "白州",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "クリスチャンドルーアン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "山崎",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "知多",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "ロック、水割り、ソーダ各種",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "【ＣＡＦＥ＆ＴＥＡ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "フレンチプレスコーヒー",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "ティーポンド ミスティーマスカットアイスティー",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "シロッコアーモンドウーロンティー",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "no55-097",
+      "name": "スティーブンスミスティーメーカーNO55",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "soft-drink-098",
+      "name": "【SOFT DRINK】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "オレンジジュース",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "オリジナルローストチキン（約３〜4人前）",
+      "price": 4180,
+      "photo_url": null
+    },
+    {
+      "name": "牛フィレ大根",
+      "price": 2178,
+      "photo_url": null
+    },
+    {
+      "name": "牛フィレ大根",
+      "price": 2178,
+      "photo_url": null
+    },
+    {
+      "name": "前菜５種盛り合わせ",
+      "price": 2112,
+      "photo_url": null
+    },
+    {
+      "name": "・テイスティングフライト",
+      "price": 2090,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

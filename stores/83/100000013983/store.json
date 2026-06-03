@@ -2,7 +2,7 @@
   "retty_id": "100000013983",
   "slug": "store-013983",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:40:25Z",
+  "last_crawled": "2026-06-03T17:19:29Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "裏恵比寿 自然生村",
@@ -74,7 +74,99 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "広島産カキ入りとろろ鍋",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "和牛のぷりぷりホルモンとろろ鍋",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "まぐろトロ入り自家製つくねとろろ鍋",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "和牛の中落ち入りとろろ鍋",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "鶏せせり炙り焼き膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "大粒カキフライ膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "まぐろのサイコロステーキ膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "豚肩ロースステーキ膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "広島産カキ入りとろろ鍋",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "和牛のぷりぷりホルモンとろろ鍋",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "まぐろトロ入り自家製つくねとろろ鍋",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "和牛の中落ち入りとろろ鍋",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鶏せせり炙り焼き膳",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

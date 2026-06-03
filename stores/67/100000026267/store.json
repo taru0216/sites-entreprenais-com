@@ -2,7 +2,7 @@
   "retty_id": "100000026267",
   "slug": "store-026267",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:17:18Z",
+  "last_crawled": "2026-06-03T17:02:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "鮨の喜一",
@@ -70,7 +70,62 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "花はな",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "鳥とり",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "風かぜ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "月",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "花はな",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鳥とり",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "風かぜ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "月",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

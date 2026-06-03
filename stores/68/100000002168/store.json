@@ -2,7 +2,7 @@
   "retty_id": "100000002168",
   "slug": "store-002168",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:40:37Z",
+  "last_crawled": "2026-06-03T17:03:19Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "めし処 こづち",
@@ -62,7 +62,115 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ハンバーグ定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "肉やさい炒め",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "カレーライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "チャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "肉生姜定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "肉豆腐",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "玉子やき",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ハムエッグ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "コロッケ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "あじフライ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ハンバーグ定食",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "肉やさい炒め",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "カレーライス",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "チャーハン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "肉生姜定食",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

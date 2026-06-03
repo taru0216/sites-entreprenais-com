@@ -2,7 +2,7 @@
   "retty_id": "100000019036",
   "slug": "masa-s-kitchen-019036",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:36:22Z",
+  "last_crawled": "2026-06-03T16:32:35Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "MASA'S KITCHEN",
@@ -71,7 +71,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ピータン",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ピータン豆腐",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "生ザーサイの浅漬",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "たたき胡瓜と干し海老",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "パクチーサラダ",
+      "price": 1900,
+      "price_raw": "1,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "冷やしワンタン",
+      "price": 1900,
+      "price_raw": "1,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "蒸し茄子の四川風ソース",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "蒸し大山鶏 四川風 よだれ鶏",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "自家製チャーシュー",
+      "price": 2400,
+      "price_raw": "2,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "キャビア冷麺",
+      "price": 4000,
+      "price_raw": "4,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "鮑の前菜",
+      "price": 6000,
+      "price_raw": "6,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-011",
+      "name": "前菜６種の盛り合わせ （1名様）",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-012",
+      "name": "海鮮シュウマイ（4個）",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-013",
+      "name": "海鮮の棒春巻（1本）",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "季節の春巻（時価）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-015",
+      "name": "蒸しパン（1個）",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "ふわふわ玉子のスープ",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-017",
+      "name": "本日のスープ（1椀）",
+      "price": 2600,
+      "price_raw": "2,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "蟹と貝柱のチリサワースープ",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "フカヒレスープ",
+      "price": 4000,
+      "price_raw": "4,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "茄子の山椒炒め",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "パクチーと玉子の炒め物",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "豆苗の炒め物",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "完熟トマトと玉子の炒め物",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "xo-024",
+      "name": "芯取菜の湯引き オイスターソース/XO醤/上湯",
+      "price": 2600,
+      "price_raw": "2,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "芯取菜と貝柱の煮込み",
+      "price": 2600,
+      "price_raw": "2,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "海鮮の白麻婆豆腐",
+      "price": 3100,
+      "price_raw": "3,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "海老の四川炒め",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "xo-028",
+      "name": "海老と黄韮のXO醤炒め",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "海老チリ 成都風",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "吉切鮫尾びれ フカヒレ姿煮（時価）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "xo-031",
+      "name": "吉切鮫尾びれステーキ XO醤 / 上湯（時価）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "土鍋の麻婆豆腐",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "黒酢の酢豚",
+      "price": 3000,
+      "price_raw": "3,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "本日の和牛の料理",
+      "price": 4200,
+      "price_raw": "4,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "【夏季限定】特製冷やし中華",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "【夏季限定】よだれ鶏冷麺",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-037",
+      "name": "担々麺 [汁あり or 汁なし]",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "冷やし担々麺",
+      "price": 2150,
+      "price_raw": "2,150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "黒酢サンラー麺",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "鶏と芯取菜のそば",
+      "price": 2400,
+      "price_raw": "2,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "高菜そば",
+      "price": 2600,
+      "price_raw": "2,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "ニラそば",
+      "price": 2600,
+      "price_raw": "2,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "香港風海老ワンタン麺",
+      "price": 2900,
+      "price_raw": "2,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "エビのおこげ",
+      "price": 2900,
+      "price_raw": "2,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "鮑のおこげ",
+      "price": 6000,
+      "price_raw": "6,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "貝柱炒飯",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "エビの黒炒飯",
+      "price": 2600,
+      "price_raw": "2,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "フカヒレの土鍋煮込み麺",
+      "price": 3800,
+      "price_raw": "3,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "フカヒレのあんかけ土鍋ご飯",
+      "price": 3800,
+      "price_raw": "3,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "特製杏仁豆腐",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "ライムのシャーベット",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "ラムレーズンのアイスクリーム",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "ジャスミンティーのアイスクリーム",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "愛玉ゼリー",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "黒胡椒のジェラート",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "【期間限定】完熟マンゴープリン",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "デザート３種盛り合わせ（ラムレーズンのアイスクリーム・特製杏仁豆腐・愛玉ゼリー）",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "完熟マンゴープリン入りデザート３種盛り合わせ（完熟マンゴープリン・ラムレーズンのアイスクリーム・特製杏仁豆腐）",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "※表示価格はすべて税込価格です。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-060",
+      "name": "※ディナータイムは、サービス料10％を頂戴しております。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "※仕入状況により、内容が多少異なる場合がございます。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "※当店では国産米を使用しております。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "ランチコース（前菜盛合せ、揚げ物、湯引き、スープ、蒸し物、主菜、麺、デザート）",
+      "price": 6600,
+      "price_raw": "6,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "小さなランチコース（前菜盛合せ、揚げ物、野菜の湯引き、主菜、麺、デザート）",
+      "price": 4100,
+      "price_raw": "4,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "ランチセット [平日]（前菜２種盛合せ、揚げ物、蒸し物、主菜、スープ、ライス）",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "ランチセット [土日祝]（前菜２種盛合せ、揚げ物、蒸し物、主菜、スープ、ライス）",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "【夏季限定】特製冷やし中華",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "【夏季限定】よだれ鶏冷麺",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-069",
+      "name": "担々麺 [汁あり or 汁なし]（前菜２種盛合せ、小籠包３個付き）",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "冷やし担々麺（前菜２種盛合せ、小籠包３個付き）",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "黒酢サンラー麺（前菜２種盛合せ、小籠包３個付き）",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "土鍋の鶏と芯取菜の煮込みそば（前菜２種盛合せ、小籠包３個付き）",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "土鍋の麻婆ご飯（前菜２種盛合せ、小籠包３個、スープ付き）",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "高菜そば（前菜２種盛合せ、小籠包３個付き）",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "ニラそば（前菜２種盛合せ、小籠包３個付き）",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "香港風海老ワンタン麺（前菜２種盛合せ、小籠包３個付き）",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "xo-077",
+      "name": "ふんわり蟹玉ご飯 XO醤ソース（前菜２種盛合せ、小籠包３個、スープ付き）",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "蟹レタス炒飯（前菜２種盛合せ、小籠包３個、スープ付き）",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "フカヒレの土鍋煮込み麺（前菜２種盛合せ、小籠包３個付き）",
+      "price": 3200,
+      "price_raw": "3,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "フカヒレのあんかけ土鍋ご飯（前菜２種盛合せ、小籠包３個、スープ付き）",
+      "price": 3200,
+      "price_raw": "3,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "※表示価格はすべて税込価格です。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "※仕入状況により、内容が多少異なる場合がございます。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "※当店では国産米を使用しております。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "生ビール",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "青島ビール [プレミアム]",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "ノンアルコールビール",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "グラスシャンパン",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1400-088",
+      "name": "グラスワイン [白] 1400円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1600-089",
+      "name": "グラスワイン [赤] 1600円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-glass-090",
+      "name": "古越老酒 甕だし [10年]（Glass）",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "20-glass-091",
+      "name": "長期熟成純米酒 「古今」20年（Glass）",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "碧",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "白州",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "山崎",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "紹興酒",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "中々 [麦]",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "富乃宝山 [芋]",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "桂花陳酒 -ケイカチンシュ-",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "杏露酒 -シンルチュウ-",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ランチコース（前菜盛合せ、揚げ物、湯引き、スープ、蒸し物、主菜、麺、デザート）",
+      "price": 6600,
+      "photo_url": null
+    },
+    {
+      "name": "鮑の前菜",
+      "price": 6000,
+      "photo_url": null
+    },
+    {
+      "name": "鮑のおこげ",
+      "price": 6000,
+      "photo_url": null
+    },
+    {
+      "name": "本日の和牛の料理",
+      "price": 4200,
+      "photo_url": null
+    },
+    {
+      "name": "小さなランチコース（前菜盛合せ、揚げ物、野菜の湯引き、主菜、麺、デザート）",
+      "price": 4100,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

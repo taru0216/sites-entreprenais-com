@@ -2,7 +2,7 @@
   "retty_id": "100001361302",
   "slug": "gems-361302",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:20:37Z",
+  "last_crawled": "2026-06-03T15:58:01Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "本家あべや 秋田純米酒処 GEMS恵比寿店",
@@ -81,7 +81,36 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "6-000",
+      "name": "おまかせ6本盛り",
+      "price": 2760,
+      "price_raw": "2,760円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-001",
+      "name": "おまかせ3本盛り",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "おまかせ6本盛り",
+      "price": 2760,
+      "photo_url": null
+    },
+    {
+      "name": "おまかせ3本盛り",
+      "price": 1380,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

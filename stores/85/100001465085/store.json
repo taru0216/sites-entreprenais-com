@@ -2,7 +2,7 @@
   "retty_id": "100001465085",
   "slug": "store-465085",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:59:33Z",
+  "last_crawled": "2026-06-03T17:22:25Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "焼肉一七三 本店",
@@ -77,7 +77,683 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "【厳選牛の塊　量り売り】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628822-5e9195e05bd1f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "100g-001",
+      "name": "塊の特上ハラミ 100g",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628822-5e9195e05bd1f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "100g-002",
+      "name": "塊のハラミ 100g",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628821-5e919466dbd3f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "100g-003",
+      "name": "塊のヒレ 100g",
+      "price": 3000,
+      "price_raw": "3,000円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628821-5e919466dbd3f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "いなみのおまかせコース",
+      "price": 5000,
+      "price_raw": "5,000円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628823-5e9195e1d9eee-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "【盛り合わせ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628823-5e9195e1d9eee-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "特選和牛盛り合わせ",
+      "price": 3200,
+      "price_raw": "3,200円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628824-5e9195e40a083-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "一七三盛り",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628824-5e9195e40a083-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ホルモン盛り合わせ",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628825-5e9195e577f38-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "【タン　単品】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628825-5e9195e577f38-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "自家製熟成タン",
+      "price": 3500,
+      "price_raw": "3,500円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628826-5e9195e9064ea-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "上タン",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628826-5e9195e9064ea-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "タン",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628827-5e9195ea3abf1-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "【ハラミ　単品】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628827-5e9195ea3abf1-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "上ハラミ",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628828-5e9195ebcf0f4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "ハラミ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628828-5e9195ebcf0f4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "ハラミすじ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628829-5e9195ecefce6-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "薄切りハラミ",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628829-5e9195ecefce6-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "【焼肉　単品】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628830-5e9195f35e96f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "リブ芯",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628830-5e9195f35e96f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "カイノミ",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628831-5e9195f48d817-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ミスジ",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001465085/archive/1628831-5e9195f48d817-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "イチボ",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628822-5e9195e05bd1f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ヒウチ",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628821-5e919466dbd3f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "【カルビ　単品】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628823-5e9195e1d9eee-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "上カルビ",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628824-5e9195e40a083-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-026",
+      "name": "中落ちカルビ1",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628825-5e9195e577f38-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "並カルビ",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628826-5e9195e9064ea-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "【ロース　単品】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628827-5e9195ea3abf1-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "特上ロース",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628828-5e9195ebcf0f4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "上ロース",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628829-5e9195ecefce6-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "並ロース",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628830-5e9195f35e96f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "【赤身　単品】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628831-5e9195f48d817-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "赤身（上）",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "赤身（並）",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "【ホルモン】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "ミノ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "ハチノス",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "ハツ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "レバー",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "コリコリ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "センマイ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "マルチョウ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "てっちゃん",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "アカセン",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "ツラミ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "【サイドメニュー】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "キムチ盛り",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "梅干しキムチ",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "きゅうりのぬか漬け",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "ごちゃまぜナムル",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "クリームチーズの醤油漬け",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "トマトスライス（オニオンドレッシング）",
+      "price": 380,
+      "price_raw": "380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "大阪鶴橋のチャンジャ",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "ウズラの味噌漬け",
+      "price": 380,
+      "price_raw": "380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "厚切りベーコン",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "お肉屋さんのソーセージ",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "煮干し冷麺",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "牛すじうどん",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "牛すじインドカレー",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "辛いらぁ?麺",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "石焼ユッケビビンバ",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "青森産にんにく焼き",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "韓国のり",
+      "price": 280,
+      "price_raw": "280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "【デザート】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "プリン・パンプキンプリン",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "一七三オリジナル季節のシャーベット",
+      "price": 200,
+      "price_raw": "200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "【持ち帰り】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "kg-068",
+      "name": "インドカレー　１kgパック",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "生ビール",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "各酎ハイ",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "各ハイボール",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "各カクテル",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "マッコリグラス",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "【ワイン】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "スペイン・タルマ（赤）（白）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "フランス・プロヴァンス",
+      "price": 4980,
+      "price_raw": "4,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "フランス・ブルゴーニュ / シャルドネ（白）",
+      "price": 6800,
+      "price_raw": "6,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "フランス・ボルドー / メルロー（赤）",
+      "price": 9000,
+      "price_raw": "9,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "アメリカ・ナパ ヴァレー / カベルネ・ソーヴィニオン（赤）",
+      "price": 10000,
+      "price_raw": "10,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "アメリカ・ワシントン州コロンビア ヴァレー/カベルネ・ソーヴィニオン（赤）",
+      "price": 12000,
+      "price_raw": "12,000円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "アメリカ・ワシントン州コロンビア ヴァレー/カベルネ・ソーヴィニオン（赤）",
+      "price": 12000,
+      "photo_url": null
+    },
+    {
+      "name": "アメリカ・ナパ ヴァレー / カベルネ・ソーヴィニオン（赤）",
+      "price": 10000,
+      "photo_url": null
+    },
+    {
+      "name": "フランス・ボルドー / メルロー（赤）",
+      "price": 9000,
+      "photo_url": null
+    },
+    {
+      "name": "フランス・ブルゴーニュ / シャルドネ（白）",
+      "price": 6800,
+      "photo_url": null
+    },
+    {
+      "name": "いなみのおまかせコース",
+      "price": 5000,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001465085/archive/1628823-5e9195e1d9eee-l.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100001774921",
   "slug": "jack-in-the-donuts-774921",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T23:08:32Z",
+  "last_crawled": "2026-06-03T16:17:48Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "JACK IN THE DONUTS 恵比寿店",
@@ -63,7 +63,227 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "生マラサダカスタード",
+      "price": 330,
+      "price_raw": "330円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859729-6942271a53415-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "生マラサダ練乳ミルク",
+      "price": 330,
+      "price_raw": "330円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859730-6942271e60d5c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "生マラサダクリームブリュレ",
+      "price": 352,
+      "price_raw": "352円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859731-6942272273a74-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "生マラサダ",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859732-694227267433a-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "クロワッサングレーズ",
+      "price": 275,
+      "price_raw": "275円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859733-6942272a7f30a-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "オリーボーレン",
+      "price": 275,
+      "price_raw": "275円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859734-6942272eb1d03-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "オリーボーレンシナモン",
+      "price": 275,
+      "price_raw": "275円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859735-69422732a35eb-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "カヌレドーナツ",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859736-69422736a1028-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "チョコカスタードエクレアシュー",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859737-6942273ab1a34-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "宇治抹茶エクレアシュー",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859738-6942273f112fc-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "珈琲エクレアシュー",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859739-69422743110c7-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ラズベリーエクレアシュー",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859740-6942274742d78-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ミルクティーエクレアシュー",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859741-6942274b3003d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "チョコファッション",
+      "price": 198,
+      "price_raw": "198円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859742-6942274f53dd9-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "オールドファッション",
+      "price": 178,
+      "price_raw": "178円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859743-6942275351e2d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "宇治抹茶ファッション",
+      "price": 220,
+      "price_raw": "220円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859744-694227575b90b-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "ラズベリーファッション",
+      "price": 220,
+      "price_raw": "220円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859745-6942275b828b2-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "珈琲ファッション",
+      "price": 220,
+      "price_raw": "220円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859746-6942275f8f711-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ミルクティーファッション",
+      "price": 220,
+      "price_raw": "220円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859747-6942276397af8-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ギャラクシードーナツ",
+      "price": 242,
+      "price_raw": "242円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859748-69422767e417d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "プレミアリッチショコラ",
+      "price": 198,
+      "price_raw": "198円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859749-6942276ba7855-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "プレミアストロベリー",
+      "price": 187,
+      "price_raw": "187円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859750-6942276fb96f8-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "お米ドーナツ",
+      "price": 165,
+      "price_raw": "165円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859752-69422773c9beb-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "豆腐ドーナツ",
+      "price": 165,
+      "price_raw": "165円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859754-69422777d2d9a-l.jpg",
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "生マラサダクリームブリュレ",
+      "price": 352,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859731-6942272273a74-l.jpg"
+    },
+    {
+      "name": "生マラサダカスタード",
+      "price": 330,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859729-6942271a53415-l.jpg"
+    },
+    {
+      "name": "生マラサダ練乳ミルク",
+      "price": 330,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859730-6942271e60d5c-l.jpg"
+    },
+    {
+      "name": "クロワッサングレーズ",
+      "price": 275,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859733-6942272a7f30a-l.jpg"
+    },
+    {
+      "name": "オリーボーレン",
+      "price": 275,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001774921/archive/3859734-6942272eb1d03-l.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

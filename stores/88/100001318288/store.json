@@ -2,7 +2,7 @@
   "retty_id": "100001318288",
   "slug": "cafe-bar-the-4th-ebisu-318288",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:29:18Z",
+  "last_crawled": "2026-06-03T17:25:32Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Cafe＆bar The 4th EBISU",
@@ -69,7 +69,49 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "グリーンカレー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "モツ粥",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "トマト粥",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "グリーンカレー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "モツ粥",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "トマト粥",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

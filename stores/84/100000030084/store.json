@@ -2,7 +2,7 @@
   "retty_id": "100000030084",
   "slug": "store-030084",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:09:09Z",
+  "last_crawled": "2026-06-03T17:20:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "焼肉トラジ 恵比寿園店",
@@ -69,7 +69,99 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "焼肉御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "スタミナ焼肉御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "上焼肉御膳",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "石焼ピビンパ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "炎のジャン麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "豆富チゲ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "鶏クッパ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "サムゲタン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "焼肉御膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "スタミナ焼肉御膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "上焼肉御膳",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "石焼ピビンパ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "炎のジャン麺",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

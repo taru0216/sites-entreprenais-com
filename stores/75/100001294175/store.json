@@ -2,7 +2,7 @@
   "retty_id": "100001294175",
   "slug": "bar-lumiere-294175",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:15:49Z",
+  "last_crawled": "2026-06-03T17:10:35Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Bar Lumiere",
@@ -68,7 +68,62 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "イベリコ豚の生ハム&チョリソーの盛り合せ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "イベリコ豚のチョリソー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "イベリコ豚の生ハム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ビーフシチューパイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "イベリコ豚の生ハム&チョリソーの盛り合せ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "イベリコ豚のチョリソー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "イベリコ豚の生ハム",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ビーフシチューパイ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

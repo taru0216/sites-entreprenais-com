@@ -2,7 +2,7 @@
   "retty_id": "100001788969",
   "slug": "store-788969",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T23:09:17Z",
+  "last_crawled": "2026-06-03T17:05:35Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "おだし 恵比寿",
@@ -79,7 +79,835 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "塩茹で茶豆",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001788969/archive/3711132-689d6346915e9-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "長芋の大葉漬け",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001788969/archive/3711132-689d6346915e9.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "長寿貝のわさび和え",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001788969/archive/3711127-689d6342b2a8d.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "サーモンとアボガドの明太和え",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001788969/archive/3711128-689d634374536.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ズワイガニともずく酢",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001788969/archive/3711125-689d634165d59.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "炙り鶏わさび",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "皮付きフライドポテト　～塩昆布バター～",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "梅水晶",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "おつまみネギトロ",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "豆腐と花かつおのサラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "松坂豚のしゃぶしゃぶサラダ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ズワイガニとイクラのチョレギ風サラダ",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "おばんざい　ほうれん草とお揚げのお浸し",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "おばんざい　茄子とパプリカの揚げ浸し",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "おばんざい　蒸し鶏と胡瓜のわさび和え",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a5-015",
+      "name": "おばんざい　A5黒毛和牛の時雨煮",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a5-016",
+      "name": "おばんざい　A5黒毛和牛の肉じゃが",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "おばんざい　和風ポテトサラダ　半熟卵のせ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "おばんざい　松坂豚の角煮",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "おばんざい　いくらと香味野菜のおぼろ豆腐",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "おばんざい　水だこと大根のピリ辛煮",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a5-021",
+      "name": "おばんざい　A5黒毛和牛のたたき",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "おばんざい　銀鱈の西京みそ焼き",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "おばんざい三種盛り",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "おばんざい五種盛り",
+      "price": 2090,
+      "price_raw": "2,090円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "おばんざい七種盛り",
+      "price": 2750,
+      "price_raw": "2,750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "おだしの茶碗蒸し",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "クリームチーズのだし醬油漬け",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "おだしで食す冷製トマト",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "だしおにぎり茶漬け",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "おだしの揚げ出し豆腐",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "だしあんかけ卵焼き",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "鰹節で包んだだし唐揚げ",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "鯖のだし焼き",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "ホッケのだし焼き",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "おだしの出汁しゃぶ　松坂豚（バラ、ロース）",
+      "price": 2530,
+      "price_raw": "2,530円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a5-036",
+      "name": "おだしの出汁しゃぶ　A5黒毛和牛赤身",
+      "price": 3630,
+      "price_raw": "3,630円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a5-037",
+      "name": "おだしの出汁しゃぶ　A5黒毛和牛霜降り",
+      "price": 4730,
+      "price_raw": "4,730円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "おだしの出汁しゃぶ　お野菜セット",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "おだしの出汁しゃぶ　追加お肉　松坂豚（バラ・ロース）",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a-040",
+      "name": "おだしの出汁しゃぶ　追加お肉　A５黒毛和牛赤身",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "a-041",
+      "name": "おだしの出汁しゃぶ　追加お肉　A５黒毛和牛霜降り",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "おだしの出汁しゃぶ　〆の雑炊",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "おだしの出汁しゃぶ　〆の麺",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "鶏と三種のキノコの土鍋飯",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "サーモンとイクラの土鍋飯",
+      "price": 2530,
+      "price_raw": "2,530円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "黒毛和牛のすきやき土鍋飯",
+      "price": 2750,
+      "price_raw": "2,750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "季節のシャーベット",
+      "price": 445,
+      "price_raw": "445円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "雫わらび餅",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "季節のフルーツ大福　アイスを添えて",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "アサヒ　スーパードライ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "アサヒ　スーパードライ　　グラス",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "アサヒスーパドライ　中瓶",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "アサヒドライゼロ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "シャンディガフ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "グレープフルーツビア",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "烏龍茶割り",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "ジャスミン茶割り",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "緑茶割り",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "生搾りグレープフルーツサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "生搾りレモンサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "(芋)黒霧島",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "(芋)富乃宝山",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "(麦)大隅",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "(麦)中々",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "(米)鳥飼",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "(泡盛)瑞泉",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "アサヒ　ブッシュミルズ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "コーラハイボール",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "ジンジャーハイボール",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "120-070",
+      "name": "飛良泉　山廃本醸造　120ｍｌ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "300-071",
+      "name": "飛良泉　山廃本醸造　300ｍｌ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "120-072",
+      "name": "雪男　純米酒　120ｍｌ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "300-073",
+      "name": "雪男　純米酒　300ｍｌ",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "120-074",
+      "name": "八海山　普通酒　120ｍｌ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "300-075",
+      "name": "八海山　普通酒　300ｍｌ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "120-076",
+      "name": "八海山　純米大吟醸　120ｍｌ",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "300-077",
+      "name": "八海山　純米大吟醸　300ｍｌ",
+      "price": 2860,
+      "price_raw": "2,860円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "120-078",
+      "name": "鶴齢　純米吟醸　120ｍｌ",
+      "price": 1740,
+      "price_raw": "1,740円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "300-079",
+      "name": "鶴齢　純米吟醸　300ｍｌ",
+      "price": 3480,
+      "price_raw": "3,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "あっさり梅酒",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "あらごし梅酒",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "あらごしみかん酒",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "あらごしもも酒",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "ヴィニウス・リザーブ・ピノノワール(赤ワイン)　グラス",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "ヴィニウス・リザーブ・シャルドネ(白ワイン)　グラス",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "スパークリングワイングラス",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "ヴィニウス・リザーブ・ピノノワール(赤ワイン)　ボトル",
+      "price": 5280,
+      "price_raw": "5,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "ヴィニウス・リザーブ・シャルドネ（白ワイン）　ボトル",
+      "price": 5280,
+      "price_raw": "5,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "カシスソーダ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "カシスオレンジ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "カシスグレープフルーツ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "カシスジャスミン",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "カシスウーロン",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "ピーチフィズ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "ファジーネーブル",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "ピーチグレープフルーツ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "ピーチジャスミン",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "ピーチウーロン",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "コカ・コーラ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ヴィニウス・リザーブ・ピノノワール(赤ワイン)　ボトル",
+      "price": 5280,
+      "photo_url": null
+    },
+    {
+      "name": "ヴィニウス・リザーブ・シャルドネ（白ワイン）　ボトル",
+      "price": 5280,
+      "photo_url": null
+    },
+    {
+      "name": "おだしの出汁しゃぶ　A5黒毛和牛霜降り",
+      "price": 4730,
+      "photo_url": null
+    },
+    {
+      "name": "おだしの出汁しゃぶ　A5黒毛和牛赤身",
+      "price": 3630,
+      "photo_url": null
+    },
+    {
+      "name": "鶴齢　純米吟醸　300ｍｌ",
+      "price": 3480,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

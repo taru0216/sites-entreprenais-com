@@ -2,7 +2,7 @@
   "retty_id": "100000812573",
   "slug": "store-812573",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:32:09Z",
+  "last_crawled": "2026-06-03T17:08:28Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "一佳",
@@ -57,7 +57,123 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "煮込みハンバーグ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ミックスフライ（ハムカツ・うずら・白身魚）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ハンバーグとフライのセット（カキ２ヶ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "豚の生姜焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "煮込みハンバーグ小",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "コロッケ（カレー風味）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "プレミアムサワー　もも",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "プレミアムサワー　トマト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "プレミアムサワー　コラーゲン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "シャリキンホッピー　セット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "シャリキンのみ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "煮込みハンバーグ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ミックスフライ（ハムカツ・うずら・白身魚）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ハンバーグとフライのセット（カキ２ヶ）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "豚の生姜焼き",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "煮込みハンバーグ小",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

@@ -2,7 +2,7 @@
   "retty_id": "100001360490",
   "slug": "yoroniku-ebisu-360490",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:38:01Z",
+  "last_crawled": "2026-06-03T17:27:47Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "YORONIKU 蕃 ebisu",
@@ -69,7 +69,23 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "よろしいお肉盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "よろしいお肉盛り合わせ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

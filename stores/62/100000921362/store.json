@@ -2,7 +2,7 @@
   "retty_id": "100000921362",
   "slug": "store-921362",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:48:12Z",
+  "last_crawled": "2026-06-03T16:58:07Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "カフェアンドダイニング ヌリカベ",
@@ -72,7 +72,83 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "特製'逆'アルデンテのナポリタン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-001",
+      "name": "ホウレン草で包んだカレー　3種の野菜を添えて",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "朝採れ卵のオムライス　自家製デミグラスソースをかけて",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "日替りランチプレート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ランチビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ランチワイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "特製'逆'アルデンテのナポリタン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ホウレン草で包んだカレー　3種の野菜を添えて",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "朝採れ卵のオムライス　自家製デミグラスソースをかけて",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "日替りランチプレート",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ランチビール",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

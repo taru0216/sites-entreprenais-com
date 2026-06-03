@@ -2,7 +2,7 @@
   "retty_id": "100000228598",
   "slug": "restaurant-barlounge-medusa-228598",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:04:57Z",
+  "last_crawled": "2026-06-03T17:36:10Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Restaurant＆BarLounge MEDUSA",
@@ -79,7 +79,835 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "oyster-000",
+      "name": "◆OYSTER◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-x3p-001",
+      "name": "オイスタープレート(3種類X3P)",
+      "price": 3980,
+      "price_raw": "3,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "能登(石川県)",
+      "price": 460,
+      "price_raw": "460円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "的矢(三重県)",
+      "price": 540,
+      "price_raw": "540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "相生(兵庫)",
+      "price": 460,
+      "price_raw": "460円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "知内(北海道)",
+      "price": 540,
+      "price_raw": "540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-x2p-006",
+      "name": "オイスタープレート(3種類X2P)",
+      "price": 2680,
+      "price_raw": "2,680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "appetizers-hot-appetizers-007",
+      "name": "◆APPETIZERS◆HOT APPETIZERS◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "真イワシのマリネ\"サルディナス\"",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "鶏白レバーのパテ ポルト酒風味薄切りのバケットを添えて",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ニューカレドニア産天使の海老のポシェ シンプルにレモンを添えて",
+      "price": 930,
+      "price_raw": "930円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "フォアグラ入り豚ホホ肉のパテドカンパーニュ",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-012",
+      "name": "モッツァレラ\"ブッファラ\"と4種のトマトのカプレーゼ",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "本日の鮮魚のカルパッチョ仕立て",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "ノルウェー産オーロラサーモンとホタテ、アボカドのタルタル仕立て",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "パルマ産プロシュートとイタリアンサラミの盛合せ",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-016",
+      "name": "トリッパと(ハチノス)4種の豆のトマト煮込み フィレンツェ風",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "本日のスープ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ムール貝の白ワイン蒸しガーリック風味",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "スペイン産イベリコ豚タンの炭火焼きラヴィゴットソース",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "カキのブルゴーニュ風",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "北海道産帆立貝柱のポワレ",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "フォアグラのソテーカベルネソーヴィニヨンと蜂蜜のソース",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "saladas-023",
+      "name": "◆SALADAS◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "厳選野菜のバーニャカウダ 温かいニンニク風味のアンチョビクリームソースで",
+      "price": 1780,
+      "price_raw": "1,780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "18-025",
+      "name": "18品目のお野菜とアボカドのミネラルサラダ 白バルサミコ酢のヴィネグレットで",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "ロメインレタスのシーザーサラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "フルーツトマトとクレソンのサラダ",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pizza-028",
+      "name": "◆PIZZA◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "マリナーラ",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "マルゲリータ",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "ロマーナ",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "ディアボラ",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "プロシュート・ルッコラ",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "クアトロフォルマッジ",
+      "price": 1680,
+      "price_raw": "1,680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "マルゲリータ・ブッファラ",
+      "price": 1880,
+      "price_raw": "1,880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pasta-special-gnocchi-036",
+      "name": "◆PASTA◆SPECIAL GNOCCHI◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "ズワイガニと水菜のスパゲッティーニ蟹味噌風味",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "青唐辛子とニンニクのシンプルなペペロンチーノ",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "フルーツトマトとバジリコのトマトソース",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "カラブリア産唐辛子と九条ネギのアラビアータスパゲッティーニ",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "活アサリと金針菜のスパゲッティーニ",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "ポルチーニ茸のフェットチーネ",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "カキとほうれん草のクリームソースフェットチーネ",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "ルッコラを練り込んだラザーニャ極上黒毛和牛のラグーソース",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "北海道産ホタテと小海老の青海苔クリームソーススパゲッティーニ",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "ワタリガニのリングイネ アメリケーヌソース",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "北海道産生うにとフレッシュトマト バジリコのスパゲッティーニ",
+      "price": 2180,
+      "price_raw": "2,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "活けオマール海老のリングイネ トマトクリームソース",
+      "price": 2380,
+      "price_raw": "2,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "ペンネ\"アラビアータ\"カラブリア産唐辛子効かせた辛いトマトソース",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-050",
+      "name": "ペンネ\"クアトロフォルマッジ\"4種のチーズのソース",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "インカの目覚めのニョッキゴルゴンゾーラチーズのソース",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "インカの目覚めのニョッキ\"ソレンティーナ\"",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "インカの目覚めのニョッキ\"デュクセル\"",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "risotto-054",
+      "name": "◆RISOTTO◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "パルミジャーノチーズのリゾットカマンベール風味",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "ニューカレドニア産天使の海老と魚介のトマトクリームリゾット",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "生ウニのクリームリゾット",
+      "price": 2180,
+      "price_raw": "2,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "ポルチーニ茸のリゾット フォアグラのソテーをのせて ヴィンコットソース",
+      "price": 2380,
+      "price_raw": "2,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "main-dish-house-specialites-059",
+      "name": "◆MAIN DISH HOUSE SPECIALITES◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "本日の鮮魚の炭火焼き",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "活けオマール海老のポワレ",
+      "price": 4980,
+      "price_raw": "4,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "マグロテールの香草パン",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "ノルウェー産オーロラサーモンの低温コンフィ仕立て",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "本日の鮮魚とアサリ、ムール貝のアクアパッツァ仕立て",
+      "price": 1680,
+      "price_raw": "1,680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "大山地鶏のロースト ローズマリー風味 フォアグラの入ったペヴェラーダソース",
+      "price": 1680,
+      "price_raw": "1,680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "豚のロースト フルムダンベールチーズを入れたマデラワインソースで",
+      "price": 1780,
+      "price_raw": "1,780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "極上黒毛和牛のタリアータ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "オーストラリア産 仔羊背肉のロースト タイム風味",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "charcoal-grill-069",
+      "name": "◆CHARCOAL GRILL◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "上黒毛和牛フィレの炭火焼きとフォアグラのポワレ",
+      "price": 3980,
+      "price_raw": "3,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "special-charcoal-grill-071",
+      "name": "◆SPECIAL CHARCOAL GRILL◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "極上佐賀牛サーロインの炭火焼き",
+      "price": 6800,
+      "price_raw": "6,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "極上佐賀牛リブロースの炭火焼き",
+      "price": 5800,
+      "price_raw": "5,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "極上黒毛和牛フィレ・シャトーブリアンの炭火焼き",
+      "price": 7800,
+      "price_raw": "7,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "side-order-075",
+      "name": "◆SIDE ORDER◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "天然酵母プティパンの盛合せ",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2p-077",
+      "name": "ガーリックトースト(2P)",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "マッシュポテト",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "チーズマッシュポテト",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "窯焼きフォカッチャ",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "オリーブ盛合せ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "ピクルスの盛合せ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "パルマ産プロシュート",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "ドライフルーツの盛合せ",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "フルーツの盛合せ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tasting-cheese-086",
+      "name": "◆TASTING CHEESE◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "パルミジャーノ(伊・ハードタイプ)",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "ミモレット(仏・ハードタイプ)",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "カマンベール(仏・白カビ)",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "ゴルゴンゾーラ(伊・青カビ)",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "タレッジョ(伊・ウォッシュタイプ)",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "マスカルポーネ(北海道・フレッシュタイプ)",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "チーズの盛合せ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dessert-094",
+      "name": "◆DESSERT◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "本日のガトー",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mest-lunch-set-096",
+      "name": "MEST LUNCH SET",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pasta-lunch-set-097",
+      "name": "PASTA LUNCH SET",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pizaa-lunch-set-098",
+      "name": "PIZAA LUNCH SET",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "curry-lunch-set-099",
+      "name": "CURRY LUNCH SET",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "極上黒毛和牛フィレ・シャトーブリアンの炭火焼き",
+      "price": 7800,
+      "photo_url": null
+    },
+    {
+      "name": "極上佐賀牛サーロインの炭火焼き",
+      "price": 6800,
+      "photo_url": null
+    },
+    {
+      "name": "極上佐賀牛リブロースの炭火焼き",
+      "price": 5800,
+      "photo_url": null
+    },
+    {
+      "name": "活けオマール海老のポワレ",
+      "price": 4980,
+      "photo_url": null
+    },
+    {
+      "name": "オイスタープレート(3種類X3P)",
+      "price": 3980,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100000228598",
   "sns": {

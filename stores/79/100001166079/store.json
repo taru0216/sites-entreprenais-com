@@ -2,7 +2,7 @@
   "retty_id": "100001166079",
   "slug": "store-166079",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T20:59:32Z",
+  "last_crawled": "2026-06-03T17:14:16Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "全席個室 楽蔵うたげ 恵比寿東口駅前店",
@@ -81,7 +81,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "■春のおすすめ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3702714-6891abdae69dc.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "春しいたけの生ハムクリームチーズ串",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3937045-6992b12f26199.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ネギトロユッケ盛り　キムチーズ巻き寿司",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3702724-6891abf829d3f.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "鰆と竹の子の揚げ出し",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3937044-6992b12b53107.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "炙りたて鰹のタタキ",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3937043-6992b12a0e1d7.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "黒毛和牛赤身肉のステーキ",
+      "price": 2189,
+      "price_raw": "2,189円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3609136-68270e664a78c.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "■旬鮮お造り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3252847-5b58253e10ed1.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "本日のお造り",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3609142-68270e7575307.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "3-008",
+      "name": "特選お造り3品盛り",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3768989-68e859a4ec7a4.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "5-009",
+      "name": "特選お造り5品盛り",
+      "price": 2189,
+      "price_raw": "2,189円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3164544-5b568bf7c0961.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "■楽蔵で健康嗜好　お野菜の小皿料理達",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3164545-5f06b3ed08d33.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "枝豆",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "こんにゃくの揚げびたし",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "ザーサイと木耳の麻辣和え",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "無限ピリ辛にんじん",
+      "price": 583,
+      "price_raw": "583円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "小松菜サキイカ和え",
+      "price": 583,
+      "price_raw": "583円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "かいわれおかか",
+      "price": 583,
+      "price_raw": "583円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "マー油キャベツ",
+      "price": 583,
+      "price_raw": "583円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "長芋のキムチ",
+      "price": 583,
+      "price_raw": "583円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "漬物盛り合わせ",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "ブロッコリーのおひたし",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "タルタルポテサラ",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "ベーコンチーズのピザポテサラ",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "冷やしトマト",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "たたき胡瓜の梅和え",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "■出汁巻玉子",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "だし香るこだわり出汁巻玉子",
+      "price": 803,
+      "price_raw": "803円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "あんかけ出汁巻玉子",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "出汁巻玉子の揚げ出し",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "すき焼き出汁巻サンド",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "■楽蔵自慢の酒肴　～酒と愉しむ、創作冷温菜～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "極みクラゲ酢 ～こりこりの悦び～",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "揚げ餅海苔まみれ",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "パリパリ鶏皮　～秘伝のタレ～",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "帆立の貝ひもポン酢",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "北海道クリームチーズのラー油和え",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "辛子レンコンの揚げ春巻き",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "香味野菜のお出汁わかめ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "栃尾揚げの炙り",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "自家製チーズかまぼこ",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "■焼き・炙りの逸品（海鮮）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-041",
+      "name": "海老の肉巻き串　1本",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "手づくり薩摩揚げの炙り",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "エイヒレの炙り焼き",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "本日のカマ焼き",
+      "price": 869,
+      "price_raw": "869円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "イカの甘辛炙り",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "炙り〆鯖",
+      "price": 1199,
+      "price_raw": "1,199円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "■焼き・炙りの逸品（肉）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "大山どり　鶏トロ肉の大串塩焼き　山葵添え",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "栗豚使用　豚タンの大串焼き（たれ）",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "栗豚使用　豚タンの大串焼き（塩）",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "粗挽きバジルソーセージの炙り",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "熱々鉄板辛鶏",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "厳選豚の肩ロース炙り　鬼おろしポン酢",
+      "price": 1199,
+      "price_raw": "1,199円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "特選　牛ミスジのステーキ　～おろし玉葱とリンゴのソース～",
+      "price": 1639,
+      "price_raw": "1,639円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-055",
+      "name": "楽蔵の3種大串肉盛り（牛中落カルビ・豚肩ロース・鶏トロ）",
+      "price": 2079,
+      "price_raw": "2,079円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "■揚物",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "砂肝銀皮の唐揚げ",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "チーズの天ぷら",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "ポテトフライ　～選べる三種のフレーバー～（プレーン）",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "ポテトフライ　～選べる三種のフレーバー～（のり塩）",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "ポテトフライ　～選べる三種のフレーバー～（ホットチリ）",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "ポテトフライ　～選べる四種のフレーバー～（納豆）",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "お好み焼きコロッケ",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "若鶏の竜田揚げ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "ホクホク長芋の唐揚げ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "チキン南蛮 たっぷり玉子タルタル",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "■串焼き　自慢の焼鳥",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-068",
+      "name": "大山どり　串焼き盛り合わせ（たれ）      5本",
+      "price": 1749,
+      "price_raw": "1,749円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-069",
+      "name": "大山どり　串焼き盛り合わせ（塩）      5本",
+      "price": 1749,
+      "price_raw": "1,749円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "大山どり　もも串（たれ）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "大山どり　もも串（塩）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "大山どり　ねぎま串（たれ）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "大山どり　ねぎま串（塩）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "大山どり　皮串（たれ）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "大山どり　皮串（塩）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "大山どり　レバー串（たれ）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "大山どり　レバー串（塩）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "大山どり　軟骨入りつくね串（たれ）",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "つくね用卵黄",
+      "price": 110,
+      "price_raw": "110円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "■大皿サラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-081",
+      "name": "三陸若芽とくずし豆冨のサラダ　【3～4人前】",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-082",
+      "name": "三陸若芽とくずし豆冨のサラダ　【2人前】",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-083",
+      "name": "半熟ゆで玉子のメリメロシーザーサラダ　【3～4人前】",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-084",
+      "name": "半熟ゆで玉子のメリメロシーザーサラダ　【2人前】",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "■〆の一品",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-086",
+      "name": "こんがり焼きおにぎり　2ヶ",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "茶漬け　（鮭）",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "茶漬け　（梅）",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tkg-089",
+      "name": "〆に焼鳥つくねのTKG",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "冷やしラー油うどん",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "桜海老とイカのバラ天丼　-お出汁を添えて-",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "楽蔵春雨辛麺",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "担々ニラ辛焼きそば",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "にんにくピザ",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "本日のあら汁",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "■デザート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "本日のアイス",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "ミルキーカスタードプリン",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "ベルギー産チョコレートのムースケーキ",
+      "price": 539,
+      "price_raw": "539円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "黒毛和牛赤身肉のステーキ",
+      "price": 2189,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3609136-68270e664a78c.jpg"
+    },
+    {
+      "name": "特選お造り5品盛り",
+      "price": 2189,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001166079/archive/3164544-5b568bf7c0961.png"
+    },
+    {
+      "name": "楽蔵の3種大串肉盛り（牛中落カルビ・豚肩ロース・鶏トロ）",
+      "price": 2079,
+      "photo_url": null
+    },
+    {
+      "name": "大山どり　串焼き盛り合わせ（たれ）      5本",
+      "price": 1749,
+      "photo_url": null
+    },
+    {
+      "name": "大山どり　串焼き盛り合わせ（塩）      5本",
+      "price": 1749,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001166079",
   "sns": {

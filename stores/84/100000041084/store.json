@@ -2,7 +2,7 @@
   "retty_id": "100000041084",
   "slug": "store-041084",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:05:11Z",
+  "last_crawled": "2026-06-03T17:20:35Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "えびす飯店 恵比寿店",
@@ -69,7 +69,75 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "チンジャオロースセット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "レバニラ炒め定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "エビス生ビール（中）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "エビス生ビール（小）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "日本酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "チンジャオロースセット",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "レバニラ炒め定食",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "エビス生ビール（中）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "エビス生ビール（小）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "日本酒",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

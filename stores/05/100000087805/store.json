@@ -2,7 +2,7 @@
   "retty_id": "100000087805",
   "slug": "store-087805",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:21:11Z",
+  "last_crawled": "2026-06-03T16:00:23Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "京しずく",
@@ -72,7 +72,36 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "季節の懐石コース",
+      "price": 19800,
+      "price_raw": "19,800円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000087805/archive/2977845-63e5f0db989b8.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "旬の特別懐石コース",
+      "price": 25000,
+      "price_raw": "25,000円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000087805/archive/2977849-63e5f10da4494.jpg",
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "旬の特別懐石コース",
+      "price": 25000,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000087805/archive/2977849-63e5f10da4494.jpg"
+    },
+    {
+      "name": "季節の懐石コース",
+      "price": 19800,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000087805/archive/2977845-63e5f0db989b8.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

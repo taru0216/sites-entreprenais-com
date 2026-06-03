@@ -2,7 +2,7 @@
   "retty_id": "100000001262",
   "slug": "areverie-terrace-ebisu-001262",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:52:08Z",
+  "last_crawled": "2026-06-03T16:57:16Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Areverie TERRACE Ebisu",
@@ -71,7 +71,139 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "交雑牛と鹿児島六白黒豚のロコモコ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ベーコンエッグスライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "サーモンとイクラの親子丼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "クラシックバーガー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ラザニア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ジャックコーラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ジャックジンジャー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ジャッキハニーレモネード",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ジャックハニークランベリー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "ジャックラテ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ジャックハニーミルク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ジャックハニーティー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "special-012",
+      "name": "ジャックハニーソース掛けspecialパンケーキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "交雑牛と鹿児島六白黒豚のロコモコ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ベーコンエッグスライス",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "サーモンとイクラの親子丼",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "クラシックバーガー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ラザニア",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

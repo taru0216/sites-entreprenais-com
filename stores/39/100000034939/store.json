@@ -2,7 +2,7 @@
   "retty_id": "100000034939",
   "slug": "bar-odin-034939",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:56:40Z",
+  "last_crawled": "2026-06-03T16:35:28Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Bar ODIN 恵比寿店",
@@ -64,7 +64,23 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "自家製旬の有機栽培ドライフルーツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "自家製旬の有機栽培ドライフルーツ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

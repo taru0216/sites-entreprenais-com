@@ -2,7 +2,7 @@
   "retty_id": "100000003636",
   "slug": "bar-trench-003636",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:38:37Z",
+  "last_crawled": "2026-06-03T16:32:30Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "BAR TRENCH",
@@ -69,7 +69,603 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "salad-with-smoky-ham-dried-fruits-000",
+      "name": "Salad with smoky ham & Dried fruits 生ハムとナッツ、ドライフルー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "couscous-salad-001",
+      "name": "Couscous Salad ほたてとレンズ豆、クスクスのサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "crab-terrine-002",
+      "name": "Crab Terrine ズワイ蟹のテリーヌ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "confited-pork-spareribs-003",
+      "name": "Confited Pork Spareribs スペアリブのコンフィ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "oystar-004",
+      "name": "Oystar牡蠣と菜の花",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bismarck-005",
+      "name": "Bismarckビスマルク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "spicy-lamb-curry-006",
+      "name": "Spicy Lamb Curry 子羊肉のカレー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "seafood-gumbo-007",
+      "name": "Seafood Gumbo シーフードのガンボ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mixed-nuts-008",
+      "name": "Mixed Nuts ミックスナッツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "black-forest-ham-009",
+      "name": "Black Forest ham ブラックフォレストハム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hummus-with-anchovy-010",
+      "name": "Hummus with anchovy フムスとピタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sundried-tomatoes-011",
+      "name": "Sundried tomatoes ドライトマトのハーブオイル漬け",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pickled-seasonal-vegetable-012",
+      "name": "Pickled seasonal vegetable ピクルス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "assorted-olive3-013",
+      "name": "Assorted Olive3種オリーブの盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "assorted-cheese-plate-014",
+      "name": "Assorted Cheese plate チーズの盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "plate-of-6-appetizers-bread-015",
+      "name": "Plate of 6 appetizers & bread 前菜盛り合わせ６種とパン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "plate-of-4-appetizers-bread-016",
+      "name": "Plate of 4 appetizers & bread 前菜盛り合わせ６種とパン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "homemade-orange-peel-chocolate-017",
+      "name": "Homemade Orange Peel Chocolate 自家製オレンジピールチョコレート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "absinthe-on-ice-cream-018",
+      "name": "Absinthe On Ice Cream アブサンアイスクリーム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "assorted-dried-fruits-019",
+      "name": "Assorted Dried Fruits ドライフルーツ盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dried-fig-020",
+      "name": "Dried Fig ドライいちじく",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "chocolate-cake-021",
+      "name": "Chocolate Cake ガトーショコラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "blended-coffee-022",
+      "name": "ブレンド珈琲 Blended Coffee",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "straight-023",
+      "name": "ストレート珈琲 Straight",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "caf-au-lait-024",
+      "name": "ミルク珈琲 Café au lait",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-coffee-025",
+      "name": "アイス珈琲 Iced Coffee",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tea-026",
+      "name": "紅茶 Tea",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "home-made-g-teau-chocolat-027",
+      "name": "自家製ガトーショコラ Home made Gâteau chocolat",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dr-m-028",
+      "name": "Dr.M ドクターエム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tokyo-lights-029",
+      "name": "Tokyo Lights トーキョーライツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mikado-030",
+      "name": "MIKADO ミカド",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hoshiko-matador-031",
+      "name": "Hoshiko Matador 星子マタドール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "coffee-cocktail-032",
+      "name": "Coffee Cocktail コーヒーカクテル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "honeysuckle-rose-033",
+      "name": "Honeysuckle Rose ハニーサックルローズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "far-east-calling-034",
+      "name": "Far East Calling  ファーイーストコーリング",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "invention-of-normandy-035",
+      "name": "Invention of Normandy インベンション・オブ・ノルマンディ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dranken-chocolatier-036",
+      "name": "Dranken Chocolatier 酔いどれチョコレート職人",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "monkey-goes-bananas-037",
+      "name": "Monkey Goes Bananas モンキー・ゴーズ・バナナズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "rattlesnake-shake-038",
+      "name": "Rattlesnake Shake ラトルスネーク・シェイク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bijou-039",
+      "name": "Bijou ビジュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "rolls-royce-silver-ghost-040",
+      "name": "Rolls Royce Silver Ghost ロールスロイス・シルバー・ゴースト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sazerac-coffee-house-041",
+      "name": "Sazerac Coffee House サゼラック・コーヒー・ハウス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "islay-blackthorn-042",
+      "name": "Islay Blackthorn アイレイ・ブラックソーン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "artichoke-mojito-043",
+      "name": "Artichoke Mojito アーティーチョークモヒート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "monk-s-sour-044",
+      "name": "Monk’s Sour モンクズ・サワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "old-english-punch-045",
+      "name": "Old English Punch オールドイングリッシュパンチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "long-pink-cadillac-046",
+      "name": "Long pink cadillac ロング・ピンク・キャデラック",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "after-the-gold-rush-047",
+      "name": "After the Gold Rush アフター・ザ・ゴールドラッシュ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "evita-048",
+      "name": "Evita エビータ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "vin-blanc-aromatic-049",
+      "name": "Vin Blanc Aromatic ヴァン・ブラン・アロマティック",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "orient-express-050",
+      "name": "Orient Express オリエント・エクスプレス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "the-beetles-051",
+      "name": "The Beetles ザ・ビートルズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "rooibos-mate-052",
+      "name": "Rooibos & Mate ルイボス・マテ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "absinthe-sonic-053",
+      "name": "Absinthe Sonicアブサンソニック",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "absinthe-mojito-054",
+      "name": "Absinthe Mojito アブサンモヒート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "corpse-reviver-2-055",
+      "name": "Corpse Reviver #2 コープスリバイバー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "monkey-gland-056",
+      "name": "Monkey Gland モンキー・グラント",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "paint-it-green-057",
+      "name": "Paint It Green ペイント・イット・グリーン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "d-j-vu-058",
+      "name": "Déjà Vu デジャヴュ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "van-gogh-s-downfall-059",
+      "name": "Van Gogh’s Downfall ヴァン・ゴッホの破滅",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "butterfly-effect-060",
+      "name": "Butterfly Effectバタフライ・エフェクト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "d-j-vu-061",
+      "name": "Déjà Vu デジャ・ヴュ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "clandestine-062",
+      "name": "Clandestineクランディスティーヌ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mansinthe-063",
+      "name": "Mansintheマンサン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "kubler-verte-suisse-2013-064",
+      "name": "Kubler Verte Suisse 2013ヴェルトスイス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "absinthe-la-charlotte-065",
+      "name": "Absinthe la Charlotteシャルロット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ang-lique-066",
+      "name": "Angéliqueアンジェリーク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "berthe-de-joux-067",
+      "name": "Berthe de Jouxベルトドジュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "perroquet-068",
+      "name": "Perroquetペロケ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "vieux-pontarlier-069",
+      "name": "Vieux Pontarlierヴューポンタルリエ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "jade-1901-1901-070",
+      "name": "Jade 1901ジェイド1901",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "Salad with smoky ham & Dried fruits 生ハムとナッツ、ドライフルー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "Couscous Salad ほたてとレンズ豆、クスクスのサラダ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "Crab Terrine ズワイ蟹のテリーヌ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "Confited Pork Spareribs スペアリブのコンフィ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "Oystar牡蠣と菜の花",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

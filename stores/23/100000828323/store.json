@@ -2,7 +2,7 @@
   "retty_id": "100000828323",
   "slug": "tiger-gang-828323",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:23:48Z",
+  "last_crawled": "2026-06-03T16:19:03Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ステーキ&カジュアルフレンチイタリアン Tiger Gang 恵比寿店",
@@ -81,7 +81,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "【前菜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000828323/archive/3399083-66e128ae065fb.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "アボカドのシェリービネガー漬け　オリーブオイルの香りで",
+      "price": 803,
+      "price_raw": "803円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "クリームチーズのマリネ　香草オイルとセミドライトマト漬け",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "フレッシュピクルスとオリーブの盛り合わせ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "北海生タコとセロリの爽やかな林檎酢と蜂蜜マリネ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "チーズ(ゴルゴンゾーラ・ミモレット・ブリー",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "タレッジオ・スティルトン・エポワス他)",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "岩中豚のリエット　香ばしいピスタチオと共に",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "国産馬刺しのカルパッチョ　ジェノベーゼ風に〜たっぷりとパルメジャーノをまぶして〜",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "ハモンセラーノのスライス　「生ハムの原木」",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "天使の海老のカクテル仕立て〜カイエンヌペッパーのトマトソース〜",
+      "price": 1155,
+      "price_raw": "1,155円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "フルーツトマトのガスパチョ仕立て〜オリーブオイルのエスプーマを添えて〜",
+      "price": 1188,
+      "price_raw": "1,188円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "〜ルビーポルトとマデラ酒の香りをアクセントに〜自家製フォアグラのクネル〜",
+      "price": 1188,
+      "price_raw": "1,188円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "【冷菜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "サーモンの香草セビーチェ〜いくらとディルのビネグレット〜",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-015",
+      "name": "旬の生牡蠣　〜3種類のソースで〜",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "スモークサーモンのルイベ仕立て〜最後に液体窒素をかけて〜",
+      "price": 1265,
+      "price_raw": "1,265円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "旬の鮮魚のカルパッチョ〜液体窒素で凍らした冷たいアボカドオイルをかけて〜",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "瞬間燻製の鮮魚三点盛〜りんごのチップで華やかな香りを〜",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "【温菜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "北海道男爵いものマッシュポテト　黒トリュフと共に",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "カマンベールチーズとブロッコリーのきのこグラタン",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "天使の海老とブロッコリーのピリ辛アヒージョ",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ジャンボマッシュルームのファルシィー　ゴルゴンゾーラのモルネーソース",
+      "price": 1265,
+      "price_raw": "1,265円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "クワトロフォルマージのオーブン焼き〜有機野菜とバケットでチーズフォンデュ風に〜",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "【期間限定】チーズフォンデュ　一人前",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "【トリュフ＆お肉料理】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "葡萄牛の自家製ローストビーフ　シンプルにヒマラヤ岩塩とわさび醤油を添えて",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "炙りフィレ肉〜柚子を利かせたポン酢ソースで〜",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "ジャガイモのニョッキ　黒トリュフのソースで　　ニョッキ",
+      "price": 1628,
+      "price_raw": "1,628円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "魚沼産コシヒカリ１００％で炊いた黒トリュフの土鍋ご飯",
+      "price": 2068,
+      "price_raw": "2,068円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "フォアグラのコンソメで炊いたロールキャベツ〜トリュフを散らしてロッシーニ風に〜",
+      "price": 2068,
+      "price_raw": "2,068円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "【サラダ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "生ハムフラワーとプチトマトのブーケサラダ〜チーズフォンデュを添えて〜",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "小海老とアボカドのサラダ",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "ロメインレタスのサラダ〜パルメジャーノとタタキ鮪",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "半熟卵のシーザーサラダ",
+      "price": 913,
+      "price_raw": "913円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "【生パスタ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "キノコとスモークサーモンのクリームパスタ",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "いくらとキャビアの雲丹ピラフ〜ひつまぶし風〜",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "ムール貝とほうれん草のトマトソース〜ペスカトーレ風に〜",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "【炭火グリル】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "金目鯛のグリル〜柚子胡椒風味のピストゥーソースで〜",
+      "price": 1485,
+      "price_raw": "1,485円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "マウンテン肉バーガー　ラクレットチーズがけ",
+      "price": 1738,
+      "price_raw": "1,738円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "仙台黒毛和牛サーロイン&メキシコ産フィレ肉のステーキタワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "〜自家製オニオンソース〜",
+      "price": 5478,
+      "price_raw": "5,478円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "黒毛和牛サーロインのグリル〜赤ワインソースで〜",
+      "price": 2365,
+      "price_raw": "2,365円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "【デザート】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "生チョコ　パヴェドショコラ　フランボワーズ風味",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "自家製ガトーショコラ　ガトー・クラシック・オ・ショコラ",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "旬のフルーツのジュレ仕立て　オードヴィーの香りと共に",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "自家製とろけるパンナコッタ〜甘酸っぱいベリーソースで〜",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "バニラビーンズたっぷりバニラアイス",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "【麦酒】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "スーパードライ　プレミアム樽生/黒生/ハーフ＆ハーフ/ドライゼロ",
+      "price": 714,
+      "price_raw": "714円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "スーパードライ　中瓶",
+      "price": 872,
+      "price_raw": "872円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "【ウィスキー】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "662-057",
+      "name": "バーボン　ジャックダニエル　ブラック/カナディアンクラブ　　662円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "ジャパニーズ　竹鶴/余市",
+      "price": 966,
+      "price_raw": "966円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "【スピリッツ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "ウォッカ　　スカイウォッカ",
+      "price": 714,
+      "price_raw": "714円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "ウォッカ　　ズブロッカ",
+      "price": 819,
+      "price_raw": "819円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "ジン　　　　ビフィータ",
+      "price": 735,
+      "price_raw": "735円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "ジン　　　　ボンベサファイヤ",
+      "price": 840,
+      "price_raw": "840円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "no-10-064",
+      "name": "ジン　　　　タンカレーNO.10",
+      "price": 1082,
+      "price_raw": "1,082円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "ラム　　　サンタテレサ　グランレゼルバ",
+      "price": 767,
+      "price_raw": "767円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "ラム　　　キャプテンモルガン",
+      "price": 767,
+      "price_raw": "767円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "テキーラ　サウザーシルバー",
+      "price": 735,
+      "price_raw": "735円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "テキーラ　カサドレス　レポサド",
+      "price": 977,
+      "price_raw": "977円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "【本格焼酎】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "芋　　　　三岳",
+      "price": 714,
+      "price_raw": "714円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "芋　　　　富乃宝山",
+      "price": 788,
+      "price_raw": "788円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "麦　　　　一粒の麦",
+      "price": 714,
+      "price_raw": "714円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "米　　　　鳥飼",
+      "price": 924,
+      "price_raw": "924円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "泡盛　　　美ら島（ちゅらじま）",
+      "price": 767,
+      "price_raw": "767円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "【特選果実酒】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "彩煌の梅酒（さいこうのうめしゅ）",
+      "price": 767,
+      "price_raw": "767円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "立山梅酒",
+      "price": 924,
+      "price_raw": "924円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "【サワー】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "烏龍茶割り／緑茶割り",
+      "price": 473,
+      "price_raw": "473円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "ジャスミン茶割り",
+      "price": 504,
+      "price_raw": "504円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "生搾りサワー　　　レモン/グレープフルーツ/オレンジ/キウイ　各種",
+      "price": 609,
+      "price_raw": "609円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "【カクテル】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "ビールベース/ジンベース/ウォッカベース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "714-084",
+      "name": "ラムベース/テキーラベース他　714円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "【ソフトドリンク】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "473-086",
+      "name": "ジンジャーエール／オレンジジュース／グレープフルーツジュース　473円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-087",
+      "name": "烏龍茶／緑茶他　HOTドリンクもご用意♪",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "【赤ワイン】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "パイアラ ロッソ【イタリア】",
+      "price": 4725,
+      "price_raw": "4,725円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "ロミオ　モンテプルチアーノ　ダブルッツオ【イタリア】",
+      "price": 5250,
+      "price_raw": "5,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "ディエゴ　デ　アルマグロ　グランレゼルバ【スペイン】",
+      "price": 6300,
+      "price_raw": "6,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "グラン　バトー　ボルドールージュ【フランス】",
+      "price": 6825,
+      "price_raw": "6,825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "フォンテルートリ　キャンティ　クラシコ【イタリア】",
+      "price": 9450,
+      "price_raw": "9,450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "チェレット　モンソルド【イタリア】",
+      "price": 12600,
+      "price_raw": "12,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "ラ・フーガ ブルネッロ・ディ・モンタルチーノ【イタリア】",
+      "price": 15750,
+      "price_raw": "15,750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "シャトー　ラグランジュ【フランス】",
+      "price": 20790,
+      "price_raw": "20,790円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "ドメーヌ・カスタニ　クロ・ド・ラ・ロッシュ　グランクリュ【フランス】",
+      "price": 31290,
+      "price_raw": "31,290円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "【白ワイン】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "パイアラ ビアンコ【イタリア】",
+      "price": 4725,
+      "price_raw": "4,725円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ドメーヌ・カスタニ　クロ・ド・ラ・ロッシュ　グランクリュ【フランス】",
+      "price": 31290,
+      "photo_url": null
+    },
+    {
+      "name": "シャトー　ラグランジュ【フランス】",
+      "price": 20790,
+      "photo_url": null
+    },
+    {
+      "name": "ラ・フーガ ブルネッロ・ディ・モンタルチーノ【イタリア】",
+      "price": 15750,
+      "photo_url": null
+    },
+    {
+      "name": "チェレット　モンソルド【イタリア】",
+      "price": 12600,
+      "photo_url": null
+    },
+    {
+      "name": "フォンテルートリ　キャンティ　クラシコ【イタリア】",
+      "price": 9450,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

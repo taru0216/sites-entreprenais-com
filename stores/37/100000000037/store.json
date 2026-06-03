@@ -2,7 +2,7 @@
   "retty_id": "100000000037",
   "slug": "store-000037",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:37:55Z",
+  "last_crawled": "2026-06-03T16:33:14Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "賛否両論 恵比寿",
@@ -40,7 +40,75 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "おまかせコース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ミニコース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "柚子酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "桃の酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "角玉梅酒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "おまかせコース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ミニコース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "柚子酒",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "桃の酒",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "角玉梅酒",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

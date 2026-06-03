@@ -2,7 +2,7 @@
   "retty_id": "100000745000",
   "slug": "store-745000",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:50:00Z",
+  "last_crawled": "2026-06-03T15:56:14Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "京鼎樓 恵比寿本店",
@@ -80,7 +80,835 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "■点心",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-001",
+      "name": "京鼎小籠包 6ヶ入",
+      "price": 890,
+      "price_raw": "890円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-002",
+      "name": "京鼎小籠包 10ヶ入",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-003",
+      "name": "烏龍茶小籠包 6ヶ入",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-004",
+      "name": "蟹肉小籠包 6ヶ入",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-005",
+      "name": "特製小籠包スープ添え 10ヶ入",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-006",
+      "name": "フカヒレ小籠包 6ヶ入",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-007",
+      "name": "辛辣小籠包 6ヶ入",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-008",
+      "name": "海老蒸し餃子 6ヶ入",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-009",
+      "name": "野菜蒸し餃子 6ヶ入",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-010",
+      "name": "海老焼売 6ヶ入",
+      "price": 1230,
+      "price_raw": "1,230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-011",
+      "name": "蟹味噌焼売 6ヶ入",
+      "price": 1630,
+      "price_raw": "1,630円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-012",
+      "name": "もち米焼売 6ヶ入",
+      "price": 1030,
+      "price_raw": "1,030円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-013",
+      "name": "肉まんじゅう 2ヶ入",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-014",
+      "name": "小籠包３種盛り　6ヶ入",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-6-015",
+      "name": "焼売3種盛り　6ヶ入",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "■前菜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "中華風グリーンサラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ザーサイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ピータン",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "広東チャーシュー",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-021",
+      "name": "台湾腸詰め 1~2人前",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-022",
+      "name": "台湾腸詰め 3~4人前",
+      "price": 1750,
+      "price_raw": "1,750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "クラゲの冷菜",
+      "price": 830,
+      "price_raw": "830円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "海老ワンタンの甘辛ソース",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "海老チーズ春巻き",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "春巻き",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "バンバンジー",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "蒸し鶏のネギソース掛け",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "よだれ鶏",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "■野菜料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "江戸菜のガーリック炒め",
+      "price": 1130,
+      "price_raw": "1,130円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "台湾豆苗の老酒炒め",
+      "price": 1130,
+      "price_raw": "1,130円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "レタスのオイスターソース",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "干し貝柱入りチンゲン菜のクリーム煮",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "白菜と干し貝柱の煮込み",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "台湾野菜のカキ油炒め",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "台湾野菜の干し海老炒め",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "■玉子料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-039",
+      "name": "キクラゲと豚肉の玉子炒め 1~2人前",
+      "price": 1130,
+      "price_raw": "1,130円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-040",
+      "name": "キクラゲと豚肉の玉子炒め 3~4人前",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-041",
+      "name": "海老とチャーシューの玉子とじ 1~2人前",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-042",
+      "name": "海老とチャーシューの玉子とじ 3~4人前",
+      "price": 1850,
+      "price_raw": "1,850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "フカヒレとトマトの極上ふわふわ玉子",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "干し貝柱入り卵白炒め卵黄ソース",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "■肉料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-046",
+      "name": "鶏とカシューナッツの炒め 1~2人前",
+      "price": 1130,
+      "price_raw": "1,130円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-047",
+      "name": "鶏とカシューナッツの炒め 3~4人前",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-048",
+      "name": "牛肉のオイスター炒め 1~2人前",
+      "price": 1350,
+      "price_raw": "1,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-049",
+      "name": "牛肉のオイスター炒め 3~4人前",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-050",
+      "name": "台湾黒酢の酢豚 1~2人前",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-051",
+      "name": "台湾黒酢の酢豚 3~4人前",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "油淋鶏",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "四川風鶏肉の唐揚げ",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-054",
+      "name": "チンジャオロース 1~2人前",
+      "price": 1130,
+      "price_raw": "1,130円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-055",
+      "name": "チンジャオロース 3~4人前",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "中国漬菜入り角煮蒸しパン添え",
+      "price": 1230,
+      "price_raw": "1,230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-057",
+      "name": "鶏肉の北京味噌炒め 1~2人前",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-058",
+      "name": "鶏肉の北京味噌炒め 3~4人前",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "■海鮮料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-060",
+      "name": "海老のチリソース 1~2人前",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-061",
+      "name": "海老のチリソース 3~4人前",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-062",
+      "name": "海老の台湾風マヨネーズ和え 1~2人前",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-063",
+      "name": "海老の台湾風マヨネーズ和え 3~4人前",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "海老のカリカリ揚げ",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-065",
+      "name": "季節野菜と海老のあっさり塩炒め 1~2人前",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-066",
+      "name": "季節野菜と海老のあっさり塩炒め 3~4人前",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-067",
+      "name": "モンゴウイカと黄ニラ・もやしのあっさり炒め 1~2人前",
+      "price": 1150,
+      "price_raw": "1,150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-068",
+      "name": "モンゴウイカと黄ニラ・もやしのあっさり炒め 3~4人前",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-2-069",
+      "name": "セロリとモンゴウイカの腐乳炒め 1~2人前",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-070",
+      "name": "セロリとモンゴウイカの腐乳炒め 3~4人前",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "蟹肉と春雨の醤油煮込み",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "アワビの醤油旨煮",
+      "price": 3800,
+      "price_raw": "3,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "アワビの特製胡麻ソース煮",
+      "price": 3800,
+      "price_raw": "3,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "■豆腐料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "麻婆豆腐",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "蟹肉入り豆腐の旨煮",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "海老と豆腐の旨煮",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "■フカヒレ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-3-079",
+      "name": "蟹と卵白入りフカヒレスープ 2~3人前",
+      "price": 1350,
+      "price_raw": "1,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-3-080",
+      "name": "干し貝柱入りフカヒレスープ 2~3人前",
+      "price": 1250,
+      "price_raw": "1,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-3-081",
+      "name": "フカヒレ入りスープ　2~3人前",
+      "price": 1250,
+      "price_raw": "1,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-3-082",
+      "name": "卵白入りフカヒレスープ　2~3人前",
+      "price": 1250,
+      "price_raw": "1,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "フカヒレの姿煮",
+      "price": 7000,
+      "price_raw": "7,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "■湯・鍋 類",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-3-085",
+      "name": "サンラータン　2~3人前",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-3-086",
+      "name": "コーンスープ　2~3人前",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "フカヒレあんかけおこげ",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "海鮮あんかけおこげ",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "■麺類",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "担々麺",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "担々麺　小碗",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "ワンタン入りスープ麺",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "ワンタン入りスープ麺　小碗",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "サンラータン麺",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "サンラータン麺　小碗",
+      "price": 842,
+      "price_raw": "842円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "野菜タンメン",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "野菜タンメン　小碗",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "海鮮入り五目焼きそば",
+      "price": 1450,
+      "price_raw": "1,450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "フカヒレ入りスープ麺",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "フカヒレの姿煮",
+      "price": 7000,
+      "photo_url": null
+    },
+    {
+      "name": "アワビの醤油旨煮",
+      "price": 3800,
+      "photo_url": null
+    },
+    {
+      "name": "アワビの特製胡麻ソース煮",
+      "price": 3800,
+      "photo_url": null
+    },
+    {
+      "name": "牛肉のオイスター炒め 3~4人前",
+      "price": 2300,
+      "photo_url": null
+    },
+    {
+      "name": "海老のチリソース 3~4人前",
+      "price": 2300,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

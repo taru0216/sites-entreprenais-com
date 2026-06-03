@@ -2,7 +2,7 @@
   "retty_id": "100000025517",
   "slug": "store-025517",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:08:34Z",
+  "last_crawled": "2026-06-03T16:12:58Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "カフェ アクイーユ恵比寿",
@@ -79,7 +79,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ディナータイム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000025517/archive/1961343-5f84389653a30.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "16-00-22-00-lo21-00-001",
+      "name": "16：00～22：00（LO21:00）　定休日なし",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000025517/archive/2537996-618e80ffe25ad.JPG",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "※パンケーキは一日中ご注文できます！",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000025517/archive/1133864-5d878d3bd7496.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "☆★ディナー限定オムライス★☆↓↓",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000025517/archive/448474-5b17a863a16a0.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "カフェアクイーユの特製オムライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000025517/archive/493102-5b60ffdc02db5-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ふわふわとろとろ～～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000025517/archive/493102-5b60ffdc02db5-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-006",
+      "name": "1、定番のデミグラスソース",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000025517/archive/493102-5b60ffdc02db5-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "sns-007",
+      "name": "SNSで話題沸騰のアクイーユの定番",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-008",
+      "name": "2、青のりリゾットのオムライス～トマトクリームソース～",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "チーズと青のりと濃厚トマトソースが絶妙なバランス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-010",
+      "name": "3、ビーフストロガノフ",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-011",
+      "name": "意外な組み合わせ、、、でも1番美味しい！？",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-012",
+      "name": "4、やみつき明太子チーズ",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "かわいい、美味しい、映え！",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "三拍子揃ったオムライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-015",
+      "name": "5、キーマカレーソース",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "カレー×オムライス＝∞",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-4-in-017",
+      "name": "6、4種のチーズINデミグラス",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "中からとろ～～～～りチーズが",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "7-019",
+      "name": "7、ゴロっと牛バラ肉のビーフシチュー",
+      "price": 1760,
+      "price_raw": "1,760円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-020",
+      "name": "本気の1品！後悔させない美味しさです！！",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "appetizer-021",
+      "name": "◆◇ 前菜 -Appetizer- ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "ポップシュリンプ　スイートチリマヨネーズソース",
+      "price": 759,
+      "price_raw": "759円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "スパイシーチキンフリット",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "275-024",
+      "name": "ぷりぷり海老ときのこのアヒージョ（+¥275バゲット付き）",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "魚介のマリネ",
+      "price": 649,
+      "price_raw": "649円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "フレンチフライ",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-027",
+      "name": "「プレーン」、「ガーリックペッパー」、「チーズソース」の3種類",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "完熟トマトとモッツアレラのカプレーゼ",
+      "price": 858,
+      "price_raw": "858円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "お食事パン",
+      "price": 330,
+      "price_raw": "330円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "salad-030",
+      "name": "◆◇ サラダ -Salad- ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "アクイーユサラダ ～ハーブ・フルーツ・魚介・生ハム～",
+      "price": 1265,
+      "price_raw": "1,265円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "シーザーサラダ",
+      "price": 979,
+      "price_raw": "979円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "meat-033",
+      "name": "◆◇ 肉料理 -Meat- ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "with-034",
+      "name": "特製デミグラスチーズハンバーグ with ポテサラ",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "チキンソテー ～バジル風味～",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "gratin-036",
+      "name": "◆◇グラタン -Gratin- ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "メキシカンエンチラーダグラタン",
+      "price": 1391,
+      "price_raw": "1,391円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pasta-038",
+      "name": "◆◇ パスタ -Pasta- ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "生パスタ チキンときのこのトマトクリームソース（タリアテッレ）",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "生パスタ ホタテとほうれん草のクリームソース（タリアテッレ）",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "豚肉のペペロンチーノ（スパゲティーニ）",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "本日のパスタ　詳細はスタッフにお尋ね下さい。",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "生パスタ　タリアテッレ　ボロネーゼ（タリアテッレ）",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "ランチタイム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "11-00-16-00-045",
+      "name": "11：00～16：00　定休日なし",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "※パンケーキは一日中ご注文できます！",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "◆◇ ランチドリンク ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-or-048",
+      "name": "平日はすべてのランチに「コーヒーor紅茶orソフトドリンク付き」",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "◆◇ランチフードメニュー◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "アクイーユ特製 ふわふわオムライス　サラダとスープ付き",
+      "price": 1342,
+      "price_raw": "1,342円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "サラダデリプレート",
+      "price": 1441,
+      "price_raw": "1,441円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "もちもち明太パスタ",
+      "price": 1342,
+      "price_raw": "1,342円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "もちもちボロネーゼパスタ～温玉添え～",
+      "price": 1342,
+      "price_raw": "1,342円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "メキシカンエンチラーダグラタン　サラダ付き",
+      "price": 1518,
+      "price_raw": "1,518円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "↓↓夜もパンケーキはお召し上がりいただけます！↓↓",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "11-00-22-00-l-o21-00-056",
+      "name": "営業時間：11：00～22：00（L.O21:00）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "〇●パンケーキ　人気ランキング！！●〇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "15-1-5-058",
+      "name": "15種類の豊富な中から1位から5位をご紹介。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-059",
+      "name": "第1位　『いちごベリーパンケーキ』",
+      "price": 1540,
+      "price_raw": "1,540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-060",
+      "name": "第2位　『モンブランパンケーキ』",
+      "price": 1496,
+      "price_raw": "1,496円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-061",
+      "name": "第3位　『バニラ＆ホイップ＆バナナパンケーキ』",
+      "price": 1496,
+      "price_raw": "1,496円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-062",
+      "name": "第4位　『抹茶黒みつパンケーキ』",
+      "price": 1463,
+      "price_raw": "1,463円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-063",
+      "name": "第5位　『焼きマシュマロパンケーキ』",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "coffee-064",
+      "name": "★☆★☆　コーヒー　- Coffee -　★☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "～ ホット ～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "550-550-066",
+      "name": "■ブレンドコーヒー　550円　　　■アメリカン　550円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "484-693-067",
+      "name": "■エスプレッソ　484円　　　　　■カフェモカ　693円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-660-068",
+      "name": "■カプチーノ　660円　　　　　　■カフェラテ　660円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "693-693-069",
+      "name": "■キャラメルカフェラテ　693円　■メープルカフェラテ　693円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "～ アイス ～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "550-660-071",
+      "name": "■アイスコーヒー　　　　550円　■アイスカフェラテ　　　660円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "693-693-072",
+      "name": "■アイスカフェモカ　　　693円　■アイスキャラメルラテ　693円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "693-073",
+      "name": "■アイスメープルハニーカフェラテ693円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tea-074",
+      "name": "★☆★☆　紅茶　- Tea -　★☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "～ホット～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-660-076",
+      "name": "■ダージリン　　　　　　660円　■アールグレイ　　　　　660円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-693-077",
+      "name": "■アッサム　　　　　　　660円　■ロイヤルミルクティー　693円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-660-078",
+      "name": "■ジャスミン　　　　　　660円　■カモミール＆ミント　　660円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-079",
+      "name": "■ローズヒップ　　　　　660円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "～アイス～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "550-660-081",
+      "name": "■アイスティー　　　　　550円　■オレンジアイスティー　660円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-082",
+      "name": "■グレープフルーツアイスティー　660円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "693-083",
+      "name": "■アイスロイヤルミルクティー　　693円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "soft-drink-084",
+      "name": "★☆★☆　ソフトドリンク　- Soft drink -　★☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "～ホット～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "638-086",
+      "name": "■自家製ホットレモネード　　　　638円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "～アイス～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "638-638-088",
+      "name": "■自家製レモネード　　　　　　　638円　■自家製レモネードソーダ638円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "517-517-089",
+      "name": "■ジンジャエール（甘口）　　　　517円　■ジンジャエール（辛口）517円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "517-090",
+      "name": "■プレミアムオレンジ　　　　　　517円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "517-091",
+      "name": "■ﾌﾟﾚﾐｱﾑｸﾞﾚｰﾌﾟﾌﾙｰﾂ　　　　　　　517円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "528-517-092",
+      "name": "■トマトジュース　　　　　　　　528円　■コーラ　　　　　　　　517円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "594-594-093",
+      "name": "■マンゴージュース　　　　　　　594円　■クランベリージュース　594円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "594-094",
+      "name": "■パイナップルジュース　　　　　594円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "alcohol-095",
+      "name": "★☆★☆　アルコール　- Alcohol -　★☆★☆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "happy-hour-11-00-19-00-096",
+      "name": "★Happy hour　11：00～19：00★一部ドリンクをお得な価格でご提供",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beer-097",
+      "name": "ビール - Beer -",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "660-098",
+      "name": "■生ビール　一番搾り　　　　　　660円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "自家製サングリア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "7、ゴロっと牛バラ肉のビーフシチュー",
+      "price": 1760,
+      "photo_url": null
+    },
+    {
+      "name": "第1位　『いちごベリーパンケーキ』",
+      "price": 1540,
+      "photo_url": null
+    },
+    {
+      "name": "3、ビーフストロガノフ",
+      "price": 1518,
+      "photo_url": null
+    },
+    {
+      "name": "6、4種のチーズINデミグラス",
+      "price": 1518,
+      "photo_url": null
+    },
+    {
+      "name": "メキシカンエンチラーダグラタン　サラダ付き",
+      "price": 1518,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

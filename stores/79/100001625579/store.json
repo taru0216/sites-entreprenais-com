@@ -2,7 +2,7 @@
   "retty_id": "100001625579",
   "slug": "store-625579",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:03:47Z",
+  "last_crawled": "2026-06-03T17:14:38Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "センロギワ.",
@@ -76,7 +76,267 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "♣串焼き(やきとん)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658172-686b22244087e-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "レバテキ",
+      "price": 363,
+      "price_raw": "363円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658174-686b222569687-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "新生姜肉巻き",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658171-686b2223a0340-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "チーズつくね串",
+      "price": 429,
+      "price_raw": "429円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658167-686b222134784-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "上つくね",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658169-686b2222613a7-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ねぎま",
+      "price": 363,
+      "price_raw": "363円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658168-686b2221b55f4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "豚カルビ",
+      "price": 297,
+      "price_raw": "297円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658170-686b22230c54c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "レバー",
+      "price": 209,
+      "price_raw": "209円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658173-686b2224d4d5d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "上しろ",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658165-686b222008094-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "上ヒレ",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658161-686b221d8e194-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "のどぶえ",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658153-686b2218afc46-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "とろてっぽう",
+      "price": 264,
+      "price_raw": "264円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658159-686b221c58641-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "♣盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658154-686b221948f92-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "5-013",
+      "name": "おまかせ焼きとん串盛り(5本)",
+      "price": 1210,
+      "price_raw": "1,210円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658157-686b221b244f6-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "3-014",
+      "name": "豚バラ3種盛り",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658152-686b2218169fc-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "♣逸品料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658151-686b22177eaca-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "6-016",
+      "name": "黒豚一口餃子(石垣島ラー油) 6個",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658156-686b221a87ee1-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-017",
+      "name": "パリピ(ピリ辛肉味噌と生ピーマン) 1個",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658160-686b221ce9f3a-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "2-018",
+      "name": "自家製ポテトサラダ (2人前)",
+      "price": 730,
+      "price_raw": "730円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658155-686b2219db2a1-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-019",
+      "name": "酔っ払い海老 (1尾)",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658166-686b2220a205e-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "茶碗でいただく〆の『エビカレー』",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658164-686b221f6d0db-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "牛すじ肉豆腐(小)",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658158-686b221bc4a72-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "国産和牛のもつ煮込み(小)",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658162-686b221e32f34-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ホルモンユッケ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658163-686b221ec897b-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "つまみ豚キムチ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658149-686b22161d771-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "センロギワ.ラーメン(ハーフサイズ）",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658150-686b2216e4354-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "焼きおにぎり(醤油)",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658145-686b2131ce68e.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "焼きおにぎり(味噌)",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "焼きおにぎり(海苔、わさび、梅)",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "おまかせ焼きとん串盛り(5本)",
+      "price": 1210,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658157-686b221b244f6-l.jpg"
+    },
+    {
+      "name": "豚バラ3種盛り",
+      "price": 935,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658152-686b2218169fc-l.jpg"
+    },
+    {
+      "name": "茶碗でいただく〆の『エビカレー』",
+      "price": 880,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658164-686b221f6d0db-l.jpg"
+    },
+    {
+      "name": "センロギワ.ラーメン(ハーフサイズ）",
+      "price": 825,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001625579/archive/3658150-686b2216e4354-l.jpg"
+    },
+    {
+      "name": "焼きおにぎり(海苔、わさび、梅)",
+      "price": 770,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001625579",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100000821591",
   "slug": "store-821591",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:14:26Z",
+  "last_crawled": "2026-06-03T17:28:48Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "えびす あふそや",
@@ -73,7 +73,283 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "━◆━　ビール　━◆━",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/2585808-61c94eff6f83d.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ビール各種",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/2585811-61c94f00f0806.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "・サッポロ生・エビスビール（小瓶）・サッポロプレミアム（小瓶 ノンアルコール）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/2585809-61c94effe869a.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "・シーサーガフ（生ビール＋シークヮーサー）・馨和ビール瓶（赤、白）　その他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/2585810-61c94f00738d3.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "━◆━　ウイスキー　━◆━",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000821591/archive/2585813-61c94f3cccea8.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ウイスキー各種",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "peak-whisky-17-006",
+      "name": "・山崎ハイボール・PEAK WHISKY・竹鶴 17年その他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "━◆━　焼酎　━◆━",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "芋焼酎各種",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "・晴耕雨読・紅紫・尽空・川越・佐藤（黒）その他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "麦焼酎各種",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "・べいすん・中々・百年の孤独その他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "米焼酎各種",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "・大石・鳥飼その他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "泡盛各種",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "・残波 白・残波古酒その他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "━◆━　日本酒　━◆━",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "日本酒各種　一合",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "・獺祭 磨き二割三分・鶴齢・栗林その他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "━◆━　ワイン＆シャンパン　━◆━",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "ワイン各種　グラス",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ワイン各種　ボトル",
+      "price": 5500,
+      "price_raw": "5,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "・ボトルワイン・ボトルシャンパン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "━◆━　果実酒　━◆━",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "果実酒各種　時価",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "・梅酒 東光・ゆず酒・果実酒 各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "━◆━　ソフトドリンク　━◆━",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "ソフトドリンク各種",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "・ココファーム ヴェルジュ ソーダ（ブドウ酢のソーダ割り）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "・カタシモのひやしあめ（関西発和風ジンジャーエール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "・ペリエ・ジンジャーエール・ノンアルコールビールその他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ワイン各種　ボトル",
+      "price": 5500,
+      "photo_url": null
+    },
+    {
+      "name": "ワイン各種　グラス",
+      "price": 900,
+      "photo_url": null
+    },
+    {
+      "name": "日本酒各種　一合",
+      "price": 800,
+      "photo_url": null
+    },
+    {
+      "name": "ウイスキー各種",
+      "price": 700,
+      "photo_url": null
+    },
+    {
+      "name": "芋焼酎各種",
+      "price": 700,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

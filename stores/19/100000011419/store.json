@@ -2,7 +2,7 @@
   "retty_id": "100000011419",
   "slug": "store-011419",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:05:00Z",
+  "last_crawled": "2026-06-03T16:14:46Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "三橋屋",
@@ -61,7 +61,49 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "刺身定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ねぎトロ丼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "縞ほっけ定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "刺身定食",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ねぎトロ丼",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "縞ほっけ定食",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

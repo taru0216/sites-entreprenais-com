@@ -2,7 +2,7 @@
   "retty_id": "100001271248",
   "slug": "store-271248",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:50:12Z",
+  "last_crawled": "2026-06-03T16:44:00Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "シェイクシャック アトレ恵比寿店",
@@ -68,7 +68,459 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "shackburger-single-000",
+      "name": "ShackBurger Single",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shackburger-doble-001",
+      "name": "ShackBurger Doble",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "smokeshack-single-002",
+      "name": "SmokeShack Single",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "smokeshack-doble-003",
+      "name": "SmokeShack  Doble",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shroom-burger-vegetarian-004",
+      "name": "’Shroom Burger（vegetarian)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shack-stack-005",
+      "name": "Shack Stack",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hamburger-single-006",
+      "name": "Hamburger  Single",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hamburger-doble-007",
+      "name": "Hamburger  Doble",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shack-cago-dog-beef-008",
+      "name": "Shack-cago Dog Beef",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shack-cago-dog-pork-009",
+      "name": "Shack-cago Dog Pork",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-dog-010",
+      "name": "Hot Dog",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pork-sausage-011",
+      "name": "Pork Sausage",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "fries-small-012",
+      "name": "Fries Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "fries-regular-013",
+      "name": "Fries Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cheese-fries-small-014",
+      "name": "Cheese fries Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cheese-fries-regular-015",
+      "name": "Cheese fries Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shakes-small-016",
+      "name": "Shakes　Small（バニラ・チョコ・キャラメル・ストロベリー）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shakes-small-017",
+      "name": "Shakes　Small(ブラック＆ホワイト・ブラックセサミ・フェアトレードコーヒーシェイク)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shakes-regular-018",
+      "name": "Shakes　Regular（バニラ・チョコ・キャラメル・ストロベリー）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shakes-regular-019",
+      "name": "Shakes　Regular（ブラック＆ホワイト・ブラックセサミ・フェアトレードコーヒーシェイク)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shake-of-the-week-small-020",
+      "name": "Shake of the Week Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shake-of-the-week-regular-021",
+      "name": "Shake of the Week Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "floats-root-beer-022",
+      "name": "Floats Root beer(ルートビアー　バニラカスタード）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "floats-purple-cow-023",
+      "name": "Floats　Purple cow(ファンタグレープ　バニラカスタード）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "floats-creamsicle-024",
+      "name": "Floats　Creamsicle(ファンタオレンジ　バニラカスタード）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "single-025",
+      "name": "オリジナルフローズンカスタードアイスクリーム（バニラ、チョコ、本日のカスタード）Single",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "double-026",
+      "name": "オリジナルフローズンカスタードアイスクリーム（バニラ、チョコ、本日のカスタード）Double",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pints-to-g-027",
+      "name": "オリジナルフローズンカスタードアイスクリーム（バニラ、チョコ、本日のカスタード）Pints To G",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "concretes-small-028",
+      "name": "Concretes Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "concretes-regular-029",
+      "name": "Concretes Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "design-your-own-concerete-small-030",
+      "name": "Design Your Own Concerete Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "design-your-own-concerete-regular-031",
+      "name": "Design Your Own Concerete Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shack-made-lemonade-small-032",
+      "name": "Shack-made Lemonade Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shack-made-lemonade-regular-033",
+      "name": "Shack-made Lemonade Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "fresh-brewed-iced-tea-small-034",
+      "name": "Fresh Brewed Iced Tea Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "fresh-brewed-iced-tea-regular-035",
+      "name": "Fresh Brewed Iced Tea Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "fifty-fifty-small-036",
+      "name": "FIfty/Fifty Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "fifty-fifty-regular-037",
+      "name": "FIfty/Fifty Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cold-beverage-small-038",
+      "name": "Cold Beverage Small",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cold-beverage-regular-039",
+      "name": "Cold Beverage Regular",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bottled-root-beer-040",
+      "name": "Bottled Root Beer",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "organic-apple-juiece-041",
+      "name": "Organic Apple Juiece",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "milk-042",
+      "name": "Milk",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bottled-water-043",
+      "name": "Bottled Water",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shackmeister-ale-18oz-044",
+      "name": "ShackMeister Ale 18oz",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shackmeister-ale-pitcher-045",
+      "name": "ShackMeister Ale Pitcher",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "draft-beer-yebisu-18oz-046",
+      "name": "Draft Beer Yebisu,18oz",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "draft-beer-yebise-pitcher-047",
+      "name": "Draft Beer Yebise,Pitcher",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "draft-beer-hitachino-white-ale-18oz-048",
+      "name": "Draft Beer Hitachino White Ale,18oz",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "draft-beer-hitachino-white-ale-pitcher-049",
+      "name": "Draft Beer Hitachino White Ale,Pitcher",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bottled-beer-brooklyn-lager-050",
+      "name": "Bottled Beer Brooklyn Lager",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bottled-beer-brooklyn-ipa-051",
+      "name": "Bottled Beer Brooklyn IPA",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bottled-beer-tokyo-blues-052",
+      "name": "Bottled Beer Tokyo Blues",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ShackBurger Single",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ShackBurger Doble",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "SmokeShack Single",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "SmokeShack  Doble",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "’Shroom Burger（vegetarian)",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

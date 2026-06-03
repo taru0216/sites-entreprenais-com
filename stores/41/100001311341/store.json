@@ -2,7 +2,7 @@
   "retty_id": "100001311341",
   "slug": "store-311341",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:11:11Z",
+  "last_crawled": "2026-06-03T16:37:34Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "こんぶや 恵比寿",
@@ -67,7 +67,62 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "岩中豚の生姜焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ぶりの照り焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "金目鯛の煮付け",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "本日のお刺身",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "岩中豚の生姜焼き",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ぶりの照り焼き",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "金目鯛の煮付け",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "本日のお刺身",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

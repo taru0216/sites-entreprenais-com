@@ -2,7 +2,7 @@
   "retty_id": "100000712089",
   "slug": "store-712089",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:11:43Z",
+  "last_crawled": "2026-06-03T17:26:06Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "カーヴドシャンパーニュ ディヴァン",
@@ -70,7 +70,491 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "天然真鯛のカルパッチョ 築地より",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ノルウェーサーモンのレア焼き　ほうれん草のソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "猪のショルダーハム　柿とくるみ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ブーダンノワールと林檎のパートフィロー包み",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "マッシュルームのブランマンジェ　生ハムとともに",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "鶏とフォアグラとドライフルーツのガランティーヌ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ゆり根とアボカド　フレンチキャヴィア添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "岩手産　短角牛のカルパッチョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "自家製　田舎風パテ　バルサミコソースとピクルス添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "サンダニエール産　手切り生ハム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "トリュフ香る　じゃがいものガレット　半熟玉子をのせて",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "28g-011",
+      "name": "キャビア　オシェトラ（28g）　ラトビア産",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "フレッシュハーブたっぷりのグリーンサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "有機野菜のグリル　オーガニックオリーブオイルとお塩で",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "天然真鯛ときのこの包み焼き　サフランとオレンジのソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "カスベのムニエル　シェリーヴィネガーソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "天使の海老　香草パン粉焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "牛タンシチュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "賀県産”酵素ポーク” 黒オリーブのソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "うずらのロースト　ポルトソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "仔羊のソテー　ローズマリーの香り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ホロホロ鳥のコンフィ　粒マスタードのソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "鴨胸肉のロティー　ビーツのソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-023",
+      "name": "岩手県産”短角和牛”のステーキ　（100ℊ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "クラブハウス　サンドイッチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "エビとアボカドのトーストサンド",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "焼きたてフォンダンショコラ　木苺のソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "焼きりんご　塩キャラメルソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "焼きたてマロンパイ　杏ソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "グラスシャンパン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bottles-030",
+      "name": "Bottles　アンリ　ジロー　“エスプリ”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "ヴーヴ　クリコ　“イエローラベル”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "モエ　エ　シャンドン　“ブリュット　アンペリアル”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2004-033",
+      "name": "キュヴェ　ドン　ペリニョン　2004",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "r-d-1990-034",
+      "name": "ボランジェ　“エクストラ　ブリュット　R.D. 1990”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1998-035",
+      "name": "テタンジェ　“コンド　ド　シャンパーニュ　1998”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1999-036",
+      "name": "ポル　ロジェ　“サー　ウィンストン　チャーチル 1999”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1996-037",
+      "name": "ペリエ　ジュエ　 “ベル　エポック　1996”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "クリュッグ　“グランド　キュヴェ”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1999-039",
+      "name": "サロン　1999",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1990-040",
+      "name": "サロン　1990",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "アグラパール　“レ　セット　クリュ”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "ビルカール　サルモン　“ブリュット　レゼルヴ”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "ド　スーザ　“ブラン　ド　ブラン”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "エリック　ロデズ　“ブラン　ド　ノワール”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "737-045",
+      "name": "ジャクソン　“キュヴェ　737”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "エグリ　ウーリエ　“レ　ヴィーニュ　ド　ヴリニー”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "ジャック　セロス　“イニシアル”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "v-o-048",
+      "name": "ジャック　セロス　“V.O.　エクストラ　ブリュット”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2006-049",
+      "name": "ジェスタン　2006",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "セルジュ　マチュー　“ブラン　ド　ノワール”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "ユリス　コラン　“レ　ピエリエール”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "white-wine-11-chassagne-montrachet-1er-les-caille-052",
+      "name": "White Wine　'11 Chassagne Montrachet 1er Les Caille",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "04-meursault-053",
+      "name": "'04 Meursault",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "98-chateau-de-fieuzal-054",
+      "name": "'98 Chateau de Fieuzal",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "red-wine-bourgogne-09-bourgogne-rouge-055",
+      "name": "Red Wine Bourgogne　'09 Bourgogne Rouge",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-gevrey-chambertin-les-evocelles-056",
+      "name": "'10 Gevrey Chambertin Les Evocelles",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "天然真鯛のカルパッチョ 築地より",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ノルウェーサーモンのレア焼き　ほうれん草のソース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "猪のショルダーハム　柿とくるみ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ブーダンノワールと林檎のパートフィロー包み",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "マッシュルームのブランマンジェ　生ハムとともに",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100000033871",
   "slug": "store-033871",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:46:46Z",
+  "last_crawled": "2026-06-03T17:06:37Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "レストラン　ヒロミチ",
@@ -63,7 +63,259 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "“パッション”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "“セゾン” 季節のお任せコース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "“スペシャリテ” ヒロミチ定番のお任せコース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "“デギュスタシオン”シェフのお任せの特別コース（要予約）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10000-004",
+      "name": "ヒロミチの立食パーティープラン\t10000円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12000-005",
+      "name": "ヒロミチの立食パーティープラン\t12000円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "15000-006",
+      "name": "ヒロミチの立食パーティープラン\t15000円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "軽めのランチコース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "季節のランチコース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "デギスタシオンランチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ランチ会食プラン\t”シエル”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ランチ会食プラン\t”ソレイユ”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "本日おすすめのグラス・シャンパーニュ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "フルーツ・シャーベットのシャンパンカクテル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "赤ワインベースの自家製サングリア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "330ml-015",
+      "name": "サッポロ黒ラベル（330ml）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "本日のグラスワイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-017",
+      "name": "ワイン　デギュスタシオン\t3種類のグラス・ワイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-018",
+      "name": "ワイン　デギュスタシオン\t4種類のグラス・ワイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "食後酒各種",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "フレッシュオレンジジュース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "クランベリージュース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "パイナップルジュース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ウーロン茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "ジンジャーエール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "750ml-025",
+      "name": "スティル & スパークリング・ウォーター\t エビアン（750ml）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "750ml-026",
+      "name": "スティル & スパークリング・ウォーター\t ペリエ（750ml）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-000ml-027",
+      "name": "スティル & スパークリング・ウォーター\t バドア（1,000ml）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "“パッション”",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "“セゾン” 季節のお任せコース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "“スペシャリテ” ヒロミチ定番のお任せコース",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "“デギュスタシオン”シェフのお任せの特別コース（要予約）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ヒロミチの立食パーティープラン\t10000円",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

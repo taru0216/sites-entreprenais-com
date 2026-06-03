@@ -2,7 +2,7 @@
   "retty_id": "100000026497",
   "slug": "store-026497",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:56:06Z",
+  "last_crawled": "2026-06-03T17:34:44Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "鳥星 恵比寿バール",
@@ -65,7 +65,91 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "フェアヴァレー／南アフリカ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ペインターブリッジ／アメリカ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "フェウドアランチョ／イタリア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "グラディウム／スペイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "アバイ／スペイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "こなき純米〜鳥取〜〈純米〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "寫樂（しゃらく）〜会津〜〈純米吟醸〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "フェアヴァレー／南アフリカ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ペインターブリッジ／アメリカ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "フェウドアランチョ／イタリア",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "グラディウム／スペイン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "アバイ／スペイン",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

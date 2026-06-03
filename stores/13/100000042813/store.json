@@ -2,7 +2,7 @@
   "retty_id": "100000042813",
   "slug": "what-the-dickens-042813",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:16:19Z",
+  "last_crawled": "2026-06-03T16:08:57Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "What The Dickens!",
@@ -61,7 +61,75 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "kilkenny-000",
+      "name": "KILKENNY",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "guinness-stout-001",
+      "name": "GUINNESS STOUT",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "yebisu-002",
+      "name": "YEBISU",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ashi-super-dry-003",
+      "name": "ASHI SUPER DRY",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "lowenbrau-004",
+      "name": "LOWENBRAU",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "KILKENNY",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "GUINNESS STOUT",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "YEBISU",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ASHI SUPER DRY",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "LOWENBRAU",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100000802090",
   "slug": "mercer-bis-ebisu-802090",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:44:11Z",
+  "last_crawled": "2026-06-03T17:27:25Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "MERCER bis Ebisu",
@@ -72,7 +72,62 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ズワイガニとほうれん草のポタージュスープ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "drink-001",
+      "name": "ズワイガニとほうれん草のポタージュスープ＋drink",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ナスとミートソースのラザニア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "drink-003",
+      "name": "ナスとミートソースのラザニア＋drink",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ズワイガニとほうれん草のポタージュスープ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ズワイガニとほうれん草のポタージュスープ＋drink",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ナスとミートソースのラザニア",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ナスとミートソースのラザニア＋drink",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100001299114",
   "slug": "umineko-ebisu-299114",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:07:47Z",
+  "last_crawled": "2026-06-03T16:10:07Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "カジュアルイタリアン×デザイナーズダイニング umineko ebisu",
@@ -63,7 +63,75 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "鶏胸肉の菜園風サラダプレート～ピンクドレッシングで～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "懐かしのポークケチャップ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "rice-runch-002",
+      "name": "本日の日替りRICE RUNCH",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "赤ワインでじっくり煮込んだボロネーゼ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pasta-lunch-004",
+      "name": "本日の日替りPASTA LUNCH",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "鶏胸肉の菜園風サラダプレート～ピンクドレッシングで～",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "懐かしのポークケチャップ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "本日の日替りRICE RUNCH",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "赤ワインでじっくり煮込んだボロネーゼ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "本日の日替りPASTA LUNCH",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

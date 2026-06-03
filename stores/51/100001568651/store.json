@@ -2,7 +2,7 @@
   "retty_id": "100001568651",
   "slug": "classic-568651",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:22:22Z",
+  "last_crawled": "2026-06-03T16:47:24Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "CLASSIC参鶏湯",
@@ -80,7 +80,827 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "◇鍋◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001568651/archive/2269504-6049ca97320e0.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "クラシック参鶏湯　２～３人前",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001568651/archive/2269512-6049ca9f42a31.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ヒョンデ参鶏湯　　２～３人前",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "青唐辛子(ヒョンデ参鶏湯追加トッピング)",
+      "price": 275,
+      "price_raw": "275円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "おぼろ豆腐(ヒョンデ参鶏湯追加トッピング)",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "大和芋とろろ(ヒョンデ参鶏湯追加トッピング)",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "小梅(ヒョンデ参鶏湯追加トッピング)",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "コプチャンチョンゴル　２～３人前",
+      "price": 3795,
+      "price_raw": "3,795円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ポックンパ",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "◇マンドゥ◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "自家製手包み　薄皮マンドゥ　４個",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "自家製手包み　薄皮マンドゥ　８個",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "自家製手包み　薄皮マンドゥ　１２個",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "にんにくキムチ(合わせるキムチ)",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "ネギキムチ(合わせるキムチ)",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "ニラキムチ(合わせるキムチ)",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "◇キムチ◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "白菜キムチ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "カクテキ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "オイキムチ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "トマトキムチ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ニラキムチ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "梅干しキムチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ネギキムチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "チャンジャ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "キムチ５点盛り合わせ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "セウキムチ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "◇ナムル　前菜◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "ナムル単品",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "ナムル７点盛り合わせ",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "カンジャンセウ　１尾～",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "韓国のり",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "◇揚げ物　逸品◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "プルコギ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "サンチュセット",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "トッポギ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "タンスユク",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "チャプチェ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "◇フライドチキン◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "フライドチキン",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "ヤンニョム",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "スノーチーズ",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "ブルダック",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "全種盛りセット　小",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "全種盛りセット　大",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "◇ビール◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "サッポロ黒ラベル",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "マッコリビア",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "シャンディガフ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "レッドアイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "マンゴービア",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "美酢ビア",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "◇マッコリ◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-053",
+      "name": "ソウル生マッコリ　1合　　　　すっきり甘い　微炭酸",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-054",
+      "name": "麹酵堂　生マッコリ　1合　　　一番人気爽やか　微炭酸",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "麹酵堂　生マッコリ　やかん",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-056",
+      "name": "本生マッコリ　1合　　　　　　　コクと酸味　微炭酸",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "本生マッコリ　やかん",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-058",
+      "name": "栗マッコリ　　1合　　　　栗のほのかな甘みと酸味　微炭酸",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "栗マッコリ　　やかん",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "◇マッコリカクテル◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "マッコリラッシー(パイン　マンゴー　桃　)",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "ブラッディマッコリ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "マッコリトニック",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "マッコリモヒート",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "◇ジョウンデー(韓国焼酎)◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360ml-066",
+      "name": "ジョウンデー　360ml",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360ml-067",
+      "name": "ジョウンデー　柚子　360ml",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360ml-068",
+      "name": "ジョウンデー　ザクロ　360ml",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360-069",
+      "name": "ジョウンデー　桃　360ｍｌ",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360-070",
+      "name": "ジョウンデー　パイン　360ｍｌ",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "360-071",
+      "name": "ジョウンデー　メロン　360ｍｌ",
+      "price": 1430,
+      "price_raw": "1,430円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "◇本格焼酎/果実酒◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "芋",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "麦",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "柚子酒",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "梅酒",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "あんず酒",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "◇割り物◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "ウーロンハイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "緑茶ハイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "コーン茶ハイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "レモンサワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "グレープフルーツサワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "梅サワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "美酢サワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "ボンボンぶどうサワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "ボンボンももサワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "◇ハイボール◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "デュワーズハイボール",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "知多ハイボール",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "◇ソフトドリンク◇",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "ウーロン茶",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "緑茶",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "コーン茶",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "コーラ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "ジンジャエール",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "ボンボン　ぶどう",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "ボンボン　もも",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "コプチャンチョンゴル　２～３人前",
+      "price": 3795,
+      "photo_url": null
+    },
+    {
+      "name": "クラシック参鶏湯　２～３人前",
+      "price": 3300,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001568651/archive/2269512-6049ca9f42a31.jpg"
+    },
+    {
+      "name": "ヒョンデ参鶏湯　　２～３人前",
+      "price": 3300,
+      "photo_url": null
+    },
+    {
+      "name": "麹酵堂　生マッコリ　やかん",
+      "price": 1980,
+      "photo_url": null
+    },
+    {
+      "name": "本生マッコリ　やかん",
+      "price": 1980,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

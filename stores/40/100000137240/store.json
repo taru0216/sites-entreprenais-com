@@ -2,7 +2,7 @@
   "retty_id": "100000137240",
   "slug": "store-137240",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:14:15Z",
+  "last_crawled": "2026-06-03T16:36:13Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿 吉乃坐",
@@ -73,7 +73,499 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "■■■おすすめメニューは仕入れにより変わります■■■参考としてご覧くださいませ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2290136-606270d16eae3-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "熊本直送　馬刺し(たてがみ付き)",
+      "price": 3000,
+      "price_raw": "3,000円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831553-5f5051a8a58b9-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "熊本直送　馬肉たたき　自家製ポン酢にて",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2115680-5fc085dd8ebb4-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "土鍋ごはん　各種　お米は山形産つや姫",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/3803313-69102dcf60d19-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "自家製さつま揚げ(季節により食材が変わります)",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831548-5f5051a47fe87-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "天草　お造り(毎日の仕入れにて魚種は変わります)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/3054541-6462da7d87f2e-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "鳥取　大山鶏の唐揚げ　山椒塩",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831549-5f5051a5358e9-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "鳥取　大山鶏の大判つくね焼き　卵黄のせ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2258221-604085ae67fe8-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "熊本　とうべい(豆腐の味噌漬け)",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258191-604083b28615b-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "じゃこと青唐辛子の佃煮",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2258191-604083b28615b-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "福井　鯖のへしこ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258192-604083b418034-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "本日のお魚　造り醤油胡麻和え",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2258192-604083b418034-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "牛蒡たまり醤油漬け",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258083-604077552111f-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "季節の野菜スティック　自家製葱味噌にて",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2258083-604077552111f-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "熊本　黒豚角煮の銀餡",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258200-60408445919ad-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "爆弾納豆",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2258200-60408445919ad-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "静岡　たたみいわし",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/1876862-5f6eab94020fe-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "吉乃坐　ポテトサラダ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1876862-5f6eab94020fe-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "熊本　黒豚肩ロース粕漬け焼き",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258191-604083b28615b-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "蛤　下仁田葱　酒蒸し",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258192-604083b418034-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "北海道　本ししゃも焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258083-604077552111f-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "北海道　生エイヒレの唐揚げ",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258200-60408445919ad-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "季節の白和え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/1876862-5f6eab94020fe-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "山形西川町・月山和牛イチボと季節の野菜焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "サッポロ　黒ラベル生ビール",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "エビス中瓶",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "45-026",
+      "name": "熊本　球磨焼酎　武者返し45度",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "熊本　天草　池の露　芋焼酎",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "鹿児島　やきいも黒瀬　芋焼酎",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "宮崎　き六　芋焼酎",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "鹿児島　富乃宝山　芋焼酎",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "鹿児島　からり芋　芋焼酎",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "東京　青酎　芋焼酎",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "熊本　天草　米焼酎",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "熊本　豊永蔵　米焼酎",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "鹿児島　朝日　黒糖焼酎",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "鹿児島　長雲　長期熟成　黒糖焼酎",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "熊本　天草　麦焼酎",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "長崎　ちんぐ　麦焼酎",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "大分　特蒸泰明　麦焼酎",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "大分　兼八　麦焼酎",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "大分　兼八　トヨノホシ　麦焼酎",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "福岡　和ら麦　麦焼酎",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "東京　梅酒　日本酒ベース",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "大阪　エビス福梅　ブランデーベース",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "鹿児島　五代梅酒　芋焼酎ベース",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "日本ワイン各種　山形メイン　バトル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-047",
+      "name": "日本ワイン　バイザグラス　スパークリング　白　オレンジ　赤　1種ずつ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-048",
+      "name": "季節の生搾りサワー　10月大分　かぼす",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "レモンサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "グレープフルーツサワー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "緑茶ハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "ウーロンハイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "ノンアルコールビール　プレミアムアルコールフリー　瓶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "ソフトドリンク　ウーロン茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "山形　朝日町ワインのひめさゆり葡萄ジュース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "緑茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "レモン炭酸水",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "熊本直送　馬肉たたき　自家製ポン酢にて",
+      "price": 3300,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/2115680-5fc085dd8ebb4-l.png"
+    },
+    {
+      "name": "熊本直送　馬刺し(たてがみ付き)",
+      "price": 3000,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831553-5f5051a8a58b9-l.jpg"
+    },
+    {
+      "name": "鳥取　大山鶏の唐揚げ　山椒塩",
+      "price": 2000,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000137240/archive/1831549-5f5051a5358e9-l.jpg"
+    },
+    {
+      "name": "熊本　黒豚肩ロース粕漬け焼き",
+      "price": 2000,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258191-604083b28615b-l.jpeg"
+    },
+    {
+      "name": "熊本　黒豚角煮の銀餡",
+      "price": 1500,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000137240/archive/2258200-60408445919ad-l.jpeg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

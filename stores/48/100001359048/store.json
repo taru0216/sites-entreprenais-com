@@ -2,7 +2,7 @@
   "retty_id": "100001359048",
   "slug": "confiance-359048",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:37:06Z",
+  "last_crawled": "2026-06-03T16:44:05Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "confiance シャンパンバー＆カフェ",
@@ -59,7 +59,147 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "シャルキュトリー盛合せ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ハーブ豚のロースハム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "フランス産マグレ鴨のロースハム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "国産鶏もも肉のテリーヌ　セージ風味",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ブラックソムリエのカレー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "フィナンシェ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "チョコレート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "トリュフポップコーン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "季節フルーツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "カナダドライジンジャエール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-010",
+      "name": "夢工房くまの　温州みかん100%ジュース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "コカ・コーラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ウーロン茶",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "750ml-013",
+      "name": "ペリエ　750ml",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "シャルキュトリー盛合せ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ハーブ豚のロースハム",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "フランス産マグレ鴨のロースハム",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "国産鶏もも肉のテリーヌ　セージ風味",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ブラックソムリエのカレー",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

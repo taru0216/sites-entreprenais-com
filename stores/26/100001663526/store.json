@@ -2,7 +2,7 @@
   "retty_id": "100001663526",
   "slug": "new-village-663526",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:02:43Z",
+  "last_crawled": "2026-06-03T16:23:29Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "New Village",
@@ -77,7 +77,115 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "【タパス盛り合わせ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462751-67444f0888049-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "タパス盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3142668-64fc82481cfbe-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "us-002",
+      "name": "【US産ステーキ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3142669-64fc826e2a398-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "us-003",
+      "name": "US産ステーキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462752-674450f7f27fc-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "【季節のパスタ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3142668-64fc82481cfbe.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "季節のパスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462671-674449086cd14.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "【創作アメリカ料理】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462699-6744491a341a2.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "創作アメリカ料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3463656-674571c566799-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "【豊富なドリンク】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "豊富なドリンク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "【タパス盛り合わせ】",
+      "price": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462751-67444f0888049-l.jpg"
+    },
+    {
+      "name": "タパス盛り合わせ",
+      "price": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3142668-64fc82481cfbe-l.jpg"
+    },
+    {
+      "name": "【US産ステーキ】",
+      "price": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3142669-64fc826e2a398-l.jpg"
+    },
+    {
+      "name": "US産ステーキ",
+      "price": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3462752-674450f7f27fc-l.jpg"
+    },
+    {
+      "name": "【季節のパスタ】",
+      "price": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001663526/archive/3142668-64fc82481cfbe.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001663526",
   "sns": {

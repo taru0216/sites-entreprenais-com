@@ -2,7 +2,7 @@
   "retty_id": "100001390150",
   "slug": "uson-390150",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:15:20Z",
+  "last_crawled": "2026-06-03T16:46:08Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "焼肉USON 宇成",
@@ -78,7 +78,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "◆◇ロース焼◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001390150/archive/443763-5b0f51161d268.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "uson-2-5-001",
+      "name": "USONオリジナル カルパッチョ風ねぎムチンロース 究極赤身！ 2.5 秒炙り",
+      "price": 1180,
+      "price_raw": "1,180円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001390150/archive/445681-5b128e422fc0e.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "◆◇カルビ焼◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001390150/archive/505959-5b71c9d414a40.JPG",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "並カルビ",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001390150/archive/907427-5cd1527c145eb.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "昔ながらのもみカルビ",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "特選カルビ",
+      "price": 3200,
+      "price_raw": "3,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "超特大骨付きカルビ（数量限定）",
+      "price": 4280,
+      "price_raw": "4,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "◆◇タン焼◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-5-008",
+      "name": "☆極上厚切り3.5㎝芯タン(数量限定)",
+      "price": 4980,
+      "price_raw": "4,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "上タン塩",
+      "price": 3080,
+      "price_raw": "3,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "◆◇ハラミ焼◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "極上厚切りハラミ<ゴマ塩だれ>（数量限定）",
+      "price": 4980,
+      "price_raw": "4,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "並ハラミ<特製みそだれ>",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "◆◇希少部位◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "ザブトン（肩ロースの芯の部分。一頭から約３～４㎏しかとれない貴重な部位）",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "ミスジ（一頭から約２㎏しかとれない部位、肉の甘みと風味を堪能できる部位）",
+      "price": 2700,
+      "price_raw": "2,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "カイノミ（とても柔らかく、脂も程よく入っており牛肉本来の旨味を味わえます）",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "トモサンカク（モモの部分で味わい深くとても柔らかいお肉です）",
+      "price": 2700,
+      "price_raw": "2,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "イチボ（霜降りの甘さと赤身の旨味が合わさった「通」好みのお肉）",
+      "price": 2400,
+      "price_raw": "2,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ランプ（肉のきめが細かく風味もあり柔らかい、赤身肉として貴重な部位）",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "シンシン（ウチモモより下部にある部分でとっても柔らかい赤身）",
+      "price": 2500,
+      "price_raw": "2,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "カメノコ（肉質が繊細な肉味の濃い赤身肉、サッと炙ったレアがおすすめ）",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "トウガラシ（腕の稀少部位でさっぱり甘く赤身の旨味が強く、肉汁があふれ出します）",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-023",
+      "name": "極上大判サーロイン1枚　焼すき：こだわり卵と一口ライス付き/ 焼きしゃぶ：ポン酢",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "極上ザブトン（２枚）",
+      "price": 2800,
+      "price_raw": "2,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "150g-025",
+      "name": "ヒレステーキ（約150g）サーロインの内側に位置する最も柔らかい最高級部位",
+      "price": 6500,
+      "price_raw": "6,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "150g-026",
+      "name": "シャトーブリアン（約150g）最高のヒレの中央で最も厚みのある部分の究極の部位",
+      "price": 9500,
+      "price_raw": "9,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-027",
+      "name": "◆◇ホルモン焼◇◆　※塩ダレorみそだれ どちらかお選びください",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "上ミノ",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "レバ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "マルチョウ",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "950-031",
+      "name": "ハツ、ハツモト、シマチョウ、ギャラ　各￥950",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "☆本日のホルモン３点盛り",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "☆本日のホルモン５点盛り",
+      "price": 2400,
+      "price_raw": "2,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "◆◇激辛肉と野菜のヤンニョム焼き◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "牛カルビ※お好みの辛さで調整できますので どうぞお声かけください！",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "デジカルビ※お好みの辛さで調整できますので どうぞお声かけください！",
+      "price": 1250,
+      "price_raw": "1,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "◆◇豚づくし◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "◆◇野菜焼◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "野菜焼盛り合わせ",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "きのこ盛り合わせ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "にんにく焼き",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "◆◇サラダ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "チョレギサラダ",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "まるごと冷やしトマトサラダ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "わかめサラダ",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "uson-046",
+      "name": "USON特製彩り野菜サラダ",
+      "price": 1250,
+      "price_raw": "1,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "or-047",
+      "name": "※ビタミンたっぷりキウイソースorフレッシュゆずソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "ピリ辛ねぎムチン　お肉に巻いてお召し上がりください",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "サンチュ（特製みそ付き）",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "◆◇漬物◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "キムチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "カクテキ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "オイキムチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "キムチ盛り合わせ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "◆◇ナムル◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "ナムル盛り合わせ",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "ピリ辛もやしナムル",
+      "price": 650,
+      "price_raw": "650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "◆◇一品料理◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "韓国焼きのり",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "チャンジャ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "センマイ刺",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "チャプチェ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "トッポキ",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "つぶ貝和え物",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "◆◇チヂミ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "ねぎチヂミ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "野菜ミックスチヂミ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "海鮮チヂミ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "◆◇鍋物◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "純豆腐チゲ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "海鮮チゲ",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "キムチ豆腐チゲ",
+      "price": 1350,
+      "price_raw": "1,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "◆◇スープ◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "わかめスープ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "玉子スープ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "野菜スープ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "ユッケジャンスープ",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "プゴスープ<干し鱈のだしで美肌効果抜群！！>",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "◆◇食事◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "ソルロンタン（牛骨の白湯スープ・ライス付き）",
+      "price": 1350,
+      "price_raw": "1,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "野菜クッパ",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "ユッケジャンクッパ",
+      "price": 1250,
+      "price_raw": "1,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "ビビンパ",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "石焼ビビンパ",
+      "price": 1350,
+      "price_raw": "1,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "石焼ユッケビビンパ",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "280-2020-086",
+      "name": "ライス大　中￥280　￥2020",
+      "price": 380,
+      "price_raw": "380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "◆◇麺◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "冷麺",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "ビビン麺",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "uson-090",
+      "name": "USON特製温麺",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "絶品魚介旨味だしククス",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "◆◇デザート◇◆",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "バニラアイスクリーム",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "バニラアイス・たっぷり果肉入りフルーツソースがけ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "（ストロベリー/マンゴー/ブルーベリー/林檎とはちみつ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "黒糖きな粉バニラアイスクリーム",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "柚子シャーベット",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "赤ぶどうシャーベット",
+      "price": 450,
+      "price_raw": "450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "季節のアイスクリーム",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "シャトーブリアン（約150g）最高のヒレの中央で最も厚みのある部分の究極の部位",
+      "price": 9500,
+      "photo_url": null
+    },
+    {
+      "name": "ヒレステーキ（約150g）サーロインの内側に位置する最も柔らかい最高級部位",
+      "price": 6500,
+      "photo_url": null
+    },
+    {
+      "name": "☆極上厚切り3.5㎝芯タン(数量限定)",
+      "price": 4980,
+      "photo_url": null
+    },
+    {
+      "name": "極上厚切りハラミ<ゴマ塩だれ>（数量限定）",
+      "price": 4980,
+      "photo_url": null
+    },
+    {
+      "name": "超特大骨付きカルビ（数量限定）",
+      "price": 4280,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

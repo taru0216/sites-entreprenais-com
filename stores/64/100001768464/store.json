@@ -2,7 +2,7 @@
   "retty_id": "100001768464",
   "slug": "colors-cafe-768464",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:31:02Z",
+  "last_crawled": "2026-06-03T17:00:19Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "COLORS CAFE",
@@ -57,14 +57,15 @@
   },
   "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001768464/",
   "retty_photos": [
-    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/38656721.jpg"
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/37112881.jpg"
   ],
   "retty_rating": 5.0,
-  "retty_review_count": 4,
+  "retty_review_count": 3,
   "nearest_station": null,
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
+  "menu": [],
   "featured_menu": [],
   "special_info": "",
   "reservation_url": "",

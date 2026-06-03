@@ -2,7 +2,7 @@
   "retty_id": "100000881561",
   "slug": "store-881561",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:50:09Z",
+  "last_crawled": "2026-06-03T16:57:03Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ビアンモール",
@@ -68,7 +68,23 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "生姜焼き定食",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "生姜焼き定食",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

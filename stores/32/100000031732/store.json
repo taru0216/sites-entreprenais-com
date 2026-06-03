@@ -2,7 +2,7 @@
   "retty_id": "100000031732",
   "slug": "store-031732",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:58:30Z",
+  "last_crawled": "2026-06-03T16:27:48Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "栄楽",
@@ -61,7 +61,83 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ラーメン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "タンメン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "もやしそば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "うまにそば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "カレーそば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ラーメン+半チャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ラーメン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "タンメン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "もやしそば",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "うまにそば",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "カレーそば",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

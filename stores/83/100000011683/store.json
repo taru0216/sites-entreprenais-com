@@ -2,7 +2,7 @@
   "retty_id": "100000011683",
   "slug": "store-011683",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:37:09Z",
+  "last_crawled": "2026-06-03T17:19:24Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ラ ターブル ドゥ ジョエル・ロブション",
@@ -67,7 +67,275 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "menu-degustation-000",
+      "name": "MENU DEGUSTATION",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-a-001",
+      "name": "MENU A",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-b-002",
+      "name": "MENU B",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-c-003",
+      "name": "MENU C",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-d-004",
+      "name": "MENU D",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "帆立貝マリネしてからやさしく火を入れ、雲丹とキャビアのコンビネーション 滑らかな赤パプリカのクーリを",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "オマール海老かえでの樹液でマリネした甘酸っぱい紅芯大根のラヴィオリ ナツメグとローズマリーの香り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "菊芋の軽いクレーム滑らかな甲殻類のロワイヤルに注いで",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "雲丹と半熟卵パルメザンチーズのスパゲティー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "手長海老のポワレコロナタ産ラルドンのベールで覆い、小海老のムースをマカロニにつめ香り高いソースエピス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "平目しっとり蒸し焼きにし、カラスミのクルートで覆い スモークベーコンとオニオンコンフィを包んだロメイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "スコティッシュサーモンのミ・キュイコクのある赤ワインソースにキャベツのエテュベ、シトロネルの軽い泡",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "シャラン鴨胸肉ローストした蕪に牛蒡のブレゼ、リ・ソヴァージュと共に",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "フランス産リ･ド･ヴォーと茸のヴォロヴァントリュフの香り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "仔羊背肉のロティーゆっくり煮込んだ肩肉をズッキーニでカネロニ仕立てに",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-d-hiver-015",
+      "name": "MENU D’HIVER",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-a-016",
+      "name": "MENU A",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-b-017",
+      "name": "MENU B",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-c-018",
+      "name": "MENU C",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-d-019",
+      "name": "MENU D",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "雲丹甲殻類のジュレになめらかなフヌイユのクレーム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "鴨のフォアグラのテリーヌ 青首大根のヴルーテに乗せ、デリケートなビーフコンソメのジュレ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "イベリコの生ハム トマトのトーストをあしらって",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "真鯛のポワレ サルジニア産のフレゴラに乗せ、濃縮したスープ ド ポワソンのジュ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "フランス産チーズをお好みで",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "パテ オンクルート 伝統的技法で仕上げ、濃縮したジュと共に 紫キャベツと林檎のマリネ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "国産ハーブ豚 ロース肉を低温調理にし、季節野菜をあしらって",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "国産牛バヴェットのロティ なめらかなジャガイモのピュレ 田園風サラダと共に",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "プランシャでソテーした季節の野菜 パルメザンのコポーをのせて",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "フランス産仔牛のブランケット ヴォロヴァンに乗せインカのめざめのコンフィを添えて",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "MENU DEGUSTATION",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "MENU A",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "MENU B",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "MENU C",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "MENU D",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

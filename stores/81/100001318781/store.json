@@ -2,7 +2,7 @@
   "retty_id": "100001318781",
   "slug": "store-318781",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:48:47Z",
+  "last_crawled": "2026-06-03T17:16:52Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "アムール",
@@ -64,7 +64,163 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "5000-000",
+      "name": "ランチメニュー　5000円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "7500-001",
+      "name": "ランチメニュー　7500円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10000-002",
+      "name": "ランチメニュー　10000円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "blanc-de-blancs-brut-nature-s-a-003",
+      "name": "Blanc de Blancs Brut Nature S.A",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "blanc-de-blancs-les-rachais-2007-004",
+      "name": "Blanc de Blancs Les Rachais 2007",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cuv-e-fiacre-s-a-005",
+      "name": "Cuvée Fiacre S.A",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "lettre-de-mon-menier-2010-006",
+      "name": "Lettre de mon Menier 2010",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "les-orizeaux-2010-007",
+      "name": "Les Orizeaux 2010",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "les-heurtebises-2008-008",
+      "name": "Les Heurtebises 2008",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mill-sime-2008-009",
+      "name": "Millésime 2008",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "la-closelie-les-b-guine-s-a-010",
+      "name": "La Closelie Les Béguine S.A",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "veuve-aufray-brut-s-a-011",
+      "name": "Veuve Aufray Brut S.A",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "comtes-de-champagne-2005-012",
+      "name": "Comtes de Champagne 2005",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dom-ruinart-2002-013",
+      "name": "Dom Ruinart 2002",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "noble-cuv-e-2000-014",
+      "name": "Noble Cuvée 2000",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "noble-cuv-e-blanc-de-blancs-2000-015",
+      "name": "Noble Cuvée Blanc de Blancs 2000",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ランチメニュー　5000円",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ランチメニュー　7500円",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ランチメニュー　10000円",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "Blanc de Blancs Brut Nature S.A",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "Blanc de Blancs Les Rachais 2007",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

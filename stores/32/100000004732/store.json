@@ -2,7 +2,7 @@
   "retty_id": "100000004732",
   "slug": "store-004732",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:51:10Z",
+  "last_crawled": "2026-06-03T16:27:39Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "喜福世",
@@ -69,7 +69,23 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "三種盛ランチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "三種盛ランチ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

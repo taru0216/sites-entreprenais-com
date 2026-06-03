@@ -2,7 +2,7 @@
   "retty_id": "100000004306",
   "slug": "store-004306",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:03:53Z",
+  "last_crawled": "2026-06-03T16:01:21Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "鉄板焼 バンブー グラッシィ  恵比寿店",
@@ -80,7 +80,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "appetizer-000",
+      "name": "【APPETIZER / 前菜】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687311-5c510738f29ff-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "本日鮮魚のカルパッチョ",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687362-5c51081b9f52d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "季節野菜のバーニャカウダ",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687347-5c5107e94d15d-l.JPG",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "極上マッシュルームとルッコラサラダ",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/694316-5c53c0a9c5223-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "キムチの王様",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687358-5c510815e6244-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "焼スカモルツァチーズ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687309-5c51073600cb7-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "和牛ランプのたたき 黄身ソース添",
+      "price": 2900,
+      "price_raw": "2,900円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687317-5c51073fcc778-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "teppan-yaki-007",
+      "name": "【TEPPAN-YAKI / 鉄板焼】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3257900-65dfdcf074539-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "産直野菜の鉄板焼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687364-5c51081f5b90a-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "焼生麩　三色　田楽味噌",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687327-5c51078c5a5e3-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "鉄板　トリュフ塩のオムレット",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687352-5c5107fb06f99-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "活あわび",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3257900-65dfdcf074539.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "肉厚な烏賊のバターソテー",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3351528-66850011c2d26.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "生雲丹と焼き飯",
+      "price": 2600,
+      "price_raw": "2,600円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3351530-6685003541c49.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "丹波味わい鶏　もも肉のソテー　ゴルゴンゾーラクリームソース",
+      "price": 2400,
+      "price_raw": "2,400円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687325-5c51077e636cd.JPG",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "蔵尾ポークのソテー",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687364-5c51081f5b90a.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "信州牛ランプ（長野）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/3351532-6685003fc8de4.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "「うしの中山」サーロイン（鹿児島）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000004306/archive/687323-5c51074709214.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "「うしの中山」フィレ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "fried-rice-019",
+      "name": "【FRIED RICE / 焼き飯】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "ガーリックライス",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "明太子焼き飯",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "okonomi-yaki-yaki-soba-022",
+      "name": "【OKONOMI-YAKI&YAKI-SOBA / お好み焼&焼そば】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "お好み焼き ゴールデン",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "お好み焼き ミックス",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "お好み焼き バンブーグラッシィ",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "九条ネギ焼き",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dessert-027",
+      "name": "【DESSERT / デザート】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "本日のデザート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beer-029",
+      "name": "【BEER】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "エビス 生",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "エビス・ザ・ブラック（小ビン）",
+      "price": 850,
+      "price_raw": "850円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "ノンアルコールビール",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-champagne-033",
+      "name": "【GLASS CHAMPAGNE】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "グラスシャンパン",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "ミモザ",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "キールロワイヤル",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "ベリーニ",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "スペシャルフルーツ＆シャンパン",
+      "price": 2100,
+      "price_raw": "2,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-wine-white-039",
+      "name": "【GLASS WINE / WHITE】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "グランポレール 余市 ケルナー",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "マトゥア　ソーヴィニヨンブラン",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "セバスチャーニ　シャルドネ",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-wine-red-043",
+      "name": "【GLASS WINE / RED】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "ベリンジャー　メルロー",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "ベリンジャー　ピノ・ノワール",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "ベリンジャー　カベルネ・ソーヴィニヨン",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "whisky-047",
+      "name": "【WHISKY】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "デュワーズ",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "余市",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "ボウモア",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "竹鶴",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "山崎",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "白州",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sake-054",
+      "name": "【SAKE】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glass-055",
+      "name": "醸し人九平次　glass",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mellow-glass-056",
+      "name": "来福　MELLOW　glass",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "くどき上手　ばくれん　一合",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "shocyu-058",
+      "name": "【SHOCYU】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "富乃宝山　（芋）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "吉兆宝山　（芋）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "中々　（麦）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "和ら麦　（麦）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "白岳　（米）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "浦霞　（粕取）",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "spirits-065",
+      "name": "【SPIRITS】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "ボンベイ・サファイア　ジン",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "アブソルート　ウォッカ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "バカルディ　ラム",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "オレー　テキーラ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "liqueur-070",
+      "name": "【LIQUEUR】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "アマレット",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "カンパリ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "カシス",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "ディタ　ライチ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "マリブ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "ピーチツリー",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "non-alcoholic-cocktail-077",
+      "name": "【NON-ALCOHOLIC COCKTAIL】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "アマレット",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "カシス",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "ライチ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "パッションフルーツ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "ピーチ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "soft-drink-083",
+      "name": "【SOFT DRINK】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "アイス抹茶",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "ウーロン茶",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "ゆず茶",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "オレンジ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "グレープフルーツ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "コカコーラ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "ジンジャーエール",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bubble-091",
+      "name": "【BUBBLE】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "ベルトゥーレ　ブリュット",
+      "price": 5500,
+      "price_raw": "5,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "テタンジェ　ブリュット　レゼルヴ",
+      "price": 17000,
+      "price_raw": "17,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "ヴーヴ クリコ ブリュット",
+      "price": 18000,
+      "price_raw": "18,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "マーゴット",
+      "price": 18000,
+      "price_raw": "18,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "テタンジェ　コント・ド・シャンパーニュ",
+      "price": 45000,
+      "price_raw": "45,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "wine-097",
+      "name": "【WINE (表示は一部のみとなっております。)】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "アルディッシュ・シャルドネ",
+      "price": 6500,
+      "price_raw": "6,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "シャブリ",
+      "price": 9500,
+      "price_raw": "9,500円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "テタンジェ　コント・ド・シャンパーニュ",
+      "price": 45000,
+      "photo_url": null
+    },
+    {
+      "name": "ヴーヴ クリコ ブリュット",
+      "price": 18000,
+      "photo_url": null
+    },
+    {
+      "name": "マーゴット",
+      "price": 18000,
+      "photo_url": null
+    },
+    {
+      "name": "テタンジェ　ブリュット　レゼルヴ",
+      "price": 17000,
+      "photo_url": null
+    },
+    {
+      "name": "シャブリ",
+      "price": 9500,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100000004306",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100000001713",
   "slug": "store-001713",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:42:38Z",
+  "last_crawled": "2026-06-03T16:08:44Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ハース 恵比寿",
@@ -73,7 +73,75 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "チキンソテー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ベーコンとチリビーンズのスパイシーガレット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "魚介のトマトリゾット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ポーチドエッグと合鴨スモークのリヨネーズサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ポーチドエッグと合鴨スモークのリヨネーズサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "チキンソテー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ベーコンとチリビーンズのスパイシーガレット",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "魚介のトマトリゾット",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ポーチドエッグと合鴨スモークのリヨネーズサラダ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ポーチドエッグと合鴨スモークのリヨネーズサラダ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

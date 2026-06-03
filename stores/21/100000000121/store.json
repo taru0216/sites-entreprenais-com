@@ -2,7 +2,7 @@
   "retty_id": "100000000121",
   "slug": "store-000121",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:05:59Z",
+  "last_crawled": "2026-06-03T16:16:38Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "すし 京辰 恵比寿店",
@@ -79,7 +79,643 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "にぎり",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007383-641108ebab67f.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "本日のおまかせ",
+      "price": 5400,
+      "price_raw": "5,400円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007423-64110c8288c29-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "京にぎり",
+      "price": 3240,
+      "price_raw": "3,240円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007423-64110c8288c29-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "浜にぎり",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007428-64110e9073c1d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "おきまり",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007428-64110e9073c1d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "9-005",
+      "name": "旬　にぎり9貫",
+      "price": 2700,
+      "price_raw": "2,700円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007427-64110e47c2219-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "8-006",
+      "name": "いなせ　にぎり8貫",
+      "price": 2160,
+      "price_raw": "2,160円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007427-64110e47c2219-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "丼物",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007422-64110c75eeff9-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "特上ちらし",
+      "price": 3240,
+      "price_raw": "3,240円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007422-64110c75eeff9-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "特選ばらちらし",
+      "price": 2700,
+      "price_raw": "2,700円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007394-64110a2ee0d57-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "彩りちらし",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007394-64110a2ee0d57-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "セット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007393-64110a2218bd7-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "すし御膳",
+      "price": 3240,
+      "price_raw": "3,240円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007393-64110a2218bd7-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "ヘルシー御膳",
+      "price": 3240,
+      "price_raw": "3,240円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007383-641108ebab67f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "お子さま寿司",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007383-641108ebab67f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "棒寿司",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007423-64110c8288c29-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "穴子の棒寿司",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007428-64110e9073c1d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "サバの棒寿司",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007427-64110e47c2219-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "旬の一品",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007422-64110c75eeff9-l.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "かじき鮪の照り焼き",
+      "price": 1296,
+      "price_raw": "1,296円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007394-64110a2ee0d57-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "タスマニアサーモンの西京焼き",
+      "price": 1458,
+      "price_raw": "1,458円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007393-64110a2218bd7-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "茶豆",
+      "price": 648,
+      "price_raw": "648円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007383-641108ebab67f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "稚鮎の南蛮",
+      "price": 756,
+      "price_raw": "756円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "本日のおすすめ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "青森県大間産 ・中トロ赤身刺",
+      "price": 4320,
+      "price_raw": "4,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "北海道産・塩水うに刺身/握り",
+      "price": 2160,
+      "price_raw": "2,160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "静岡県産下田港産　金目鯛　刺身/握り",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "天然生本鯖 ・握り中トロ一貫",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "天然生本鯖 ・握り赤身一貫",
+      "price": 864,
+      "price_raw": "864円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "北海道石狩産・子持ちシャコ　刺身/握り",
+      "price": 1944,
+      "price_raw": "1,944円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "富山県産・のどぐろ　刺身/握り",
+      "price": 2160,
+      "price_raw": "2,160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "青森県産・天然平目の昆布〆　刺身/握り",
+      "price": 2160,
+      "price_raw": "2,160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "山口県産・白いか　刺身/握り",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "富山県産白海老　刺身/握り",
+      "price": 2160,
+      "price_raw": "2,160円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "千葉県産カツオ　刺身/握り",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "青森県産　天然ホヤ　刺身",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "中トロ刺身",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "一品料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "タコのやわらか煮",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "かにみそ",
+      "price": 648,
+      "price_raw": "648円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "ホヤの塩辛",
+      "price": 864,
+      "price_raw": "864円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "自家製玉子焼き",
+      "price": 540,
+      "price_raw": "540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "漬物盛合せ",
+      "price": 594,
+      "price_raw": "594円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "アサリ酒蒸し",
+      "price": 864,
+      "price_raw": "864円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "酢の物盛合せ",
+      "price": 1296,
+      "price_raw": "1,296円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "海鮮茶わん蒸し",
+      "price": 756,
+      "price_raw": "756円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "自家製　茎わさびの三杯漬け",
+      "price": 540,
+      "price_raw": "540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "酒のつまみ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "ホヤの塩辛",
+      "price": 864,
+      "price_raw": "864円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "ナガス鯨ベーコン",
+      "price": 1512,
+      "price_raw": "1,512円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "揚げ物",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "じゃが芋の天婦羅",
+      "price": 756,
+      "price_raw": "756円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "白海老唐揚げ",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "天使の海老の天婦羅　(握り、刺身にも出来ます)",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "グリーンアスパラの唐揚げ",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "鱧の天婦羅",
+      "price": 1296,
+      "price_raw": "1,296円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "焼き物",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "サザエ壺焼き",
+      "price": 1296,
+      "price_raw": "1,296円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "穴子の白焼き",
+      "price": 1620,
+      "price_raw": "1,620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "イカの一夜干し",
+      "price": 756,
+      "price_raw": "756円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "各種カマ焼き",
+      "price": 1296,
+      "price_raw": "1,296円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "※その他、煮魚・焼き魚は店員にお聞き下さい。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "蒸し物",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "桜海老の茶碗蒸し",
+      "price": 972,
+      "price_raw": "972円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "蛤酒蒸し",
+      "price": 1188,
+      "price_raw": "1,188円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "サラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "いろいろ野菜のかにバラサラダ",
+      "price": 972,
+      "price_raw": "972円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "ちりめんじゃこのサラダ",
+      "price": 972,
+      "price_raw": "972円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "お椀",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "アラ汁",
+      "price": 540,
+      "price_raw": "540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "しじみ汁／アサリ汁",
+      "price": 432,
+      "price_raw": "432円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "生のり汁",
+      "price": 324,
+      "price_raw": "324円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "デザート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "自家製やわらか羊かん",
+      "price": 324,
+      "price_raw": "324円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "季節のアイスクリーム",
+      "price": 324,
+      "price_raw": "324円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "杏仁豆腐",
+      "price": 324,
+      "price_raw": "324円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "本日のおまかせ",
+      "price": 5400,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000000121/archive/3007423-64110c8288c29-l.png"
+    },
+    {
+      "name": "青森県大間産 ・中トロ赤身刺",
+      "price": 4320,
+      "photo_url": null
+    },
+    {
+      "name": "京にぎり",
+      "price": 3240,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007423-64110c8288c29-l.png"
+    },
+    {
+      "name": "特上ちらし",
+      "price": 3240,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007422-64110c75eeff9-l.png"
+    },
+    {
+      "name": "すし御膳",
+      "price": 3240,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000000121/archive/3007393-64110a2218bd7-l.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100000000121",
   "sns": {

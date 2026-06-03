@@ -2,7 +2,7 @@
   "retty_id": "100001417815",
   "slug": "barcaronero-417815",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:01:30Z",
+  "last_crawled": "2026-06-03T16:11:35Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "BarCaroNero",
@@ -73,7 +73,395 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "生ハム盛合せ",
+      "price": 1780,
+      "price_raw": "1,780円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001417815/archive/674054-5c39609834355-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "カラマリフリット",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/674054-5c39609834355-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ポテトフリット",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001417815/archive/2266238-60472e6802134-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "佐賀牛もも肉　炭火焼き",
+      "price": 4400,
+      "price_raw": "4,400円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2266238-60472e6802134-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "イベリコ豚ベショータ肩ロース　炭火焼き",
+      "price": 3000,
+      "price_raw": "3,000円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001417815/archive/631103-5bfd324172c7f-l.JPG",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "鬼北鹿ランプ　炭火焼き",
+      "price": 2980,
+      "price_raw": "2,980円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/631103-5bfd324172c7f-l.JPG",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "仔羊骨付ロース　炭火焼き　２本",
+      "price": 1900,
+      "price_raw": "1,900円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001417815/archive/674054-5c39609834355-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "3-007",
+      "name": "肉3種盛合せ",
+      "price": 3300,
+      "price_raw": "3,300円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001417815/archive/2266238-60472e6802134-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "濃厚チーズリゾット",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001417815/archive/631103-5bfd324172c7f-l.JPG",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "グラミーニャ　ボロネーゼ",
+      "price": 1680,
+      "price_raw": "1,680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "カサレッチェ　ペストトラパネーゼ",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "イカ墨タリオリーニ　ヤリイカ　カラスミ",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "カヴァッティエッディ　イワシとういきょうのソース",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "スパゲッティ　イカ墨",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "クロゼッティ　桜エビとズッキーニ",
+      "price": 1680,
+      "price_raw": "1,680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "グリル野菜のピクルス",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "オリーブ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "焼ピスタッチオ",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "厳選チーズの盛り合わせ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ティラミス",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "クラシックプリン",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ピスタチオのジェラート",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "カンノーロ",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "生ビール キリン一番搾り",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "レモンビア",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "ジンジャービア",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "ミオネット　プロセッコ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "季節のベリーニ",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "オリジナルレモンサワー",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "ドライモスコミュール",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "青森カシスソーダ",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "アマレットジャスミン",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "ﾊﾞﾗﾝﾀｲﾝ ﾊﾞﾚﾙｽﾑｰｽ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "イチローズモルト",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-034",
+      "name": "ジョニーウォーカー12年",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "シチリアレモンソーダ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "自家製ジンジャーエール",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "オレンジジュース",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "ジャスミン茶",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "エスプレッソ",
+      "price": 400,
+      "price_raw": "400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "コーヒー",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "紅茶",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "カモミールティー",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-043",
+      "name": "グラスワイン10種",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "ボトルワイン",
+      "price": 4900,
+      "price_raw": "4,900円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ボトルワイン",
+      "price": 4900,
+      "photo_url": null
+    },
+    {
+      "name": "佐賀牛もも肉　炭火焼き",
+      "price": 4400,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/2266238-60472e6802134-l.jpg"
+    },
+    {
+      "name": "肉3種盛合せ",
+      "price": 3300,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001417815/archive/2266238-60472e6802134-l.jpg"
+    },
+    {
+      "name": "イベリコ豚ベショータ肩ロース　炭火焼き",
+      "price": 3000,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001417815/archive/631103-5bfd324172c7f-l.JPG"
+    },
+    {
+      "name": "鬼北鹿ランプ　炭火焼き",
+      "price": 2980,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001417815/archive/631103-5bfd324172c7f-l.JPG"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

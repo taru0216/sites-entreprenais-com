@@ -2,7 +2,7 @@
   "retty_id": "100001361275",
   "slug": "taberna-de-espana-fragante-humo-361275",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:54:43Z",
+  "last_crawled": "2026-06-03T17:10:44Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Taberna de Espana FRAGANTE HUMO 恵比寿店",
@@ -68,7 +68,147 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ピンチョスバー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "海老のピンチョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "イベリコ豚の生ハム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "沼津産イワシの自家製マリネ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "秋刀魚の藁焼と小桃トマトとセロリのマリネ「セビーチェ」",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "バスク名物「バカラオのピルピル」",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "スペイン風牛モツ煮込みと自家製ソーセージ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "赤海老の鉄板焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "牡蠣の鉄板焼き",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "魚介のパエリア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "秋刀魚のパエリア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "魚介のフィデウァ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "イカ墨のフィデウァ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-013",
+      "name": "活オマール海老の汁めし（1尾）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ピンチョスバー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "海老のピンチョ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "イベリコ豚の生ハム",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "沼津産イワシの自家製マリネ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "秋刀魚の藁焼と小桃トマトとセロリのマリネ「セビーチェ」",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

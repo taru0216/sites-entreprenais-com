@@ -2,7 +2,7 @@
   "retty_id": "100000002561",
   "slug": "store-002561",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:40:07Z",
+  "last_crawled": "2026-06-03T16:56:36Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "九十九ラーメン 恵比寿本店",
@@ -70,7 +70,91 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "元祖チーズラーメン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "トマトチーズラーメン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "のり玉ラーメン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "九十九ラーメン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "醤油とんこつラーメン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "味噌とんこつラーメン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "手作りパリパリ餃子",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "元祖チーズラーメン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "トマトチーズラーメン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "のり玉ラーメン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "九十九ラーメン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "醤油とんこつラーメン",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

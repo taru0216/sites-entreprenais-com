@@ -2,7 +2,7 @@
   "retty_id": "100000819244",
   "slug": "store-819244",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:43:07Z",
+  "last_crawled": "2026-06-03T16:40:47Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿 ガパオ食堂",
@@ -72,7 +72,49 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "タイビール　シンハ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "タイビール　チャーン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "タイビール　リオ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "タイビール　シンハ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "タイビール　チャーン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "タイビール　リオ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

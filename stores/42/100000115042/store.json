@@ -2,7 +2,7 @@
   "retty_id": "100000115042",
   "slug": "store-115042",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:29:12Z",
+  "last_crawled": "2026-06-03T16:38:42Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "スターバックスコーヒー 恵比寿ユニオンビル店",
@@ -70,7 +70,835 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ブラッククランブル＆チーズクリームドーナツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ラズベリースコーン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "デニッシュパイ ベーコン＆チェダー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ラズベリーグラノラトースト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "バターミルクビスケット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "デニッシュパイ エッグ＆バジルポーク",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ブルーベリークリームスコーン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "チョコレートチャンクスコーン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ホワイトチョコレートマカダミアクッキー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "アメリカンワッフル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "チョコレートチャンククッキー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "レモンシフォンケーキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "シュガードーナツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "チョコレートケーキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "coffee-espresso-014",
+      "name": "Coffee & Espresso ケーキ ラズベリーレモン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "シナモンロール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "スターバックス グラノラ＆ヨーグルト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "ニューヨークチーズケーキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ブルーベリーレアチーズパイ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "エッグサンドイッチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "クラブハウスサンドイッチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ラザニア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "coffee-espresso-022",
+      "name": "Coffee & Espresso ケーキ カフェ モカ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "サラダラップ 根菜チキン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "サーモン＆クリームチーズベーグル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "テリヤキチキンサンドイッチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "ハニーオレンジ＆クリームチーズベーグル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "ベーコンとほうれん草のキッシュ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "ハニーハム&チェダーチーズサンドイッチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "フィローネ ローストチキン レモンバターソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-030",
+      "name": "ドリップコーヒー（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-short-031",
+      "name": "ドリップコーヒー（ICED）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-032",
+      "name": "ドリップコーヒー（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-tall-033",
+      "name": "ドリップコーヒー（ICED）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-034",
+      "name": "ドリップコーヒー（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-grande-035",
+      "name": "ドリップコーヒー（ICED）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-036",
+      "name": "ドリップコーヒー（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-venti-037",
+      "name": "ドリップコーヒー（ICED）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-038",
+      "name": "コーヒープレス（HOT）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-039",
+      "name": "カフェ ミスト（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-040",
+      "name": "カフェ ミスト（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-041",
+      "name": "カフェ ミスト（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-042",
+      "name": "カフェ ミスト（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-1-000ml-043",
+      "name": "ポットサービス5杯分(1,000ml)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "10-2-000ml-044",
+      "name": "ポットサービス10杯分(2,000ml)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "15-3-000ml-045",
+      "name": "ポットサービス15杯分(3,000ml)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "20-4-000ml-046",
+      "name": "ポットサービス20杯分(4,000ml)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-047",
+      "name": "スターバックス ラテ（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-short-048",
+      "name": "スターバックス ラテ（ICED）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-049",
+      "name": "スターバックス ラテ（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-tall-050",
+      "name": "スターバックス ラテ（ICED）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-051",
+      "name": "スターバックス ラテ（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-grande-052",
+      "name": "スターバックス ラテ（ICED）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-053",
+      "name": "スターバックス ラテ（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-venti-054",
+      "name": "スターバックス ラテ（ICED）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-055",
+      "name": "ソイ ラテ（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-short-056",
+      "name": "ソイ ラテ（ICED）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-057",
+      "name": "ソイ ラテ（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-tall-058",
+      "name": "ソイ ラテ（ICED）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-059",
+      "name": "ソイ ラテ（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-grande-060",
+      "name": "ソイ ラテ（ICED）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-061",
+      "name": "ソイ ラテ（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-venti-062",
+      "name": "ソイ ラテ（ICED）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-063",
+      "name": "カプチーノ（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-064",
+      "name": "カプチーノ（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-065",
+      "name": "カプチーノ（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-066",
+      "name": "カプチーノ（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-067",
+      "name": "カフェ モカ（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-short-068",
+      "name": "カフェ モカ（ICED）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-069",
+      "name": "カフェ モカ（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-tall-070",
+      "name": "カフェ モカ（ICED）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-071",
+      "name": "カフェ モカ（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-grande-072",
+      "name": "カフェ モカ（ICED）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-073",
+      "name": "カフェ モカ（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-venti-074",
+      "name": "カフェ モカ（ICED）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-075",
+      "name": "ホワイト モカ（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-short-076",
+      "name": "ホワイト モカ（ICED）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-077",
+      "name": "ホワイト モカ（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-tall-078",
+      "name": "ホワイト モカ（ICED）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-079",
+      "name": "ホワイト モカ（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-grande-080",
+      "name": "ホワイト モカ（ICED）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-081",
+      "name": "ホワイト モカ（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-venti-082",
+      "name": "ホワイト モカ（ICED）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-083",
+      "name": "キャラメル マキアート（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-short-084",
+      "name": "キャラメル マキアート（ICED）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-085",
+      "name": "キャラメル マキアート（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-tall-086",
+      "name": "キャラメル マキアート（ICED）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-087",
+      "name": "キャラメル マキアート（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-grande-088",
+      "name": "キャラメル マキアート（ICED）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-089",
+      "name": "キャラメル マキアート（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-venti-090",
+      "name": "キャラメル マキアート（ICED）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-short-091",
+      "name": "カフェ アメリカーノ（HOT）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-short-092",
+      "name": "カフェ アメリカーノ（ICED）Short",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-tall-093",
+      "name": "カフェ アメリカーノ（HOT）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-tall-094",
+      "name": "カフェ アメリカーノ（ICED）Tall",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-grande-095",
+      "name": "カフェ アメリカーノ（HOT）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-grande-096",
+      "name": "カフェ アメリカーノ（ICED）Grande",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-venti-097",
+      "name": "カフェ アメリカーノ（HOT）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "iced-venti-098",
+      "name": "カフェ アメリカーノ（ICED）Venti",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "solo-099",
+      "name": "エスプレッソ〈Solo〉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ブラッククランブル＆チーズクリームドーナツ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ラズベリースコーン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "デニッシュパイ ベーコン＆チェダー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ラズベリーグラノラトースト",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "バターミルクビスケット",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

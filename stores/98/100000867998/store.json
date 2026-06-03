@@ -2,7 +2,7 @@
   "retty_id": "100000867998",
   "slug": "sync-867998",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:51:50Z",
+  "last_crawled": "2026-06-03T17:36:27Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "sync 恵比寿",
@@ -59,7 +59,107 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "スパイシーカレー　チキン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "スパイシーカレー　牡蠣とクレソン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "グリーンサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "大盛りグリーンサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sync-004",
+      "name": "syncトッピング",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "カマンベールチーズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "どっさりパクチー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ちょいパクチー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "おかわりライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "スパイシーカレー　チキン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "スパイシーカレー　牡蠣とクレソン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "グリーンサラダ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "大盛りグリーンサラダ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "syncトッピング",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

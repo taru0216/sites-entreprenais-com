@@ -2,7 +2,7 @@
   "retty_id": "100000006552",
   "slug": "store-006552",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:51:33Z",
+  "last_crawled": "2026-06-03T16:47:45Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "えびすジンギスカン 海月",
@@ -79,7 +79,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "menu-000",
+      "name": "＊MENU＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641287-685820f824fbd-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "2-001",
+      "name": "希少アイスランド産ラムセット（2人前から）",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641275-685820ef9909a-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "2-002",
+      "name": "熟成オーストラリア産上モモ肉セット（2人前から）",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637556-6852756c8e378-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-003",
+      "name": "秘伝ダレ付け込みジンギスカン長沼＆南幌（1人前から）",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641294-685820fd30bd4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "1-004",
+      "name": "オススメ味比べアイスランドラム＆オーストラリア上モモ（1人前から）",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641304-685821048e0bd-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "希少ラムのタン",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641295-685820fdd9c69-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ラムランプ",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641296-685820fe8e122-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "昔ながらのマトンロール",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641300-6858210183599-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "希少アイスランド産ラム",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641333-6858211a6ea4a-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "北海道長沼マトン",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641299-68582100ac7b6-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "北海道なんぽろラム",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641342-6858211feaf5d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "アイスランド産ネギ塩ラム",
+      "price": 1210,
+      "price_raw": "1,210円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641326-68582115d64d1-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "アイスランド産粗挽黒胡椒ラム",
+      "price": 1210,
+      "price_raw": "1,210円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641288-685820f8d05b0-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "アイスランド産ゆず胡椒ラム",
+      "price": 1210,
+      "price_raw": "1,210円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641285-685820f69209f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "アイスランド産ラム肉のアブラ身",
+      "price": 1089,
+      "price_raw": "1,089円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641368-68582132ea18c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "アイスランド産のラムソーセージ",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641301-6858210247bfd-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "もち豚のバラ肉",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641303-68582103b6c13-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "＊限定メニュー＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641302-685821030a7c3-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "オーストラリア産特上モモ",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641347-6858212336650-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "売り切れごめんのラムチョップ",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641305-685821053a6cb-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "アイスランドラムのバラ肉",
+      "price": 1080,
+      "price_raw": "1,080円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641273-685820ee2a9a6-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "アイスランドラムのハラミ",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637601-685275b39c39c-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "アイスランドラムのレバー",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641281-685820f398657-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "＊ラムギョプサル＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641283-685820f4ee93d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "ラムギョプサル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637608-685275bab0238-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "2-025",
+      "name": "ラムギョプサルセット（2人前から）",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641267-685820e9484e5-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "2-026",
+      "name": "サムギョプサルセット（2人前から）",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641280-685820f2e36a7-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "＊ラムギョプサル［追加メニュー］＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641279-685820f237e78-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "キムチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641278-685820f18c323-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "サンチュ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641277-685820f0d3a0f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "ハーブ盛り",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641276-685820f03b87b-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "トマトアボカドディップ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641274-685820eed9045-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "side-menu-032",
+      "name": "＊SIDE MENU＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637580-6852759797ec9-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "希少アイスランドラムのタタキ",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637585-685275a1ea466-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "桜肉ユッケ",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637595-685275ae02b70-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "羊肉のガツポン酢",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637592-685275aac048c-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "グリル＆パクチーハラペーニョ",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641269-685820eb05edb-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "丸ごとカマンベールチーズのチーズのハニーかけ",
+      "price": 1590,
+      "price_raw": "1,590円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637563-6852757b69123-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "クリームチーズのにんにくラー油和え",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641268-685820ea32805-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "チャンジャクリームチーズ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641297-685820ff45b6c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "アンチョビキャベツ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641319-685821112b6f8.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "ポテトサラダの塩辛和え",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641366-685821317951c.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "ポテトサラダの半熟卵タヌキ",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3637548-68527559dcc48.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "韓国海苔のチョレギサラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "サクサク山芋キムチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "白菜キムチすり胡麻のせ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "キムチ三点盛り合わせ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tkg-825-385-047",
+      "name": "当店自慢のTKG（卵かけご飯…825円・ご飯のみ…385円）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "トマトのナムル",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "ピーマンのナムル",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "豆もやしのナムル",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "ナムル三点盛り合わせ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "珍味サキイカのキムチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "ワサビ枝豆",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "ジャーマンポテチチーズ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "旨みたっぷりジンギスカンタレで食べる〆のザルラーメン",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dessert-056",
+      "name": "＊DESSERT＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "バニラアイスのクレイジーソルトナッツかけ相性ビックリ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "フルーツ入りチーズアイス",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sour-059",
+      "name": "＊Sour＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "生レモンサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "生グレープフルーツサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "すりおろしジンジャーハニーサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "クエン酸サワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "したっけサワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "男梅サワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "沖縄パイナップルサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "梅干しサワー",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "カルピスサワー",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beer-069",
+      "name": "＊Beer＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "サッポロ生ビール",
+      "price": 682,
+      "price_raw": "682円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "黒エビスビール",
+      "price": 730,
+      "price_raw": "730円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "渋生ビール",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "ノンアルコールビール",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cocktail-074",
+      "name": "＊Cocktail＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "カシス（ソーダ・オレンジ・ウーロン・グレープフルーツ各）",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "highball-076",
+      "name": "＊HighBall＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "コークハイボール",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "ジンジャーハイボール",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "ガラナハイボール",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "シャンディガフ",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "ニッカハイボール",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "白州ハイボール",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "12-083",
+      "name": "シーバスリーガル ミズナラ 12年ハイボール",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "メーカーズマークハイボール",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sour-085",
+      "name": "＊Sour＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "酎ハイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "黒ウーロンハイ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "ジャスミンハイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "緑茶ハイ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "wine-090",
+      "name": "＊Wine＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "ハイスワイン 赤/白（グラス）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "ハイスワイン 赤/白（デキャンタ）",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "ボトルワイン・スパークリング",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "＊韓国＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "まっこり（グラス）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "まっこり（やかん）",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "etc-097",
+      "name": "チャミスル（・プレーン・マスカット・すもも etc…各）",
+      "price": 1230,
+      "price_raw": "1,230円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "soft-drink-098",
+      "name": "＊Soft Drink＊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-099",
+      "name": "黒ウーロン茶",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "オススメ味比べアイスランドラム＆オーストラリア上モモ（1人前から）",
+      "price": 2200,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641304-685821048e0bd-l.jpg"
+    },
+    {
+      "name": "ラムギョプサルセット（2人前から）",
+      "price": 2200,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641267-685820e9484e5-l.jpg"
+    },
+    {
+      "name": "サムギョプサルセット（2人前から）",
+      "price": 2200,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641280-685820f2e36a7-l.jpg"
+    },
+    {
+      "name": "秘伝ダレ付け込みジンギスカン長沼＆南幌（1人前から）",
+      "price": 1980,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000006552/archive/3641294-685820fd30bd4-l.jpg"
+    },
+    {
+      "name": "ハイスワイン 赤/白（デキャンタ）",
+      "price": 1980,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

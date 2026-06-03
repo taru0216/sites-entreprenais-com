@@ -2,7 +2,7 @@
   "retty_id": "100000865723",
   "slug": "store-865723",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:13:33Z",
+  "last_crawled": "2026-06-03T16:19:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "サンシャインジュース 恵比寿店",
@@ -69,7 +69,107 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "mini-000",
+      "name": "グリーンデトクサー(MINI)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "regular-001",
+      "name": "グリーンデトクサー(REGULAR)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mini-002",
+      "name": "リキッドサラダ（MINI)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "regular-003",
+      "name": "リキッドサラダ(REGULAR)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mini-004",
+      "name": "ザ・ルーツ(MINI)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mini-005",
+      "name": "サンライズスクイーズ(MINI)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "regular-006",
+      "name": "サンライズスクイーズ(REGULAR)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mini-007",
+      "name": "アップルジンジャー(MINI)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "regular-008",
+      "name": "アップルジンジャー(REGULAR)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "グリーンデトクサー(MINI)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "グリーンデトクサー(REGULAR)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "リキッドサラダ（MINI)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "リキッドサラダ(REGULAR)",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ザ・ルーツ(MINI)",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

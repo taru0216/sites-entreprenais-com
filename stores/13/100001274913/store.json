@@ -2,7 +2,7 @@
   "retty_id": "100001274913",
   "slug": "store-274913",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:41:38Z",
+  "last_crawled": "2026-06-03T16:09:15Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "酵素食道 レインボーローフード",
@@ -61,7 +61,195 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ナッツとドライフルーツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "人参ソムタム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "バーニャカウダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-003",
+      "name": "オニオンチップ（2枚）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-004",
+      "name": "カレーチップ（4枚）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "中皿サラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "パクチーサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "raw-007",
+      "name": "Rawマヨのシャキシャキサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "豆腐ゴマドレサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "タイのパッタイ風サラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "季節野菜のバーニャカウダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "platea-raw-food-011",
+      "name": "PlateA（Raw Food）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "plateb-raw-food-012",
+      "name": "PlateB（Raw Food）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "platec-raw-food-013",
+      "name": "PlateC（Raw Food）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "plated-raw-food-014",
+      "name": "PlateD（Raw Food）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "platea-raw-burrito-015",
+      "name": "PlateA（Raw Burrito）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "plateb-raw-burrito-016",
+      "name": "PlateB（Raw Burrito）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "salad-platter-017",
+      "name": "Salad Platter",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "raw-018",
+      "name": "RAWアサイーボウルランチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "70-raw-019",
+      "name": "70％RAWベジタコライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ナッツとドライフルーツ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "人参ソムタム",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "バーニャカウダ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "オニオンチップ（2枚）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "カレーチップ（4枚）",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

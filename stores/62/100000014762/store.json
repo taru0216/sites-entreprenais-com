@@ -2,7 +2,7 @@
   "retty_id": "100000014762",
   "slug": "store-014762",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:12:12Z",
+  "last_crawled": "2026-06-03T16:57:25Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "モナリザ恵比寿店",
@@ -71,7 +71,235 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "あやめ雪かぶ、牡丹海老の三重奏 カクテル仕立て",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "人参、長いも、かぼちゃ、ずわい蟹を詰めた冬のテリーヌ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ホッキ貝のムニエルとパエリアのガレット ペルノー風味",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "牛テールのポトフと菜の花のゼリー寄せ マスタード風味",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "焼き蟹のパルマンティエール風 キャビアライムのバター風味",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "フォワグラのポワレとこだわり卵のポッシェ トリュフソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "寒ブリのマリネとポロねぎのプレッセ 柚子の香るラビゴット・ソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ずわい蟹とアボカドのキャベツ包み蒸し ドーム仕立て 青りんごソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "金目鯛のポワレとお米のガレット 冬野菜添え ブイヤベース仕立て",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "あんこうとフォワグラのロースト 七味風味 冬野菜添え バルサミコソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "甲殻類のエッセンスをまとった的鯛のエチュヴェ 苺のリゾットとともに",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "カリカリのうろこをまとった小甘鯛のポワレ ミニポワローのブーケ添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "宮崎県産白サバフグのロースト スパイス風味 赤ワインソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "宮崎県川南町産あじ豚肩肉のカシス風味煮込み さつまいものニョッキ添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "フランス産パンタード胸肉とセップ茸のドゥミドゥイユ 白菜のブレゼ添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "パリパリのじゃがいもをまとった仔羊のロースト 冬野菜のラグーとともに",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "イノシシ、栗、茸のパイ包み焼き 赤ワインソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "仔羊の岩塩包みロースト 石川県“高農園”からの冬の恵みとともに",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "フランス産チーズの取り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ビジネスランチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-a-020",
+      "name": "Menu A",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-b-021",
+      "name": "Menu B",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "menu-c-022",
+      "name": "Menu C",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "季節のフルーツを使ったシャンパン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "グラスワイン 赤、白",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "あやめ雪かぶ、牡丹海老の三重奏 カクテル仕立て",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "人参、長いも、かぼちゃ、ずわい蟹を詰めた冬のテリーヌ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ホッキ貝のムニエルとパエリアのガレット ペルノー風味",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "牛テールのポトフと菜の花のゼリー寄せ マスタード風味",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "焼き蟹のパルマンティエール風 キャビアライムのバター風味",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

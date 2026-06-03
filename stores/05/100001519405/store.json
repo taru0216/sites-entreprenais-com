@@ -2,7 +2,7 @@
   "retty_id": "100001519405",
   "slug": "the-pig-the-lady-519405",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:07:25Z",
+  "last_crawled": "2026-06-03T16:00:49Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "THE PIG & THE LADY",
@@ -81,7 +81,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "appetizer-000",
+      "name": "◆APPETIZER",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001519405/archive/3560673-67e0ca897521b-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "2pcs-001",
+      "name": "アヒ トースト 2pcs",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001519405/archive/3560689-67e0ca924860a-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ベイクベトナミーズ　ピクルス",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001519405/archive/3560667-67e0ca8671a82-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "チキンレバートースト",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001519405/archive/3560705-67e0ca9b04afc.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "生春巻き",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001519405/archive/3560684-67e0ca8f66a0a.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ベジタブル揚げ春巻き",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001519405/archive/3560675-67e0ca8a771a5.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "セサミシュリンプ トースト",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "マンゴーとブラータチーズ",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2pcs-008",
+      "name": "ベトナミーズ タコス 2pcs",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "鮮魚のクルード",
+      "price": 2000,
+      "price_raw": "2,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "バーミーズ ティー サラダ",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2pcs-1pc-800-011",
+      "name": "アンドリューのフライドチキン 2pcs（1pc追加＋800円）",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "カリフラワーのフライ",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "牛バラのスライスラップ",
+      "price": 2400,
+      "price_raw": "2,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "ブロッコリーニ",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "グリルド シュリンプ",
+      "price": 2400,
+      "price_raw": "2,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "200-016",
+      "name": "アサリとチョリソー（パン追加で+200円）",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "ベトナミーズ　ボロネーゼのフェットチーネ",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ベトナム風 目玉焼き",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "バゲット",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "ジャスミンライス",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pho-021",
+      "name": "◆PHO",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "【フォーに追加オプション】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-023",
+      "name": "・卵黄（+100）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "300-024",
+      "name": "・麺 (+300)",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "200-025",
+      "name": "・パクチー（+200）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "牛肉のフォー",
+      "price": 1900,
+      "price_raw": "1,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "ベジタブルフォー",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "チキンのフォー",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "オックステールのフォー",
+      "price": 2400,
+      "price_raw": "2,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "main-030",
+      "name": "◆MAIN",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "仔羊のグリル",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "グリルド サーモン",
+      "price": 2900,
+      "price_raw": "2,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "グリルド ポーク",
+      "price": 3400,
+      "price_raw": "3,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "オックステイルの煮込み",
+      "price": 3400,
+      "price_raw": "3,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dessert-035",
+      "name": "◆DESSERT",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "ハノイ エッグコーヒー",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "マンゴーとパッションフルーツのパンナコッタ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "チョコレートムース",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "リリコイ マラサダ",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "p-l-040",
+      "name": "P&L ソフトサーブ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "p-l-041",
+      "name": "P&L サンデーファンデー",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "バスクチーズケーキ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "appetizer-043",
+      "name": "◆APPETIZER",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2pcs-044",
+      "name": "アヒ トースト 2pcs",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "バーミーズ ティー サラダ",
+      "price": 1600,
+      "price_raw": "1,600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2pcs-1-650-046",
+      "name": "アンドリューのフライドチキン 2pcs（1ピース追加で650円）",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "生春巻き",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "バインセオ",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "banh-mi-049",
+      "name": "◆BANH MI",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "700-050",
+      "name": "※ミニフォー追加で＋700円。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "ビーフバインミー フレンチディップスタイル",
+      "price": 1900,
+      "price_raw": "1,900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "ベジタブルバインミー フレンチディップスタイル",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "レモングラス チキンバインミー",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pho-054",
+      "name": "◆Pho",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "700-055",
+      "name": "※ミニバインミー追加で＋700円。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "※オプション追加",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "100-057",
+      "name": "・卵黄＋100円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "300-058",
+      "name": "・麺＋300円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "200-059",
+      "name": "・パクチー＋200円",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "牛肉のフォー",
+      "price": 1800,
+      "price_raw": "1,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "ベジタブルフォー",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "チキンのフォー",
+      "price": 1700,
+      "price_raw": "1,700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "オックステールのフォー",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dessert-064",
+      "name": "◆DESSERT",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "ハノイ エッグコーヒー",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "マンゴーとパッションフルーツのパンナコッタ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "チョコレートムース",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "リリコイ マラサダ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "p-l-069",
+      "name": "P&L ソフトサーブ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "p-l-070",
+      "name": "P&L サンデーファンデー",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "バスクチーズケーキ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hawaiian-vietnamese-beer-072",
+      "name": "◆HAWAIIAN & VIETNAMESE BEER",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "コナビッグウェーブ",
+      "price": 1150,
+      "price_raw": "1,150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "コナロングボード",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "コナハナレイ",
+      "price": 1150,
+      "price_raw": "1,150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "サイゴン",
+      "price": 980,
+      "price_raw": "980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "サイゴンスペシャル",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beer-078",
+      "name": "◆BEER",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "335ml-079",
+      "name": "アサヒスーパードライ 生　335ml",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "アサヒスーパードライゼロ",
+      "price": 750,
+      "price_raw": "750円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "original-cocktail-081",
+      "name": "◆ORIGINAL COCKTAIL",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "p-l-082",
+      "name": "P&Lサワー",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "ラムアウェイクラブ",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "タマリンドビア",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "メガジェム",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "ゴールデンピグ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "チャンムイサワー",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "ミッデイラン",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "カフィアライムリーフジントニック",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "レモングラスジンジャーハイボール",
+      "price": 950,
+      "price_raw": "950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "タマリンドサワー",
+      "price": 1050,
+      "price_raw": "1,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "soft-drink-092",
+      "name": "◆SOFT DRINK",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "チャンムイスカッシュ",
+      "price": 900,
+      "price_raw": "900円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "ジンジャーソーダ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-095",
+      "name": "レモングラス & ジンジャーソーダ",
+      "price": 800,
+      "price_raw": "800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "コカコーラ / コカコーラ・ゼロ",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "マンゴー",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "グァバ",
+      "price": 700,
+      "price_raw": "700円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "tea-coffee-099",
+      "name": "◆TEA & COFFEE",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "グリルド ポーク",
+      "price": 3400,
+      "photo_url": null
+    },
+    {
+      "name": "オックステイルの煮込み",
+      "price": 3400,
+      "photo_url": null
+    },
+    {
+      "name": "グリルド サーモン",
+      "price": 2900,
+      "photo_url": null
+    },
+    {
+      "name": "牛バラのスライスラップ",
+      "price": 2400,
+      "photo_url": null
+    },
+    {
+      "name": "グリルド シュリンプ",
+      "price": 2400,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001519405",
   "sns": {

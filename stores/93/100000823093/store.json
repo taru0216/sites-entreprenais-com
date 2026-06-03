@@ -2,7 +2,7 @@
   "retty_id": "100000823093",
   "slug": "kaito-bal-823093",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:06:15Z",
+  "last_crawled": "2026-06-03T17:30:46Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Kaito Bal",
@@ -63,7 +63,107 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "白子のソテー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "穴子のフリット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ゴルゴンゾーラのパングラタン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "キノコとアサリのペペロンチーノ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ベーコンと玉ネギのトマトソーススパゲッティ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "生のりのクリームソーススパゲッティ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "有頭赤エビのトマトクリームスパゲッティ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ホウレン草とチーズのリゾット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ゴルゴンゾーラのリゾット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "白子のソテー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "穴子のフリット",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ゴルゴンゾーラのパングラタン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "キノコとアサリのペペロンチーノ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ベーコンと玉ネギのトマトソーススパゲッティ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

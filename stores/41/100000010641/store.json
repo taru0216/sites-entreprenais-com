@@ -2,7 +2,7 @@
   "retty_id": "100000010641",
   "slug": "grill-010641",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:50:52Z",
+  "last_crawled": "2026-06-03T16:37:06Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Grillマッシュ",
@@ -69,7 +69,75 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "160g-000",
+      "name": "辛みそマヨネーズハンバーグ160g",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "160-001",
+      "name": "ふっくらハンバーグ　160ｇ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "180-002",
+      "name": "ビフテキ　180ｇ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "スタミナコンボ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "120-004",
+      "name": "牛ハラミ　120ｇ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "辛みそマヨネーズハンバーグ160g",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ふっくらハンバーグ　160ｇ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ビフテキ　180ｇ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "スタミナコンボ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "牛ハラミ　120ｇ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

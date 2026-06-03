@@ -2,7 +2,7 @@
   "retty_id": "100000114416",
   "slug": "ebisu-cabriolet-114416",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:46:29Z",
+  "last_crawled": "2026-06-03T16:11:58Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "EBISU Cabriolet",
@@ -68,7 +68,49 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "coedo-000",
+      "name": "COEDOビール　瑠璃",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "coedo-001",
+      "name": "COEDOビール　伽羅",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "coedo-002",
+      "name": "COEDOビール　漆黒",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "COEDOビール　瑠璃",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "COEDOビール　伽羅",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "COEDOビール　漆黒",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

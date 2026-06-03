@@ -2,7 +2,7 @@
   "retty_id": "100000643041",
   "slug": "store-643041",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:43:25Z",
+  "last_crawled": "2026-06-03T16:37:25Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ソナム 恵比寿店",
@@ -81,7 +81,835 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "◆焼肉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/271759-59a79c8fb57c0.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "チーズサムギョプサル",
+      "price": 4312,
+      "price_raw": "4,312円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/3516793-67a7296d97924.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "サムギョプサルは、２人前のっています。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "※別途サムギョプサル追加可能",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "サムギョプサル",
+      "price": 1595,
+      "price_raw": "1,595円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-005",
+      "name": "※サムギョプサルとデジカルビのオーダーは2人前からお受けします。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "デジカルビ",
+      "price": 2145,
+      "price_raw": "2,145円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "プルコギ",
+      "price": 1815,
+      "price_raw": "1,815円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "カルビ",
+      "price": 1331,
+      "price_raw": "1,331円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "上カルビ",
+      "price": 2035,
+      "price_raw": "2,035円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "上タン",
+      "price": 2035,
+      "price_raw": "2,035円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "上ハラミ",
+      "price": 2035,
+      "price_raw": "2,035円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ホルモン",
+      "price": 1331,
+      "price_raw": "1,331円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "鶏肉のピリ辛焼き",
+      "price": 1331,
+      "price_raw": "1,331円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "豚トロ",
+      "price": 1331,
+      "price_raw": "1,331円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "◆キムチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "出来立て混ぜキムチ",
+      "price": 1155,
+      "price_raw": "1,155円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "テレビ、雑誌多数紹介。当店オリジナル、キムチの素を販売しております。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "出来立て春菊キムチ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "キムチ盛り合わせ",
+      "price": 1155,
+      "price_raw": "1,155円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "白菜キムチ単品",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "オイキムチ単品",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "カクテキ単品",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ナムル盛り合わせ",
+      "price": 1155,
+      "price_raw": "1,155円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "もやしナムル単品",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "◆サラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "春雨サラダ",
+      "price": 1056,
+      "price_raw": "1,056円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "さっぱりサラダ",
+      "price": 803,
+      "price_raw": "803円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "塩サラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "豆腐サラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "トマトサラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "パクチーサラダ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "ネギサラダ",
+      "price": 704,
+      "price_raw": "704円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "チャンジャ",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "◆サイドメニュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "お肉をお召し上がりになる際は、合わせてどうぞ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "サンチュ",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "エゴマ",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "ネギサラダ",
+      "price": 704,
+      "price_raw": "704円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "青唐辛子",
+      "price": 242,
+      "price_raw": "242円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "ニンニクスライス",
+      "price": 242,
+      "price_raw": "242円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "青唐辛子＋ニンニクスライス",
+      "price": 462,
+      "price_raw": "462円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "◆チヂミ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "チヂミ",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "チーズチヂミ",
+      "price": 1705,
+      "price_raw": "1,705円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "海鮮チヂミ",
+      "price": 1705,
+      "price_raw": "1,705円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "チーズ海鮮チヂミ",
+      "price": 2101,
+      "price_raw": "2,101円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-047",
+      "name": "キムチチヂミ",
+      "price": 1705,
+      "price_raw": "1,705円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-048",
+      "name": "チーズキムチチヂミ",
+      "price": 2101,
+      "price_raw": "2,101円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-049",
+      "name": "パジョン",
+      "price": 1705,
+      "price_raw": "1,705円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "◆一品料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "フライドチキン",
+      "price": 1793,
+      "price_raw": "1,793円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "チャプチェ",
+      "price": 1188,
+      "price_raw": "1,188円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "ポッサム(サンチュつき)",
+      "price": 2255,
+      "price_raw": "2,255円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "豚の骨つきカルビ煮つけ",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "テレビ、雑誌多数紹介",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "玉子チム",
+      "price": 1408,
+      "price_raw": "1,408円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "牛すじ煮込み",
+      "price": 1595,
+      "price_raw": "1,595円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "レバニラ炒め",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "ニラ玉子",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "自家製水餃子",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "春雨焼き餃子",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "砂肝ニンニク炒め",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "豚足",
+      "price": 1067,
+      "price_raw": "1,067円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "きのこ三種炒め",
+      "price": 1155,
+      "price_raw": "1,155円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "ニンニク炒め",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "せんまい刺し",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "やきのり",
+      "price": 462,
+      "price_raw": "462円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "◆辛い一品料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "ヤンニョムチキン(甘辛・辛)",
+      "price": 1793,
+      "price_raw": "1,793円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "ケジャン",
+      "price": 1870,
+      "price_raw": "1,870円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "豚キムチ",
+      "price": 1595,
+      "price_raw": "1,595円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "小タコ炒め",
+      "price": 1595,
+      "price_raw": "1,595円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "つぶ貝",
+      "price": 1595,
+      "price_raw": "1,595円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "辛いチャプチェ",
+      "price": 1188,
+      "price_raw": "1,188円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "トッポギ",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "チーズトッポギ",
+      "price": 1573,
+      "price_raw": "1,573円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "ホルモンの野菜炒め",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "甘辛豚肉の野菜炒め",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "鶏肉炒め",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "イカ炒め",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "豆腐キムチ",
+      "price": 1298,
+      "price_raw": "1,298円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "◆鍋料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "カムジャタン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "当店一番のおすすめメニュー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "豚の保背骨をじっくり煮込んでスープをとったまろやかな辛さ。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "マスコミにもたくさん紹介されました。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-087",
+      "name": "小 (2人前)",
+      "price": 3278,
+      "price_raw": "3,278円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-088",
+      "name": "中 (3〜4人前)",
+      "price": 4378,
+      "price_raw": "4,378円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-089",
+      "name": "大 (4人前以上)",
+      "price": 5478,
+      "price_raw": "5,478円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "ブデチゲ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-091",
+      "name": "中(3〜4人前)",
+      "price": 4378,
+      "price_raw": "4,378円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "チューボーですよ！出品作",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-093",
+      "name": "春川タッカルビ鍋",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-094",
+      "name": "豚肉とキャベツがたっぷり入ったピリ辛鍋",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-095",
+      "name": "小 (2人前)",
+      "price": 2728,
+      "price_raw": "2,728円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-096",
+      "name": "中 (3〜4人前)",
+      "price": 4048,
+      "price_raw": "4,048円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "チーズタッカルビ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-098",
+      "name": "中 (2人前)",
+      "price": 4048,
+      "price_raw": "4,048円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-4-099",
+      "name": "大 (3〜4人前)",
+      "price": 5258,
+      "price_raw": "5,258円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "大 (4人前以上)",
+      "price": 5478,
+      "photo_url": null
+    },
+    {
+      "name": "大 (3〜4人前)",
+      "price": 5258,
+      "photo_url": null
+    },
+    {
+      "name": "中 (3〜4人前)",
+      "price": 4378,
+      "photo_url": null
+    },
+    {
+      "name": "中(3〜4人前)",
+      "price": 4378,
+      "photo_url": null
+    },
+    {
+      "name": "チーズサムギョプサル",
+      "price": 4312,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000643041/archive/3516793-67a7296d97924.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

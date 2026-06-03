@@ -2,7 +2,7 @@
   "retty_id": "100000825804",
   "slug": "store-825804",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:41:06Z",
+  "last_crawled": "2026-06-03T15:59:37Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿 らぁ麺屋 つなぎ",
@@ -73,7 +73,83 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "限定麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "つなぎ×山崎　コラボつけ麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ブラック担々麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "油そば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "トッピング",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ランチライス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "限定麺",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "つなぎ×山崎　コラボつけ麺",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ブラック担々麺",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "油そば",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "トッピング",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100001347367",
   "slug": "nomad-347367",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:05:48Z",
+  "last_crawled": "2026-06-03T17:02:53Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "nomad",
@@ -80,7 +80,243 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "仔羊の炭火焼きとストゥファート添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417744-5e30f9cee6e5d-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "バターとセージの香りのタヤリン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417737-5e30f9c71c08c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "トルッキオマシンで作るヴェネト料理にはかかせない伝統的なパスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417742-5e30f9cd534ce-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "桜肉のタルタル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417736-5e30f9c674b3f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "前菜盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417734-5e30f9c4f3aa1-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "白身魚のムースと鎌倉のズッキーニのトロンケッティ 自家製コンソメのジュレ添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417735-5e30f9c5b38ef-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "イトヨリのフリット　マッシュルームのクリームとリコッタチーズのマルファッティー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417743-5e30f9ce282f6-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "赤イカとブロッコリーのオイルソースのタヤリン　サルデーニャ産ボッタルガ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417738-5e30f9c7cdd4b-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "鎌倉、三浦の野菜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417745-5e30f9d00c2c4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "5-009",
+      "name": "アミューズ5種盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417739-5e30f9c8c827c-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "pranzoa-010",
+      "name": "PranzoA",
+      "price": 1350,
+      "price_raw": "1,350円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417734-5e30f9c4f3aa1.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "・鎌倉野菜サラダ・スープ・自家製パン・本日のパスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417744-5e30f9cee6e5d.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "pranzob-012",
+      "name": "PranzoB",
+      "price": 1950,
+      "price_raw": "1,950円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417737-5e30f9c71c08c.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "・鎌倉野菜のサラダ・スープ・自家製パン・本日の前菜・本日のパスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417742-5e30f9cd534ce.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "pranzoc-014",
+      "name": "PranzoC",
+      "price": 2900,
+      "price_raw": "2,900円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417735-5e30f9c5b38ef.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "・鎌倉野菜のサラダ・スープ・自家製パン・本日の前菜・本日のお肉料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417738-5e30f9c7cdd4b.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "corso-016",
+      "name": "Corso",
+      "price": 4800,
+      "price_raw": "4,800円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "・自家製パン・本日の前菜・手打ちパスタ・お肉料理・ドルチェ・カフェ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "※日によってコースメニューの変更がございますので、ご了承ください。",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "◾️ワイン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1200-020",
+      "name": "グラスワイン (泡、白、赤)　1200円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "7500-021",
+      "name": "ボトルワイン　7500円〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "◾️その他の飲料",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "本日の瓶ビール",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "愛媛県産柑橘ジュース",
+      "price": 1000,
+      "price_raw": "1,000円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "ミネラルウォーター",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "Corso",
+      "price": 4800,
+      "photo_url": null
+    },
+    {
+      "name": "PranzoC",
+      "price": 2900,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417735-5e30f9c5b38ef.jpg"
+    },
+    {
+      "name": "PranzoB",
+      "price": 1950,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417737-5e30f9c71c08c.jpg"
+    },
+    {
+      "name": "PranzoA",
+      "price": 1350,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001347367/archive/1417734-5e30f9c4f3aa1.jpg"
+    },
+    {
+      "name": "愛媛県産柑橘ジュース",
+      "price": 1000,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001347367",
   "sns": {

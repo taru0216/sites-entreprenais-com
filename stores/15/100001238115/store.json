@@ -2,7 +2,7 @@
   "retty_id": "100001238115",
   "slug": "store-238115",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:48:18Z",
+  "last_crawled": "2026-06-03T16:11:13Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "くろいわ",
@@ -63,7 +63,62 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "夜のお献立※要予約",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "夜のお献立※要予約",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "夜のお献立※要予約",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "夜のお献立※要予約",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "夜のお献立※要予約",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "夜のお献立※要予約",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "夜のお献立※要予約",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "夜のお献立※要予約",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

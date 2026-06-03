@@ -2,7 +2,7 @@
   "retty_id": "100000745738",
   "slug": "store-745738",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:42:32Z",
+  "last_crawled": "2026-06-03T16:34:32Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "イエローカンパニー 恵比寿本店",
@@ -70,7 +70,163 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "スープカレ　チキン&ベジタブル",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "スープカレー　プレミアムベジタブル",
+      "price": 1350,
+      "price_raw": "1,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "スープカレー　豚角煮&ベジタブル",
+      "price": 1480,
+      "price_raw": "1,480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "スープカレー　牛すじ&ベジタブル",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "スープカレー　ベーコン&ベジタブル",
+      "price": 1380,
+      "price_raw": "1,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "スープカレー　羊ボール&ベジタブル",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "ebisu-006",
+      "name": "スープカレー　イエカンスペシャル”EBISU\"",
+      "price": 1880,
+      "price_raw": "1,880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "スープカレー　トロ角煮&ベジタブル（数量限定）",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "プレーンラッシー",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "ベリーラッシー",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "マンゴーラッシー",
+      "price": 580,
+      "price_raw": "580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "マサラチャイ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "マサラチャイ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "マサラチャイ",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "エビス樽生",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "コロナビール",
+      "price": 780,
+      "price_raw": "780円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "スープカレー　イエカンスペシャル”EBISU\"",
+      "price": 1880,
+      "photo_url": null
+    },
+    {
+      "name": "スープカレー　羊ボール&ベジタブル",
+      "price": 1580,
+      "photo_url": null
+    },
+    {
+      "name": "スープカレー　トロ角煮&ベジタブル（数量限定）",
+      "price": 1580,
+      "photo_url": null
+    },
+    {
+      "name": "スープカレー　豚角煮&ベジタブル",
+      "price": 1480,
+      "photo_url": null
+    },
+    {
+      "name": "スープカレー　牛すじ&ベジタブル",
+      "price": 1400,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

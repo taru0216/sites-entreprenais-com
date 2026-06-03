@@ -2,7 +2,7 @@
   "retty_id": "100000829882",
   "slug": "cam-829882",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:25:38Z",
+  "last_crawled": "2026-06-03T17:18:29Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "鉄板焼バル cam",
@@ -64,7 +64,131 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ハートランド",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "ネグラモデロ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "ソル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "zima-003",
+      "name": "ZIMA",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "コノスル・カベルネソーヴィニョン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "コノスル・カベルネソーヴィニョン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ロバート・モンダビィ・ウッドブリッジ・メルロー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ロバート・モンダビィ・ウッドブリッジ・メルロー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "イゲルエラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "イゲルエラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bin50-010",
+      "name": "リンデマンBIN50シラーズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bin50-011",
+      "name": "リンデマンBIN50シラーズ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ハートランド",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ネグラモデロ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ソル",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ZIMA",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "コノスル・カベルネソーヴィニョン",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

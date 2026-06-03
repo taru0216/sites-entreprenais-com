@@ -2,7 +2,7 @@
   "retty_id": "100001162355",
   "slug": "house-of-beer-162355",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:22:45Z",
+  "last_crawled": "2026-06-03T16:50:52Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ビアバル HOUSE of BEER",
@@ -64,12 +64,104 @@
     "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/19557159.jpg"
   ],
   "retty_rating": 4.1,
-  "retty_review_count": 17,
+  "retty_review_count": 18,
   "nearest_station": null,
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "八海山泉　ヴァイツェン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "常陸野ネストビール　ホワイトエール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "富士桜高原　ラオホ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "金シャチ名古屋　赤味噌ラガー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "箕面ビール　スタウト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "スワンレイク　エール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "よなよなエール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "yokohama-xpa-007",
+      "name": "サンクトガーレン　YOKOHAMA XPA",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "八海山泉　ヴァイツェン",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "常陸野ネストビール　ホワイトエール",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "富士桜高原　ラオホ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "金シャチ名古屋　赤味噌ラガー",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "箕面ビール　スタウト",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

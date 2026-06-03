@@ -2,7 +2,7 @@
   "retty_id": "100000002432",
   "slug": "store-002432",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:07:43Z",
+  "last_crawled": "2026-06-03T16:27:35Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ブラチェリア デリツィオーゾ イタリア",
@@ -79,7 +79,723 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "antipasto-freddo-000",
+      "name": "～ANTIPASTO FREDDO・冷前菜～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/285613-59c8b926152a9-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "本日の魚介類前菜盛り合わせ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/285617-59c8ba2d805f2.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "数種イタリアチーズと本日の野菜料理、バーニャカウダ添え",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/293330-59d868d25e3e8.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "イタリア産生ハム、サラミとトスカーナ郷土料理の前菜盛り合わせ",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/186858-58ef08dea7861.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "フレッシュリコッタチーズと旬の果物、ハーブのサラダ",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/186857-58ef08de296b2.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "水牛モッツァレッラチーズのカプレーゼ",
+      "price": 1650,
+      "price_raw": "1,650円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/434332-5af3d14d74cd7.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "クレソン、ルーコラ、マッシュルーム、トリュフ入りのチーズのサラダ",
+      "price": 1760,
+      "price_raw": "1,760円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000002432/archive/363940-5a61a66f43cd4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "antipasto-cardo-007",
+      "name": "～ANTIPASTO CARDO・温前菜～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000002432/archive/363940-5a61a66f43cd4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "旬の貝類、白ワイン蒸し～黒コショウとバター風味～",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000002432/archive/363940-5a61a66f43cd4-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "フィレンツェ風トリッパのトマト煮込み",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "トスカーナ風、自家製サルシッチャの熾火焼き",
+      "price": 1760,
+      "price_raw": "1,760円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "primo-piatto-011",
+      "name": "～PRIMO PIATTO　パスタ、リゾット～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "イタリア各地方の伝統的なソースとパスタをそれぞれお好きなようにお選びいただけます",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "・・・・・選べるパスタはこちら・・・・・",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "スパゲッティ・リングイーネ・ショートパスタ・ニョッキ・タリアッテッレ・その他",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "・・・・・選べるソースはこちら・・・・・",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "大あさりとサルデーニャ産カラスミのオイルソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "フルーツトマトとバジリコのトマトソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "和牛のボローニャ風ミートソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "ローマ風カルボナーラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "グアンチャーレと玉ネギのアマトリーチェ風トマトソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "ペコリーノチーズと黒コショウのバターソース”カーチョ・エ・ペペ”",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "イタリア産４種チーズのクリームソース 　　　※リゾット可",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "ヴェネツィア風イカ墨のソース　　　※リゾット可",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "brace-024",
+      "name": "～BRACE・熾火焼き肉料理～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "t-600-100-025",
+      "name": "フィレンツェ風牛Tボーンステーキ　　　※600ｇ～オーダー可　※100ｇあたり",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-026",
+      "name": "フランス産仔羊ロースと希少部位の盛り合わせ",
+      "price": 3080,
+      "price_raw": "3,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "鳥取県産黒毛和牛『田村牛』本日の赤身と霜降部位の盛り合わせ",
+      "price": 3520,
+      "price_raw": "3,520円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "宮城県産純血バークシャー種『黒の豚』骨付きロース肉",
+      "price": 2860,
+      "price_raw": "2,860円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "本日の熾火焼き肉料理",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "↓↓↓　土日祝限定ランチメニューはこちら　↓↓↓",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "◆パスタランチ【前菜、パスタ、パン、ドルチェ、カフェ】",
+      "price": 2475,
+      "price_raw": "2,475円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "◆セコンドランチ【前菜、メインディッシュ、パン、ドルチェ、カフェ】",
+      "price": 3520,
+      "price_raw": "3,520円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "◆ランチ　デリツィオーゾコース【前菜、パスタ、メインディッシュ、パン、ドルチェ、カフェ】",
+      "price": 4400,
+      "price_raw": "4,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "◆ディナー　デリツィオーゾコース【前菜、パスタ、メインディッシュ、パン、ドルチェ、カフェ】",
+      "price": 5280,
+      "price_raw": "5,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "■■詳細はコースページをご覧ください■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "＜おすすめのワイン＞",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "700-037",
+      "name": "グラス　　　700円～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2600-038",
+      "name": "デカンタ　　2600円～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "〜スプマンテボトル〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "falanghina100-040",
+      "name": "クイド ファランギーナ　[Falanghina100％]",
+      "price": 4180,
+      "price_raw": "4,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "glera100-041",
+      "name": "プロセッコ エクストラ ドライ　[Glera100％]",
+      "price": 5280,
+      "price_raw": "5,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "chardonnay-042",
+      "name": "ベルルッキ フランチャコルタ　[Chardonnay主体]",
+      "price": 6380,
+      "price_raw": "6,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sorbara100-043",
+      "name": "ランブルスコ カンティーナ ラ ヴォルタ　［Sorbara100％]",
+      "price": 7150,
+      "price_raw": "7,150円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "〜白ワインボトル〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "trebbiano100-045",
+      "name": "トレッビアーノ ダブルッツォ　[Trebbiano100％]",
+      "price": 4180,
+      "price_raw": "4,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "malvasia-trebbiano-greco-046",
+      "name": "フラスカーティ　[Malvasia,Trebbiano,Greco]",
+      "price": 4620,
+      "price_raw": "4,620円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "inzolia100-047",
+      "name": "インツォリア　[Inzolia100％]",
+      "price": 4950,
+      "price_raw": "4,950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cortese100-048",
+      "name": "ガヴィ ディ ガヴィ　[Cortese100％]",
+      "price": 5500,
+      "price_raw": "5,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "chardonnay-pinotgrigio-049",
+      "name": "カム―ル　[Chardonnay,PinotGrigio]",
+      "price": 6050,
+      "price_raw": "6,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "vernaccia100-050",
+      "name": "ヴェルナッチャ ディ サンジミニャーノ　[Vernaccia100％]",
+      "price": 6380,
+      "price_raw": "6,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sangiovese100-051",
+      "name": "アンティカ マリネリア ルビコーネ　[Sangiovese100％]",
+      "price": 6380,
+      "price_raw": "6,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "verdicchio100-052",
+      "name": "ヴェルディッキオ　[Verdicchio100％]",
+      "price": 6820,
+      "price_raw": "6,820円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "chardonnay100-053",
+      "name": "プンタ ディ コッレ シャルドネ　［Chardonnay100%］",
+      "price": 8580,
+      "price_raw": "8,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "vernaccia100-054",
+      "name": "ヴェルナッチャ ディ サンジミニャーノ フィオーレ[Vernaccia100％]",
+      "price": 8580,
+      "price_raw": "8,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-055",
+      "name": "〜赤ワインボトル〜",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "montepluciano100-056",
+      "name": "モンテプルチアーノ ダブルッツォ　[Montepluciano100%]",
+      "price": 4180,
+      "price_raw": "4,180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "syrah-cesanese-057",
+      "name": "シロエ ラツィオ ロッソ　[Syrah,Cesanese]",
+      "price": 4400,
+      "price_raw": "4,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "negroamaro100-058",
+      "name": "サリーチェ サレンティーノ　[NegroAmaro100%]",
+      "price": 4950,
+      "price_raw": "4,950円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "cannonau-monica-pascare-059",
+      "name": "レノス ロッソ　[Cannonau,Monica,Pascare]",
+      "price": 5500,
+      "price_raw": "5,500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sangiovese100-060",
+      "name": "ストゥッキオ　[Sangiovese100％]",
+      "price": 6050,
+      "price_raw": "6,050円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sangiovese-061",
+      "name": "キアンティ スペリオーレ　[Sangiovese]",
+      "price": 6380,
+      "price_raw": "6,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "nebbiolo100-062",
+      "name": "ランゲネッビオーロ　［Nebbiolo100%］",
+      "price": 6380,
+      "price_raw": "6,380円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "pinotnero100-063",
+      "name": "イエルマン ピノネーロ　[PinotNero100%]",
+      "price": 6820,
+      "price_raw": "6,820円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "aglianico100-064",
+      "name": "タウラジ　[Aglianico100%]",
+      "price": 8250,
+      "price_raw": "8,250円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "corvina-065",
+      "name": "アマローネ　[Corvina主体]",
+      "price": 9350,
+      "price_raw": "9,350円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "nebbiolo100-066",
+      "name": "バローロ　[Nebbiolo100%]",
+      "price": 10450,
+      "price_raw": "10,450円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "sangiovesegrosso100-067",
+      "name": "ブルネッロ ディ モンタルチーノ　［SangioveseGrosso100%］",
+      "price": 13200,
+      "price_raw": "13,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "aperitivo-068",
+      "name": "～APERITIVO 食前酒～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "グラス　スパークリングワイン",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "生ビール ”サッポロ黒ラベル”",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-071",
+      "name": "黒ビール ”ヱビス” （小瓶）",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-072",
+      "name": "イタリアビール \"モレッティ”（小瓶）",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "カンパリ（ソーダまたはオレンジ）",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "カシス（ソーダまたはオレンジ）",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-075",
+      "name": "ジン トニック",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "キール（カシス+白ワイン）",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "キール　ロワイヤル（カシス+スプマンテ）",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "ミモザ（オレンジジュース+スプマンテ）",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "analcolico-079",
+      "name": "～ANALCOLICO ソフトドリンク～",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "ミネラルウォーター",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "スパークリングウォーター",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "コカコーラ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "ジンジャーエール",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "ブラッドオレンジジュース",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "マンダリンオレンジジュース",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ブルネッロ ディ モンタルチーノ　［SangioveseGrosso100%］",
+      "price": 13200,
+      "photo_url": null
+    },
+    {
+      "name": "バローロ　[Nebbiolo100%]",
+      "price": 10450,
+      "photo_url": null
+    },
+    {
+      "name": "アマローネ　[Corvina主体]",
+      "price": 9350,
+      "photo_url": null
+    },
+    {
+      "name": "プンタ ディ コッレ シャルドネ　［Chardonnay100%］",
+      "price": 8580,
+      "photo_url": null
+    },
+    {
+      "name": "ヴェルナッチャ ディ サンジミニャーノ フィオーレ[Vernaccia100％]",
+      "price": 8580,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

@@ -2,7 +2,7 @@
   "retty_id": "100000709708",
   "slug": "store-709708",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:20:03Z",
+  "last_crawled": "2026-06-03T16:03:51Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "福はうち",
@@ -79,7 +79,155 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "おでんいろいろ",
+      "price": 250,
+      "price_raw": "250円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000709708/archive/1825142-5f4cecbd5fd06-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "炙りサーモンとモッツァレラのハリハリサラダ",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000709708/archive/1825142-5f4cecbd5fd06-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "マグロとアボカドのイタリア風サラダ",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000709708/archive/1825141-5f4cecb7580c6-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ささみとチーズの揚げ春巻き",
+      "price": 693,
+      "price_raw": "693円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000709708/archive/1825141-5f4cecb7580c6-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "牛タンのじっくり煮込み",
+      "price": 968,
+      "price_raw": "968円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000709708/archive/1825142-5f4cecbd5fd06-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "鷄唐ナス豆腐の揚げ出し",
+      "price": 913,
+      "price_raw": "913円",
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000709708/archive/1825141-5f4cecb7580c6-l.jpeg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ネギトロのユッケ",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "チャージ料金",
+      "price": 330,
+      "price_raw": "330円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "22-008",
+      "name": "チャージ料金（22時以降の会計は深夜料金として）",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "スパークリング日本酒",
+      "price": 1078,
+      "price_raw": "1,078円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "角ハイボール",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "レモンサワー",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "グラスワイン",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "焼酎",
+      "price": 638,
+      "price_raw": "638円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "梅酒",
+      "price": 748,
+      "price_raw": "748円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "炙りサーモンとモッツァレラのハリハリサラダ",
+      "price": 1078,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000709708/archive/1825142-5f4cecbd5fd06-l.jpeg"
+    },
+    {
+      "name": "マグロとアボカドのイタリア風サラダ",
+      "price": 1078,
+      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000709708/archive/1825141-5f4cecb7580c6-l.jpeg"
+    },
+    {
+      "name": "スパークリング日本酒",
+      "price": 1078,
+      "photo_url": null
+    },
+    {
+      "name": "牛タンのじっくり煮込み",
+      "price": 968,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000709708/archive/1825142-5f4cecbd5fd06-l.jpeg"
+    },
+    {
+      "name": "鷄唐ナス豆腐の揚げ出し",
+      "price": 913,
+      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000709708/archive/1825141-5f4cecb7580c6-l.jpeg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

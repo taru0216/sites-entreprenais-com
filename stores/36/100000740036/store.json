@@ -2,7 +2,7 @@
   "retty_id": "100000740036",
   "slug": "store-740036",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:41:11Z",
+  "last_crawled": "2026-06-03T16:32:45Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "サカナバル 恵比寿",
@@ -76,7 +76,115 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "新鮮魚介のカルパッチョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "日替わり【自慢のパスタ】",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "サカナバルの黄色いパエリア",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "本日のカルパッチョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "サカナバルサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "サカナバル流 ブリ大根",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "白子のﾌﾘｯﾄ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "鎌倉野菜とシーフードのフリットアソート",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "チーズの盛り合わせ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "濃厚チョコレートのテリーヌ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "新鮮魚介のカルパッチョ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "日替わり【自慢のパスタ】",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "サカナバルの黄色いパエリア",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "本日のカルパッチョ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "サカナバルサラダ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

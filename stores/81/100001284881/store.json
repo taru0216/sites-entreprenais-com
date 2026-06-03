@@ -2,7 +2,7 @@
   "retty_id": "100001284881",
   "slug": "beefgarden-284881",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:17:11Z",
+  "last_crawled": "2026-06-03T17:16:43Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "BeefGarden 恵比寿",
@@ -81,7 +81,835 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "■■■一頭買いの単品希少部位■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/296121-59e08938a423e.png",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "・黒毛和牛のカルビ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/299675-59e93360b8412.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "・黒毛和牛の上カルビ",
+      "price": 1540,
+      "price_raw": "1,540円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/297321-59e473a14d766.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "・黒毛和牛のロース",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/3186951-654a015f421ef.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "・黒毛和牛の上ロース",
+      "price": 1540,
+      "price_raw": "1,540円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/3186953-654a016be534c.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "・本日の極上希少部位",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001284881/archive/3186954-654a017c20c87.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "・本日の新鮮ホルモン",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "・本日のホルモン 厳選カット",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "0-1-008",
+      "name": "・本日の0.1％希少部位",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "・本日の極上の一枚",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beefgarden-010",
+      "name": "■■■BeefGarden全部盛り■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "450g-2-3-011",
+      "name": "・450g以上/2～3人前",
+      "price": 6111,
+      "price_raw": "6,111円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "■■■一頭買いの盛り合わせ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "9-013",
+      "name": "・一頭盛り（全9部位）",
+      "price": 2420,
+      "price_raw": "2,420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-200g-014",
+      "name": "・牛盛り(5部位200g ）",
+      "price": 2420,
+      "price_raw": "2,420円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-200g-015",
+      "name": "・上牛盛り（4部位200g）",
+      "price": 3080,
+      "price_raw": "3,080円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-200g-016",
+      "name": "・極上牛盛り（3部位200g）",
+      "price": 3630,
+      "price_raw": "3,630円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "5-017",
+      "name": "・ホルモン盛り（5部位）",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "■■■“生”仕入れの希少部位■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "・“生”タン塩",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "・“生”ネギタン塩",
+      "price": 1540,
+      "price_raw": "1,540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "・“生”厚切り上タン塩",
+      "price": 1980,
+      "price_raw": "1,980円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "・“生”ネギ厚切り上タン塩",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "・“生”ハラミ",
+      "price": 1540,
+      "price_raw": "1,540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "・“生”厚切り上ハラミ",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "■■■厳選黒毛和牛■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "1-026",
+      "name": "・大判 黒毛和牛 ユッケ風卵黄ダレ（1枚）",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-027",
+      "name": "・熟成極上ロースの巻きしゃぶ盛り",
+      "price": 1760,
+      "price_raw": "1,760円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-028",
+      "name": "・本日の肉塊",
+      "price": 1760,
+      "price_raw": "1,760円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-029",
+      "name": "■■■鶏・豚・その他■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-030",
+      "name": "馬フィレ",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-031",
+      "name": "・岩中豚 ピートロ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-032",
+      "name": "・国産豚 カルビ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-033",
+      "name": "・美桜鶏 モモ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-034",
+      "name": "・美桜鶏 ムネ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-035",
+      "name": "・厳選鶏豚盛り",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-036",
+      "name": "・超粗挽きソーセージ",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-037",
+      "name": "・牛ミノ",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-038",
+      "name": "■■■完全数量限定 牛刺し■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-039",
+      "name": "・低温調理レバ刺し",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-040",
+      "name": "・低温調理の黒毛和牛ユッケ",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-041",
+      "name": "・和牛センマイ刺し",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-042",
+      "name": "・牛ミノ刺し てっさ風",
+      "price": 1540,
+      "price_raw": "1,540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-043",
+      "name": "■■■牛の逸品■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-044",
+      "name": "・牛スジポン酢",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-045",
+      "name": "・和風出汁の酢モツ",
+      "price": 605,
+      "price_raw": "605円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-046",
+      "name": "・野菜と牛スジのチヂミ",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beefgarden-047",
+      "name": "■■■BeefGarden特製黒毛和牛ハンバーグ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beefgarden-048",
+      "name": "・BeefGarden特製黒毛和牛ハンバーグ（和風おろし）",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beefgarden-049",
+      "name": "・BeefGarden特製黒毛和牛ハンバーグ（自家製デミグラスソース）",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-050",
+      "name": "■■■自家製キムチ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-051",
+      "name": "・キムチ ／ カクテキ ／ オイキムチ ／ キャベツキムチ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-052",
+      "name": "・うずらのキムチ漬け",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-053",
+      "name": "・自家製キムチ味噌のぶつ切り一本きゅうり",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-054",
+      "name": "・キムチ盛り合わせ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "9-055",
+      "name": "・本日の前菜9種盛り",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-056",
+      "name": "■■■おつまみ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-057",
+      "name": "・ナムル盛り合わせ",
+      "price": 770,
+      "price_raw": "770円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-058",
+      "name": "・韓国のり",
+      "price": 330,
+      "price_raw": "330円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-059",
+      "name": "・ピリ辛もやしナムル",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-060",
+      "name": "・塩キャベツ",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-061",
+      "name": "・枝豆",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-062",
+      "name": "・つぶし塩きゅうり ／ トマトスライス ／ チャンジャ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-063",
+      "name": "・チェリートマトの自家製和風出汁の浅漬け",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-064",
+      "name": "■■■サラダ/焼き野菜■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-065",
+      "name": "・チョレギサラダ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-066",
+      "name": "・塩だれ牛タンのグリーンサラダ",
+      "price": 1375,
+      "price_raw": "1,375円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-067",
+      "name": "・野菜盛り",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-068",
+      "name": "・玉ねぎ ／ 長ねぎ",
+      "price": 330,
+      "price_raw": "330円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-069",
+      "name": "・ししとう ／ しいたけ",
+      "price": 495,
+      "price_raw": "495円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-070",
+      "name": "■■■〆ご飯■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-071",
+      "name": "・4種のナムルと自家製黒毛和牛そぼろのビビンバ",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "4-072",
+      "name": "・4種のナムルと自家製黒毛和牛そぼろの石焼ビビンバ",
+      "price": 1100,
+      "price_raw": "1,100円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-073",
+      "name": "・特製冷麺",
+      "price": 990,
+      "price_raw": "990円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-074",
+      "name": "・梅じそ冷麺",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-075",
+      "name": "・黒毛和牛の炙り肉寿司（2貫）",
+      "price": 880,
+      "price_raw": "880円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-076",
+      "name": "・特製ガリバタ醤油のステーキ丼",
+      "price": 660,
+      "price_raw": "660円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-077",
+      "name": "■■■スープ/クッパ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-078",
+      "name": "・わかめスープ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-079",
+      "name": "・たっぷり野菜とたまごのスープ",
+      "price": 715,
+      "price_raw": "715円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-080",
+      "name": "・たっぷり野菜とたまごのクッパ",
+      "price": 935,
+      "price_raw": "935円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-081",
+      "name": "・黒毛和牛カルビスープ ／ 旨辛ユッケジャン スープ",
+      "price": 825,
+      "price_raw": "825円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-082",
+      "name": "・黒毛和牛カルビクッパ ／ 旨辛ユッケジャンクッパ",
+      "price": 1045,
+      "price_raw": "1,045円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-083",
+      "name": "■■■ご飯/黒毛和牛のそぼろご飯■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-084",
+      "name": "・黒毛和牛そぼろ飯",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-085",
+      "name": "・ご飯",
+      "price": 275,
+      "price_raw": "275円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-086",
+      "name": "■■■デザート■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-087",
+      "name": "・自家製杏仁豆腐",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-088",
+      "name": "・ 静岡抹茶がけの宇治抹茶アイス",
+      "price": 385,
+      "price_raw": "385円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-089",
+      "name": "・北海道びえい牧場ジャージーミルクのジェラート",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-090",
+      "name": "・ニンニク焼き",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-091",
+      "name": "・富良野産フレッシュイチゴのジェラート",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-092",
+      "name": "■■■黒毛和牛ハンバーグ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beefgarden-093",
+      "name": "・BeefGarden特製 黒毛和牛ハンバーグ（和風おろし）",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beefgarden-094",
+      "name": "・BeefGarden特製 黒毛和牛ハンバーグ（自家製デミグラス）",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "beefgarden-095",
+      "name": "・BeefGarden特製 黒毛和牛ハンバーグ（濃厚卵黄つけダレ）",
+      "price": 1300,
+      "price_raw": "1,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-096",
+      "name": "■■■黒毛和牛ステーキ■■■",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-097",
+      "name": "・赤身系希少部位のステーキ",
+      "price": 2200,
+      "price_raw": "2,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-098",
+      "name": "・霜降り系極上希少部位のステーキ",
+      "price": 2300,
+      "price_raw": "2,300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "2-099",
+      "name": "・赤身と霜降り2種の希少部位のステーキ",
+      "price": 3000,
+      "price_raw": "3,000円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "・450g以上/2～3人前",
+      "price": 6111,
+      "photo_url": null
+    },
+    {
+      "name": "・極上牛盛り（3部位200g）",
+      "price": 3630,
+      "photo_url": null
+    },
+    {
+      "name": "・上牛盛り（4部位200g）",
+      "price": 3080,
+      "photo_url": null
+    },
+    {
+      "name": "・赤身と霜降り2種の希少部位のステーキ",
+      "price": 3000,
+      "photo_url": null
+    },
+    {
+      "name": "・一頭盛り（全9部位）",
+      "price": 2420,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

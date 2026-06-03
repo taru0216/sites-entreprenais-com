@@ -2,7 +2,7 @@
   "retty_id": "100000007364",
   "slug": "store-007364",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:18:29Z",
+  "last_crawled": "2026-06-03T16:59:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "広東料理 海栄",
@@ -72,7 +72,139 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "五目焼きそばセット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "チャーシューとエビのチャーハンセット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "五目かけご飯セット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "ニラレバー炒め",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "回鍋肉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "酢豚",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "エビチリ玉子",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "ラーメンセット　Ａセット　ねぎラーメン＋小チャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ラーメンセット　Ｂセット　五目ラーメン＋小チャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "ラーメンセット　Ｃセット　チャーシューメン＋小チャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ラーメンセット　Ｄセット　肉野菜タンメン＋小チャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ラーメンセット　Ｅセット　ワンタンメン＋小チャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ラーメンセット　Ｇセット　冷やし中華＋小チャーハン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "五目焼きそばセット",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "チャーシューとエビのチャーハンセット",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "五目かけご飯セット",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ニラレバー炒め",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "回鍋肉",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

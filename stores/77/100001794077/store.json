@@ -2,7 +2,7 @@
   "retty_id": "100001794077",
   "slug": "bar-vamos-794077",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T12:33:24Z",
+  "last_crawled": "2026-06-03T17:13:24Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Bar Vamos",
@@ -882,31 +882,26 @@
     {
       "name": "山崎12年",
       "price": 3960,
-      "price_raw": "3,960円",
       "photo_url": null
     },
     {
       "name": "白州12年",
       "price": 3960,
-      "price_raw": "3,960円",
       "photo_url": null
     },
     {
       "name": "森伊蔵",
       "price": 1980,
-      "price_raw": "1,980円",
       "photo_url": null
     },
     {
       "name": "山崎",
       "price": 1980,
-      "price_raw": "1,980円",
       "photo_url": null
     },
     {
       "name": "白州",
       "price": 1980,
-      "price_raw": "1,980円",
       "photo_url": null
     }
   ],

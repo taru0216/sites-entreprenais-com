@@ -2,7 +2,7 @@
   "retty_id": "100001509191",
   "slug": "store-509191",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:26:55Z",
+  "last_crawled": "2026-06-03T17:29:10Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "こめらく アトレ恵比寿店",
@@ -68,7 +68,187 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "二度おいしい！おひつごはん",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "3-001",
+      "name": "人気3種のよくばりごはん （サーモン・ねぎとろ・まぐろ）",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "鮭といくらの北海ごはん",
+      "price": 1342,
+      "price_raw": "1,342円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "柚子香る帆立とサーモンたたきごはん",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ねぎとろ温玉ごはん",
+      "price": 1342,
+      "price_raw": "1,342円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "中落ちと漬けまぐろ二色ごはん",
+      "price": 1419,
+      "price_raw": "1,419円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "とろサーモンといくらのアボカドマヨごはん",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "みょうが香るごま鯖とあじのたたきごはん",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "6-008",
+      "name": "6種の海鮮江戸前彩りちらし",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "鯛とあじの漁師ごはん",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "一面うなぎのおひつごはん",
+      "price": 1639,
+      "price_raw": "1,639円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "アンガス牛のねぎ塩ダレごはん",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "bbq-012",
+      "name": "アンガス牛のコリアンBBQごはん",
+      "price": 1529,
+      "price_raw": "1,529円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "郷土膳セット",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "北海道膳",
+      "price": 1342,
+      "price_raw": "1,342円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "北陸膳",
+      "price": 1342,
+      "price_raw": "1,342円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "大阪膳",
+      "price": 1419,
+      "price_raw": "1,419円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "瀬戸内膳",
+      "price": 1419,
+      "price_raw": "1,419円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "九州膳",
+      "price": 1342,
+      "price_raw": "1,342円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "一面うなぎのおひつごはん",
+      "price": 1639,
+      "photo_url": null
+    },
+    {
+      "name": "人気3種のよくばりごはん （サーモン・ねぎとろ・まぐろ）",
+      "price": 1529,
+      "photo_url": null
+    },
+    {
+      "name": "柚子香る帆立とサーモンたたきごはん",
+      "price": 1529,
+      "photo_url": null
+    },
+    {
+      "name": "とろサーモンといくらのアボカドマヨごはん",
+      "price": 1529,
+      "photo_url": null
+    },
+    {
+      "name": "みょうが香るごま鯖とあじのたたきごはん",
+      "price": 1529,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

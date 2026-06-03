@@ -2,7 +2,7 @@
   "retty_id": "100001591526",
   "slug": "store-591526",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T22:35:23Z",
+  "last_crawled": "2026-06-03T16:23:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "フリホーレス 恵比寿・代官山店",
@@ -72,7 +72,243 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "クラシックブリトー",
+      "price": 1220,
+      "price_raw": "1,220円",
+      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001591526/archive/3931257-698bd21199e2f-l.jpg",
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "プロテインブーストブリトー",
+      "price": 1360,
+      "price_raw": "1,360円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "lowgi-002",
+      "name": "LOWGIチキンブリトー",
+      "price": 1260,
+      "price_raw": "1,260円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "メキシカンブリトー",
+      "price": 1280,
+      "price_raw": "1,280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ビーガングリーンサラダ",
+      "price": 1580,
+      "price_raw": "1,580円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ワカモーレチキンボウル",
+      "price": 1400,
+      "price_raw": "1,400円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ブリトー",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "サラダ",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ライスボウル",
+      "price": 1320,
+      "price_raw": "1,320円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "チキンタコス",
+      "price": 440,
+      "price_raw": "440円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "ポークタコス",
+      "price": 480,
+      "price_raw": "480円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "ビーフタコス",
+      "price": 540,
+      "price_raw": "540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "ベジタコス",
+      "price": 570,
+      "price_raw": "570円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "チップス",
+      "price": 300,
+      "price_raw": "300円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "ケサディーヤ",
+      "price": 550,
+      "price_raw": "550円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "チキンライムスープ",
+      "price": 540,
+      "price_raw": "540円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "ナチョス",
+      "price": 1140,
+      "price_raw": "1,140円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "タキートス",
+      "price": 1200,
+      "price_raw": "1,200円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-018",
+      "name": "ルートビア/ウーロン茶/ジャワティー/スプライト/サンペレグリノ/ジンジャエール",
+      "price": 280,
+      "price_raw": "280円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-019",
+      "name": "コーラ/コーラゼロ/ドクターペッパー",
+      "price": 260,
+      "price_raw": "260円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-020",
+      "name": "ミネラルウォーター",
+      "price": 180,
+      "price_raw": "180円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-021",
+      "name": "セルフ式コーヒーマシン",
+      "price": 360,
+      "price_raw": "360円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-022",
+      "name": "コロナビール/テカテ",
+      "price": 680,
+      "price_raw": "680円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-023",
+      "name": "角ハイボール",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-024",
+      "name": "ハラペーニョハイボール",
+      "price": 600,
+      "price_raw": "600円",
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-025",
+      "name": "ライムサワー",
+      "price": 500,
+      "price_raw": "500円",
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ビーガングリーンサラダ",
+      "price": 1580,
+      "photo_url": null
+    },
+    {
+      "name": "ワカモーレチキンボウル",
+      "price": 1400,
+      "photo_url": null
+    },
+    {
+      "name": "プロテインブーストブリトー",
+      "price": 1360,
+      "photo_url": null
+    },
+    {
+      "name": "ブリトー",
+      "price": 1320,
+      "photo_url": null
+    },
+    {
+      "name": "サラダ",
+      "price": 1320,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

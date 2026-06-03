@@ -2,7 +2,7 @@
   "retty_id": "100000010585",
   "slug": "store-010585",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:19:28Z",
+  "last_crawled": "2026-06-03T17:21:41Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "華 千房 恵比寿ガーデンプレイス店",
@@ -69,7 +69,49 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "海鮮焼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "まったり焼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "千房焼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "海鮮焼",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "まったり焼",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "千房焼",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

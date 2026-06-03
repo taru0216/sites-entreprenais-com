@@ -2,7 +2,7 @@
   "retty_id": "100001360814",
   "slug": "carnesio-east-360814",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:46:11Z",
+  "last_crawled": "2026-06-03T16:10:21Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "CarneSio east",
@@ -72,7 +72,23 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "a5-100g-000",
+      "name": "【テイクアウト】特選A5和牛（100g）",
+      "price": 2160,
+      "price_raw": "2160円",
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001360814/archive/3456995-673c88fd59cca.jpg",
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "【テイクアウト】特選A5和牛（100g）",
+      "price": 2160,
+      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001360814/archive/3456995-673c88fd59cca.jpg"
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

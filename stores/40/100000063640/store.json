@@ -2,7 +2,7 @@
   "retty_id": "100000063640",
   "slug": "store-063640",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:36:10Z",
+  "last_crawled": "2026-06-03T16:36:00Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "とりなご 恵比寿店",
@@ -76,7 +76,139 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "鴨すき（当店オリジナル）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "鴨すき追加 鴨肉",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "鴨すき追加 ねぎ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "鴨すき追加 鴨団子",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "〆 ラーメン・うどん・和そば（各）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "〆 雑炊",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "鴨刺身",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "鴨ステーキ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "炙りもも肉の造り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "焼おにぎり",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "生ビール",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "瓶ビール（エビス・プレミアムモルツ・アサヒ）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "チューハイ（各種）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "鴨すき（当店オリジナル）",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鴨すき追加 鴨肉",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鴨すき追加 ねぎ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鴨すき追加 鴨団子",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "〆 ラーメン・うどん・和そば（各）",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

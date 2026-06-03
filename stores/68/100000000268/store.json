@@ -2,7 +2,7 @@
   "retty_id": "100000000268",
   "slug": "store-000268",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:13:34Z",
+  "last_crawled": "2026-06-03T17:03:14Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "きのした 恵比寿 はなれ",
@@ -70,7 +70,36 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "牛ハラミ焼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "国産豚バラ焼",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "牛ハラミ焼",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "国産豚バラ焼",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

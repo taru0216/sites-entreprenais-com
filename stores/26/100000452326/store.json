@@ -2,7 +2,7 @@
   "retty_id": "100000452326",
   "slug": "rose-blue-452326",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:17:33Z",
+  "last_crawled": "2026-06-03T16:22:32Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ROSE BLUE",
@@ -67,7 +67,91 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "オリジナルグレービーソースロコモコ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "豚しゃぶの豆乳和風パスタ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "生ハムとフレッシュオニオンのジュノベーゼ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "アジアン風エビ焼きそば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "週替わり　ランチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "ローズオリジナルワッフル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "ローズオリジナルハーフワッフル",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "オリジナルグレービーソースロコモコ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "豚しゃぶの豆乳和風パスタ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "生ハムとフレッシュオニオンのジュノベーゼ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "アジアン風エビ焼きそば",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "週替わり　ランチ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {},

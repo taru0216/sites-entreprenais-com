@@ -2,7 +2,7 @@
   "retty_id": "100000009470",
   "slug": "standing-wine-bar-q-009470",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:43:59Z",
+  "last_crawled": "2026-06-03T17:05:50Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "STANDING WINE BAR Q 恵比寿店",
@@ -70,7 +70,123 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "小えびとマッシュルームアヒージョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "白レバーのパテ　バケット添え",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "白ハマグリの白ワイン蒸し",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "鎌倉トマトサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mix-004",
+      "name": "Mixナッツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "キスチョコ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "オリーヴ盛り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "生ハム",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "ドライフルーツ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "鎌倉野菜のバーニャカウダーチーズソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "自家製ピクルス",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "小えびとマッシュルームアヒージョ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "白レバーのパテ　バケット添え",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "白ハマグリの白ワイン蒸し",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "鎌倉トマトサラダ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "Mixナッツ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

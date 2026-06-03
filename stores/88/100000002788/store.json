@@ -2,7 +2,7 @@
   "retty_id": "100000002788",
   "slug": "store-002788",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:52:14Z",
+  "last_crawled": "2026-06-03T17:24:56Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "マーサー カフェ エビス",
@@ -69,7 +69,179 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "ガルバンゾーのパテ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "本日のキッシュ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "トマトとモッツアレラのカプレーゼ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "トマトとモッツアレラのカプレーゼ -ハチミツバルサミコソース-",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "アボカドとモッツァレラのカプレーゼ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "季節野菜のグリル パルメザンソース",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mercer-cafe-006",
+      "name": "MERCER CAFE バーニャカウダー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "和牛のカルパッチョ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "厚切りベーコンとほうれん草のサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "クレソンとマッシュルームのサラダ -トリュフドレッシング-",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "生ハムのシーザースサラダ -ポーチドエッグドレッシング-",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "グリルチキンとゴルゴンゾーラチーズのサラダ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "mercer-cafe-012",
+      "name": "MERCER CAFE 特製スープ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "カルボナーラ 濃厚仕立て",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-014",
+      "name": "カルボナーラ スクランブル仕立て",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-015",
+      "name": "カルボナーラ スープ仕立て",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-016",
+      "name": "イワシとルッコラのオイルスパゲティー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-017",
+      "name": "イカとアンチョビのキターラ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "ガルバンゾーのパテ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "本日のキッシュ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "トマトとモッツアレラのカプレーゼ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "トマトとモッツアレラのカプレーゼ -ハチミツバルサミコソース-",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "アボカドとモッツァレラのカプレーゼ",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

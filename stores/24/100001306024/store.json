@@ -2,7 +2,7 @@
   "retty_id": "100001306024",
   "slug": "bakery-306024",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:42:26Z",
+  "last_crawled": "2026-06-03T16:20:47Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "俺のBakery恵比寿",
@@ -72,7 +72,115 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "俺のフレンチトースト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "マシュマロトースト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "フォンダンチョコレートのトースト",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "フルーツサンドイッチ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "ブレンドコーヒー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "水出しアイスコーヒー",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "アメリカン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "エスプレッソ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "hot-ice-008",
+      "name": "カフェ・ラテ（hot・ice）",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "カプチーノ",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "俺のフレンチトースト",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "マシュマロトースト",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "フォンダンチョコレートのトースト",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "フルーツサンドイッチ",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "ブレンドコーヒー",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {

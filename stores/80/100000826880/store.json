@@ -2,7 +2,7 @@
   "retty_id": "100000826880",
   "slug": "store-826880",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-02T21:50:41Z",
+  "last_crawled": "2026-06-03T17:15:25Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "しゅういち 恵比寿店",
@@ -74,7 +74,147 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "featured_menu": [],
+  "menu": [
+    {
+      "dish_slug": "dish-000",
+      "name": "特製カレーつけ麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-001",
+      "name": "カレーつけ麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-002",
+      "name": "カレーつけ麺 ワンタン入り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-003",
+      "name": "カレーつけ麺 チャーシュー入り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-004",
+      "name": "特製カレーらぁ麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-005",
+      "name": "カレーらぁ麺",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-006",
+      "name": "カレーらぁ麺 ワンタン入り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-007",
+      "name": "カレーらぁ麺 チャーシュー入り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-008",
+      "name": "特製カレー油そば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-009",
+      "name": "カレー油そば",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-010",
+      "name": "カレー油そば チャーシュー入り",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-011",
+      "name": "皿ワンタン",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-012",
+      "name": "チャーシュー盛",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    },
+    {
+      "dish_slug": "dish-013",
+      "name": "チャーシューネギ飯",
+      "price": null,
+      "price_raw": null,
+      "photo_url": null,
+      "description": null
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "特製カレーつけ麺",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "カレーつけ麺",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "カレーつけ麺 ワンタン入り",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "カレーつけ麺 チャーシュー入り",
+      "price": null,
+      "photo_url": null
+    },
+    {
+      "name": "特製カレーらぁ麺",
+      "price": null,
+      "photo_url": null
+    }
+  ],
   "special_info": "",
   "reservation_url": "",
   "sns": {
