@@ -72,7 +72,11 @@ jobs:
           TARGETS="${{ github.event.inputs.targets }}"
           if [ -z "${TARGETS}" ]; then
             # PR / 既定: 検証用に少数の代表サイトをビルド（フル 1397 は重いため後続）
-            TARGETS="$(bazelisk query '//stores/...:site' 2>/dev/null | head -3 | tr '\n' ' ')"
+            # NOTE: '//stores/...:site' は不正な target pattern（'...' は :name と併用不可で
+            #   bazel が exit 7 を返す）。:site rule を名前で絞り込むには attr(name,...) を使う。
+            #   また結果を head にパイプすると set -o pipefail 下で SIGPIPE(141) で abort するため
+            #   全ストリームを読む awk 'NR<=3' を使う。
+            TARGETS="$(bazelisk query 'attr(name, "^site$", //stores/...)' 2>/dev/null | awk 'NR<=3' | tr '\n' ' ')"
             TARGETS="${TARGETS} //data/cities:all"
           fi
           echo "Building: ${TARGETS}"
@@ -82,8 +86,8 @@ jobs:
         if: github.event.inputs.targets == ''
         run: |
           set -euo pipefail
-          # 直前ビルドの代表 3 サイトを取得
-          SITES="$(bazelisk query '//stores/...:site' 2>/dev/null | head -3 | tr '\n' ' ')"
+          # 直前ビルドの代表 3 サイトを取得（query パターン・SIGPIPE 回避は上記ステップと同様）
+          SITES="$(bazelisk query 'attr(name, "^site$", //stores/...)' 2>/dev/null | awk 'NR<=3' | tr '\n' ' ')"
           FIRST="$(echo ${SITES} | awk '{print $1}')"
           # FIRST の store.json を 1 件だけ変更 → 再ビルドは 1 action のみのはず
           PKG="$(echo ${FIRST} | sed 's#//##; s#:site##')"
