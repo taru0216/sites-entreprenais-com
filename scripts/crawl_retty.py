@@ -28,10 +28,7 @@ import urllib.error
 from datetime import datetime, timezone
 from html import unescape
 
-USER_AGENT = (
-    "foodre-crawler/0.1 (+https://retty.me; Retty foodre partnership; "
-    "contact via taru0216/taruishi-masato-work-retty)"
-)
+USER_AGENT = "EntreprenAIs-Factory-crawler/0.1 (+https://entreprenais.com/#contact)"
 
 # Retty 店舗詳細 URL に含まれる店舗 ID（10桁以上の数字）
 RE_RETTY_ID = re.compile(r"/([0-9]{10,})/")
