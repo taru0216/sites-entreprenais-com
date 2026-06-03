@@ -262,5 +262,93 @@ class TestArgparseMutualExclusion(unittest.TestCase):
             ])
 
 
+class TestWriteTargetsCsv(unittest.TestCase):
+    """Step① discovery の CSV 出力（write_targets_csv）を検証する。"""
+
+    def _tmp_csv(self) -> str:
+        fd, path = tempfile.mkstemp(suffix=".csv")
+        os.close(fd)
+        self.addCleanup(os.remove, path)
+        return path
+
+    def test_header_dedup_and_sort(self):
+        out = self._tmp_csv()
+        targets = [
+            ("100000072847", "https://retty.me/area/PRE13/ARE7/SUB701/100000072847/"),
+            ("100000003346", "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/"),
+            # 重複 retty_id（最初の URL が採用される）
+            ("100000072847", "https://retty.me/restaurant/100000072847/"),
+        ]
+        n = cr.write_targets_csv(targets, out)
+        self.assertEqual(n, 2)  # dedup 後 2 件
+        with open(out, encoding="utf-8") as f:
+            lines = [ln.rstrip("\r\n") for ln in f if ln.strip()]
+        self.assertEqual(lines[0], "retty_url,retty_id")
+        # retty_id で sort されている
+        self.assertEqual(
+            lines[1],
+            "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/,100000003346",
+        )
+        self.assertEqual(
+            lines[2],
+            "https://retty.me/area/PRE13/ARE7/SUB701/100000072847/,100000072847",
+        )
+
+    def test_roundtrip_with_read_csv_targets(self):
+        # 生成した CSV を Step② の read_csv_targets でそのまま読めること
+        out = self._tmp_csv()
+        targets = [
+            ("100000003346", "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/"),
+        ]
+        cr.write_targets_csv(targets, out)
+        parsed = cr.read_csv_targets(out)
+        self.assertEqual(parsed, targets)
+
+
+class TestGenCsvSubcommand(unittest.TestCase):
+    """gen-csv サブコマンドのルーティング（ネットワークなし・collect をモック）。"""
+
+    def test_gen_csv_routes_and_writes(self):
+        fd, out = tempfile.mkstemp(suffix=".csv")
+        os.close(fd)
+        self.addCleanup(os.remove, out)
+
+        captured = {}
+        orig = cr.collect_store_ids
+
+        def fake_collect(area_url, max_count, sleep):
+            captured["args"] = (area_url, max_count, sleep)
+            return [
+                ("100000003346", "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/"),
+            ]
+
+        cr.collect_store_ids = fake_collect
+        old_argv = sys.argv
+        sys.argv = [
+            "crawl_retty.py", "gen-csv",
+            "--area-url", "https://retty.me/area/PRE13/ARE7/SUB701/",
+            "--out", out,
+            "--max-count", "10",
+            "--sleep", "0",
+        ]
+        try:
+            rc = cr.main()
+        finally:
+            cr.collect_store_ids = orig
+            sys.argv = old_argv
+
+        self.assertEqual(rc, 0)
+        self.assertEqual(
+            captured["args"],
+            ("https://retty.me/area/PRE13/ARE7/SUB701/", 10, 0.0),
+        )
+        targets = cr.read_csv_targets(out)
+        self.assertEqual(
+            targets,
+            [("100000003346",
+              "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/")],
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
