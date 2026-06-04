@@ -1,16 +1,15 @@
 ---
 // Copyright (C) Retty, Inc.
-// foodre Pattern C — コンテンツ更新型（居酒屋・バー系）（#78）
-// 川野さん設計: NOW OPEN ライブ・店主の日誌・今週入った食材・LINE 配信
-// 常連醸成・リピート重視のコンテンツ更新型デザイン
+// foodre Pattern C — コンテンツ更新型（カフェ・パン屋・居酒屋・バー系）（#78）
+// 川野さん設計: ライブステータスバー・今日のおすすめ・店主日誌・食材入荷情報・LINE CTA
+// 元デザイン HTML（03_pattern-C_content-update.html）ベースで完全差し替え（store.json 変数バインド済み）
 //
 // factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
-// work-retty PR #276 の templates/restaurant-pattern-c を factory アーキに移植。
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { UI } from '../lib/i18n';
 import {
-  formatHours, gmapsUrl,
+  formatHours, formatBudget, gmapsUrl,
   type Store, type WeeklyItem, type DiaryEntry,
 } from '../lib/store';
 
@@ -18,6 +17,7 @@ export interface Props { store: Store; }
 const { store } = Astro.props;
 const ui = UI;
 const hours = formatHours(store);
+const budget = formatBudget(store);
 const maps = gmapsUrl(store);
 const heroDesc = store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
@@ -29,344 +29,652 @@ const todayKey = dayNames[today.getDay()];
 const todayHours = store.hours?.[todayKey];
 const isOpenToday = !!todayHours?.open;
 
-// store.json のオーナー編集フィールド（拡張）
+// コンテンツ更新型フィールド
 const weeklyItems: WeeklyItem[] = store.weekly_items ?? [];
 const diaryEntries: DiaryEntry[] = store.diary ?? [];
+const features = store.features ?? [];
+
+// Instagram ハンドル
+const officialSns = store.official_sns ?? null;
+const instagramHandle = officialSns?.instagram
+  ? officialSns.instagram.replace(/.*instagram\.com\//, '@').replace(/\/$/, '')
+  : null;
+
+// 今日の特集メニュー（featured_menu の先頭）
+const todaySpecial = store.featured_menu?.[0] ?? null;
 ---
 
 <style>
-  /* Pattern C 固有スタイル: コンテンツ更新型 */
-  :root {
-    --pc-accent: #e8a020;     /* アンバーゴールド */
-    --pc-green: #4caf50;      /* NOW OPEN グリーン */
-    --pc-red: #e53935;        /* NOW CLOSED レッド */
-    --pc-bg: #050505;
-    --pc-bg2: #070a07;
-    --pc-surface: #0d100d;
-    --pc-border: #1a221a;
-    --pc-muted: #7a8a7a;
-    --pc-text: #dde8dd;
+  /* Pattern C 専用スタイル: ライブコンテンツ・明るいベーカリー系デザイン */
+  .pc-wrap {
+    --bg: #FAF7F1;
+    --bg-2: #F2EBE0;
+    --ink: #1F1A12;
+    --terracotta: #C77B5F;
+    --terracotta-deep: #9C5538;
+    --sage: #7C9472;
+    --sage-deep: #4E6B47;
+    --soft: #E8C5B3;
+    --text: #2A241B;
+    --text-soft: #6B5E4D;
+    --text-faint: #998A77;
+    --pc-line: #E5DCD0;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", -apple-system, sans-serif;
+    background: var(--bg);
+    color: #2A241B;
+    font-size: 15px;
+    line-height: 1.85;
+  }
+  .pc-wrap a { color: inherit; text-decoration: none; }
+
+  /* ===== Nav ===== */
+  .pc-nav {
+    position: sticky; top: 0; z-index: 200;
+    background: rgba(250,247,241,0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--pc-line);
+  }
+  .pc-nav-inner {
+    max-width: 980px; margin: 0 auto;
+    padding: 14px 24px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .pc-brand {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 18px; font-weight: 600; letter-spacing: 0.05em;
+    color: var(--ink);
+  }
+  .pc-brand .pc-brand-small {
+    display: block; font-size: 9px; letter-spacing: 0.2em;
+    color: var(--text-faint); font-weight: 500; margin-top: -2px;
+  }
+  .pc-nav-links {
+    display: flex; gap: 22px; font-size: 13px; color: var(--text-soft);
+  }
+  .pc-nav-links a:hover { color: var(--terracotta); }
+  .pc-nav-cta {
+    background: var(--ink); color: var(--bg);
+    padding: 8px 16px; font-size: 12px; font-weight: 700;
+    border-radius: 4px; letter-spacing: 0.04em;
   }
 
-  /* NOW OPEN バッジ */
-  .pc-live-badge {
-    display: inline-flex; align-items: center; gap: 0.5rem;
-    padding: 0.4rem 1rem; border-radius: 20px;
-    font-size: 0.8rem; font-weight: 700;
-    letter-spacing: 0.05em; margin-bottom: 1.5rem;
+  /* ===== Container ===== */
+  .pc-container { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+
+  /* ===== Live status bar ===== */
+  .pc-live-bar {
+    background: #E8F0E4; border-bottom: 1px solid #C7D4C0; padding: 10px 0;
   }
-  .pc-live-badge.open {
-    background: rgba(76,175,80,0.15); color: var(--pc-green);
-    border: 1px solid rgba(76,175,80,0.3);
-  }
-  .pc-live-badge.closed {
-    background: rgba(229,57,53,0.1); color: var(--pc-red);
-    border: 1px solid rgba(229,57,53,0.2);
+  .pc-live-bar-inner {
+    max-width: 980px; margin: 0 auto; padding: 0 24px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 8px; font-size: 13px;
   }
   .pc-live-dot {
-    width: 8px; height: 8px; border-radius: 50%;
-    animation: pc-pulse 1.5s ease-in-out infinite;
+    display: inline-block; width: 8px; height: 8px;
+    background: var(--sage-deep); border-radius: 50%; margin-right: 6px;
+    animation: pc-pulse 2s infinite;
   }
-  .pc-live-badge.open .pc-live-dot { background: var(--pc-green); }
-  .pc-live-badge.closed .pc-live-dot { background: var(--pc-red); animation: none; }
+  .pc-live-dot.closed { background: #999; animation: none; }
   @keyframes pc-pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.5; transform: scale(1.4); }
+    0%, 100% { box-shadow: 0 0 0 0 rgba(78,107,71,0.6); }
+    50% { box-shadow: 0 0 0 6px rgba(78,107,71,0); }
+  }
+  .pc-live-state { font-weight: 700; color: var(--sage-deep); letter-spacing: 0.04em; }
+  .pc-live-state.closed { color: #888; }
+  .pc-live-meta { color: var(--text-soft); font-size: 12px; }
+
+  /* ===== Hero / Today's special ===== */
+  .pc-hero { padding: 56px 0 64px; }
+  .pc-hero-grid {
+    display: grid; grid-template-columns: 1fr 1.05fr;
+    gap: 48px; align-items: center;
+  }
+  .pc-hero-eyebrow {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-style: italic; color: var(--terracotta);
+    font-size: 14px; letter-spacing: 0.1em; margin-bottom: 14px;
+  }
+  .pc-hero h1 {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 42px; font-weight: 500; line-height: 1.3;
+    letter-spacing: 0.02em; margin-bottom: 20px; color: var(--ink);
+  }
+  .pc-hero-lead {
+    font-size: 15px; color: var(--text-soft); line-height: 1.95;
+    margin-bottom: 28px; max-width: 460px;
+  }
+  .pc-hero-stats {
+    display: flex; gap: 32px; padding: 20px 0;
+    border-top: 1px solid var(--pc-line); border-bottom: 1px solid var(--pc-line);
+  }
+  .pc-hero-stat .pc-num {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 28px; font-weight: 500; color: var(--ink); line-height: 1;
+  }
+  .pc-hero-stat .pc-num .pc-unit { font-size: 13px; color: var(--text-soft); margin-left: 2px; }
+  .pc-hero-stat .pc-lbl {
+    font-size: 11px; color: var(--text-soft); letter-spacing: 0.08em; margin-top: 6px;
+  }
+  .pc-hero-img {
+    aspect-ratio: 4/5;
+    background: radial-gradient(ellipse at 35% 40%, #E5C9A1 0%, #C9914E 40%, #8E5C26 100%);
+    border-radius: 6px; position: relative; overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+  }
+  .pc-hero-img::before {
+    content: '🍽️'; position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 140px;
+    filter: drop-shadow(0 12px 20px rgba(0,0,0,0.25));
+  }
+  .pc-hero-img-tag {
+    position: absolute; top: 18px; left: 18px;
+    background: var(--bg); color: var(--ink);
+    padding: 8px 14px; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.12em; border-radius: 999px; text-transform: uppercase;
+  }
+  .pc-hero-img-cap {
+    position: absolute; bottom: 18px; left: 18px; right: 18px;
+    background: rgba(255,255,255,0.95); backdrop-filter: blur(6px);
+    padding: 14px 16px; border-radius: 4px;
+  }
+  .pc-hero-img-cap h3 {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 18px; font-weight: 600; color: var(--ink); margin-bottom: 4px;
+  }
+  .pc-hero-img-cap .pc-pr {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 16px; font-weight: 600; color: var(--terracotta-deep);
+  }
+  .pc-hero-img-cap .pc-desc {
+    font-size: 11.5px; color: var(--text-soft); line-height: 1.6; margin-top: 4px;
   }
 
-  /* ヒーロー */
-  .pc-hero {
-    min-height: calc(100vh - 64px);
-    background: radial-gradient(ellipse at 50% 40%, #0d1a0d 0%, #050505 70%);
-    display: flex; flex-direction: column;
-    align-items: center; justify-content: center;
-    text-align: center; padding: 4rem 1.5rem; position: relative;
+  /* ===== Section common ===== */
+  .pc-section { padding: 64px 0; }
+  .pc-section-eyebrow {
+    font-family: "Hiragino Mincho ProN", serif; font-style: italic;
+    color: var(--terracotta); font-size: 13px; letter-spacing: 0.1em; margin-bottom: 10px;
   }
-  .pc-hero-inner { max-width: 720px; }
-  .pc-hero-cat { font-size: 0.8rem; color: var(--pc-accent); letter-spacing: 0.25em; text-transform: uppercase; margin-bottom: 1rem; }
-  .pc-hero-title { font-size: clamp(3rem, 9vw, 5rem); color: #e8f5e9; line-height: 1.1; margin-bottom: 1rem; font-weight: 700; }
-  .pc-hero-desc { font-size: 1rem; color: #8aa88a; margin-bottom: 2.5rem; line-height: 1.9; }
-  .pc-cta-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-  .pc-btn-primary {
-    display: inline-block; background: var(--pc-accent); color: #000;
-    font-weight: 700; padding: 0.85rem 2.5rem; border-radius: 4px; font-size: 1rem;
-    transition: opacity 0.2s;
+  .pc-section-title {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 28px; font-weight: 500;
+    color: var(--ink); margin-bottom: 14px; line-height: 1.4; letter-spacing: 0.02em;
   }
-  .pc-btn-primary:hover { opacity: 0.85; text-decoration: none; }
-  .pc-btn-outline {
-    display: inline-block; border: 2px solid var(--pc-accent); color: var(--pc-accent);
-    font-weight: 700; padding: 0.85rem 2.5rem; border-radius: 4px; font-size: 1rem;
-    transition: background 0.2s, color 0.2s;
+  .pc-section-lead {
+    font-size: 14.5px; color: var(--text-soft); max-width: 560px;
+    margin-bottom: 36px; line-height: 1.95;
   }
-  .pc-btn-outline:hover { background: var(--pc-accent); color: #000; text-decoration: none; }
 
-  /* セクション共通 */
-  .pc-section-eyebrow { font-size: 0.75rem; color: var(--pc-accent); letter-spacing: 0.3em; text-transform: uppercase; text-align: center; margin-bottom: 0.5rem; }
-  .pc-section-title { font-size: clamp(1.4rem, 3.5vw, 2rem); color: var(--pc-text); text-align: center; margin-bottom: 0.4rem; }
-  .pc-section-sub { color: var(--pc-muted); font-size: 0.85rem; text-align: center; margin-bottom: 3rem; }
-
-  /* 今週の情報セクション */
-  .pc-this-week { padding: 4rem 0; background: var(--pc-bg2); }
-  .pc-this-week-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-  .pc-week-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
-  .pc-week-card {
-    background: var(--pc-surface); border: 1px solid var(--pc-border);
-    border-radius: 8px; padding: 1.25rem; text-align: center;
+  /* ===== Journal / 日誌 ===== */
+  .pc-journal { background: var(--bg-2); }
+  .pc-journal-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .pc-journal-card {
+    background: var(--bg); border: 1px solid var(--pc-line);
+    border-radius: 6px; overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
   }
-  .pc-week-icon { font-size: 2rem; margin-bottom: 0.5rem; }
-  .pc-week-name { color: var(--pc-text); font-size: 0.95rem; font-weight: 700; margin-bottom: 0.25rem; }
-  .pc-week-note { color: var(--pc-muted); font-size: 0.8rem; }
-
-  /* 店主の日誌セクション */
-  .pc-diary { padding: 5rem 0; background: var(--pc-bg); }
-  .pc-diary-inner { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
-  .pc-diary-entry {
-    border-left: 3px solid var(--pc-accent);
-    padding: 1.25rem 1.5rem; margin-bottom: 1.5rem;
-    background: var(--pc-surface); border-radius: 0 8px 8px 0;
+  .pc-journal-card:hover { transform: translateY(-2px); box-shadow: 0 18px 32px rgba(0,0,0,0.06); }
+  .pc-journal-img {
+    aspect-ratio: 4/3;
+    background: radial-gradient(ellipse at 40% 50%, #D1B789, #8E6A38);
   }
-  .pc-diary-date { font-size: 0.8rem; color: var(--pc-muted); margin-bottom: 0.5rem; }
-  .pc-diary-text { color: #b0c8b0; font-size: 0.95rem; line-height: 1.9; }
-  .pc-diary-empty { text-align: center; color: var(--pc-muted); padding: 3rem 0; }
+  .pc-ji-2 { background: radial-gradient(ellipse at 40% 50%, #E8C5B3, #B07A5C); }
+  .pc-ji-3 { background: radial-gradient(ellipse at 40% 50%, #C9914E, #6E4621); }
+  .pc-journal-body { padding: 18px 20px 22px; }
+  .pc-journal-date {
+    font-family: ui-monospace, monospace; font-size: 11px;
+    color: var(--text-faint); letter-spacing: 0.08em; margin-bottom: 6px;
+  }
+  .pc-journal-title {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 16px; font-weight: 600;
+    color: var(--ink); margin-bottom: 8px; line-height: 1.5;
+  }
+  .pc-journal-excerpt { font-size: 12.5px; color: var(--text-soft); line-height: 1.7; }
 
-  /* メニューセクション */
-  .pc-menu { padding: 5rem 0; background: var(--pc-bg2); }
-  .pc-menu-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-  .pc-menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; }
+  /* ===== Ingredients / 食材 ===== */
+  .pc-ingredients-grid {
+    display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: start;
+  }
+  .pc-ing-list {
+    background: var(--bg); border: 1px solid var(--pc-line);
+    border-radius: 6px; padding: 24px 28px;
+  }
+  .pc-ing-list h4 {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 16px; font-weight: 600;
+    margin-bottom: 14px; color: var(--ink);
+  }
+  .pc-ing-row {
+    display: grid; grid-template-columns: 1fr auto;
+    padding: 10px 0; border-bottom: 1px dashed var(--pc-line); font-size: 13px;
+  }
+  .pc-ing-row:last-child { border-bottom: none; }
+  .pc-ing-name { color: var(--ink); }
+  .pc-ing-name .pc-note {
+    display: block; font-size: 10.5px; color: var(--text-faint); margin-top: 2px;
+  }
+  .pc-ing-icon { font-size: 18px; align-self: center; }
+
+  /* ===== Menu ===== */
+  .pc-menu-bg { background: var(--bg-2); }
+  .pc-menu-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
   .pc-menu-card {
-    background: var(--pc-surface); border: 1px solid var(--pc-border);
-    border-radius: 8px; padding: 1.25rem; transition: border-color 0.2s;
+    background: var(--bg); border-radius: 6px; overflow: hidden; border: 1px solid var(--pc-line);
   }
-  .pc-menu-card:hover { border-color: var(--pc-accent); }
-  .pc-menu-name { color: var(--pc-text); font-size: 0.95rem; font-weight: 700; }
-  .pc-menu-price { color: var(--pc-accent); font-size: 0.9rem; float: right; }
-  .pc-menu-desc { color: var(--pc-muted); font-size: 0.85rem; line-height: 1.7; margin-top: 0.4rem; clear: both; }
+  .pc-menu-img {
+    aspect-ratio: 1/1;
+    background: radial-gradient(ellipse at 40% 40%, #D9B47A 0%, #8E6532 100%);
+    position: relative;
+  }
+  .pc-mi-2 { background: radial-gradient(ellipse at 40% 40%, #E5C9A1 0%, #A07A45 100%); }
+  .pc-mi-3 { background: radial-gradient(ellipse at 40% 40%, #C9A179 0%, #6E4621 100%); }
+  .pc-mi-4 { background: radial-gradient(ellipse at 40% 40%, #E0B17F 0%, #8E5C26 100%); }
+  .pc-mi-5 { background: radial-gradient(ellipse at 40% 40%, #D1AF7E 0%, #6E4825 100%); }
+  .pc-mi-6 { background: radial-gradient(ellipse at 40% 40%, #DEC093 0%, #957043 100%); }
+  .pc-menu-body { padding: 14px 16px 16px; }
+  .pc-menu-name {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 14.5px; font-weight: 600; color: var(--ink);
+  }
+  .pc-menu-desc { font-size: 11.5px; color: var(--text-soft); margin-top: 4px; line-height: 1.55; }
+  .pc-menu-price {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 14px; font-weight: 600;
+    color: var(--terracotta-deep); margin-top: 8px;
+  }
 
-  /* LINE 配信セクション */
-  .pc-line-cta {
-    padding: 4rem 0;
-    background: linear-gradient(135deg, #071407 0%, #050505 100%);
-    border-top: 1px solid #0e1e0e; border-bottom: 1px solid #0e1e0e;
-    text-align: center;
+  /* ===== SNS フィード ===== */
+  .pc-sns-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; }
+  .pc-sns-cell {
+    aspect-ratio: 1/1;
+    background: radial-gradient(ellipse at 40% 40%, #C9914E, #6E4621);
+    position: relative;
   }
-  .pc-line-cta-inner { max-width: 600px; margin: 0 auto; padding: 0 1.5rem; }
-  .pc-line-logo { font-size: 3rem; margin-bottom: 1rem; }
-  .pc-line-title { font-size: 1.4rem; color: #c8e6c9; margin-bottom: 0.75rem; }
-  .pc-line-desc { color: #6a8a6a; font-size: 0.95rem; line-height: 1.8; margin-bottom: 2rem; }
-  .pc-line-btn {
-    display: inline-block; background: #06c755; color: #fff;
-    font-weight: 700; padding: 0.9rem 2.5rem; border-radius: 24px; font-size: 1rem;
-    transition: opacity 0.2s;
-  }
-  .pc-line-btn:hover { opacity: 0.85; text-decoration: none; }
+  .pc-sc-2 { background: radial-gradient(ellipse at 40% 40%, #D1B789, #8E6A38); }
+  .pc-sc-3 { background: radial-gradient(ellipse at 40% 40%, #E0B17F, #8E5C26); }
+  .pc-sc-4 { background: radial-gradient(ellipse at 40% 40%, #C77B5F, #9C5538); }
+  .pc-sc-5 { background: radial-gradient(ellipse at 40% 40%, #E8C5B3, #B07A5C); }
+  .pc-sc-6 { background: radial-gradient(ellipse at 40% 40%, #D9B47A, #8E6532); }
+  .pc-sns-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; }
+  .pc-sns-handle { font-size: 12px; color: var(--text-soft); font-family: ui-monospace, monospace; }
 
-  /* アクセスセクション */
-  .pc-access { padding: 5rem 0; background: var(--pc-bg); }
-  .pc-access-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-  .pc-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: start; margin-top: 3rem; }
-  .pc-dl { display: grid; grid-template-columns: auto 1fr; gap: 0.75rem 1.5rem; }
-  .pc-dt { color: var(--pc-muted); font-size: 0.9rem; white-space: nowrap; }
-  .pc-dd { color: var(--pc-text); font-size: 0.95rem; margin-left: 0; }
-  .pc-map-box {
-    background: var(--pc-surface); border: 1px solid var(--pc-border);
-    border-radius: 8px; padding: 2rem; text-align: center;
+  /* ===== Visit ===== */
+  .pc-visit-grid {
+    display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center;
+  }
+  .pc-map-mock {
+    aspect-ratio: 4/3;
+    background:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      repeating-linear-gradient(0deg, #DAD3C0 0 1px, transparent 1px 30px),
+      repeating-linear-gradient(90deg, #DAD3C0 0 1px, transparent 1px 30px),
+      var(--bg);
+    border-radius: 6px; border: 1px solid var(--pc-line);
+    display: flex; align-items: center; justify-content: center; position: relative;
+  }
+  .pc-map-pin {
+    width: 32px; height: 32px; background: var(--terracotta);
+    border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+    box-shadow: 0 8px 20px rgba(199,123,95,0.4); position: relative;
+  }
+  .pc-map-pin::after {
+    content: ""; position: absolute;
+    width: 12px; height: 12px; background: var(--bg);
+    border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  }
+  .pc-visit-table {
+    background: var(--bg); border: 1px solid var(--pc-line); border-radius: 6px; overflow: hidden;
+  }
+  .pc-visit-row {
+    display: grid; grid-template-columns: 100px 1fr;
+    padding: 14px 20px; border-bottom: 1px solid var(--pc-line); font-size: 13px;
+  }
+  .pc-visit-row:last-child { border-bottom: none; }
+  .pc-visit-row dt {
+    color: var(--text-soft); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.06em; align-self: center;
+  }
+  .pc-visit-row dd { color: var(--ink); }
+
+  /* ===== Newsletter / LINE CTA ===== */
+  .pc-nl-section {
+    background:
+      linear-gradient(135deg, rgba(31,26,18,0.95), rgba(46,38,26,0.9)),
+      radial-gradient(ellipse at 30% 40%, #C9914E 0%, #6E4621 60%, #2A1810 100%);
+    color: var(--bg); text-align: center; padding: 80px 0;
+  }
+  .pc-nl-section h2 {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 30px; font-weight: 500;
+    margin-bottom: 14px; line-height: 1.45; color: #FAF7F1;
+  }
+  .pc-nl-section p {
+    font-size: 14.5px; opacity: 0.85; max-width: 500px;
+    margin: 0 auto 30px; line-height: 1.85; color: #FAF7F1;
+  }
+  .pc-nl-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .pc-btn-line {
+    background: #06C755; color: #fff;
+    padding: 14px 28px; font-size: 14px; font-weight: 700;
+    border-radius: 4px; letter-spacing: 0.04em;
+  }
+  .pc-btn-ghost {
+    background: transparent; border: 1.5px solid rgba(255,255,255,0.5);
+    color: #FAF7F1; padding: 14px 28px; font-size: 14px; font-weight: 700;
+    border-radius: 4px; letter-spacing: 0.04em;
+  }
+  .pc-btn-primary {
+    background: var(--terracotta); color: #fff;
+    padding: 14px 28px; font-size: 14px; font-weight: 700;
+    border-radius: 4px; letter-spacing: 0.04em;
+  }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 840px) {
+    .pc-hero { padding: 36px 0 48px; }
+    .pc-hero-grid { grid-template-columns: 1fr; gap: 28px; }
+    .pc-hero h1 { font-size: 30px; }
+    .pc-hero-stats { gap: 20px; }
+    .pc-journal-grid { grid-template-columns: 1fr; }
+    .pc-ingredients-grid { grid-template-columns: 1fr; gap: 28px; }
+    .pc-menu-grid { grid-template-columns: 1fr 1fr; }
+    .pc-visit-grid { grid-template-columns: 1fr; gap: 28px; }
+    .pc-section-title { font-size: 22px; }
+    .pc-section { padding: 48px 0; }
+    .pc-nl-section { padding: 56px 0; }
+    .pc-nl-section h2 { font-size: 22px; }
+    .pc-nav-links { display: none; }
+    .pc-sns-grid { grid-template-columns: repeat(3, 1fr); }
   }
 </style>
 
 <BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
 
-  <!-- Pattern C: ヒーロー — NOW OPEN ライブバッジ付き -->
-  <section class="pc-hero">
-    <div class="pc-hero-inner">
-      <!-- NOW OPEN ライブバッジ（営業時間連動）-->
+<div class="pc-wrap">
+  {/* ===== Nav ===== */}
+  <nav class="pc-nav">
+    <div class="pc-nav-inner">
+      <div class="pc-brand">
+        {store.name}
+        {store.category && <span class="pc-brand-small">{store.category.toUpperCase()}</span>}
+      </div>
+      <div class="pc-nav-links">
+        {diaryEntries.length > 0 && <a href="#pc-journal">日誌</a>}
+        {weeklyItems.length > 0 && <a href="#pc-ingredients">食材</a>}
+        <a href="#pc-menu">メニュー</a>
+        <a href="#pc-visit">アクセス</a>
+      </div>
+      <a class="pc-nav-cta" href={reservationLink} target="_blank" rel="noopener">ご予約</a>
+    </div>
+  </nav>
+
+  {/* ===== Live status bar ===== */}
+  <div class="pc-live-bar">
+    <div class="pc-live-bar-inner">
       <div>
-        <span class={`pc-live-badge ${isOpenToday ? 'open' : 'closed'}`}>
-          <span class="pc-live-dot"></span>
-          {isOpenToday ? 'NOW OPEN' : 'CLOSED TODAY'}
-          {isOpenToday && todayHours?.close && ` — ${todayHours.close}まで`}
+        <span class={`pc-live-dot${isOpenToday ? '' : ' closed'}`}></span>
+        <span class={`pc-live-state${isOpenToday ? '' : ' closed'}`}>
+          {isOpenToday ? '本日 OPEN' : '本日 定休日'}
         </span>
+        {isOpenToday && todayHours?.open && (
+          <span style="color: var(--text-soft); margin-left: 8px;">
+            {todayHours.open}〜{todayHours.close ?? ''}
+          </span>
+        )}
       </div>
-
-      {store.category && <p class="pc-hero-cat">{store.category}</p>}
-      <h1 class="pc-hero-title">{store.name}</h1>
-      {heroDesc && <p class="pc-hero-desc">{heroDesc}</p>}
-      <div class="pc-cta-group">
-        <a href="#menu" class="pc-btn-primary">{ui.view_menu}</a>
-        <a href="#reservation" class="pc-btn-outline">{ui.reserve_button}</a>
-      </div>
+      {hours.length > 0 && (
+        <div class="pc-live-meta">{hours[0]}</div>
+      )}
     </div>
-    <div style="position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); color:#3a5a3a; font-size:0.75rem; display:flex; flex-direction:column; align-items:center; gap:0.4rem;">
-      <span>SCROLL</span>
-      <span style="display:block; width:1px; height:28px; background:linear-gradient(to bottom,#3a5a3a,transparent);"></span>
-    </div>
-  </section>
+  </div>
 
-  <!-- Pattern C: 今週入った食材・おすすめ情報（データ有時のみ）-->
-  {weeklyItems.length > 0 && (
-    <section class="pc-this-week">
-      <div class="pc-this-week-inner">
-        <p class="pc-section-eyebrow">THIS WEEK</p>
-        <h2 class="pc-section-title">今週のおすすめ</h2>
-        <p class="pc-section-sub">Weekly Picks</p>
-        <div class="pc-week-grid">
-          {weeklyItems.map((item) => (
-            <div class="pc-week-card">
-              {item.icon && <div class="pc-week-icon">{item.icon}</div>}
-              <div class="pc-week-name">{item.name}</div>
-              {item.note && <div class="pc-week-note">{item.note}</div>}
+  {/* ===== Hero / Today's special ===== */}
+  <div class="pc-hero">
+    <div class="pc-container">
+      <div class="pc-hero-grid">
+        <div>
+          <div class="pc-hero-eyebrow">
+            <em>Today's Special</em>
+          </div>
+          <h1>{store.name}</h1>
+          {heroDesc && <p class="pc-hero-lead">{heroDesc}</p>}
+          {store.stats && store.stats.length > 0 && (
+            <div class="pc-hero-stats">
+              {store.stats.map((s) => (
+                <div class="pc-hero-stat">
+                  <div class="pc-num">{s.value}</div>
+                  {s.label && <div class="pc-lbl">{s.label}</div>}
+                </div>
+              ))}
             </div>
-          ))}
+          )}
+        </div>
+        <div class="pc-hero-img">
+          <span class="pc-hero-img-tag">本日のおすすめ</span>
+          {todaySpecial ? (
+            <div class="pc-hero-img-cap">
+              <h3>{todaySpecial.name}</h3>
+              {todaySpecial.price != null && todaySpecial.price !== '' && (
+                <div class="pc-pr">
+                  {typeof todaySpecial.price === 'number' ? `¥${todaySpecial.price.toLocaleString()}` : todaySpecial.price}
+                </div>
+              )}
+              {todaySpecial.description && (
+                <p class="pc-desc">{todaySpecial.description}</p>
+              )}
+            </div>
+          ) : (
+            <div class="pc-hero-img-cap">
+              <h3>{store.name}</h3>
+              {store.category && <p class="pc-desc">{store.category}</p>}
+            </div>
+          )}
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+
+  {/* ===== Journal / 日誌（データある時のみ）===== */}
+  {(diaryEntries.length > 0 || store.owner_message) && (
+    <div class="pc-section pc-journal" id="pc-journal">
+      <div class="pc-container">
+        <span class="pc-section-eyebrow"><em>Journal</em></span>
+        <h2 class="pc-section-title">店主の日誌。</h2>
+        <p class="pc-section-lead">日々のお知らせや季節の情報をお届けします。</p>
+        {diaryEntries.length > 0 ? (
+          <div class="pc-journal-grid">
+            {diaryEntries.slice(0, 3).map((entry, i) => (
+              <div class="pc-journal-card">
+                <div class={`pc-journal-img${i === 1 ? ' pc-ji-2' : i === 2 ? ' pc-ji-3' : ''}`}></div>
+                <div class="pc-journal-body">
+                  {entry.date && <div class="pc-journal-date">{entry.date}</div>}
+                  <h3 class="pc-journal-title">{entry.text.slice(0, 40)}{entry.text.length > 40 ? '…' : ''}</h3>
+                  <p class="pc-journal-excerpt">{entry.text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : store.owner_message ? (
+          <div class="pc-journal-grid">
+            <div class="pc-journal-card">
+              <div class="pc-journal-img"></div>
+              <div class="pc-journal-body">
+                <div class="pc-journal-date">オーナーより</div>
+                <h3 class="pc-journal-title">{store.owner_message.slice(0, 30)}{store.owner_message.length > 30 ? '…' : ''}</h3>
+                <p class="pc-journal-excerpt">{store.owner_message}</p>
+              </div>
+            </div>
+          </div>
+        ) : null}
+      </div>
+    </div>
   )}
 
-  <!-- Pattern C: 店主の日誌セクション -->
-  <section class="pc-diary">
-    <div class="pc-diary-inner">
-      <p class="pc-section-eyebrow">DIARY</p>
-      <h2 class="pc-section-title">店主の日誌</h2>
-      <p class="pc-section-sub">From the Kitchen</p>
-
-      {diaryEntries.length > 0 ? (
-        diaryEntries.slice(0, 3).map((entry) => (
-          <div class="pc-diary-entry">
-            {entry.date && <p class="pc-diary-date">{entry.date}</p>}
-            <p class="pc-diary-text">{entry.text}</p>
+  {/* ===== Ingredients / 食材（weekly_items データある時のみ）===== */}
+  {weeklyItems.length > 0 && (
+    <div class="pc-section" id="pc-ingredients">
+      <div class="pc-container">
+        <div class="pc-ingredients-grid">
+          <div>
+            <span class="pc-section-eyebrow"><em>Ingredients</em></span>
+            <h2 class="pc-section-title">今週入った、<br>食材・おすすめ。</h2>
+            <p class="pc-section-lead">入荷した瞬間にお客様にもお知らせ。</p>
           </div>
-        ))
-      ) : store.owner_message ? (
-        <div class="pc-diary-entry">
-          <p class="pc-diary-date">オーナーより</p>
-          <p class="pc-diary-text">{store.owner_message}</p>
-        </div>
-      ) : (
-        <p class="pc-diary-empty">（日誌は準備中です）</p>
-      )}
-    </div>
-  </section>
-
-  <!-- メニューセクション -->
-  <section id="menu" class="pc-menu">
-    <div class="pc-menu-inner">
-      <p class="pc-section-eyebrow">MENU</p>
-      <h2 class="pc-section-title">{ui.menu_title}</h2>
-      <p class="pc-section-sub">{ui.menu_featured}</p>
-
-      {store.featured_menu && store.featured_menu.length > 0 ? (
-        <div class="pc-menu-grid">
-          {store.featured_menu.map((item) => (
-            <div class="pc-menu-card">
-              <div>
-                <span class="pc-menu-name">{item.name}</span>
-                {item.price != null && item.price !== '' && (
-                  <span class="pc-menu-price">
-                    {typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}
-                  </span>
-                )}
+          <div class="pc-ing-list">
+            <h4>今週の情報</h4>
+            {weeklyItems.map((item) => (
+              <div class="pc-ing-row">
+                <div class="pc-ing-name">
+                  {item.name}
+                  {item.note && <span class="pc-note">{item.note}</span>}
+                </div>
+                {item.icon && <div class="pc-ing-icon">{item.icon}</div>}
               </div>
-              {item.description && <p class="pc-menu-desc">{item.description}</p>}
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      ) : (
-        <p style="text-align:center; color:var(--pc-muted); padding:3rem 0;">{ui.no_menu}</p>
-      )}
+      </div>
     </div>
-  </section>
+  )}
 
-  <!-- Pattern C: LINE 配信登録セクション -->
-  <section class="pc-line-cta">
-    <div class="pc-line-cta-inner">
-      <div class="pc-line-logo">📱</div>
-      <h2 class="pc-line-title">LINE で最新情報をお届け</h2>
-      <p class="pc-line-desc">
-        今週のおすすめ・日替わりメニュー・イベント情報を<br />
-        LINE でいち早くお届けします。登録は無料です。
-      </p>
-      {store.sns?.line ? (
-        <a href={store.sns.line} class="pc-line-btn">LINE で友達追加</a>
-      ) : (
-        <a href={reservationLink} class="pc-line-btn">予約・問い合わせはこちら</a>
-      )}
+  {/* ===== Menu ===== */}
+  {store.featured_menu && store.featured_menu.length > 0 && (
+    <div class="pc-section pc-menu-bg" id="pc-menu">
+      <div class="pc-container">
+        <span class="pc-section-eyebrow"><em>Today's Menu</em></span>
+        <h2 class="pc-section-title">本日のメニュー。</h2>
+        {budget.length > 0 && <p class="pc-section-lead">予算の目安: {budget.join(' / ')}</p>}
+        <div class="pc-menu-grid">
+          {store.featured_menu.map((item, i) => {
+            const imgClasses = ['', ' pc-mi-2', ' pc-mi-3', ' pc-mi-4', ' pc-mi-5', ' pc-mi-6'];
+            const imgClass = `pc-menu-img${imgClasses[i % imgClasses.length]}`;
+            return (
+              <div class="pc-menu-card">
+                <div class={imgClass}></div>
+                <div class="pc-menu-body">
+                  <div class="pc-menu-name">{item.name}</div>
+                  {item.description && <p class="pc-menu-desc">{item.description}</p>}
+                  {item.price != null && item.price !== '' && (
+                    <div class="pc-menu-price">
+                      {typeof item.price === 'number' ? `¥${item.price.toLocaleString()}` : item.price}
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </div>
-  </section>
+  )}
 
-  <!-- アクセスセクション -->
-  <section id="access" class="pc-access">
-    <div class="pc-access-inner">
-      <p class="pc-section-eyebrow">ACCESS</p>
-      <h2 class="pc-section-title">{ui.access_title}</h2>
-      <p class="pc-section-sub"></p>
+  {/* ===== SNS フィード（Instagram がある場合のみ）===== */}
+  {officialSns?.instagram && (
+    <div class="pc-section">
+      <div class="pc-container">
+        <div class="pc-sns-head">
+          <div>
+            <span class="pc-section-eyebrow"><em>SNS</em></span>
+            <h2 class="pc-section-title" style="margin-bottom:0;">毎日の投稿から。</h2>
+          </div>
+          {instagramHandle && <span class="pc-sns-handle">{instagramHandle}</span>}
+        </div>
+        <p class="pc-section-lead">日々の入荷・新メニュー・お客様との時間。Instagram でもお届けしています。</p>
+        <div class="pc-sns-grid">
+          <div class="pc-sns-cell"></div>
+          <div class="pc-sns-cell pc-sc-2"></div>
+          <div class="pc-sns-cell pc-sc-3"></div>
+          <div class="pc-sns-cell pc-sc-4"></div>
+          <div class="pc-sns-cell pc-sc-5"></div>
+          <div class="pc-sns-cell pc-sc-6"></div>
+        </div>
+        <div style="text-align:center; margin-top:12px;">
+          <a href={officialSns.instagram} target="_blank" rel="noopener noreferrer"
+             style="font-size:13px; color:var(--text-soft);">Instagram を見る →</a>
+        </div>
+      </div>
+    </div>
+  )}
 
-      <div class="pc-info-grid">
+  {/* ===== Visit ===== */}
+  <div class="pc-section" style="background: var(--bg-2);" id="pc-visit">
+    <div class="pc-container">
+      <div class="pc-visit-grid">
+        <div class="pc-map-mock"><div class="pc-map-pin"></div></div>
         <div>
-          <dl class="pc-dl">
-            <dt class="pc-dt">{ui.store_name}</dt>
-            <dd class="pc-dd">{store.name}</dd>
-
-            {store.category && (<>
-              <dt class="pc-dt">{ui.store_category}</dt>
-              <dd class="pc-dd">{store.category}</dd>
-            </>)}
-
-            {store.address && (<>
-              <dt class="pc-dt">{ui.store_address}</dt>
-              <dd class="pc-dd">{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
-            </>)}
-
-            {store.nearest_station && (<>
-              <dt class="pc-dt">{ui.store_station}</dt>
-              <dd class="pc-dd">{store.nearest_station}</dd>
-            </>)}
-
-            {hours.length > 0 && (<>
-              <dt class="pc-dt">{ui.store_hours}</dt>
-              <dd class="pc-dd" set:html={hours.join('<br />')} />
-            </>)}
-
-            {store.tel && (<>
-              <dt class="pc-dt">{ui.store_tel}</dt>
-              <dd class="pc-dd"><a href={`tel:${store.tel}`} style="color:var(--pc-accent);">{store.tel}</a></dd>
-            </>)}
-
-            {store.payment_accepted && (<>
-              <dt class="pc-dt">{ui.store_payment}</dt>
-              <dd class="pc-dd">{store.payment_accepted}</dd>
-            </>)}
+          <span class="pc-section-eyebrow"><em>Visit</em></span>
+          <h2 class="pc-section-title">
+            {store.nearest_station ? `${store.nearest_station}から。` : 'アクセス。'}
+          </h2>
+          <dl class="pc-visit-table">
+            {store.address && (
+              <div class="pc-visit-row">
+                <dt>住所</dt>
+                <dd>{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
+              </div>
+            )}
+            {store.nearest_station && (
+              <div class="pc-visit-row">
+                <dt>アクセス</dt>
+                <dd>{store.nearest_station}</dd>
+              </div>
+            )}
+            {hours.map((h) => (
+              <div class="pc-visit-row">
+                <dt>営業時間</dt>
+                <dd>{h}</dd>
+              </div>
+            ))}
+            {store.tel && (
+              <div class="pc-visit-row">
+                <dt>TEL</dt>
+                <dd><a href={`tel:${store.tel}`}>{store.tel}</a></dd>
+              </div>
+            )}
+            {store.payment_accepted && (
+              <div class="pc-visit-row">
+                <dt>支払い</dt>
+                <dd>{store.payment_accepted}</dd>
+              </div>
+            )}
+            {store.reservation_url && (
+              <div class="pc-visit-row">
+                <dt>予約</dt>
+                <dd><a href={store.reservation_url} target="_blank" rel="noopener" style="color:var(--terracotta);">オンラインで予約する</a></dd>
+              </div>
+            )}
+            <div class="pc-visit-row">
+              <dt>地図</dt>
+              <dd><a href={maps} target="_blank" rel="noopener" style="color:var(--terracotta);">Google マップ →</a></dd>
+            </div>
           </dl>
         </div>
-
-        <div>
-          <div class="pc-map-box">
-            <p style="color:var(--pc-muted); margin-bottom:1rem; font-size:0.9rem;">{ui.access_map}</p>
-            <a href={maps} target="_blank" rel="noopener"
-               style="display:inline-block; border:1px solid var(--pc-accent); color:var(--pc-accent); padding:0.6rem 1.5rem; border-radius:4px; font-size:0.9rem;">
-              {ui.open_in_gmaps}
-            </a>
-          </div>
-        </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- 予約セクション -->
-  <section id="reservation" style="padding:5rem 0; background:var(--pc-bg2, #070a07); text-align:center;">
-    <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-      <p class="pc-section-eyebrow">RESERVATION</p>
-      <h2 class="pc-section-title">{ui.reservation_title}</h2>
-      <p style="color:var(--pc-muted); font-size:0.85rem; margin-bottom:1.5rem;"></p>
-      <p style="color:#8aa88a; max-width:500px; margin:0 auto 2.5rem; line-height:1.9; font-size:0.95rem;">{ui.reservation_lead}</p>
-      <div class="pc-cta-group">
-        <a href={reservationLink} target="_blank" rel="noopener" class="pc-btn-primary">{ui.reserve_button}</a>
-        {store.tel && <a href={`tel:${store.tel}`} class="pc-btn-outline">{store.tel}</a>}
+  {/* ===== Newsletter / LINE CTA ===== */}
+  <div class="pc-nl-section" id="pc-reserve">
+    <div class="pc-container">
+      <h2>最新情報を、<br>いち早くお届けします。</h2>
+      <p>
+        {store.sns?.line
+          ? 'LINE 公式アカウントを友だち追加すると、新メニューや営業情報をいち早くお知らせします。'
+          : 'ご予約・お問い合わせはこちらからどうぞ。'
+        }
+      </p>
+      <div class="pc-nl-actions">
+        {store.sns?.line ? (
+          <>
+            <a class="pc-btn-line" href={store.sns.line} target="_blank" rel="noopener">LINE 公式アカウントを友だち追加</a>
+            <a class="pc-btn-ghost" href={reservationLink} target="_blank" rel="noopener">ご予約はこちら</a>
+          </>
+        ) : (
+          <a class="pc-btn-primary" href={reservationLink} target="_blank" rel="noopener">ご予約・お問い合わせ</a>
+        )}
+        {store.tel && (
+          <a class="pc-btn-ghost" href={`tel:${store.tel}`}>{store.tel}</a>
+        )}
       </div>
-      {store.retty_url && (
-        <p style="margin-top:2rem; font-size:0.85rem; color:#3a5a3a;">
-          <a href={store.retty_url} target="_blank" rel="noopener" style="color:#3a5a3a;">Retty のレビューを見る →</a>
-        </p>
-      )}
     </div>
-  </section>
+  </div>
+</div>
 
 </BaseLayout>

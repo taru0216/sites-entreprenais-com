@@ -1,14 +1,12 @@
 ---
 // Copyright (C) Retty, Inc.
 // foodre Pattern B — コンバージョン直球型（焼肉・寿司・高単価レストラン系）（#78）
-// 川野さん設計: 上半分で予約完結・スマホスティッキー導線
-// 予約・集客を最優先とした高単価レストラン向けデザイン
+// 川野さん設計: スティッキーナビ予約ボタン・ヒーロー内 CTA カード・レビューバー
+// 元デザイン HTML（02_pattern-B_conversion.html）ベースで完全差し替え（store.json 変数バインド済み）
 //
 // factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
-// work-retty PR #276 の templates/restaurant-pattern-b を factory アーキに移植。
 
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { UI } from '../lib/i18n';
 import {
   formatHours, formatBudget, gmapsUrl,
   type Store,
@@ -16,352 +14,630 @@ import {
 
 export interface Props { store: Store; }
 const { store } = Astro.props;
-const ui = UI;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
 const heroDesc = store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
 const stats = store.stats ?? [];
+const features = store.features ?? [];
+const officialSns = store.official_sns ?? null;
+
+// Instagram ハンドル
+const instagramHandle = officialSns?.instagram
+  ? officialSns.instagram.replace(/.*instagram\.com\//, '@').replace(/\/$/, '')
+  : null;
+
+// クチコミ / レビュー URL
+const reviewUrl = store.review_url ?? null;
 ---
 
 <style>
-  /* Pattern B 固有スタイル: コンバージョン直球型 */
-  :root {
-    --pb-gold: #d4a843;
-    --pb-red: #c0392b;
-    --pb-bg: #050505;
-    --pb-bg2: #0a0505;
-    --pb-surface: #0f0808;
-    --pb-muted: #7a6060;
-    --pb-text: #e8d8c8;
+  /* Pattern B 専用スタイル: ダーク炎 × スティッキー CTA × コンバージョン直球型 */
+  .pb-wrap {
+    --pb-orange: #E66A4B;
+    --pb-orange-hover: #D55A3D;
+    --pb-gold: #FFB880;
+    --pb-bg: #1A0E08;
+    --pb-bg-light: #FAF6EF;
+    --pb-ink: #1F1611;
+    --pb-muted: #6B5B4A;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1F1611;
+    background: #FAF6EF;
+    font-size: 15px;
+    line-height: 1.7;
   }
+  .pb-wrap a { color: inherit; text-decoration: none; }
 
-  /* スティッキー予約バー（スマホ最優先）*/
-  .pb-sticky-cta {
-    position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
-    background: #0f0808; border-top: 2px solid var(--pb-gold);
-    padding: 0.75rem 1rem;
-    display: flex; align-items: center; gap: 0.75rem; justify-content: center;
+  /* ===== Sticky Top Nav ===== */
+  .pb-topnav {
+    position: sticky; top: 0; z-index: 200;
+    background: var(--pb-bg); color: #FAF6EF;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
   }
-  .pb-sticky-reserve {
-    display: inline-block;
-    background: var(--pb-red); color: #fff;
-    font-weight: 700; padding: 0.75rem 2rem;
-    border-radius: 4px; font-size: 0.95rem;
-    flex: 1; max-width: 280px; text-align: center;
-    transition: opacity 0.2s;
+  .pb-topnav-inner {
+    max-width: 1080px; margin: 0 auto;
+    padding: 12px 24px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
   }
-  .pb-sticky-reserve:hover { opacity: 0.85; text-decoration: none; }
-  .pb-sticky-tel {
-    display: inline-block;
-    border: 1px solid var(--pb-gold); color: var(--pb-gold);
-    font-weight: 700; padding: 0.75rem 1.25rem;
-    border-radius: 4px; font-size: 0.9rem; white-space: nowrap;
-    transition: background 0.2s;
+  .pb-brand { display: flex; flex-direction: column; gap: 2px; }
+  .pb-brand-name {
+    font-size: 16px; font-weight: 800; letter-spacing: 0.04em;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
   }
-  .pb-sticky-tel:hover { background: rgba(212,168,67,0.1); text-decoration: none; }
-  @media (min-width: 769px) { .pb-sticky-cta { display: none; } }
+  .pb-brand-sub { font-size: 11px; opacity: 0.7; letter-spacing: 0.1em; }
+  .pb-topnav-right { display: flex; gap: 10px; align-items: center; }
+  .pb-tel-link {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 14px; font-weight: 700; letter-spacing: 0.04em;
+    color: #FAF6EF;
+  }
+  .pb-tel-link .pb-lbl { font-size: 10px; opacity: 0.7; letter-spacing: 0.16em; }
+  .pb-btn-cta {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--pb-orange); color: #FFFFFF;
+    padding: 10px 16px; font-size: 14px; font-weight: 800; letter-spacing: 0.06em;
+    border-radius: 6px; transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .pb-btn-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 14px rgba(230,106,75,0.4); }
 
-  /* ヒーロー */
+  /* ===== Container ===== */
+  .pb-container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* ===== Hero ===== */
   .pb-hero {
-    min-height: calc(100vh - 64px);
-    background: linear-gradient(180deg, #1a0505 0%, #050505 100%);
-    display: grid; grid-template-columns: 1fr; align-items: center;
-    padding: 4rem 1.5rem; position: relative; overflow: hidden;
+    position: relative;
+    min-height: 540px;
+    background:
+      linear-gradient(135deg, rgba(26,14,8,0.78), rgba(74,30,14,0.55)),
+      radial-gradient(ellipse at 30% 30%, #F4A256 0%, #C5421F 35%, #6E1B0A 80%, #1A0E08 100%);
+    color: #FAF6EF; overflow: hidden; padding: 56px 0 64px;
   }
   .pb-hero::before {
-    content: ''; position: absolute; inset: 0;
-    background: radial-gradient(ellipse at 30% 50%, rgba(192,57,43,0.15) 0%, transparent 60%);
+    content: ""; position: absolute; inset: 0;
+    background:
+      radial-gradient(circle at 80% 70%, rgba(255,180,80,0.3) 0%, transparent 40%),
+      radial-gradient(circle at 20% 80%, rgba(255,120,60,0.3) 0%, transparent 40%);
     pointer-events: none;
   }
-  .pb-hero-inner {
-    max-width: 1100px; margin: 0 auto; width: 100%;
-    display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: center;
+  .pb-hero-grid {
+    position: relative;
+    display: grid; grid-template-columns: 1.3fr 1fr;
+    gap: 40px; align-items: center;
+    max-width: 1080px; margin: 0 auto; padding: 0 24px;
   }
-  @media (max-width: 768px) { .pb-hero-inner { grid-template-columns: 1fr; } }
-  .pb-hero-badge {
+  .pb-hero-meta-line {
     display: inline-block;
-    border: 1px solid var(--pb-gold); color: var(--pb-gold);
-    font-size: 0.75rem; letter-spacing: 0.2em;
-    padding: 0.3rem 0.9rem; border-radius: 2px;
-    text-transform: uppercase; margin-bottom: 1.5rem;
+    font-size: 11px; letter-spacing: 0.2em;
+    background: rgba(255,255,255,0.12);
+    padding: 5px 14px; border-radius: 999px; margin-bottom: 18px;
   }
   .pb-hero-title {
-    font-size: clamp(3rem, 8vw, 5.5rem); color: #fff;
-    line-height: 1.05; margin-bottom: 1rem; font-weight: 700;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+    font-size: 44px; font-weight: 600; line-height: 1.25;
+    letter-spacing: 0.03em; margin-bottom: 18px;
   }
-  .pb-hero-desc { font-size: 1rem; color: #b89880; margin-bottom: 2.5rem; line-height: 1.9; }
-
-  /* KPIスタッツバッジ（banwaen 水準）*/
-  .pb-stats { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
-  .pb-stat {
-    text-align: center; padding: 0.75rem 1rem;
-    border: 1px solid #2a1a1a; border-radius: 6px;
-    background: rgba(212,168,67,0.05);
-    min-width: 80px;
+  .pb-hero-title .pb-acc { color: var(--pb-gold); }
+  .pb-hero-lead {
+    font-size: 16px; line-height: 1.85;
+    opacity: 0.92; margin-bottom: 24px; max-width: 460px;
   }
-  .pb-stat-val { font-size: 1.5rem; color: var(--pb-gold); font-weight: 700; }
-  .pb-stat-label { font-size: 0.7rem; color: #7a6060; margin-top: 0.25rem; }
+  .pb-hero-stats {
+    display: flex; gap: 24px; padding: 18px 0;
+    border-top: 1px solid rgba(255,255,255,0.18);
+    border-bottom: 1px solid rgba(255,255,255,0.18);
+    margin-bottom: 24px;
+  }
+  .pb-hero-stat .pb-num {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 26px; font-weight: 600;
+    line-height: 1; color: var(--pb-gold);
+  }
+  .pb-hero-stat .pb-lbl { font-size: 10.5px; letter-spacing: 0.12em; opacity: 0.7; margin-top: 6px; }
 
-  .pb-cta-group { display: flex; gap: 1rem; flex-wrap: wrap; }
-  .pb-btn-reserve {
+  /* CTA カード（ヒーロー右側）*/
+  .pb-hero-cta-card {
+    background: rgba(255,255,255,0.97); color: var(--pb-ink);
+    border-radius: 12px; padding: 24px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+  }
+  .pb-hero-cta-card h2 { font-size: 16px; font-weight: 800; margin-bottom: 6px; }
+  .pb-hero-cta-card .pb-sub { font-size: 12px; color: var(--pb-muted); margin-bottom: 16px; }
+  .pb-cta-row { display: grid; grid-template-columns: 1fr; gap: 8px; }
+  .pb-btn-primary {
+    background: var(--pb-orange); color: #FFFFFF;
+    padding: 14px 16px; font-size: 15px; font-weight: 800; letter-spacing: 0.04em;
+    border-radius: 8px; text-align: center; transition: all 0.15s;
+  }
+  .pb-btn-primary:hover { background: var(--pb-orange-hover); transform: translateY(-1px); }
+  .pb-btn-secondary {
+    background: #FAF6EF; color: var(--pb-ink);
+    border: 1.5px solid var(--pb-ink);
+    padding: 12px 16px; font-size: 14px; font-weight: 700; letter-spacing: 0.04em;
+    border-radius: 8px; text-align: center; transition: all 0.15s;
+  }
+  .pb-btn-secondary:hover { background: var(--pb-ink); color: #FAF6EF; }
+  .pb-btn-line {
+    background: #06C755; color: #FFFFFF;
+    padding: 13px 16px; font-size: 14px; font-weight: 700; letter-spacing: 0.04em;
+    border-radius: 8px; text-align: center; transition: all 0.15s;
+  }
+  .pb-btn-line:hover { background: #05A847; }
+
+  /* ===== Review bar ===== */
+  .pb-reviews-bar {
+    background: #FEF3E0;
+    border-top: 3px solid var(--pb-orange);
+  }
+  .pb-reviews-bar-inner {
+    display: flex; flex-wrap: wrap; gap: 24px;
+    align-items: center; justify-content: center;
+    padding: 18px 24px;
+    max-width: 1080px; margin: 0 auto; font-size: 13px;
+  }
+  .pb-review-source { color: var(--pb-muted); font-size: 12px; }
+  .pb-review-source a { color: var(--pb-orange); }
+
+  /* ===== Section common ===== */
+  .pb-section { padding: 64px 0; }
+  .pb-section-label {
     display: inline-block;
-    background: var(--pb-red); color: #fff;
-    font-weight: 700; padding: 1rem 3rem;
-    border-radius: 4px; font-size: 1rem;
-    transition: opacity 0.2s; white-space: nowrap;
+    font-size: 11px; letter-spacing: 0.2em;
+    color: var(--pb-orange); font-weight: 700;
+    margin-bottom: 8px; text-transform: uppercase;
   }
-  .pb-btn-reserve:hover { opacity: 0.85; text-decoration: none; }
-  .pb-btn-menu {
-    display: inline-block;
-    border: 2px solid var(--pb-gold); color: var(--pb-gold);
-    font-weight: 700; padding: 1rem 2.5rem;
-    border-radius: 4px; font-size: 1rem;
-    transition: background 0.2s, color 0.2s; white-space: nowrap;
+  .pb-section-title {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 28px; font-weight: 600;
+    color: var(--pb-ink); margin-bottom: 12px; line-height: 1.4;
   }
-  .pb-btn-menu:hover { background: var(--pb-gold); color: #000; text-decoration: none; }
+  .pb-section-lead {
+    font-size: 14.5px; color: #4A3D31;
+    max-width: 600px; margin-bottom: 36px;
+  }
 
-  /* 予約ボックス（ヒーロー右側・デスクトップ）*/
-  .pb-hero-reserve-box {
-    background: #0f0808; border: 1px solid var(--pb-gold);
-    border-radius: 8px; padding: 2rem 1.5rem;
-    min-width: 240px; text-align: center;
+  /* ===== Strengths ===== */
+  .pb-strengths { background: #FAF6EF; border-top: 1px solid #E8DECB; }
+  .pb-strength-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
   }
-  @media (max-width: 768px) { .pb-hero-reserve-box { display: none; } }
-  .pb-hero-reserve-box h3 { color: var(--pb-gold); font-size: 1rem; margin-bottom: 1.5rem; }
-  .pb-hero-reserve-link {
-    display: block;
-    background: var(--pb-red); color: #fff;
-    font-weight: 700; padding: 0.9rem 1.5rem;
-    border-radius: 4px; font-size: 0.95rem; margin-bottom: 0.75rem;
-    text-align: center; transition: opacity 0.2s;
+  .pb-strength-card {
+    background: #FFFFFF; padding: 28px 24px;
+    border-radius: 10px; border: 1px solid #E8DECB;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   }
-  .pb-hero-reserve-link:hover { opacity: 0.85; text-decoration: none; }
-  .pb-hero-tel-link {
-    display: block;
-    border: 1px solid #3a2020; color: #b89880;
-    font-size: 0.9rem; padding: 0.75rem;
-    border-radius: 4px; text-align: center; transition: border-color 0.2s;
+  .pb-strength-num {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 28px; color: var(--pb-orange); font-weight: 600; margin-bottom: 8px;
   }
-  .pb-hero-tel-link:hover { border-color: var(--pb-gold); text-decoration: none; }
-  .pb-hours-preview { margin-top: 1.5rem; font-size: 0.8rem; color: #5a4040; line-height: 1.6; }
+  .pb-strength-card h3 { font-size: 17px; font-weight: 800; margin-bottom: 8px; color: var(--pb-ink); }
+  .pb-strength-card p { font-size: 13.5px; color: #4A3D31; line-height: 1.75; }
 
-  /* メニューセクション */
-  .pb-menu { padding: 5rem 0 7rem; background: var(--pb-bg); }
-  @media (max-width: 768px) { .pb-menu { padding-bottom: 8rem; } }
-  .pb-menu-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-  .pb-section-eyebrow { font-size: 0.75rem; color: var(--pb-gold); letter-spacing: 0.3em; text-transform: uppercase; text-align: center; margin-bottom: 0.5rem; }
-  .pb-section-title { font-size: clamp(1.5rem, 4vw, 2.2rem); color: #fff; text-align: center; margin-bottom: 0.4rem; }
-  .pb-section-sub { color: var(--pb-muted); font-size: 0.85rem; text-align: center; margin-bottom: 3rem; }
+  /* ===== Menu ===== */
+  .pb-menu-section { background: var(--pb-bg); color: #FAF6EF; }
+  .pb-menu-section .pb-section-title { color: #FAF6EF; }
+  .pb-menu-section .pb-section-lead { color: rgba(250,246,239,0.75); }
+  .pb-menu-section .pb-section-label { color: var(--pb-gold); }
   .pb-menu-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
   }
   .pb-menu-card {
-    background: var(--pb-surface); border: 1px solid #1a0a0a;
-    border-radius: 6px; padding: 1.5rem;
-    border-left: 3px solid var(--pb-gold);
-    transition: border-left-color 0.2s;
+    background: #2A1B11; border: 1px solid #4A3220;
+    border-radius: 10px; overflow: hidden;
   }
-  .pb-menu-card:hover { border-left-color: var(--pb-red); }
-  .pb-menu-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.4rem; }
-  .pb-menu-name { color: #f0e0d0; font-size: 1rem; font-weight: 700; }
-  .pb-menu-price { color: var(--pb-gold); font-size: 0.95rem; flex-shrink: 0; margin-left: 0.5rem; }
-  .pb-menu-desc { color: #7a6060; font-size: 0.88rem; line-height: 1.7; }
+  .pb-menu-img {
+    height: 160px; background-size: cover; background-position: center; position: relative;
+  }
+  .pb-menu-img::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.5));
+  }
+  .pb-menu-tag {
+    position: absolute; top: 10px; left: 10px;
+    background: var(--pb-orange); color: #FFFFFF;
+    font-size: 10px; font-weight: 800; letter-spacing: 0.1em;
+    padding: 3px 8px; border-radius: 3px; z-index: 2;
+  }
+  .pb-mi-1 { background-image: linear-gradient(135deg, #D85E3A 0%, #8E2B14 100%); }
+  .pb-mi-2 { background-image: linear-gradient(135deg, #C5421F 0%, #6E1B0A 100%); }
+  .pb-mi-3 { background-image: linear-gradient(135deg, #E89150 0%, #A65A28 100%); }
+  .pb-mi-4 { background-image: linear-gradient(135deg, #B83419 0%, #5E1505 100%); }
+  .pb-mi-5 { background-image: linear-gradient(135deg, #D17040 0%, #863215 100%); }
+  .pb-mi-6 { background-image: linear-gradient(135deg, #F2A968 0%, #BC6735 100%); }
+  .pb-menu-body { padding: 16px 18px; }
+  .pb-menu-name {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 16px; font-weight: 600;
+    color: #FAF6EF; margin-bottom: 4px;
+  }
+  .pb-menu-desc {
+    font-size: 12px; color: rgba(250,246,239,0.65); line-height: 1.55;
+    margin-bottom: 10px; min-height: 38px;
+  }
+  .pb-menu-price {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 18px; font-weight: 600; color: var(--pb-gold);
+  }
+  .pb-menu-price .pb-yen { font-size: 12px; opacity: 0.85; }
 
-  /* アクセスセクション */
-  .pb-access { padding: 5rem 0; background: var(--pb-bg2); }
-  .pb-access-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-  .pb-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: start; margin-top: 3rem; }
-  .pb-dl { display: grid; grid-template-columns: auto 1fr; gap: 0.75rem 1.5rem; }
-  .pb-dt { color: var(--pb-muted); font-size: 0.9rem; white-space: nowrap; }
-  .pb-dd { color: var(--pb-text); font-size: 0.95rem; margin-left: 0; }
-  .pb-map-box {
-    background: var(--pb-surface); border: 1px solid #1a0a0a;
-    border-radius: 6px; padding: 2rem; text-align: center;
+  /* ===== Voices ===== */
+  .pb-voices { background: #FAF6EF; }
+  .pb-voice-cta { text-align: center; padding: 32px 0; }
+
+  /* ===== Instagram strip ===== */
+  .pb-instagram { background: #FFFFFF; border-top: 1px solid #E8DECB; border-bottom: 1px solid #E8DECB; }
+  .pb-insta-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+  .pb-insta-head h3 { font-size: 16px; font-weight: 700; color: var(--pb-ink); }
+  .pb-insta-handle { font-size: 12px; color: var(--pb-muted); }
+  .pb-insta-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+  .pb-insta-cell { aspect-ratio: 1 / 1; background-size: cover; background-position: center; position: relative; }
+  .pb-insta-cell::after { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.2)); }
+  .pb-ic-1 { background-image: linear-gradient(135deg, #D85E3A, #8E2B14); }
+  .pb-ic-2 { background-image: linear-gradient(135deg, #E89150, #A65A28); }
+  .pb-ic-3 { background-image: linear-gradient(135deg, #C5421F, #6E1B0A); }
+  .pb-ic-4 { background-image: linear-gradient(135deg, #B83419, #5E1505); }
+  .pb-ic-5 { background-image: linear-gradient(135deg, #F2A968, #BC6735); }
+  .pb-ic-6 { background-image: linear-gradient(135deg, #D17040, #863215); }
+
+  /* ===== Access ===== */
+  .pb-access-grid {
+    display: grid; grid-template-columns: 1.2fr 1fr;
+    gap: 32px; align-items: start;
+  }
+  .pb-map-placeholder {
+    aspect-ratio: 4 / 3;
+    background:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      repeating-linear-gradient(0deg, #DAD3C0 0 1px, transparent 1px 24px),
+      repeating-linear-gradient(90deg, #DAD3C0 0 1px, transparent 1px 24px),
+      #FAF6EF;
+    border-radius: 10px; border: 1px solid #E8DECB;
+    position: relative; display: flex; align-items: center; justify-content: center;
+  }
+  .pb-map-pin {
+    width: 36px; height: 36px; background: var(--pb-orange);
+    border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+    box-shadow: 0 6px 18px rgba(230,106,75,0.4); position: relative;
+  }
+  .pb-map-pin::after {
+    content: ""; position: absolute;
+    width: 14px; height: 14px; background: #FFFFFF;
+    border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  }
+  .pb-info-table {
+    background: #FFFFFF; border: 1px solid #E8DECB;
+    border-radius: 10px; overflow: hidden;
+  }
+  .pb-info-row {
+    display: grid; grid-template-columns: 100px 1fr;
+    padding: 14px 18px; border-bottom: 1px solid #F0E8D7; font-size: 13.5px;
+  }
+  .pb-info-row:last-child { border-bottom: none; }
+  .pb-info-row dt {
+    font-weight: 800; color: var(--pb-muted);
+    font-size: 11.5px; letter-spacing: 0.08em; align-self: center;
+  }
+  .pb-info-row dd { color: var(--pb-ink); }
+  .pb-info-row.pb-tel dd { font-weight: 800; font-size: 18px; font-family: "Hiragino Mincho ProN", serif; }
+
+  /* ===== Final CTA ===== */
+  .pb-final-cta {
+    background:
+      linear-gradient(135deg, rgba(26,14,8,0.85), rgba(74,30,14,0.7)),
+      radial-gradient(circle at 50% 50%, #C5421F 0%, #6E1B0A 60%, #1A0E08 100%);
+    color: #FAF6EF; text-align: center; padding: 80px 0;
+  }
+  .pb-final-cta h2 {
+    font-family: "Hiragino Mincho ProN", serif; font-size: 34px; font-weight: 600;
+    margin-bottom: 18px; line-height: 1.4;
+  }
+  .pb-final-cta p { font-size: 15px; opacity: 0.9; max-width: 520px; margin: 0 auto 32px; }
+  .pb-final-cta-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .pb-btn-big {
+    background: var(--pb-orange); color: #FFFFFF;
+    padding: 18px 36px; font-size: 16px; font-weight: 800; letter-spacing: 0.06em;
+    border-radius: 8px; box-shadow: 0 8px 20px rgba(230,106,75,0.4);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .pb-btn-big:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(230,106,75,0.55); }
+  .pb-btn-big-ghost {
+    background: transparent; border: 1.5px solid rgba(250,246,239,0.5); color: #FAF6EF;
+    padding: 18px 36px; font-size: 16px; font-weight: 800; letter-spacing: 0.06em;
+    border-radius: 8px; transition: background 0.15s;
+  }
+  .pb-btn-big-ghost:hover { background: rgba(250,246,239,0.1); }
+
+  /* ===== Sticky bottom (mobile) ===== */
+  .pb-sticky-bottom {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: var(--pb-bg); border-top: 2px solid var(--pb-orange);
+    z-index: 100; display: none; grid-template-columns: 1fr 1fr 1fr;
+  }
+  .pb-sticky-bottom a {
+    padding: 12px 8px; text-align: center; color: #FAF6EF;
+    font-size: 12px; font-weight: 800; letter-spacing: 0.06em;
+    border-right: 1px solid rgba(250,246,239,0.15);
+  }
+  .pb-sticky-bottom a:last-child { border-right: none; }
+  .pb-sticky-bottom a.pb-s-cta { background: var(--pb-orange); }
+  .pb-sticky-bottom a .pb-ic { font-size: 16px; display: block; margin-bottom: 2px; }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 860px) {
+    .pb-hero { padding: 40px 0 48px; }
+    .pb-hero-grid { grid-template-columns: 1fr; gap: 28px; }
+    .pb-hero-title { font-size: 32px; }
+    .pb-strength-grid { grid-template-columns: 1fr; }
+    .pb-menu-grid { grid-template-columns: repeat(2, 1fr); }
+    .pb-insta-grid { grid-template-columns: repeat(3, 1fr); }
+    .pb-access-grid { grid-template-columns: 1fr; }
+    .pb-section-title { font-size: 22px; }
+    .pb-section { padding: 48px 0; }
+    .pb-final-cta { padding: 64px 0; }
+    .pb-final-cta h2 { font-size: 24px; }
+    .pb-wrap { padding-bottom: 68px; }
+    .pb-sticky-bottom { display: grid; }
+    .pb-topnav-right .pb-btn-cta { display: none; }
+    .pb-topnav-right .pb-tel-link { font-size: 12px; }
   }
 </style>
 
 <BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
 
-  <!-- スマホ用スティッキー予約バー -->
-  <div class="pb-sticky-cta">
-    <a href={reservationLink} target="_blank" rel="noopener" class="pb-sticky-reserve">今すぐ予約</a>
-    {store.tel && <a href={`tel:${store.tel}`} class="pb-sticky-tel">📞 {store.tel}</a>}
-  </div>
+<div class="pb-wrap">
+  {/* ===== Sticky Top Nav ===== */}
+  <nav class="pb-topnav">
+    <div class="pb-topnav-inner">
+      <div class="pb-brand">
+        <span class="pb-brand-name">{store.name}</span>
+        {store.category && <span class="pb-brand-sub">{store.category}</span>}
+      </div>
+      <div class="pb-topnav-right">
+        {store.tel && (
+          <a class="pb-tel-link" href={`tel:${store.tel}`}>
+            <span>☎</span>
+            <span>
+              <span class="pb-lbl">TEL</span><br>
+              {store.tel}
+            </span>
+          </a>
+        )}
+        <a class="pb-btn-cta" href={reservationLink} target="_blank" rel="noopener">今すぐ予約</a>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Pattern B: ヒーロー — コンバージョン直球型 -->
-  <section class="pb-hero">
-    <div class="pb-hero-inner">
+  {/* ===== Hero ===== */}
+  <div class="pb-hero">
+    <div class="pb-hero-grid">
       <div>
-        {store.category && <span class="pb-hero-badge">{store.category}</span>}
+        {store.category && (
+          <span class="pb-hero-meta-line">
+            {store.category}
+            {store.nearest_station ? ` ／ ${store.nearest_station}` : ''}
+            {store.address ? ` ／ ${store.address}` : ''}
+          </span>
+        )}
         <h1 class="pb-hero-title">{store.name}</h1>
-        {heroDesc && <p class="pb-hero-desc">{heroDesc}</p>}
-
-        <!-- KPI スタッツバッジ -->
+        {heroDesc && <p class="pb-hero-lead">{heroDesc}</p>}
         {stats.length > 0 && (
-          <div class="pb-stats">
-            {stats.slice(0, 3).map((s) => (
-              <div class="pb-stat">
-                <div class="pb-stat-val">{s.value}</div>
-                <div class="pb-stat-label">{s.label}</div>
+          <div class="pb-hero-stats">
+            {stats.map((s) => (
+              <div class="pb-hero-stat">
+                <div class="pb-num">{s.value}</div>
+                {s.label && <div class="pb-lbl">{s.label}</div>}
               </div>
             ))}
           </div>
         )}
-
-        <div class="pb-cta-group">
-          <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve">
-            🍽️ 予約する
-          </a>
-          <a href="#menu" class="pb-btn-menu">{ui.view_menu}</a>
+      </div>
+      <div class="pb-hero-cta-card">
+        <h2>今すぐご予約。</h2>
+        <p class="pb-sub">ご予約は以下の方法からお選びいただけます。</p>
+        <div class="pb-cta-row">
+          <a class="pb-btn-primary" href={reservationLink} target="_blank" rel="noopener">⌖ Web で今すぐ予約</a>
+          {store.sns?.line && (
+            <a class="pb-btn-line" href={store.sns.line} target="_blank" rel="noopener">LINE で空席を聞く</a>
+          )}
+          {store.tel && (
+            <a class="pb-btn-secondary" href={`tel:${store.tel}`}>☎ 電話で予約 ({store.tel})</a>
+          )}
         </div>
       </div>
+    </div>
+  </div>
 
-      <!-- デスクトップ: 予約ボックス（右カラム）-->
-      <div class="pb-hero-reserve-box">
-        <h3>ご予約</h3>
-        <a href={reservationLink} target="_blank" rel="noopener" class="pb-hero-reserve-link">
-          今すぐ予約する
-        </a>
-        {store.tel && (
-          <a href={`tel:${store.tel}`} class="pb-hero-tel-link">
-            📞 {store.tel}
-          </a>
-        )}
-        {hours.length > 0 && (
-          <div class="pb-hours-preview" set:html={hours.slice(0, 3).join('<br />')} />
-        )}
+  {/* ===== Review Bar（クチコミリンクがある場合）===== */}
+  {reviewUrl && (
+    <div class="pb-reviews-bar">
+      <div class="pb-reviews-bar-inner">
+        <div>
+          <span class="pb-review-source">
+            <a href={reviewUrl} target="_blank" rel="noopener noreferrer">
+              Retty のクチコミを見る →
+            </a>
+          </span>
+        </div>
       </div>
     </div>
-  </section>
+  )}
 
-  <!-- Pattern B: メニューセクション（左ボーダーカードグリッド）-->
-  <section id="menu" class="pb-menu">
-    <div class="pb-menu-inner">
-      <p class="pb-section-eyebrow">MENU</p>
-      <h2 class="pb-section-title">{ui.menu_title}</h2>
-      <p class="pb-section-sub">{ui.menu_featured}</p>
-
-      {store.featured_menu && store.featured_menu.length > 0 ? (
-        <div class="pb-menu-grid">
-          {store.featured_menu.map((item) => (
-            <div class="pb-menu-card">
-              <div class="pb-menu-row">
-                <span class="pb-menu-name">{item.name}</span>
-                {item.price != null && item.price !== '' && (
-                  <span class="pb-menu-price">
-                    {typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}
-                  </span>
-                )}
-              </div>
-              {item.description && <p class="pb-menu-desc">{item.description}</p>}
+  {/* ===== Strengths / features（こだわりデータある時のみ）===== */}
+  {features.length > 0 && (
+    <div class="pb-section pb-strengths">
+      <div class="pb-container">
+        <span class="pb-section-label">{features.length} つの強み</span>
+        <h2 class="pb-section-title">{store.name}の特徴。</h2>
+        {heroDesc && <p class="pb-section-lead">{heroDesc}</p>}
+        <div class="pb-strength-grid">
+          {features.map((f, i) => (
+            <div class="pb-strength-card">
+              <div class="pb-strength-num">{String(i + 1).padStart(2, '0')}</div>
+              <h3>{f.title}</h3>
+              {f.body && <p>{f.body}</p>}
             </div>
           ))}
         </div>
-      ) : (
-        <p style="text-align:center; color:#5a4040; padding:3rem 0;">{ui.no_menu}</p>
-      )}
-
-      <div style="text-align:center; margin-top:3rem;">
-        <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve"
-           style="display:inline-block;">
-          このメニューを食べに行く →
-        </a>
       </div>
     </div>
-  </section>
+  )}
 
-  <!-- Pattern B: アクセスセクション -->
-  <section id="access" class="pb-access">
-    <div class="pb-access-inner">
-      <p class="pb-section-eyebrow">ACCESS</p>
-      <h2 class="pb-section-title">{ui.access_title}</h2>
-      <p class="pb-section-sub"></p>
-
-      <div class="pb-info-grid">
-        <div>
-          <dl class="pb-dl">
-            <dt class="pb-dt">{ui.store_name}</dt>
-            <dd class="pb-dd">{store.name}</dd>
-
-            {store.category && (<>
-              <dt class="pb-dt">{ui.store_category}</dt>
-              <dd class="pb-dd">{store.category}</dd>
-            </>)}
-
-            {store.address && (<>
-              <dt class="pb-dt">{ui.store_address}</dt>
-              <dd class="pb-dd">{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
-            </>)}
-
-            {store.nearest_station && (<>
-              <dt class="pb-dt">{ui.store_station}</dt>
-              <dd class="pb-dd">{store.nearest_station}</dd>
-            </>)}
-
-            {hours.length > 0 && (<>
-              <dt class="pb-dt">{ui.store_hours}</dt>
-              <dd class="pb-dd" set:html={hours.join('<br />')} />
-            </>)}
-
-            {budget.length > 0 && (<>
-              <dt class="pb-dt">{ui.store_budget}</dt>
-              <dd class="pb-dd">{budget.join(' / ')}</dd>
-            </>)}
-
-            {store.tel && (<>
-              <dt class="pb-dt">{ui.store_tel}</dt>
-              <dd class="pb-dd"><a href={`tel:${store.tel}`} style="color:var(--pb-gold);">{store.tel}</a></dd>
-            </>)}
-
-            {store.payment_accepted && (<>
-              <dt class="pb-dt">{ui.store_payment}</dt>
-              <dd class="pb-dd">{store.payment_accepted}</dd>
-            </>)}
-          </dl>
-        </div>
-
-        <div>
-          <div class="pb-map-box">
-            <p style="color:#5a4040; margin-bottom:1rem; font-size:0.9rem;">{ui.access_map}</p>
-            <a href={maps} target="_blank" rel="noopener"
-               style="display:inline-block; border:1px solid var(--pb-gold); color:var(--pb-gold); padding:0.6rem 1.5rem; border-radius:4px; font-size:0.9rem;">
-              {ui.open_in_gmaps}
-            </a>
-          </div>
-
-          <!-- 予約カード（アクセスセクション内）-->
-          <div style="margin-top:1.5rem; background:var(--pb-surface); border:1px solid #1a0a0a; border-radius:6px; padding:1.5rem; text-align:center;">
-            <p style="color:#7a6060; font-size:0.85rem; margin-bottom:1rem;">席の空き確認・予約</p>
-            <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve"
-               style="display:inline-block;">予約する</a>
-          </div>
+  {/* ===== Menu（featured_menu がある場合）===== */}
+  {store.featured_menu && store.featured_menu.length > 0 && (
+    <div class="pb-section pb-menu-section">
+      <div class="pb-container">
+        <span class="pb-section-label">POPULAR MENU</span>
+        <h2 class="pb-section-title">人気メニュー。</h2>
+        {budget.length > 0 && <p class="pb-section-lead">予算の目安: {budget.join(' / ')}</p>}
+        <div class="pb-menu-grid">
+          {store.featured_menu.map((item, i) => {
+            const imgNums = ['pb-mi-1','pb-mi-2','pb-mi-3','pb-mi-4','pb-mi-5','pb-mi-6'];
+            const imgClass = `pb-menu-img ${imgNums[i % imgNums.length]}`;
+            return (
+              <div class="pb-menu-card">
+                <div class={imgClass}>
+                  <span class="pb-menu-tag">#{i + 1}</span>
+                </div>
+                <div class="pb-menu-body">
+                  <div class="pb-menu-name">{item.name}</div>
+                  {item.description && <p class="pb-menu-desc">{item.description}</p>}
+                  {item.price != null && item.price !== '' && (
+                    <div class="pb-menu-price">
+                      {typeof item.price === 'number'
+                        ? <>{`¥${item.price.toLocaleString()}`}<span class="pb-yen"> 税込</span></>
+                        : item.price
+                      }
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
-  </section>
+  )}
 
-  <!-- Pattern B: 予約セクション（フッター手前の大きなCTA）-->
-  <section id="reservation" style="padding:5rem 0; background:#0a0505; text-align:center;">
-    <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-      <p class="pb-section-eyebrow">RESERVATION</p>
-      <h2 class="pb-section-title">{ui.reservation_title}</h2>
-      <p style="color:#7a6060; font-size:0.85rem; margin-bottom:1.5rem;"></p>
-      <p style="color:#b89880; max-width:500px; margin:0 auto 2.5rem; line-height:1.9; font-size:0.95rem;">{ui.reservation_lead}</p>
-      <div class="pb-cta-group" style="justify-content:center;">
-        <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve">
-          今すぐ予約する
-        </a>
-        {store.tel && <a href={`tel:${store.tel}`} class="pb-btn-menu">{store.tel}</a>}
+  {/* ===== 口コミ（has_real_name_reviews && review_url の場合のみ）===== */}
+  {store.has_real_name_reviews && store.review_url && (
+    <div class="pb-section pb-voices">
+      <div class="pb-container">
+        <span class="pb-section-label">VOICES</span>
+        <h2 class="pb-section-title">SNS のお客さまの声。</h2>
+        <p class="pb-section-lead">実際にご来店されたお客様の生の声をご確認いただけます。</p>
+        <div class="pb-voice-cta">
+          <a href={store.review_url} target="_blank" rel="noopener noreferrer" class="pb-btn-primary" style="display:inline-block; padding:14px 36px;">
+            Retty でクチコミを見る →
+          </a>
+        </div>
       </div>
-      {store.retty_url && (
-        <p style="margin-top:2rem; font-size:0.85rem; color:#5a4040;">
-          <a href={store.retty_url} target="_blank" rel="noopener" style="color:#5a4040;">Retty のレビューを見る →</a>
-        </p>
+    </div>
+  )}
+
+  {/* ===== Instagram（公式 SNS がある場合のみ）===== */}
+  {officialSns?.instagram && (
+    <div class="pb-section pb-instagram">
+      <div class="pb-container">
+        <div class="pb-insta-head">
+          <h3>📷 Instagram で日々のお知らせ</h3>
+          {instagramHandle && <span class="pb-insta-handle">{instagramHandle}</span>}
+        </div>
+        <div class="pb-insta-grid">
+          <div class="pb-insta-cell pb-ic-1"></div>
+          <div class="pb-insta-cell pb-ic-2"></div>
+          <div class="pb-insta-cell pb-ic-3"></div>
+          <div class="pb-insta-cell pb-ic-4"></div>
+          <div class="pb-insta-cell pb-ic-5"></div>
+          <div class="pb-insta-cell pb-ic-6"></div>
+        </div>
+        <div style="text-align:center; margin-top:16px;">
+          <a href={officialSns.instagram} target="_blank" rel="noopener noreferrer"
+             style="font-size:13px; color:var(--pb-muted);">Instagram を見る →</a>
+        </div>
+      </div>
+    </div>
+  )}
+
+  {/* ===== Access ===== */}
+  <div class="pb-section">
+    <div class="pb-container">
+      <span class="pb-section-label">ACCESS</span>
+      {store.nearest_station
+        ? <h2 class="pb-section-title">{store.nearest_station}から。</h2>
+        : <h2 class="pb-section-title">アクセス。</h2>
+      }
+      {store.address && <p class="pb-section-lead">{store.address}</p>}
+      <div class="pb-access-grid">
+        <div class="pb-map-placeholder">
+          <div class="pb-map-pin"></div>
+        </div>
+        <dl class="pb-info-table">
+          {store.address && (
+            <div class="pb-info-row">
+              <dt>住所</dt>
+              <dd>{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
+            </div>
+          )}
+          {store.nearest_station && (
+            <div class="pb-info-row">
+              <dt>アクセス</dt>
+              <dd>{store.nearest_station}</dd>
+            </div>
+          )}
+          {store.tel && (
+            <div class="pb-info-row pb-tel">
+              <dt>TEL</dt>
+              <dd><a href={`tel:${store.tel}`}>{store.tel}</a></dd>
+            </div>
+          )}
+          {hours.map((h) => (
+            <div class="pb-info-row">
+              <dt>営業時間</dt>
+              <dd>{h}</dd>
+            </div>
+          ))}
+          {budget.length > 0 && (
+            <div class="pb-info-row">
+              <dt>予算</dt>
+              <dd>{budget.join(' / ')}</dd>
+            </div>
+          )}
+          {store.payment_accepted && (
+            <div class="pb-info-row">
+              <dt>支払い</dt>
+              <dd>{store.payment_accepted}</dd>
+            </div>
+          )}
+          <div class="pb-info-row">
+            <dt>地図</dt>
+            <dd><a href={maps} target="_blank" rel="noopener" style="color:var(--pb-orange);">Google マップ →</a></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  {/* ===== Final CTA ===== */}
+  <div class="pb-final-cta" id="pb-cta">
+    <div class="pb-container">
+      <h2>{store.name}で、<br>特別な時間を。</h2>
+      {heroDesc && <p>{heroDesc}</p>}
+      <div class="pb-final-cta-btns">
+        <a class="pb-btn-big" href={reservationLink} target="_blank" rel="noopener">⌖ Web で今すぐ予約</a>
+        {store.tel && (
+          <a class="pb-btn-big-ghost" href={`tel:${store.tel}`}>☎ {store.tel} に電話</a>
+        )}
+      </div>
+      {store.sns?.line && (
+        <p style="margin-top:28px; font-size:12px; opacity:0.7;">LINE 予約も可能 ・ 24 時間受付</p>
       )}
     </div>
-  </section>
+  </div>
+</div>
+
+{/* ===== Sticky bottom (mobile) ===== */}
+<div class="pb-sticky-bottom">
+  {store.tel && <a href={`tel:${store.tel}`}><span class="pb-ic">☎</span>電話</a>}
+  <a href={reservationLink} target="_blank" rel="noopener" class="pb-s-cta"><span class="pb-ic">⌖</span>予約</a>
+  <a href={maps} target="_blank" rel="noopener"><span class="pb-ic">🗺</span>地図</a>
+</div>
 
 </BaseLayout>

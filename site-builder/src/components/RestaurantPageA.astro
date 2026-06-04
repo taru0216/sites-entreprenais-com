@@ -1,14 +1,12 @@
 ---
 // Copyright (C) Retty, Inc.
 // foodre Pattern A — ストーリードリブン（カフェ・パン屋・スイーツ系）（#78）
-// 川野さん設計: ヒーロー直下に LINE→HP 動的反映デモを統合
-// ブランドストーリー・コンテンツ訴求重視の温かみあるデザイン
+// 川野さん設計: 書体・紙テクスチャ・章立てレイアウトで「物語」を体験させる高質なデザイン
+// 元デザイン HTML（01_pattern-A_story-driven.html）ベースで完全差し替え（store.json 変数バインド済み）
 //
 // factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
-// work-retty PR #276 の templates/restaurant-pattern-a を factory アーキに移植。
 
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { UI } from '../lib/i18n';
 import {
   formatHours, formatBudget, gmapsUrl,
   type Store,
@@ -16,324 +14,609 @@ import {
 
 export interface Props { store: Store; }
 const { store } = Astro.props;
-const ui = UI;
 const hours = formatHours(store);
+const budget = formatBudget(store);
 const maps = gmapsUrl(store);
 const heroDesc = store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
+const ownerStory = store.owner_message || heroDesc || '';
+const features = store.features ?? [];
+const officialSns = store.official_sns ?? null;
 
-// Pattern A カラーテーマ: ウォームベージュ × ブラウン × クリーム
-const accentColor = '#c8855a';   // テラコッタ（暖色アクセント）
-const bgMain = '#1a1208';        // 深いウォームブラック
-const bgSection = '#0f0b07';     // セクション背景
-const textMuted = '#9c8c7a';     // くすんだテキスト
+// 公式 SNS リンク構築
+const officialSnsLinks: { label: string; href: string }[] = [];
+if (officialSns) {
+  if (officialSns.instagram) officialSnsLinks.push({ label: 'Instagram で見る', href: officialSns.instagram });
+  if (officialSns.tiktok) officialSnsLinks.push({ label: 'TikTok で見る', href: officialSns.tiktok });
+  if (officialSns.twitter) officialSnsLinks.push({ label: 'X (Twitter) で見る', href: officialSns.twitter });
+  if (officialSns.facebook) officialSnsLinks.push({ label: 'Facebook で見る', href: officialSns.facebook });
+}
 ---
 
-<style define:vars={{ accentColor, bgMain, bgSection, textMuted }}>
-  :root {
-    --pa-accent: var(--accentColor);
-    --pa-bg: var(--bgMain);
-    --pa-section: var(--bgSection);
-    --pa-muted: var(--textMuted);
+<style>
+  /* Pattern A 専用スタイル: 書体=明朝・紙テクスチャ・章立てデザイン */
+  /* ===== 変数 ===== */
+  .pa-wrap {
+    --paper: #F8F4ED;
+    --paper-2: #F1EADD;
+    --ink: #1A1612;
+    --ink-soft: #4A4036;
+    --text-faint: #8B7E6E;
+    --pa-line: #DDD3C3;
+    --gold: #A88B4C;
+    --warm: #B65A35;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Georgia", serif;
+    background: var(--paper);
+    color: #2A2620;
+    font-size: 15px;
+    line-height: 1.95;
+    letter-spacing: 0.02em;
   }
-  /* Pattern A 固有スタイル */
+  .pa-wrap a { color: inherit; text-decoration: none; }
+
+  /* ===== Nav ===== */
+  .pa-nav {
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 200;
+    padding: 18px 0;
+    background: rgba(248, 244, 237, 0);
+    transition: background 0.3s, padding 0.3s;
+  }
+  .pa-nav.scrolled {
+    background: rgba(248, 244, 237, 0.96);
+    backdrop-filter: blur(12px);
+    padding: 12px 0;
+    border-bottom: 1px solid var(--pa-line);
+  }
+  .pa-nav-inner {
+    max-width: 1040px; margin: 0 auto;
+    padding: 0 28px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .pa-brand {
+    font-size: 18px; font-weight: 400;
+    letter-spacing: 0.18em; color: var(--ink);
+  }
+  .pa-nav-links {
+    display: flex; gap: 30px; font-size: 12px;
+    letter-spacing: 0.12em; color: var(--ink-soft);
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+  .pa-nav-links a:hover { color: var(--warm); }
+
+  /* ===== Container ===== */
+  .pa-container { max-width: 1040px; margin: 0 auto; padding: 0 28px; }
+
+  /* ===== Hero ===== */
   .pa-hero {
-    min-height: calc(100vh - 64px);
-    display: flex; flex-direction: column;
-    align-items: center; justify-content: center;
-    text-align: center; padding: 4rem 1.5rem;
-    background: radial-gradient(ellipse at 50% 30%, #3d2a1a 0%, #0f0b07 60%);
     position: relative;
+    height: 100vh; min-height: 640px; overflow: hidden;
+    background:
+      linear-gradient(135deg, rgba(26,22,18,0.45) 0%, rgba(26,22,18,0.2) 50%, rgba(26,22,18,0.55) 100%),
+      radial-gradient(ellipse at 30% 40%, #8C6A3F 0%, #4A2F18 60%, #1A0E08 100%);
   }
-  .pa-hero-label {
-    font-size: 0.8rem; color: var(--pa-accent);
-    letter-spacing: 0.3em; margin-bottom: 1.2rem;
-    text-transform: uppercase;
+  .pa-hero::after {
+    content: "";
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(circle at 70% 30%, rgba(255,210,150,0.15) 0%, transparent 50%),
+      radial-gradient(circle at 20% 70%, rgba(255,160,110,0.12) 0%, transparent 50%);
+    pointer-events: none;
   }
-  .pa-hero-title {
-    font-size: clamp(2.8rem, 9vw, 5rem);
-    color: #f5ede3; line-height: 1.1;
-    margin-bottom: 1rem; font-weight: 700;
+  .pa-hero-inner {
+    position: relative; height: 100%;
+    max-width: 1040px; margin: 0 auto; padding: 0 28px;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    text-align: center; color: #F8F4ED;
+  }
+  .pa-hero-prelude {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    font-size: 11px; letter-spacing: 0.4em;
+    margin-bottom: 28px; opacity: 0.75; text-transform: uppercase;
+  }
+  .pa-hero h1 {
+    font-size: 58px; font-weight: 300;
+    letter-spacing: 0.06em; line-height: 1.35; margin-bottom: 26px;
   }
   .pa-hero-sub {
-    font-size: 1rem; color: #c8b49a;
-    margin-bottom: 2.5rem; line-height: 1.9;
-    max-width: 520px;
+    font-size: 15px; line-height: 2.1;
+    max-width: 560px; margin: 0 auto 36px; opacity: 0.85;
   }
-  .pa-cta-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  .pa-hero-cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
   .pa-btn-primary {
     display: inline-block;
-    background: var(--pa-accent); color: #fff;
-    font-weight: 700; padding: 0.85rem 2.5rem;
-    border-radius: 24px; font-size: 1rem;
-    transition: opacity 0.2s;
+    background: var(--warm); color: #F8F4ED;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    padding: 14px 36px; font-size: 13px; font-weight: 700; letter-spacing: 0.18em;
+    border-radius: 1px; transition: opacity 0.2s;
   }
-  .pa-btn-primary:hover { opacity: 0.85; text-decoration: none; }
+  .pa-btn-primary:hover { opacity: 0.85; }
   .pa-btn-outline {
     display: inline-block;
-    border: 2px solid var(--pa-accent); color: var(--pa-accent);
-    font-weight: 700; padding: 0.85rem 2.5rem;
-    border-radius: 24px; font-size: 1rem;
-    transition: background 0.2s, color 0.2s;
+    border: 1px solid rgba(248,244,237,0.5); color: #F8F4ED;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    padding: 14px 36px; font-size: 13px; font-weight: 700; letter-spacing: 0.18em;
+    border-radius: 1px; transition: background 0.2s;
   }
-  .pa-btn-outline:hover { background: var(--pa-accent); color: #fff; text-decoration: none; }
+  .pa-btn-outline:hover { background: rgba(248,244,237,0.1); }
+  .pa-hero-scroll {
+    position: absolute; bottom: 36px; left: 50%;
+    transform: translateX(-50%);
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    font-size: 10.5px; letter-spacing: 0.3em;
+    color: #F8F4ED; opacity: 0.7; text-transform: uppercase;
+  }
+  .pa-hero-scroll::after {
+    content: ""; display: block;
+    width: 1px; height: 32px;
+    background: rgba(248,244,237,0.6);
+    margin: 12px auto 0;
+    animation: paScrollLine 2s ease-in-out infinite;
+  }
+  @keyframes paScrollLine {
+    0%, 100% { transform: scaleY(1); }
+    50% { transform: scaleY(0.4); transform-origin: top; }
+  }
 
-  /* LINE デモセクション */
-  .pa-line-demo {
-    padding: 4rem 0;
-    background: linear-gradient(135deg, #0f1a0f 0%, #0a150a 100%);
-    border-top: 1px solid #1e2e1e;
-    border-bottom: 1px solid #1e2e1e;
+  /* ===== Section common ===== */
+  .pa-section { padding: 120px 0; }
+  .pa-section-alt { background: var(--paper-2); }
+  .pa-chapter-mark {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    font-size: 10.5px; letter-spacing: 0.35em;
+    color: var(--warm); margin-bottom: 28px; text-transform: uppercase;
   }
-  .pa-line-demo-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
-  .pa-line-badge {
-    display: inline-flex; align-items: center; gap: 0.5rem;
-    background: #06c755; color: #fff;
-    font-size: 0.85rem; font-weight: 700;
-    padding: 0.35rem 1rem; border-radius: 20px;
-    margin-bottom: 1.5rem;
+  .pa-chapter-mark em { font-style: italic; font-family: "Georgia", serif; text-transform: none; color: var(--warm); }
+  .pa-disp {
+    font-size: 38px; font-weight: 400;
+    letter-spacing: 0.04em; line-height: 1.4;
+    color: var(--ink); margin-bottom: 32px;
   }
-  .pa-line-demo-title {
-    font-size: clamp(1.3rem, 3vw, 1.8rem); color: #e8f5e9;
-    margin-bottom: 0.75rem;
+  .pa-body-text { font-size: 15.5px; line-height: 2.15; color: var(--ink-soft); max-width: 560px; }
+  .pa-body-text p { margin-bottom: 22px; }
+  .pa-body-text p:last-child { margin-bottom: 0; }
+
+  /* ===== Story ===== */
+  .pa-story-grid {
+    display: grid; grid-template-columns: 1fr 1.15fr;
+    gap: 60px; align-items: center;
   }
-  .pa-line-demo-desc { color: #8faa90; font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.8; }
-  .pa-line-flow {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
+  .pa-portrait {
+    aspect-ratio: 4/5;
+    background:
+      linear-gradient(135deg, rgba(26,14,8,0.2), rgba(74,30,14,0.1)),
+      radial-gradient(ellipse at 50% 45%, #C9966B 0%, #7A4E2E 60%, #2A1810 100%);
+    border-radius: 2px; position: relative; overflow: hidden;
   }
-  .pa-line-step {
-    background: #0d1f0d; border: 1px solid #1a3a1a;
-    border-radius: 12px; padding: 1.5rem; text-align: center;
-  }
-  .pa-line-step-num {
-    width: 36px; height: 36px; border-radius: 50%;
-    background: #06c755; color: #fff;
-    font-weight: 700; font-size: 1rem;
+  .pa-portrait-emoji {
+    position: absolute; inset: 0;
     display: flex; align-items: center; justify-content: center;
-    margin: 0 auto 0.75rem;
+    font-size: 120px; opacity: 0.5;
+    filter: grayscale(0.3) sepia(0.4);
   }
-  .pa-line-step-title { color: #c8e6c9; font-size: 0.95rem; font-weight: 700; margin-bottom: 0.4rem; }
-  .pa-line-step-desc { color: #6a8e6a; font-size: 0.85rem; line-height: 1.6; }
+  .pa-portrait-cap {
+    position: absolute; bottom: 24px; left: 24px;
+    color: #F8F4ED;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.85;
+  }
+  .pa-portrait-cap strong {
+    display: block;
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 18px; letter-spacing: 0.06em; margin-bottom: 4px;
+    text-transform: none; opacity: 1;
+  }
 
-  /* ストーリーセクション */
-  .pa-story { padding: 5rem 0; background: var(--pa-section); }
-  .pa-story-inner { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; text-align: center; }
-  .pa-section-label { font-size: 0.75rem; color: var(--pa-accent); letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 0.5rem; }
-  .pa-section-title { font-size: clamp(1.5rem, 4vw, 2.2rem); color: #f5ede3; margin-bottom: 0.5rem; }
-  .pa-section-sub { color: var(--pa-muted); font-size: 0.85rem; margin-bottom: 3rem; }
-  .pa-story-body { color: #c8b49a; font-size: 1rem; line-height: 2.1; }
+  /* ===== Source img placeholder ===== */
+  .pa-source-img {
+    aspect-ratio: 5/4;
+    background:
+      linear-gradient(rgba(26,14,8,0.1), rgba(26,14,8,0.3)),
+      radial-gradient(ellipse at 40% 40%, #BCAD8A 0%, #6E5E3B 60%, #2A2316 100%);
+    border-radius: 2px; position: relative;
+  }
+  .pa-source-img::after {
+    content: "🌿"; position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 100px; opacity: 0.5;
+  }
 
-  /* メニューセクション */
-  .pa-menu { padding: 5rem 0; background: #0a0806; }
-  .pa-menu-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+  /* ===== Features list ===== */
+  .pa-feature-list { margin-top: 24px; border-top: 1px solid var(--pa-line); }
+  .pa-feature-row {
+    padding: 14px 0; border-bottom: 1px solid var(--pa-line);
+    display: grid; grid-template-columns: 40px 1fr; gap: 16px;
+    font-size: 13px; align-items: baseline;
+  }
+  .pa-feature-icon { font-size: 20px; }
+  .pa-feature-title { color: var(--ink); font-weight: 500; }
+  .pa-feature-body { color: var(--ink-soft); font-size: 12.5px; margin-top: 4px; line-height: 1.7; }
+
+  /* ===== Menu ===== */
   .pa-menu-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1.5rem; margin-bottom: 1rem;
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
   }
-  .pa-menu-card {
-    background: #1a1410; border: 1px solid #2d2219;
-    border-radius: 12px; padding: 1.5rem;
-    transition: border-color 0.2s;
+  .pa-dish { text-align: left; }
+  .pa-dish-img {
+    aspect-ratio: 1/1;
+    background: radial-gradient(ellipse at 40% 40%, #E5C9A1 0%, #6E4825 100%);
+    margin-bottom: 18px; border-radius: 2px;
   }
-  .pa-menu-card:hover { border-color: var(--pa-accent); }
-  .pa-menu-card-name { color: #f5ede3; font-size: 1rem; font-weight: 700; margin-bottom: 0.35rem; }
-  .pa-menu-card-price { color: var(--pa-accent); font-size: 0.9rem; float: right; }
-  .pa-menu-card-desc { color: #9c8c7a; font-size: 0.88rem; line-height: 1.7; margin-top: 0.4rem; clear: both; }
+  .pa-dish-img-2 { background: radial-gradient(ellipse at 40% 40%, #C9966B 0%, #6E3F1E 100%); }
+  .pa-dish-img-3 { background: radial-gradient(ellipse at 40% 40%, #B3A582 0%, #4F4A2F 100%); }
+  .pa-dish-num {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    font-size: 10.5px; letter-spacing: 0.18em; color: var(--warm); margin-bottom: 6px;
+  }
+  .pa-dish h3 {
+    font-size: 17px; font-weight: 500; line-height: 1.45;
+    margin-bottom: 8px; letter-spacing: 0.04em;
+  }
+  .pa-dish p { font-size: 13px; color: var(--ink-soft); line-height: 1.85; }
+  .pa-dish-price {
+    font-size: 14px; color: var(--gold); margin-top: 8px;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+  .pa-course-info {
+    margin-top: 64px; padding: 36px 40px;
+    background: var(--paper);
+    border-top: 1px solid var(--pa-line);
+    border-bottom: 1px solid var(--pa-line);
+    display: grid; grid-template-columns: 1fr auto;
+    align-items: center; gap: 20px;
+  }
+  .pa-course-info h4 {
+    font-size: 17px; font-weight: 500; letter-spacing: 0.06em; margin-bottom: 6px;
+  }
+  .pa-course-info p {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    font-size: 12px; color: var(--text-faint); line-height: 1.7;
+  }
 
-  /* アクセスセクション */
-  .pa-access { padding: 5rem 0; background: var(--pa-bg); }
-  .pa-access-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-  .pa-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: start; }
-  .pa-dt { color: var(--pa-muted); font-size: 0.9rem; white-space: nowrap; }
-  .pa-dd { color: #e8ddd4; font-size: 0.95rem; margin-left: 0; }
-  .pa-map-placeholder {
-    background: #1a1410; border: 1px solid #2d2219;
-    border-radius: 12px; padding: 2rem; text-align: center;
+  /* ===== Visit ===== */
+  .pa-visit-grid {
+    display: grid; grid-template-columns: 1fr 1.05fr;
+    gap: 60px; align-items: center;
   }
+  .pa-visit-table { margin-top: 24px; border-top: 1px solid var(--pa-line); }
+  .pa-visit-row {
+    display: grid; grid-template-columns: 100px 1fr;
+    padding: 16px 0; border-bottom: 1px solid var(--pa-line);
+    font-size: 13.5px; align-items: baseline;
+  }
+  .pa-visit-row dt {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    font-size: 10.5px; letter-spacing: 0.16em;
+    color: var(--text-faint); text-transform: uppercase;
+  }
+  .pa-visit-row dd { color: var(--ink); letter-spacing: 0.03em; }
+  .pa-map-mock {
+    aspect-ratio: 4/5;
+    background:
+      linear-gradient(rgba(255,255,255,0.78), rgba(255,255,255,0.78)),
+      repeating-linear-gradient(0deg, #D9CFBC 0 1px, transparent 1px 32px),
+      repeating-linear-gradient(90deg, #D9CFBC 0 1px, transparent 1px 32px),
+      var(--paper);
+    border: 1px solid var(--pa-line);
+    position: relative; display: flex; align-items: center; justify-content: center;
+  }
+  .pa-map-pin {
+    width: 30px; height: 30px;
+    background: var(--warm);
+    border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+    box-shadow: 0 8px 22px rgba(182,90,53,0.4);
+    position: relative;
+  }
+  .pa-map-pin::after {
+    content: ""; position: absolute;
+    width: 11px; height: 11px; background: var(--paper);
+    border-radius: 50%; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pa-gmaps-link {
+    display: inline-block;
+    border: 1px solid var(--pa-line); color: var(--ink-soft);
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    padding: 10px 24px; font-size: 12px; letter-spacing: 0.12em;
+    border-radius: 1px; margin-top: 20px;
+    transition: all 0.2s;
+  }
+  .pa-gmaps-link:hover { border-color: var(--warm); color: var(--warm); }
 
-  /* 予約セクション */
-  .pa-reservation { padding: 5rem 0; background: var(--pa-section); }
-  .pa-reservation-inner { max-width: 700px; margin: 0 auto; padding: 0 1.5rem; text-align: center; }
+  /* ===== Reservation ===== */
+  .pa-reserve-section { text-align: center; }
+  .pa-reserve-btn {
+    display: inline-block;
+    background: var(--ink); color: var(--paper);
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    padding: 18px 48px; font-size: 13px; letter-spacing: 0.22em;
+    border-radius: 1px; transition: all 0.2s;
+  }
+  .pa-reserve-btn:hover { background: var(--warm); transform: translateY(-1px); }
+  .pa-reserve-tel {
+    display: inline-block;
+    margin-left: 16px;
+    border: 1px solid var(--ink); color: var(--ink);
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    padding: 18px 36px; font-size: 13px; letter-spacing: 0.12em;
+    border-radius: 1px; transition: all 0.2s;
+  }
+  .pa-reserve-tel:hover { background: var(--ink); color: var(--paper); }
+
+  /* ===== SNS links ===== */
+  .pa-sns-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
+  .pa-sns-btn {
+    display: inline-block;
+    border: 1px solid var(--pa-line); color: var(--ink-soft);
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    padding: 10px 24px; font-size: 12px; letter-spacing: 0.12em;
+    border-radius: 1px; transition: all 0.2s;
+  }
+  .pa-sns-btn:hover { border-color: var(--warm); color: var(--warm); }
+
+  /* ===== Floating CTA ===== */
+  .pa-float-cta {
+    position: fixed; bottom: 36px; right: 36px;
+    background: var(--ink); color: var(--paper);
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    padding: 14px 22px; font-size: 12px; letter-spacing: 0.15em;
+    border-radius: 999px; z-index: 50;
+    box-shadow: 0 12px 28px rgba(26,22,18,0.25);
+    transition: all 0.2s;
+  }
+  .pa-float-cta:hover { background: var(--warm); transform: translateY(-2px); }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 840px) {
+    .pa-section { padding: 80px 0; }
+    .pa-hero h1 { font-size: 36px; }
+    .pa-hero-sub { font-size: 14px; }
+    .pa-disp { font-size: 26px; }
+    .pa-story-grid, .pa-visit-grid { grid-template-columns: 1fr; gap: 36px; }
+    .pa-menu-grid { grid-template-columns: 1fr; }
+    .pa-course-info { grid-template-columns: 1fr; text-align: left; }
+    .pa-nav-links { display: none; }
+    .pa-float-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 11px; }
+  }
 </style>
 
 <BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
 
-  <!-- Pattern A: ヒーロー — ストーリードリブン -->
-  <section class="pa-hero">
-    <div style="max-width:700px;">
-      {store.category && <p class="pa-hero-label">{store.category}</p>}
-      <h1 class="pa-hero-title">{store.name}</h1>
+<div class="pa-wrap">
+  {/* ===== Nav ===== */}
+  <nav class="pa-nav" id="pa-nav">
+    <div class="pa-nav-inner">
+      <div class="pa-brand">{store.name}</div>
+      <div class="pa-nav-links">
+        <a href="#pa-story">ストーリー</a>
+        {features.length > 0 && <a href="#pa-features">こだわり</a>}
+        <a href="#pa-menu">メニュー</a>
+        <a href="#pa-visit">アクセス</a>
+      </div>
+    </div>
+  </nav>
+
+  {/* ===== Hero ===== */}
+  <div class="pa-hero">
+    <div class="pa-hero-inner">
+      {store.category && (
+        <div class="pa-hero-prelude">{store.category}{store.address ? ` — ${store.address}` : ''}</div>
+      )}
+      <h1>{store.name}</h1>
       {heroDesc && <p class="pa-hero-sub">{heroDesc}</p>}
-      <div class="pa-cta-group">
-        <a href="#story" class="pa-btn-primary">ストーリーを読む</a>
-        <a href="#reservation" class="pa-btn-outline">{ui.reserve_button}</a>
+      <div class="pa-hero-cta">
+        <a class="pa-btn-primary" href={reservationLink} target="_blank" rel="noopener">ご予約はこちら</a>
+        <a class="pa-btn-outline" href="#pa-story">ストーリーを読む</a>
       </div>
     </div>
-    <div style="position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); color:#6b5a4a; font-size:0.75rem; display:flex; flex-direction:column; align-items:center; gap:0.4rem;">
-      <span>SCROLL</span>
-      <span style="display:block; width:1px; height:28px; background:linear-gradient(to bottom,#6b5a4a,transparent);"></span>
-    </div>
-  </section>
+    <div class="pa-hero-scroll">Scroll</div>
+  </div>
 
-  <!-- Pattern A 特徴: LINE→HP 動的反映デモセクション -->
-  <section class="pa-line-demo">
-    <div class="pa-line-demo-inner">
-      <div class="pa-line-badge">
-        <span style="font-size:1.1rem;">📱</span> LINE 連携
-      </div>
-      <h2 class="pa-line-demo-title">LINE で投稿 → ホームページに自動反映</h2>
-      <p class="pa-line-demo-desc">
-        お知らせや新商品情報を LINE に投稿するだけで、このホームページが自動的に更新されます。<br />
-        専門知識不要 — SNS 感覚でホームページを運用できます。
-      </p>
-      <div class="pa-line-flow">
-        <div class="pa-line-step">
-          <div class="pa-line-step-num">1</div>
-          <div class="pa-line-step-title">LINE に投稿</div>
-          <div class="pa-line-step-desc">写真・テキストを普段の LINE 感覚で送るだけ</div>
+  {/* ===== Chapter 01 Story ===== */}
+  <div class="pa-section" id="pa-story">
+    <div class="pa-container">
+      <div class="pa-story-grid">
+        <div class="pa-portrait">
+          <div class="pa-portrait-emoji">👨‍🍳</div>
+          <div class="pa-portrait-cap">
+            <strong>{store.name}</strong>
+            CHEF / OWNER
+          </div>
         </div>
-        <div class="pa-line-step">
-          <div class="pa-line-step-num">2</div>
-          <div class="pa-line-step-title">自動で変換</div>
-          <div class="pa-line-step-desc">AI がコンテンツを最適化してページ用に整形</div>
-        </div>
-        <div class="pa-line-step">
-          <div class="pa-line-step-num">3</div>
-          <div class="pa-line-step-title">HP に反映</div>
-          <div class="pa-line-step-desc">数分後にはホームページが最新情報に更新される</div>
+        <div>
+          <div class="pa-chapter-mark"><em>Chapter 01 ・</em> 店主の物語</div>
+          <h2 class="pa-disp">{store.name}について</h2>
+          {ownerStory ? (
+            <div class="pa-body-text"><p>{ownerStory}</p></div>
+          ) : (
+            <div class="pa-body-text">
+              <p>{store.category ? `${store.category}専門の` : ''}{store.name}へようこそ。{store.address ? `${store.address}にて` : ''}ご来店をお待ちしております。</p>
+            </div>
+          )}
         </div>
       </div>
-      {store.sns?.line && (
-        <div style="margin-top: 2rem; text-align: center;">
-          <a href={store.sns.line} style="display:inline-block; background:#06c755; color:#fff; font-weight:700; padding:0.85rem 2.5rem; border-radius:24px; font-size:1rem;">LINE で友達追加</a>
+    </div>
+  </div>
+
+  {/* ===== Chapter 02 Features / こだわり（データある時のみ）===== */}
+  {features.length > 0 && (
+    <div class="pa-section pa-section-alt" id="pa-features">
+      <div class="pa-container">
+        <div style="display:grid; grid-template-columns: 1.15fr 1fr; gap: 60px; align-items: center;">
+          <div>
+            <div class="pa-chapter-mark"><em>Chapter 02 ・</em> こだわり</div>
+            <h2 class="pa-disp">私たちが大切にすること。</h2>
+            <div class="pa-feature-list">
+              {features.map((f) => (
+                <div class="pa-feature-row">
+                  <div class="pa-feature-icon">{f.icon ?? '●'}</div>
+                  <div>
+                    <div class="pa-feature-title">{f.title}</div>
+                    {f.body && <p class="pa-feature-body">{f.body}</p>}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="pa-source-img"></div>
         </div>
-      )}
+      </div>
     </div>
-  </section>
+  )}
 
-  <!-- ストーリーセクション -->
-  <section id="story" class="pa-story">
-    <div class="pa-story-inner">
-      <p class="pa-section-label">STORY</p>
-      <h2 class="pa-section-title">私たちについて</h2>
-      <p class="pa-section-sub">OUR STORY</p>
-      {store.owner_message ? (
-        <p class="pa-story-body">{store.owner_message}</p>
-      ) : heroDesc ? (
-        <p class="pa-story-body">{heroDesc}</p>
-      ) : (
-        <p class="pa-story-body" style="color:#5a4a3a;">（オーナーからのメッセージは準備中です）</p>
-      )}
-    </div>
-  </section>
-
-  <!-- メニューセクション -->
-  <section id="menu" class="pa-menu">
-    <div class="pa-menu-inner">
-      <p class="pa-section-label" style="text-align:center;">MENU</p>
-      <h2 class="pa-section-title" style="text-align:center;">{ui.menu_title}</h2>
-      <p class="pa-section-sub" style="text-align:center;">{ui.menu_featured}</p>
-
+  {/* ===== Chapter 03 Menu ===== */}
+  <div class="pa-section" id="pa-menu">
+    <div class="pa-container">
+      <div style="text-align: center; margin-bottom: 60px;">
+        <div class="pa-chapter-mark"><em>Chapter 03 ・</em> メニュー</div>
+        <h2 class="pa-disp">おすすめのメニュー。</h2>
+        {budget.length > 0 && (
+          <p style="font-family:'Hiragino Kaku Gothic ProN',sans-serif; font-size:13px; color:var(--text-faint);">予算の目安: {budget.join(' / ')}</p>
+        )}
+      </div>
       {store.featured_menu && store.featured_menu.length > 0 ? (
-        <div class="pa-menu-grid">
-          {store.featured_menu.map((item) => (
-            <div class="pa-menu-card">
-              <div>
-                <span class="pa-menu-card-name">{item.name}</span>
+        <>
+          <div class="pa-menu-grid">
+            {store.featured_menu.slice(0, 3).map((item, i) => (
+              <div class="pa-dish">
+                <div class={`pa-dish-img${i === 1 ? ' pa-dish-img-2' : i === 2 ? ' pa-dish-img-3' : ''}`}></div>
+                <div class="pa-dish-num">— {String(i + 1).padStart(2, '0')} —</div>
+                <h3>{item.name}</h3>
+                {item.description && <p>{item.description}</p>}
                 {item.price != null && item.price !== '' && (
-                  <span class="pa-menu-card-price">
-                    {typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}
-                  </span>
+                  <div class="pa-dish-price">
+                    {typeof item.price === 'number' ? `¥${item.price.toLocaleString()}` : item.price}
+                  </div>
                 )}
               </div>
-              {item.description && <p class="pa-menu-card-desc">{item.description}</p>}
+            ))}
+          </div>
+          {store.featured_menu.length > 3 && (
+            <div class="pa-course-info">
+              <div>
+                <h4>その他のメニュー（全 {store.featured_menu.length} 品）</h4>
+                <p>さらに豊富なメニューをご用意しております。詳しくはお問い合わせください。</p>
+              </div>
             </div>
-          ))}
-        </div>
+          )}
+        </>
       ) : (
-        <p style="text-align:center; color:#5a4a3a; padding: 3rem 0;">{ui.no_menu}</p>
+        <p style="text-align:center; color:var(--text-faint); padding:3rem 0; font-family:'Hiragino Kaku Gothic ProN',sans-serif;">メニューは準備中です。お電話でお問い合わせください。</p>
       )}
     </div>
-  </section>
+  </div>
 
-  <!-- アクセスセクション -->
-  <section id="access" class="pa-access">
-    <div class="pa-access-inner">
-      <p class="pa-section-label" style="text-align:center;">ACCESS</p>
-      <h2 class="pa-section-title" style="text-align:center;">{ui.access_title}</h2>
-      <p class="pa-section-sub" style="text-align:center; margin-bottom:3rem;"></p>
-
-      <div class="pa-info-grid">
+  {/* ===== Chapter 04 Visit ===== */}
+  <div class="pa-section" id="pa-visit">
+    <div class="pa-container">
+      <div class="pa-visit-grid">
         <div>
-          <dl style="display:grid; grid-template-columns:auto 1fr; gap:0.75rem 1.5rem;">
-            <dt class="pa-dt">{ui.store_name}</dt>
-            <dd class="pa-dd">{store.name}</dd>
-
-            {store.category && (<>
-              <dt class="pa-dt">{ui.store_category}</dt>
-              <dd class="pa-dd">{store.category}</dd>
-            </>)}
-
-            {store.address && (<>
-              <dt class="pa-dt">{ui.store_address}</dt>
-              <dd class="pa-dd">{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
-            </>)}
-
-            {store.nearest_station && (<>
-              <dt class="pa-dt">{ui.store_station}</dt>
-              <dd class="pa-dd">{store.nearest_station}</dd>
-            </>)}
-
-            {hours.length > 0 && (<>
-              <dt class="pa-dt">{ui.store_hours}</dt>
-              <dd class="pa-dd" set:html={hours.join('<br />')} />
-            </>)}
-
-            {store.tel && (<>
-              <dt class="pa-dt">{ui.store_tel}</dt>
-              <dd class="pa-dd"><a href={`tel:${store.tel}`} style="color:var(--pa-accent);">{store.tel}</a></dd>
-            </>)}
-
-            {store.payment_accepted && (<>
-              <dt class="pa-dt">{ui.store_payment}</dt>
-              <dd class="pa-dd">{store.payment_accepted}</dd>
-            </>)}
+          <div class="pa-chapter-mark"><em>Chapter 04 ・</em> 訪れる</div>
+          <h2 class="pa-disp">{store.nearest_station ? `${store.nearest_station}から。` : 'アクセス。'}</h2>
+          {store.address && <div class="pa-body-text"><p>{store.address}</p></div>}
+          <dl class="pa-visit-table">
+            {store.address && (
+              <div class="pa-visit-row">
+                <dt>Address</dt>
+                <dd>{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
+              </div>
+            )}
+            {store.nearest_station && (
+              <div class="pa-visit-row">
+                <dt>Access</dt>
+                <dd>{store.nearest_station}</dd>
+              </div>
+            )}
+            {hours.map((h) => (
+              <div class="pa-visit-row">
+                <dt>Open</dt>
+                <dd>{h}</dd>
+              </div>
+            ))}
+            {store.tel && (
+              <div class="pa-visit-row">
+                <dt>TEL</dt>
+                <dd><a href={`tel:${store.tel}`}>{store.tel}</a></dd>
+              </div>
+            )}
+            {store.payment_accepted && (
+              <div class="pa-visit-row">
+                <dt>Payment</dt>
+                <dd>{store.payment_accepted}</dd>
+              </div>
+            )}
           </dl>
         </div>
-
         <div>
-          <div class="pa-map-placeholder">
-            <p style="color:#8a7a6a; margin-bottom:1rem; font-size:0.9rem;">{ui.access_map}</p>
-            <a href={maps} target="_blank" rel="noopener"
-               style="display:inline-block; border:1px solid var(--pa-accent); color:var(--pa-accent); padding:0.6rem 1.5rem; border-radius:20px; font-size:0.9rem;">
-              {ui.open_in_gmaps}
-            </a>
+          <div class="pa-map-mock"><div class="pa-map-pin"></div></div>
+          <div style="text-align:center;">
+            <a href={maps} target="_blank" rel="noopener" class="pa-gmaps-link">Google マップで見る →</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- 予約セクション -->
-  <section id="reservation" class="pa-reservation">
-    <div class="pa-reservation-inner">
-      <p class="pa-section-label">RESERVATION</p>
-      <h2 class="pa-section-title">{ui.reservation_title}</h2>
-      <p class="pa-section-sub" style="margin-bottom:1.5rem;"></p>
-      <p style="color:#c8b49a; line-height:1.9; font-size:0.95rem; margin-bottom:2.5rem; max-width:480px; margin-left:auto; margin-right:auto;">{ui.reservation_lead}</p>
-      <div class="pa-cta-group">
-        <a href={reservationLink} target="_blank" rel="noopener" class="pa-btn-primary">{ui.reserve_button}</a>
+  {/* ===== Reservation ===== */}
+  <div class="pa-section pa-section-alt pa-reserve-section" id="pa-reserve">
+    <div class="pa-container">
+      <div class="pa-chapter-mark"><em>Reservation ・</em> ご予約</div>
+      <h2 class="pa-disp">ご予約をお待ちしております。</h2>
+      <div class="pa-body-text" style="margin: 0 auto 36px; text-align:center; max-width:540px;">
+        {store.reservation_url ? (
+          <p>オンラインフォームまたはお電話にてご予約を承っております。</p>
+        ) : store.tel ? (
+          <p>お電話にてご予約を承っております。</p>
+        ) : (
+          <p>お気軽にお問い合わせください。</p>
+        )}
+      </div>
+      <div>
+        {store.reservation_url && (
+          <a class="pa-reserve-btn" href={store.reservation_url} target="_blank" rel="noopener">RESERVE ONLINE</a>
+        )}
         {store.tel && (
-          <a href={`tel:${store.tel}`} class="pa-btn-outline">{store.tel}</a>
+          <a class={store.reservation_url ? 'pa-reserve-tel' : 'pa-reserve-btn'} href={`tel:${store.tel}`}>{store.tel}</a>
         )}
       </div>
       {store.retty_url && (
-        <p style="margin-top:1.5rem; font-size:0.85rem; color:#6b5a4a;">
-          <a href={store.retty_url} target="_blank" rel="noopener" style="color:#6b5a4a;">Retty のレビューを見る →</a>
+        <p style="margin-top:32px; font-size:12px; color:var(--text-faint); font-family:'Hiragino Kaku Gothic ProN',sans-serif;">
+          <a href={store.retty_url} target="_blank" rel="noopener" style="color:var(--text-faint);">Retty のクチコミを見る →</a>
         </p>
       )}
     </div>
-  </section>
+  </div>
+
+  {/* ===== SNS / official（データある時のみ）===== */}
+  {officialSnsLinks.length > 0 && (
+    <div class="pa-section" style="text-align:center;">
+      <div class="pa-container">
+        <div class="pa-chapter-mark"><em>Official ・</em> 公式 SNS</div>
+        <h2 class="pa-disp">公式アカウント。</h2>
+        <div class="pa-sns-links">
+          {officialSnsLinks.map(link => (
+            <a class="pa-sns-btn" href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
+          ))}
+        </div>
+      </div>
+    </div>
+  )}
+</div>
+
+{/* ===== Floating CTA ===== */}
+<a class="pa-float-cta" href={reservationLink} target="_blank" rel="noopener">Reserve</a>
+
+<script>
+  // Pattern A nav scroll transparency
+  const nav = document.getElementById('pa-nav');
+  if (nav) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 80) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    });
+  }
+</script>
 
 </BaseLayout>
