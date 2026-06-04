@@ -252,7 +252,17 @@ const hasMenuList = menuCount > 0;
         ) : store.tel ? (
           <a href={`tel:${store.tel}`} class="btn btn-primary">お電話でご予約ください ({store.tel})</a>
         ) : null}
-        {store.retty_url && (
+      </div>
+    </div>
+  </section>
+
+  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク） -->
+  {store.retty_url && (
+    <section id="links" class="sec sec-alt">
+      <div class="section-inner" style="text-align:center;">
+        <h2 class="sec-title" data-animate="rise">掲載サイト</h2>
+        <p class="sec-sub" data-animate="rise">LINKS</p>
+        <div class="links-list" data-animate="rise">
           <a
             href={store.retty_url}
             target="_blank"
@@ -261,9 +271,9 @@ const hasMenuList = menuCount > 0;
           >
             Retty で見る
           </a>
-        )}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  )}
 
 </BaseLayout>
