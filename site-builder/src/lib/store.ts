@@ -52,7 +52,9 @@ export interface Store {
   retty_id: string;
   slug: string;
   name: string;
-  description?: string;
+  description?: string | null;
+  /** Retty 店舗一言キャッチフレーズ（crawl_retty.py #277）。ヒーローサブタイトルに表示。 */
+  catchphrase?: string | null;
   category?: string;
   categories?: string[];
   address?: string;
@@ -60,6 +62,8 @@ export interface Store {
   tel?: string | null;
   hours?: Record<string, { open?: string; close?: string }> | null;
   hours_raw?: string | null;
+  /** 定休日テキスト（crawl_retty.py #277）。アクセスセクションに表示。 */
+  holiday?: string | null;
   budget?: { lunch?: number | string | null; dinner?: number | string | null } | null;
   budget_raw?: string | null;
   nearest_station?: string | null;

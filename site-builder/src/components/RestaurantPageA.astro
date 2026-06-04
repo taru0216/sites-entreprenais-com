@@ -17,9 +17,10 @@ const { store } = Astro.props;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
-const heroDesc = store.description || store.special_info || '';
+// catchphrase → description → special_info の優先順位でヒーロー説明文を選択（#277）
+const heroDesc = store.catchphrase || store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
-const ownerStory = store.owner_message || heroDesc || '';
+const ownerStory = store.owner_message || store.description || heroDesc || '';
 const features = store.features ?? [];
 const officialSns = store.official_sns ?? null;
 
@@ -535,6 +536,12 @@ if (officialSns) {
                 <dd>{h}</dd>
               </div>
             ))}
+            {store.holiday && (
+              <div class="pa-visit-row">
+                <dt>定休日</dt>
+                <dd>{store.holiday}</dd>
+              </div>
+            )}
             {store.tel && (
               <div class="pa-visit-row">
                 <dt>TEL</dt>

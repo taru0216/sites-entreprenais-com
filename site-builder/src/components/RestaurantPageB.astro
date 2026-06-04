@@ -17,7 +17,8 @@ const { store } = Astro.props;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
-const heroDesc = store.description || store.special_info || '';
+// catchphrase → description → special_info の優先順位でヒーロー説明文を選択（#277）
+const heroDesc = store.catchphrase || store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
 const stats = store.stats ?? [];
 const features = store.features ?? [];
@@ -556,6 +557,17 @@ const reviewUrl = store.review_url ?? null;
     </div>
   )}
 
+  {/* ===== About / owner_message（#278）===== */}
+  {store.owner_message && (
+    <div class="pb-section" style="background:#FEF9F4; border-top:1px solid #E8DECB;">
+      <div class="pb-container" style="max-width:760px; text-align:center;">
+        <span class="pb-section-label">ABOUT</span>
+        <h2 class="pb-section-title">お店について</h2>
+        <p style="font-size:15px; color:#4A3D31; line-height:2.1; white-space:pre-line; margin-top:1.5rem;">{store.owner_message}</p>
+      </div>
+    </div>
+  )}
+
   {/* ===== Access ===== */}
   <div class="pb-section">
     <div class="pb-container">
@@ -594,6 +606,12 @@ const reviewUrl = store.review_url ?? null;
               <dd>{h}</dd>
             </div>
           ))}
+          {store.holiday && (
+            <div class="pb-info-row">
+              <dt>定休日</dt>
+              <dd>{store.holiday}</dd>
+            </div>
+          )}
           {budget.length > 0 && (
             <div class="pb-info-row">
               <dt>予算</dt>

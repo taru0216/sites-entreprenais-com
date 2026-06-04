@@ -19,7 +19,8 @@ const ui = UI;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
-const heroDesc = store.description || store.special_info || '';
+// catchphrase → description → special_info の優先順位でヒーロー説明文を選択（#277）
+const heroDesc = store.catchphrase || store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
 
 // NOW OPEN ステータス判定（簡易: 現在日 vs 曜日別営業時間）
@@ -622,6 +623,12 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
                 <dd>{h}</dd>
               </div>
             ))}
+            {store.holiday && (
+              <div class="pc-visit-row">
+                <dt>定休日</dt>
+                <dd>{store.holiday}</dd>
+              </div>
+            )}
             {store.tel && (
               <div class="pc-visit-row">
                 <dt>TEL</dt>
