@@ -260,7 +260,16 @@ if (store.menu) {
       <div class="reservation-cta" data-animate="rise">
         {reservationUrl ? (
           <>
-            <a href={reservationUrl} target="_blank" rel="noopener" class="btn btn-primary">{ui.reserve_button}</a>
+            <a href={reservationUrl} target="_blank" rel="noopener" class="btn btn-primary">
+              <img
+                src="https://retty.me/favicon.ico"
+                alt="Retty"
+                width="16"
+                height="16"
+                style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
+              />
+              {ui.reserve_button}
+            </a>
             {store.tel && (
               <a href={`tel:${store.tel}`} class="btn btn-outline">{store.tel}</a>
             )}
@@ -285,6 +294,13 @@ if (store.menu) {
             rel="noopener noreferrer"
             class="btn btn-outline"
           >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
+            />
             Retty で見る
           </a>
         </div>
