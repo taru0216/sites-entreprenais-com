@@ -71,6 +71,14 @@ export interface Store {
   features?: FeatureItem[];
   /** 顧客レビュー（任意）。無ければセクション非表示。 */
   reviews?: ReviewItem[];
+  /** 口コミ取得件数（crawl_retty.py #262）。fetch_reviews=true 時のみ設定。 */
+  review_count?: number | null;
+  /** 実名と判定された口コミ件数（crawl_retty.py #262）。 */
+  real_name_count?: number | null;
+  /** 実名口コミが全口コミの 50% 以上か（crawl_retty.py #262）。 */
+  has_real_name_reviews?: boolean | null;
+  /** 店舗ページ URL（口コミリンク用 #262）。通常 retty_url と同値。 */
+  review_url?: string | null;
 }
 
 /**

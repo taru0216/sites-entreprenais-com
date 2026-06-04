@@ -281,9 +281,39 @@ if (store.menu) {
     </div>
   </section>
 
+  <!-- 実名グルメ SNS でお客様の声（has_real_name_reviews == true の店舗のみ表示 #262） -->
+  {store.has_real_name_reviews && store.review_url && (
+    <section id="reviews" class="sec sec-alt">
+      <div class="section-inner" style="text-align:center;">
+        <h2 class="sec-title" data-animate="rise">実名グルメ SNS でお客様の声</h2>
+        <p class="sec-sub" data-animate="rise">REVIEWS</p>
+        <p class="reservation-lead" data-animate="rise" style="max-width:36rem;margin:0 auto 2rem;">
+          Retty は実名制グルメ SNS です。匿名ではない、顔が見えるお客様の生の声をご確認いただけます。
+        </p>
+        <div data-animate="rise">
+          <a
+            href={store.review_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
+            />
+            実名グルメ SNS の口コミを見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- 掲載サイト（Retty 等の外部グルメサイトリンク） -->
   {store.retty_url && (
-    <section id="links" class="sec sec-alt">
+    <section id="links" class="sec">
       <div class="section-inner" style="text-align:center;">
         <h2 class="sec-title" data-animate="rise">掲載サイト</h2>
         <p class="sec-sub" data-animate="rise">LINKS</p>
