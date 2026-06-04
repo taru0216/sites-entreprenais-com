@@ -23,6 +23,17 @@ const maps = gmapsUrl(store);
 const heroDesc = store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
 const stats = store.stats ?? [];
+// #46: reservation_url がない場合は電話 CTA のみ。tel もなければ非表示。
+const reservationUrl = store.reservation_url ?? null;
+// #70: 公式SNS リンク（有時のみ OFFICIAL セクション表示）
+const officialSns = store.official_sns ?? null;
+const officialSnsLinks: { label: string; href: string; favicon: string }[] = [];
+if (officialSns) {
+  if (officialSns.instagram) officialSnsLinks.push({ label: 'Instagram で見る', href: officialSns.instagram, favicon: 'https://www.instagram.com/favicon.ico' });
+  if (officialSns.tiktok) officialSnsLinks.push({ label: 'TikTok で見る', href: officialSns.tiktok, favicon: 'https://www.tiktok.com/favicon.ico' });
+  if (officialSns.twitter) officialSnsLinks.push({ label: 'X (Twitter) で見る', href: officialSns.twitter, favicon: 'https://x.com/favicon.ico' });
+  if (officialSns.facebook) officialSnsLinks.push({ label: 'Facebook で見る', href: officialSns.facebook, favicon: 'https://www.facebook.com/favicon.ico' });
+}
 ---
 
 <style>
@@ -343,7 +354,7 @@ const stats = store.stats ?? [];
     </div>
   </section>
 
-  <!-- Pattern B: 予約セクション（フッター手前の大きなCTA）-->
+  <!-- Pattern B: 予約セクション（フッター手前の大きなCTA、#64: retty_url は掲載サイトセクションへ分離） -->
   <section id="reservation" style="padding:5rem 0; background:#0a0505; text-align:center;">
     <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
       <p class="pb-section-eyebrow">RESERVATION</p>
@@ -351,17 +362,111 @@ const stats = store.stats ?? [];
       <p style="color:#7a6060; font-size:0.85rem; margin-bottom:1.5rem;"></p>
       <p style="color:#b89880; max-width:500px; margin:0 auto 2.5rem; line-height:1.9; font-size:0.95rem;">{ui.reservation_lead}</p>
       <div class="pb-cta-group" style="justify-content:center;">
-        <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve">
-          今すぐ予約する
-        </a>
-        {store.tel && <a href={`tel:${store.tel}`} class="pb-btn-menu">{store.tel}</a>}
+        {reservationUrl ? (
+          <>
+            <a href={reservationUrl} target="_blank" rel="noopener" class="pb-btn-reserve">
+              <img
+                src="https://retty.me/favicon.ico"
+                alt="Retty"
+                width="16"
+                height="16"
+                style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
+              />
+              今すぐ予約する
+            </a>
+            {store.tel && <a href={`tel:${store.tel}`} class="pb-btn-menu">{store.tel}</a>}
+          </>
+        ) : store.tel ? (
+          <a href={`tel:${store.tel}`} class="pb-btn-reserve">お電話でご予約ください ({store.tel})</a>
+        ) : null}
       </div>
-      {store.retty_url && (
-        <p style="margin-top:2rem; font-size:0.85rem; color:#5a4040;">
-          <a href={store.retty_url} target="_blank" rel="noopener" style="color:#5a4040;">Retty のレビューを見る →</a>
-        </p>
-      )}
     </div>
   </section>
+
+  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
+  {officialSnsLinks.length > 0 && (
+    <section id="official-sns" style="padding:4rem 0; background:#050505; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pb-section-eyebrow">OFFICIAL</p>
+        <h2 class="pb-section-title">公式SNS</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
+          {officialSnsLinks.map(link => (
+            <a
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; transition:background 0.2s, color 0.2s; text-decoration:none;"
+            >
+              <img
+                src={link.favicon}
+                alt={link.label}
+                width="16"
+                height="16"
+                style="margin-right: 6px; border-radius: 3px;"
+              />
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
+  {store.has_real_name_reviews && store.review_url && (
+    <section id="voices" style="padding:4rem 0; background:#0a0505; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pb-section-eyebrow">VOICES</p>
+        <h2 class="pb-section-title">SNSのお客様の声</h2>
+        <p style="color:#b89880; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
+          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
+        </p>
+        <div data-animate="rise">
+          <a
+            href={store.review_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="margin-right: 6px; border-radius: 3px;"
+            />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
+  {store.retty_url && (
+    <section id="links" style="padding:4rem 0; background:#050505; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pb-section-eyebrow">LINKS</p>
+        <h2 class="pb-section-title">掲載サイト</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
+          <a
+            href={store.retty_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="margin-right: 6px; border-radius: 3px;"
+            />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
 
 </BaseLayout>
