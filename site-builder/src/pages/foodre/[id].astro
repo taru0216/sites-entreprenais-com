@@ -5,7 +5,15 @@
 // ステージするため、この glob は **常に 1 件だけ** を拾う。getStaticPaths も 1 件
 // だけを返し、astro build は /foodre/{retty_id}/ の 1 ページだけを生成する。
 // → 1397 店フルビルドにならず「1 サイトだけ・短時間」で完了する。
+//
+// #78: カテゴリ → テンプレート自動選択。
+//   store.json の template_pattern が明示されていればそれを優先し、
+//   なければ category からパターン A/B/C を自動選択する。
+//   デフォルト（居酒屋・バー系・未知カテゴリ）は Pattern C。
 import RestaurantPage from '../../components/RestaurantPage.astro';
+import RestaurantPageA from '../../components/RestaurantPageA.astro';
+import RestaurantPageB from '../../components/RestaurantPageB.astro';
+import RestaurantPageC from '../../components/RestaurantPageC.astro';
 import type { Store } from '../../lib/store';
 
 export function getStaticPaths() {
@@ -17,5 +25,51 @@ export function getStaticPaths() {
 }
 
 const { store } = Astro.props as { store: Store };
+
+// カテゴリ → テンプレート自動選択（select_template.py と同ロジック）
+// template_pattern が明示されていればそれを優先する（オーナー手動上書き対応）
+
+// Pattern A: ストーリードリブン（カフェ・パン屋・スイーツ系）
+const PATTERN_A_CATEGORIES = new Set([
+  'カフェ', 'パン屋', 'スイーツ', 'ケーキ屋', 'テイクアウト',
+  '野菜料理', '創作料理', 'コーヒー専門店', '紅茶・ハーブティー', 'デザート',
+]);
+
+// Pattern B: コンバージョン直球型（焼肉・寿司・高単価系）
+const PATTERN_B_CATEGORIES = new Set([
+  '焼肉', '寿司', '鉄板焼き', 'ステーキ', 'フレンチ', 'イタリアン',
+  '日本料理', '懐石料理', '割烹・小料理屋', 'しゃぶしゃぶ', 'すき焼き',
+  '天ぷら', 'うなぎ', 'ふぐ', 'カニ料理', '魚介・海鮮料理', '和食', '中華', 'スペイン料理',
+]);
+
+function selectPattern(store: Store): 'a' | 'b' | 'c' {
+  // 明示的な手動指定を優先
+  const explicit = store.template_pattern;
+  if (explicit === 'restaurant-pattern-a') return 'a';
+  if (explicit === 'restaurant-pattern-b') return 'b';
+  if (explicit === 'restaurant-pattern-c' || explicit === 'restaurant-default') return 'c';
+
+  const cat = store.category ?? '';
+  if (!cat) return 'c';
+
+  // 完全一致
+  if (PATTERN_A_CATEGORIES.has(cat)) return 'a';
+  if (PATTERN_B_CATEGORIES.has(cat)) return 'b';
+
+  // 部分一致フォールバック
+  for (const kw of PATTERN_B_CATEGORIES) {
+    if (cat.includes(kw)) return 'b';
+  }
+  for (const kw of PATTERN_A_CATEGORIES) {
+    if (cat.includes(kw)) return 'a';
+  }
+
+  // デフォルト: Pattern C
+  return 'c';
+}
+
+const pattern = selectPattern(store);
 ---
-<RestaurantPage store={store} />
+{pattern === 'a' && <RestaurantPageA store={store} />}
+{pattern === 'b' && <RestaurantPageB store={store} />}
+{pattern === 'c' && <RestaurantPageC store={store} />}

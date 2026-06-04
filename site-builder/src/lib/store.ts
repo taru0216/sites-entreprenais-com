@@ -35,6 +35,19 @@ export interface ReviewItem {
   rating?: number;
 }
 
+/** 今週のおすすめ食材・メニュー（Pattern C に表示）。*/
+export interface WeeklyItem {
+  name: string;
+  note?: string;
+  icon?: string;
+}
+
+/** 店主の日誌エントリ（Pattern C に表示）。*/
+export interface DiaryEntry {
+  date?: string;
+  text: string;
+}
+
 export interface Store {
   retty_id: string;
   slug: string;
@@ -86,6 +99,13 @@ export interface Store {
     twitter?: string | null;
     facebook?: string | null;
   } | null;
+  /** デザインテンプレート手動指定（省略時はカテゴリから自動選択）。（#78）
+   *  Pattern A=ストーリードリブン / B=コンバージョン直球型 / C=コンテンツ更新型 */
+  template_pattern?: 'restaurant-pattern-a' | 'restaurant-pattern-b' | 'restaurant-pattern-c' | 'restaurant-default' | null;
+  /** 今週のおすすめ食材・メニュー（Pattern C）。（#78） */
+  weekly_items?: WeeklyItem[];
+  /** 店主の日誌エントリ（Pattern C）。（#78） */
+  diary?: DiaryEntry[];
 }
 
 /**

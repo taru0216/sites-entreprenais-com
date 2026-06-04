@@ -1,0 +1,366 @@
+---
+// foodre Pattern B — コンバージョン直球型（焼肉・寿司・高単価レストラン系）（#78）
+// 川野さん設計: 上半分で予約完結・スマホスティッキー導線
+// 予約・集客を最優先とした高単価レストラン向けデザイン
+//
+// factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
+// work-retty PR #276 の templates/restaurant-pattern-b を factory アーキに移植。
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { UI } from '../lib/i18n';
+import {
+  formatHours, formatBudget, gmapsUrl,
+  type Store,
+} from '../lib/store';
+
+export interface Props { store: Store; }
+const { store } = Astro.props;
+const ui = UI;
+const hours = formatHours(store);
+const budget = formatBudget(store);
+const maps = gmapsUrl(store);
+const heroDesc = store.description || store.special_info || '';
+const reservationLink = store.reservation_url ?? maps;
+const stats = store.stats ?? [];
+---
+
+<style>
+  /* Pattern B 固有スタイル: コンバージョン直球型 */
+  :root {
+    --pb-gold: #d4a843;
+    --pb-red: #c0392b;
+    --pb-bg: #050505;
+    --pb-bg2: #0a0505;
+    --pb-surface: #0f0808;
+    --pb-muted: #7a6060;
+    --pb-text: #e8d8c8;
+  }
+
+  /* スティッキー予約バー（スマホ最優先）*/
+  .pb-sticky-cta {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+    background: #0f0808; border-top: 2px solid var(--pb-gold);
+    padding: 0.75rem 1rem;
+    display: flex; align-items: center; gap: 0.75rem; justify-content: center;
+  }
+  .pb-sticky-reserve {
+    display: inline-block;
+    background: var(--pb-red); color: #fff;
+    font-weight: 700; padding: 0.75rem 2rem;
+    border-radius: 4px; font-size: 0.95rem;
+    flex: 1; max-width: 280px; text-align: center;
+    transition: opacity 0.2s;
+  }
+  .pb-sticky-reserve:hover { opacity: 0.85; text-decoration: none; }
+  .pb-sticky-tel {
+    display: inline-block;
+    border: 1px solid var(--pb-gold); color: var(--pb-gold);
+    font-weight: 700; padding: 0.75rem 1.25rem;
+    border-radius: 4px; font-size: 0.9rem; white-space: nowrap;
+    transition: background 0.2s;
+  }
+  .pb-sticky-tel:hover { background: rgba(212,168,67,0.1); text-decoration: none; }
+  @media (min-width: 769px) { .pb-sticky-cta { display: none; } }
+
+  /* ヒーロー */
+  .pb-hero {
+    min-height: calc(100vh - 64px);
+    background: linear-gradient(180deg, #1a0505 0%, #050505 100%);
+    display: grid; grid-template-columns: 1fr; align-items: center;
+    padding: 4rem 1.5rem; position: relative; overflow: hidden;
+  }
+  .pb-hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(192,57,43,0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .pb-hero-inner {
+    max-width: 1100px; margin: 0 auto; width: 100%;
+    display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: center;
+  }
+  @media (max-width: 768px) { .pb-hero-inner { grid-template-columns: 1fr; } }
+  .pb-hero-badge {
+    display: inline-block;
+    border: 1px solid var(--pb-gold); color: var(--pb-gold);
+    font-size: 0.75rem; letter-spacing: 0.2em;
+    padding: 0.3rem 0.9rem; border-radius: 2px;
+    text-transform: uppercase; margin-bottom: 1.5rem;
+  }
+  .pb-hero-title {
+    font-size: clamp(3rem, 8vw, 5.5rem); color: #fff;
+    line-height: 1.05; margin-bottom: 1rem; font-weight: 700;
+  }
+  .pb-hero-desc { font-size: 1rem; color: #b89880; margin-bottom: 2.5rem; line-height: 1.9; }
+
+  /* KPIスタッツバッジ（banwaen 水準）*/
+  .pb-stats { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
+  .pb-stat {
+    text-align: center; padding: 0.75rem 1rem;
+    border: 1px solid #2a1a1a; border-radius: 6px;
+    background: rgba(212,168,67,0.05);
+    min-width: 80px;
+  }
+  .pb-stat-val { font-size: 1.5rem; color: var(--pb-gold); font-weight: 700; }
+  .pb-stat-label { font-size: 0.7rem; color: #7a6060; margin-top: 0.25rem; }
+
+  .pb-cta-group { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .pb-btn-reserve {
+    display: inline-block;
+    background: var(--pb-red); color: #fff;
+    font-weight: 700; padding: 1rem 3rem;
+    border-radius: 4px; font-size: 1rem;
+    transition: opacity 0.2s; white-space: nowrap;
+  }
+  .pb-btn-reserve:hover { opacity: 0.85; text-decoration: none; }
+  .pb-btn-menu {
+    display: inline-block;
+    border: 2px solid var(--pb-gold); color: var(--pb-gold);
+    font-weight: 700; padding: 1rem 2.5rem;
+    border-radius: 4px; font-size: 1rem;
+    transition: background 0.2s, color 0.2s; white-space: nowrap;
+  }
+  .pb-btn-menu:hover { background: var(--pb-gold); color: #000; text-decoration: none; }
+
+  /* 予約ボックス（ヒーロー右側・デスクトップ）*/
+  .pb-hero-reserve-box {
+    background: #0f0808; border: 1px solid var(--pb-gold);
+    border-radius: 8px; padding: 2rem 1.5rem;
+    min-width: 240px; text-align: center;
+  }
+  @media (max-width: 768px) { .pb-hero-reserve-box { display: none; } }
+  .pb-hero-reserve-box h3 { color: var(--pb-gold); font-size: 1rem; margin-bottom: 1.5rem; }
+  .pb-hero-reserve-link {
+    display: block;
+    background: var(--pb-red); color: #fff;
+    font-weight: 700; padding: 0.9rem 1.5rem;
+    border-radius: 4px; font-size: 0.95rem; margin-bottom: 0.75rem;
+    text-align: center; transition: opacity 0.2s;
+  }
+  .pb-hero-reserve-link:hover { opacity: 0.85; text-decoration: none; }
+  .pb-hero-tel-link {
+    display: block;
+    border: 1px solid #3a2020; color: #b89880;
+    font-size: 0.9rem; padding: 0.75rem;
+    border-radius: 4px; text-align: center; transition: border-color 0.2s;
+  }
+  .pb-hero-tel-link:hover { border-color: var(--pb-gold); text-decoration: none; }
+  .pb-hours-preview { margin-top: 1.5rem; font-size: 0.8rem; color: #5a4040; line-height: 1.6; }
+
+  /* メニューセクション */
+  .pb-menu { padding: 5rem 0 7rem; background: var(--pb-bg); }
+  @media (max-width: 768px) { .pb-menu { padding-bottom: 8rem; } }
+  .pb-menu-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+  .pb-section-eyebrow { font-size: 0.75rem; color: var(--pb-gold); letter-spacing: 0.3em; text-transform: uppercase; text-align: center; margin-bottom: 0.5rem; }
+  .pb-section-title { font-size: clamp(1.5rem, 4vw, 2.2rem); color: #fff; text-align: center; margin-bottom: 0.4rem; }
+  .pb-section-sub { color: var(--pb-muted); font-size: 0.85rem; text-align: center; margin-bottom: 3rem; }
+  .pb-menu-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .pb-menu-card {
+    background: var(--pb-surface); border: 1px solid #1a0a0a;
+    border-radius: 6px; padding: 1.5rem;
+    border-left: 3px solid var(--pb-gold);
+    transition: border-left-color 0.2s;
+  }
+  .pb-menu-card:hover { border-left-color: var(--pb-red); }
+  .pb-menu-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.4rem; }
+  .pb-menu-name { color: #f0e0d0; font-size: 1rem; font-weight: 700; }
+  .pb-menu-price { color: var(--pb-gold); font-size: 0.95rem; flex-shrink: 0; margin-left: 0.5rem; }
+  .pb-menu-desc { color: #7a6060; font-size: 0.88rem; line-height: 1.7; }
+
+  /* アクセスセクション */
+  .pb-access { padding: 5rem 0; background: var(--pb-bg2); }
+  .pb-access-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+  .pb-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: start; margin-top: 3rem; }
+  .pb-dl { display: grid; grid-template-columns: auto 1fr; gap: 0.75rem 1.5rem; }
+  .pb-dt { color: var(--pb-muted); font-size: 0.9rem; white-space: nowrap; }
+  .pb-dd { color: var(--pb-text); font-size: 0.95rem; margin-left: 0; }
+  .pb-map-box {
+    background: var(--pb-surface); border: 1px solid #1a0a0a;
+    border-radius: 6px; padding: 2rem; text-align: center;
+  }
+</style>
+
+<BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
+
+  <!-- スマホ用スティッキー予約バー -->
+  <div class="pb-sticky-cta">
+    <a href={reservationLink} target="_blank" rel="noopener" class="pb-sticky-reserve">今すぐ予約</a>
+    {store.tel && <a href={`tel:${store.tel}`} class="pb-sticky-tel">📞 {store.tel}</a>}
+  </div>
+
+  <!-- Pattern B: ヒーロー — コンバージョン直球型 -->
+  <section class="pb-hero">
+    <div class="pb-hero-inner">
+      <div>
+        {store.category && <span class="pb-hero-badge">{store.category}</span>}
+        <h1 class="pb-hero-title">{store.name}</h1>
+        {heroDesc && <p class="pb-hero-desc">{heroDesc}</p>}
+
+        <!-- KPI スタッツバッジ -->
+        {stats.length > 0 && (
+          <div class="pb-stats">
+            {stats.slice(0, 3).map((s) => (
+              <div class="pb-stat">
+                <div class="pb-stat-val">{s.value}</div>
+                <div class="pb-stat-label">{s.label}</div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <div class="pb-cta-group">
+          <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve">
+            🍽️ 予約する
+          </a>
+          <a href="#menu" class="pb-btn-menu">{ui.view_menu}</a>
+        </div>
+      </div>
+
+      <!-- デスクトップ: 予約ボックス（右カラム）-->
+      <div class="pb-hero-reserve-box">
+        <h3>ご予約</h3>
+        <a href={reservationLink} target="_blank" rel="noopener" class="pb-hero-reserve-link">
+          今すぐ予約する
+        </a>
+        {store.tel && (
+          <a href={`tel:${store.tel}`} class="pb-hero-tel-link">
+            📞 {store.tel}
+          </a>
+        )}
+        {hours.length > 0 && (
+          <div class="pb-hours-preview" set:html={hours.slice(0, 3).join('<br />')} />
+        )}
+      </div>
+    </div>
+  </section>
+
+  <!-- Pattern B: メニューセクション（左ボーダーカードグリッド）-->
+  <section id="menu" class="pb-menu">
+    <div class="pb-menu-inner">
+      <p class="pb-section-eyebrow">MENU</p>
+      <h2 class="pb-section-title">{ui.menu_title}</h2>
+      <p class="pb-section-sub">{ui.menu_featured}</p>
+
+      {store.featured_menu && store.featured_menu.length > 0 ? (
+        <div class="pb-menu-grid">
+          {store.featured_menu.map((item) => (
+            <div class="pb-menu-card">
+              <div class="pb-menu-row">
+                <span class="pb-menu-name">{item.name}</span>
+                {item.price != null && item.price !== '' && (
+                  <span class="pb-menu-price">
+                    {typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}
+                  </span>
+                )}
+              </div>
+              {item.description && <p class="pb-menu-desc">{item.description}</p>}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p style="text-align:center; color:#5a4040; padding:3rem 0;">{ui.no_menu}</p>
+      )}
+
+      <div style="text-align:center; margin-top:3rem;">
+        <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve"
+           style="display:inline-block;">
+          このメニューを食べに行く →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pattern B: アクセスセクション -->
+  <section id="access" class="pb-access">
+    <div class="pb-access-inner">
+      <p class="pb-section-eyebrow">ACCESS</p>
+      <h2 class="pb-section-title">{ui.access_title}</h2>
+      <p class="pb-section-sub"></p>
+
+      <div class="pb-info-grid">
+        <div>
+          <dl class="pb-dl">
+            <dt class="pb-dt">{ui.store_name}</dt>
+            <dd class="pb-dd">{store.name}</dd>
+
+            {store.category && (<>
+              <dt class="pb-dt">{ui.store_category}</dt>
+              <dd class="pb-dd">{store.category}</dd>
+            </>)}
+
+            {store.address && (<>
+              <dt class="pb-dt">{ui.store_address}</dt>
+              <dd class="pb-dd">{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
+            </>)}
+
+            {store.nearest_station && (<>
+              <dt class="pb-dt">{ui.store_station}</dt>
+              <dd class="pb-dd">{store.nearest_station}</dd>
+            </>)}
+
+            {hours.length > 0 && (<>
+              <dt class="pb-dt">{ui.store_hours}</dt>
+              <dd class="pb-dd" set:html={hours.join('<br />')} />
+            </>)}
+
+            {budget.length > 0 && (<>
+              <dt class="pb-dt">{ui.store_budget}</dt>
+              <dd class="pb-dd">{budget.join(' / ')}</dd>
+            </>)}
+
+            {store.tel && (<>
+              <dt class="pb-dt">{ui.store_tel}</dt>
+              <dd class="pb-dd"><a href={`tel:${store.tel}`} style="color:var(--pb-gold);">{store.tel}</a></dd>
+            </>)}
+
+            {store.payment_accepted && (<>
+              <dt class="pb-dt">{ui.store_payment}</dt>
+              <dd class="pb-dd">{store.payment_accepted}</dd>
+            </>)}
+          </dl>
+        </div>
+
+        <div>
+          <div class="pb-map-box">
+            <p style="color:#5a4040; margin-bottom:1rem; font-size:0.9rem;">{ui.access_map}</p>
+            <a href={maps} target="_blank" rel="noopener"
+               style="display:inline-block; border:1px solid var(--pb-gold); color:var(--pb-gold); padding:0.6rem 1.5rem; border-radius:4px; font-size:0.9rem;">
+              {ui.open_in_gmaps}
+            </a>
+          </div>
+
+          <!-- 予約カード（アクセスセクション内）-->
+          <div style="margin-top:1.5rem; background:var(--pb-surface); border:1px solid #1a0a0a; border-radius:6px; padding:1.5rem; text-align:center;">
+            <p style="color:#7a6060; font-size:0.85rem; margin-bottom:1rem;">席の空き確認・予約</p>
+            <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve"
+               style="display:inline-block;">予約する</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pattern B: 予約セクション（フッター手前の大きなCTA）-->
+  <section id="reservation" style="padding:5rem 0; background:#0a0505; text-align:center;">
+    <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+      <p class="pb-section-eyebrow">RESERVATION</p>
+      <h2 class="pb-section-title">{ui.reservation_title}</h2>
+      <p style="color:#7a6060; font-size:0.85rem; margin-bottom:1.5rem;"></p>
+      <p style="color:#b89880; max-width:500px; margin:0 auto 2.5rem; line-height:1.9; font-size:0.95rem;">{ui.reservation_lead}</p>
+      <div class="pb-cta-group" style="justify-content:center;">
+        <a href={reservationLink} target="_blank" rel="noopener" class="pb-btn-reserve">
+          今すぐ予約する
+        </a>
+        {store.tel && <a href={`tel:${store.tel}`} class="pb-btn-menu">{store.tel}</a>}
+      </div>
+      {store.retty_url && (
+        <p style="margin-top:2rem; font-size:0.85rem; color:#5a4040;">
+          <a href={store.retty_url} target="_blank" rel="noopener" style="color:#5a4040;">Retty のレビューを見る →</a>
+        </p>
+      )}
+    </div>
+  </section>
+
+</BaseLayout>

@@ -1,0 +1,338 @@
+---
+// foodre Pattern A — ストーリードリブン（カフェ・パン屋・スイーツ系）（#78）
+// 川野さん設計: ヒーロー直下に LINE→HP 動的反映デモを統合
+// ブランドストーリー・コンテンツ訴求重視の温かみあるデザイン
+//
+// factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
+// work-retty PR #276 の templates/restaurant-pattern-a を factory アーキに移植。
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { UI } from '../lib/i18n';
+import {
+  formatHours, formatBudget, gmapsUrl,
+  type Store,
+} from '../lib/store';
+
+export interface Props { store: Store; }
+const { store } = Astro.props;
+const ui = UI;
+const hours = formatHours(store);
+const maps = gmapsUrl(store);
+const heroDesc = store.description || store.special_info || '';
+const reservationLink = store.reservation_url ?? maps;
+
+// Pattern A カラーテーマ: ウォームベージュ × ブラウン × クリーム
+const accentColor = '#c8855a';   // テラコッタ（暖色アクセント）
+const bgMain = '#1a1208';        // 深いウォームブラック
+const bgSection = '#0f0b07';     // セクション背景
+const textMuted = '#9c8c7a';     // くすんだテキスト
+---
+
+<style define:vars={{ accentColor, bgMain, bgSection, textMuted }}>
+  :root {
+    --pa-accent: var(--accentColor);
+    --pa-bg: var(--bgMain);
+    --pa-section: var(--bgSection);
+    --pa-muted: var(--textMuted);
+  }
+  /* Pattern A 固有スタイル */
+  .pa-hero {
+    min-height: calc(100vh - 64px);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center; padding: 4rem 1.5rem;
+    background: radial-gradient(ellipse at 50% 30%, #3d2a1a 0%, #0f0b07 60%);
+    position: relative;
+  }
+  .pa-hero-label {
+    font-size: 0.8rem; color: var(--pa-accent);
+    letter-spacing: 0.3em; margin-bottom: 1.2rem;
+    text-transform: uppercase;
+  }
+  .pa-hero-title {
+    font-size: clamp(2.8rem, 9vw, 5rem);
+    color: #f5ede3; line-height: 1.1;
+    margin-bottom: 1rem; font-weight: 700;
+  }
+  .pa-hero-sub {
+    font-size: 1rem; color: #c8b49a;
+    margin-bottom: 2.5rem; line-height: 1.9;
+    max-width: 520px;
+  }
+  .pa-cta-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  .pa-btn-primary {
+    display: inline-block;
+    background: var(--pa-accent); color: #fff;
+    font-weight: 700; padding: 0.85rem 2.5rem;
+    border-radius: 24px; font-size: 1rem;
+    transition: opacity 0.2s;
+  }
+  .pa-btn-primary:hover { opacity: 0.85; text-decoration: none; }
+  .pa-btn-outline {
+    display: inline-block;
+    border: 2px solid var(--pa-accent); color: var(--pa-accent);
+    font-weight: 700; padding: 0.85rem 2.5rem;
+    border-radius: 24px; font-size: 1rem;
+    transition: background 0.2s, color 0.2s;
+  }
+  .pa-btn-outline:hover { background: var(--pa-accent); color: #fff; text-decoration: none; }
+
+  /* LINE デモセクション */
+  .pa-line-demo {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #0f1a0f 0%, #0a150a 100%);
+    border-top: 1px solid #1e2e1e;
+    border-bottom: 1px solid #1e2e1e;
+  }
+  .pa-line-demo-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+  .pa-line-badge {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: #06c755; color: #fff;
+    font-size: 0.85rem; font-weight: 700;
+    padding: 0.35rem 1rem; border-radius: 20px;
+    margin-bottom: 1.5rem;
+  }
+  .pa-line-demo-title {
+    font-size: clamp(1.3rem, 3vw, 1.8rem); color: #e8f5e9;
+    margin-bottom: 0.75rem;
+  }
+  .pa-line-demo-desc { color: #8faa90; font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.8; }
+  .pa-line-flow {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  .pa-line-step {
+    background: #0d1f0d; border: 1px solid #1a3a1a;
+    border-radius: 12px; padding: 1.5rem; text-align: center;
+  }
+  .pa-line-step-num {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: #06c755; color: #fff;
+    font-weight: 700; font-size: 1rem;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 0.75rem;
+  }
+  .pa-line-step-title { color: #c8e6c9; font-size: 0.95rem; font-weight: 700; margin-bottom: 0.4rem; }
+  .pa-line-step-desc { color: #6a8e6a; font-size: 0.85rem; line-height: 1.6; }
+
+  /* ストーリーセクション */
+  .pa-story { padding: 5rem 0; background: var(--pa-section); }
+  .pa-story-inner { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; text-align: center; }
+  .pa-section-label { font-size: 0.75rem; color: var(--pa-accent); letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 0.5rem; }
+  .pa-section-title { font-size: clamp(1.5rem, 4vw, 2.2rem); color: #f5ede3; margin-bottom: 0.5rem; }
+  .pa-section-sub { color: var(--pa-muted); font-size: 0.85rem; margin-bottom: 3rem; }
+  .pa-story-body { color: #c8b49a; font-size: 1rem; line-height: 2.1; }
+
+  /* メニューセクション */
+  .pa-menu { padding: 5rem 0; background: #0a0806; }
+  .pa-menu-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+  .pa-menu-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem; margin-bottom: 1rem;
+  }
+  .pa-menu-card {
+    background: #1a1410; border: 1px solid #2d2219;
+    border-radius: 12px; padding: 1.5rem;
+    transition: border-color 0.2s;
+  }
+  .pa-menu-card:hover { border-color: var(--pa-accent); }
+  .pa-menu-card-name { color: #f5ede3; font-size: 1rem; font-weight: 700; margin-bottom: 0.35rem; }
+  .pa-menu-card-price { color: var(--pa-accent); font-size: 0.9rem; float: right; }
+  .pa-menu-card-desc { color: #9c8c7a; font-size: 0.88rem; line-height: 1.7; margin-top: 0.4rem; clear: both; }
+
+  /* アクセスセクション */
+  .pa-access { padding: 5rem 0; background: var(--pa-bg); }
+  .pa-access-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+  .pa-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: start; }
+  .pa-dt { color: var(--pa-muted); font-size: 0.9rem; white-space: nowrap; }
+  .pa-dd { color: #e8ddd4; font-size: 0.95rem; margin-left: 0; }
+  .pa-map-placeholder {
+    background: #1a1410; border: 1px solid #2d2219;
+    border-radius: 12px; padding: 2rem; text-align: center;
+  }
+
+  /* 予約セクション */
+  .pa-reservation { padding: 5rem 0; background: var(--pa-section); }
+  .pa-reservation-inner { max-width: 700px; margin: 0 auto; padding: 0 1.5rem; text-align: center; }
+</style>
+
+<BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
+
+  <!-- Pattern A: ヒーロー — ストーリードリブン -->
+  <section class="pa-hero">
+    <div style="max-width:700px;">
+      {store.category && <p class="pa-hero-label">{store.category}</p>}
+      <h1 class="pa-hero-title">{store.name}</h1>
+      {heroDesc && <p class="pa-hero-sub">{heroDesc}</p>}
+      <div class="pa-cta-group">
+        <a href="#story" class="pa-btn-primary">ストーリーを読む</a>
+        <a href="#reservation" class="pa-btn-outline">{ui.reserve_button}</a>
+      </div>
+    </div>
+    <div style="position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); color:#6b5a4a; font-size:0.75rem; display:flex; flex-direction:column; align-items:center; gap:0.4rem;">
+      <span>SCROLL</span>
+      <span style="display:block; width:1px; height:28px; background:linear-gradient(to bottom,#6b5a4a,transparent);"></span>
+    </div>
+  </section>
+
+  <!-- Pattern A 特徴: LINE→HP 動的反映デモセクション -->
+  <section class="pa-line-demo">
+    <div class="pa-line-demo-inner">
+      <div class="pa-line-badge">
+        <span style="font-size:1.1rem;">📱</span> LINE 連携
+      </div>
+      <h2 class="pa-line-demo-title">LINE で投稿 → ホームページに自動反映</h2>
+      <p class="pa-line-demo-desc">
+        お知らせや新商品情報を LINE に投稿するだけで、このホームページが自動的に更新されます。<br />
+        専門知識不要 — SNS 感覚でホームページを運用できます。
+      </p>
+      <div class="pa-line-flow">
+        <div class="pa-line-step">
+          <div class="pa-line-step-num">1</div>
+          <div class="pa-line-step-title">LINE に投稿</div>
+          <div class="pa-line-step-desc">写真・テキストを普段の LINE 感覚で送るだけ</div>
+        </div>
+        <div class="pa-line-step">
+          <div class="pa-line-step-num">2</div>
+          <div class="pa-line-step-title">自動で変換</div>
+          <div class="pa-line-step-desc">AI がコンテンツを最適化してページ用に整形</div>
+        </div>
+        <div class="pa-line-step">
+          <div class="pa-line-step-num">3</div>
+          <div class="pa-line-step-title">HP に反映</div>
+          <div class="pa-line-step-desc">数分後にはホームページが最新情報に更新される</div>
+        </div>
+      </div>
+      {store.sns?.line && (
+        <div style="margin-top: 2rem; text-align: center;">
+          <a href={store.sns.line} style="display:inline-block; background:#06c755; color:#fff; font-weight:700; padding:0.85rem 2.5rem; border-radius:24px; font-size:1rem;">LINE で友達追加</a>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- ストーリーセクション -->
+  <section id="story" class="pa-story">
+    <div class="pa-story-inner">
+      <p class="pa-section-label">STORY</p>
+      <h2 class="pa-section-title">私たちについて</h2>
+      <p class="pa-section-sub">OUR STORY</p>
+      {store.owner_message ? (
+        <p class="pa-story-body">{store.owner_message}</p>
+      ) : heroDesc ? (
+        <p class="pa-story-body">{heroDesc}</p>
+      ) : (
+        <p class="pa-story-body" style="color:#5a4a3a;">（オーナーからのメッセージは準備中です）</p>
+      )}
+    </div>
+  </section>
+
+  <!-- メニューセクション -->
+  <section id="menu" class="pa-menu">
+    <div class="pa-menu-inner">
+      <p class="pa-section-label" style="text-align:center;">MENU</p>
+      <h2 class="pa-section-title" style="text-align:center;">{ui.menu_title}</h2>
+      <p class="pa-section-sub" style="text-align:center;">{ui.menu_featured}</p>
+
+      {store.featured_menu && store.featured_menu.length > 0 ? (
+        <div class="pa-menu-grid">
+          {store.featured_menu.map((item) => (
+            <div class="pa-menu-card">
+              <div>
+                <span class="pa-menu-card-name">{item.name}</span>
+                {item.price != null && item.price !== '' && (
+                  <span class="pa-menu-card-price">
+                    {typeof item.price === 'number' ? `${item.price.toLocaleString()}円` : item.price}
+                  </span>
+                )}
+              </div>
+              {item.description && <p class="pa-menu-card-desc">{item.description}</p>}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p style="text-align:center; color:#5a4a3a; padding: 3rem 0;">{ui.no_menu}</p>
+      )}
+    </div>
+  </section>
+
+  <!-- アクセスセクション -->
+  <section id="access" class="pa-access">
+    <div class="pa-access-inner">
+      <p class="pa-section-label" style="text-align:center;">ACCESS</p>
+      <h2 class="pa-section-title" style="text-align:center;">{ui.access_title}</h2>
+      <p class="pa-section-sub" style="text-align:center; margin-bottom:3rem;"></p>
+
+      <div class="pa-info-grid">
+        <div>
+          <dl style="display:grid; grid-template-columns:auto 1fr; gap:0.75rem 1.5rem;">
+            <dt class="pa-dt">{ui.store_name}</dt>
+            <dd class="pa-dd">{store.name}</dd>
+
+            {store.category && (<>
+              <dt class="pa-dt">{ui.store_category}</dt>
+              <dd class="pa-dd">{store.category}</dd>
+            </>)}
+
+            {store.address && (<>
+              <dt class="pa-dt">{ui.store_address}</dt>
+              <dd class="pa-dd">{store.postal_code ? `〒${store.postal_code} ` : ''}{store.address}</dd>
+            </>)}
+
+            {store.nearest_station && (<>
+              <dt class="pa-dt">{ui.store_station}</dt>
+              <dd class="pa-dd">{store.nearest_station}</dd>
+            </>)}
+
+            {hours.length > 0 && (<>
+              <dt class="pa-dt">{ui.store_hours}</dt>
+              <dd class="pa-dd" set:html={hours.join('<br />')} />
+            </>)}
+
+            {store.tel && (<>
+              <dt class="pa-dt">{ui.store_tel}</dt>
+              <dd class="pa-dd"><a href={`tel:${store.tel}`} style="color:var(--pa-accent);">{store.tel}</a></dd>
+            </>)}
+
+            {store.payment_accepted && (<>
+              <dt class="pa-dt">{ui.store_payment}</dt>
+              <dd class="pa-dd">{store.payment_accepted}</dd>
+            </>)}
+          </dl>
+        </div>
+
+        <div>
+          <div class="pa-map-placeholder">
+            <p style="color:#8a7a6a; margin-bottom:1rem; font-size:0.9rem;">{ui.access_map}</p>
+            <a href={maps} target="_blank" rel="noopener"
+               style="display:inline-block; border:1px solid var(--pa-accent); color:var(--pa-accent); padding:0.6rem 1.5rem; border-radius:20px; font-size:0.9rem;">
+              {ui.open_in_gmaps}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 予約セクション -->
+  <section id="reservation" class="pa-reservation">
+    <div class="pa-reservation-inner">
+      <p class="pa-section-label">RESERVATION</p>
+      <h2 class="pa-section-title">{ui.reservation_title}</h2>
+      <p class="pa-section-sub" style="margin-bottom:1.5rem;"></p>
+      <p style="color:#c8b49a; line-height:1.9; font-size:0.95rem; margin-bottom:2.5rem; max-width:480px; margin-left:auto; margin-right:auto;">{ui.reservation_lead}</p>
+      <div class="pa-cta-group">
+        <a href={reservationLink} target="_blank" rel="noopener" class="pa-btn-primary">{ui.reserve_button}</a>
+        {store.tel && (
+          <a href={`tel:${store.tel}`} class="pa-btn-outline">{store.tel}</a>
+        )}
+      </div>
+      {store.retty_url && (
+        <p style="margin-top:1.5rem; font-size:0.85rem; color:#6b5a4a;">
+          <a href={store.retty_url} target="_blank" rel="noopener" style="color:#6b5a4a;">Retty のレビューを見る →</a>
+        </p>
+      )}
+    </div>
+  </section>
+
+</BaseLayout>
