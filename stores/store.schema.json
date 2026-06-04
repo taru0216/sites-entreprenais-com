@@ -124,6 +124,53 @@
       "type": "object",
       "additionalProperties": { "type": "string" }
     },
+    "template_pattern": {
+      "type": "string",
+      "enum": [
+        "restaurant-pattern-a",
+        "restaurant-pattern-b",
+        "restaurant-pattern-c",
+        "restaurant-default"
+      ],
+      "description": "デザインテンプレート手動指定（省略時はカテゴリから自動選択）。Pattern A=ストーリードリブン / B=コンバージョン直球型 / C=コンテンツ更新型（#78）"
+    },
+    "stats": {
+      "type": "array",
+      "description": "KPI スタッツバッジ（Pattern B ヒーローに表示）。例: [{\"label\": \"品数\", \"value\": \"55品\"}]（#78）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "value": { "type": "string" }
+        },
+        "required": ["label", "value"]
+      }
+    },
+    "weekly_items": {
+      "type": "array",
+      "description": "今週のおすすめ食材・メニュー（Pattern C に表示）（#78）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "note": { "type": "string" },
+          "icon": { "type": "string" }
+        },
+        "required": ["name"]
+      }
+    },
+    "diary": {
+      "type": "array",
+      "description": "店主の日誌エントリ（Pattern C に表示）（#78）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": { "type": "string" },
+          "text": { "type": "string" }
+        },
+        "required": ["text"]
+      }
+    },
     "i18n": {
       "type": "object",
       "description": "多言語フィールド（en/zh/ko/th/vi/zh-TW）。初回クロール時は空。",
