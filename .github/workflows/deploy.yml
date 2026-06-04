@@ -1,9 +1,22 @@
 name: Deploy to GitHub Pages
 
+# トリガー説明:
+#   push:main         — 通常コミット（store.json 更新・コンテンツ修正等）で即時デプロイ
+#   workflow_dispatch — 手動デプロイ（緊急修正・強制再デプロイ）
+#   workflow_run      — Template Build 完了時に自動デプロイ
+#                       Template Build は無限ループ防止のため [skip ci] をコミットに付けるが、
+#                       [skip ci] は push トリガーを無効にするため deploy が実行されない問題があった。
+#                       workflow_run は [skip ci] の影響を受けないため、Template Build 後の
+#                       デプロイを確実に実行できる（Closes #76）。
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Template Build (全件リビルド)"]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
