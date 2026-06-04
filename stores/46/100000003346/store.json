@@ -2,7 +2,7 @@
   "retty_id": "100000003346",
   "slug": "store-003346",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:42:01Z",
+  "last_crawled": "2026-06-04T17:00:00Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿 かみくら",
@@ -18,45 +18,19 @@
   "postal_code": "1500022",
   "tel": "050-5462-9922",
   "hours": {
-    "mon": {
-      "open": "17:00",
-      "close": "23:00"
-    },
-    "tue": {
-      "open": "17:00",
-      "close": "23:00"
-    },
-    "wed": {
-      "open": "17:00",
-      "close": "23:00"
-    },
-    "thu": {
-      "open": "17:00",
-      "close": "23:00"
-    },
-    "fri": {
-      "open": "17:00",
-      "close": "23:00"
-    },
-    "sat": {
-      "open": "17:00",
-      "close": "23:00"
-    },
-    "holiday": {
-      "open": "17:00",
-      "close": "23:00"
-    }
+    "mon": {"open": "17:00", "close": "23:00"},
+    "tue": {"open": "17:00", "close": "23:00"},
+    "wed": {"open": "17:00", "close": "23:00"},
+    "thu": {"open": "17:00", "close": "23:00"},
+    "fri": {"open": "17:00", "close": "23:00"},
+    "sat": {"open": "17:00", "close": "23:00"},
+    "holiday": {"open": "17:00", "close": "23:00"}
   },
   "hours_raw": null,
-  "budget": {
-    "lunch": "営業時間外",
-    "dinner": 8000
-  },
+  "holiday": "毎週日曜日",
+  "budget": {"lunch": "営業時間外", "dinner": 8000},
   "budget_raw": "ランチ予算: 営業時間外 ディナー予算: 〜8000円",
-  "geo": {
-    "lat": 35.6459155,
-    "lng": 139.70785350000006
-  },
+  "geo": {"lat": 35.6459155, "lng": 139.70785350000006},
   "retty_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/",
   "retty_photos": [
     "https://ximg.retty.me/crop/s1200x900/-/retty/img_ebisu/restaurant/100000003346/archive/3885410-6965c9c0378d5.jpg",
@@ -77,30 +51,30 @@
   "retty_review_count": 10,
   "nearest_station": "恵比寿駅徒歩1分",
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS)",
-  "owner_message": "",
+  "catchphrase": "静かに心ほどける恵比寿の隠れ家｜多彩なお酒と旬食材が織りなす美味しい時間を堪能",
+  "description": "恵比寿駅徒歩1分、銅板の扉を開けばそこは\"大人の隠れ家\"。\n目の前で調理されるオープンカウンターでは、料理長との会話を愉しみながら出来立ての一皿と多彩な酒を堪能できます。\n酒屋の息子が選び抜いたお酒は圧巻の500種以上。\n日本酒・焼酎・ワイン・ウイスキーまで幅広く揃い、料理とのペアリングも魅力です。\n\n産地直送の鮮魚は煮魚も焼きも絶品、自慢の茶碗蒸しは旬の具材で季節を感じる一品。\n1人でふらっとも、落ち着く掘りごたつ個室での会食も歓迎。\n\n丁寧さが光る和食とこだわりの酒で\"美味しい\"をとことん味わえる、恵比寿屈指の心地よい空間です。\n皆様のご来店心よりお待ちしております。",
+  "owner_message": "恵比寿駅徒歩1分、銅板の扉を開けばそこは\"大人の隠れ家\"。\n目の前で調理されるオープンカウンターでは、料理長との会話を愉しみながら出来立ての一皿と多彩な酒を堪能できます。\n酒屋の息子が選び抜いたお酒は圧巻の500種以上。\n日本酒・焼酎・ワイン・ウイスキーまで幅広く揃い、料理とのペアリングも魅力です。\n\n産地直送の鮮魚は煮魚も焼きも絶品、自慢の茶碗蒸しは旬の具材で季節を感じる一品。\n1人でふらっとも、落ち着く掘りごたつ個室での会食も歓迎。\n\n丁寧さが光る和食とこだわりの酒で\"美味しい\"をとことん味わえる、恵比寿屈指の心地よい空間です。\n皆様のご来店心よりお待ちしております。",
   "owner_photos": [],
   "menu": [],
-  "featured_menu": [],
+  "featured_menu": [
+    {"name": "懐石コース（梅）", "price": 6600, "description": "季節の食材を丁寧に調理した10品コース"},
+    {"name": "懐石コース（竹）", "price": 8800, "description": "特選食材を使った12品の本格懐石"},
+    {"name": "お造り盛り合わせ", "price": 3300, "description": "その日の新鮮な魚介を丁寧に盛り合わせ"},
+    {"name": "自家製茶碗蒸し", "price": 880, "description": "旬の具材で仕立てる看板メニュー"},
+    {"name": "日本酒飲み比べ", "price": 1980, "description": "500種から厳選した3種をお楽しみください"}
+  ],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100000003346",
   "sns": {
     "web": "https://kamikura-ebisu.foodre.jp/",
     "x": "https://x.com/kamikura2009_04"
   },
-  "i18n": {
-    "en": {
-      "name": "",
-      "description": "",
-      "featured_menu": []
-    },
-    "zh": {},
-    "ko": {},
-    "th": {},
-    "vi": {},
-    "zh-TW": {}
-  },
   "review_count": 5,
   "real_name_count": 4,
   "has_real_name_reviews": true,
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/reports/"
+  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003346/reports/",
+  "i18n": {
+    "en": {"name": "", "description": "", "featured_menu": []},
+    "zh": {}, "ko": {}, "th": {}, "vi": {}, "zh-TW": {}
+  }
 }
