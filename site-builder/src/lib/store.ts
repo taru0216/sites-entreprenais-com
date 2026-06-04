@@ -77,8 +77,15 @@ export interface Store {
   real_name_count?: number | null;
   /** 実名口コミが全口コミの 50% 以上か（crawl_retty.py #262）。 */
   has_real_name_reviews?: boolean | null;
-  /** 店舗ページ URL（口コミリンク用 #262）。通常 retty_url と同値。 */
+  /** 口コミ（reports）ページ URL（#272）。retty_url + /reports/。 */
   review_url?: string | null;
+  /** 公式 SNS リンク（#70）。有時のみ OFFICIAL セクション表示。 */
+  official_sns?: {
+    instagram?: string | null;
+    tiktok?: string | null;
+    twitter?: string | null;
+    facebook?: string | null;
+  } | null;
 }
 
 /**
