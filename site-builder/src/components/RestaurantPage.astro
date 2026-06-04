@@ -58,6 +58,30 @@ if (officialSns) {
 
 <BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
 
+  <!-- header / navigation -->
+  <header>
+    <div class="header-inner">
+      <div class="site-title"><a href="/foodre/">{store.name}</a></div>
+      <div class="header-right">
+        <nav class="main-nav">
+          <a href="#menu">{ui.nav_menu}</a>
+          <a href="#access">{ui.nav_access}</a>
+          <a href="#reservation">{ui.nav_reservation}</a>
+          <a href="/foodre/">{ui.back_to_list}</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="#menu">{ui.nav_menu}</a>
+    <a href="#access">{ui.nav_access}</a>
+    <a href="#reservation">{ui.nav_reservation}</a>
+    <a href="/foodre/">{ui.back_to_list}</a>
+  </nav>
+
   <!-- hero -->
   <section id="hero" class="hero" style={heroPhoto ? `--hero-img:url('${heroPhoto}');` : '--hero-img:none;'}>
     <div class="hero-overlay"></div>
@@ -375,5 +399,25 @@ if (officialSns) {
       </div>
     </section>
   )}
+
+  <script>
+    // ハンバーガーメニュー
+    const btn = document.getElementById('hamburger');
+    const mNav = document.getElementById('mobileNav');
+    if (btn && mNav) {
+      btn.addEventListener('click', () => {
+        const isOpen = mNav.classList.toggle('open');
+        btn.classList.toggle('open', isOpen);
+        btn.setAttribute('aria-expanded', String(isOpen));
+      });
+      mNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mNav.classList.remove('open');
+          btn.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+  </script>
 
 </BaseLayout>
