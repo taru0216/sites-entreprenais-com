@@ -2,7 +2,7 @@
   "retty_id": "100001250742",
   "slug": "crisp-salad-works-250742",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:38:51Z",
+  "last_crawled": "2026-06-04T21:15:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "CRISP SALAD WORKS 恵比寿店",
@@ -69,203 +69,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "クラシック・チキンシーザー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "グァカモーレ・グリーン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "ダウンタウン・コブ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "ヒップスター",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "レッド・タイ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "enc-005",
-      "name": "ENC",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "ハーベスト・ボウル",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "アース・ボウル",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "カスタムサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "アボカド",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "グリルドチキン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "自家製ハム",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-012",
-      "name": "ホワイトチェダー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-013",
-      "name": "フェタ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-014",
-      "name": "パルメザン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-015",
-      "name": "自家製レモネード",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-016",
-      "name": "ソーダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-017",
-      "name": "スパークリングウォーター",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-018",
-      "name": "ボトルウォーター",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-019",
-      "name": "自家製サングリア",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-020",
-      "name": "瓶ビール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "クラシック・チキンシーザー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "グァカモーレ・グリーン",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ダウンタウン・コブ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ヒップスター",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "レッド・タイ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -282,6 +87,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001250742/reports/"
+  }
 }

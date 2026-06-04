@@ -2,7 +2,7 @@
   "retty_id": "100000034907",
   "slug": "store-034907",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:02:26Z",
+  "last_crawled": "2026-06-04T20:35:57Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "たつや 駅前店",
@@ -72,115 +72,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ナンコツ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ネギマ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "タン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "ツクネ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "煮込豆腐",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "ガツ刺",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "イカげそ揚げ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "氷下魚",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "ほたるいかの沖漬",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "ほっけ焼き",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ナンコツ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ネギマ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "タン",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ツクネ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "煮込豆腐",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -195,6 +88,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000034907/reports/"
+  }
 }

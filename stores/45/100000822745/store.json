@@ -2,7 +2,7 @@
   "retty_id": "100000822745",
   "slug": "nikko2-822745",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:41:36Z",
+  "last_crawled": "2026-06-04T20:59:49Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "nikko2",
@@ -60,139 +60,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "チキンカレー　レギュラー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "チキンカレー　ビッグ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "チキンカレー　恵比寿盛り",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "ルー多め",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "かあさんの気まぐれスープ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "コーヒー(ホット・アイス)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "紅茶(ホット・アイス)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "ウーロン茶(ホット・アイス)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "ミントティー(ホット)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "カルピス(ホット・アイス)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "オレンジジュース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "グレープフルーツジュース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-012",
-      "name": "シュワシュワマンゴーラッシー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "チキンカレー　レギュラー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "チキンカレー　ビッグ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "チキンカレー　恵比寿盛り",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ルー多め",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "かあさんの気まぐれスープ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -207,6 +76,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000822745/reports/"
+  }
 }

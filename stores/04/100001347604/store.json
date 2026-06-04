@@ -2,7 +2,7 @@
   "retty_id": "100001347604",
   "slug": "store-347604",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T15:59:42Z",
+  "last_crawled": "2026-06-04T21:25:39Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "えびす呑み場 やました",
@@ -67,62 +67,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "鶏の唐揚げ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "豚の生姜焼き定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "本日の焼き魚定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "本日の煮魚定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "鶏の唐揚げ定食",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "豚の生姜焼き定食",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "本日の焼き魚定食",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "本日の煮魚定食",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -137,6 +83,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001347604/reports/"
+  }
 }

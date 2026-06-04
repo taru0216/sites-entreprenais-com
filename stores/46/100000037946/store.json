@@ -2,7 +2,7 @@
   "retty_id": "100000037946",
   "slug": "bar-soul-sonic-boogie-037946",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:42:06Z",
+  "last_crawled": "2026-06-04T20:36:32Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "BAR SOUL SONIC BOOGIE",
@@ -34,62 +34,8 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "food-000",
-      "name": "FOOD",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "生ビール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "ボトルワイン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "drink-003",
-      "name": "DRINK",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "FOOD",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "生ビール",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ボトルワイン",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "DRINK",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -106,6 +52,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000037946/reports/"
+  }
 }

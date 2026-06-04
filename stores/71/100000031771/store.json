@@ -2,7 +2,7 @@
   "retty_id": "100000031771",
   "slug": "buri-031771",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:06:33Z",
+  "last_crawled": "2026-06-04T20:35:12Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "立喰酒場 buri",
@@ -69,99 +69,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ぼんちり",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ネギ焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "手羽先",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "砂肝",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "レバー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "ささみ(梅)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "ささみ(わさび)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "つくね",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ぼんちり",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ネギ焼",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "手羽先",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "砂肝",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "レバー",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -176,6 +85,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000031771/reports/"
+  }
 }

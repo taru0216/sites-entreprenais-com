@@ -2,7 +2,7 @@
   "retty_id": "100000745870",
   "slug": "winestand-waltz-745870",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:06:02Z",
+  "last_crawled": "2026-06-04T20:56:55Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "winestand waltz",
@@ -82,6 +82,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000745870/reports/"
+  }
 }

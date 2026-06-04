@@ -2,7 +2,7 @@
   "retty_id": "100000742697",
   "slug": "store-742697",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:35:11Z",
+  "last_crawled": "2026-06-04T20:56:20Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "庵狐 恵比寿店",
@@ -70,163 +70,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "冷製湯葉のうにのじゅん菜がけ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "鶏と新玉ネギのさっぱり和え",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "鮮魚と冬瓜のカルパッチョ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "タコとアボガドのバジル和え",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "トウモロコシの天ぷら",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "花ズッキーニと白身のフリット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "桜エビとゴーヤのチャンプル",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "ザーサイの浅づけ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "2-008",
-      "name": "鮮魚の刺身盛り合わせ(2人前)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "1-009",
-      "name": "海老チーズ春巻き1本",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "ホタテのウニソース焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "タコのお好み揚げ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-012",
-      "name": "(自家製)あじ一夜干",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-013",
-      "name": "煮穴子と新ごぼうのリゾット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-014",
-      "name": "鯛のひつまぶし",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-015",
-      "name": "ポークカルビ丼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "冷製湯葉のうにのじゅん菜がけ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "鶏と新玉ネギのさっぱり和え",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "鮮魚と冬瓜のカルパッチョ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "タコとアボガドのバジル和え",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "トウモロコシの天ぷら",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -243,6 +88,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000742697/reports/"
+  }
 }

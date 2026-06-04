@@ -2,7 +2,7 @@
   "retty_id": "100001833947",
   "slug": "ezaro-833947",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:43:42Z",
+  "last_crawled": "2026-06-04T22:27:26Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "EZARO",
@@ -48,6 +48,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001833947/reports/"
+  }
 }

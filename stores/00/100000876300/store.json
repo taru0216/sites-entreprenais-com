@@ -2,7 +2,7 @@
   "retty_id": "100000876300",
   "slug": "store-876300",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T15:56:23Z",
+  "last_crawled": "2026-06-04T21:04:10Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "イクラ食堂",
@@ -62,123 +62,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "セミドライトマトとリコッタチーズのカプレーゼ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "季節の野菜のピクルス",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "アボガドと魚卵のサラダ　レホールソース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "キタアカリと生ハムのマッシュポテトサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "グリル野菜　バーニャカウダソース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "ローストアーリーレッドのトマトスープ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "旬の野菜のラタトゥイユ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "牛もも肉のタタキとリコッタチーズのサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "バルバリー鴨の自家製ハムとルッコラのサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "人参のグラッセ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "からしレンコンとクスクスのサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "セミドライトマトとリコッタチーズのカプレーゼ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "季節の野菜のピクルス",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "アボガドと魚卵のサラダ　レホールソース",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "キタアカリと生ハムのマッシュポテトサラダ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "グリル野菜　バーニャカウダソース",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -195,6 +80,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000876300/reports/"
+  }
 }

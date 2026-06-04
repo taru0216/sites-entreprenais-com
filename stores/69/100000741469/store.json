@@ -2,7 +2,7 @@
   "retty_id": "100000741469",
   "slug": "store-741469",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:04:48Z",
+  "last_crawled": "2026-06-04T20:56:14Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "アベス",
@@ -61,203 +61,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "キャロット・ラペ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "田舎風パテ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "サーモンマリネのサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "本日のチーズのサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "サバのマリネ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "フォアグラのテリーヌ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "牡蠣のクリームスープパイ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "ポワローのヴァプール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "ブルーチーズのキッシュ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "メルゲーズソーセージとタブレ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "アンディーヴのグラタン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "ズワイガニとカリフラワーのグラタン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-012",
-      "name": "手長海老のラヴィオリ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-013",
-      "name": "フォアグラのソテーと牡蠣のピラフ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-014",
-      "name": "地蛤とペンネのマリニエール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-015",
-      "name": "マンガリッツァ豚のラケ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-016",
-      "name": "黒毛和牛”クリ”のレアステーキ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-017",
-      "name": "フランス産鴨胸肉のロースト",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-018",
-      "name": "えぞ鹿もも肉のソテー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-019",
-      "name": "イノシシとフォアグラのパイ包み焼き",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-020",
-      "name": "ホワイトチョコのムースにベリーコンポート",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "キャロット・ラペ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "田舎風パテ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サーモンマリネのサラダ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "本日のチーズのサラダ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サバのマリネ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -272,6 +77,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000741469/reports/"
+  }
 }

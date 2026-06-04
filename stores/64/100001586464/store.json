@@ -2,7 +2,7 @@
   "retty_id": "100001586464",
   "slug": "the-office-586464",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:00:01Z",
+  "last_crawled": "2026-06-04T21:50:09Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "The Office",
@@ -82,6 +82,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001586464/reports/"
+  }
 }

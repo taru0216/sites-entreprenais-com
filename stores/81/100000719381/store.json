@@ -2,7 +2,7 @@
   "retty_id": "100000719381",
   "slug": "haconiwa-719381",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:16:21Z",
+  "last_crawled": "2026-06-04T20:54:09Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "haconiwa",
@@ -87,6 +87,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000719381/reports/"
+  }
 }

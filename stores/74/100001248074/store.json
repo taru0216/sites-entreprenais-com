@@ -2,7 +2,7 @@
   "retty_id": "100001248074",
   "slug": "day-night-248074",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:09:42Z",
+  "last_crawled": "2026-06-04T21:14:56Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "DAY & NIGHT",
@@ -71,115 +71,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "blt-000",
-      "name": "サンドイッチ　BLT",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "サンドイッチ　フレッシュベジタブル",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "サンドイッチ　グリルドベジタブル",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "サンドイッチ　ツナ&ビーンズ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "サンドイッチ　グリルドチキン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "皮付きフライドポテト",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "オニオンリング",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "くらむチャウダー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "今月のスープ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "自家製ベーコン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "サンドイッチ　BLT",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サンドイッチ　フレッシュベジタブル",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サンドイッチ　グリルドベジタブル",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サンドイッチ　ツナ&ビーンズ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サンドイッチ　グリルドチキン",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -196,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001248074/reports/"
+  }
 }

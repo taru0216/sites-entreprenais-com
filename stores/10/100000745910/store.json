@@ -2,7 +2,7 @@
   "retty_id": "100000745910",
   "slug": "store-745910",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:05:48Z",
+  "last_crawled": "2026-06-04T20:57:00Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "パティスリー レザネフォール 恵比寿本店",
@@ -71,36 +71,8 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ルーローフリュイルージュ　カット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "1-001",
-      "name": "ルーローフリュイルージュ　1本",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ルーローフリュイルージュ　カット",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ルーローフリュイルージュ　1本",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -118,6 +90,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000745910/reports/"
+  }
 }

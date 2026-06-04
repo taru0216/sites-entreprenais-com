@@ -2,7 +2,7 @@
   "retty_id": "100000013028",
   "slug": "store-013028",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:24:35Z",
+  "last_crawled": "2026-06-04T20:27:58Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "の坂",
@@ -58,49 +58,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "店主お任せお料理",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "店主お任せお料理",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "店主お任せお料理",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "店主お任せお料理",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "店主お任せお料理",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "店主お任せお料理",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -117,6 +76,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000013028/reports/"
+  }
 }

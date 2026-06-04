@@ -2,7 +2,7 @@
   "retty_id": "100001830381",
   "slug": "store-830381",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:18:08Z",
+  "last_crawled": "2026-06-04T22:26:36Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "中華創作焼鳥 鈴音",
@@ -50,6 +50,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001830381/reports/"
+  }
 }

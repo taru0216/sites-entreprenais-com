@@ -2,7 +2,7 @@
   "retty_id": "100001770380",
   "slug": "2-770380",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:15:46Z",
+  "last_crawled": "2026-06-04T22:18:12Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "2+",
@@ -50,6 +50,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001770380/reports/"
+  }
 }

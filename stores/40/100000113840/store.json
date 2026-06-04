@@ -2,7 +2,7 @@
   "retty_id": "100000113840",
   "slug": "store-113840",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:36:05Z",
+  "last_crawled": "2026-06-04T20:45:07Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ラ・ベイエ",
@@ -64,107 +64,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "白インゲン豆ととり肉のカスレー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "サンマのコブシメ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "うずらのソテー ゴマのソース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "里イモととり肉のテリーヌ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "ツブ貝のソテー野菜添えネギソース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "温野菜のサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "牡蠣のソテーのリゾット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "青唐辛子とカラスミのパスタ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "新ゴボウととり肉のパスタ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "白インゲン豆ととり肉のカスレー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サンマのコブシメ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "うずらのソテー ゴマのソース",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "里イモととり肉のテリーヌ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ツブ貝のソテー野菜添えネギソース",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -179,6 +80,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113840/reports/"
+  }
 }

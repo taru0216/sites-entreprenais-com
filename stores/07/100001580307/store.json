@@ -2,7 +2,7 @@
   "retty_id": "100001580307",
   "slug": "store-580307",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:03:11Z",
+  "last_crawled": "2026-06-04T21:49:10Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "東京コロンボ",
@@ -81,6 +81,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001580307/reports/"
+  }
 }

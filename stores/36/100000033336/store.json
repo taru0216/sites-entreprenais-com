@@ -2,7 +2,7 @@
   "retty_id": "100000033336",
   "slug": "ristorante-della-collina-033336",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:32:40Z",
+  "last_crawled": "2026-06-04T20:35:29Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ristorante della collina",
@@ -84,6 +84,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000033336/reports/"
+  }
 }

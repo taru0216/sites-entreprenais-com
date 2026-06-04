@@ -2,7 +2,7 @@
   "retty_id": "100000022097",
   "slug": "store-022097",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:34:40Z",
+  "last_crawled": "2026-06-04T20:31:27Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "寿司文",
@@ -56,49 +56,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "松にぎり",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "松ちらし",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "さけいくら丼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "松にぎり",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "松ちらし",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "さけいくら丼",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -115,6 +74,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000022097/reports/"
+  }
 }

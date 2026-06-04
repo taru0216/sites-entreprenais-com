@@ -2,7 +2,7 @@
   "retty_id": "100000025033",
   "slug": "store-025033",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:29:02Z",
+  "last_crawled": "2026-06-04T20:32:12Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "孫ヱ門",
@@ -68,123 +68,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "鮪のかま先の塩焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "鰆の塩焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "銀鱈の味醂漬け焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "まなかつおの西京漬け焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "焼き白子",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "小柱と椎茸のさつまあげ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "芝海老の唐揚げ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "鰰の唐揚げ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "白子の天ぷら",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "金目鯛のかぶと煮",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "羽太のあら炊き",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "鮪のかま先の塩焼",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "鰆の塩焼",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "銀鱈の味醂漬け焼",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "まなかつおの西京漬け焼",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "焼き白子",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -199,6 +84,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000025033/reports/"
+  }
 }

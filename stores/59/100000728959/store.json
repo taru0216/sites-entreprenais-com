@@ -2,7 +2,7 @@
   "retty_id": "100000728959",
   "slug": "store-728959",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:54:54Z",
+  "last_crawled": "2026-06-04T20:55:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ル・コック",
@@ -68,99 +68,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "プリフィックスコース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "おまかせコース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "アラカルト",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "プリフィックスコース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "おまかせコース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "7-005",
-      "name": "グラスワイン　7種類",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "90-006",
-      "name": "ボトルワイン　フランスワイン中心に約90種類",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "etc-007",
-      "name": "シュリー、ポルト、カルヴァドス アルマニャック etc",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "プリフィックスコース",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "おまかせコース",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "アラカルト",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "プリフィックスコース",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "おまかせコース",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -175,6 +84,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000728959/reports/"
+  }
 }

@@ -2,7 +2,7 @@
   "retty_id": "100000005933",
   "slug": "store-005933",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:28:53Z",
+  "last_crawled": "2026-06-04T20:22:30Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "パイル カフェ",
@@ -89,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000005933/reports/"
+  }
 }

@@ -2,7 +2,7 @@
   "retty_id": "100000541004",
   "slug": "store-541004",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T15:59:23Z",
+  "last_crawled": "2026-06-04T20:51:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "まくら とよかつ",
@@ -63,83 +63,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "れば",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "はつ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "たん",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "あぶら",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "こぶくろ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "なんこつ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "れば",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "はつ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "たん",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "あぶら",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "こぶくろ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -154,6 +79,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000541004/reports/"
+  }
 }

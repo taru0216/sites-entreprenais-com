@@ -2,7 +2,7 @@
   "retty_id": "100000023527",
   "slug": "store-023527",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:23:33Z",
+  "last_crawled": "2026-06-04T20:31:55Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "タベルナクアーレ　恵比寿",
@@ -73,107 +73,8 @@
   "payment_accepted": "カード可 : (VISA,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ボロネーゼ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ブッタネスカ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "カペサンテ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "カルボナーラ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "ラザニア",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "ポルポラズ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "ボッタルガ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "サルシッチャ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "サルモーネ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ボロネーゼ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ブッタネスカ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "カペサンテ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "カルボナーラ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ラザニア",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -190,6 +91,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000023527/reports/"
+  }
 }

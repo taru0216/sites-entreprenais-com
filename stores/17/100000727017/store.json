@@ -2,7 +2,7 @@
   "retty_id": "100000727017",
   "slug": "ebisu-727017",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:13:15Z",
+  "last_crawled": "2026-06-04T20:55:05Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "お茶の子菜々 EBISU",
@@ -81,6 +81,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000727017/reports/"
+  }
 }

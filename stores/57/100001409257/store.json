@@ -2,7 +2,7 @@
   "retty_id": "100001409257",
   "slug": "su3-409257",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:52:52Z",
+  "last_crawled": "2026-06-04T21:31:26Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "SU3",
@@ -78,6 +78,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001409257/reports/"
+  }
 }

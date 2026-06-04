@@ -2,7 +2,7 @@
   "retty_id": "100000698167",
   "slug": "kitchen501-698167",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:02:44Z",
+  "last_crawled": "2026-06-04T20:51:40Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "kitchen501",
@@ -76,6 +76,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000698167/reports/"
+  }
 }

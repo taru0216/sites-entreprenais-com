@@ -2,7 +2,7 @@
   "retty_id": "100001747198",
   "slug": "tane-747198",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:37:02Z",
+  "last_crawled": "2026-06-04T22:13:10Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "tane",
@@ -51,6 +51,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001747198/reports/"
+  }
 }

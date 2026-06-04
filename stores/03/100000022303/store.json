@@ -2,7 +2,7 @@
   "retty_id": "100000022303",
   "slug": "store-022303",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T15:58:52Z",
+  "last_crawled": "2026-06-04T20:31:33Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "妻家房 アトレ恵比寿店",
@@ -64,23 +64,8 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "チゲ・パチヂミセット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "チゲ・パチヂミセット",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -97,6 +82,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000022303/reports/"
+  }
 }

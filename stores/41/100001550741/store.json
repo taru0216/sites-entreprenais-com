@@ -2,7 +2,7 @@
   "retty_id": "100001550741",
   "slug": "grit-today-550741",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:37:55Z",
+  "last_crawled": "2026-06-04T21:44:10Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "GRIT TODAY",
@@ -83,6 +83,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001550741/reports/"
+  }
 }

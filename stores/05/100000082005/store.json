@@ -2,7 +2,7 @@
   "retty_id": "100000082005",
   "slug": "store-082005",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:00:18Z",
+  "last_crawled": "2026-06-04T20:41:32Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "カムクラ ダイニング",
@@ -70,131 +70,8 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "おいしいラーメン",
-      "price": 850,
-      "price_raw": "850円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "小チャーシュー煮玉子ラーメン",
-      "price": 1240,
-      "price_raw": "1,240円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "チャーシューラーメン",
-      "price": 1300,
-      "price_raw": "1,300円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "ねぎキムチラーメン",
-      "price": 1150,
-      "price_raw": "1,150円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "煮玉子もやしラーメン",
-      "price": 1150,
-      "price_raw": "1,150円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "煮玉子ラーメン",
-      "price": 1000,
-      "price_raw": "1,000円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "煮玉子ネギラーメン",
-      "price": 1150,
-      "price_raw": "1,150円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "こんにゃく（糖質ゼロ）ラーメン",
-      "price": 950,
-      "price_raw": "950円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "野菜いっぱいラーメン",
-      "price": 1100,
-      "price_raw": "1,100円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "お子様セット",
-      "price": 550,
-      "price_raw": "550円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "餃子",
-      "price": 280,
-      "price_raw": "280円",
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "おいしいラーメン＋餃子＋ライス",
-      "price": 1190,
-      "price_raw": "1,190円",
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "チャーシューラーメン",
-      "price": 1300,
-      "photo_url": null
-    },
-    {
-      "name": "小チャーシュー煮玉子ラーメン",
-      "price": 1240,
-      "photo_url": null
-    },
-    {
-      "name": "おいしいラーメン＋餃子＋ライス",
-      "price": 1190,
-      "photo_url": null
-    },
-    {
-      "name": "ねぎキムチラーメン",
-      "price": 1150,
-      "photo_url": null
-    },
-    {
-      "name": "煮玉子もやしラーメン",
-      "price": 1150,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -211,6 +88,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000082005/reports/"
+  }
 }

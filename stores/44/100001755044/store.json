@@ -2,7 +2,7 @@
   "retty_id": "100001755044",
   "slug": "store-755044",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:41:09Z",
+  "last_crawled": "2026-06-04T22:14:35Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "名物屋 恵比寿店",
@@ -85,6 +85,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001755044/reports/"
+  }
 }

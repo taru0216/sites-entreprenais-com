@@ -2,7 +2,7 @@
   "retty_id": "100001235111",
   "slug": "cafe-235111",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:06:57Z",
+  "last_crawled": "2026-06-04T21:14:00Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "茶菜CAFE 謝謝",
@@ -57,99 +57,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "特製麻婆豆腐ランチ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "本日の日替わりメニュー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "エビと鶏そぼろの特製茶がゆ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "柚子胡椒風味の冷やし麺",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "汁なし担々麺",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "温泉卵の卵かけごはん",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "温泉卵のみ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "日替りデザート",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "特製麻婆豆腐ランチ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "本日の日替わりメニュー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "エビと鶏そぼろの特製茶がゆ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "柚子胡椒風味の冷やし麺",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "汁なし担々麺",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -166,6 +75,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001235111/reports/"
+  }
 }

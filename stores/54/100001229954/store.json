@@ -2,7 +2,7 @@
   "retty_id": "100001229954",
   "slug": "store-229954",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:50:05Z",
+  "last_crawled": "2026-06-04T21:13:09Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "中目黒いぐち 上ル 恵比寿",
@@ -67,131 +67,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "14-000",
-      "name": "テラス・ド・ギレム　ソーヴィニョン・ブラン'14",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "12-001",
-      "name": "ニコラ・マンフェッラーリ　ミッレウヴェ・ビアンコ'12",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "14-002",
-      "name": "テラス・ド・ギレム　ピノ・ノワール'14",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "ポッカディガッピア　ロッソ・ピチェーノ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "焼酎　麦　中々",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "焼酎　麦　兼八",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "焼酎　米　鳥飼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "焼酎　黒糖　れんと",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "焼酎　紫蘇　鍛高譚",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "焼酎　栗　ダバダ火振り",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "果実酒　あらごし　うめ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "果実酒　あらごし　ゆず",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "テラス・ド・ギレム　ソーヴィニョン・ブラン'14",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ニコラ・マンフェッラーリ　ミッレウヴェ・ビアンコ'12",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "テラス・ド・ギレム　ピノ・ノワール'14",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ポッカディガッピア　ロッソ・ピチェーノ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "焼酎　麦　中々",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -206,6 +83,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001229954/reports/"
+  }
 }

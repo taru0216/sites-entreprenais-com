@@ -2,7 +2,7 @@
   "retty_id": "100000044153",
   "slug": "store-044153",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:48:45Z",
+  "last_crawled": "2026-06-04T20:37:59Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿餃子 大豊記 弐號房",
@@ -71,107 +71,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "2-3-000",
-      "name": "特製麻婆豆腐　2～3人前",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "特製麻婆豆腐　ハーフ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "青椒肉絲",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "四川麻婆ナス",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "豚トロとキャベツの塩ダレ炒",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "三枚肉の黒酢酢豚",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "豚角の柔らか煮",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "豚レバーの旨辛炒",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "3-008",
-      "name": "元祖恵比寿餃子　3ヶ盛",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "特製麻婆豆腐　2～3人前",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "特製麻婆豆腐　ハーフ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "青椒肉絲",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "四川麻婆ナス",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "豚トロとキャベツの塩ダレ炒",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -190,6 +91,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000044153/reports/"
+  }
 }

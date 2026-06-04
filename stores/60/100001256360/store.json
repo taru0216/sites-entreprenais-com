@@ -2,7 +2,7 @@
   "retty_id": "100001256360",
   "slug": "store-256360",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:56:05Z",
+  "last_crawled": "2026-06-04T21:16:21Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "十日町すこやかファクトリー 恵比寿店",
@@ -71,62 +71,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "紅鮭",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "刻みしそ梅",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "フィナンシェ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "ブラウニー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "紅鮭",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "刻みしそ梅",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "フィナンシェ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ブラウニー",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -143,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001256360/reports/"
+  }
 }

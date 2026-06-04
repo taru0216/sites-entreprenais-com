@@ -2,7 +2,7 @@
   "retty_id": "100000704772",
   "slug": "bar-704772",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:07:31Z",
+  "last_crawled": "2026-06-04T20:52:20Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Bar松虎",
@@ -74,152 +74,13 @@
     "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327751-5de9efbe4e50c.jpg"
   ],
   "retty_rating": 4.25,
-  "retty_review_count": 202,
+  "retty_review_count": 203,
   "nearest_station": "n恵比寿駅、徒歩5分",
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "400-000",
-      "name": "野菜炭火焼（400円～）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327752-5de9efc58dddc-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "200-001",
-      "name": "干物各種（200円～）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327752-5de9efc58dddc-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "ミックスナッツ",
-      "price": 600,
-      "price_raw": "600円",
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327750-5de9efb64a190-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "生チョコ",
-      "price": 800,
-      "price_raw": "800円",
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327750-5de9efb64a190-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "チーズ盛り合わせなどもご用意しています",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327751-5de9efbe4e50c-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "cigar-1200-005",
-      "name": "Cigar（  シガー 各種取り揃えております。）1200円～",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327751-5de9efbe4e50c-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "エビス 生ビール (小瓶)",
-      "price": 1000,
-      "price_raw": "1,000円",
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327752-5de9efc58dddc-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "1200-007",
-      "name": "カクテル各種（1200円～）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327750-5de9efb64a190-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "1800-008",
-      "name": "季節のフルーツカクテル（1800円～）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327751-5de9efbe4e50c-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "1400-009",
-      "name": "ウイスキー各種（1400円～）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "1800-010",
-      "name": "ブランデー各種（1800円～）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "その他、ワイン・シャンパン・日本酒・焼酎など各ジャンルのお酒も取り揃えております",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "500-012",
-      "name": "※チャージ料：￥500",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-013",
-      "name": "※表示価格は税込価格です。",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "エビス 生ビール (小瓶)",
-      "price": 1000,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327752-5de9efc58dddc-l.jpg"
-    },
-    {
-      "name": "生チョコ",
-      "price": 800,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327750-5de9efb64a190-l.jpg"
-    },
-    {
-      "name": "ミックスナッツ",
-      "price": 600,
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327750-5de9efb64a190-l.jpg"
-    },
-    {
-      "name": "野菜炭火焼（400円～）",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100000704772/archive/1327752-5de9efc58dddc-l.jpg"
-    },
-    {
-      "name": "干物各種（200円～）",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100000704772/archive/1327752-5de9efc58dddc-l.jpg"
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -236,6 +97,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000704772/reports/"
+  }
 }

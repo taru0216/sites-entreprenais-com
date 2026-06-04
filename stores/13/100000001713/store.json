@@ -2,7 +2,7 @@
   "retty_id": "100000001713",
   "slug": "store-001713",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:08:44Z",
+  "last_crawled": "2026-06-04T20:18:48Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ハース 恵比寿",
@@ -73,75 +73,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "チキンソテー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ベーコンとチリビーンズのスパイシーガレット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "魚介のトマトリゾット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "ポーチドエッグと合鴨スモークのリヨネーズサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "ポーチドエッグと合鴨スモークのリヨネーズサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "チキンソテー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ベーコンとチリビーンズのスパイシーガレット",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "魚介のトマトリゾット",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ポーチドエッグと合鴨スモークのリヨネーズサラダ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ポーチドエッグと合鴨スモークのリヨネーズサラダ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -160,6 +93,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000001713/reports/"
+  }
 }

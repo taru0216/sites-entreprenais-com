@@ -2,7 +2,7 @@
   "retty_id": "100000088939",
   "slug": "store-088939",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:35:37Z",
+  "last_crawled": "2026-06-04T20:42:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "博多満月 恵比寿店",
@@ -61,23 +61,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "食べ放題ランチ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "食べ放題ランチ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -92,6 +77,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000088939/reports/"
+  }
 }

@@ -2,7 +2,7 @@
   "retty_id": "100001422241",
   "slug": "3cafe-422241",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:37:47Z",
+  "last_crawled": "2026-06-04T21:33:00Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "3cafe",
@@ -52,6 +52,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001422241/reports/"
+  }
 }

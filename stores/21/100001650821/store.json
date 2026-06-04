@@ -2,7 +2,7 @@
   "retty_id": "100001650821",
   "slug": "tap-tumbler-650821",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:17:40Z",
+  "last_crawled": "2026-06-04T21:58:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "クラフトビール量り売りTAP&TUMBLER 恵比寿店",
@@ -77,123 +77,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "◇店内持ち込み可◇",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001650821/archive/2796247-62e3df8c54b78-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "ok-001",
-      "name": "コンビニで買ってもOK◎",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796247-62e3df8c54b78-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "ok-002",
-      "name": "家から持ってきてもOK◎",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001650821/archive/2796256-62e3dfa63ea55-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "◇手軽につまめるスナック類も用意しております◇",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796256-62e3dfa63ea55-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "◇毎日入れ替わる樽生クラフトビール◇",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001650821/archive/2796247-62e3df8c54b78-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "14-1-005",
-      "name": "国産14タップ+海外1タップを有料試飲",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001650821/archive/2796256-62e3dfa63ea55-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "1oz-006",
-      "name": "1OZ単位",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "ビール毎に金額が違います（店内黒板メニューを見てください)",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "◇毎日新入荷！海外パッケージ缶で角打◇",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "300-ok-009",
-      "name": "300円/本で角打ちもOK",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "300-010",
-      "name": "角打料+300円",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "◇店内持ち込み可◇",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001650821/archive/2796247-62e3df8c54b78-l.jpg"
-    },
-    {
-      "name": "コンビニで買ってもOK◎",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796247-62e3df8c54b78-l.jpg"
-    },
-    {
-      "name": "家から持ってきてもOK◎",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/resize/s600x600/q80/dal/-/retty/img_ebisu/restaurant/100001650821/archive/2796256-62e3dfa63ea55-l.jpg"
-    },
-    {
-      "name": "◇手軽につまめるスナック類も用意しております◇",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001650821/archive/2796256-62e3dfa63ea55-l.jpg"
-    },
-    {
-      "name": "◇毎日入れ替わる樽生クラフトビール◇",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s400x400/q80/dal/-/retty/img_ebisu/restaurant/100001650821/archive/2796247-62e3df8c54b78-l.jpg"
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "https://retty.me/reservation/100001650821",
   "sns": {
@@ -212,6 +97,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001650821/reports/"
+  }
 }

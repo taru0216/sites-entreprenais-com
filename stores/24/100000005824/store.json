@@ -2,7 +2,7 @@
   "retty_id": "100000005824",
   "slug": "il-boccalone-005824",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:20:15Z",
+  "last_crawled": "2026-06-04T20:22:19Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "IL BOCCALONE",
@@ -69,83 +69,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ヤリイカのフライ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "パルメザンチーズのリゾット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "手長エビの炭焼き",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "オーストラリア産牛ハラミステーキ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "国産牛フィレステーキ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "国産特選牛サーロインステーキ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ヤリイカのフライ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "パルメザンチーズのリゾット",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "手長エビの炭焼き",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "オーストラリア産牛ハラミステーキ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "国産牛フィレステーキ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -163,6 +88,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000005824/reports/"
+  }
 }

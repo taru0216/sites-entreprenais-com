@@ -2,7 +2,7 @@
   "retty_id": "100000039852",
   "slug": "store-039852",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:47:54Z",
+  "last_crawled": "2026-06-04T20:37:01Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "田吾作",
@@ -62,23 +62,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ホイス",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ホイス",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -93,6 +78,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000039852/reports/"
+  }
 }

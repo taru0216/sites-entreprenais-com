@@ -2,7 +2,7 @@
   "retty_id": "100000011413",
   "slug": "store-011413",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:08:49Z",
+  "last_crawled": "2026-06-04T20:26:19Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "浜椿",
@@ -69,131 +69,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "北海大帆立貝炒め",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "地アナゴ甘辛",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "海鮮豆腐",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "海鮮おこげ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "牛ハチノス炒め",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "牛モツ豆腐",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "若鳥の唐揚げ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "腸詰ネギ味噌",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "ロース肉の酢豚",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "上ミノ塩ネギ炒め",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "大エビチリソース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "牛ロース肉の炒め",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "北海大帆立貝炒め",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "地アナゴ甘辛",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "海鮮豆腐",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "海鮮おこげ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "牛ハチノス炒め",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -210,6 +87,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000011413/reports/"
+  }
 }

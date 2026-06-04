@@ -2,7 +2,7 @@
   "retty_id": "100000881422",
   "slug": "store-881422",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:18:15Z",
+  "last_crawled": "2026-06-04T21:04:37Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "紀風",
@@ -77,123 +77,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "-------------------------------------------",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647627-685d54d1cea5c.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "当店ではコースメニューのみでご案内をしております。",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647623-685d54cfd1de7.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "詳細はコース欄をご確認ください。",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647622-685d54cf599aa.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "-------------------------------------------",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647625-685d54d0d2ab9.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "-------------------------------------------",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647643-685d54d9229e6.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "ランチのコース情報はコースページをご確認ください",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647640-685d54d7c50ad.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "-------------------------------------------",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "-------------------------------------------",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "ドリンクメニューは店頭にてご確認ください。",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "-------------------------------------------",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "-------------------------------------------",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "-------------------------------------------",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647627-685d54d1cea5c.jpg"
-    },
-    {
-      "name": "当店ではコースメニューのみでご案内をしております。",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647623-685d54cfd1de7.jpg"
-    },
-    {
-      "name": "詳細はコース欄をご確認ください。",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647622-685d54cf599aa.jpg"
-    },
-    {
-      "name": "-------------------------------------------",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647625-685d54d0d2ab9.jpg"
-    },
-    {
-      "name": "-------------------------------------------",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100000881422/archive/3647643-685d54d9229e6.jpg"
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -212,6 +97,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000881422/reports/"
+  }
 }

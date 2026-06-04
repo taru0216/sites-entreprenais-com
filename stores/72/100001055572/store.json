@@ -2,7 +2,7 @@
   "retty_id": "100001055572",
   "slug": "store-055572",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:07:35Z",
+  "last_crawled": "2026-06-04T21:06:45Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "満丸",
@@ -66,107 +66,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "5-000",
-      "name": "満丸焼き餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-001",
-      "name": "ニラ焼き餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-002",
-      "name": "にら水餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-003",
-      "name": "肉汁餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-004",
-      "name": "キムチ餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-005",
-      "name": "しそ餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-006",
-      "name": "チーズ餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-007",
-      "name": "トマト餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-008",
-      "name": "玉子餃子（5個）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "満丸焼き餃子（5個）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ニラ焼き餃子（5個）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "にら水餃子（5個）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "肉汁餃子（5個）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "キムチ餃子（5個）",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -183,6 +84,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001055572/reports/"
+  }
 }

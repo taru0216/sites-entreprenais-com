@@ -2,7 +2,7 @@
   "retty_id": "100001229222",
   "slug": "store-229222",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:18:20Z",
+  "last_crawled": "2026-06-04T21:13:04Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "京華小吃 恵比寿店",
@@ -60,131 +60,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "小籠包ランチ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "小龍包お粥ランチ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-002",
-      "name": "三鮮焼き餃子　5個",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "8-003",
-      "name": "三鮮焼き餃子　8個",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "3-004",
-      "name": "小龍包　3個",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "恵比寿坦々麺",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "サンラータン麺",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "冷やしジャージャン麺",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "4-008",
-      "name": "ヘルシー野菜蒸し餃子　4個",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "3-009",
-      "name": "海老水晶餃子　3個",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "4-010",
-      "name": "貝柱入り焼売　4個",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "3-011",
-      "name": "桃まん　3個",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "小籠包ランチ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "小龍包お粥ランチ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "三鮮焼き餃子　5個",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "三鮮焼き餃子　8個",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "小龍包　3個",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -199,6 +76,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001229222/reports/"
+  }
 }

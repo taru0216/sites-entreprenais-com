@@ -2,7 +2,7 @@
   "retty_id": "100000009954",
   "slug": "life-is-beautiful-009954",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:49:36Z",
+  "last_crawled": "2026-06-04T20:25:38Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "LIFE IS BEAUTIFUL",
@@ -64,123 +64,8 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ハマグリお吸い物",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ハマグリ酒蒸し",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "漬物の盛合せ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "水ギョーザ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "海老とアボカドとパクチー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "豆腐と山芋とみょうが",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "豚ひき肉とニンニクとニラ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "料理６品、飲み放題３時間",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "おでん",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "ボジョレー飲み放題",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "キャッシュオン一杯",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ハマグリお吸い物",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ハマグリ酒蒸し",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "漬物の盛合せ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "水ギョーザ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "海老とアボカドとパクチー",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -195,6 +80,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000009954/reports/"
+  }
 }

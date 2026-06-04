@@ -2,7 +2,7 @@
   "retty_id": "100000715010",
   "slug": "bacio-di-giulietta-715010",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:05:44Z",
+  "last_crawled": "2026-06-04T20:53:34Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Bacio di Giulietta 恵比寿ガーデンプレイス店",
@@ -69,139 +69,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "自家製ピクルス",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "きのこのオーブン焼き",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "1-002",
-      "name": "イタリア産チーズ盛り合わせ　1種",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "オリーブとシチリア産アンチョビ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "真ダコのオイル煮",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "野生ルッコラとペコリーノチーズのサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "色々な野菜の煮込み　半熟卵添え",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "小エビとじゃが芋の温かいサラダ　カラスミ風",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "あさりと蕪のスープ仕立て",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "焼きモッツァレラとトマトのブルスケッタ　アンチョビバターソース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "大山鶏の自家製ハム　黒こしょう風味",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "お米のコロッケ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-012",
-      "name": "ピアディーナ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "自家製ピクルス",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "きのこのオーブン焼き",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "イタリア産チーズ盛り合わせ　1種",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "オリーブとシチリア産アンチョビ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "真ダコのオイル煮",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -216,6 +85,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000715010/reports/"
+  }
 }

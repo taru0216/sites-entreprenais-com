@@ -2,7 +2,7 @@
   "retty_id": "100000863469",
   "slug": "store-863469",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:04:52Z",
+  "last_crawled": "2026-06-04T21:02:44Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "エムハウス",
@@ -68,23 +68,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ベイクドチーズケーキのカフェグラタン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ベイクドチーズケーキのカフェグラタン",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -101,6 +86,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000863469/reports/"
+  }
 }

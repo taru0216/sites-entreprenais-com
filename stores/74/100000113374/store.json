@@ -2,7 +2,7 @@
   "retty_id": "100000113374",
   "slug": "store-113374",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:09:33Z",
+  "last_crawled": "2026-06-04T20:43:53Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "串の坊 アトレ恵比寿店",
@@ -79,83 +79,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "おまかせコース ※お召し上がりの本数や種類により金額が変動します",
-      "price": 7000,
-      "price_raw": "7,000円",
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716561-68a6d8b5dd636-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "潮騒(しおさい) 串八種（ランチ限定）",
-      "price": 2420,
-      "price_raw": "2,420円",
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716564-68a6d8b86ec0a-l.JPG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "彷徨(ほうこう) 串十種（ランチ限定）",
-      "price": 3300,
-      "price_raw": "3,300円",
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716566-68a6d8b9b20a5-l.JPG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "夢幻(むげん) 串十種（ランチ限定）",
-      "price": 4950,
-      "price_raw": "4,950円",
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716568-68a6d8bb06d41-l.JPG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "燦燦(さんさん)　串十二種",
-      "price": 4950,
-      "price_raw": "4,950円",
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716562-68a6d8b6aa832-l.JPG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "憧憬(しょうけい) 串十二種",
-      "price": 6600,
-      "price_raw": "6,600円",
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716563-68a6d8b771ce5-l.JPG",
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "おまかせコース ※お召し上がりの本数や種類により金額が変動します",
-      "price": 7000,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716561-68a6d8b5dd636-l.jpg"
-    },
-    {
-      "name": "憧憬(しょうけい) 串十二種",
-      "price": 6600,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716563-68a6d8b771ce5-l.JPG"
-    },
-    {
-      "name": "夢幻(むげん) 串十種（ランチ限定）",
-      "price": 4950,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716568-68a6d8bb06d41-l.JPG"
-    },
-    {
-      "name": "燦燦(さんさん)　串十二種",
-      "price": 4950,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716562-68a6d8b6aa832-l.JPG"
-    },
-    {
-      "name": "彷徨(ほうこう) 串十種（ランチ限定）",
-      "price": 3300,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100000113374/archive/3716566-68a6d8b9b20a5-l.JPG"
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -173,6 +98,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113374/reports/"
+  }
 }

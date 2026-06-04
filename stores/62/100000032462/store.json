@@ -2,7 +2,7 @@
   "retty_id": "100000032462",
   "slug": "store-032462",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:57:40Z",
+  "last_crawled": "2026-06-04T20:35:18Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "猿田彦珈琲 恵比寿本店",
@@ -72,36 +72,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "drip-000",
-      "name": "Drip",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "カフェ・オレ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "Drip",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "カフェ・オレ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -118,6 +90,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000032462/reports/"
+  }
 }

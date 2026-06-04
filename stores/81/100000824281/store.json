@@ -2,7 +2,7 @@
   "retty_id": "100000824281",
   "slug": "wine-bar-etsubo-824281",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:16:30Z",
+  "last_crawled": "2026-06-04T21:00:07Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Wine Bar ETSUBO",
@@ -91,6 +91,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000824281/reports/"
+  }
 }

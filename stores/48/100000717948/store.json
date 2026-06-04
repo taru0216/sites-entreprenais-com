@@ -2,7 +2,7 @@
   "retty_id": "100000717948",
   "slug": "store-717948",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:43:51Z",
+  "last_crawled": "2026-06-04T20:54:03Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "鮨 伊佐野",
@@ -60,36 +60,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "お座敷会席コース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "カウンターおまかせコース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "お座敷会席コース",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "カウンターおまかせコース",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -106,6 +78,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000717948/reports/"
+  }
 }

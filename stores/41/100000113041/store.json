@@ -2,7 +2,7 @@
   "retty_id": "100000113041",
   "slug": "store-113041",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:37:16Z",
+  "last_crawled": "2026-06-04T20:43:19Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿横丁 だるまてんぐ",
@@ -67,83 +67,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "京風白味噌もつ鍋",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "醤油もつ鍋",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "ホルモンすき焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "スタミナ塩もつ鍋",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "旨辛豚チゲ鍋",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "濃厚辛みそもつ鍋",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "京風白味噌もつ鍋",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "醤油もつ鍋",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ホルモンすき焼",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "スタミナ塩もつ鍋",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "旨辛豚チゲ鍋",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -158,6 +83,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113041/reports/"
+  }
 }

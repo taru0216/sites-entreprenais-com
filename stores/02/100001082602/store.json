@@ -2,7 +2,7 @@
   "retty_id": "100001082602",
   "slug": "kitchen-bar-moris-082602",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T15:57:53Z",
+  "last_crawled": "2026-06-04T21:07:03Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "kitchen&bar MORIS",
@@ -63,123 +63,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "オリジナルサルサタコライス",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "アボカドスパムごはん",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "アボカド",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "w-003",
-      "name": "Wチーズ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "w-004",
-      "name": "Wサルサ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "人参サラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "ツナ＆海苔",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "w-007",
-      "name": "Wミート",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "目玉焼き",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "スパム",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "納豆",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "オリジナルサルサタコライス",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "アボカドスパムごはん",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "アボカド",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "Wチーズ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "Wサルサ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -196,6 +81,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001082602/reports/"
+  }
 }

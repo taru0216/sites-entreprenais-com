@@ -2,7 +2,7 @@
   "retty_id": "100000052273",
   "slug": "store-052273",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:08:19Z",
+  "last_crawled": "2026-06-04T20:38:56Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "吉住",
@@ -60,36 +60,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "あつあつ鉄板焼きリゾット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ロングパスタ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "あつあつ鉄板焼きリゾット",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ロングパスタ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -106,6 +78,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000052273/reports/"
+  }
 }

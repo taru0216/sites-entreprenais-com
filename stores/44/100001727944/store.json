@@ -2,7 +2,7 @@
   "retty_id": "100001727944",
   "slug": "yakiniku-ao-727944",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:41:05Z",
+  "last_crawled": "2026-06-04T22:09:47Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "yakiniku ao",
@@ -50,6 +50,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001727944/reports/"
+  }
 }

@@ -2,7 +2,7 @@
   "retty_id": "100000003351",
   "slug": "store-003351",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:46:34Z",
+  "last_crawled": "2026-06-04T20:20:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "花まんまじゃが",
@@ -73,131 +73,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ハンバーグ目玉のせ（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "銀鮭塩焼き（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "さば塩焼き（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "味噌ほっけ（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "ぬかさんま（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "真ほっけ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "ぎんぽ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "メンチカツ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "ジャージャー目玉丼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "カレー定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "メンチカレー定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "盛岡冷麺セット（小ライス、小鉢付き）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ハンバーグ目玉のせ（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "銀鮭塩焼き（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "さば塩焼き（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "味噌ほっけ（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ぬかさんま（一品選び枝豆、冷奴、コロッケ、山わさび、コンビネーションサラダ）",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -214,6 +91,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000003351/reports/"
+  }
 }

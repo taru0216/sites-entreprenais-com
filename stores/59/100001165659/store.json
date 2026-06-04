@@ -2,7 +2,7 @@
   "retty_id": "100001165659",
   "slug": "store-165659",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:54:59Z",
+  "last_crawled": "2026-06-04T21:08:55Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "晩酌屋おじんじょ",
@@ -70,83 +70,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "いつもの生レモン酎",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "オヤジの麦レモン酎",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "シャリッと！！レモン酎",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "レモンチェッロで酎",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "ミント香るレモン酎",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "de-005",
-      "name": "瀬戸田のレモン塩de酎",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "いつもの生レモン酎",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "オヤジの麦レモン酎",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "シャリッと！！レモン酎",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "レモンチェッロで酎",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ミント香るレモン酎",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -163,6 +88,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001165659/reports/"
+  }
 }

@@ -2,7 +2,7 @@
   "retty_id": "100000000886",
   "slug": "time-out-caf-diner-000886",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:22:55Z",
+  "last_crawled": "2026-06-04T20:17:46Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Time Out Café & Diner",
@@ -71,123 +71,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "カツオのたたきプレート",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ポークカレー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "サンラータン＆バンバンジーサラダ自家製フォカッチャ付き",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "アラビアータ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "温玉のせタコライス",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "ボリュームからあげ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "ハンバーグ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "b-l-t-007",
-      "name": "B.L.Tサンド",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "八ヶ岳プレミアムバーガー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "or-009",
-      "name": "ランチデザートorランチビール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "フリードリンク",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "カツオのたたきプレート",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ポークカレー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サンラータン＆バンバンジーサラダ自家製フォカッチャ付き",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "アラビアータ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "温玉のせタコライス",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -204,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000886/reports/"
+  }
 }

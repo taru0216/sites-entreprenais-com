@@ -2,7 +2,7 @@
   "retty_id": "100000863800",
   "slug": "store-863800",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T15:56:18Z",
+  "last_crawled": "2026-06-04T21:02:50Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "空と麦と",
@@ -58,75 +58,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ﾓｰﾆﾝｸﾞｾｯﾄ（クロワッサｎ＋ドリンク）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "自然栽培でとれたお野菜たっぷりサンドウィッチ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "無農薬かぼちゃと生姜　パンプキンジンジャースープ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "パンオルバーブ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "マローネ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ﾓｰﾆﾝｸﾞｾｯﾄ（クロワッサｎ＋ドリンク）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "自然栽培でとれたお野菜たっぷりサンドウィッチ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "無農薬かぼちゃと生姜　パンプキンジンジャースープ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "パンオルバーブ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "マローネ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -143,6 +76,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000863800/reports/"
+  }
 }

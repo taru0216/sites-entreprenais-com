@@ -2,7 +2,7 @@
   "retty_id": "100000723378",
   "slug": "store-723378",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:13:46Z",
+  "last_crawled": "2026-06-04T20:54:43Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "虎の穴",
@@ -65,99 +65,8 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "飛騨牛ハラミ（シオ・タレ）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "飛騨牛ハラミ（特シオ）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "イチボ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "特タン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "テール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "コメカミ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "レバ刺焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "すじレバ刺焼",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "飛騨牛ハラミ（シオ・タレ）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "飛騨牛ハラミ（特シオ）",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "イチボ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "特タン",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "テール",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -172,6 +81,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000723378/reports/"
+  }
 }

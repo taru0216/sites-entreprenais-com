@@ -2,7 +2,7 @@
   "retty_id": "100000011421",
   "slug": "store-011421",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:16:56Z",
+  "last_crawled": "2026-06-04T20:26:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ヴェルデ",
@@ -66,99 +66,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "レアチーズケーキ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ベイクドチーズケーキ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "アーモンドケーキ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "タンザニヤ・キリマンジェロ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "インド・マイソール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "ペルー・チャンチャマイヨ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "コロンビア・スプレモ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "アイスカフェオレ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "レアチーズケーキ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ベイクドチーズケーキ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "アーモンドケーキ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "タンザニヤ・キリマンジェロ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "インド・マイソール",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -173,6 +82,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000011421/reports/"
+  }
 }

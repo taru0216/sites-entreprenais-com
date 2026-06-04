@@ -2,7 +2,7 @@
   "retty_id": "100000810468",
   "slug": "ns-810468",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:03:47Z",
+  "last_crawled": "2026-06-04T20:58:58Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "NS",
@@ -70,195 +70,8 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "自家製ピクルスの盛り合わせ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "クリームチーズのレバーパテ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "カプレーゼ　～ジェノバソース添え～",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "アボカドとサーモンのディップ～バゲット添え～",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "カリカリベーコンのシーザーサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "生ハムとクリームチーズの自家製ドレサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "ペンネアラビアータ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "ベーコンとバジルのパスタ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "ゴルゴンゾーラのクリームソースペンネ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "沖縄風タコライス",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "ns-010",
-      "name": "NS特製キーマカレー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "ホタテとチーズのクリームリゾット",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-012",
-      "name": "若鶏のから揚げ　～ザンギ～",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-013",
-      "name": "タコスボール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-014",
-      "name": "ピリ辛手羽先揚げ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-015",
-      "name": "スパムソテー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-016",
-      "name": "北海道じゃがバター塩辛和え",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-017",
-      "name": "クリームチーズわさび醤油～クラッカー添え～",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-018",
-      "name": "ゴーヤーちゃんぷる",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-019",
-      "name": "あぐーソーセージ盛り合わせ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "自家製ピクルスの盛り合わせ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "クリームチーズのレバーパテ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "カプレーゼ　～ジェノバソース添え～",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "アボカドとサーモンのディップ～バゲット添え～",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "カリカリベーコンのシーザーサラダ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -276,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000810468/reports/"
+  }
 }

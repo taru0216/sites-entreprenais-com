@@ -2,7 +2,7 @@
   "retty_id": "100001227511",
   "slug": "store-227511",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:06:52Z",
+  "last_crawled": "2026-06-04T21:12:40Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "カンビオ アパートメント",
@@ -85,6 +85,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001227511/reports/"
+  }
 }

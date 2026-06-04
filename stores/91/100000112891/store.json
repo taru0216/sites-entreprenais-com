@@ -2,7 +2,7 @@
   "retty_id": "100000112891",
   "slug": "store-112891",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:28:43Z",
+  "last_crawled": "2026-06-04T20:42:56Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "鮨たか 下高井戸旭鮨総本店",
@@ -69,49 +69,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ランチにぎり",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ランチおまかせ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "ランチ特上にぎり",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ランチにぎり",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ランチおまかせ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ランチ特上にぎり",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -126,6 +85,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000112891/reports/"
+  }
 }

@@ -2,7 +2,7 @@
   "retty_id": "100000027159",
   "slug": "le-lion-027159",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:54:31Z",
+  "last_crawled": "2026-06-04T20:33:09Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "le Lion",
@@ -67,91 +67,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "クロックマダム",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "マカロニグラタン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "オムレツ各種",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "サラダ各種",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "野菜のスープ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "ローストポーク",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "牛肩ロースステーキ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "クロックマダム",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "マカロニグラタン",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "オムレツ各種",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "サラダ各種",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "野菜のスープ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -168,6 +85,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000027159/reports/"
+  }
 }

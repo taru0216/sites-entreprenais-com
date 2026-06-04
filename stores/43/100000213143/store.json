@@ -2,7 +2,7 @@
   "retty_id": "100000213143",
   "slug": "store-213143",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:39:48Z",
+  "last_crawled": "2026-06-04T20:48:33Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "マーサーカフェ ダンロ",
@@ -70,203 +70,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "鶏モモ肉のグリル ローストガーリックソース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "鶏モモ肉のアンショワイヤード焼き",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "豚肩ロース肉のグリル スパイシーオニオンソース〜シーザーサラダと温玉添え〜",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "ポークカツレツと野菜のバルサミコ風味 さっぱりマリネ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "トラウトサーモンのハニーマスタードソテー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "魚介のラグーとサフランクリームのスパゲティ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "生ハムのジェノベーゼリゾット レモン風味",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "ガルバンゾーのパテ トルティーヤと共に",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "ドライトマトとオリーブ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "フリットカプレーゼ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "バーニャカウダー ベジタブル",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-011",
-      "name": "バーニャカウダー ベジタブル＋フリットベジタブル",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "r-012",
-      "name": "生ハム盛り合わせ R",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "h-013",
-      "name": "生ハム盛り合わせ H",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "r-014",
-      "name": "チーズ盛り合わせ R",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "h-015",
-      "name": "チーズ盛り合わせ H",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-016",
-      "name": "グリルした厚切りベーコンとほうれん草とマッシュルームのサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-017",
-      "name": "魚介のフリットサラダ ゴルゴンハチミツソース",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "mercer-cafe-018",
-      "name": "MERCER CAFE 特製スープ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-019",
-      "name": "マルゲリータピザ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-020",
-      "name": "クアトロフロマッジュピザ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "鶏モモ肉のグリル ローストガーリックソース",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "鶏モモ肉のアンショワイヤード焼き",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "豚肩ロース肉のグリル スパイシーオニオンソース〜シーザーサラダと温玉添え〜",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ポークカツレツと野菜のバルサミコ風味 さっぱりマリネ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "トラウトサーモンのハニーマスタードソテー",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -284,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000213143/reports/"
+  }
 }

@@ -2,7 +2,7 @@
   "retty_id": "100000026267",
   "slug": "store-026267",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:02:31Z",
+  "last_crawled": "2026-06-04T20:32:58Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "鮨の喜一",
@@ -70,62 +70,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "花はな",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "鳥とり",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "風かぜ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "月",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "花はな",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "鳥とり",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "風かぜ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "月",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -143,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000026267/reports/"
+  }
 }

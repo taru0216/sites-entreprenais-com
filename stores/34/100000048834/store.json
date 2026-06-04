@@ -2,7 +2,7 @@
   "retty_id": "100000048834",
   "slug": "store-048834",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:30:17Z",
+  "last_crawled": "2026-06-04T20:38:38Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "壱や",
@@ -71,36 +71,8 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "煮込みハンバーグ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "野菜のサラサラカレー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "煮込みハンバーグ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "野菜のサラサラカレー",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -117,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000048834/reports/"
+  }
 }

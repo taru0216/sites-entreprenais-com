@@ -2,7 +2,7 @@
   "retty_id": "100001100488",
   "slug": "deli-100488",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:25:23Z",
+  "last_crawled": "2026-06-04T21:07:14Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "つばめグリル DELI アトレ恵比寿店",
@@ -50,6 +50,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001100488/reports/"
+  }
 }

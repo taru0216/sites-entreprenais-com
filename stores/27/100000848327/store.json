@@ -2,7 +2,7 @@
   "retty_id": "100000848327",
   "slug": "store-848327",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:23:51Z",
+  "last_crawled": "2026-06-04T21:01:31Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "バー カポーティ",
@@ -60,49 +60,8 @@
   "payment_accepted": "カード可 : (AMEX)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "海老カツと蟹クリーミーコロッケのカレー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ハンバーグカレー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "ロースカツカレー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "海老カツと蟹クリーミーコロッケのカレー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ハンバーグカレー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ロースカツカレー",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -119,6 +78,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000848327/reports/"
+  }
 }

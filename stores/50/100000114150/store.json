@@ -2,7 +2,7 @@
   "retty_id": "100000114150",
   "slug": "store-114150",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:45:54Z",
+  "last_crawled": "2026-06-04T20:45:30Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "惣菜弁当・恵比寿中島",
@@ -76,6 +76,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114150/reports/"
+  }
 }

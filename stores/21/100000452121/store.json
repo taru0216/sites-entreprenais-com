@@ -2,7 +2,7 @@
   "retty_id": "100000452121",
   "slug": "store-452121",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:17:10Z",
+  "last_crawled": "2026-06-04T20:50:38Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "和飲屋",
@@ -85,6 +85,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000452121/reports/"
+  }
 }

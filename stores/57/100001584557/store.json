@@ -2,7 +2,7 @@
   "retty_id": "100001584557",
   "slug": "red-moon-584557",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:53:10Z",
+  "last_crawled": "2026-06-04T21:49:33Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "RED MOON",
@@ -50,6 +50,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001584557/reports/"
+  }
 }

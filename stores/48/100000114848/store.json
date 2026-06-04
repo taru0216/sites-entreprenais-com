@@ -2,7 +2,7 @@
   "retty_id": "100000114848",
   "slug": "pronto-114848",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:43:46Z",
+  "last_crawled": "2026-06-04T20:46:46Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "PRONTO 恵比寿東口店",
@@ -87,6 +87,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000114848/reports/"
+  }
 }

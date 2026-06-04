@@ -2,7 +2,7 @@
   "retty_id": "100000061021",
   "slug": "store-061021",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:17:06Z",
+  "last_crawled": "2026-06-04T20:40:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "デルチャルロ",
@@ -79,6 +79,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000061021/reports/"
+  }
 }

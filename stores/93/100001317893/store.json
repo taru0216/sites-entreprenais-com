@@ -2,7 +2,7 @@
   "retty_id": "100001317893",
   "slug": "store-317893",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:30:59Z",
+  "last_crawled": "2026-06-04T21:22:47Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "恵比寿 今市",
@@ -73,123 +73,8 @@
   "payment_accepted": "カード可 : (VISA,MASTERCARD,AMEX,DINERS,JCB)",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "日替り刺身盛合せ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574308-67f0bfe34fda4-l.JPEG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "季節の一推し",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574304-67f0bfcc21d1a-l.JPEG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "赤城和牛　炭火焼　串",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574306-67f0bfd769c0f-l.JPEG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "いか肝焼きそば",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/2237800-602e1b7acc5dc-l.jpg",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "エビス　生ビール",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574302-67f0bfbf208cc.JPEG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "サッポロ　ラガー　赤星",
-      "price": null,
-      "price_raw": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574308-67f0bfe34fda4.JPEG",
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "国産ウイスキー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-007",
-      "name": "瀬戸内レモンサワー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "日本酒　各種",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-009",
-      "name": "焼酎　各種",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-010",
-      "name": "日本ワイン",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "日替り刺身盛合せ",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574308-67f0bfe34fda4-l.JPEG"
-    },
-    {
-      "name": "季節の一推し",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574304-67f0bfcc21d1a-l.JPEG"
-    },
-    {
-      "name": "赤城和牛　炭火焼　串",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574306-67f0bfd769c0f-l.JPEG"
-    },
-    {
-      "name": "いか肝焼きそば",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s240x240/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/2237800-602e1b7acc5dc-l.jpg"
-    },
-    {
-      "name": "エビス　生ビール",
-      "price": null,
-      "photo_url": "https://ximg.retty.me/crop/s160x160/q80/das/-/retty/img_ebisu/restaurant/100001317893/archive/3574302-67f0bfbf208cc.JPEG"
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -208,6 +93,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001317893/reports/"
+  }
 }

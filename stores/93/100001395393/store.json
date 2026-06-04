@@ -2,7 +2,7 @@
   "retty_id": "100001395393",
   "slug": "bar-gravity-395393",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:31:03Z",
+  "last_crawled": "2026-06-04T21:30:15Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Bar gravity",
@@ -75,6 +75,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001395393/reports/"
+  }
 }

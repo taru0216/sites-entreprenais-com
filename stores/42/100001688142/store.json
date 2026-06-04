@@ -2,7 +2,7 @@
   "retty_id": "100001688142",
   "slug": "tacos-bar-688142",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:39:16Z",
+  "last_crawled": "2026-06-04T22:03:08Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "TACOS BAR",
@@ -53,6 +53,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001688142/reports/"
+  }
 }

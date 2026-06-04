@@ -2,7 +2,7 @@
   "retty_id": "100000000703",
   "slug": "store-000703",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T15:58:43Z",
+  "last_crawled": "2026-06-04T20:17:14Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "貝鮮市場",
@@ -82,6 +82,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000703/reports/"
+  }
 }

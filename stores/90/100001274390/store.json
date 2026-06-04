@@ -2,7 +2,7 @@
   "retty_id": "100001274390",
   "slug": "le-bar-a-vin-52-274390",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:27:34Z",
+  "last_crawled": "2026-06-04T21:17:40Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "Le Bar a vin 52 アトレ恵比寿店",
@@ -71,107 +71,8 @@
   "payment_accepted": "カード可 : ()",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "フランス産カマンベールの丸ごと焼きチーズフォンデュ彩り野菜添え",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "山盛りカナダ産ムール貝 ボルドー産白ワイン蒸し",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "7-002",
-      "name": "7種の彩り野菜のオーブン焼き クリーミーバーニャカウダーソースで",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "13-003",
-      "name": "キアヌと13品目のシェフズサラダ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "14-004",
-      "name": "ロメインレタスと14ヶ月熟成ハモンセラーノの焼きシザーサラダ 半熟卵のせ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "成城石井自家製ローストビーフとクレソン、有機ベビーリーフの冷製サラダ仕立て",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "16-006",
-      "name": "九州産黒毛和牛のカルパッチョ～16ヶ月熟成グラナパダーノとモデナ産バスサミコ酢で～",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "5-007",
-      "name": "ワインのおつまみ5種アソート",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-008",
-      "name": "アンチョビキャベツ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "フランス産カマンベールの丸ごと焼きチーズフォンデュ彩り野菜添え",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "山盛りカナダ産ムール貝 ボルドー産白ワイン蒸し",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "7種の彩り野菜のオーブン焼き クリーミーバーニャカウダーソースで",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "キアヌと13品目のシェフズサラダ",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ロメインレタスと14ヶ月熟成ハモンセラーノの焼きシザーサラダ 半熟卵のせ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {
@@ -188,6 +89,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100001274390/reports/"
+  }
 }

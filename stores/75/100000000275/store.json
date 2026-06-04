@@ -2,7 +2,7 @@
   "retty_id": "100000000275",
   "slug": "store-000275",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:10:04Z",
+  "last_crawled": "2026-06-04T20:16:11Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "ぼった屋さん",
@@ -79,6 +79,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000000275/reports/"
+  }
 }

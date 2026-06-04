@@ -2,7 +2,7 @@
   "retty_id": "100000029997",
   "slug": "store-029997",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T17:34:48Z",
+  "last_crawled": "2026-06-04T20:34:02Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "洋食ハチロー",
@@ -66,99 +66,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "カツ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ハンバーグ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "カニクリームコロッケ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "魚フライ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-004",
-      "name": "メンチカツ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-005",
-      "name": "チキンカツ定食",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-006",
-      "name": "セット定食（魚フライ半分&カニコロッケ半分）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "10-3-007",
-      "name": "期間限定　カキフライ定食（10月～3月）",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "カツ定食",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ハンバーグ定食",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "カニクリームコロッケ定食",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "魚フライ定食",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "メンチカツ定食",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -173,6 +82,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000029997/reports/"
+  }
 }

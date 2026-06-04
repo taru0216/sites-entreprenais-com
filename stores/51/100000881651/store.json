@@ -2,7 +2,7 @@
   "retty_id": "100000881651",
   "slug": "store-881651",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:46:47Z",
+  "last_crawled": "2026-06-04T21:04:54Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "キンギョ",
@@ -61,62 +61,8 @@
   "payment_accepted": null,
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "ランチセット　チキンカレー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-001",
-      "name": "ランチセット　ポークジンジャー",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-002",
-      "name": "ランチセット　ガパオライス",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    },
-    {
-      "dish_slug": "dish-003",
-      "name": "日替わりモグランチ",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "ランチセット　チキンカレー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ランチセット　ポークジンジャー",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "ランチセット　ガパオライス",
-      "price": null,
-      "photo_url": null
-    },
-    {
-      "name": "日替わりモグランチ",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -131,6 +77,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000881651/reports/"
+  }
 }

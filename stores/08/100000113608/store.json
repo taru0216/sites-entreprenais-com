@@ -2,7 +2,7 @@
   "retty_id": "100000113608",
   "slug": "store-113608",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:03:46Z",
+  "last_crawled": "2026-06-04T20:44:33Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "居酒屋えびす村",
@@ -63,23 +63,8 @@
   "payment_accepted": "カード不可",
   "owner_message": "",
   "owner_photos": [],
-  "menu": [
-    {
-      "dish_slug": "dish-000",
-      "name": "腸詰",
-      "price": null,
-      "price_raw": null,
-      "photo_url": null,
-      "description": null
-    }
-  ],
-  "featured_menu": [
-    {
-      "name": "腸詰",
-      "price": null,
-      "photo_url": null
-    }
-  ],
+  "menu": [],
+  "featured_menu": [],
   "special_info": "",
   "reservation_url": "",
   "sns": {},
@@ -94,6 +79,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000113608/reports/"
+  }
 }

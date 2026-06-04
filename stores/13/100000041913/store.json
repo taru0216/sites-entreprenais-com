@@ -2,7 +2,7 @@
   "retty_id": "100000041913",
   "slug": "pellegrino-041913",
   "hp_status": "not_generated",
-  "last_crawled": "2026-06-03T16:08:53Z",
+  "last_crawled": "2026-06-04T20:37:25Z",
   "last_owner_update": null,
   "last_built": null,
   "name": "PELLEGRINO",
@@ -53,6 +53,5 @@
     "th": {},
     "vi": {},
     "zh-TW": {}
-  },
-  "review_url": "https://retty.me/area/PRE13/ARE7/SUB701/100000041913/reports/"
+  }
 }
