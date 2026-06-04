@@ -17,10 +17,13 @@ const { store } = Astro.props;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
-const heroDesc = store.description || store.special_info || '';
+// catchphrase → description → special_info の優先順位でヒーロー説明文を選択（#277）
+const heroDesc = store.catchphrase || store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
 const stats = store.stats ?? [];
 const features = store.features ?? [];
+// #46: reservation_url がない場合は電話 CTA のみ。tel もなければ非表示。
+const reservationUrl = store.reservation_url ?? null;
 const officialSns = store.official_sns ?? null;
 
 // Instagram ハンドル
@@ -594,6 +597,12 @@ const reviewUrl = store.review_url ?? null;
               <dd>{h}</dd>
             </div>
           ))}
+          {store.holiday && (
+            <div class="pb-info-row">
+              <dt>定休日</dt>
+              <dd>{store.holiday}</dd>
+            </div>
+          )}
           {budget.length > 0 && (
             <div class="pb-info-row">
               <dt>予算</dt>
@@ -614,6 +623,17 @@ const reviewUrl = store.review_url ?? null;
       </div>
     </div>
   </div>
+
+  {/* ===== About / owner_message（#278）===== */}
+  {store.owner_message && (
+    <div class="pb-section" style="background:#FEF9F4; border-top:1px solid #E8DECB;">
+      <div class="pb-container" style="max-width:760px; text-align:center;">
+        <span class="pb-section-label">ABOUT</span>
+        <h2 class="pb-section-title">お店について</h2>
+        <p style="font-size:15px; color:#4A3D31; line-height:2.1; white-space:pre-line; margin-top:1.5rem;">{store.owner_message}</p>
+      </div>
+    </div>
+  )}
 
   {/* ===== Final CTA ===== */}
   <div class="pb-final-cta" id="pb-cta">
@@ -639,5 +659,95 @@ const reviewUrl = store.review_url ?? null;
   <a href={reservationLink} target="_blank" rel="noopener" class="pb-s-cta"><span class="pb-ic">⌖</span>予約</a>
   <a href={maps} target="_blank" rel="noopener"><span class="pb-ic">🗺</span>地図</a>
 </div>
+
+  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
+  {officialSns && (officialSns.instagram || officialSns.tiktok || officialSns.twitter || officialSns.facebook) && (
+    <section id="official-sns" style="padding:4rem 0; background:#050505; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pb-section-eyebrow">OFFICIAL</p>
+        <h2 class="pb-section-title">公式SNS</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
+          {officialSns.instagram && (
+            <a href={officialSns.instagram} target="_blank" rel="noopener noreferrer"
+               style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;">
+              <img src="https://www.instagram.com/favicon.ico" alt="Instagram" width="16" height="16" style="margin-right:6px; border-radius:3px;" />
+              Instagram で見る
+            </a>
+          )}
+          {officialSns.twitter && (
+            <a href={officialSns.twitter} target="_blank" rel="noopener noreferrer"
+               style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;">
+              <img src="https://x.com/favicon.ico" alt="X" width="16" height="16" style="margin-right:6px; border-radius:3px;" />
+              X (Twitter) で見る
+            </a>
+          )}
+          {officialSns.facebook && (
+            <a href={officialSns.facebook} target="_blank" rel="noopener noreferrer"
+               style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;">
+              <img src="https://www.facebook.com/favicon.ico" alt="Facebook" width="16" height="16" style="margin-right:6px; border-radius:3px;" />
+              Facebook で見る
+            </a>
+          )}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
+  {store.has_real_name_reviews && store.review_url && (
+    <section id="voices" style="padding:4rem 0; background:#0a0505; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pb-section-eyebrow">VOICES</p>
+        <h2 class="pb-section-title">SNSのお客様の声</h2>
+        <p style="color:#b89880; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
+          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
+        </p>
+        <div data-animate="rise">
+          <a
+            href={store.review_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="margin-right: 6px; border-radius: 3px;"
+            />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
+  {store.retty_url && (
+    <section id="links" style="padding:4rem 0; background:#050505; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pb-section-eyebrow">LINKS</p>
+        <h2 class="pb-section-title">掲載サイト</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
+          <a
+            href={store.retty_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="margin-right: 6px; border-radius: 3px;"
+            />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
 
 </BaseLayout>

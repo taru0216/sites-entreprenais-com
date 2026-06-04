@@ -19,8 +19,11 @@ const ui = UI;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
-const heroDesc = store.description || store.special_info || '';
+// catchphrase → description → special_info の優先順位でヒーロー説明文を選択（#277）
+const heroDesc = store.catchphrase || store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
+// #46: reservation_url がない場合は電話 CTA のみ。tel もなければ非表示。
+const reservationUrl = store.reservation_url ?? null;
 
 // NOW OPEN ステータス判定（簡易: 現在日 vs 曜日別営業時間）
 const today = new Date();
@@ -34,7 +37,7 @@ const weeklyItems: WeeklyItem[] = store.weekly_items ?? [];
 const diaryEntries: DiaryEntry[] = store.diary ?? [];
 const features = store.features ?? [];
 
-// Instagram ハンドル
+// Instagram ハンドル（#70）
 const officialSns = store.official_sns ?? null;
 const instagramHandle = officialSns?.instagram
   ? officialSns.instagram.replace(/.*instagram\.com\//, '@').replace(/\/$/, '')
@@ -622,6 +625,12 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
                 <dd>{h}</dd>
               </div>
             ))}
+            {store.holiday && (
+              <div class="pc-visit-row">
+                <dt>定休日</dt>
+                <dd>{store.holiday}</dd>
+              </div>
+            )}
             {store.tel && (
               <div class="pc-visit-row">
                 <dt>TEL</dt>
@@ -676,5 +685,92 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
     </div>
   </div>
 </div>
+
+  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
+  {officialSns && (officialSns.instagram || officialSns.tiktok || officialSns.twitter || officialSns.facebook) && (
+    <section id="official-sns" style="padding:4rem 0; background:var(--bg-2, #F2EBE0); text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pc-section-eyebrow">OFFICIAL</p>
+        <h2 class="pc-section-title">公式SNS</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
+          {officialSns.instagram && (
+            <a href={officialSns.instagram} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
+              <img src="https://www.instagram.com/favicon.ico" alt="Instagram" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
+              Instagram で見る
+            </a>
+          )}
+          {officialSns.twitter && (
+            <a href={officialSns.twitter} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
+              <img src="https://x.com/favicon.ico" alt="X" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
+              X (Twitter) で見る
+            </a>
+          )}
+          {officialSns.facebook && (
+            <a href={officialSns.facebook} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
+              <img src="https://www.facebook.com/favicon.ico" alt="Facebook" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
+              Facebook で見る
+            </a>
+          )}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
+  {store.has_real_name_reviews && store.review_url && (
+    <section id="voices" style="padding:4rem 0; background:var(--pc-bg2, #070a07); text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pc-section-eyebrow">VOICES</p>
+        <h2 class="pc-section-title">SNSのお客様の声</h2>
+        <p style="color:#8aa88a; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
+          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
+        </p>
+        <div data-animate="rise">
+          <a
+            href={store.review_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="pc-btn-outline"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
+            />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
+  {store.retty_url && (
+    <section id="links" style="padding:4rem 0; background:var(--pc-bg, #050505); text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pc-section-eyebrow">LINKS</p>
+        <h2 class="pc-section-title">掲載サイト</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
+          <a
+            href={store.retty_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="pc-btn-outline"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
+            />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
 
 </BaseLayout>

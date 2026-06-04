@@ -17,9 +17,12 @@ const { store } = Astro.props;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
-const heroDesc = store.description || store.special_info || '';
+// catchphrase → description → special_info の優先順位でヒーロー説明文を選択（#277）
+const heroDesc = store.catchphrase || store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
-const ownerStory = store.owner_message || heroDesc || '';
+// #46: reservation_url がない場合は電話 CTA のみ。tel もなければ非表示。
+const reservationUrl = store.reservation_url ?? null;
+const ownerStory = store.owner_message || store.description || heroDesc || '';
 const features = store.features ?? [];
 const officialSns = store.official_sns ?? null;
 
@@ -535,6 +538,12 @@ if (officialSns) {
                 <dd>{h}</dd>
               </div>
             ))}
+            {store.holiday && (
+              <div class="pa-visit-row">
+                <dt>定休日</dt>
+                <dd>{store.holiday}</dd>
+              </div>
+            )}
             {store.tel && (
               <div class="pa-visit-row">
                 <dt>TEL</dt>
@@ -618,5 +627,84 @@ if (officialSns) {
     });
   }
 </script>
+
+  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
+  {officialSnsLinks.length > 0 && (
+    <section id="official-sns" style="padding:4rem 0; background:#0f0b07; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pa-section-label">OFFICIAL</p>
+        <h2 class="pa-section-title">公式SNS</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
+          {officialSnsLinks.map(link => (
+            <a
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pa-btn-outline"
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
+  {store.has_real_name_reviews && store.review_url && (
+    <section id="voices" style="padding:4rem 0; background:#0a0806; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pa-section-label">VOICES</p>
+        <h2 class="pa-section-title">SNSのお客様の声</h2>
+        <p style="color:#c8b49a; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
+          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
+        </p>
+        <div data-animate="rise">
+          <a
+            href={store.review_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="pa-btn-outline"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
+            />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
+  {store.retty_url && (
+    <section id="links" style="padding:4rem 0; background:#0f0b07; text-align:center;">
+      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
+        <p class="pa-section-label">LINKS</p>
+        <h2 class="pa-section-title">掲載サイト</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
+          <a
+            href={store.retty_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="pa-btn-outline"
+          >
+            <img
+              src="https://retty.me/favicon.ico"
+              alt="Retty"
+              width="16"
+              height="16"
+              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
+            />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
 
 </BaseLayout>
