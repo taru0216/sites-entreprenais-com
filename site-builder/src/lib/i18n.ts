@@ -16,6 +16,7 @@ export const UI = {
   store_tel: '電話番号',
   store_budget: '予算',
   store_payment: 'お支払い',
+  store_holiday: '定休日',
   access_map: '地図',
   open_in_gmaps: 'Google Maps で開く',
   reservation_title: 'ご予約',
