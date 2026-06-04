@@ -20,7 +20,8 @@ const ui = UI;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
-const heroDesc = store.description || store.special_info || '';
+// catchphrase → description → special_info の優先順位でヒーロー説明文を選択
+const heroDesc = store.catchphrase || store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
 const stats = store.stats ?? [];
 // #46: reservation_url がない場合は電話 CTA のみ。tel もなければ非表示。
@@ -181,8 +182,13 @@ if (officialSns) {
   .pb-menu-price { color: var(--pb-gold); font-size: 0.95rem; flex-shrink: 0; margin-left: 0.5rem; }
   .pb-menu-desc { color: #7a6060; font-size: 0.88rem; line-height: 1.7; }
 
+  /* 店舗紹介セクション（owner_message 表示）*/
+  .pb-about { padding: 5rem 0; background: var(--pb-bg2); }
+  .pb-about-inner { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; text-align: center; }
+  .pb-about-body { color: #b89880; font-size: 1rem; line-height: 2.1; white-space: pre-line; }
+
   /* アクセスセクション */
-  .pb-access { padding: 5rem 0; background: var(--pb-bg2); }
+  .pb-access { padding: 5rem 0; background: var(--pb-bg); }
   .pb-access-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
   .pb-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: start; margin-top: 3rem; }
   .pb-dl { display: grid; grid-template-columns: auto 1fr; gap: 0.75rem 1.5rem; }
@@ -284,6 +290,18 @@ if (officialSns) {
     </div>
   </section>
 
+  <!-- Pattern B: 店舗紹介セクション（owner_message） -->
+  {store.owner_message && (
+    <section class="pb-about">
+      <div class="pb-about-inner">
+        <p class="pb-section-eyebrow">ABOUT</p>
+        <h2 class="pb-section-title">お店について</h2>
+        <p class="pb-section-sub" style="margin-bottom:2rem;"></p>
+        <p class="pb-about-body">{store.owner_message}</p>
+      </div>
+    </section>
+  )}
+
   <!-- Pattern B: アクセスセクション -->
   <section id="access" class="pb-access">
     <div class="pb-access-inner">
@@ -315,6 +333,11 @@ if (officialSns) {
             {hours.length > 0 && (<>
               <dt class="pb-dt">{ui.store_hours}</dt>
               <dd class="pb-dd" set:html={hours.join('<br />')} />
+            </>)}
+
+            {store.holiday && (<>
+              <dt class="pb-dt">{ui.store_holiday}</dt>
+              <dd class="pb-dd">{store.holiday}</dd>
             </>)}
 
             {budget.length > 0 && (<>

@@ -19,7 +19,8 @@ const { store } = Astro.props;
 const ui = UI;
 const hours = formatHours(store);
 const maps = gmapsUrl(store);
-const heroDesc = store.description || store.special_info || '';
+// catchphrase → description → special_info の優先順位でヒーロー説明文を選択
+const heroDesc = store.catchphrase || store.description || store.special_info || '';
 const reservationLink = store.reservation_url ?? maps;
 // #46: reservation_url がない場合は電話 CTA のみ。tel もなければ非表示。
 const reservationUrl = store.reservation_url ?? null;
@@ -299,6 +300,11 @@ const textMuted = '#9c8c7a';     // くすんだテキスト
             {hours.length > 0 && (<>
               <dt class="pa-dt">{ui.store_hours}</dt>
               <dd class="pa-dd" set:html={hours.join('<br />')} />
+            </>)}
+
+            {store.holiday && (<>
+              <dt class="pa-dt">{ui.store_holiday}</dt>
+              <dd class="pa-dd">{store.holiday}</dd>
             </>)}
 
             {store.tel && (<>
