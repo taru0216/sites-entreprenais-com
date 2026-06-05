@@ -40,12 +40,43 @@ export interface WeeklyItem {
   name: string;
   note?: string;
   icon?: string;
+  /** 在庫ステータス（"available" | "limited" | "sold_out"）*/
+  status?: string;
+  /** 産地・仕入れ元 */
+  origin?: string;
+  /** 最終更新時刻（ISO 8601 or 表示用文字列）*/
+  updated_at?: string;
 }
 
 /** 店主の日誌エントリ（Pattern C に表示）。*/
 export interface DiaryEntry {
   date?: string;
   text: string;
+  /** タグ一覧（例: ["#入荷情報", "#季節の一品"]）*/
+  tags?: string[];
+  /** 読了時間（例: "2分で読めます"）*/
+  read_time?: string;
+}
+
+/** 受賞歴・メディア掲載歴（Pattern A owner_ フィールド）。*/
+export interface AwardItem {
+  year?: string | number;
+  name: string;
+  description?: string;
+}
+
+/** 生産者・仕入れ先情報（Pattern A owner_ フィールド）。*/
+export interface ProducerItem {
+  name: string;
+  image?: string;
+  description?: string;
+}
+
+/** コース情報（Pattern A owner_ フィールド）。*/
+export interface CourseItem {
+  name: string;
+  price?: string | number;
+  description?: string;
 }
 
 export interface Store {
@@ -110,6 +141,31 @@ export interface Store {
   weekly_items?: WeeklyItem[];
   /** 店主の日誌エントリ（Pattern C）。（#78） */
   diary?: DiaryEntry[];
+
+  // ===== クローラー取得フィールド（crawl_retty.py で取得）=====
+  /** キャンセルポリシー（Retty 基本情報から取得）。 */
+  cancel_policy?: string | null;
+  /** 店舗スペック（席数・ドレスコード等）。 */
+  spec?: {
+    capacity?: number | string | null;
+    dress_code?: string | null;
+  } | null;
+
+  // ===== オーナー入力フィールド（owner_* プレフィックス）=====
+  /** 受賞歴・メディア掲載歴（Pattern A）。 */
+  owner_awards?: AwardItem[];
+  /** 生産者・仕入れ先情報（Pattern A）。 */
+  owner_producers?: ProducerItem[];
+  /** コース情報（Pattern A）。 */
+  owner_courses?: CourseItem[];
+  /** キャンセルポリシー詳細（オーナー入力版）。 */
+  owner_cancel_policy?: string | null;
+  /** 空席状況メモ（Pattern B）。 */
+  owner_availability_note?: string | null;
+  /** 予約方法説明（Pattern C）。 */
+  owner_reservation_note?: string | null;
+  /** ライブ在庫数（Pattern C、今週の食材等の件数）。 */
+  live_stock_count?: number | null;
 }
 
 /**
