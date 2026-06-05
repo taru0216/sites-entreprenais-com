@@ -256,30 +256,6 @@ const homeHref = '/foodre/';
   </style>
 </head>
 <body class="no-js">
-  <header>
-    <div class="header-inner">
-      <div class="site-title"><a href={homeHref}>{siteName}</a></div>
-      <div class="header-right">
-        <nav class="main-nav">
-          <a href="#menu">{ui.nav_menu}</a>
-          <a href="#access">{ui.nav_access}</a>
-          <a href="#reservation">{ui.nav_reservation}</a>
-          <a href={homeHref}>{ui.back_to_list}</a>
-        </nav>
-        <button class="hamburger" id="hamburger" aria-label="menu" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <nav class="mobile-nav" id="mobileNav">
-    <a href="#menu">{ui.nav_menu}</a>
-    <a href="#access">{ui.nav_access}</a>
-    <a href="#reservation">{ui.nav_reservation}</a>
-    <a href={homeHref}>{ui.back_to_list}</a>
-  </nav>
-
   <main class="spa-main">
     <slot />
   </main>
@@ -294,24 +270,6 @@ const homeHref = '/foodre/';
   <script>
     // JS 有効を明示（no-js フォールバックの解除）
     document.body.classList.remove('no-js');
-
-    // ハンバーガーメニュー
-    const btn = document.getElementById('hamburger');
-    const nav = document.getElementById('mobileNav');
-    if (btn && nav) {
-      btn.addEventListener('click', () => {
-        const isOpen = nav.classList.toggle('open');
-        btn.classList.toggle('open', isOpen);
-        btn.setAttribute('aria-expanded', String(isOpen));
-      });
-      nav.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          nav.classList.remove('open');
-          btn.classList.remove('open');
-          btn.setAttribute('aria-expanded', 'false');
-        });
-      });
-    }
 
     // スクロール連動フェードイン（軽量・外部依存なし）
     const animated = Array.from(document.querySelectorAll('[data-animate]'));
