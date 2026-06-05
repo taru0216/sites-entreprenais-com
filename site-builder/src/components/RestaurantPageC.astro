@@ -4,10 +4,9 @@
 // 川野さん設計: ライブステータスバー・今日のおすすめ・店主日誌・食材入荷情報・LINE CTA
 // 元デザイン HTML（03_pattern-C_content-update.html）ベースで完全差し替え（store.json 変数バインド済み）
 //
-// factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
+// 自己完結型ページ: BaseLayout を使わず、直接 <!DOCTYPE html>...<html><head><body> を持つ。
+// BaseLayout のヘッダー/フッター/グローバル CSS 競合を根本的に排除する。
 
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { UI } from '../lib/i18n';
 import {
   formatHours, formatBudget, gmapsUrl,
   type Store, type WeeklyItem, type DiaryEntry,
@@ -15,7 +14,6 @@ import {
 
 export interface Props { store: Store; }
 const { store } = Astro.props;
-const ui = UI;
 const hours = formatHours(store);
 const budget = formatBudget(store);
 const maps = gmapsUrl(store);
@@ -47,9 +45,29 @@ const instagramHandle = officialSns?.instagram
 const todaySpecial = store.featured_menu?.[0] ?? null;
 ---
 
-<style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{store.name}</title>
+  <meta name="description" content={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`} />
+  <style>
   /* Pattern C 専用スタイル: ライブコンテンツ・明るいベーカリー系デザイン */
-  .pc-wrap {
+  /* ===== Global resets ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", -apple-system, sans-serif;
+    color: #2A241B;
+    background: #FAF7F1;
+    font-size: 15px;
+    line-height: 1.85;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; }
+  :root {
     --bg: #FAF7F1;
     --bg-2: #F2EBE0;
     --ink: #1F1A12;
@@ -61,12 +79,34 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
     --text: #2A241B;
     --text-soft: #6B5E4D;
     --text-faint: #998A77;
+    --line: #E5DCD0;
+  }
+
+  /* ===== Footer ===== */
+  footer {
+    background: var(--ink);
+    color: rgba(250,247,241,0.7);
+    padding: 36px 0 28px;
+    text-align: center;
+    font-size: 12px;
+  }
+  footer .brand-ft {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 16px;
+    color: var(--bg);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+  }
+  footer .ft-credit {
+    margin-top: 16px;
+    font-size: 10.5px;
+    opacity: 0.55;
+    letter-spacing: 0.12em;
+  }
+
+  .pc-wrap {
     --pc-line: #E5DCD0;
-    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", -apple-system, sans-serif;
-    background: var(--bg);
-    color: #2A241B;
-    font-size: 15px;
-    line-height: 1.85;
   }
   .pc-wrap a { color: inherit; text-decoration: none; }
 
@@ -386,9 +426,9 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
     .pc-nav-links { display: none; }
     .pc-sns-grid { grid-template-columns: repeat(3, 1fr); }
   }
-</style>
-
-<BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
+  </style>
+</head>
+<body>
 
 <div class="pc-wrap">
   {/* ===== Nav ===== */}
@@ -686,91 +726,15 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
   </div>
 </div>
 
-  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
-  {officialSns && (officialSns.instagram || officialSns.tiktok || officialSns.twitter || officialSns.facebook) && (
-    <section id="official-sns" style="padding:4rem 0; background:var(--bg-2, #F2EBE0); text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pc-section-eyebrow">OFFICIAL</p>
-        <h2 class="pc-section-title">公式SNS</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          {officialSns.instagram && (
-            <a href={officialSns.instagram} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
-              <img src="https://www.instagram.com/favicon.ico" alt="Instagram" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
-              Instagram で見る
-            </a>
-          )}
-          {officialSns.twitter && (
-            <a href={officialSns.twitter} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
-              <img src="https://x.com/favicon.ico" alt="X" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
-              X (Twitter) で見る
-            </a>
-          )}
-          {officialSns.facebook && (
-            <a href={officialSns.facebook} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
-              <img src="https://www.facebook.com/favicon.ico" alt="Facebook" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
-              Facebook で見る
-            </a>
-          )}
-        </div>
-      </div>
-    </section>
-  )}
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="pc-container">
+    <div class="brand-ft">{store.name}</div>
+    {store.address && <div>{store.address}</div>}
+    <div>© 2026 {store.name}</div>
+    <div class="ft-credit">POWERED BY Restaurant Agent</div>
+  </div>
+</footer>
 
-  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
-  {store.has_real_name_reviews && store.review_url && (
-    <section id="voices" style="padding:4rem 0; background:var(--pc-bg2, #070a07); text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pc-section-eyebrow">VOICES</p>
-        <h2 class="pc-section-title">SNSのお客様の声</h2>
-        <p style="color:#8aa88a; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
-          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
-        </p>
-        <div data-animate="rise">
-          <a
-            href={store.review_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pc-btn-outline"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
-
-  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
-  {store.retty_url && (
-    <section id="links" style="padding:4rem 0; background:var(--pc-bg, #050505); text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pc-section-eyebrow">LINKS</p>
-        <h2 class="pc-section-title">掲載サイト</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          <a
-            href={store.retty_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pc-btn-outline"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
-
-</BaseLayout>
+</body>
+</html>

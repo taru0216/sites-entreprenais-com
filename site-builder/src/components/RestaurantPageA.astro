@@ -4,9 +4,9 @@
 // 川野さん設計: 書体・紙テクスチャ・章立てレイアウトで「物語」を体験させる高質なデザイン
 // 元デザイン HTML（01_pattern-A_story-driven.html）ベースで完全差し替え（store.json 変数バインド済み）
 //
-// factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
+// 自己完結型ページ: BaseLayout を使わず、直接 <!DOCTYPE html>...<html><head><body> を持つ。
+// BaseLayout のヘッダー/フッター/グローバル CSS 競合を根本的に排除する。
 
-import BaseLayout from '../layouts/BaseLayout.astro';
 import {
   formatHours, formatBudget, gmapsUrl,
   type Store,
@@ -36,24 +36,71 @@ if (officialSns) {
 }
 ---
 
-<style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{store.name}</title>
+  <meta name="description" content={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`} />
+  <style>
   /* Pattern A 専用スタイル: 書体=明朝・紙テクスチャ・章立てデザイン */
-  /* ===== 変数 ===== */
-  .pa-wrap {
+  /* ===== Global resets ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Georgia", serif;
+    color: #2A2620;
+    background: #F8F4ED;
+    font-size: 15px;
+    line-height: 1.95;
+    letter-spacing: 0.02em;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; }
+  :root {
     --paper: #F8F4ED;
     --paper-2: #F1EADD;
     --ink: #1A1612;
     --ink-soft: #4A4036;
     --text-faint: #8B7E6E;
-    --pa-line: #DDD3C3;
+    --line: #DDD3C3;
     --gold: #A88B4C;
     --warm: #B65A35;
-    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Georgia", serif;
-    background: var(--paper);
-    color: #2A2620;
-    font-size: 15px;
-    line-height: 1.95;
-    letter-spacing: 0.02em;
+  }
+
+  /* ===== Footer ===== */
+  footer {
+    background: var(--ink);
+    color: rgba(248,244,237,0.65);
+    padding: 56px 0 40px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    letter-spacing: 0.08em;
+  }
+  footer .ft-brand {
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: 18px;
+    color: var(--paper);
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    margin-bottom: 8px;
+  }
+  footer .ft-credit {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(248,244,237,0.12);
+    font-size: 10px;
+    opacity: 0.55;
+    letter-spacing: 0.16em;
+  }
+
+  /* ===== pa-wrap (パターン固有の追加変数) ===== */
+  .pa-wrap {
+    --pa-line: #DDD3C3;
   }
   .pa-wrap a { color: inherit; text-decoration: none; }
 
@@ -383,9 +430,9 @@ if (officialSns) {
     .pa-nav-links { display: none; }
     .pa-float-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 11px; }
   }
-</style>
-
-<BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
+  </style>
+</head>
+<body>
 
 <div class="pa-wrap">
   {/* ===== Nav ===== */}
@@ -628,83 +675,15 @@ if (officialSns) {
   }
 </script>
 
-  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
-  {officialSnsLinks.length > 0 && (
-    <section id="official-sns" style="padding:4rem 0; background:#0f0b07; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pa-section-label">OFFICIAL</p>
-        <h2 class="pa-section-title">公式SNS</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          {officialSnsLinks.map(link => (
-            <a
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="pa-btn-outline"
-            >
-              {link.label}
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="pa-container">
+    <div class="ft-brand">{store.name}</div>
+    {store.address && <div>{store.address}</div>}
+    <div>© 2026 {store.name}</div>
+    <div class="ft-credit">POWERED BY RESTAURANT AGENT</div>
+  </div>
+</footer>
 
-  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
-  {store.has_real_name_reviews && store.review_url && (
-    <section id="voices" style="padding:4rem 0; background:#0a0806; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pa-section-label">VOICES</p>
-        <h2 class="pa-section-title">SNSのお客様の声</h2>
-        <p style="color:#c8b49a; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
-          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
-        </p>
-        <div data-animate="rise">
-          <a
-            href={store.review_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pa-btn-outline"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
-
-  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
-  {store.retty_url && (
-    <section id="links" style="padding:4rem 0; background:#0f0b07; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pa-section-label">LINKS</p>
-        <h2 class="pa-section-title">掲載サイト</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          <a
-            href={store.retty_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pa-btn-outline"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
-
-</BaseLayout>
+</body>
+</html>

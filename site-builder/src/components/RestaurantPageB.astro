@@ -4,9 +4,9 @@
 // 川野さん設計: スティッキーナビ予約ボタン・ヒーロー内 CTA カード・レビューバー
 // 元デザイン HTML（02_pattern-B_conversion.html）ベースで完全差し替え（store.json 変数バインド済み）
 //
-// factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
+// 自己完結型ページ: BaseLayout を使わず、直接 <!DOCTYPE html>...<html><head><body> を持つ。
+// BaseLayout のヘッダー/フッター/グローバル CSS 競合を根本的に排除する。
 
-import BaseLayout from '../layouts/BaseLayout.astro';
 import {
   formatHours, formatBudget, gmapsUrl,
   type Store,
@@ -35,8 +35,40 @@ const instagramHandle = officialSns?.instagram
 const reviewUrl = store.review_url ?? null;
 ---
 
-<style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{store.name}</title>
+  <meta name="description" content={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`} />
+  <style>
   /* Pattern B 専用スタイル: ダーク炎 × スティッキー CTA × コンバージョン直球型 */
+  /* ===== Global resets ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1F1611;
+    background: #FAF6EF;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; border: none; }
+  ul { list-style: none; }
+
+  /* ===== Footer ===== */
+  footer {
+    background: #1A0E08; color: rgba(250,246,239,0.7);
+    padding: 36px 0 80px;
+    text-align: center;
+    font-size: 12px;
+  }
+  footer .ft-brand { font-family: "Hiragino Mincho ProN", serif; font-size: 16px; color: #FAF6EF; font-weight: 600; letter-spacing: 0.04em; margin-bottom: 4px; }
+  footer .ft-credit { margin-top: 16px; font-size: 10.5px; opacity: 0.6; letter-spacing: 0.1em; }
+
   .pb-wrap {
     --pb-orange: #E66A4B;
     --pb-orange-hover: #D55A3D;
@@ -45,11 +77,6 @@ const reviewUrl = store.review_url ?? null;
     --pb-bg-light: #FAF6EF;
     --pb-ink: #1F1611;
     --pb-muted: #6B5B4A;
-    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", -apple-system, BlinkMacSystemFont, sans-serif;
-    color: #1F1611;
-    background: #FAF6EF;
-    font-size: 15px;
-    line-height: 1.7;
   }
   .pb-wrap a { color: inherit; text-decoration: none; }
 
@@ -381,9 +408,9 @@ const reviewUrl = store.review_url ?? null;
     .pb-topnav-right .pb-btn-cta { display: none; }
     .pb-topnav-right .pb-tel-link { font-size: 12px; }
   }
-</style>
-
-<BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
+  </style>
+</head>
+<body>
 
 <div class="pb-wrap">
   {/* ===== Sticky Top Nav ===== */}
@@ -660,94 +687,15 @@ const reviewUrl = store.review_url ?? null;
   <a href={maps} target="_blank" rel="noopener"><span class="pb-ic">🗺</span>地図</a>
 </div>
 
-  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
-  {officialSns && (officialSns.instagram || officialSns.tiktok || officialSns.twitter || officialSns.facebook) && (
-    <section id="official-sns" style="padding:4rem 0; background:#050505; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pb-section-eyebrow">OFFICIAL</p>
-        <h2 class="pb-section-title">公式SNS</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          {officialSns.instagram && (
-            <a href={officialSns.instagram} target="_blank" rel="noopener noreferrer"
-               style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;">
-              <img src="https://www.instagram.com/favicon.ico" alt="Instagram" width="16" height="16" style="margin-right:6px; border-radius:3px;" />
-              Instagram で見る
-            </a>
-          )}
-          {officialSns.twitter && (
-            <a href={officialSns.twitter} target="_blank" rel="noopener noreferrer"
-               style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;">
-              <img src="https://x.com/favicon.ico" alt="X" width="16" height="16" style="margin-right:6px; border-radius:3px;" />
-              X (Twitter) で見る
-            </a>
-          )}
-          {officialSns.facebook && (
-            <a href={officialSns.facebook} target="_blank" rel="noopener noreferrer"
-               style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;">
-              <img src="https://www.facebook.com/favicon.ico" alt="Facebook" width="16" height="16" style="margin-right:6px; border-radius:3px;" />
-              Facebook で見る
-            </a>
-          )}
-        </div>
-      </div>
-    </section>
-  )}
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="pb-container">
+    <div class="ft-brand">{store.name}</div>
+    {store.address && <div>{store.address}</div>}
+    <div>© 2026 {store.name}</div>
+    <div class="ft-credit">Powered by Restaurant Agent</div>
+  </div>
+</footer>
 
-  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
-  {store.has_real_name_reviews && store.review_url && (
-    <section id="voices" style="padding:4rem 0; background:#0a0505; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pb-section-eyebrow">VOICES</p>
-        <h2 class="pb-section-title">SNSのお客様の声</h2>
-        <p style="color:#b89880; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
-          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
-        </p>
-        <div data-animate="rise">
-          <a
-            href={store.review_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
-
-  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
-  {store.retty_url && (
-    <section id="links" style="padding:4rem 0; background:#050505; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pb-section-eyebrow">LINKS</p>
-        <h2 class="pb-section-title">掲載サイト</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          <a
-            href={store.retty_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            style="display:inline-flex; align-items:center; border:2px solid var(--pb-gold); color:var(--pb-gold); font-weight:700; padding:0.75rem 1.5rem; border-radius:4px; font-size:0.9rem; text-decoration:none;"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
-
-</BaseLayout>
+</body>
+</html>
