@@ -1,0 +1,172 @@
+{
+  "retty_id": "999999999901",
+  "slug": "test-shokudo-shibuya",
+  "hp_status": "not_generated",
+  "last_crawled": "2026-06-04T10:00:00Z",
+  "last_owner_update": null,
+  "last_built": null,
+  "name": "テスト食堂 渋谷店",
+  "catchphrase": "毎日通いたくなる、地元の居場所",
+  "category": "居酒屋",
+  "categories": ["居酒屋", "和食", "魚介・海鮮料理", "焼き鳥"],
+  "address": "東京都渋谷区道玄坂1-2-3 渋谷ビル2F",
+  "postal_code": "1500041",
+  "tel": "03-1234-5678",
+  "hours": {
+    "mon": { "open": "17:00", "close": "24:00" },
+    "tue": { "open": "17:00", "close": "24:00" },
+    "wed": { "open": "17:00", "close": "24:00" },
+    "thu": { "open": "17:00", "close": "24:00" },
+    "fri": { "open": "17:00", "close": "25:00" },
+    "sat": { "open": "12:00", "close": "25:00" },
+    "sun": { "open": "12:00", "close": "23:00" }
+  },
+  "hours_raw": "月〜金 17:00〜24:00（金曜は25時まで）、土日 12:00〜",
+  "holiday": "年中無休",
+  "budget": {
+    "lunch": "営業時間外",
+    "dinner": 4000
+  },
+  "budget_raw": "ディナー予算: 〜4,000円",
+  "geo": {
+    "lat": 35.6591,
+    "lng": 139.7005
+  },
+  "nearest_station": "東急東横線・渋谷駅より徒歩5分",
+  "payment_accepted": "カード可（VISA / Mastercard / AMEX）、PayPay対応",
+  "retty_url": "https://retty.me/area/PRE13/ARE103/SUB1031/100000001/",
+  "review_url": "https://retty.me/area/PRE13/ARE103/SUB1031/100000001/reports/",
+  "retty_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/sample1.jpg",
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/sample2.jpg",
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/sample3.jpg"
+  ],
+  "retty_rating": 4.2,
+  "retty_review_count": 89,
+  "review_count": 89,
+  "real_name_count": 52,
+  "has_real_name_reviews": true,
+  "owner_message": "旬の食材にこだわった、ほっとする和食をお届けします。地元の農家さんや漁師さんと直接契約し、その日に仕入れた食材を使った料理を毎日ご用意しています。",
+  "owner_photos": [
+    "https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/owner1.jpg"
+  ],
+  "reservation_url": "https://example.com/reserve",
+  "template_pattern": "restaurant-pattern-c",
+  "official_sns": {
+    "instagram": "https://www.instagram.com/test_shokudo/",
+    "twitter": "https://twitter.com/test_shokudo",
+    "facebook": "https://facebook.com/test_shokudo",
+    "tiktok": "https://www.tiktok.com/@test_shokudo"
+  },
+  "sns": {
+    "line": "https://lin.ee/example"
+  },
+  "stats": [
+    { "value": "1,234", "label": "来店数" },
+    { "value": "4.2", "label": "Retty評価" },
+    { "value": "89", "label": "口コミ数" }
+  ],
+  "reviews": [
+    {
+      "body": "雰囲気が良くて料理も美味しかったです。また来ます！",
+      "author": "田中太郎",
+      "rating": 5
+    },
+    {
+      "body": "コスパが良く、スタッフの対応も丁寧で最高でした。旬の食材を活かした料理が絶品。",
+      "author": "佐藤花子",
+      "rating": 4
+    },
+    {
+      "body": "旬の食材を使った料理が絶品。定期的に通いたいお店です。焼き鳥は特におすすめ！",
+      "author": "山田次郎",
+      "rating": 5
+    }
+  ],
+  "featured_menu": [
+    {
+      "name": "季節の煮物",
+      "price": 800,
+      "price_raw": "800円",
+      "description": "旬の野菜を丁寧に煮込みました"
+    },
+    {
+      "name": "刺身盛り合わせ",
+      "price": 1500,
+      "price_raw": "1,500円",
+      "description": "その日仕入れた新鮮な魚介類"
+    },
+    {
+      "name": "炙り焼き鳥",
+      "price": 600,
+      "price_raw": "600円",
+      "description": "炭火でじっくり焼いた絶品焼き鳥"
+    }
+  ],
+  "menu": [
+    {
+      "name": "季節の煮物",
+      "price_raw": "800円",
+      "description": "旬の野菜を丁寧に煮込みました"
+    },
+    {
+      "name": "刺身盛り合わせ",
+      "price_raw": "1,500円",
+      "description": "その日仕入れた新鮮な魚介類"
+    },
+    {
+      "name": "炙り焼き鳥",
+      "price_raw": "600円",
+      "description": "炭火でじっくり焼いた絶品焼き鳥"
+    },
+    {
+      "name": "だし巻き卵",
+      "price_raw": "500円",
+      "description": "ふわふわのだし巻き卵"
+    },
+    {
+      "name": "本日の焼き魚",
+      "price_raw": "900円",
+      "description": "その日仕入れた鮮魚を塩焼きで"
+    }
+  ],
+  "features": [
+    { "icon": "🏠", "title": "個室あり", "body": "2〜8名の個室をご用意。接待やお祝いに最適です。" },
+    { "icon": "🚭", "title": "禁煙席あり", "body": "全席禁煙エリアとスモーキングエリアに分かれています。" },
+    { "icon": "🌿", "title": "旬の食材", "body": "地元農家・漁師から直接仕入れた旬の食材を使用。" },
+    { "icon": "🍱", "title": "テイクアウト可", "body": "お弁当・おつまみのテイクアウトに対応しています。" }
+  ],
+  "diary": [
+    {
+      "date": "2026-06-04",
+      "text": "今日は鮮度抜群のカツオが入荷しました。一本釣りの高知産。刺身でどうぞ！"
+    },
+    {
+      "date": "2026-06-03",
+      "text": "雨の日は温かい煮物が人気です。今日は地元農家さんのたけのこを使った一品をご用意。"
+    },
+    {
+      "date": "2026-06-01",
+      "text": "6月からランチ営業をスタートします。地元の皆さんに愛されるお店を目指して！"
+    }
+  ],
+  "weekly_items": [
+    { "name": "カツオ（高知産）", "note": "一本釣り。今週は特に鮮度が良いです", "icon": "🐟" },
+    { "name": "アスパラガス（北海道産）", "note": "甘くてシャキシャキ。旬の一品", "icon": "🌿" },
+    { "name": "スナップエンドウ（地元農家）", "note": "農家さんから朝取り直送", "icon": "🫛" }
+  ],
+  "special_info": "毎週金曜日は「旬の魚介フェア」を開催。特選刺身盛り合わせが通常価格の20%オフ。",
+  "description": "渋谷道玄坂に佇む隠れ家的な居酒屋。地元農家・漁師から直接仕入れた旬の食材を使った料理が自慢。個室完備でアクセスも便利。",
+  "i18n": {
+    "en": {
+      "name": "Test Shokudo Shibuya",
+      "description": "A cozy izakaya in Shibuya with seasonal ingredients.",
+      "featured_menu": []
+    },
+    "zh": {},
+    "ko": {},
+    "th": {},
+    "vi": {},
+    "zh-TW": {}
+  }
+}
