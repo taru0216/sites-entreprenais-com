@@ -4,9 +4,8 @@
 // 川野さん設計: ライブステータスバー・今日のおすすめ・店主日誌・食材入荷情報・LINE CTA
 // 元デザイン HTML（03_pattern-C_content-update.html）ベースで完全差し替え（store.json 変数バインド済み）
 //
-// factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
-
-import BaseLayout from '../layouts/BaseLayout.astro';
+// 自己完結型ページ: BaseLayout を使わず、直接 <!DOCTYPE html>...<html><head><body> を持つ。
+// BaseLayout のヘッダー/フッター/グローバル CSS 競合を根本的に排除する。
 import { UI } from '../lib/i18n';
 import {
   formatHours, formatBudget, gmapsUrl,
@@ -45,10 +44,36 @@ const instagramHandle = officialSns?.instagram
 
 // 今日の特集メニュー（featured_menu の先頭）
 const todaySpecial = store.featured_menu?.[0] ?? null;
+const reservationNote = store.owner_reservation_note ?? null;
+const liveStockCount = store.live_stock_count ?? weeklyItems.length;
 ---
 
-<style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{store.name}</title>
+  <meta name="description" content={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <style>
   /* Pattern C 専用スタイル: ライブコンテンツ・明るいベーカリー系デザイン */
+  /* ===== Global resets ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body { background: #FAF7F1; color: #2A241B; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", -apple-system, sans-serif; font-size: 15px; line-height: 1.75; }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; }
+  [data-animate] { opacity: 0; transform: translateY(24px); transition: opacity 0.7s cubic-bezier(0.22,1,0.36,1), transform 0.7s cubic-bezier(0.22,1,0.36,1); will-change: opacity, transform; }
+  [data-animate].in { opacity: 1; transform: none; }
+  .no-js [data-animate] { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    [data-animate] { opacity: 1 !important; transform: none !important; transition: none !important; }
+    html { scroll-behavior: auto; }
+  }
   .pc-wrap {
     --bg: #FAF7F1;
     --bg-2: #F2EBE0;
@@ -386,9 +411,9 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
     .pc-nav-links { display: none; }
     .pc-sns-grid { grid-template-columns: repeat(3, 1fr); }
   }
-</style>
-
-<BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
+  </style>
+</head>
+<body class="no-js">
 
 <div class="pc-wrap">
   {/* ===== Nav ===== */}
@@ -435,6 +460,7 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
         <div>
           <div class="pc-hero-eyebrow">
             <em>Today's Special</em>
+            <span id="pc-today-date" style="font-size:11px; opacity:0.7; margin-left:10px; font-family:ui-monospace,monospace;"></span>
           </div>
           <h1>{store.name}</h1>
           {heroDesc && <p class="pc-hero-lead">{heroDesc}</p>}
@@ -487,9 +513,19 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
               <div class="pc-journal-card">
                 <div class={`pc-journal-img${i === 1 ? ' pc-ji-2' : i === 2 ? ' pc-ji-3' : ''}`}></div>
                 <div class="pc-journal-body">
-                  {entry.date && <div class="pc-journal-date">{entry.date}</div>}
+                  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                    {entry.date && <div class="pc-journal-date">{entry.date}</div>}
+                    {entry.read_time && <div style="font-size:10px; color:var(--text-faint); font-family:ui-monospace,monospace;">{entry.read_time}</div>}
+                  </div>
                   <h3 class="pc-journal-title">{entry.text.slice(0, 40)}{entry.text.length > 40 ? '…' : ''}</h3>
                   <p class="pc-journal-excerpt">{entry.text}</p>
+                  {entry.tags && entry.tags.length > 0 && (
+                    <div style="display:flex; flex-wrap:wrap; gap:4px; margin-top:10px;">
+                      {entry.tags.map(tag => (
+                        <span style="font-size:10px; color:var(--terracotta); background:rgba(199,123,95,0.08); padding:2px 7px; border-radius:999px; font-family:'Hiragino Kaku Gothic ProN',sans-serif;">{tag}</span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -519,16 +555,23 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
             <span class="pc-section-eyebrow"><em>Ingredients</em></span>
             <h2 class="pc-section-title">今週入った、<br>食材・おすすめ。</h2>
             <p class="pc-section-lead">入荷した瞬間にお客様にもお知らせ。</p>
+            <p style="font-size:12px; color:var(--text-faint); margin-top:8px; font-family:ui-monospace,monospace;">現在 {liveStockCount} 種類が入荷中</p>
           </div>
           <div class="pc-ing-list">
             <h4>今週の情報</h4>
             {weeklyItems.map((item) => (
               <div class="pc-ing-row">
                 <div class="pc-ing-name">
+                  {item.icon && <span style="margin-right:6px;">{item.icon}</span>}
                   {item.name}
+                  {item.status === 'limited' && <span style="font-size:10px; background:#FFF0E0; color:#B85A20; padding:2px 6px; border-radius:3px; margin-left:8px; font-family:'Hiragino Kaku Gothic ProN',sans-serif;">残りわずか</span>}
+                  {item.status === 'sold_out' && <span style="font-size:10px; background:#F0F0F0; color:#888; padding:2px 6px; border-radius:3px; margin-left:8px; font-family:'Hiragino Kaku Gothic ProN',sans-serif;">本日完売</span>}
                   {item.note && <span class="pc-note">{item.note}</span>}
                 </div>
-                {item.icon && <div class="pc-ing-icon">{item.icon}</div>}
+                <div style="display:flex; flex-direction:column; align-items:flex-end; gap:2px; flex-shrink:0;">
+                  {item.origin && <span style="font-size:11px; color:var(--text-faint);">{item.origin}</span>}
+                  {item.updated_at && <span style="font-size:10px; color:var(--text-faint); font-family:ui-monospace,monospace;">{item.updated_at}</span>}
+                </div>
               </div>
             ))}
           </div>
@@ -659,15 +702,46 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
     </div>
   </div>
 
+  {/* ===== Voices（has_real_name_reviews && review_url）===== */}
+  {store.has_real_name_reviews && store.review_url && (
+    <div class="pc-section" id="pc-voices">
+      <div class="pc-container" style="text-align:center; max-width:700px;">
+        <span class="pc-section-eyebrow"><em>Voices</em></span>
+        <h2 class="pc-section-title">SNS のお客さまの声。</h2>
+        <p class="pc-section-lead">SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。</p>
+        <a href={store.review_url} target="_blank" rel="noopener noreferrer" class="pc-btn-primary" style="display:inline-flex; align-items:center; gap:6px;">
+          <img src="https://retty.me/favicon.ico" alt="Retty" width="16" height="16" style="border-radius:3px;" />
+          Retty で見る
+        </a>
+      </div>
+    </div>
+  )}
+
+  {/* ===== Links（retty_url）===== */}
+  {store.retty_url && (
+    <div class="pc-section" style="background:var(--bg-2);" id="pc-links">
+      <div class="pc-container" style="text-align:center; max-width:700px;">
+        <span class="pc-section-eyebrow"><em>Links</em></span>
+        <h2 class="pc-section-title">掲載サイト。</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:1.5rem;">
+          <a href={store.retty_url} target="_blank" rel="noopener noreferrer" class="pc-btn-outline" style="display:inline-flex; align-items:center; gap:6px;">
+            <img src="https://retty.me/favicon.ico" alt="Retty" width="16" height="16" style="border-radius:3px;" />
+            Retty で見る
+          </a>
+        </div>
+      </div>
+    </div>
+  )}
+
   {/* ===== Newsletter / LINE CTA ===== */}
   <div class="pc-nl-section" id="pc-reserve">
     <div class="pc-container">
       <h2>最新情報を、<br>いち早くお届けします。</h2>
       <p>
-        {store.sns?.line
+        {reservationNote || (store.sns?.line
           ? 'LINE 公式アカウントを友だち追加すると、新メニューや営業情報をいち早くお知らせします。'
           : 'ご予約・お問い合わせはこちらからどうぞ。'
-        }
+        )}
       </p>
       <div class="pc-nl-actions">
         {store.sns?.line ? (
@@ -686,91 +760,38 @@ const todaySpecial = store.featured_menu?.[0] ?? null;
   </div>
 </div>
 
-  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
-  {officialSns && (officialSns.instagram || officialSns.tiktok || officialSns.twitter || officialSns.facebook) && (
-    <section id="official-sns" style="padding:4rem 0; background:var(--bg-2, #F2EBE0); text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pc-section-eyebrow">OFFICIAL</p>
-        <h2 class="pc-section-title">公式SNS</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          {officialSns.instagram && (
-            <a href={officialSns.instagram} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
-              <img src="https://www.instagram.com/favicon.ico" alt="Instagram" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
-              Instagram で見る
-            </a>
-          )}
-          {officialSns.twitter && (
-            <a href={officialSns.twitter} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
-              <img src="https://x.com/favicon.ico" alt="X" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
-              X (Twitter) で見る
-            </a>
-          )}
-          {officialSns.facebook && (
-            <a href={officialSns.facebook} target="_blank" rel="noopener noreferrer" class="pc-btn-outline">
-              <img src="https://www.facebook.com/favicon.ico" alt="Facebook" width="16" height="16" style="vertical-align:middle; margin-right:6px; border-radius:3px;" />
-              Facebook で見る
-            </a>
-          )}
-        </div>
-      </div>
-    </section>
-  )}
+<!-- ===== Footer ===== -->
+<footer style="background:#1F1A12; color:rgba(250,247,241,0.55); padding:48px 0 36px; text-align:center; font-size:12px; line-height:2; font-family:'Hiragino Kaku Gothic ProN',sans-serif; letter-spacing:0.08em;">
+  <div style="max-width:1040px; margin:0 auto; padding:0 28px;">
+    <div style="font-size:17px; color:#FAF7F1; font-weight:600; letter-spacing:0.12em; margin-bottom:6px;">{store.name}</div>
+    {store.address && <div>{store.address}</div>}
+    {store.tel && <div>{store.tel}</div>}
+    <div style="margin-top:24px; padding-top:20px; border-top:1px solid rgba(250,247,241,0.1); font-size:10px; opacity:0.5; letter-spacing:0.14em;">© 2026 {store.name} · POWERED BY RESTAURANT AGENT</div>
+  </div>
+</footer>
 
-  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
-  {store.has_real_name_reviews && store.review_url && (
-    <section id="voices" style="padding:4rem 0; background:var(--pc-bg2, #070a07); text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pc-section-eyebrow">VOICES</p>
-        <h2 class="pc-section-title">SNSのお客様の声</h2>
-        <p style="color:#8aa88a; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
-          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
-        </p>
-        <div data-animate="rise">
-          <a
-            href={store.review_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pc-btn-outline"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
+<script>
+  document.body.classList.remove('no-js');
+  // 今日の日付を hero に動的表示
+  const dateEl = document.getElementById('pc-today-date');
+  if (dateEl) {
+    const d = new Date();
+    const fmt = `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
+    dateEl.textContent = fmt;
+  }
+  const animated = Array.from(document.querySelectorAll('[data-animate]'));
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window)) {
+    animated.forEach(el => el.classList.add('in'));
+  } else {
+    const io = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) { entry.target.classList.add('in'); obs.unobserve(entry.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    animated.forEach(el => io.observe(el));
+  }
+</script>
 
-  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
-  {store.retty_url && (
-    <section id="links" style="padding:4rem 0; background:var(--pc-bg, #050505); text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pc-section-eyebrow">LINKS</p>
-        <h2 class="pc-section-title">掲載サイト</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          <a
-            href={store.retty_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pc-btn-outline"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
-
-</BaseLayout>
+</body>
+</html>

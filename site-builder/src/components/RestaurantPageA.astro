@@ -4,9 +4,8 @@
 // 川野さん設計: 書体・紙テクスチャ・章立てレイアウトで「物語」を体験させる高質なデザイン
 // 元デザイン HTML（01_pattern-A_story-driven.html）ベースで完全差し替え（store.json 変数バインド済み）
 //
-// factory 適合版: store を prop で受け取り、BaseLayout(title/siteName) に渡す。
-
-import BaseLayout from '../layouts/BaseLayout.astro';
+// 自己完結型ページ: BaseLayout を使わず、直接 <!DOCTYPE html>...<html><head><body> を持つ。
+// BaseLayout のヘッダー/フッター/グローバル CSS 競合を根本的に排除する。
 import {
   formatHours, formatBudget, gmapsUrl,
   type Store,
@@ -25,6 +24,10 @@ const reservationUrl = store.reservation_url ?? null;
 const ownerStory = store.owner_message || store.description || heroDesc || '';
 const features = store.features ?? [];
 const officialSns = store.official_sns ?? null;
+const awards = store.owner_awards ?? [];
+const producers = store.owner_producers ?? [];
+const courses = store.owner_courses ?? [];
+const cancelPolicy = store.owner_cancel_policy || store.cancel_policy || null;
 
 // 公式 SNS リンク構築
 const officialSnsLinks: { label: string; href: string }[] = [];
@@ -36,8 +39,39 @@ if (officialSns) {
 }
 ---
 
-<style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{store.name}</title>
+  <meta name="description" content={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <style>
   /* Pattern A 専用スタイル: 書体=明朝・紙テクスチャ・章立てデザイン */
+  /* ===== Global resets ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Georgia", serif;
+    color: #2A2620;
+    background: #F8F4ED;
+    font-size: 15px;
+    line-height: 1.95;
+    letter-spacing: 0.02em;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; }
+  [data-animate] { opacity: 0; transform: translateY(24px); transition: opacity 0.7s cubic-bezier(0.22,1,0.36,1), transform 0.7s cubic-bezier(0.22,1,0.36,1); will-change: opacity, transform; }
+  [data-animate].in { opacity: 1; transform: none; }
+  .no-js [data-animate] { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    [data-animate] { opacity: 1 !important; transform: none !important; transition: none !important; }
+    html { scroll-behavior: auto; }
+  }
   /* ===== 変数 ===== */
   .pa-wrap {
     --paper: #F8F4ED;
@@ -371,6 +405,39 @@ if (officialSns) {
   }
   .pa-float-cta:hover { background: var(--warm); transform: translateY(-2px); }
 
+  /* ===== Courses ===== */
+  .pa-courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 40px; }
+  .pa-course-card { border: 1px solid var(--pa-line); border-radius: 2px; padding: 28px; }
+  .pa-course-name { font-size: 17px; font-weight: 500; letter-spacing: 0.06em; margin-bottom: 8px; color: var(--ink); }
+  .pa-course-price { font-size: 14px; color: var(--gold); font-family: "Hiragino Kaku Gothic ProN", sans-serif; letter-spacing: 0.08em; margin-bottom: 12px; }
+  .pa-course-desc { font-size: 13px; color: var(--ink-soft); line-height: 1.8; }
+
+  /* ===== Producers ===== */
+  .pa-producers-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px; margin-top: 40px; }
+  .pa-producer-card { display: flex; gap: 16px; }
+  .pa-producer-icon { width: 52px; height: 52px; border-radius: 50%; background: var(--paper-2); border: 1px solid var(--pa-line); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 22px; }
+  .pa-producer-name { font-size: 14px; font-weight: 500; color: var(--ink); margin-bottom: 4px; }
+  .pa-producer-desc { font-size: 12px; color: var(--text-faint); line-height: 1.7; }
+
+  /* ===== Awards ===== */
+  .pa-awards-list { margin-top: 32px; }
+  .pa-award-row { display: flex; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--pa-line); }
+  .pa-award-row:first-child { border-top: 1px solid var(--pa-line); }
+  .pa-award-year { font-size: 12px; color: var(--gold); font-family: "Hiragino Kaku Gothic ProN", sans-serif; letter-spacing: 0.1em; min-width: 48px; flex-shrink: 0; padding-top: 2px; }
+  .pa-award-name { font-size: 15px; font-weight: 500; color: var(--ink); margin-bottom: 4px; }
+  .pa-award-desc { font-size: 13px; color: var(--ink-soft); line-height: 1.7; }
+
+  /* ===== Cancel Policy ===== */
+  .pa-cancel-box { border: 1px solid var(--pa-line); border-radius: 2px; padding: 24px 28px; margin-top: 24px; }
+  .pa-cancel-label { font-size: 11px; letter-spacing: 0.2em; color: var(--text-faint); font-family: "Hiragino Kaku Gothic ProN", sans-serif; margin-bottom: 10px; }
+  .pa-cancel-text { font-size: 13px; color: var(--ink-soft); line-height: 1.9; }
+
+  /* ===== Spec ===== */
+  .pa-spec-grid { display: flex; gap: 32px; flex-wrap: wrap; margin-top: 16px; }
+  .pa-spec-item { display: flex; flex-direction: column; gap: 4px; }
+  .pa-spec-label { font-size: 11px; letter-spacing: 0.15em; color: var(--text-faint); font-family: "Hiragino Kaku Gothic ProN", sans-serif; }
+  .pa-spec-value { font-size: 15px; color: var(--ink); }
+
   /* ===== Responsive ===== */
   @media (max-width: 840px) {
     .pa-section { padding: 80px 0; }
@@ -383,9 +450,9 @@ if (officialSns) {
     .pa-nav-links { display: none; }
     .pa-float-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 11px; }
   }
-</style>
-
-<BaseLayout title={store.name} siteName={store.name} description={heroDesc || `${store.name}（${store.category ?? ''}）${store.address ?? ''}`}>
+  </style>
+</head>
+<body class="no-js">
 
 <div class="pa-wrap">
   {/* ===== Nav ===== */}
@@ -598,6 +665,103 @@ if (officialSns) {
     </div>
   </div>
 
+  {/* ===== Courses（オーナー設定コース）===== */}
+  {courses.length > 0 && (
+    <div class="pa-section" id="pa-courses">
+      <div class="pa-container">
+        <div class="pa-chapter-mark"><em>Chapter ・</em> コース</div>
+        <h2 class="pa-disp">ご用意しているコース。</h2>
+        <div class="pa-courses-grid">
+          {courses.map(course => (
+            <div class="pa-course-card">
+              <div class="pa-course-name">{course.name}</div>
+              {course.price && <div class="pa-course-price">{typeof course.price === 'number' ? `¥${course.price.toLocaleString()}` : course.price}</div>}
+              {course.description && <p class="pa-course-desc">{course.description}</p>}
+            </div>
+          ))}
+        </div>
+        {cancelPolicy && (
+          <div class="pa-cancel-box">
+            <div class="pa-cancel-label">キャンセルポリシー</div>
+            <p class="pa-cancel-text">{cancelPolicy}</p>
+          </div>
+        )}
+      </div>
+    </div>
+  )}
+
+  {/* ===== Producers（仕入れ先・生産者）===== */}
+  {producers.length > 0 && (
+    <div class="pa-section pa-section-alt" id="pa-producers">
+      <div class="pa-container">
+        <div class="pa-chapter-mark"><em>Chapter ・</em> 生産者</div>
+        <h2 class="pa-disp">信頼する生産者の皆さん。</h2>
+        <div class="pa-producers-grid">
+          {producers.map(producer => (
+            <div class="pa-producer-card">
+              <div class="pa-producer-icon">🌾</div>
+              <div>
+                <div class="pa-producer-name">{producer.name}</div>
+                {producer.description && <p class="pa-producer-desc">{producer.description}</p>}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )}
+
+  {/* ===== Awards（受賞歴）===== */}
+  {awards.length > 0 && (
+    <div class="pa-section" id="pa-awards">
+      <div class="pa-container">
+        <div class="pa-chapter-mark"><em>Chapter ・</em> 受賞・掲載</div>
+        <h2 class="pa-disp">実績と評価。</h2>
+        <div class="pa-awards-list">
+          {awards.map(award => (
+            <div class="pa-award-row">
+              {award.year && <div class="pa-award-year">{award.year}</div>}
+              <div>
+                <div class="pa-award-name">{award.name}</div>
+                {award.description && <p class="pa-award-desc">{award.description}</p>}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )}
+
+  {/* ===== Spec（席数・ドレスコード）===== */}
+  {(store.spec?.capacity || store.spec?.dress_code) && (
+    <div class="pa-section pa-section-alt" id="pa-spec">
+      <div class="pa-container">
+        <div class="pa-chapter-mark"><em>Chapter ・</em> 設備・情報</div>
+        <h2 class="pa-disp">ご利用にあたって。</h2>
+        <div class="pa-spec-grid">
+          {store.spec?.capacity && (
+            <div class="pa-spec-item">
+              <span class="pa-spec-label">座席数</span>
+              <span class="pa-spec-value">{store.spec.capacity}席</span>
+            </div>
+          )}
+          {store.spec?.dress_code && (
+            <div class="pa-spec-item">
+              <span class="pa-spec-label">ドレスコード</span>
+              <span class="pa-spec-value">{store.spec.dress_code}</span>
+            </div>
+          )}
+        </div>
+        {cancelPolicy && courses.length === 0 && (
+          <div class="pa-cancel-box">
+            <div class="pa-cancel-label">キャンセルポリシー</div>
+            <p class="pa-cancel-text">{cancelPolicy}</p>
+          </div>
+        )}
+      </div>
+    </div>
+  )}
+
   {/* ===== SNS / official（データある時のみ）===== */}
   {officialSnsLinks.length > 0 && (
     <div class="pa-section" style="text-align:center;">
@@ -608,6 +772,39 @@ if (officialSns) {
           {officialSnsLinks.map(link => (
             <a class="pa-sns-btn" href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
           ))}
+        </div>
+      </div>
+    </div>
+  )}
+
+  {/* ===== Voices（has_real_name_reviews && review_url）===== */}
+  {store.has_real_name_reviews && store.review_url && (
+    <div class="pa-section pa-section-alt" style="text-align:center;" id="pa-voices">
+      <div class="pa-container">
+        <div class="pa-chapter-mark"><em>Voices ・</em> お客様の声</div>
+        <h2 class="pa-disp">SNS のお客さまの声。</h2>
+        <div class="pa-body-text" style="margin:0 auto 2rem; text-align:center; max-width:480px;">
+          <p>SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。</p>
+        </div>
+        <a href={store.review_url} target="_blank" rel="noopener noreferrer" class="pa-btn-outline" style="display:inline-flex; align-items:center; gap:6px;">
+          <img src="https://retty.me/favicon.ico" alt="Retty" width="16" height="16" style="border-radius:3px;" />
+          Retty で見る
+        </a>
+      </div>
+    </div>
+  )}
+
+  {/* ===== Links（retty_url）===== */}
+  {store.retty_url && (
+    <div class="pa-section" style="text-align:center;" id="pa-links">
+      <div class="pa-container">
+        <div class="pa-chapter-mark"><em>Links ・</em> 掲載サイト</div>
+        <h2 class="pa-disp">掲載サイト。</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;">
+          <a href={store.retty_url} target="_blank" rel="noopener noreferrer" class="pa-btn-outline" style="display:inline-flex; align-items:center; gap:6px;">
+            <img src="https://retty.me/favicon.ico" alt="Retty" width="16" height="16" style="border-radius:3px;" />
+            Retty で見る
+          </a>
         </div>
       </div>
     </div>
@@ -628,83 +825,31 @@ if (officialSns) {
   }
 </script>
 
-  <!-- 公式SNS（official_sns フィールドが1件以上ある場合のみ表示 #70） -->
-  {officialSnsLinks.length > 0 && (
-    <section id="official-sns" style="padding:4rem 0; background:#0f0b07; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pa-section-label">OFFICIAL</p>
-        <h2 class="pa-section-title">公式SNS</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          {officialSnsLinks.map(link => (
-            <a
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="pa-btn-outline"
-            >
-              {link.label}
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
+<!-- ===== Footer ===== -->
+<footer style="background:#1A1612; color:rgba(248,244,237,0.6); padding:56px 0 40px; text-align:center; font-size:12px; line-height:2; font-family:'Hiragino Kaku Gothic ProN',sans-serif; letter-spacing:0.08em;">
+  <div style="max-width:1040px; margin:0 auto; padding:0 28px;">
+    <div style="font-family:'Hiragino Mincho ProN',serif; font-size:18px; color:#F8F4ED; font-weight:300; letter-spacing:0.2em; margin-bottom:8px;">{store.name}</div>
+    {store.address && <div>{store.address}</div>}
+    {store.tel && <div>{store.tel}</div>}
+    <div style="margin-top:28px; padding-top:24px; border-top:1px solid rgba(248,244,237,0.12); font-size:10px; opacity:0.55; letter-spacing:0.16em;">© 2026 {store.name} · POWERED BY RESTAURANT AGENT</div>
+  </div>
+</footer>
 
-  <!-- SNSのお客様の声（has_real_name_reviews == true の店舗のみ表示 #262 #272 #70） -->
-  {store.has_real_name_reviews && store.review_url && (
-    <section id="voices" style="padding:4rem 0; background:#0a0806; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pa-section-label">VOICES</p>
-        <h2 class="pa-section-title">SNSのお客様の声</h2>
-        <p style="color:#c8b49a; line-height:1.9; font-size:0.95rem; margin:1.5rem auto 2rem; max-width:36rem;">
-          SNS に投稿されたお客様の声です。実際にご来店されたお客様の生の声をご確認いただけます。
-        </p>
-        <div data-animate="rise">
-          <a
-            href={store.review_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pa-btn-outline"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
+<script>
+  document.body.classList.remove('no-js');
+  const animated = Array.from(document.querySelectorAll('[data-animate]'));
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window)) {
+    animated.forEach(el => el.classList.add('in'));
+  } else {
+    const io = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) { entry.target.classList.add('in'); obs.unobserve(entry.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    animated.forEach(el => io.observe(el));
+  }
+</script>
 
-  <!-- 掲載サイト（Retty 等の外部グルメサイトリンク #64） -->
-  {store.retty_url && (
-    <section id="links" style="padding:4rem 0; background:#0f0b07; text-align:center;">
-      <div style="max-width:700px; margin:0 auto; padding:0 1.5rem;">
-        <p class="pa-section-label">LINKS</p>
-        <h2 class="pa-section-title">掲載サイト</h2>
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:2rem;" data-animate="rise">
-          <a
-            href={store.retty_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pa-btn-outline"
-          >
-            <img
-              src="https://retty.me/favicon.ico"
-              alt="Retty"
-              width="16"
-              height="16"
-              style="vertical-align: middle; margin-right: 6px; border-radius: 3px;"
-            />
-            Retty で見る
-          </a>
-        </div>
-      </div>
-    </section>
-  )}
-
-</BaseLayout>
+</body>
+</html>
